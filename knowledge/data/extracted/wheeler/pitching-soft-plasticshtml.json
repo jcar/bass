@@ -1,0 +1,87 @@
+{
+  "source": "pitching-soft-plasticshtml.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["pre-spawn", "spawn"] },
+          "tip": "Wheeler: Pitching is most effective during prespawn and spawn when bass are shallow. Target laydowns, channel banks, or docks for staging prespawn bass.",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["fall"] },
+          "tip": "Wheeler: In fall when water levels drop, pitch to flooded bushes or isolated wood as bass flock to wood cover.",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: Use the lightest weight possible (5/16 oz) for optimum action; upgrade to 1/2 or 3/4 oz in post-spawn and summer for a faster fall to trigger reaction strikes.",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+          "priority": 10
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: First pitch should go to the thickest part of cover with a precise delivery and subtle splash on a slack line, allowing the bait to drop vertically.",
+          "priority": 9
+        },
+        {
+          "when": { "weather": "bluebird" },
+          "tip": "Wheeler: A quiet entry is critical on calm bluebird days when stealth is needed to prevent spooking shallow fish.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Black/Blue",
+          "hex": "#1a1a2e",
+          "priority": 6
+        },
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7c2e",
+          "priority": 6
+        },
+        {
+          "when": {},
+          "color": "Golden Junebug",
+          "hex": "#4a2040",
+          "priority": 6
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "pitching-precision",
+      "insight": "Wheeler: Pitching is for being very specific with bait placement - the strike zone may be only 6-8 inches wide. Casting is for covering water, pitching is for fishing one particular thing.",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "pitching-presentation-variation",
+      "insight": "Wheeler: Aggressive bass bite on the initial fall. Sometimes the strike comes after hopping a couple times. During the spawn or heavy pressure, let the bait sit still for 5+ seconds.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "pitching-rod-setup",
+      "insight": "Wheeler: Uses a 7'3\" heavy action rod with parabolic action for 5/16-1/4 oz weights, and a 7'6\" heavy action rod for heavier sinkers in thick cover. Pairs with 8.1:1 high-speed reel to quickly retrieve slack when bass bites and runs toward you.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "pitching-line-selection",
+      "insight": "Wheeler: Uses 14-pound fluorocarbon for pitching to rock banks or bluffs, switches to 17-pound fluorocarbon when pitching into heavy cover.",
+      "conditions": {}
+    }
+  ]
+}

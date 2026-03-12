@@ -1,0 +1,26 @@
+{
+  "source": "jacob-wheelers-tournament-paddle-tail-swimbait-technique.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "structure": "offshore ledges" }, "tip": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action", "priority": 11 },
+        { "when": { "structure": "offshore ledges" }, "tip": "Wheeler: Use a slow 6.3:1 reel to resist working the bait too fast; reel just fast enough to keep the bait 1-2 feet off bottom", "priority": 10 },
+        { "when": { "structure": "offshore ledges" }, "tip": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad", "priority": 11 },
+        { "when": {}, "tip": "Wheeler: Use a rod with a moderate taper and make sweeping hooksets with a slight hesitation for deep hooking, similar to ChatterBait fishing", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Gizzard Shad", "hex": "#c0c0b0", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "quality-swimbait-traits",
+      "insight": "Wheeler: A quality swimbait engages (swims) on the fall and when reeled at the slowest speeds — a constant tail kick mimics shad and generates bites",
+      "conditions": {}
+    }
+  ]
+}

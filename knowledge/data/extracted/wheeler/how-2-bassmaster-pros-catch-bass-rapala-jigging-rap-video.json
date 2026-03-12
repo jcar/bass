@@ -1,0 +1,22 @@
+{
+  "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Blade Bait",
+      "tipRules": [
+        { "when": { "season": ["winter"], "depth": "30-40ft" }, "tip": "Wheeler: Uses the Rapala Jigging Rap #7 (5/8 oz) to work edges of flooded timber in 30-40 feet of water; it shows fish something different when they won't eat a drop-shot or jigging spoon.", "priority": 10 },
+        { "when": { "depth": "deep" }, "tip": "Wheeler: Aggressively snaps the Jigging Rap 4-5 feet above grouped-up bass to force committed fish to swim up; when they reach the bait and you stop it, it glides naturally downward and that's when you get bit.", "priority": 11 },
+        { "when": { "depth": "deep" }, "tip": "Wheeler: Removes the #7 bottom treble hook on the Jigging Rap and replaces it with a larger #5 VMC treble for a better hookup ratio when fishing deep.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["winter"] }, "color": "Glow", "hex": "#f0f0d0", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "electronics", "topic": "jigging-rap-sonar", "insight": "Wheeler: Uses Lowrance HDS LIVE 12 to find bass in deep wintering holes or around brush piles, then drops a Jigging Rap for vertical presentation; targets bass that are grouped together and competing for food.", "conditions": { "season": "winter" } },
+    { "category": "gear", "topic": "jigging-rap-setup", "insight": "Wheeler: Uses a 7-foot medium-heavy baitcasting rod with 7.3:1 reel; 14-lb Sufix fluorocarbon when jigging around brush, 12-lb in open areas to help the bait sink faster.", "conditions": {} },
+    { "category": "retrieve-technique", "topic": "jigging-rap-come-and-get-it", "insight": "Wheeler: Uses a come-and-get-it approach by aggressively snapping the Jigging Rap well above fish rather than dropping it in their face; forces an interested bass to commit by swimming up, making it more likely to strike.", "conditions": {} }
+  ]
+}

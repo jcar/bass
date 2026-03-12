@@ -1,0 +1,11 @@
+{
+  "source": "chowan-proves-no-mystery-for-wheeler.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "qualifying-round-cushion", "insight": "Wheeler: Goal on day 1 of qualifying is to catch as much as possible and build a cushion; if the cut weight is about half his day-1 total, he uses day 2 to practice and find new areas for later rounds.", "conditions": {} },
+    { "category": "weather-adaptation", "topic": "wind-strategy-tidal", "insight": "Wheeler: On large open fisheries, wind dictates where you can fish; plans areas for different wind directions and uses calm days to explore the whole fishery.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "up-to-date-information", "insight": "Wheeler: Pre-practice information becomes irrelevant during long events; having a cushion over the cut and a chance to look around on the second qualifying day provides the most up-to-date information possible.", "conditions": {} },
+    { "category": "fish-behavior", "topic": "quality-over-quantity", "insight": "Wheeler: Events on big fisheries won't be won catching big numbers of 1-8 and 1-9 bass; you need mid-grade fish between 4 and 6 pounds to win.", "conditions": {} }
+  ]
+}

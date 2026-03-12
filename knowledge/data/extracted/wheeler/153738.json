@@ -1,0 +1,34 @@
+{
+  "source": "153738.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "depth": "8-12ft" }, "tip": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag devoid of deadstick pauses.", "priority": 8 },
+        { "when": {}, "tip": "Wheeler: Fishes Carolina rig in 4 to 25 feet of water, but most of the time works it in 8 to 12 feet; holds rod to his side at three o'clock position during entire retrieve.", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "cover": "submerged vegetation" }, "tip": "Wheeler: Uses a paddle-tail worm Texas-rigged on a 6/0 weighted swimbait hook (3/16-oz keel weight) as a swimbait alternative; retrieves it steady at 2-4 feet deep with a 1-2 second pause halfway back to the boat.", "priority": 9 },
+        { "when": { "cover": "submerged vegetation" }, "tip": "Wheeler: When a bass follows the bait, execute a pause to provoke the bass to engulf it; uses 14-lb fluorocarbon normally, 17-lb in thick vegetation, or 50-lb braid in extremely thick vegetation.", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Buzzbait",
+      "tipRules": [
+        { "when": { "cover": "matted vegetation" }, "tip": "Wheeler: Burns a curly-tail worm Texas-rigged on a 6/0 worm hook with pegged 1/16-oz sinker across the surface as a finesse substitute for a buzzbait; uses 50-lb braid and holds rod from 1 to 3 o'clock, dropping to 3 o'clock as it nears the boat.", "priority": 8 },
+        { "when": { "cover": "matted vegetation" }, "tip": "Wheeler: When a bass strikes the surface worm, drop rod tip to 5 o'clock, reel in slack, count to two, then forcefully lift to 12 o'clock to set the hook.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "retrieve-technique", "topic": "swimbait-alternative", "insight": "Wheeler: Uses a curly-tail worm Texas-rigged on a keel-weighted swimbait hook as a more subtle alternative when everyone else is throwing swimbaits; the keel sinker makes it run straight as an arrow.", "conditions": { "cover": "submerged vegetation" } },
+    { "category": "gear", "topic": "carolina-rig-setup", "insight": "Wheeler: Carolina rig setup uses 7.5-foot medium-heavy rod, 7.0:1 reel, 17-lb fluorocarbon mainline to barrel swivel, then 14-lb fluorocarbon leader of 22 inches (18-26 inch range).", "conditions": {} }
+  ]
+}

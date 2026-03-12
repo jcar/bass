@@ -1,0 +1,29 @@
+{
+  "source": "jacob-wheelers-guide-to-spinnerbait-fishing-in-the-wind.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "weather": "windy" }, "tip": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations", "priority": 10 },
+        { "when": { "weather": "windy" }, "tip": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone", "priority": 10 },
+        { "when": { "weather": "windy" }, "tip": "Wheeler: Use a 7'3\" medium-heavy casting rod with 17-pound fluorocarbon and a moderate-fast reel for long casts into the wind", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "weather-adaptation",
+      "topic": "fishing-windy-conditions",
+      "insight": "Wheeler: Bass are often most active on wind-blown spots when the food chain is riled up; less pressure, bass are less spooky, and they're often more aggressive, making the inconveniences worth the effort",
+      "conditions": { "weather": "windy" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-no-trailer-hook",
+      "insight": "Wheeler: Does not use a trailer hook on spinnerbaits; instead relies on a trimmed skirt with soft plastic trailer for better hookup ratio",
+      "conditions": {}
+    }
+  ]
+}

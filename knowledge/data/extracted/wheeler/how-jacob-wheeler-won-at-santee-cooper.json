@@ -1,0 +1,119 @@
+{
+  "source": "how-jacob-wheeler-won-at-santee-cooper.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["pre-spawn"], "waterClarity": "stained", "structure": "stumps and brush" },
+          "tip": "Wheeler: Fish the Freeloader on a 3/16-oz swimbait head around stumps and brush in pre-spawn — when fish are shallow (10 ft and under) on hard bottom, rock, gravel, and wood",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["pre-spawn"], "waterClarity": "stained" },
+          "tip": "Wheeler: Use 1/8-oz tungsten heads in shallower water for a slower fall and more hang time near shallow cover",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["pre-spawn"] },
+          "tip": "Wheeler: Apply Bait Pop scent to swimbaits — gives a sonar-visible marker and creates a scent trail for fish that are tracking but not committing",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["pre-spawn"], "waterClarity": "muddy" },
+          "color": "Pearl White",
+          "hex": "#f0ead6",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["pre-spawn"], "waterClarity": "stained" },
+          "color": "Albino Pearl",
+          "hex": "#faf0e6",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["pre-spawn"], "sky": "calm/sunny" },
+          "color": "Gizzard Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["pre-spawn"], "sky": "calm/sunny" },
+          "color": "Albino Shad",
+          "hex": "#e8e8e8",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["pre-spawn"], "weather": "windy" },
+          "tip": "Wheeler: When wind pushes fish from top of cover down to the base as a current break, switch from swimbait to a 1/2-oz jig with Cleanup Craw and drag it over those places — fish reposition low on cover in wind",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["pre-spawn"] },
+          "color": "Green Pumpkin Blue",
+          "hex": "#556b2f",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "season": ["pre-spawn"] },
+          "tip": "Wheeler: Start with a jerkbait (Mavrik) on pre-spawn fish — when they follow it out but act goofier and goofier, switch to a Freeloader swimbait to convert those followers",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-philosophy",
+      "insight": "Wheeler: Don't dial things in during practice. Half the tournaments I've won I figured it out during the tournament. Practice really hard daylight to dark but don't fish as much — just bebop around. Events are 8-9 days long so you have to adapt",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "avoiding-community-areas",
+      "insight": "Wheeler: When a community area has boats everywhere and other anglers are cannibalizing each other, ignore it entirely — spend time in different zones with fewer bass where you can manage your own fish with less pressure",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "wind-effect-on-cover-position",
+      "insight": "Wheeler: When wind picks up, bass move from the top of brush/stumps down to the base of the cover to use it as a current break. When it goes slick calm, they slide back up higher in the cover",
+      "conditions": { "weather": "windy" }
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-vs-ffs",
+      "insight": "Wheeler: Used FFS less than 2% to find places at Santee Cooper — all places found by side imaging/side scan. FFS was used for making perfect casts to shallow fish, not for finding spots",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "pre-spawn-key-elements",
+      "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "saving-spots-for-championship",
+      "insight": "Wheeler: Had 7-8 spots he refused to hit before Championship Day — knew he couldn't win the tournament if he burned them early. Made gametime decisions with 25 minutes left, running 15 minutes across the lake to a fresh brushpile for the winning fish",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "jacob-wheeler-wins-inaugural-elite-bassfest.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "waterCurrent": "current" }, "tip": "Wheeler: Use 14-pound fluorocarbon to get the DT-20 crankbait down in current when fishing ledge fish", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Hair Jig / Finesse Jig",
+      "tipRules": [
+        { "when": { "structure": "offshore ledges" }, "tip": "Wheeler: Keep baits close to the bottom on ledges, but often burn them and kill it to trigger a strike — that retrieve variation produced key fish", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "small-isolated-schools",
+      "insight": "Wheeler: Target smaller isolated schools rather than mega-schools that attract most anglers — the bigger fish often live in the smaller isolated schools with less pressure",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "save-secret-spots",
+      "insight": "Wheeler: Look for small subtle spots off the beaten path that other anglers miss, found during low-water periods; save your best spot for when you need it most in competition",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "burn-and-kill-ledge-technique",
+      "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

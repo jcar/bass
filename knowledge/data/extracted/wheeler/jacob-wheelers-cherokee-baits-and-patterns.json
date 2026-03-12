@@ -1,0 +1,96 @@
+{
+  "source": "jacob-wheelers-cherokee-baits-and-patterns.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Hair Jig / Finesse Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"], "species": "smallmouth", "structure": "rock depressions" },
+          "tip": "Wheeler: Use a 3/8-oz jighead with a 3-inch translucent pearl white Fluke-style bait for vertical drops on smallmouth — the 3/8-oz gets down way faster than 1/4-oz especially in wind, and makes it easier to get fish to react",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "tip": "Wheeler: Drop the bait to about 2 ft above the fish's head — smallmouth were feeding up, so dropping it in front of them on the bottom meant they wouldn't bite. Keep bait above their heads and they come up off the bottom to eat",
+          "priority": 11
+        },
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "tip": "Wheeler: Use 8-lb NanoBraid (super-thin) with an 8-ft leader of 6-lb fluorocarbon. The thin braid flies off the reel 10x better than any other line, gets down faster for better drops and more bites. Long leader on light fluoro provides shock absorption",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "color": "Black and White",
+          "hex": "#000000",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "color": "Translucent Pearl White",
+          "hex": "#f5f5f5",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Blade Bait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "tip": "Wheeler: Use a #5 or #7 Rapala Jigging Rap as a secondary bait when smallmouth in larger groups (3-4 fish) won't bite the jig/Fluke combo — especially effective the first day when fish aren't as pressured",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["winter"], "species": "smallmouth" },
+          "color": "Helsinki Shad",
+          "hex": "#708090",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "highland-smallmouth-depressions",
+      "insight": "Wheeler: On highland reservoirs like Cherokee, smallmouth live around holes/depressions (20 ft around the side) — if rock is around them the smallies live there. If a rock vein goes into the middle, they live on those veins. The holes harbor the bait with schools in the 20-30 ft range at the bottom",
+      "conditions": { "season": "winter", "species": "smallmouth" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "sneaky-big-fish-spots",
+      "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you",
+      "conditions": { "season": "winter", "species": "smallmouth" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "smallmouth-depth-change-preference",
+      "insight": "Wheeler: Smallmouth want to be related to and adjacent to gravelly bottom (flat or chunk rock) near some depth change — even a 1 ft change matters. One spot was just hard bottom from 40 to 37 ft with isolated rock spots coming up half a foot more",
+      "conditions": { "species": "smallmouth" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-feeding-up",
+      "insight": "Wheeler: Cherokee smallmouth were feeding up, not down — a dropshot dropped in front of them wouldn't get bit. Had to keep the bait 2 ft above their heads for them to come up off the bottom and eat",
+      "conditions": { "season": "winter", "species": "smallmouth" }
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-required-for-rocks",
+      "insight": "Wheeler: On rocky smallmouth structure, 2D sonar couldn't see bass inside the rocks. FFS was required — you'd see them, drop on them, bring the bait above them, and they'd slide up out of those rocks and eat it",
+      "conditions": { "species": "smallmouth" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-jig-minnow-deal",
+      "insight": "Wheeler: The jighead/swimbait combo is the #1 deal in winter on highland reservoirs like South Holston, Cherokee, and Norris — vertical presentation targeting smallmouth in depressions and on rockpiles",
+      "conditions": { "season": "winter", "waterType": "highland reservoir" }
+    }
+  ]
+}

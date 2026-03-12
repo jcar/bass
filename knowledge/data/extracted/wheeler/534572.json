@@ -1,0 +1,11 @@
+{
+  "source": "534572.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "mental-approach", "topic": "continuous-improvement", "insight": "Wheeler: Keeps a list in his phone of things he's weak at or needs to clean up each fall; believes you always have to challenge yourself to be better because the fish adjust and you must adjust your techniques and strategy.", "conditions": {} },
+    { "category": "mental-approach", "topic": "competitive-edge-details", "insight": "Wheeler: The difference between top anglers and those getting relegated is minimal now; it comes down to minute details like the difference between 8- or 10-lb braid on a spinning rod, or a knot or hook choice.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "work-ethic", "insight": "Wheeler: Never stops thinking about the next best technique; challenges himself on pitching, flipping, boat setup, and preparation; the offseason doesn't begin until November with boat prep and recon trips to next year's venues.", "conditions": {} },
+    { "category": "mental-approach", "topic": "motivation", "insight": "Wheeler: Gets very motivated by little things - a poke from a competitor or something he hears - that he channels out on the water.", "conditions": {} }
+  ]
+}

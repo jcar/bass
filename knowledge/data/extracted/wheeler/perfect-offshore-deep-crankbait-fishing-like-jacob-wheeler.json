@@ -1,0 +1,31 @@
+{
+  "source": "perfect-offshore-deep-crankbait-fishing-like-jacob-wheeler.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "ledges" },
+          "tip": "Wheeler: When fishing offshore ledges with a deep-diving crankbait like a DT20, focus on angles and reading the mood of the fish to trigger reactions from bigger bass, even when everyone else is finesse fishing.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-crank-angles",
+      "insight": "Wheeler: Casting angles are critical for deep cranking offshore structure - varying your angle of retrieve relative to the cover triggers reaction strikes from bigger fish.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "offshore-bass-mood",
+      "insight": "Wheeler: Reading the mood of offshore bass is essential - sometimes a deep crankbait triggers reaction bites from bigger fish when finesse approaches are dominating.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

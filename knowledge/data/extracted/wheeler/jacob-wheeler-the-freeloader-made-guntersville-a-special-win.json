@@ -1,0 +1,28 @@
+{
+  "source": "jacob-wheeler-the-freeloader-made-guntersville-a-special-win.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Strolling Rig",
+      "tipRules": [
+        { "when": { "season": ["post-spawn", "summer"] }, "tip": "Wheeler: The Freeloader is designed to cast and reel like a boot-tail swimbait but with action imparted by shaking it — not a vertical Damiki rig presentation", "priority": 10 },
+        { "when": { "season": ["post-spawn", "summer"], "structure": "ledges" }, "tip": "Wheeler: Rig the Freeloader on a VMC Hard Ball Jighead; cast, let it fall toward the fish, and shake it over them — it triggers pressured ledge fish that have seen thousands of lures", "priority": 11 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "freeloader-dual-purpose-design",
+      "insight": "Wheeler: Designed the Freeloader to serve dual roles — as a vibrating jig or spinnerbait trailer and as a cast-and-shake bait on a jighead for suspended fish, reducing the volume of plastics needed",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "novel-bait-advantage",
+      "insight": "Wheeler: On heavily pressured community holes, a bait with an action bass haven't seen produces dramatically better results — the Freeloader's unique shaking action caught fish from Guntersville's most pressured spots",
+      "conditions": {}
+    }
+  ]
+}

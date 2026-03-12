@@ -1,0 +1,33 @@
+{
+  "source": "cranking-jacob-wheeler.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "structure": "flats" }, "tip": "Wheeler: On flat fisheries in spring, uses a 1/2-oz lipless crankbait with tight wobble for fishing long points, bars, and wood on the flats; the 3/4-oz size has a more aggressive action.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn", "spawn"], "depth": "3-5ft" }, "tip": "Wheeler: During spring the prime depth zone on most lakes is 6 feet or less; the Jabber Jaw Hybrid Squarebill dives 3-5 feet which is the right zone for most fisheries across the country.", "priority": 10 },
+        { "when": { "season": ["pre-spawn", "spawn"] }, "tip": "Wheeler: The squarebill has a nice wide wobble and good vibration; bang it into stumps, rocks, and anything in front of you to get shallow fish to react.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "structure": "bluffs" }, "tip": "Wheeler: For highland reservoirs with steep bluff banks and deeper water near flats, uses a medium-diving crankbait in the 8-12 foot zone with a nice tight action.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "spring-cranking-depth-zones", "insight": "Wheeler: On flat fisheries bass stay in the shallow zone a long time before spawning, but on highland reservoirs they may stage in 6-10 feet before moving up; crankbait selection should match the lake type and depth zone.", "conditions": { "season": "pre-spawn" } },
+    { "category": "fish-behavior", "topic": "spawning-waves", "insight": "Wheeler: Bass don't all spawn at once; they spawn in waves so some will be in pre-spawn and some will be done, and both times are perfect for crankbaits.", "conditions": { "season": "spawn" } },
+    { "category": "lure-selection", "topic": "crankbait-trial-and-error", "insight": "Wheeler: At the end of the day crankbait selection comes down to trial and error; sometimes everything says throw a bright squarebill shallow but someone is catching them on deep-diving baits in shad patterns. Always have a starting point with favorite baits in a few colors but be willing to experiment.", "conditions": {} }
+  ]
+}

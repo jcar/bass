@@ -1,0 +1,43 @@
+{
+  "source": "theres-a-new-craw-in-town.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Wheeler: The Punch Out Craw can be modified without tools: leave intact for a glide bait (punching mats), separate claws for a flipping version, remove the spear tail for a flapping craw, or twist off the body to make a jig trailer chunk.",
+          "priority": 8
+        },
+        {
+          "when": { "pressure": "high" },
+          "tip": "Wheeler: When the bite is tough, use the finesse version (body and tail only) - especially effective when grass shrimp are present.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Golden Junebug",
+          "hex": "#4a2040",
+          "priority": 6
+        },
+        {
+          "when": {},
+          "color": "Sooner Magic",
+          "hex": "#5c3a1e",
+          "priority": 6
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "punch-out-craw-versatility",
+      "insight": "Wheeler: Designed the Punch Out Craw with score lines for tool-free modification into 5 versions: glide (punching), flipping (separated claws), flapping craw (removed spear tail), chunk (jig trailer), and finesse (body and tail only). Full body takes a 4/0 hook; twist off the end segment for a 3/0 hook.",
+      "conditions": {}
+    }
+  ]
+}

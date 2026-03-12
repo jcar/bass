@@ -1,0 +1,95 @@
+{
+  "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: In winter, little baits catch as many big fish and get a lot more bites than big swimbaits. A 3-inch Storm Largo Shad is the finesse swimbait of choice (4-inch is finesse in summer).",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"], "depth": "shallow" },
+          "tip": "Wheeler: For shallow water (10 feet or less), use a 1/4-ounce VMC Hybrid Swimbait Jig. Fish it like a lipless crankbait - just cast and wind, letting it drop back to the bottom a time or two.",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["winter"], "depth": "deep", "waterClarity": "clear" },
+          "tip": "Wheeler: For deep clear highland reservoirs (25-50 feet), switch to a 3/8 or 1/2-ounce VMC Moon Eye Jig with the flat aspirin-shaped head. Cast 60-70 feet from fish, let bait hit bottom, retrieve slowly about a third of the way, then open bail and let it fall again. Slow and close to bottom is the key.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: The finesse swimbait is a superior replacement for jerkbait and lipless crankbait in many winter situations - it gets a few more bites even in slightly stained water.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["winter"] },
+          "color": "Gizzard Shad",
+          "hex": "#6b6b7b",
+          "priority": 7
+        },
+        {
+          "when": { "season": ["winter"] },
+          "color": "Pro Blue",
+          "hex": "#2a4494",
+          "priority": 7
+        },
+        {
+          "when": { "season": ["winter"], "isStained": true },
+          "color": "White Pearl",
+          "hex": "#f0ead6",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["winter"], "isStained": true, "depth": "shallow" },
+          "color": "Black Shad",
+          "hex": "#2d2d3d",
+          "priority": 8
+        },
+        {
+          "when": { "season": ["winter"], "isStained": true, "depth": "shallow" },
+          "color": "Sexy Shad",
+          "hex": "#a8a8b8",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "winter-forage-matching",
+      "insight": "Wheeler: In winter, bass target the prior year's threadfin shad hatch, the most abundant and smallest forage. The majority of fish target the smaller profile shad, making finesse swimbaits the right match.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "winter-swimbait-depth-by-lake-type",
+      "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait concentrations.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "winter-deep-locations",
+      "insight": "Wheeler: On deep clear reservoirs, look for sharp edges near bait concentrations - points going into creek arms, where creek channels run into bluffs, channel turns. The bait congregates there. Bass follow food and don't move much in winter because deep areas are more stable.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "winter-shallow-locations",
+      "insight": "Wheeler: In shallow winter situations, fish push into backs of pockets and creek arms to depths as little as 2 feet, but deeper water (8-12 feet) is always close by. Target ditches, drains, secondary points, and grass lines.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-swimbait-line",
+      "insight": "Wheeler: For deep water swimbait, uses 8-pound Sufix NanoBraid main line with 6-7 foot leader of 8-pound fluorocarbon. For shallow rock or cover, switches to 10-12 pound fluorocarbon leader.",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

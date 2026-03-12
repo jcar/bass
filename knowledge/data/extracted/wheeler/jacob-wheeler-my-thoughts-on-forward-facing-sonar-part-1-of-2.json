@@ -1,0 +1,25 @@
+{
+  "source": "jacob-wheeler-my-thoughts-on-forward-facing-sonar-part-1-of-2.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "ffs-not-silver-bullet",
+      "insight": "Wheeler: Forward-facing sonar is not the silver bullet people think — it won't close the gap between tour pros and weekend warriors. It's not a substitute for natural intuition and efficient decision-making. Jordan Lee won AOY without any FFS using just 2D, down and side scan",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-learning-curve",
+      "insight": "Wheeler: FFS screens show all kinds of blobs, dots, arcs, lines and dashes — you have to decipher size, distance, spacing, species and direction. Much of what he knows about FFS he learned from reading 2D for years, then side and down imaging. It's a building process",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-seasonal-relevance",
+      "insight": "Wheeler: FFS shines brightest during offshore/post-spawn periods and in smallmouth country. During spawn and bank-fishing seasons, traditional techniques are more relevant — the technology got overhyped because COVID shifted tournament schedules to offshore/northern events",
+      "conditions": {}
+    }
+  ]
+}

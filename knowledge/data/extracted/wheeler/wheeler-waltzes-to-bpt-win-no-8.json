@@ -1,0 +1,48 @@
+{
+  "source": "wheeler-waltzes-to-bpt-win-no-8.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["pre-spawn", "spawn"], "structure": "offshore" },
+          "tip": "Wheeler: Match jighead weight to the scenario - use 1/2 oz to reach fast-moving schools of 50+ bass, but drop to 1/8 oz for a single fish at 10 feet because lighter heads have better action for finicky individuals.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: Use 10-pound fluorocarbon leader instead of 8 or 6 to reel fish in faster without retying. Prioritize efficiency and generating bites as fast as possible over finesse.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "dale-hollow-flat-drains",
+      "insight": "Wheeler: Flat main-lake drains near island clusters are bass magnets - the islands funnel baitfish and the flatter topography serves as spawning territory. Current flow through island cut-throughs makes them prime prespawn/postspawn staging areas.",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "jighead-weight-efficiency",
+      "insight": "Wheeler: Keeps an array of spinning rods rigged with jigheads from 1/8 to 5/8 oz. The right weight for the right scenario is about efficiency - heavier gets to fast-moving fish, lighter gets better action for inactive singles.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "qualifying-round-scouting-dale-hollow",
+      "insight": "Wheeler: Spent as much time as possible during qualifying rounds in practice mode, scouting new areas and tracking where fish were moving. When wind blew and concentrated bait, groups of 100 bass schooled up in windblown offshore areas.",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-concentrates-bait",
+      "insight": "Wheeler: Wind congregates bait in protected areas like island funnels, which causes bass to school up in massive numbers. A spot with a few small groups can explode to groups of 100 bass after a windy day.",
+      "conditions": {}
+    }
+  ]
+}

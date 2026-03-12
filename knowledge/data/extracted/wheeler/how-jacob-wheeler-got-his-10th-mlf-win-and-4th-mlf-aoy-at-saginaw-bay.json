@@ -1,0 +1,43 @@
+{
+  "source": "how-jacob-wheeler-got-his-10th-mlf-win-and-4th-mlf-aoy-at-saginaw-bay.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["summer"], "cover": "reeds" }, "tip": "Wheeler: Frogging accounted for 90% of his largemouth bass at Saginaw Bay; used SPRO Bronzeye 65 Frog in killer gill color with 50-lb Sufix 832 braid on 7'6\" rod.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": ["summer"], "cover": "reeds" }, "tip": "Wheeler: Flipped a Rapala CrushCity Bronco Bug (gp blue) with 5/8- or 3/8-oz tungsten depending on cover density; uses 50-lb Sufix 131 G-Core braid which he calls the best punching braid on the market for its suppleness.", "priority": 9 },
+        { "when": { "season": ["summer"], "cover": "reeds" }, "tip": "Wheeler: In mornings bass sit looser to the outside of cover; as the sun gets up they move further into the cover, requiring a toad early and flipping deeper in the cover later.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["summer"] }, "color": "Green Pumpkin Blue", "hex": "#4a7023", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": "smallmouth", "waterClarity": "clear" }, "tip": "Wheeler: For Saginaw Bay smallmouth, pitched a dropshot with CrushCity Salted Ned Roll and let it stay still, allowing the bait to wash in the current; did not impart much action because in clear water less movement is better for smallmouth.", "priority": 10 },
+        { "when": { "species": "smallmouth" }, "tip": "Wheeler: On the dropshot for smallmouth, would drag rather than shake; believes smallmouth like more subtle movements. Uses 1/2-oz teardrop weight, #2 finesse neko hook, 8-lb braid to 10-lb fluorocarbon.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "species": "smallmouth" }, "color": "Green Pumpkin", "hex": "#4a7023", "priority": 7 },
+        { "when": { "species": "smallmouth" }, "color": "Green Pumpkin Goby", "hex": "#5a6023", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "smallmouth-largemouth-combo", "insight": "Wheeler: Played a 1-2 punch of smallmouth on calm days using forward-facing sonar and largemouth in reeds; caught 50+ lbs of smallmouth day 1 then pivoted to largemouth to lock up AOY.", "conditions": { "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "letting-areas-rest", "insight": "Wheeler: Left his best largemouth stretch on the final day to let it rest, fished other areas, then returned to find the fish had reloaded and repositioned; caught 6 fish in 10 bites to win.", "conditions": {} },
+    { "category": "fish-behavior", "topic": "shallow-reed-bass-spooking", "insight": "Wheeler: In 14-16 inches of clear water, hooking one bass spooks 4-5 more in the area; they need time to set back up and reposition before you can catch them again; requires long casts.", "conditions": { "waterClarity": "clear" } },
+    { "category": "electronics", "topic": "activetarget-smallmouth", "insight": "Wheeler: Lowrance ActiveTarget 2 was a huge player for smallmouth on day 1, giving breathing room to focus on largemouth the rest of the tournament.", "conditions": {} },
+    { "category": "electronics", "topic": "c-maps-backwater-detail", "insight": "Wheeler: Lowrance C-Maps had great detail in deeper stretches and even backwaters for largemouth; showed where deeper reeds and cover were and where to get up on pad for efficiency.", "conditions": {} },
+    { "category": "gear", "topic": "power-poles-shallow-water", "insight": "Wheeler: Power-Poles are the most underrated piece of equipment; locked in at 1-2 feet of water in 20+ mph wind, inching up 20-30 feet at a time and dropping Poles for stealth.", "conditions": {} },
+    { "category": "weather-adaptation", "topic": "great-lakes-wind-smallmouth", "insight": "Wheeler: Wind direction changes on the Great Lakes change the way smallmouth position big time; a shift from practice to tournament conditions can mean never relocating them.", "conditions": { "species": "smallmouth" } }
+  ]
+}

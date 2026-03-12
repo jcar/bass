@@ -1,0 +1,30 @@
+{
+  "source": "dynamic-what-jacob-wheeler-loves-on-valentines-day.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Buzzbait",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: Self-described buzzbait fanatic; considers it one of his two favorite lures to fish.", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: Says it's hard to beat a Rapala DT-6 just about anywhere you go.", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": ["winter"], "depth": "30-40ft" }, "tip": "Wheeler: In late February/early March, loves fishing bass grouped up in underwater ditches 30-40 feet deep at Lake Hartwell with an underspin spinner or small swimbait on 10-lb Sufix fluorocarbon.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "late-winter-deep-ditches", "insight": "Wheeler: In late February/early March, bass group up in underwater ditches 30-40 feet deep; targets them with underspin or small swimbait on light fluorocarbon.", "conditions": { "season": "winter" } }
+  ]
+}

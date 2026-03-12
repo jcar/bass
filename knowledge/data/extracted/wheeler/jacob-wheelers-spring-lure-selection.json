@@ -1,0 +1,44 @@
+{
+  "source": "jacob-wheelers-spring-lure-selection.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn", "spawn"] }, "tip": "Wheeler: Fish the X-Rap Prop with a 'twitch twitch pause' cadence — 3-4 second pauses, longer in colder water; the twitch creates commotion and the pause lets fish hone in and strike", "priority": 10 },
+        { "when": { "season": ["pre-spawn", "spawn"] }, "tip": "Wheeler: Use 17-pound mono for prop bait fishing because the stretch prevents pulling the bait out of the fish's mouth; pair with a 6'6\" to 7' medium-action rod with a soft tip", "priority": 9 },
+        { "when": { "season": ["post-spawn"] }, "tip": "Wheeler: Switch to a frog when water temps near the low 60s and fish move off beds; fish it aggressively with popping and twitching to make fish decide quickly, and pause after a missed blowup", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["pre-spawn", "spawn"] }, "color": "Yellow Perch", "hex": "#c8a951", "priority": 9 },
+        { "when": { "season": ["pre-spawn", "spawn"], "region": "Florida" }, "color": "Golden Shiner", "hex": "#d4a843", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "spring-topwater-progression",
+      "insight": "Wheeler: In spring, start with a prop bait (X-Rap Prop) in colder pre-spawn water when fish aren't as active, then transition to a frog when water temps hit low 60s and fish move off beds into heavier cover",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "frog-walking-technique",
+      "insight": "Wheeler: When walking a popping frog, snap the rod to throw slack back in the line — the slack allows the frog to turn; if the line is tight it will only move forward and won't walk",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "frog-setup",
+      "insight": "Wheeler: For frog fishing use a 7'6\" heavy-action rod with 65-pound braid and an 8:1 gear ratio reel to pick up line quickly and set the hook in heavy cover",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "post-spawn-frog-targets",
+      "insight": "Wheeler: Post-spawn bass push fry into grass mats for protection — target those grass mats with a frog, and also skip under bushes, docks, and overhangs on shallow flats",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

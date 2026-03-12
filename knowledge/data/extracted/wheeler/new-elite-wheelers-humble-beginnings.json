@@ -1,0 +1,19 @@
+{
+  "source": "new-elite-wheelers-humble-beginnings.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "mental-approach",
+      "topic": "humble-beginnings-mindset",
+      "insight": "Wheeler: Regardless of what equipment you have, it doesn't make you who you are - if you work hard you can truly accomplish great things. It ain't the boat that catches them, it's the fisherman.",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "learning-from-mentors",
+      "insight": "Wheeler: Learning electronics and bass behavior from experienced anglers, plus fishing pot tournaments alone, helped build confidence in decision-making that translated to professional success.",
+      "conditions": {}
+    }
+  ]
+}

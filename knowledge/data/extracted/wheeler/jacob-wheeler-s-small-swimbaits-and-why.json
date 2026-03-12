@@ -1,0 +1,43 @@
+{
+  "source": "jacob-wheeler-s-small-swimbaits-and-why.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": ["fall"] }, "tip": "Wheeler: Use a 3-inch swimbait on a 3/8 or 1/4-ounce jighead — heavier heads for smaller baits to get down quicker when targeting small baitfish in 15-30 feet on highland reservoirs", "priority": 10 },
+        { "when": { "season": ["fall"], "structure": "shallow grass" }, "tip": "Wheeler: For matching bigger baitfish in shallow water (3-5 feet), use a 4-inch swimbait on a lighter 1/4-ounce head or VMC Weighted Willow Swimbait Hook for weedless presentation", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Strolling Rig",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: Fish the Freeloader on a 3/16 to 5/16-ounce VMC Hybrid Swimbait Jig with a 60-degree line tie that allows the bait to rock; use a slower shaking cadence rather than a steady retrieve", "priority": 10 },
+        { "when": {}, "tip": "Wheeler: The Freeloader works in 2 feet of water for shallow schools and out to 50 feet for suspended bass; its cadence is slower than a swimbait and triggers fish that won't chase", "priority": 9 },
+        { "when": {}, "tip": "Wheeler: The Freeloader is not effective for covering water because you fish it much slower; use it in areas where you know fish are but they aren't biting a swimbait", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-baitfish-depth-by-lake-type",
+      "insight": "Wheeler: On highland reservoirs with clean water, fall bass may be in 15-30 feet in creek pockets and drains; on lowland reservoirs like Tennessee River lakes, fish are shallower (3-5 feet) focused on gizzard shad requiring bigger baits",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "bait-design",
+      "topic": "swimbait-action-subtlety",
+      "insight": "Wheeler: Designed the CrushCity Mayor swimbait with a good wobble that isn't aggressive — subtle changes to action can make a big difference in getting bites",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "find-baitfish-first-in-fall",
+      "insight": "Wheeler: In fall, find the baitfish first — bass constantly move and chase baitfish, so you might catch them one day and nothing the next because they've moved on",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

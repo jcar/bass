@@ -1,0 +1,38 @@
+{
+  "source": "360439.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "waterTemp": "55 or colder" }, "tip": "Wheeler: When water is 55 degrees or colder in pre-spawn, a Rapala Shad Rap is hard to beat for both numbers and quality of fish; targets deeper staging bass still off the bank.", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"] }, "tip": "Wheeler: A 1/2-ounce hand-tied jig in green pumpkin with a compact craw trailer is probably the world's most versatile bait; fishes it in laydowns, along rock banks, and by docks; always has one tied on.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["pre-spawn"] }, "color": "Green Pumpkin", "hex": "#4a7023", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "waterClarity": "stained" }, "tip": "Wheeler: If there is any color or stain in the water, a 3/8- or 1/2-oz ChatterBait in white or black makes a great commotion; reaches for it in water too shallow for a crank or jerkbait.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "isStained": true }, "color": "White", "hex": "#ffffff", "priority": 8 },
+        { "when": { "isStained": true }, "color": "Black", "hex": "#000000", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "pre-tournament-preparation", "insight": "Wheeler: Invests a full week or more before arriving at a lake for practice; prepares roughly 35 pre-rigged Duckett rods with fresh Sufix line and baits matched to the seasonal pattern, spending 1-2 full days just on rod prep.", "conditions": {} },
+    { "category": "electronics", "topic": "map-study-preparation", "insight": "Wheeler: Uses Google Earth aerial imagery to assess vegetation and bank steepness, plus Navionics and Lowrance C-Maps for depth contours; focuses practice on areas holding the biggest concentrations of fish all doing the same thing.", "conditions": {} },
+    { "category": "lure-selection", "topic": "spring-three-rod-picks", "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water.", "conditions": { "season": "pre-spawn" } },
+    { "category": "seasonal-pattern", "topic": "patterning-bass", "insight": "Wheeler: Learned to pattern bass at age 16 - the ability to go to an entirely new lake and figure it out rather than just fishing spots or chasing distant memories.", "conditions": {} }
+  ]
+}

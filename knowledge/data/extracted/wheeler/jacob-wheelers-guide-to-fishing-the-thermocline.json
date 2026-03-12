@@ -1,0 +1,43 @@
+{
+  "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "finding-thermocline",
+      "insight": "Wheeler: The thermocline shows up as a narrow fuzzy band on your locator screen; turn up the gain if it isn't well defined to locate it",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "thermocline-eliminates-dead-water",
+      "insight": "Wheeler: Locating the thermocline eliminates half the water on any given lake in summer because bass and baitfish position just above it where oxygen and cooler temps overlap",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "thermocline-structure-intersection",
+      "insight": "Wheeler: Look for structure like drop-offs, humps, ledges and cover like brush, rockpiles, and timber that intersect the thermocline depth",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "thermocline-depth-varies-by-clarity",
+      "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "baitfish-concentrate-above-thermocline",
+      "insight": "Wheeler: Concentrations of baitfish gather right above the thermocline with bass feeding on them — that's the ideal summer setup",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "thermocline-as-starting-point",
+      "insight": "Wheeler: Determine the thermocline depth early in summer practice because it gives you a starting point for where fish can live and sets a maximum effective fishing depth",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

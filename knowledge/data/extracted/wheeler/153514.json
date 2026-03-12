@@ -1,0 +1,32 @@
+{
+  "source": "153514.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        { "when": { "waterClarity": "stained" }, "tip": "Wheeler: Separate the two claws on a Punch Out Craw trailer for a football jig, then hop, drag, and deadstick it along the bottom; in stained water the size and radical claw movement is an ideal combination.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "cover": "heavy vegetation" }, "tip": "Wheeler: When punching thick hydrilla or water hyacinths, remove the flapping claws from the creature bait to create a sleek profile that slithers through the slightest hole in impenetrable mats; the quivering spear action on the fall is the key to effectiveness.", "priority": 9 },
+        { "when": { "cover": "heavy vegetation" }, "tip": "Wheeler: For punching, the 1/2-ounce weight works in heavy or thick emergent vegetation; the 3/8-ounce is his most-used weight, but the 5/16-ounce is his favorite and the 1/4-ounce gives the most natural action.", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: Uses a trimmed-down smaller profile creature bait (claws removed from spear) as a swim jig, flipping jig, chatterbait, or shakyhead trailer.", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "bait-design", "topic": "punch-out-craw-versatility", "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even smaller profile, and sleek punch rig with claws removed for matted vegetation.", "conditions": {} },
+    { "category": "retrieve-technique", "topic": "deadsticking-creature-bait", "insight": "Wheeler: When deadsticking a creature bait on a football jig or Hardhead, the claws and spear-like appendage rise to almost a 90-degree angle off the bottom and quiver and undulate.", "conditions": {} }
+  ]
+}

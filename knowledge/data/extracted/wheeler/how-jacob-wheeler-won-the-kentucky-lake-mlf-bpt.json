@@ -1,0 +1,166 @@
+{
+  "source": "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges", "waterType": "TN River" },
+          "tip": "Wheeler: Use a DT16 to fire up offshore schools — cranking is the fastest way to catch them and you catch the biggest ones too. Jump up the leaderboard fast with reaction bites",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: Fish DT16 on 12-lb fluorocarbon with a 6.2:1 reel and 7-ft 6-inch MH cranking rod for ledge fishing",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["summer"], "species": "smallmouth", "sky": "cloudy" },
+          "color": "Citrus Shad",
+          "hex": "#f5d033",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["summer"], "waterClarity": "stained" },
+          "color": "Citrus Shad",
+          "hex": "#f5d033",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["summer"], "pressure": "high" },
+          "color": "Big Shad",
+          "hex": "#d3d3d3",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: Use a slightly heavier swimbait head (5/16-oz) on the larger 5.25-inch Freeloader to keep it in the strike zone more on ledges — the heavier head generates more bites",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["summer"], "species": "smallmouth" },
+          "tip": "Wheeler: Downsize to the 4.25-inch Freeloader for places with heavy smallmouth presence — they eat the smaller profile better. Use 1/4-oz head with lighter tackle",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["summer"] },
+          "color": "Gizzard Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["summer"], "species": "smallmouth" },
+          "color": "Electric Shad",
+          "hex": "#e0e0e0",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges", "current": "heavy" },
+          "tip": "Wheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, bottom-hugging fish react",
+          "priority": 11
+        },
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges", "pressure": "high" },
+          "tip": "Wheeler: A snapped football jig catches fish from pressured busted-up schools that won't bite other techniques — especially effective without FFS, just covering water with precise casts",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: Trim the jig skirt tighter for a faster fall when snapping. Take off about 1/4 of the Cleanup Craw trailer to make it more compact. Remove the weedguard on clean bottoms, leave it in on snaggy bottoms",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["summer"] },
+          "color": "Green Pumpkin Purple",
+          "hex": "#6b4f3f",
+          "priority": 8
+        },
+        {
+          "when": { "season": ["summer"] },
+          "color": "Green Pumpkin Magic",
+          "hex": "#8b7d3c",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore ledges", "pressure": "high" },
+          "tip": "Wheeler: A Neko rig (3/16-oz weight, #2 hook, Crossover Ring) is the last-resort bait for the most pressured offshore schools — if nothing else works, drag it around and get a couple bites",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["summer"] },
+          "color": "Green Pumpkin Magic",
+          "hex": "#8b7d3c",
+          "priority": 8
+        },
+        {
+          "when": { "season": ["summer"] },
+          "color": "Plum",
+          "hex": "#8e4585",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "heavy-current-positioning",
+      "insight": "Wheeler: When current runs around the clock at high levels on the TN River, fish have no rest period and change positions — they move to secondary places where they can get out of the main channel. Secondary spots become the key",
+      "conditions": { "season": "summer", "current": "heavy" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "snapping-vs-stroking-jig",
+      "insight": "Wheeler: Snapping a football jig is different from stroking — stroking is for suspended fish, snapping is a small sharp motion that makes bottom-hugging fish in heavy current react. The higher-frequency kick action of the Cleanup Craw trailer complements the snap",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "old-school-angles",
+      "insight": "Wheeler: Without FFS, angles are everything on an offshore school. Changing the angle on a group of fish several times let him catch 2-3 more each time. Old-school triangulating on the bank with a heading sensor to position within 1 ft of target",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "360-imaging-value",
+      "insight": "Wheeler: Swapped one ActiveTarget 2 transducer for a Humminbird 360 — huge deal for Spot Locking on a spot and seeing bottom fish without moving FFS around, being more efficient",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "heading-sensor-precision",
+      "insight": "Wheeler: Uses a Lowrance Precision 9 heading sensor for precise cast placement in non-FFS periods — rather than being 10-15 ft off target, you're within a foot. Expensive but a fine-tuned deal",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "spectator-boat-management",
+      "insight": "Wheeler: On the TN River, when you leave a spot someone might follow you and catch your fish. If you can get away with not showing your hand to 20-30 spectator boats, it makes sense not to fish your best stuff — very strategic, not emotion-based",
+      "conditions": {}
+    }
+  ]
+}

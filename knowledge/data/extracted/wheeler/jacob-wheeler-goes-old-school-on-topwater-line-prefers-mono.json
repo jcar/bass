@@ -1,0 +1,46 @@
+{
+  "source": "jacob-wheeler-goes-old-school-on-topwater-line-prefers-mono.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC hooks get into the fish",
+          "priority": 10
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: Mono allows using a stiffer rod for topwater, which he favors. The rod-line combo lets him pull into the fish rather than jerk — key to not losing fish on topwater",
+          "priority": 9
+        },
+        {
+          "when": { "cover": "heavy grass", "region": "Florida" },
+          "tip": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
+          "priority": 10
+        },
+        {
+          "when": { "cover": "heavy grass", "region": "Florida" },
+          "tip": "Wheeler: The X-Rap Prop is his favorite topwater for Florida grass fishing — has won a lot of money throwing it",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "topwater-mono-vs-braid",
+      "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy grass where 30-lb braid with a mono leader is needed",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "topwater-mono-leader",
+      "insight": "Wheeler: Even when using braid main line for topwater in heavy cover, always connect to the bait with a 12-inch monofilament leader (Sufix Elite) — thinner, more supple, and adds stretch at the connection point",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "335755.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.", "priority": 10 },
+        { "when": { "depth": "shallow" }, "tip": "Wheeler: To fish a DT-6 like a squarebill in shallow cover, push line size up to 15- or even 20-lb monofilament to add buoyancy on shallow logs or laydowns.", "priority": 9 },
+        { "when": { "depth": "7-8ft" }, "tip": "Wheeler: To get more depth from a DT-6, drop to 8-lb line and it will reach 7-8 feet to hit deeper targets.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Live River Shad", "hex": "#c0c0c0", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Buzzbait",
+      "tipRules": [
+        { "when": { "waterTemp": "55+" }, "tip": "Wheeler: Throws a buzzbait anywhere, anytime from 55-degree water temps and up, even in the middle of the day; it is one of the most overlooked versatile tools in a tackle box.", "priority": 10 },
+        { "when": { "cover": "laydowns" }, "tip": "Wheeler: Pitch a buzzbait like a jig right next to laydowns, under bushes, and skip it under docks so it clacks against the cover; bass in close quarters are used to something dropping and sinking, so when it gurgles on surface instead they react.", "priority": 11 },
+        { "when": {}, "tip": "Wheeler: Prefers 5/16-oz Game Changer buzzbait with custom large blade for getting to surface quicker and working at slower speed; uses heavier gauge wire for durability.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "White", "hex": "#ffffff", "priority": 7 },
+        { "when": {}, "color": "Blue Glimmer", "hex": "#4169e1", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: The Biffle Bug creature bait can fill many roles: Texas-rig it on 1/2-oz weight for flipping, pull swimming legs off to make a tube for pitching bushes or sight fishing, pull the tongue off to use as a jig trailer, or use as a buzzbait trailer.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Green Pumpkin", "hex": "#4a7023", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "lure-selection", "topic": "three-must-have-baits", "insight": "Wheeler: If limited to three baits for any season or condition, picks a DT-6 crankbait, a buzzbait, and a Biffle Bug creature bait; prefers moving/reaction baits over finesse and likes to force reflex bites.", "conditions": {} },
+    { "category": "mental-approach", "topic": "reaction-bait-philosophy", "insight": "Wheeler: Prefers to force fish into biting out of reflex rather than teasing them with finesse; a bait suddenly getting in their space triggers a reaction bite.", "conditions": {} },
+    { "category": "gear", "topic": "crankbait-line-versatility", "insight": "Wheeler: Usually fishes the DT-6 on 12-lb Sufix Siege monofilament but varies line size to control depth; heavier mono adds buoyancy for shallower running, lighter line increases diving depth.", "conditions": {} }
+  ]
+}

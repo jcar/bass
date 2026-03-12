@@ -1,0 +1,89 @@
+{
+  "source": "how-jacob-wheeler-won-the-dale-hollow-bpt.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "structure": "bluff walls and points" },
+          "tip": "Wheeler: Post-spawners on bluff walls and points want a bigger-profile bait — use a Freeloader (4.25 inch) on 3/16 to 1/4-oz swimbait head for these fish",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heavier heads (3/8-1/2 oz) keep the tail tabs intact as they won't affect action with the heavier weight",
+          "priority": 11
+        },
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth", "fishBehavior": "fast-moving schools" },
+          "tip": "Wheeler: When schools are hunting and moving fast (1.5 mph on trolling motor barely keeps up), use a 1/2-oz head to get the bait down quickly — may need 10-15 casts before getting it in front of them",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["post-spawn"] },
+          "tip": "Wheeler: If you can get a lighter head to pressured fish, the fish-catching action is better. Fish were from 1 ft to 20-30 ft deep — always try lighter heads first on pressured fish",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"] },
+          "color": "Gizzard Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn"], "structure": "bluff walls" },
+          "color": "Green Shad",
+          "hex": "#6b8e23",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "not-dialing-in-practice",
+      "insight": "Wheeler: A big key because MLF events are so long is not dialing it in during practice. Don't commit to any one thing. Have pre-spawners, spawners, fish around brush, fish suspended around bait, fish around bluff walls — lots of options",
+      "conditions": {}
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-bait-concentration",
+      "insight": "Wheeler: On highland reservoirs, 15-25 mph wind with 40 mph gusts blows bait and nutrients into certain areas. This gets bass to group up more in schools and actually hunt — wind can amplify a pattern you thought was going away",
+      "conditions": { "weather": "windy" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pressure-awareness",
+      "insight": "Wheeler: It's amazing how much pressure changes fish behavior — even when a competitor fishes an area before you, the fish act weird and won't bite. They know what's up",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "strategic-area-sharing",
+      "insight": "Wheeler: When leading by 30 lbs with the 2nd-place angler nearby, it's better to share the area and split the fish (he catches one, I catch one, I stay up) rather than leave for a distant spot and risk the comeback",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "activetarget-range-by-weight",
+      "insight": "Wheeler: With ActiveTarget can see an 1/8-oz bait at 85 ft and a 1/2-oz at 110 ft. Keeps ranges at 100-120 ft depending on area size. For suspended fish, you can see so much further out with ActiveTarget",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-underutilized",
+      "insight": "Wheeler: Side imaging is definitely underutilized. Idle through areas before beaming with FFS — you can see groups of bass and bait so much better on side imaging. FFS is better for picking out singles",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "highland-reservoir-ffs-lake",
+      "insight": "Wheeler: Any highland reservoir is more of a FFS lake because bass sit on bait a lot and suspend. Dale Hollow fish ranged from 1 ft to 20-30 ft deep",
+      "conditions": { "waterType": "highland reservoir" }
+    }
+  ]
+}

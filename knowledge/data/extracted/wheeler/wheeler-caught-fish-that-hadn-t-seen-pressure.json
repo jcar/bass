@@ -1,0 +1,62 @@
+{
+  "source": "wheeler-caught-fish-that-hadn-t-seen-pressure.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore" },
+          "tip": "Wheeler: Use a soft-plastic swimbait (Freeloader) on a VMC Hybrid Swimbait Jig in 3/16 or 3/8 oz depending on depth to target offshore schools. Use green shad under bright skies and darker gizzard shad when clouds are prevalent.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "weather": "sunny" },
+          "color": "Green Shad",
+          "hex": "#7a9a5a",
+          "priority": 9
+        },
+        {
+          "when": { "weather": "cloudy" },
+          "color": "Gizzard Shad",
+          "hex": "#6b6b7b",
+          "priority": 9
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "offshore-graphing-patience",
+      "insight": "Wheeler: Graph offshore spots during practice even if they have zero or few fish - bass may show up during the tournament. By the end of a Guntersville event, he had 26 schools (double what he found in practice) because fresh fish moved in that hadn't been pressured.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "qualifying-round-scouting",
+      "insight": "Wheeler: In qualifying rounds, fish hard for just the first period and a half to secure advancement, then spend remaining time keeping tabs on other spots and discovering new ones as the tournament progresses.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "lighter-braid-better-action",
+      "insight": "Wheeler: Lighter braid (8-pound NanoBraid) results in better bait action because heavier braid has more drag in wind and current, negatively impacting swimbait action. Estimates 20% more bites with small-diameter braid vs 20-pound braid.",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "over-versatility-trap",
+      "insight": "Wheeler: Being too versatile can hurt - trying to do too much instead of committing to one pattern leads to bad positioning. After worst tournaments, the next one is usually pretty solid.",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "guntersville-offshore-variety",
+      "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

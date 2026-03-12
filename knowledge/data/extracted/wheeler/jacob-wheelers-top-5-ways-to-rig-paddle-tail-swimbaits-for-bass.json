@@ -1,0 +1,31 @@
+{
+  "source": "jacob-wheelers-top-5-ways-to-rig-paddle-tail-swimbaits-for-bass.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: A 3-inch swimbait on a ball head jig is one of the best all-around get-bit baits; excels when bass key on small baitfish, year-round for smallmouth/spotted bass, or when fish are finicky — fish on spinning gear with 10-pound braid to 8-pound fluoro leader", "priority": 9 },
+        { "when": {}, "tip": "Wheeler: A 4-inch paddle tail on a jig is his most used all-around swimbait setup — catches fish shallow to deep year-round; adjust jig weight based on depth, fish on a medium casting rod with 12-pound fluorocarbon", "priority": 10 },
+        { "when": { "structure": "brush" }, "tip": "Wheeler: A Texas-rigged belly-weighted swimbait (weighted willow hook) is an excellent baitfish imitator that comes through cover snag-free; great alternative to spinnerbaits or ChatterBaits when bass want a less imposing bait", "priority": 9 },
+        { "when": {}, "tip": "Wheeler: Tokyo-rigging swimbaits is overlooked but excellent — the weight hanging below keeps the swimbait glued just off the bottom while the bait moves freely and independently, a great substitute for traditional swim jigs", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": {}, "tip": "Wheeler: Add a paddle tail swimbait trailer to ChatterBaits, swim jigs, and spinnerbaits to add bulk and action; flat-sided swimbaits also improve ability to skip baits deeper under overhanging cover", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "five-swimbait-rigging-methods",
+      "insight": "Wheeler: His top 5 swimbait rigs are: 3-inch on ball head jig (spinning), 4-inch on jig head (casting), Tokyo rig, belly-weighted weedless (Texas rig), and as a trailer on moving baits — each serves a distinct depth and cover scenario",
+      "conditions": {}
+    }
+  ]
+}

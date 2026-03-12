@@ -1,0 +1,90 @@
+{
+  "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: Fish a 4.25-inch Freeloader on a VMC Hybrid Swimbait Jig (1/4 to 5/16 oz most common) by shaking the rod tip pretty hard to impart action on the bait",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["post-spawn", "summer"] },
+          "tip": "Wheeler: Use 8-lb Nanobraid on spinning gear for swimbaits — thinner diameter means better bait action and longer casts, which generates more bites than heavier braid",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn", "summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: Use a 7-ft M spinning rod with a super-fast tip to impart action to the swimbait, paired with a Shimano Vanford 2500 for its superior drag system",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "sky": "sunny" },
+          "color": "Green Shad",
+          "hex": "#6b8e23",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn", "summer"], "sky": "cloudy" },
+          "color": "Gizzard Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "tn-river-post-spawn-migration",
+      "insight": "Wheeler: On TN River lakes, post-spawn fish move to offshore spots in waves — first a few show up, then a few more, then suddenly 100 bass are there 5 days later. If you can be the first one to find them arriving, it can be a lot of fun",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "tn-river-offshore-spot-types",
+      "insight": "Wheeler: Community areas are big giant points and lead-out places where ditches and creek channels come out — the highway bass use to exit spawning areas. Sneakier spots are along straight ledges where bass set up due to current swing or a little hard spot, and these change year to year",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "tn-river-depth-gradient",
+      "insight": "Wheeler: On every TN River lake, if you start at the dam and work up, offshore schools are deeper at the lower end and shallower on the upper end. At Guntersville he had schools from 8 to 35 ft deep, with 15-20 ft most common",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "graphing-during-tournament",
+      "insight": "Wheeler: Catch fish fast enough early each day to use the remaining periods for graphing and finding new schools — that's the way to win offshore TN River events. Finding fresh fish others haven't located is the biggest advantage",
+      "priority": 10
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "conserving-fish-with-lead",
+      "insight": "Wheeler: With a big lead, stop setting the hook on 4.5-lb fish on community holes — those fish might be the ones that win the tournament for you on the final day",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "activetarget-2-swimbait",
+      "insight": "Wheeler: ActiveTarget 2 provides about 20% clearer image and better target separation than AT1 — can see a jighead falling at 90-100 ft away, which lets you see where your cast is in relation to the bass",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-usage-philosophy",
+      "insight": "Wheeler: Keep the bait over the fish's head. He sees about 40% of bass bite on screen but mostly just wants to see where the bait is relative to the fish, then turns away and just fishes — either they bite or they don't",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "thin-braid-spinning-advantage",
+      "insight": "Wheeler: Bass don't see line as well as we think — the drag of heavier line diameter negatively impacts bait action, which is why fish don't bite as well. 8-lb Nanobraid has smaller diameter, better action, equals more bites",
+      "conditions": {}
+    }
+  ]
+}

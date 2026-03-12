@@ -1,0 +1,45 @@
+{
+  "source": "jacob-wheelers-stage-seven-winning-gear.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "structure": "brush/timber" }, "tip": "Wheeler: Texas-rig the drop shot bait instead of nose-hooking when fishing in brush and timber — it hangs up less and hooks fish better", "priority": 10 },
+        { "when": {}, "tip": "Wheeler: Use drop shot as a mop-up bait after casting a swimbait first to catch the easy grouped-up fish; drop shot picks off individual remaining fish", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Morning Dawn", "hex": "#f0c0c0", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "structure": "docks" }, "tip": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Baby Bass", "hex": "#8b9a4b", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "swimbait-then-dropshot-rotation",
+      "insight": "Wheeler: First cast to each area with a swimbait to catch easy grouped-up fish, then switch to drop shot to pick off individuals — this two-pronged approach maximizes catches on offshore structure",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-heavy-cover-setup",
+      "insight": "Wheeler: For drop shot in heavy cover use a 7'2\" medium-heavy spinning rod, 3000-size reel, 8-pound NanoBraid mainline with 10-pound fluorocarbon leader and 1/4-ounce cylinder weight",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "offshore-swimbait-setup",
+      "insight": "Wheeler: For offshore swimbaits (3-4 inch Largo Shad) targeting suspended fish around trees and on points, use a 7' medium-heavy casting rod with a slow 6.3:1 reel and 12-pound fluorocarbon",
+      "conditions": {}
+    }
+  ]
+}

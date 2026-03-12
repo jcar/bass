@@ -1,0 +1,91 @@
+{
+  "source": "wheeler-s-top-three-winter-baits.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: The Rapala Shad Rap #5 is the first bait to grab when water is cold, especially after the first rain in fall when fish reset into winter patterns. Fish it on spinning gear with 8-pound fluorocarbon.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: Add Storm SuspenStrips to the Shad Rap to alter buoyancy for a slow float - bump it into something and let it slowly float up, which triggers more bites in cold water.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"], "structure": "rock transitions" },
+          "tip": "Wheeler: Target rock transitions - where chunk rock turns to pea gravel, 45-degree banks, and the last depth before banks transition to flatter areas. These are prime Shad Rap spots.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["winter"] },
+          "color": "Shad",
+          "hex": "#c0c0c0",
+          "priority": 7
+        },
+        {
+          "when": { "season": ["winter"] },
+          "color": "Crawfish",
+          "hex": "#b5451b",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: A jerkbait is the best winter bait. Forward-facing sonar shows that long pauses are important not just because water is colder, but also to give bass time to come up from deeper water to meet the bait. Once the fish is closer, speed up the cadence and they'll usually bite on the next pause.",
+          "priority": 11
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: Prefers the Shadow Rap Deep for its unique shimmy when paused - it slowly sinks with subtle shakes like a soft plastic stickbait, triggering bites on the pause. Less erratic than most jerkbaits.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: A 3 or 3.5-inch Storm Largo Shad on a VMC Hybrid Swimbait Jig (1/4 oz shallow, 3/8 oz deep) is a versatile winter option from 2 to 42+ feet. Best when water is too clear to crank.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: Fish the winter swimbait on secondary points, grass edges, and where steeper banks turn to flats. Match bait size to forage - forage size is critical.",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Wheeler: For swimbait, prefers spinning gear with 8-pound NanoBraid and 8-pound fluorocarbon leader. Use spinning gear with FFS because you can quickly flip the bail and drop the bait.",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-pattern-reset",
+      "insight": "Wheeler: When you get the first rain in fall and water temps drop, fish reset into winter patterns. Temperature thresholds vary: 40s-30s up north, around 50 degrees in the south.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-jerkbait-learning",
+      "insight": "Wheeler: Forward-facing sonar has taught him more about jerkbaits than anything else - you can see on screen how fish react to cadence and pauses, how long it takes bass to come up from deeper water to meet the bait.",
+      "conditions": {}
+    }
+  ]
+}

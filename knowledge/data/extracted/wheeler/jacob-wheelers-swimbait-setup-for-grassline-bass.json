@@ -1,0 +1,16 @@
+{
+  "source": "jacob-wheelers-swimbait-setup-for-grassline-bass.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "structure": "grass/wood" }, "tip": "Wheeler: Use a bladed weedless swimbait hook (VMC HD Bladed Swimbait Hook 5/0 1/4-oz) around grass and wood — it's a hybrid of ChatterBaits and spinnerbaits with flash, vibration, and weedless performance", "priority": 10 },
+        { "when": { "structure": "grass/wood" }, "tip": "Wheeler: Periodically kill the bait and let it fall to the bottom as a trigger — variation in retrieve is an excellent bite trigger for grassline bass", "priority": 9 },
+        { "when": { "structure": "grass/wood" }, "tip": "Wheeler: Use a 7'3\" medium-heavy casting rod with 7.5:1 reel and 14-17 pound fluorocarbon; you need power to penetrate the hook through the plastic and into the fish's mouth", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": []
+}

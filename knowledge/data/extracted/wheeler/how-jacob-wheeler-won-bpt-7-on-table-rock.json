@@ -1,0 +1,108 @@
+{
+  "source": "how-jacob-wheeler-won-bpt-7-on-table-rock.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "structure": "offshore timber/brushpiles" },
+          "tip": "Wheeler: A 3-inch swimbait (Storm Largo Shad) on a 3/8-oz jighead can catch fish almost every cast on grouped-up offshore schools — more efficient than a dropshot because you can stay farther off the fish",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["post-spawn"], "waterType": "highland reservoir" },
+          "tip": "Wheeler: Downsize your swimbait profile on highland reservoirs like Table Rock compared to TN River lakes because the forage is smaller",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"], "structure": "offshore" },
+          "color": "Pearl",
+          "hex": "#f0ead6",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "pressure": "high" },
+          "tip": "Wheeler: When pressure mounts on offshore schools and they won't bite a swimbait, go more finesse with a dropshot — had 3 different dropshot setups tied on for the final day at Table Rock",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn"], "sky": "calm" },
+          "tip": "Wheeler: On calm still days, offshore schools on points end up suspending around timber on the outer edge — figure out this repositioning to keep catching them on a dropshot",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"] },
+          "color": "Morning Dawn",
+          "hex": "#e8c4b8",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "structure": "offshore timber" },
+          "tip": "Wheeler: When schools are acting funny and won't bite a swimbait, cast a 1/4-oz shakyhead with a finesse worm and try to stay off them as much as possible",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"] },
+          "color": "Blue Baby",
+          "hex": "#89cff0",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "structure": "docks" },
+          "tip": "Wheeler: Use a wacky Neko rig (1/16-oz weight, #2 hook) on deeper docks as an alternative presentation to swim jigs on shallow docks",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"] },
+          "color": "Baby Bass",
+          "hex": "#8db600",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-offshore-table-rock",
+      "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted bass) depending on lake section",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "isolated-timber-offshore",
+      "insight": "Wheeler: One of his best spots was a cedar tree in the middle of a creek channel — in 40 ft of water but came up to 12-15 ft with fish suspended in the top of it",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-line-upgrade",
+      "insight": "Wheeler: Pumped fluorocarbon leader from 8-lb to 10-lb on dropshot because when you fire up a school you don't want to retie constantly — broke off a few fish earlier in the week on 8-lb",
+      "conditions": {}
+    }
+  ]
+}

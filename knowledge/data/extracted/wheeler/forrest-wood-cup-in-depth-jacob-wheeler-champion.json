@@ -1,0 +1,38 @@
+{
+  "source": "forrest-wood-cup-in-depth-jacob-wheeler-champion.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": ["post-spawn"], "depth": "0-7ft" }, "tip": "Wheeler: Used a shad-colored vibrating jig (pearl white base with blue glimmer and blue/chartreuse strands) in water 7 feet or less around bluegill beds and shallow pockets at Lanier.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["post-spawn"] }, "color": "Pearl White/Blue Glimmer", "hex": "#e8e8f0", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["summer"], "forage": "bluegill" }, "tip": "Wheeler: Used an X-Rap Prop and handcarved prop bait in bluegill patterns around bluegill beds; when a bass dogs the topwater darting back and forth without striking, pause the bait for as long as 6 seconds until the fish inhales it.", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": ["summer"], "depth": "0-7ft" }, "tip": "Wheeler: Flipped creature baits (Goo Bug) on 1/4-oz tungsten weight and 4/0 straight shank flipping hook in water 7 feet or less; produced a limit exceeding 16 lbs by 9:30 AM.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["summer"] }, "color": "Watermelon/Red", "hex": "#4a7023", "priority": 7 },
+        { "when": { "season": ["summer"] }, "color": "Carolina Bug", "hex": "#8b6914", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "forrest-wood-cup-shallow-gamble", "insight": "Wheeler: Won the 2012 Forrest Wood Cup at Lanier going shallow while the field fished deep for spotted bass; saw cruising largemouth around bluegill beds in pockets and committed to the shallow pattern with almost no competition.", "conditions": { "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "save-areas-for-final-day", "insight": "Wheeler: Saved mid-lake pockets for the final day of competition; the strategy of not burning through all areas early preserved fresh spots when he needed them most.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "goal-weight-management", "insight": "Wheeler: Set a specific goal weight of 12 lbs on the final day knowing his competitor would need over 18 to beat him; worked methodically toward that target rather than fishing recklessly.", "conditions": {} },
+    { "category": "retrieve-technique", "topic": "prop-bait-long-pause", "insight": "Wheeler: When a bass dogs a prop bait without striking, pause it for as long as 6 seconds; the fish finally inhaled the topwater after the extended pause.", "conditions": {} }
+  ]
+}

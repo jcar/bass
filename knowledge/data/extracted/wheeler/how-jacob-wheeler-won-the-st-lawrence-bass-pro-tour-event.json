@@ -1,0 +1,108 @@
+{
+  "source": "how-jacob-wheeler-won-the-st-lawrence-bass-pro-tour-event.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Thread bait onto a #4 VMC Finesse Neko Hook for better hookup ratio on smallmouth dropshot. Use 1/2-oz VMC Tungsten Teardrop weight with 12-lb fluoro leader to get fish in quicker by getting their head up",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Dropshot has a way better hookup ratio than Ned rig on bed smallmouth. But when fish go down and bite the weight instead of the bait, that's the signal to switch to Ned rig",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Use a MH rod that's more like a M+ with parabolic bend (not super-fast tip) for smallmouth dropshot — beef up the leader to 12-lb to get fish in faster",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth", "forage": "goby" },
+          "color": "Blue Penny",
+          "hex": "#4682b4",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth", "forage": "goby" },
+          "color": "Blue Baby",
+          "hex": "#89cff0",
+          "priority": 8
+        },
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "color": "Pearl",
+          "hex": "#f0ead6",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: VMC Tokyo Rig with 3/4-oz cylinder weight gets down fast to bed smallmouth. Swapped from Finesse Neko Tokyo setup to 3/0 wide gap because fish would nip the bait and get foul-hooked on the finesse hook — the wider gap waits for a true bite",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["spawn"], "species": "smallmouth", "forage": "goby" },
+          "color": "Blue Baby",
+          "hex": "#89cff0",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "smallmouth-spawn-progression",
+      "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target",
+      "conditions": { "season": "spawn", "species": "smallmouth" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "finding-unpressured-spawners",
+      "insight": "Wheeler: On pressured fisheries like St. Lawrence, look deeper (10-15 ft) for spawners rather than the obvious 4-8 ft zone. Beds are harder to see — look for a couple cleared-off white shells on darker bottom. Troll for miles on big flats to find congregated areas with enough current",
+      "conditions": { "season": "spawn", "species": "smallmouth" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "managing-your-own-fish",
+      "insight": "Wheeler: Prefers 2 sneaky schools no one else has found that he can manage himself over community schools you can never get on. Key is to find fish where you're the only person fishing them",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-limited-in-current-spawners",
+      "insight": "Wheeler: When fishing in current for spawning smallmouth, electronics can only show so much — fish are so tight to the bottom that FFS can't really show you anything. More efficient to use your own eyes to spot beds visually",
+      "conditions": { "season": "spawn", "species": "smallmouth" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-in-wind",
+      "insight": "Wheeler: Practice in the wind when other competitors won't — found 25 fresh spawners in 2.5 hours that likely wouldn't be pressured by Championship Day because no one else was looking in those windy areas",
+      "conditions": {}
+    }
+  ]
+}

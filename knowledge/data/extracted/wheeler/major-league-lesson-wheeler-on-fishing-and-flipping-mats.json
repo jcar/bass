@@ -1,0 +1,13 @@
+{
+  "source": "major-league-lesson-wheeler-on-fishing-and-flipping-mats.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-mats",
+      "insight": "Wheeler: When flipping mats, select appropriate weights and baits to punch through vegetation cover effectively.",
+      "conditions": {}
+    }
+  ]
+}

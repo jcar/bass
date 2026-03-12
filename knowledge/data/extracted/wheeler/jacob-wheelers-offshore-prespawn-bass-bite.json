@@ -1,0 +1,52 @@
+{
+  "source": "jacob-wheelers-offshore-prespawn-bass-bite.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"] }, "tip": "Wheeler: Small swimbaits (CrushCity Mayor) on ball head jigs are his go-to for prespawn bass staging in deeper water near spawning pockets", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"] }, "tip": "Wheeler: Use a Ned rig as one of several presentations to cycle through when targeting deep prespawn staging bass", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "offshore-prespawn-staging",
+      "insight": "Wheeler: As temps flirt with the 50s, target traditional staging areas close to spawning pockets; deeper staging fish focus more on feeding than spawning activities, making prespawn the most consistent action of the year",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "prespawn-transitional-areas",
+      "insight": "Wheeler: Transitional banks and creek arms are prime prespawn locations; use electronics to scan deeper pockets and channel swings near spawning grounds for actively feeding fish",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "prespawn-versatility",
+      "insight": "Wheeler: Be versatile during prespawn — cycle through finesse swimbaits, Ned rigs, and heavy gliding jigs to determine the best technique for current conditions",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-prespawn",
+      "insight": "Wheeler: Forward-facing sonar has opened up offshore prespawn tactics, but don't overlook traditional fishing techniques — instinct and experience through 'just fishing' will always reveal bass that evade fish finder technology",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "gear",
+      "topic": "prespawn-swimbait-setup",
+      "insight": "Wheeler: For prespawn swimbaits use a 7' medium-fast spinning rod with 12-pound Sufix NanoBraid mainline and 8-pound fluorocarbon leader",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

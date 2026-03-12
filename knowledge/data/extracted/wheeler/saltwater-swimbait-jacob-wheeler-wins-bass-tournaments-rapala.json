@@ -1,0 +1,36 @@
+{
+  "source": "saltwater-swimbait-jacob-wheeler-wins-bass-tournaments-rapala.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": "offshore" },
+          "tip": "Wheeler: Cast a Storm Largo Shad on a jighead into large offshore schools of bass - he caught 88 bass in a single day on Table Rock Lake using this approach.",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: The broader profile of the Largo Shad looks more realistic and imitates forage better than typical swimbaits. You can catch 10+ fish on one bait due to its durability.",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "largo-shad-swimbait",
+      "insight": "Wheeler: The Storm Largo Shad has a broader profile than most swimbaits with a slow body roll and exaggerated tail swing. You can customize action by cutting or removing the tail tendon for a wider action. Rig on VMC jighead, heavy duty swimbait hook, weighted willow swimbait hook, or Tokyo rig.",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "swimbait-versatility",
+      "insight": "Wheeler: One swimbait (Storm Largo Shad) can target spotted bass, largemouth, and smallmouth across the country - a single bait that does it all.",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source": "how-jacob-wheeler-won-the-pickwick-toyota-series.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "current": "heavy", "structure": "offshore ledges" },
+          "tip": "Wheeler: In heavy current, use a DT20 even when fish are in 12-18 ft — gets down quicker and stays in the strike zone longer than a shallower-running crank. Cranking catches the biggest fish via reaction bites",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "structure": "offshore ledges" },
+          "color": "Caribbean Shad",
+          "hex": "#5f9ea0",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "structure": "offshore ledges", "pressure": "high" },
+          "tip": "Wheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-oz tungsten, 4/0 hook, 14-lb fluorocarbon",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"] },
+          "color": "Green Pumpkin Blue",
+          "hex": "#556b2f",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"], "structure": "offshore ledges" },
+          "tip": "Wheeler: A 1-oz spinnerbait (big Colorado/Willow combo) with a 4-inch paddle tail swimbait trailer imitates a bigger-profile gizzard shad — gets fewer bites but the right bites from bigger fish. Cast upstream and bump it down with the current",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn", "summer"] },
+          "color": "Chartreuse Shad",
+          "hex": "#7fff00",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "heavy-current-inconsistency",
+      "insight": "Wheeler: In heavy TN River current, fish don't set up consistently — sometimes behind a stump, sometimes on the front edge of the current. The pattern is never always the same, so the goal is to find as many places as possible",
+      "conditions": { "season": "summer", "current": "heavy" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-spawn-holdback",
+      "insight": "Wheeler: Fish trying to move offshore can get held up by the shad spawn in 4-8 ft of water. In years with floods and cold fronts, the post-spawn transition can run behind schedule",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "offshore-depth-variability",
+      "insight": "Wheeler: At Pickwick with heavy current, fish were in 10-30 ft with no depth consistency — depth depended on the area of the lake and the structure in that area",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

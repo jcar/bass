@@ -1,0 +1,57 @@
+{
+  "source": "video-how-to-fish-a-ned-rig-jacob-wheelers-top-4-techniques.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "stained" },
+          "tip": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: 3/16-ounce jig head is the most versatile weight for Ned rigs - works across depths without excessive snagging.",
+          "priority": 8
+        },
+        {
+          "when": { "cover": "heavy" },
+          "tip": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+          "priority": 9
+        },
+        {
+          "when": { "depth": "deep", "targetSpecies": "individual fish" },
+          "tip": "Wheeler: A wacky rigged drop shot Ned with a 4mm crossover ring has a slow fall rate ideal for targeting individual fish in deep water. Bump up to heavier weight for faster bottom contact.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "targetSpecies": "smallmouth" },
+          "tip": "Wheeler: The drop shot Ned rig is his go-to for smallmouth fishing - especially effective with TPE plastics that allow more natural movement. Has led to multiple tournament wins in clear, deep waters.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "ned-rig-four-methods",
+      "insight": "Wheeler: Uses four Ned rig methods - traditional exposed jig head, drop shot Ned (best for smallmouth), Texas rigged swinging Ned (for snaggy cover), and wacky rigged drop shot Ned (for deep individual fish targeting).",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "ned-rig-setup",
+      "insight": "Wheeler: Fishes Ned rigs on a 7'2\" medium heavy spinning rod with a Shimano Vanford 2500 reel.",
+      "conditions": {}
+    }
+  ]
+}

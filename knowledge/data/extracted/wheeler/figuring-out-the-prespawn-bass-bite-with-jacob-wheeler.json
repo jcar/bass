@@ -1,0 +1,30 @@
+{
+  "source": "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "structure": "main lake humps" }, "tip": "Wheeler: A jerkbait performs well on suspended bass staging to move up from main lake humps extending off points; it calls fish in from a distance and covers water quickly.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "structure": "rocky banks" }, "tip": "Wheeler: A mid-depth crankbait (DT-8) rummaging across the bottom triggers bass relating to bank rock on highland reservoirs; reads different rock types to determine where bass are holding.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["pre-spawn"] }, "color": "Demon", "hex": "#8b0000", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "prespawn-highland-reservoir", "insight": "Wheeler: This is the bass rut - they're heading to the bank and you need to intercept them in transit; stresses interpreting water temperature and clarity, reading the bank (different rock types), and figuring out the depth zone bass are hanging.", "conditions": { "season": "pre-spawn" } },
+    { "category": "seasonal-pattern", "topic": "prespawn-multiple-patterns", "insight": "Wheeler: Multiple patterns usually happen simultaneously on complex reservoirs; anglers tend to rush the bass in spring - just because it's warm out doesn't mean they're all on the bank; there's a significant lag between air and water temperature so don't overlook deeper main lake bass.", "conditions": { "season": "pre-spawn" } },
+    { "category": "fish-behavior", "topic": "main-lake-spawning", "insight": "Wheeler: Many bass spawn on the main lake, not just up in creek arms and pockets.", "conditions": { "season": "spawn" } },
+    { "category": "structure-reading", "topic": "prespawn-bank-targets", "insight": "Wheeler: Targets bluff ends and transitional banks leading into pockets; looks for distinct areas with shale rock and a creek or river channel nearby.", "conditions": { "season": "pre-spawn" } },
+    { "category": "retrieve-technique", "topic": "finding-first-fish", "insight": "Wheeler: If struggling to find something, just drop your trolling motor and run the bank with a handful of favorite crankbaits to contact your first fish; the first bass is an essential clue to start refining your day.", "conditions": {} },
+    { "category": "gear", "topic": "prespawn-jerkbait-setup", "insight": "Wheeler: Jerkbait setup uses 6'10\" medium Duckett rod, 7.5:1 reel, and 12-lb Sufix Advance fluorocarbon; crankbait setup uses 7'2\" MH composite rod with 6.8:1 reel.", "conditions": { "season": "pre-spawn" } }
+  ]
+}

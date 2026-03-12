@@ -1,0 +1,84 @@
+{
+  "source": "how-jacob-wheeler-won-the-champlain-bass-pro-tour-event.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Rotate between 1/4, 1/2, and 3/4-oz dropshot weights (1/2-oz most common) — sometimes heavier weight makes fish react, sometimes they want lighter. Trial and error figuring out fish mood every hour",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Thread plastics onto the dropshot hook (#2 Finesse Neko Hook) rather than nose-hooking — better hookup ratio and can reel fish in more efficiently with more gap",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Use a heavier rod (MH, more like M+) for dropshot than most people, paired with heavier line (10-12 lb fluoro leader consistently) to get fish in quicker. A 7-ft M rod with lighter line when fish need more finesse",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"], "forage": "smelt/alewife" },
+          "color": "Smelt",
+          "hex": "#b0c4de",
+          "priority": 9
+        },
+        {
+          "when": { "season": ["post-spawn"], "forage": "perch" },
+          "color": "Green Pumpkin",
+          "hex": "#8b7d3c",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["post-spawn"], "species": "smallmouth" },
+          "tip": "Wheeler: Use Ned rigs (1/4 and 3/8-oz heads) as a complement to dropshots on Champlain smallmouth — rotate between shad/smelt hues, green pumpkin hues, and perch-color hues",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["post-spawn"] },
+          "color": "Smelt",
+          "hex": "#b0c4de",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "northern-smallmouth-transition-speed",
+      "insight": "Wheeler: Northern smallmouth fisheries like Champlain only have a few months to do their deal — 1 week up north is like a month down south. Water temps went from 68 to 75 degrees during the event and fish transitioned dramatically from 12-16 ft to 18-30 ft",
+      "conditions": { "season": "post-spawn", "species": "smallmouth" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "champlain-smallmouth-structure",
+      "insight": "Wheeler: Key structure elements were hard gravel places, small isolated grass patches, boulders, and some fish on nothing — just suspended and nomadic. There wasn't one pattern, you had to keep things in rotation",
+      "conditions": { "season": "post-spawn", "species": "smallmouth" }
+    },
+    {
+      "category": "electronics",
+      "topic": "activetarget-vs-garmin",
+      "insight": "Wheeler: Swapped from Garmin LiveScope to Lowrance ActiveTarget because he can see fish further — 100+ ft away. That's huge when talking about 1-2 more isolated 3+ lb smallmouth per day, which is the difference between winning and losing",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-line-experimentation",
+      "insight": "Wheeler: Experimented with fluoro leaders from 4-lb up to 12-lb on smallmouth dropshot. Going down to 4-lb to check if fish were line-shy made no difference — it's trial and error figuring out what bass fishing is",
+      "conditions": {}
+    }
+  ]
+}

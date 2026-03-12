@@ -1,0 +1,76 @@
+{
+  "source": "video-wheelers-chatterbait-and-trailer-system-for-patterning-bass.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+          "priority": 10
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: Treat every fish catch as a clue - make repeat casts while analyzing location details. Once you locate fish with a ChatterBait, slow down and refine your presentation with other lures like jigs.",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Wheeler: For hooksets, reel steadily and let the rod load up before setting the hook instead of snapping the rod - this prevents the blade from popping open the bass's mouth and increases hook-to-land ratio.",
+          "priority": 10
+        },
+        {
+          "when": { "depth": "deep" },
+          "tip": "Wheeler: Use a 6.2:1 gear ratio reel for deeper water to slow down presentations.",
+          "priority": 8
+        },
+        {
+          "when": { "depth": "shallow" },
+          "tip": "Wheeler: Use a 7.3:1 gear ratio reel for shallow water to quickly cover ground and keep up with moving fish.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "isStained": true },
+          "color": "Black and Blue",
+          "hex": "#1a1a2e",
+          "priority": 9
+        },
+        {
+          "when": { "waterClarity": "slightly clear" },
+          "color": "Green Pumpkin",
+          "hex": "#4a7c2e",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "color": "Shad Pattern",
+          "hex": "#c0c0c0",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "chatterbait-as-search-bait",
+      "insight": "Wheeler: Bladed jigs are go-to lures for exploring new water because you can fish them at various speeds and they come through cover well. Sound and vibration add fish-drawing power, widening the strike window.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "chatterbait-rod-setup",
+      "insight": "Wheeler: Uses a longer medium-heavy rod with a slower (moderate fast) taper to balance power and forgiveness on hooksets. Pairs with 17-pound fluorocarbon for strength and durability without losing sensitivity.",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "chatterbait-color-system",
+      "insight": "Wheeler: ChatterBait color system is simple - black/blue for stained water, green pumpkin for slightly clearer conditions and bluegill waters, shad patterns for clear water and shad-based fisheries.",
+      "conditions": {}
+    }
+  ]
+}

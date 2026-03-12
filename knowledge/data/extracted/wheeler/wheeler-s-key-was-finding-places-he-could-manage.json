@@ -1,0 +1,73 @@
+{
+  "source": "wheeler-s-key-was-finding-places-he-could-manage.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"], "structure": "offshore" },
+          "tip": "Wheeler: The CrushCity Freeloader swimbait on a 3/16 oz VMC Hybrid Swimbait Jig is ideal when fish are suspended in the water column around brushpiles and stumps. Switch to a jig when fish are tight to the bottom.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Pearl White",
+          "hex": "#f0ead6",
+          "priority": 7
+        },
+        {
+          "when": { "isStained": true },
+          "color": "Albino Pearl",
+          "hex": "#ede8d0",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "color": "Albino Shad",
+          "hex": "#d4cfc0",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "stained" },
+          "tip": "Wheeler: A jerkbait's ability to hover in the fish's face for longer periods makes it the best choice in the most heavily stained water.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "avoiding-community-holes",
+      "insight": "Wheeler: Find the most obscure offshore areas that might only have a few fish but you can manage yourself. Popular areas where multiple anglers graph will cannibalize each other - you can't win in those places.",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-plus-traditional-sonar",
+      "insight": "Wheeler: Won on forward-facing sonar but wouldn't have won without spending time with DownScan and SideScan first. You need traditional sonar to find cover among thousands of stumps and irregularities, then FFS to fish them.",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "scent-for-inactive-fish",
+      "insight": "Wheeler: Has become a bigger fan of scent recently - adding extra Bait Pop Sonar Intensifier gel when fish are inactive and won't commit helps trigger bites.",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "enjoyment-equals-performance",
+      "insight": "Wheeler: If you're not enjoying it, you don't have the right mindset. Focusing on having fun rather than standings leads to better performance.",
+      "conditions": {}
+    }
+  ]
+}

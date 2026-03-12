@@ -1,0 +1,22 @@
+{
+  "source": "fall-topwater-with-jacob-wheeler.txt",
+  "anglerName": "Wheeler",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["fall"] }, "tip": "Wheeler: Go-to fall walking bait is a larger Rapala Skitter Walk #11; if bass won't eat the larger profile, downsize to a Skitter Walk #8 to match smaller young-of-year shad that are only 2-3 inches long.", "priority": 10 },
+        { "when": { "season": ["fall"], "forage": "gizzard shad" }, "tip": "Wheeler: On lakes with gizzard shad like Guntersville, Pickwick, and Kentucky, uses an oversized Arashi Top Walker 13 for a larger profile that disturbs more water and makes more commotion.", "priority": 9 },
+        { "when": { "season": ["fall"] }, "tip": "Wheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still running away from the fish.", "priority": 11 },
+        { "when": { "season": ["fall"] }, "tip": "Wheeler: When a fish misses the topwater, never kill the bait; a shad wouldn't sit still if a bass tried to eat it, so keep working the bait to look like it's fleeing.", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "fall-topwater-location", "insight": "Wheeler: In fall, bass follow shad to backs of creeks onto flats, but the biggest misconception is only focusing on creeks; don't overlook main lake flats, flat points on the main lake, and mouths of creeks.", "conditions": { "season": "fall" } },
+    { "category": "structure-reading", "topic": "fall-flat-cover", "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad.", "conditions": { "season": "fall" } },
+    { "category": "retrieve-technique", "topic": "fall-topwater-search", "insight": "Wheeler: Constantly moves boat in 4-8 feet of water casting shallower; covers a lot of dead water but once you find them you catch a lot of fish.", "conditions": { "season": "fall" } },
+    { "category": "gear", "topic": "topwater-walking-bait-setup", "insight": "Wheeler: Uses 7-foot medium-action rod with tip and backbone, 7.3:1 high-speed reel (no disadvantage to high-speed for topwater - ability to catch up to fish), and 17-lb Sufix monofilament that floats and has slight stretch.", "conditions": {} }
+  ]
+}
