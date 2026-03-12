@@ -1,0 +1,25 @@
+{
+  "source": "brandon-palaniuks-preparation-for-the-santee-cooper-bass-tournament.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-tournament-research",
+      "insight": "Palaniuk: 'On a 170,000-acre lake with only three practice days, do as much online research as possible studying past tournament results from the same time period to determine where the most productive water will be'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "eliminating-water",
+      "insight": "Palaniuk: 'On large lakes you must eliminate a lot of water quickly — use past tournament results to guide your practice days to the most productive sections, then verify under current conditions'",
+      "conditions": {}
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "fall-weather-factor",
+      "insight": "Palaniuk: 'In the fall, weather can be a big factor in where you'll pinpoint bass and how you'll catch them — chilly mornings warming through the day will shift fish locations'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

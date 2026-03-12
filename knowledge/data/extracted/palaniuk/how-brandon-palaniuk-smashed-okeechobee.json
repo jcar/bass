@@ -1,0 +1,63 @@
+{
+  "source": "how-brandon-palaniuk-smashed-okeechobee.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "fishDepth": "~10 ft", "season": "pre-spawn" }, "tip": "Palaniuk: 'Used a prototype Megabass IPX crankbait in an average depth of 10 ft with a steep dive angle, smaller profile, and traditional hard-hitting wobble. Castability was key -- long casts gave more room to change cadences and try to trigger the bite.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "tannic" }, "color": "Megabass Sexy Shad", "hex": "#C0C0C0", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "fishDepth": "~10 ft", "season": "pre-spawn" }, "tip": "Palaniuk: 'Caught two 9-pounders on the Big M 4.0 at Okeechobee. Used it when fish were high in the water column or on top of the lip dropping off into deeper water.'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": "pre-spawn" }, "color": "PM Chartreuse", "hex": "#DFFF00", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'Used a Neko rig as a change-up at Okeechobee alongside big baits and crankbaits, catching quality fish on it across multiple days.'", "priority": 5 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "canal-structure-features",
+      "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole the trough dumps into.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "electronics",
+      "topic": "mega-live-2-fish-identification",
+      "insight": "Palaniuk: 'MEGA Live 2 is way better than version 1. Could tell the detail of what was a bass, what was a gar, what was a crappie -- had a lot to do with how they were positioned and how they moved.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "bait-selection-by-water-column-position",
+      "insight": "Palaniuk: 'If seeing fish high in the water column on MEGA Live 2, pick up a jerkbait or big bait. If seeing them toward the bottom, pick up a crankbait.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "shared-spot-adjustments",
+      "insight": "Palaniuk: 'When 3 other competitors were already on his spot, he adapted by using forward-facing sonar to gauge fish interest and differentiated his approach with oversized crankbaits and jerkbaits rather than downsizing to jig and minnow like the others.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "okeechobee-crankbait-tackle",
+      "insight": "Palaniuk: 'Big M 4.0: 15-lb Tatsu fluoro, Daiwa Steez A reel (6.3:1), 7-foot 6-inch MH rod. Prototype IPX: 12-lb Tatsu fluoro, Daiwa Zillion reel (7.1:1), 7-foot MH Mod rod. Kanata: 12-lb Tatsu fluoro, Daiwa Steez CT SV reel, 6-foot 10-inch rod.'",
+      "conditions": {}
+    }
+  ]
+}

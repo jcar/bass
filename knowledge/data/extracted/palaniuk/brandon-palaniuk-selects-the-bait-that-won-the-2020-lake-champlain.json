@@ -1,0 +1,39 @@
+{
+  "source": "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishDepth": "40ft" }, "tip": "Palaniuk: 'Use braided mainline to 15-foot fluorocarbon leader with Crazy Alberto knot for maximum sensitivity when drop shotting 40 feet deep'", "priority": 9 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Watch your lure fall on your depth finder, see bass react, and follow the bait down to where the bass are — drop right on top of the fish'", "priority": 8 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Don't set the hook — reel down on the fish when you feel the bite and put pressure on the rod to let the rod drive the hook in'", "priority": 9 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Set drag tight enough to get the hook set, then loosen the drag once hooked to let the fish fight against the line on long runs'", "priority": 8 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Use 8-pound fluorocarbon leader to 15-pound braid mainline with a 3/8-oz tungsten weight and light wire #2 hook for pressured smallmouth'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall" }, "color": "green pumpkin blue", "hex": "#6B8E23", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "deep-drop-shot-line-system",
+      "insight": "Palaniuk: 'Braided line has the most sensitivity compared to any other line — having 15-lb braid mainline to an 8-lb fluoro leader with a Crazy Alberto knot creates a nearly same-diameter connection that runs free through the guides'",
+      "conditions": { "fishDepth": "30-40ft" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fighting-deep-smallmouth",
+      "insight": "Palaniuk: 'Play a 4-5 pound smallmouth for 1-2 minutes before bringing it to the boat. When they jump, don't try to pull them down or you'll pull the hooks out. Pick them up by the belly like a football — they act paralyzed'",
+      "conditions": { "fishDepth": "deep" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "finesse-under-pressure",
+      "insight": "Palaniuk: 'The more fishing pressure the bass get, the more effective finesse fishing is with little baits, light line and spinning tackle'",
+      "conditions": {}
+    }
+  ]
+}

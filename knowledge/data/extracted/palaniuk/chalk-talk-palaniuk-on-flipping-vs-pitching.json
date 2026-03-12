@@ -1,0 +1,41 @@
+{
+  "source": "chalk-talk-palaniuk-on-flipping-vs-pitching.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'When pitching, start with the rod tip high, drop the tip so the bait swings forward, then raise back up with your wrist for distance — the bait should barely make a ripple hitting the water'", "priority": 7 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'When a fish bites, don't set the hook instantly — let them swim off. Set the hook cross-body to maximize power. Keep semi-slack line, never completely slack or completely tight'", "priority": 8 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Use the lightest weight possible, especially in silty bottoms — fish don't want to suck all that muck in. Don't peg the weight unless absolutely necessary; a free-sliding sinker gets more bites'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "flipping-pitching-line-selection",
+      "insight": "Palaniuk: 'In soft cover like grass, use braid. In harder cover like wood, use fluorocarbon because braid digs in. 22-lb Tatsu fluorocarbon is a good in-between — 20 is too light for big fish in heavy cover, 25 struggles with lighter weights'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-rod-reel-setup",
+      "insight": "Palaniuk: 'Use a 7ft 6in heavy-fast rod for leverage and control, with an 8.1:1 gear ratio reel. Offset the power loss from high gear ratio with a bigger 100mm handle with oversized knobs'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-bait-action",
+      "insight": "Palaniuk: 'Shake the bait in place using your forearm, not your wrist, to create subtle action while keeping it in the strike zone'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-vs-pitching-definition",
+      "insight": "Palaniuk: '90 percent of people say they're flipping but are actually pitching. Flipping uses a fixed amount of line, never releasing more. Pitching picks a target and creates a cast while releasing line'",
+      "conditions": {}
+    }
+  ]
+}

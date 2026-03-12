@@ -1,0 +1,48 @@
+{
+  "source": "try-palaniuk-s-1-2-punch-with-big-baits.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": {}, "tip": "Palaniuk: 'When bass react to a glidebait but won't fully commit, switch to a large jerkbait like the Kanata. It's a 1-2 punch — the big bait draws them, but the jerkbait's erratic dying action triggers the bite. You can create a much different action with a jerkbait that you can't create with a swimbait.'", "priority": 9 },
+        { "when": {}, "tip": "Palaniuk: 'Consistent movement triggers bites more than long pauses. Twitch-twitch-pause or single twitches where the bait is constantly moving away from the fish. If you pause for long periods, more fish turn away.'", "priority": 9 },
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'A bass's metabolism runs at a higher speed during summer so they burn more calories. If you give them a bigger meal while exerting the same amount of effort, you have a better chance to get bigger fish to trigger.'", "priority": 8 },
+        { "when": {}, "tip": "Palaniuk: 'The high-percentage area where most bites occur is within 10 feet of some piece of structure — grass clumps, rock piles, brush piles or rock.'", "priority": 8 },
+        { "when": {}, "tip": "Palaniuk: 'To get the bait down, make a super long cast and pull hard three times. Don't just reel — at a certain point reeling can prevent the bait from reaching maximum depth.'", "priority": 7 },
+        { "when": {}, "tip": "Palaniuk: 'I would rather that fish turn away and return to where it was than see the boat and get spooked. Don't dead-stick too close to the boat.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "species": "largemouth" }, "color": "Mat Shad", "hex": "#C8C0B0", "priority": 8 },
+        { "when": { "species": "smallmouth", "waterClarity": "clear" }, "color": "Pro Blue", "hex": "#1E3A5F", "priority": 7 },
+        { "when": { "species": "smallmouth", "waterClarity": "clear" }, "color": "HT Tennessee Shad", "hex": "#A8B8A0", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "jerkbait-cadence-forward-sonar",
+      "insight": "Palaniuk: 'All the things we thought were black-and-white rules about how to work a jerkbait during different times of year are not always the case. It doesn't always have to be a fast pace — you just have to read each fish. If you don't have forward-facing sonar, the general rule of thumb is move the jerkbait faster.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glidebait-jerkbait-combo",
+      "insight": "Palaniuk: 'Use a glidebait to draw fish and identify interest, then follow up with a large jerkbait to convert followers. The jerkbait has erratic dying action that glidebaits can't replicate, triggering bites from fish that won't fully commit to the swimbait.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "jerkbait-rod-reel",
+      "insight": "Palaniuk: 'I fish all jerkbaits on an Alpha Angler Slasher casting rod with a Daiwa 70-size reel and 12-pound Seaguar Tatsu fluorocarbon. The small reel palms well, reducing forearm fatigue.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "jerkbait-match-forage",
+      "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blue and HT Tennessee shad are good starting points.'",
+      "conditions": {}
+    }
+  ]
+}

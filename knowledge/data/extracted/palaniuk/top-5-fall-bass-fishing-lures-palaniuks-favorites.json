@@ -1,0 +1,19 @@
+{
+  "source": "top-5-fall-bass-fishing-lures-palaniuks-favorites.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-downsize-bait-theory",
+      "insight": "Palaniuk: 'In fall I operate under the theory that you downsize your baits. Baitfish born in spring have grown but are still smaller. These smaller baitfish school in large numbers making them easy pickings for bass. Downsizing to match the hatch ensures more consistent bites and might be your best shot at a true giant.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "fall-multiple-sizes",
+      "insight": "Palaniuk: 'Always have multiple sizes of baits in fall. A fish's mood can change day to day, even hour to hour. Having multiple offerings to present can pay off with extra bites throughout the day.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

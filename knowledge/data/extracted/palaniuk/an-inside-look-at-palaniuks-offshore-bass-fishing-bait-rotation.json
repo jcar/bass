@@ -1,0 +1,60 @@
+{
+  "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Start with a deep-diving crankbait on offshore schools. It covers the most water fastest and can fire up the school. The Rapala DT-16 gets thrown the most for 12-16 foot depths.'", "priority": 9 },
+        { "when": { "fishDepth": "12-16ft" }, "tip": "Palaniuk: 'You just have to adjust your crankbait selection to whatever you need to make sure you keep contact with the bottom. Bottom contact is crucial for cranking.'", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Neko rig is a last resort after working through crankbait, swimbait, spoon, and big worm on offshore schools.'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Drop shot is a last resort bait for offshore schools after exhausting reaction baits. Use it to pick off remaining reluctant fish.'", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "offshore-bait-rotation",
+      "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on electronics, 4) big worm dragged on bottom to soak bait, 5) neko rig or drop shot as last resort.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "school-fish-personality",
+      "insight": "Palaniuk: 'No two schools are the same, and no two fish in a school are the same. Each one is sitting down there with a little bit different personality. You have to figure out which bait pushes their buttons enough to get them to bite.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "horizontal-to-vertical-transition",
+      "insight": "Palaniuk: 'When you change from horizontal action (crankbait/swimbait) to vertical action (spoon), it makes fish react. There are two things that trigger a fish to react: a fleeing baitfish or a dying baitfish. You get both with the retrieve on a spoon.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "swimbait-after-crankbait",
+      "insight": "Palaniuk: 'After you burn a crankbait through and catch a few, the ones that dont want to bite kind of move out of the way and break up. A swimbait allows them to settle back in but still gives them a moving target to chase.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "spoon-landing-ratio",
+      "insight": "Palaniuk: 'I dont start with the spoon because the landing ratio is poor. Bass can gain leverage and throw the spoon on the jump or tear off underwater. But it triggers additional strikes once they slow down on crankbait and swimbait.'",
+      "conditions": {}
+    }
+  ]
+}

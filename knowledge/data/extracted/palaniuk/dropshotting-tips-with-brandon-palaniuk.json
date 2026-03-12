@@ -1,0 +1,14 @@
+{
+  "source": "dropshotting-tips-with-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Always have a drop shot rod rigged and ready regardless of where or how deep you're fishing or the species — it works for largemouth in brush piles at 8 feet just as well as deep smallmouth'", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": []
+}

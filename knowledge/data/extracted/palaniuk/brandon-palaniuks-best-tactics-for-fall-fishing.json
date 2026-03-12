@@ -1,0 +1,36 @@
+{
+  "source": "brandon-palaniuks-best-tactics-for-fall-fishing.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "Palaniuk: 'In October, fish a 1/2-ounce flipping jig around isolated cover in the backs of creeks and adjacent to channel swings with big flats. Target laydowns, single docks, shallow brushpiles, or any isolated targets.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall" }, "color": "wild craw", "hex": "#8B4513", "priority": 7 },
+        { "when": { "season": "fall" }, "color": "black and blue", "hex": "#1B1B3A", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-big-bait-rationale",
+      "insight": "Palaniuk: 'In fall, cooling temps trigger bass to feed heavily for winter and the spawn. Bass prefer to eat a bigger bait so they dont have to chase as much small bait. A big swimbait moves slowly through the water column so bass can track it easier. Thats why I start with a giant swimbait in October.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-flipping-jig-location",
+      "insight": "Palaniuk: 'In fall, bigger bass set up to ambush bait on isolated cover in creek backs and adjacent to channel swings with big flats. Match jig color to water color.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "gear",
+      "topic": "fall-flipping-jig-setup",
+      "insight": "Palaniuk: 'For flipping jig in fall: 7-foot-6 heavy-action Alpha Angler Hitter rod, Daiwa Steez A reel, 20-pound Seaguar Tatsu fluorocarbon line.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

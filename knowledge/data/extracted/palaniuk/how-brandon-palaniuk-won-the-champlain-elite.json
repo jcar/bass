@@ -1,0 +1,59 @@
+{
+  "source": "how-brandon-palaniuk-won-the-champlain-elite.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishDepth": "25-32 ft" }, "tip": "Palaniuk: 'For deep smallmouth on sand-to-rock transitions with isolated boulders, use 360 imaging boulder to boulder or follow rock veins, then look for fish on 2D sonar to drop on them.'", "priority": 8 },
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'When it slicked off calm, smallmouth positioned on more specific boulders or tighter to specific little rockpiles. When wind blew, they scattered more and bait pushed up on deeper flats.'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "fishDepth": "15-17 ft" }, "tip": "Palaniuk: 'A Neko rig has better odds of catching a largemouth or smallmouth than a dropshot -- generally largemouth want a bigger package.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-wind-bait-relationship",
+      "insight": "Palaniuk: 'When it slicked off, the bait would roam wherever in the lake. But when the wind blew it pushed bait to the edges of deep flats, and smallmouth would pull up and get on rocks and stuff on those flats.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "champlain-smallmouth-depth",
+      "insight": "Palaniuk: 'Fish were in 20-40 feet but 25-32 feet was where the flats set up and held the best average quality fish. Targeted sand-to-rock transitions with gravelly rock and giant isolated boulders.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-following-bait",
+      "insight": "Palaniuk: 'On the last day, realized smallmouth were just following bait across 40-foot sand flats. Made the decision to jump downwind to intercept the same group of fish again -- first drop caught almost a 4.5-pounder.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "gear",
+      "topic": "champlain-dropshot-tackle",
+      "insight": "Palaniuk: 'Dropshot: 3/8-oz VMC tungsten weight, #2 hook, 8-lb Tatsu fluoro leader (15 feet) to 15-lb Smackdown Flash Green braid. 15-lb braid is super small, 6-lb equivalent diameter.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-big-water-smallmouth",
+      "insight": "Palaniuk: 'Used LakeMaster charts to drive to spots -- based on contours could idle over a spot, see fish, and catch them almost every single stop. Spent the third practice day just driving and marking spots rather than fishing.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "glide-bait-handle-turn",
+      "insight": "Palaniuk: 'Standard glide bait retrieve is a 3/4 handle turn that pulls the bait to the side, then a 1/4 turn and stop, which allows it to glide.'",
+      "conditions": {}
+    }
+  ]
+}

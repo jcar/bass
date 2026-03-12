@@ -1,0 +1,49 @@
+{
+  "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "when-to-throw-big-baits",
+      "insight": "Palaniuk: 'First, there has to be a decent population of 4-pounders. Second, the bass need to be feeding on larger forage -- gizzard shad, trout, or perch. Third, fish should be in less than 10 feet of water for it to be consistently good, which favors February through May.'",
+      "conditions": { "season": "spring", "fishDepth": "< 10 ft" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "big-bait-seasonal-conditions",
+      "insight": "Palaniuk: 'In the spring you want more warm sunshine, maybe even calmer water, so it pushes big bass to docks and laydowns. In August, you might still want sunshine, but a little more wind or current will generally make things better.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "big-bait-size-adjustments",
+      "insight": "Palaniuk: 'A 7-inch glide is the sweet spot. With a 6-inch Magdraft you'll catch 2 and 3-pounders galore. Going up in size doesn't always mean less bites -- sometimes fish just want the most bang for their buck.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glide-vs-swimbait-action",
+      "insight": "Palaniuk: 'At Chickamauga, I had to switch from a 7-inch glide to the 8-inch Magdraft. The fish had switched from wanting a side-to-side action to something straight and more methodical.'",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "gear",
+      "topic": "swimbait-rod-and-line",
+      "insight": "Palaniuk: 'Uses 22-lb Seaguar Tatsu for big baits -- small diameter, high strength, and supple double structure. Suppleness is particularly important with glide baits because it allows them to be fluid. Most bites come on the pause, so if line coils up when you pull it, the lure won't look natural.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "swimbait-reel-choice",
+      "insight": "Palaniuk: 'Pairs the swimbait rod with a Daiwa Tatula 300 with 7.1:1 gear ratio -- faster than most would use, but the 110mm handle, bigger gears and oversized knobs make up for any loss in power. In tournaments, big bait casts are typically target-oriented, not long retrieves.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "big-bait-confidence-trigger",
+      "insight": "Palaniuk: 'At Champlain, one big-bait bite on the way to weigh-in gave me confidence to start on largemouths the next day. I saw a weather system coming in, so I tied on multiple swimbaits and glide baits.'",
+      "conditions": {}
+    }
+  ]
+}

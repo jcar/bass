@@ -1,0 +1,39 @@
+{
+  "source": "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "summer", "fishDepth": "20-40ft" }, "tip": "Palaniuk: 'When fishing deep smallmouth (20-40 feet) on boulders and rocks, hold the boat right on top of them and fish vertically with a drop shot on spinning tackle.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "four-unit-depth-finder-setup",
+      "insight": "Palaniuk: 'I use four Humminbird Solix 12 units: two on the console (left has mapping + 2D sonar, right has Mega side/down imaging) and two on the casting deck (one on Mega 360 imaging with mapping, one for waypoints). Split screen gives two views per unit.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "arch-reading-for-fish-size",
+      "insight": "Palaniuk: 'The width of the arches tells me how big the fish are, and the length shows how long the bass were in the sonar cone. The thickness of the arch determines the size of the fish.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-idling-strategy",
+      "insight": "Palaniuk: 'During the last days of practice I just idle around dropping GPS pins in areas rather than catching fish. I use mapping clarity and LakeMaster charts to dial in the pattern.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "open-mind-on-familiar-water",
+      "insight": "Palaniuk: 'Even on lakes I have fished many times, I keep an open mind and try not to fish the same places where I caught bass in past years. I keep tabs on water and weather conditions each day to determine where bass might be.'",
+      "conditions": {}
+    }
+  ]
+}

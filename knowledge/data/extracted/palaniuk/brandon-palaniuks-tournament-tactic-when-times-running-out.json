@@ -1,0 +1,47 @@
+{
+  "source": "brandon-palaniuks-tournament-tactic-when-times-running-out.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'When time is running out in a tournament, a jerkbait like the Rapala Shadow Rap is one of my go-to power baits to cover water quickly and find actively feeding bass'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "fishDepth": "shallow" }, "tip": "Palaniuk: 'When you need a quick bite, use a squarebill crankbait to fish shallow water thoroughly — cover water but don't rush the retrieve'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'A 1/2-ounce spinnerbait is a key power bait for covering water quickly when you need to find actively feeding bass fast'", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "last-minute-tactics",
+      "insight": "Palaniuk: 'With 15 minutes left and no keeper, don't rush — you still need to fish your lure thoroughly. Switch to power baits (jerkbait, crankbait, spinnerbait) to cover water efficiently but not frantically'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "time-management-near-ramp",
+      "insight": "Palaniuk: 'If you haven't had bites in a while, run to productive water closer to the boat ramp — being close to the ramp lets you push the clock longer and fish until the last possible moment'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "staying-calm-under-pressure",
+      "insight": "Palaniuk: 'You can't get in a hurry and attempt to force a bass to bite. Very rarely will you get a bite if you're rushing through your cast and working your bait faster than you should'",
+      "conditions": {}
+    }
+  ]
+}

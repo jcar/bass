@@ -1,0 +1,36 @@
+{
+  "source": "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "Palaniuk: 'When bass are in brushpiles in 7 feet of water with slimy grass on the bottom, use a drop shot with the worm 12 inches above the weight to keep the bait above the slime and avoid spooking fish.'", "priority": 9 },
+        { "when": { "season": "fall" }, "tip": "Palaniuk: 'On highly pressured bass, choose finesse techniques like drop shot even when you have been fishing heavy tackle all week.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall" }, "color": "green pumpkin blue", "hex": "#6B8E23", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-transition-versatility",
+      "insight": "Palaniuk: 'In the fall, plan to fish everything in your tackle box. Bass are moving between deep and shallow water. Not all bass will be on the same cover or depth at the same time. You must be willing to adapt and adjust to various water and wind conditions.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "electronics",
+      "topic": "humminbird-360-brush-detection",
+      "insight": "Palaniuk: 'I caught my biggest bass (7-12) by spotting a brushpile off to the side of my boat with the Humminbird Mega 360. I held my boat 50 feet away and cast a drop shot to it.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-santee-cooper-setup",
+      "insight": "Palaniuk: 'For the Santee Cooper drop shot, I used a green/pumpkin/blue X-Zone Deception Worm 12 inches above the weight on an Alpha Angler DSR 6-foot-10 medium rod with a Daiwa Exist 3000 reel.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

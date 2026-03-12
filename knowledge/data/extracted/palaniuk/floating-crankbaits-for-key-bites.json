@@ -1,0 +1,44 @@
+{
+  "source": "floating-crankbaits-for-key-bites.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "fishDepth": "< 6 ft" }, "tip": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the other side -- looks like a crawfish slowly scooting, acts like something between a normal crankbait and a football jig.'", "priority": 9 },
+        { "when": { "season": "spring" }, "tip": "Palaniuk: 'That small profile does make a difference in the spring. When they haven't really made their push to spawn, they'll eat a smaller bait better, especially when you're around northern-strain bass.'", "priority": 8 },
+        { "when": { "fishDepth": "< 6 ft" }, "tip": "Palaniuk: 'Use a 7.1:1 gear ratio reel when cranking shallow -- fish will push the bait and knock slack in the line. With a slower reel, you can't catch up to them.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "stained" }, "color": "Wild Craw (red crawfish)", "hex": "#8B2500", "priority": 7 },
+        { "when": { "waterClarity": "clear" }, "color": "Mat Craw II (matte crawfish)", "hex": "#6B3A2A", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "floating-crankbait-technique",
+      "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'",
+      "conditions": { "fishDepth": "< 6 ft", "season": "spring" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "red-crankbait-theory",
+      "insight": "Palaniuk: 'Red is the first color in the light spectrum to disappear. Bass and bait in the spring tend to be real milky or void of color. If you're looking for something muted, red, the first color to disappear, looks the most that way.'",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "gear",
+      "topic": "shallow-crankbait-line-choice",
+      "insight": "Palaniuk: '12-pound fluorocarbon is the optimal line for the Z2 -- the lure is sensitive to different diameters. There are occasions for 10 or 15, but 12 is the sweet spot.'",
+      "conditions": { "fishDepth": "< 6 ft" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "spring-cranking-targets",
+      "insight": "Palaniuk: 'Find the perfect mixture of a particular level of visibility mixed with a particular type of rock or rock transitions. Focus on areas where contours change from tight to wide, with something unique -- a laydown, small rockpile, or bottom composition change that concentrates the strike zone.'",
+      "conditions": { "season": "spring" }
+    }
+  ]
+}

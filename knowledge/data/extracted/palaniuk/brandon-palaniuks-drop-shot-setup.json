@@ -1,0 +1,14 @@
+{
+  "source": "brandon-palaniuks-drop-shot-setup.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "Palaniuk: 'Walks through his drop shot setup as a foundational technique for tournament bass fishing.'", "priority": 4 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": []
+}

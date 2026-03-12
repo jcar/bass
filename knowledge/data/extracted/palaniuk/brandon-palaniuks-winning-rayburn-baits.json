@@ -1,0 +1,68 @@
+{
+  "source": "brandon-palaniuks-winning-rayburn-baits.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "fishDepth": "18-28ft" }, "tip": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target trees with fish'", "priority": 9 },
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Use a 3/16-oz VMC Half Moon weight with a 1/0 weedless Neko hook for fishing nasty cover — expect to lose some fish but you get far more bites than with football jigs or big cranks'", "priority": 8 },
+        { "when": { "fishDepth": "18-28ft" }, "tip": "Palaniuk: 'Use 15-lb braid to 10-lb fluorocarbon leader on a 7-ft medium spinning rod for deep Neko rigging in cover'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "green pumpkin", "hex": "#6B8E23", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "fishDepth": "shallow" }, "tip": "Palaniuk: 'Throw a topwater walker on 40-lb braid with a medium rod that has a good tip — the braid requires a rod tip with enough give to walk the bait and create action'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "pro blue", "hex": "#003DA5", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "fishDepth": "18-30ft" }, "tip": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'", "priority": 8 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Use 1/2-oz tungsten flipping weight with VMC Sinker Stop, 5/0 heavy duty wide gap hook, 15-17lb fluorocarbon for Texas-rigged 10-inch worm in deep cover'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "fishDepth": "deep" }, "color": "plum", "hex": "#8E4585", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "transition-fish-location",
+      "insight": "Palaniuk: 'Big fish that haven't made the full transition to main summertime structure are singles or doubles on brushpiles or standing timber with a bottom composition change (mud to hard), on straight banks leading from spawning areas to points — a midway transition point'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "suspended-timber-fish",
+      "insight": "Palaniuk: 'Standing-timber fish sit in 18-28ft suspended 5-6ft off the bottom, relating to bottom composition changes even though they aren't on the bottom'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "straight-edge-principle",
+      "insight": "Palaniuk: 'The same principles applied from 4ft to 30ft: it had to have a good straight steeper edge close to a main channel — main-lake fish near the main river channel, grass fish near a creek channel'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "paralleling-edges",
+      "insight": "Palaniuk: 'Parallel the edges where grass falls off to a straight wall to keep the bait in the strike zone the longest — fish roam and sit on the edge for an ambush point'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "neko-rig-over-power-baits",
+      "insight": "Palaniuk: 'When marking fish on electronics that won't bite big cranks or football jigs, drop a Neko rig — the first fish was a 9+. When I kept it in my hand I could go to every single brushpile and catch one'",
+      "conditions": { "fishDepth": "18-28ft" }
+    }
+  ]
+}

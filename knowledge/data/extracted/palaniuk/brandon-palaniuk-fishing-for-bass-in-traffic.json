@@ -1,0 +1,25 @@
+{
+  "source": "brandon-palaniuk-fishing-for-bass-in-traffic.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "fishing-pressured-spots",
+      "insight": "Palaniuk: 'Dont hesitate to fish a spot just because another competitor fished it before you. Another smallmouth will start holding in that same site before long. Decisions on how long you fish and how quickly or slowly you move from spot to spot make the difference.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-rock-boulders",
+      "insight": "Palaniuk: 'Set up a milk run starting with 50 different rocks/boulders in the area with the most baitfish. Over the tournament, learn which rocks and boulders consistently hold good-sized smallmouths.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-roaming-vs-resident",
+      "insight": "Palaniuk: 'Some fish caught off rocks are resident fish, but a larger majority are roaming and following schools of baitfish like perch and alewives.'",
+      "conditions": {}
+    }
+  ]
+}

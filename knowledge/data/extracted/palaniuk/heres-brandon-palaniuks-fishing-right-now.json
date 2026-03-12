@@ -1,0 +1,41 @@
+{
+  "source": "heres-brandon-palaniuks-fishing-right-now.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "spring", "fishDepth": "4-6 ft" }, "tip": "Palaniuk: 'Balsa crankbaits have a great action for the spring because they are not super aggressive. Fish them on transitions and first breaks when bass are sitting in that 4-6 foot range.'", "priority": 7 },
+        { "when": { "season": "spring" }, "tip": "Palaniuk: 'A squarebill-style bait with a wider front end that tapers toward the back has been deadly around rock transitions. If you find any laydown or wood still in the water, it is almost a guarantee you will catch one.'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear", "season": "spring" }, "tip": "Palaniuk: 'Since it's a lot clearer than normal, this year has been even better for a jerkbait. Any time the water level is moving up or down, some fish tend to pull off the bank and suspend. That is where the jerkbait is so good.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "spring-low-water-cranking",
+      "insight": "Palaniuk: 'When water is still really low and clearer than normal in the spring, fish want to go shallow but there is nothing for them to get on -- they are just sitting and waiting on those transitions, the first breaks. Shallow crankbaits become the top producer.'",
+      "conditions": { "season": "spring", "waterClarity": "clear" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "northern-strain-big-baits",
+      "insight": "Palaniuk: 'When the water hits the upper 40s and low 50s, fish start getting more active and willing to eat a big bait. Northern strain bass get much more aggressive sooner in the year since they are used to living in a colder climate.'",
+      "conditions": { "season": "spring", "waterTemp": "upper 40s to low 50s" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glide-bait-same-areas-bigger-fish",
+      "insight": "Palaniuk: 'I fish the same areas that I throw a crankbait or jerkbait, but use the glide bait when I am after the really big ones.'",
+      "conditions": { "season": "spring" }
+    }
+  ]
+}

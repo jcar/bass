@@ -1,0 +1,36 @@
+{
+  "source": "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "isLowLight": true }, "tip": "Palaniuk: 'My favorite lure to start off the morning is a topwater walker. I can cover lots of water quickly, it creates a lot of commotion on the surface, and I can slow it down to keep it in the strike zone longer.'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "isLowLight": true }, "color": "green back white sides (IU)", "hex": "#4A7C59", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "isLowLight": true }, "tip": "Palaniuk: 'If bass wont come to the surface, switch to a jerkbait running 5-6 feet deep. Fish it quickly and make it move erratically to get a reaction strike. Also effective when schooling bass go down or quit hitting topwater.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "low-light-three-bait-system",
+      "insight": "Palaniuk: 'My low-light system: 1) topwater walker for aggressive fish and covering water, 2) jerkbait at 5-6 feet when bass wont surface, 3) weightless wacky-rigged stick bait as finesse to slow down for non-aggressive bass. Use all three early morning, late afternoon, and on cloudy/overcast days.'",
+      "conditions": { "isLowLight": true }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "wacky-rig-fork-tail-advantage",
+      "insight": "Palaniuk: 'A stick bait with a forked tail gives a slightly different action and more shimmy on the fall than regular stick baits. I believe it draws bass from further away. Rig it wacky on a No. 2 VMC hook.'",
+      "conditions": { "isLowLight": true }
+    }
+  ]
+}

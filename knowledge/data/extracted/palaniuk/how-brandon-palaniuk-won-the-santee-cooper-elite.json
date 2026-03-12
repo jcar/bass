@@ -1,0 +1,69 @@
+{
+  "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "waterClarity": "stained", "season": "summer" }, "tip": "Palaniuk: 'When water was dirty and topwater wouldn't work, picked up a Chatterbait and caught two good ones -- a 4 and a 3 -- around the only submerged vegetation within miles.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "stained" }, "color": "White", "hex": "#FFFFFF", "priority": 6 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishDepth": "6-7 ft" }, "tip": "Palaniuk: 'Found a brushpile on the Mega 360, flipped the dropshot in and caught a 7-12. When a big fish gets you in the brushpile, just hold your rod tight -- the bigger ones' head shakes are big enough to break branches and free themselves.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "GP Blue", "hex": "#4169E1", "priority": 6 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Caught a double on the jerkbait -- a 4 and a 2 on the same cast, then caught a 6. When fish are schooling near isolated stumps, rockpiles, and drops, a jerkbait can trigger multiple fish at once.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-tournament-research",
+      "insight": "Palaniuk: 'Took time to do research online, looking at areas that continually came up in past tournament results no matter what time of year. That way he knew a population of fish lived in that area, then could see how they were using those places that week.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "one-big-bite-strategy",
+      "insight": "Palaniuk: 'Strategy was to figure out how to get one big bite and then fill out a limit. That one big bite was a difference-maker for guys cutting checks. The guy who'd win would get 2-3 of those in a day vs just getting 1.'",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "rare-vegetation-value",
+      "insight": "Palaniuk: 'Read the entire vegetation management plan document to figure out where grass was and wasn't. Found only a 50-yard section of submerged grass. Because it was the only submerged stuff within miles, it held bait and fish. It wasn't far off the main lake so bigger fish could move in and out easily.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "santee-punch-rig-tackle",
+      "insight": "Palaniuk: 'Punch rig: Muscle Back Finesse Craw (black/blue), 3/0 VMC Heavy Duty Flippin Hook, 1.25-oz tungsten weight, VMC Sinker Stop, 65-lb Smackdown Stealth Grey braid, 7-foot 11-inch Heavy rod. Best mats were 1.5-3 foot hyacinth with giant salvinia blown up against them.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "santee-dropshot-tackle",
+      "insight": "Palaniuk: 'Dropshot at Santee: 6-foot 10-inch M rod, 15-lb Smackdown Flash Green braid to 10-lb Seaguar Gold Label fluoro, 1/4-oz VMC tungsten teardrop weight, #1 VMC Finesse Neko Hook, 6-inch Deception Worm (GP blue).'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "soft-swimbait-bottom-contact",
+      "insight": "Palaniuk: 'Cast the soft swimbait out and let it hit bottom. Reeled at a fairly decent pace in 4-6 feet of water, trying to keep it right on the bottom and bounce it off shell or stumps. When it deflected off something, he'd get bites.'",
+      "conditions": { "fishDepth": "4-6 ft" }
+    }
+  ]
+}

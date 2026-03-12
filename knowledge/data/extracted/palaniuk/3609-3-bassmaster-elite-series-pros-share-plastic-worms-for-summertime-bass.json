@@ -1,0 +1,29 @@
+{
+  "source": "3609-3-bassmaster-elite-series-pros-share-plastic-worms-for-summertime-bass.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'I stick with a pretty standard summer setup. A 10-inch Power Worm in plum color with a 1/2-ounce tungsten weight and 4/0 worm hook. Fish offshore targeting shell bars or brushpiles.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "plum", "hex": "#8E4585", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "10-inch-worm-summer-setup",
+      "insight": "Palaniuk: 'Uses a 7-foot-6 medium-heavy Abu Garcia Fantasista Regista rod with Revo MGXtreme reel spooled with 15-pound Trilene 100% fluorocarbon for summer worming.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "summer-worm-targets",
+      "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

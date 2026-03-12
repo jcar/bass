@@ -1,0 +1,38 @@
+{
+  "source": "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'The jerkbait has had a huge resurgence with forward-facing sonar — it's easily tracked on screen and can be effective sitting still, and FFS helps you dial in the right cadence'", "priority": 7 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Add SuspenDots or SuspenStrips toward the front of the bait to make it suspend at the right depth — the same lure may require different weighting in different water temperatures'", "priority": 8 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'All the action is in your wrist — create slack in the line on the twitch, then throw the rod back to the initial position. Use a shorter 6ft 10in medium rod to control the bait without slapping the water'", "priority": 8 },
+        { "when": { "season": "cold" }, "tip": "Palaniuk: 'If pausing the jerkbait for more than 8 seconds, switch from fluorocarbon to 8-10lb monofilament — mono keeps a direct line to your bait instead of sinking'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": "any" }, "color": "mossback shiner", "hex": "#8B9A6B", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "jerkbait-line-choice",
+      "insight": "Palaniuk: 'Use 10-12lb Tatsu fluorocarbon for jerkbaits which sinks and helps the bait stay down, but switch to 8-10lb monofilament when pausing more than 8 seconds to keep a direct line to the bait'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-jerkbait-efficiency",
+      "insight": "Palaniuk: 'Aim Mega Live at your jerkbait even when blind casting to follow it back and see how fish react — it makes you much more efficient and helps dial in the right cadence for the day'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "match-the-hatch-jerkbait",
+      "insight": "Palaniuk: 'Match the hatch in terms of size and color with jerkbaits. Want the lure to sit right above the bass or at their level — adjust suspension with SuspenDots placed toward the front'",
+      "conditions": {}
+    }
+  ]
+}

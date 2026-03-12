@@ -1,0 +1,44 @@
+{
+  "source": "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [],
+      "colorRules": [
+        { "when": { "season": "fall", "region": "south" }, "color": "Blueback Herring", "hex": "#7B9EBF", "priority": 8 },
+        { "when": { "season": "fall", "region": "north" }, "color": "Green Gill", "hex": "#5B7A3D", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [],
+      "colorRules": [
+        { "when": { "season": "fall", "region": "south" }, "color": "Pro Blue", "hex": "#1E3A5F", "priority": 8 },
+        { "when": { "season": "fall", "region": "north" }, "color": "Ayu", "hex": "#C4B896", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [],
+      "colorRules": [
+        { "when": { "season": "fall", "region": "south" }, "color": "Blueback Herring", "hex": "#7B9EBF", "priority": 8 },
+        { "when": { "season": "fall", "region": "north" }, "color": "HD Live Bluegill", "hex": "#5B8C3A", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "fall-color-north-vs-south",
+      "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go more towards greenish hues, often with vertical bars to imitate perch.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-baitfish-transition",
+      "insight": "Palaniuk: 'Fall is when the difference between primary forage up north vs down south is most noticeable. The baitfish start to make their fall transitions, with bass soon to follow or already set up and waiting.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

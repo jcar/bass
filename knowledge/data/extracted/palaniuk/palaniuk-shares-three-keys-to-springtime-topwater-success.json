@@ -1,0 +1,31 @@
+{
+  "source": "palaniuk-shares-three-keys-to-springtime-topwater-success.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": "spring", "spawnStage": "pre-spawn/spawn" }, "tip": "Palaniuk: 'Any time the bass are around that time of their spawn, they can't stand bluegill. I chose a popper because I wanted it to stay in their strike zone for as long as possible, but still have a lot of action — enough disturbance to draw bass but not so much it spooks fish in shallow water.'", "priority": 9 },
+        { "when": { "season": "spring" }, "tip": "Palaniuk: 'Be patient. A lot of times you can go too fast and the fish end up following your bait but they can never commit and catch up to it. Take your time and really work the bait in the strike zones where you think fish may be holding.'", "priority": 8 },
+        { "when": { "season": "spring" }, "tip": "Palaniuk: 'If you have a rod that's too stiff you end up moving the bait and lose action. If the rod is too long, you can hit the water when casting. I go with a shorter 6-foot 10-inch Medium rod for topwater.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "season": "spring", "spawnStage": "pre-spawn/spawn" }, "color": "Bluegill", "hex": "#5B8C3A", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "topwater-patience-spring",
+      "insight": "Palaniuk: 'If you slow down and work topwater in the strike zones, you'll get more bites and the bites you do get hook up a lot better.'",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "gear",
+      "topic": "topwater-rod-selection",
+      "insight": "Palaniuk: 'The right rod for topwater needs a good backbone and a good light tip that allows you to control the bait very well. That creates a system where you can stay in the strike zone and take your time.'",
+      "conditions": {}
+    }
+  ]
+}

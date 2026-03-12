@@ -1,0 +1,36 @@
+{
+  "source": "my-three-favorite-river-baits-with-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "structure": "river" }, "tip": "Palaniuk: 'One of the reasons most professional anglers will choose a jig for river fishing is because there are few places you can't fish a jig successfully. You can slow it down and crawl it on the bottom, speed it up and swim it over grass, through lily pads and around trees and stumps, or flip it into dense cover.'", "priority": 7 },
+        { "when": { "structure": "river" }, "tip": "Palaniuk: 'Change the style and color of the trailer on the back of the jig and switch the skirt or head color to modify the jig for any type of cover, structure or water depth.'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "structure": "river" }, "tip": "Palaniuk: 'A crankbait is appropriate anytime you're fishing rocks, wood, underwater grass, points and ledges on a river. A self-tuning line tie makes it easy to swim around or through cover.'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "structure": "river" }, "tip": "Palaniuk: 'I can fish a spinnerbait successfully in current, through eddy breaks, along wing dams, over and through log jams and in almost any other type of structure or cover on a river.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "river-bait-versatility",
+      "insight": "Palaniuk: 'For river fishing, I want a lure that will be appropriate for the type of cover I expect to find. My top three are a jig, crankbait, and spinnerbait because each can be fished in nearly any river situation.'",
+      "conditions": { "structure": "river" }
+    }
+  ]
+}

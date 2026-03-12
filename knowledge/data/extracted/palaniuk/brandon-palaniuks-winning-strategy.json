@@ -1,0 +1,25 @@
+{
+  "source": "brandon-palaniuks-winning-strategy.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "culling-with-balance-beam",
+      "insight": "Palaniuk: 'Use a balancing beam to compare your smallest livewell fish against each new catch — whichever side goes down stays, the other goes back. Knowing your exact weight is a real secret to winning'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "species-commitment",
+      "insight": "Palaniuk: 'I dedicated myself to catching five big smallmouths each day rather than splitting time between largemouth and smallmouth. Consistent 19-20 pound bags beat the gamble of one big largemouth bite per day'",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "smallmouth-rock-rotation",
+      "insight": "Palaniuk: 'Fish an 8-mile stretch moving between rock piles and boulders — build confidence on spots that reload with big smallmouths daily. I had 50 spots and was sure to catch a 4-pounder on 20 of them'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source": "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "isStained": true }, "tip": "Palaniuk: 'A white bladed jig shows up better when the water is dirty or stained. Fish it on flats with scattered grass and stumps.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "isStained": true }, "color": "white", "hex": "#FFFFFF", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "isStained": true }, "tip": "Palaniuk: 'Fish a jerkbait on stained-water flats with scattered grass and stumps alongside a bladed jig for a complementary pattern.'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "Palaniuk: 'Punch hyacinths and salvinia mats with a 1-1/4 oz sinker and 3/0 VMC Heavy Duty Flipping Hook in 4-6 foot water during the late summer/fall transition.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall" }, "color": "black blue laminate", "hex": "#1B1B3A", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "fall-transition-mat-fishing",
+      "insight": "Palaniuk: 'During the late-summer/fall transition, bream and shad hold around and under grass mats. Bigger largemouths are ambush feeders and move under those mats for a safe haven and to locate ambush points.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "gear",
+      "topic": "mat-punching-setup",
+      "insight": "Palaniuk: 'For punching mats, use a 7-foot-9 extra heavy Alpha Angler Mag Hitter rod with Daiwa Zillion HD 7.3:1 reel. The X-Zone Muscle Back Finesse Craw in black-blue-laminate with 1-1/4 oz weight gets through heavy mats.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

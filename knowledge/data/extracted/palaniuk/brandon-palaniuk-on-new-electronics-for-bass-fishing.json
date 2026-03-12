@@ -1,0 +1,25 @@
+{
+  "source": "brandon-palaniuk-on-new-electronics-for-bass-fishing.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "humminbird-360-scanning-range",
+      "insight": "Palaniuk: 'I set my Humminbird 360 to scan about 150 feet all the way around the boat because thats a little past the distance I can cast. I constantly see bottom and structure in front, to either side, and behind me to determine where to make my next cast.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-for-baitfish",
+      "insight": "Palaniuk: 'When hunting baitfish in fall, use Mega Side Imaging which looks 200 feet from the boat. I can see baitfish, how bass are positioned relative to the school, and which direction the bass are following. I can tell which end is the head and tail to know which end to present the bait to.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "electronics",
+      "topic": "360-isolated-targets",
+      "insight": "Palaniuk: 'With the 360, I can mark isolated targets I may not have seen with just down scan or side scan. I can even see behind my boat and pinpoint structure that I missed. I can remain on a creek channel or river ledge much better.'",
+      "conditions": {}
+    }
+  ]
+}

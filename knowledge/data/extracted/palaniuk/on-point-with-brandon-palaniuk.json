@@ -1,0 +1,39 @@
+{
+  "source": "on-point-with-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": "smallmouth", "fishDepth": "20-35ft" }, "tip": "Palaniuk: 'Use 6-pound fluorocarbon leader to 8-pound braid. The light line lets the bait move with a more natural action and bass won't notice the line when you drop a bait in front of them.'", "priority": 9 },
+        { "when": { "species": "smallmouth", "fishDepth": "20-35ft" }, "tip": "Palaniuk: 'Make short 10- to 15-foot pitches, let the weight sink to the bottom, then move your boat up to the bait. Keep eyes on the graph — when you spot a fish, drop your bait directly to it.'", "priority": 9 },
+        { "when": { "species": "smallmouth" }, "tip": "Palaniuk: 'Hold the handle of your rod up in front of your face and point the rod tip almost straight down at the water. This prevents wind from bagging the line and stalling the bait's fall.'", "priority": 8 },
+        { "when": { "species": "smallmouth" }, "tip": "Palaniuk: 'I caught 90 percent of my bass after I first saw them on my graph. They were typically 2 to 3 feet above the bottom.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "species": "smallmouth", "waterClarity": "clear" }, "color": "Clear Silver Shiner", "hex": "#C0C0C0", "priority": 8 },
+        { "when": { "species": "smallmouth", "waterClarity": "clear" }, "color": "Green Pumpkin", "hex": "#8B7D3C", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "2d-sonar-for-smallmouth",
+      "insight": "Palaniuk: 'I couldn't see many bass in down scanning mode while idling, but when I used my bow graph set on 2D sonar in 2X bottom scan mode, I could see individual smallmouths near the bottom.'",
+      "conditions": { "species": "smallmouth", "fishDepth": "20-35ft" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "points-near-spawning-flats",
+      "insight": "Palaniuk: 'I looked for the largest spawning areas near deep water and the best smallmouth habitat. The bass were on points and steep drops near those points in 20 to 35 feet. They were relating to sand and gravel seams on some spots and boulders on others.'",
+      "conditions": { "species": "smallmouth", "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-tracking-bait-on-sonar",
+      "insight": "Palaniuk: 'I often watched a bass on my graph move up to my bait as it was sinking and then followed it to the bottom. Whenever that happened, a strike was almost sure to follow.'",
+      "conditions": { "species": "smallmouth" }
+    }
+  ]
+}

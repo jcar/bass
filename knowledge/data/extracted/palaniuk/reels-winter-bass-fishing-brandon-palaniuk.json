@@ -1,0 +1,40 @@
+{
+  "source": "reels-winter-bass-fishing-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "Palaniuk: 'I like a smaller 70-size reel frame for jerkbaits. It palms much better and you'll notice less forearm fatigue fishing all day. Even though a 100-size reel is not much bigger, I notice a big difference.'", "priority": 7 },
+        { "when": { "season": "winter" }, "tip": "Palaniuk: 'I always start the season with a 7.1:1 gear ratio and then go faster later into spring. On a 70-size reel, even an 8.1:1 is not too fast for a jerkbait because the smaller spool doesn't take up as much line per handle turn.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "winter-reel-jerkbait",
+      "insight": "Palaniuk: 'For winter jerkbaits, use a smaller 70-size reel with 7.1:1 gear ratio in cold water, then bump up to 8.1:1 as it warms into spring. The smaller spool means even a faster ratio isn't too fast.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-reel-jighead-minnow",
+      "insight": "Palaniuk: 'For jighead minnow in winter, I use a 3000-size spinning reel. Smoothness of the drag from start to finish is critical, and the smoothness of the retrieve impacts your technique, especially when constantly shaking your rod and reeling in slack.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-reel-cranking",
+      "insight": "Palaniuk: 'For winter cranking, I prefer a 7.1:1 gear ratio with Hyperdrive gears. Since you usually retrieve a crankbait fairly slowly in winter, smooth gears let you feel everything your crankbait is doing. You can lose sensitivity if gears are not smooth.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-punching-vegetation",
+      "insight": "Palaniuk: 'If you can still find vegetation in winter, get there as fast as possible. On places like Okeechobee, big prespawn females will be under those mats. Use a heavy-duty reel with bigger spool, handles, and gears to winch big ones out of cover.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Blade Bait",
+      "tipRules": [
+        { "when": { "fishDepth": "> 20 ft" }, "tip": "Palaniuk: 'Snap your rod and it will dart a foot or two off to the right and then continue falling fast. Snap it again and it might dart two feet back to the left, or forwards, or backwards. For fish that are in a negative, inactive mood, that erratic action triggers a feeding response.'", "priority": 8 },
+        { "when": { "fishDepth": "> 20 ft" }, "tip": "Palaniuk: 'Start with the bait right in the fish's face -- drop it 4-5 inches above the fish. Rip it up and let it fall right back into his face or right below. If that doesn't work, go slightly above them so the bait is dropping a foot within their head.'", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "jigging-rap-tackle",
+      "insight": "Palaniuk: 'Uses a 7-foot medium-action spinning rod, spinning reel with 8-lb Nanofil to 8-lb fluorocarbon leader. Ties on a snap swivel to prevent line twist and give the Jigging Rap more freedom -- the smaller the swivel the better, as large snaps may get caught in the lure's hooks.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "vertical-jigging-sonar-use",
+      "insight": "Palaniuk: 'Uses Humminbird to position the boat over individual fish, then drops the lure into its strike zone. Watching the screen shows lure depth and fish response, which helps refine tactics to trigger a reaction strike.'",
+      "conditions": { "fishDepth": "> 20 ft" }
+    }
+  ]
+}

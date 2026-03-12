@@ -1,0 +1,63 @@
+{
+  "source": "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": "summer", "fishDepth": "shallow" }, "tip": "Palaniuk: 'In late summer upriver sections, cast topwater at a 45-degree angle to current — bass hold just off the current behind structure. Bring the lure right beside the cover so it's right over top of the bass'", "priority": 8 },
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Use 40-lb braid mainline to a 20-lb monofilament leader for topwater walkers'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "pearl white shad", "hex": "#F5F5DC", "priority": 7 },
+        { "when": { "season": "summer" }, "color": "bluegill pattern", "hex": "#4A7C59", "priority": 6 }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "fishDepth": "20-45ft", "season": "summer" }, "tip": "Palaniuk: 'Texas-rig a 10-inch worm with 5/0 EWG hook and 3/8-1/2oz tungsten on 15-lb fluorocarbon. Cast past the cover and drag the worm into it — lift over brush pile limbs and drop back to bottom'", "priority": 8 },
+        { "when": { "fishDepth": "deep", "season": "summer" }, "tip": "Palaniuk: 'When fishing deep with a 10-inch worm, many times you won't feel a bite — the line will just feel heavy as the bass inhales the worm and starts to swim off'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "fishDepth": "deep" }, "color": "plum", "hex": "#8E4585", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'For punching thick matted grass, use a 1.5-oz tungsten weight Texas-rigged with 4/0 straight-shank hook. Free spool until hitting bottom, then hop two or three times before reeling in'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "California 420", "hex": "#8B7355", "priority": 7 },
+        { "when": { "season": "summer" }, "color": "sprayed grass", "hex": "#567D46", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "late-summer-bass-location",
+      "insight": "Palaniuk: 'Late August and early September are the worst times for most anglers. Bass need cooler, well-oxygenated water — find it in three places: water running into the lake (upper river/creeks), deep cover (brush/rock piles), and thick vegetation providing shade'",
+      "conditions": { "season": "summer", "waterTemp": "hot" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "current-ambush-points",
+      "insight": "Palaniuk: 'Bass hold just off the current behind structure — trees in the water, rock piles coming up off the bottom, or other cover that breaks the current'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "healthy-vegetation-oxygen",
+      "insight": "Palaniuk: 'Find good, healthy, green vegetation that looks vibrant — it produces the most oxygen and shade for bass and baitfish. The thickest part of the grass that makes a canopy over the water is where bass hold'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "frog-walking-on-grass",
+      "insight": "Palaniuk: 'Walk the frog on top of thick grass to get bass to blow through it, or fish it on edges and points of the grass. Walk it 90% of the time like a Zara Spook'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

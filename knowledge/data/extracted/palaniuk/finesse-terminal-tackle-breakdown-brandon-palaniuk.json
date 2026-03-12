@@ -1,0 +1,42 @@
+{
+  "source": "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Use the Neko Rig for offshore locations and the same places you'd fish a drop shot — it gives fish a different look even with the same worm and keeps the bait right on the bottom with great action'", "priority": 7 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Use a VMC Half Moon weight for the Neko Rig — it creates better falling action than the standard nail weight. The standard weight makes the bait glide more, which can also be good at times'", "priority": 7 },
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Use a Size 1 weedless Neko hook since you're always around some type of cover when fishing a Neko Rig'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "any" }, "tip": "Palaniuk: 'Start with a Size 1 Finesse Neko hook for drop shot and go bigger or smaller depending on the worm. Use a tungsten teardrop weight — it gives the best feel and hangs up less than ball shape and causes less line twist than cylinder style'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-vs-neko-situations",
+      "insight": "Palaniuk: 'Prefer wacky rig over Neko mainly when fishing shallow around docks or laydowns or when fish are suspended under deeper docks. Use Crossover Rings to quickly switch between Neko and wacky by pulling the weight out and switching hook direction'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "damiki-rig-application",
+      "insight": "Palaniuk: 'The Damiki Rig (jighead with fluke-style bait) works best when fish are in a negative mood or suspended 25-30ft off the bottom, or locked to cover. The bait just sits there and piques their curiosity because it's doing nothing'",
+      "conditions": { "waterTemp": "cold" }
+    },
+    {
+      "category": "gear",
+      "topic": "damiki-rig-jighead",
+      "insight": "Palaniuk: 'Use a 1/4 or 3/8-oz Neon Moon Eye Jig Head for the Damiki Rig — originally designed for walleye but the bait sits perfectly horizontal at rest and the lighter wire hook hooks fish well even when they're just nipping'",
+      "conditions": { "fishDepth": "25-30ft" }
+    }
+  ]
+}

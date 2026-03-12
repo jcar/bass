@@ -1,0 +1,36 @@
+{
+  "source": "best-drop-shot-rig-setups-palaniuks-a-list.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "Palaniuk: 'Use teardrop-style weights exclusively for drop shot due to snag resistance and bottom telegraphing. Start light and go progressively heavier as drop speed and water depth demand.'", "priority": 8 },
+        { "when": {}, "tip": "Palaniuk: 'A single well-balanced rod delivers all drop shot setups. Vary only the leader size/length, hook style, plastics, and weight shape/size.'", "priority": 7 },
+        { "when": { "fishDepth": "shallow" }, "tip": "Palaniuk: 'Use a shorter 2-4 inch plastic for shallow or pressured drop shot situations with a nose-hooked presentation.'", "priority": 7 },
+        { "when": { "fishDepth": "deep" }, "tip": "Palaniuk: 'Use a longer 6-7 inch worm threaded on the hook for deeper drop shot applications.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "drop-shot-setup-nose-hook",
+      "insight": "Palaniuk: 'Setup 1 (nose-hooked): X-Zone 4-inch Original Slammer, VMC Drop Shot Hook size 2, VMC Tungsten Teardrop weight 1/8 to 3/4 oz, 6-foot-10 medium Alpha Angler DSR spinning rod, Daiwa Exist 3000, 15-lb Seaguar Smackdown braid to 6-12 lb Seaguar Gold Label fluoro leader.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-setup-threaded",
+      "insight": "Palaniuk: 'Setup 2 (threaded): X-Zone 6-inch MB Fat Finesse Worm, VMC Finesse Neko Hook size 2, VMC Tungsten Teardrop weight 1/8 to 3/4 oz, same rod/reel, 15-lb Smackdown braid to 6-12 lb Seaguar Tatsu fluoro leader.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "drop-shot-versatility",
+      "insight": "Palaniuk: 'Drop shot can be fished shallow to deep, in open water or around cover, and in clear or dingy water by making slight changes to leader length, hook style, plastics, and weight size.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "video-spotted-bass-in-clear-water-palaniuks-strategy.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-spotted-bass",
+      "insight": "Palaniuk: 'With forward-facing sonar, look at the distance between head and tail on screen — greater separation often signals a better-quality fish. This allows prioritizing casts and staying efficient, targeting the right fish.'",
+      "conditions": { "species": "spotted bass", "waterClarity": "clear" }
+    },
+    {
+      "category": "electronics",
+      "topic": "mega-live-scanning-angles",
+      "insight": "Palaniuk: 'Make small, deliberate trolling motor movements to get multiple angles on key cover. Small changes in viewing angles may reveal hidden limbs, isolated fish, or changes in bottom composition.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "spotted-bass-grouping-by-size",
+      "insight": "Palaniuk: 'Spotted bass often group by size, varying from section to section. Recognizing these patterns lets you shift quickly between areas and be selective.'",
+      "conditions": { "species": "spotted bass" }
+    }
+  ]
+}

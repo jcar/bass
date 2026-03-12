@@ -1,0 +1,69 @@
+{
+  "source": "going-against-the-grain-palaniuks-big-bait-theory.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'When pre-spawners are traveling in packs of 3-5 fish, constantly hunting and moving up and down in the water column, a crankbait allows you to fish where they're hunting with repetitive casts to trigger bites. A lot of times it was a reaction bite, fast reeling then stop and go.'", "priority": 8 },
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'Constantly change retrieves every 5-6 casts. Erratic speeds are what trigger them, even if it changes fish to fish.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "tannic" }, "color": "Sexy French Pearl", "hex": "#E8D5C4", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'The Big-M 4.0 has a really fluid swimming action with a lot of flash and roll -- less intrusive than big hard-wobbling cranks. Key when it's calm or just a tiny ripple. A big profile combined with big action can be too obnoxious and turn off bites.'", "priority": 8 },
+        { "when": { "waterClarity": "tannic" }, "tip": "Palaniuk: 'In tannic water, flash aids in fish finding the lure. The subtle roll and flash of the Big-M 4.0 did it better than a crazy hard wobbling crank.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "tannic" }, "color": "PM Strike Chartreuse", "hex": "#DFFF00", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'The Kanata has high flash and is pretty loud, creating a lot of drawing power. It's easier to change speed than with a crankbait -- when you stop it, a crankbait floats up, but a weighted-to-suspend jerkbait sits as long as you want.'", "priority": 8 },
+        { "when": { "season": "pre-spawn" }, "tip": "Palaniuk: 'Start slower until you gauge the mood of the fish. Go slow because you don't want to spook them -- you want to surprise them and have a positive reaction. The aggressiveness of the fish determines how erratic you want to be.'", "priority": 8 },
+        { "when": { "fishDepth": "< 10 ft" }, "tip": "Palaniuk: 'When fish push bait toward the surface, mimic that by twitching upward -- change rod angle to twitch up. That makes the bait look like it's about to get eaten. When they see it escaping, they hit another gear. As bait approaches surface, go back down with it and that's when the bite happens.'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "tannic" }, "color": "Kameyama Ghost Pearl", "hex": "#F0EDE6", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "pre-spawn-stability-selection",
+      "insight": "Palaniuk: 'As fish progress toward the spawn, you want things to be as stable as possible. On large waters, wind might be the biggest factor. On rivers, it might be water levels and current. Find the places that are most stable and least affected by conditions.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "crankbait-vs-jerkbait-by-fish-position",
+      "insight": "Palaniuk: 'If fish are high in the water column, pick up a jerkbait. If they're toward the bottom, pick up a crankbait. Use forward-facing sonar to see where fish are positioned and choose accordingly.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "gear",
+      "topic": "big-crankbait-line-choice",
+      "insight": "Palaniuk: 'Throws the Big-M 4.0 on 15-lb Tatsu fluorocarbon -- 15 is the perfect balance of diving ability and action, though not a stretch to go to 20. Uses 12-lb Tatsu with the Kanata and mid-depth crankbaits as his go-to mid-depth zone line.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-lure-selection",
+      "insight": "Palaniuk: 'Used Humminbird MEGA Live 2 not to target specific fish but to scan around and see where fish were showing up in groups. If seeing them high in the water column, he knew which bait to pick up. If toward the bottom, he'd pick a crankbait.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "crankbait-rod-popping",
+      "insight": "Palaniuk: 'I was popping the rod almost like stroking a jig. The crankbait was trying to dive but the line was pulling up at the same time -- like a teeter-totter or a bull bucking. I don't think that fish would have hit otherwise.'",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

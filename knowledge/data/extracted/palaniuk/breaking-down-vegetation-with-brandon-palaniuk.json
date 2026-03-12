@@ -1,0 +1,66 @@
+{
+  "source": "breaking-down-vegetation-with-brandon-palaniuk.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Use a vibrating jig with 15-lb fluorocarbon to cover submerged grass lines — go up to 17 or 20-lb in shallower thick grass'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'Pitch a 1/2-oz to 1-oz jig into deep milfoil to replicate the punching approach in deeper water — use 50-lb braid to 20-lb fluorocarbon leader'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'For punching matted vegetation, use 65-lb braid with a big tungsten weight, creature bait, and stout hook — smoothness of braid is crucial for quiet presentations in close quarters'", "priority": 8 },
+        { "when": { "season": "summer" }, "tip": "Palaniuk: 'When punching mats, free spool until the weight hits bottom, then hop the bait two or three times before reeling in and casting to the next thick mat'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "matted-vegetation-keys",
+      "insight": "Palaniuk: 'Look for a mixture of different grass types in mats — different species grow and die at different rates creating better canopy. Always seek out the cleanest, greenest grass which produces more oxygen and is crucial in summer'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "vegetation-temperature-shelter",
+      "insight": "Palaniuk: 'Matted vegetation provides warmth for bass early and late in the year and helps them cool down in summer — no other type of cover can do that'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "standing-vegetation-clues",
+      "insight": "Palaniuk: 'In reeds and cattails, focus on places where they create little debris mats — grass blown in, or where some have folded over. Also look for tighter clumps and areas where contour lines show quick access to deeper water'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "lily-pad-technique",
+      "insight": "Palaniuk: 'In lily pads, look for tight clumps and pay attention to where you flip so the line doesn't get in the cracks between pad stems — braid slices through pads but stems and stalks hang you up'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "submerged-grass-keys",
+      "insight": "Palaniuk: 'In hydrilla and milfoil, use contour lines to find where bottom tightens from deep to shallow or makes a point in the grass. A harder edge congregates fish better than sparse grass — find subtle points or ditches in the grass'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "gear",
+      "topic": "frog-braid-casting-distance",
+      "insight": "Palaniuk: 'Drop to 50-lb braid for frog fishing on thin cheese mats — the smaller pound test gives much better casting distance and helps in pressured areas. If you can cast farther than others, you reach unpressured fish in the back of the mats'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "late-fall" }, "tip": "Palaniuk: 'Big fish are usually in the back half of creeks and pockets at this time. I especially like flatter pockets that still have a decent channel running through them. Fish the jig in isolated cover — it's usually visible stuff.'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "clear" }, "color": "Wild Craw / Green Pumpkin", "hex": "#8B7D3C", "priority": 8 },
+        { "when": { "waterClarity": "stained" }, "color": "Black and Blue", "hex": "#1A1A3E", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "late-fall" }, "tip": "Palaniuk: 'The great thing about a drop shot any time of year, but especially now, is how versatile it is. You can fish it shallow around isolated wood, then quickly shift to deeper ledges and rock, and switch again to shallow.'", "priority": 7 },
+        { "when": { "season": "late-fall" }, "tip": "Palaniuk: 'I rig weedless with a VMC No. 1 Finesse Neko Hook — to me, this is the best hook for this style of fishing. Leader strength depends on cover: 6-, 8-, or 10-pound fluorocarbon.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "late-fall" }, "color": "Green Pumpkin with Red Flake / Blue Laminate", "hex": "#6B7A3C", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "big-bass-late-fall-feeding",
+      "insight": "Palaniuk: 'The largest bass prefer cooler water. During late fall, they get more active since the water is cooling and shorter days trigger them to feed more. Big bass are very efficient at eating an easy, large meal. They usually won't waste a lot of energy chasing something down.'",
+      "conditions": { "season": "late-fall" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "late-fall-glide-bait",
+      "insight": "Palaniuk: 'A glide bait's slow side-to-side motion has drawing power that will pull fish out of deeper water and cover like submerged brush piles or bluff ends. You can fish it fast or slow with 3/4-turns and a pause. Definitely a big fish bait.'",
+      "conditions": { "season": "late-fall" }
+    },
+    {
+      "category": "gear",
+      "topic": "glide-bait-setup",
+      "insight": "Palaniuk: 'For glide baits, use a 7-foot-9 mag/heavy action rod paired with 20-pound Seaguar Tatsu fluorocarbon. You want some shock absorption when fishing this bait.'",
+      "conditions": {}
+    }
+  ]
+}

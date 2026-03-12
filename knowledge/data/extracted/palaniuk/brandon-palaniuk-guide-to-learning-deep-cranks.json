@@ -1,0 +1,48 @@
+{
+  "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "Palaniuk: '95% of the time a deep crankbait needs to hit the bottom or structure to create strikes. Pick crankbaits that dive a little deeper than the bottom you are fishing.'", "priority": 9 },
+        { "when": { "fishDepth": "14-15ft" }, "tip": "Palaniuk: 'If fishing 14-15 foot bottom, throw a DT16. If 18-19 feet, use a DT20. Those dive just deeper than the bottom depths.'", "priority": 9 },
+        { "when": {}, "tip": "Palaniuk: 'The DT Series gets to its depth quickly so most of the cast is in the strike zone. Instead of 80 feet to reach max depth, DT gets there after 20-30 feet of retrieve.'", "priority": 8 },
+        { "when": {}, "tip": "Palaniuk: 'Spend hours throwing lures over rocks in varying depths to learn dive angle and when each lure reaches max depth. Get feedback from hitting rocks to know the lure is reaching its depth.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "deep-crank-equipment",
+      "insight": "Palaniuk: 'Use a longer than average rod for deep cranking. A 7-foot-6 medium-heavy cranking rod with a 5.4:1 retrieve reel and 10-lb fluorocarbon helps make long casts and get the lure as deep as possible.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "deep-crank-boat-positioning",
+      "insight": "Palaniuk: 'Make a waypoint on the structure you want to hit, then after finding the right cast angle, make another waypoint for boat position. Also pick shore landmarks in front and behind you to stay on line at a glance.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-crank-bubble-trail-trick",
+      "insight": "Palaniuk: 'When idling over an area and you find structure, idle past it. The prop leaves a bubble trail on the surface. Cast back to that bubble trail and retrieve through it to speed up finding the right cast line.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-crank-lure-feel",
+      "insight": "Palaniuk: 'The more you fish a lure, the more you understand its vibration pattern. That helps you know if there is grass on the lure or a fish has subtly struck it.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "deep-crank-as-reaction-tool",
+      "insight": "Palaniuk: 'Deep diving crankbaits are really one of the few ways we have of generating any kind of reaction strike through much of the year on tour.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

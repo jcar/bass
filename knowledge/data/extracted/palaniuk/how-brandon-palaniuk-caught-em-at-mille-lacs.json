@@ -1,0 +1,34 @@
+{
+  "source": "how-brandon-palaniuk-caught-em-at-mille-lacs.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishDepth": "8-22 ft" }, "tip": "Palaniuk: 'Fish isolated targets where you can use 360 imaging -- every cast is as efficient as possible because you're making a cast with a bait a fish will eat if he's there, at a target he should be sitting next to, not on some big expansive flat.'", "priority": 8 },
+        { "when": { "fishDepth": "8-22 ft" }, "tip": "Palaniuk: 'Shake the bait in one spot, sometimes all the way up to a minute depending on how active the fish are. Balance not wasting time if they're not there versus not fishing too fast and passing them up.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "isolated-targets-dropshot",
+      "insight": "Palaniuk: 'Fish isolated rockpiles, boulders and grass patches anywhere from 8 to 22 feet. It just has to be the right-looking stuff -- depth didn't really seem to matter. Had a milk run of places to hit and cycle through, and at some point during the day would run into a group of fish actively feeding.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-minnow-profile-tackle",
+      "insight": "Palaniuk: 'Uses a Super Fluke (minnow-style bait) on the dropshot with a 2/0 straight shank hook and 3/8-oz weight. 15-lb Smackdown braid to 8-lb Tatsu fluorocarbon leader.'",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "360-imaging-isolated-targets",
+      "insight": "Palaniuk: 'Humminbird 360 and Ultrex trolling motor were big, especially when the wind was blowing. Could pull up on isolated targets, line up with the 360 and know exactly how far away he was, keep the boat off the fish and make repeated specific casts.'",
+      "conditions": {}
+    }
+  ]
+}

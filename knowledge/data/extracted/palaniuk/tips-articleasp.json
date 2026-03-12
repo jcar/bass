@@ -1,0 +1,43 @@
+{
+  "source": "tips-articleasp.txt",
+  "anglerName": "Palaniuk",
+  "newOpinions": [
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "waterTemp": "below 42F or above 90F" }, "tip": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'", "priority": 9 },
+        { "when": { "waterTemp": "above 90F" }, "tip": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that aren't willing to chase a crankbait or eat a bigger worm.'", "priority": 9 },
+        { "when": { "structure": "brush pile" }, "tip": "Palaniuk: 'Start from the outside of the brush pile. If it's sunny, approach from the shady side. If no bite on the outside, make casts more to the inside. Getting the fish to bite on the outside gives a better opportunity to land it.'", "priority": 8 },
+        { "when": {}, "tip": "Palaniuk: 'Once you feel a bite, take up the slack before pulling into the fish fairly quickly without snapping the rod, but with enough power to get all the way into the backbone of the rod. Keep good steady pressure and those fish will work themselves out of brush.'", "priority": 7 },
+        { "when": { "windSpeed": "high" }, "tip": "Palaniuk: 'The deeper and windier the condition, the heavier the jighead — from 1/8-ounce up to 1/4-ounce.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "stained" }, "color": "Black Emerald", "hex": "#003D2B", "priority": 8 },
+        { "when": { "waterClarity": "stained" }, "color": "Junebug", "hex": "#3D1F4E", "priority": 8 },
+        { "when": { "waterClarity": "clearing" }, "color": "Green Pumpkin Red", "hex": "#7B6B33", "priority": 8 },
+        { "when": { "waterClarity": "clear" }, "color": "Watermelon Red", "hex": "#5B7A3D", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "fishDepth": "deep", "structure": "brush piles or ledges" }, "tip": "Palaniuk: 'When big fish on Texas brush piles or Tennessee River ledges won't eat a big jig, use an oversized shaky-head with a 10-inch Power Worm. It's easier for those fish to swallow than a small fat compact football jig.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "extreme-temp-feeding",
+      "insight": "Palaniuk: 'At temperature extremes (below 42F or above 90F), bass metabolism is either too slow or they conserve energy by sitting in shade. An opportunistic feeder will still take one more bite if it's an easy meal — a finesse bait is ideal.'",
+      "conditions": { "waterTemp": "extreme" }
+    },
+    {
+      "category": "gear",
+      "topic": "shaky-head-setup",
+      "insight": "Palaniuk: 'Keep a tight drag on a 7-foot medium-action spinning rod with 8- to 10-pound fluorocarbon leader on 8-pound braid. Never ventures above 10-pound test even fishing heavy brush.'",
+      "conditions": {}
+    }
+  ]
+}
