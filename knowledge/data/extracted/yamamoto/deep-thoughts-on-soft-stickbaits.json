@@ -1,0 +1,42 @@
+{
+  "source": "deep-thoughts-on-soft-stickbaits.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishPressure": "high" }, "tip": "Schultz: Rig a 4-inch Senko wacky-style on a drop shot to outfish anglers throwing unweighted stickbaits — 'it was just a different look' that caught larger bass in a community hole", "priority": 8 },
+        { "when": { "fishDepth": "10-20ft" }, "tip": "Schultz: Drop-shotting a Senko works in virtually any situation another drop shot bait would — it offers bass a presentation few have ever seen", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "species": "smallmouth" }, "tip": "Yamamoto: On Lake Champlain, Gary Yamamoto dragged a weighted Texas-rigged Senko across the bottom instead of the standard lift-reel technique — the dragging action was something smallmouth couldn't resist, possibly imitating a crawfish", "priority": 9 },
+        { "when": { "technique": "flipping" }, "tip": "Schultz: Texas-rigged Senkos are excellent flipping baits — use a 5/16-oz bullet weight with a 3/0 or 4/0 VMC wide gap offset worm hook on a 4- or 5-inch Senko", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "split-shot-stickbait",
+      "insight": "Wilson: Split-shotting a 4- or 5-inch stickbait in 3-20ft is excellent for prespawn and high-pressure situations; vary the leader length by depth — deeper water gets a longer leader (up to 2ft) so the bait sinks the last 2ft with a slow tantalizing fall after the weight hits bottom; put the shot right against the hook when sight fishing beds",
+      "conditions": { "season": "pre-spawn", "fishPressure": "high" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-weighted-stickbait",
+      "insight": "Wilson: 'If it's breezy, the wind will pull your line and the lure so you don't get the slow fall — a split shot crimped above your line will help you stay in contact with the bait and help it fall straighter'",
+      "conditions": { "windSpeed": "breezy" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "drag-senko-bottom",
+      "insight": "Yamamoto: Gary Yamamoto's key technique on Lake Champlain was dragging a weighted Texas-rigged Senko across the bottom rather than the standard lift-reel retrieve — the dragging motion was irresistible to smallmouth, possibly imitating crawfish",
+      "conditions": { "species": "smallmouth" }
+    }
+  ]
+}

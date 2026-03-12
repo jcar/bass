@@ -1,0 +1,30 @@
+{
+  "source": "the-senko-is-just-the-beginning.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": {}, "tip": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish", "priority": 8 },
+        { "when": {}, "tip": "Slow presentation and work the 10-inch grub methodically on deep grass beds for best results", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "black with blue flake", "hex": "#000033", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "big-grub-delayed-hookset",
+      "insight": "Key to catching fish on Yamamoto 10-inch grub is delayed hookset with EWG hook and screw-in weight. Using straight shank hook and standard hookset results in many lost fish",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "big-grub-rigging",
+      "insight": "Yamamoto 10-inch grub requires Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig). Wrong hook and rigging method causes constant missed fish",
+      "conditions": {}
+    }
+  ]
+}

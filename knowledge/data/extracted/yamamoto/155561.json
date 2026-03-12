@@ -1,0 +1,22 @@
+{
+  "source": "155561.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "species": "largemouth/smallmouth/spotted bass" }, "tip": "Frazee (Midwest finesse): Rig the 3-inch Ika on a 1/32-oz mushroom head jig three ways — as a solid-body tube (tentacles as tail), reversed (tentacles at collar), or wacky style", "priority": 5 },
+        { "when": { "species": "largemouth/smallmouth/spotted bass" }, "tip": "Frazee (Midwest finesse): Retrieve the 3-inch Ika with all six standard Midwest finesse retrieves or a jig-and-bobber presentation", "priority": 4 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "ika-3inch-design",
+      "insight": "The 3-inch Ika has a 1.5-inch torso shaped like a Senko with six tentacles radiating from one end; salt-impregnated; available in 14 colors",
+      "conditions": {}
+    }
+  ]
+}

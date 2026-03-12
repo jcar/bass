@@ -1,0 +1,58 @@
+{
+  "source": "soft-stickin-smallmouth.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "waterClarity": "vegetation-heavy" }, "tip": "Freese (Yamamoto pro): 'In thick aquatic vegetation, use weightless Texas rig Senko for weedless qualities'", "priority": 7 },
+        { "when": {}, "tip": "Howell (pro): 'Texas rig Senko on 4/0 Daiichi wide gap hook when bass are more active, work it faster'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-salt-fall-rate",
+      "insight": "Senko falls faster than most soft plastics with a slight tantalizing wiggle due to high salt content. Smallmouth grab them and hold on thanks to salt content and soft texture",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-deadstick-smallmouth",
+      "insight": "Howell (pro): 'Just throw them out and let them sink. They cast a mile, ideal in heavily pressured or clear water. Smallmouth come from a long way to eat one'",
+      "conditions": { "waterClarity": "clear" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-vs-texas-activity-level",
+      "insight": "Howell (pro): 'Prefers wacky rig when fish are less active and less eager to chase. Texas rig when bass are more active, working it faster'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "hook-weight-controls-sink",
+      "insight": "Heavy-gauge hooks pull the Senko down more quickly; fine-wire hooks allow slower sink. Vary hooks to control sink rate",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-braided-line-bobber",
+      "insight": "Scott (pro): 'Fish Senkos with Power Pro braided line tipped with fluorocarbon leader because braided line floats, acting like a bobber to detect strikes on the fall'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "senko-pressured-smallmouth",
+      "insight": "Scott (pro): 'Wacky rigged 5-inch Senko with 1/0 Owner Mosquito hook through egg sack is ideal for heavily pressured smallmouth. Caught 20-pound bag while everyone else throwing tubes and drop shots caught few fish'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "torn-senko-reuse",
+      "insight": "Howell (pro): 'When Texas rig end gets torn up, flip the Senko and use the other end - no difference in catch rates. Wacky rig lures too torn on ends'",
+      "conditions": {}
+    }
+  ]
+}

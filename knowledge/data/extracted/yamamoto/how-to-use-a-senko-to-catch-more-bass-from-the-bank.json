@@ -1,0 +1,64 @@
+{
+  "source": "how-to-use-a-senko-to-catch-more-bass-from-the-bank.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "structure": "pads/mats" }, "tip": "Bank fishing tip: Insert a nail weight in the Senko's tail to make it enter the water like a dart and shoot under pad/mat cover — great during spring/summer rains when big fish move shallow", "priority": 8 },
+        { "when": { "presentation": "weightless-retrieve" }, "tip": "Bank fishing tip: For blind-casting to active baitfish activity, let Senko sink to mid-depth then use moderate retrieve speed with short rapid rod tip twitches for lots of motion", "priority": 7 },
+        { "when": { "presentation": "bank-fishing" }, "tip": "Bank fishing tip: Use a 4/0 straight shank worm hook for most applications — slips in and out of cover well, slides across matted grass. Go 5/0 for 6-inch, 3/0 for 3-inch", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "any" }, "color": "chartreuse tail dip", "hex": "#7FFF00", "priority": 6 }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "structure": "docks/pilings/riprap" }, "tip": "Bank fishing tip: Senko on shaky head is good for probing dock pilings, culvert edges, riprap points and bridge pilings", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "fishBehavior": "bluegill-present" }, "tip": "Bank fishing tip: A 3-inch Senko on Ned head is ideal where small bluegill abound — can also trim a 5-6 inch Senko to fit", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "presentation": "bank-fishing" }, "tip": "Bank fishing tip: Neko rig for faster fall with bottom feeding presentation — optionally add VMC Neko Skirt for pizazz", "priority": 5 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-shooting-technique",
+      "insight": "Bank fishing: 'Shooting' technique from crappie fishing — point rod at target, pull bait toward you to load rod tip with downward arc, release like bow and arrow. Great for docks, laydowns, gaps in weeds",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "senko-tail-accent-color",
+      "insight": "Adding accent color to Senko's tail can turn lookers into biters. Chartreuse mimics bream fin tips. Red and orange also work. Rubbing the tail vigorously lightens the plastic as a field-expedient color change",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-flash-spinner",
+      "insight": "Adding a tail spinner blade to a Senko via Owner Flashy Spin on a centering pin is effective in darker water — swimming the bait through sunlit areas throws attention-getting flashes into shadow areas where predators lurk",
+      "conditions": { "waterClarity": "stained" }
+    },
+    {
+      "category": "gear",
+      "topic": "senko-bank-tackle",
+      "insight": "For bank fishing Senkos: 7-foot medium-heavy spinning outfit. Use Tactical Anglers Power Clip to swap rigs without re-tying",
+      "conditions": {}
+    }
+  ]
+}

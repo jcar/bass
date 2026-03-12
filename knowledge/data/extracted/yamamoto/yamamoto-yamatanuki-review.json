@@ -1,0 +1,53 @@
+{
+  "source": "yamamoto-yamatanuki-review.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": {}, "tip": "Yamamoto Yamatanuki is a heavy plastic (5/8oz without weight) that is a cross between weightless Senko and Ned rig. Fish on 5/0 BKK Nemesis EWG hook or BKK Silent Chaser 4/0 standup head as a power Ned", "priority": 7 },
+        { "when": {}, "tip": "Rig Yamatanuki with hook point coming out of big end and small end acting as tail for more action and better hookups", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "Yamatanuki is excellent pitched to isolated sparse cover and docks during spawn and post-spawn. Fish get it on initial fall like Senko. Also effective dragged on bottom", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "yamatanuki-heavy-plastic",
+      "insight": "Yamatanuki is 3.5 inches, weighs 5/8oz without weight. Salt impregnated in proprietary way for heavier, quicker fall with more action. Castable on baitcasting tackle without added weight, skips well",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "yamatanuki-techniques",
+      "insight": "Yamatanuki catches fish on initial fall like Senko and equally well dragged on bottom. Bites are very easy to detect due to added weight. Fish it on MH baitcasting with 15-17lb Seaguar InvizX fluorocarbon",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "yamatanuki-tail-action",
+      "insight": "Yamatanuki knobbed tail has a lot of action - always undulating as it skips along bottom or pulls over cover. Rig with hook point out of big end for more action and better hookups",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "yamatanuki-targets",
+      "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "heavy-plastic-appeal",
+      "insight": "Profile matches what Dr. Keith Jones proved was the preferred size and profile bass wanted in testing. Heavy plastics gaining popularity in US after years of use in Japan on lakes like Biwa",
+      "conditions": {}
+    }
+  ]
+}

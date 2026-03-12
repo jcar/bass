@@ -1,0 +1,37 @@
+{
+  "source": "gary-yamamoto-custom-baits-senko-review-fb.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "technique": "weightless" }, "tip": "Sealock: The Senko's tail wiggles back and forth on slack line without any angler effort; its slow fall from high salt content makes it irresistible; casts like a rocket even weightless and skips easily under cover", "priority": 6 },
+        { "when": { "structure": "vegetation" }, "tip": "Sealock: Fish the Senko on a weightless Texas rig around vegetation or target-casting to stumps/laydowns — totally weedless and the tail kicks like crazy", "priority": 6 },
+        { "when": { "season": "pre-spawn" }, "tip": "Sealock: Right before bass begin spawning, they focus on 'love' more than eating — the slow fall of a weightless Texas-rigged Senko is great at fooling them into biting", "priority": 7 },
+        { "when": { "structure": "heavy cover" }, "tip": "Sealock: Use a 1/4-oz weighted Texas rig Senko for heavy cover; lighter weight is always optimal — heavier weights cause it to sink too fast, taking away from its trademark horizontal fall; let it fall on slack line as most bites come on the fall", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "leader": "monofilament" }, "tip": "Sealock: Carolina-rigging Senkos with a monofilament leader causes the Senko to float and slowly wave back and forth throughout the retrieve — great for rocky points, shell beds, river bars, and bluff walls", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-senko-bail-out",
+      "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on slack line, pop the slack occasionally",
+      "conditions": { "fishPressure": "high" }
+    },
+    {
+      "category": "bait-design",
+      "topic": "senko-casting-ability",
+      "insight": "Sealock: The Senko's weight makes it cast like a rocket even rigged weightless — critical for finesse fishing in clear water where long casts are essential; it skips underneath cover with just a wrist flick",
+      "conditions": {}
+    }
+  ]
+}

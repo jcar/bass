@@ -1,0 +1,54 @@
+{
+  "source": "yamamoto-yama-craw-review.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Yama Craw with Mega Floater Formula makes buoyant jig trailer - claws float up in defensive posture mimicking real crawfish sensing danger. Great for flipping jig and football jig", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Yama Craw buoyancy makes claws float up behind football jig in defensive crawfish posture. Perfect for bottom-hopping presentations", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": {}, "tip": "Yama Craw on Carolina rig floats entire bait up out of silt and off the bottom, putting it right in face of bass on the prowl", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Yama Craw buoyancy on swim jig allows fishing same jig slower or increasing jig weight for casting range while keeping bait at same level in water column", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "mega-floater-formula",
+      "insight": "Yamamoto Yama Craw uses entirely different material from Senko - Mega Floater Formula. Softer, spongier, very buoyant. Not as stretchy as ElaZtech but more durable than hand-poured plastics",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "yama-craw-buoyancy-applications",
+      "insight": "Yama Craw buoyancy changes presentation for Texas rig, wobble heads, magnum shaky heads, jig trailers, Tokyo rig, and Carolina rig - claws float up in defensive crawfish posture",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "yama-craw-spawn",
+      "insight": "Yama Craw will work wonders during spawn with claws floating right up in bedding bass's face",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

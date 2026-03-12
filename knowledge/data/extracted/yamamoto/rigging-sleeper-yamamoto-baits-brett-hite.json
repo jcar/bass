@@ -1,0 +1,78 @@
+{
+  "source": "rigging-sleeper-yamamoto-baits-brett-hite.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": "post-spawn/summer" }, "tip": "Yamamoto pro Hite: 'I really like the Kut Tail Worm on a Neko instead of a regular Senko — the skinnier tail that tapers down has much more action when shaking along the bottom.' Best right after spawn through summer", "priority": 8 },
+        { "when": { "waterTemp": "cold" }, "tip": "Yamamoto pro Hite: 'I'll still use the Senko on Neko when it is colder or when I need a subtle action from my bait'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "trailer": "Zako" }, "tip": "Yamamoto pro Hite: 'I like the regular Zako on my Jack Hammer ChatterBaits — the ChatterBait has so much vibration and gives the Zako a nice natural action'", "priority": 8 },
+        { "when": { "fishDepth": "deep-ledges" }, "tip": "Yamamoto pro Hite: 'I'll use the Kickin' Zako (paddle tail) with heavier 3/4 and 1-1/4 oz ChatterBaits on deep ledges where light penetration isn't good — want more vibration so bass can track it down'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "trailer": "Kickin-Zako" }, "tip": "Yamamoto pro Hite: 'I use the Kickin' Zako almost exclusively on swim jigs — the traditional swimbait tail gets a good kicking action and helps get bigger bites. The segmented bait folds up like an accordion for better hookup'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "structure": "docks" }, "tip": "Yamamoto pro Hite: 'Rig the Fat Ika backward with an EWG hook weightless — it backslides away from you under docks, getting to places most baits can't. Also works around grass — pump your rod and it slides back away from you'", "priority": 8 },
+        { "when": { "fishBehavior": "big-bass" }, "tip": "Yamamoto pro Hite: 'In Florida or any big bass lake, I like the 6-inch Senko — casts a long way and you can feel it in the grass much better'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "structure": "matted-vegetation" }, "tip": "Yamamoto pro Hite: 'I tear off all the tentacles on the side of the Flappin' Hog when punching mats — the larger 4.5-inch size slides through the mat better going in and coming out, making you much more efficient'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "presentation": "vertical" }, "tip": "Yamamoto pro Hite: 'The Shad Shape worm is perfect for nose-hooking on a drop-shot. Up north it's a smallmouth catching machine. I use it anytime I'm vertically fishing a drop-shot'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "presentation": "finesse" }, "tip": "Yamamoto pro Hite: 'I like the 3-inch Fat Senko for my Ned Rigs'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "neko-bait-selection-by-temp",
+      "insight": "Yamamoto pro Hite: Use Kut Tail Worm on Neko rig post-spawn through summer for more aggressive action in warmer water. Switch to standard Senko on Neko when cold or when subtle action is needed",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "zako-vs-kickin-zako",
+      "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fat-ika-backslide",
+      "insight": "Yamamoto pro Hite: The Fat Ika rigged backward weightless on EWG hook backslides like the old 'Flying Lure' — heavy salt-loaded plastic sinks on its own, and backward rigging makes it slide under docks and away from you",
+      "conditions": {}
+    }
+  ]
+}

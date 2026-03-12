@@ -1,0 +1,21 @@
+{
+  "source": "my-best-bait-why-fletcher-shryock-is-crazy-about-the-yamamoto-psychodad.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "fishBehavior": "pressured" }, "tip": "Yamamoto pro Shryock: The PsychoDad is his go-to around lighter cover when the bite is tough and pressured bass need an ultra-soft bait for good hookups", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "psychodad-pressured-fish",
+      "insight": "Yamamoto pro Shryock: The ultra-soft PsychoDad excels over standard jig trailers when fishing pressured bass and around lighter cover where good hookups are critical",
+      "conditions": { "fishBehavior": "pressured" }
+    }
+  ]
+}

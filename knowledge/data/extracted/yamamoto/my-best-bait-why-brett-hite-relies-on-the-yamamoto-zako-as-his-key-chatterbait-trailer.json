@@ -1,0 +1,21 @@
+{
+  "source": "my-best-bait-why-brett-hite-relies-on-the-yamamoto-zako-as-his-key-chatterbait-trailer.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "trailer": "Zako" }, "tip": "Yamamoto pro Hite: The Yamamoto Zako is the perfect ChatterBait trailer — bigger profile, good but subtle action, and an 'accordion-style' tail that collapses when fish bite, increasing hook-up ratio", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "zako-chatterbait-trailer",
+      "insight": "Yamamoto pro Hite: Hite designed the Zako for Yamamoto specifically as a ChatterBait/Jack Hammer trailer. The accordion-style tail collapse on the bite is the key feature for better hookup ratios",
+      "conditions": {}
+    }
+  ]
+}

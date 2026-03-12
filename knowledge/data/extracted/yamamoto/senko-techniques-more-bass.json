@@ -1,0 +1,28 @@
+{
+  "source": "senko-techniques-more-bass.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "structure": "matted-weeds" }, "tip": "Fish a weightless soft stickbait on braid over thick matted weeds — almost like fishing a frog, but you can let it do its wiggle in weed openings and still yard fish out of cover", "priority": 7 },
+        { "when": { "structure": "grass-pockets" }, "tip": "Peg a sinker to a stickbait for a great big-bass bait when flipping grass and penetrating into pockets where big fish roam", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "stickbait-line-selection",
+      "insight": "Line choice affects stickbait presentation: monofilament makes the bait float more, fluorocarbon makes it sink quicker. Braid is often overlooked but useful for fishing weightless stickbaits over thick matted weeds",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-vs-texas-action",
+      "insight": "Wacky rig stickbait works best for a slightly more aggressive retrieve. Weedless/Texas rig with no weight is a much more subtle approach with a very subtle wiggle",
+      "conditions": {}
+    }
+  ]
+}

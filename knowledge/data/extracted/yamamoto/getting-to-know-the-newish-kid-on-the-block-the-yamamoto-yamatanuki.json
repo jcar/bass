@@ -1,0 +1,42 @@
+{
+  "source": "getting-to-know-the-newish-kid-on-the-block-the-yamamoto-yamatanuki.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "presentation": "yamatanuki-weightless" }, "tip": "Yamamoto pro Shryock: 'The Yamatanuki is 3.5 inches at 5/8 oz — heavy enough to fish weightless on casting gear. It's a cross between a Senko and a jig with the profile of a small bluegill'", "priority": 7 },
+        { "when": { "structure": "docks/marinas" }, "tip": "Yamamoto pro Shryock: 'The Yamatanuki excels at skipping to suspended fish under docks and marinas — it's heavy enough to reach fish suspended deep in gnarly marina slips'", "priority": 8 },
+        { "when": { "presentation": "yamatanuki-weightless" }, "tip": "Yamamoto pro Shryock: 'Use a 7-foot 3-inch MH casting rod, 19lb fluorocarbon leader tied to 40lb braid, EWG hook. Emphasize hookset more than with a jig'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "species": "smallmouth" }, "tip": "Yamamoto pro Shryock: 'The 2.5-inch Yamatanuki on a ball head or wobble head falls and spirals like a tube — big deal for smallmouth'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "yamatanuki-design",
+      "insight": "Yamamoto pro Shryock: The Yamatanuki is a heavy 'gravity bait' — 3.5 inches at 5/8 oz with a signature side-to-side flutter on the fall. Works from 1 foot to 20+ feet suspended. Extremely weedless. Can replace jigs around heavy cover and grass",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "yamatanuki-power-finesse",
+      "insight": "Yamamoto pro Shryock: 'It's a power-finesse approach — the power part comes in your tackle. You don't have to downsize. You can throw it on a spinning rod but it's almost borderline heavy for a soft spinning rod. I like using a baitcaster'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "yamatanuki-vs-senko",
+      "insight": "Yamamoto pro Shryock: Unlike a Senko, the Yamatanuki has a fast fall rate so it excels in nearly any depth. It's non-disruptive like a Senko in shallow water but can also target deep suspended fish",
+      "conditions": {}
+    }
+  ]
+}

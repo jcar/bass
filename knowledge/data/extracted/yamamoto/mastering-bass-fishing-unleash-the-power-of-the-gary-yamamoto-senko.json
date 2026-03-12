@@ -1,0 +1,35 @@
+{
+  "source": "mastering-bass-fishing-unleash-the-power-of-the-gary-yamamoto-senko.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "spring" }, "tip": "Fish Senko around spawning beds in spring", "priority": 5 },
+        { "when": { "season": "summer" }, "tip": "Target submerged structures and shady spots with Senko in summer", "priority": 5 },
+        { "when": { "season": "fall" }, "tip": "Fish Senko near baitfish schools in fall as bass feed heavily", "priority": 5 },
+        { "when": { "season": "winter" }, "tip": "Use slow Senko presentations near deep-water structures in winter", "priority": 5 }
+      ],
+      "colorRules": [
+        { "when": { "isLowLight": true }, "color": "green pumpkin", "hex": "#4B6F44", "priority": 5 },
+        { "when": { "isLowLight": true }, "color": "watermelon", "hex": "#4B8B3B", "priority": 5 },
+        { "when": { "isLowLight": false }, "color": "chartreuse", "hex": "#7FFF00", "priority": 5 },
+        { "when": { "isLowLight": false }, "color": "junebug", "hex": "#3B0054", "priority": 5 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-horizontal-fall",
+      "insight": "The Senko sinks horizontally, which is different from most soft plastics that fall nose-first. This horizontal descent triggers strikes as bass interpret it as dying or injured prey",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "senko-salt-infusion",
+      "insight": "The Senko is infused with salt which adds weight and a unique taste that encourages bass to hold onto it longer, increasing hook-up ratio",
+      "conditions": {}
+    }
+  ]
+}

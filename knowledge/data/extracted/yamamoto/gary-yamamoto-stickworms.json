@@ -1,0 +1,50 @@
+{
+  "source": "gary-yamamoto-stickworms.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'The bait must hang as straight as possible on the hook, otherwise the signature fluttering action will be lost'", "priority": 9 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Cast to shallow cover and simply let the worm fall. The fluttering action draws the strikes. The slower you fish the Senko, the better'", "priority": 9 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'After the bait hits bottom, let it sit for several seconds, then raise the rod tip 6 inches or a foot, then let the bait flutter down again'", "priority": 8 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'A jarring hook set is not needed. Since the worm is skin-hooked, just reel until the line is tight and allow the fish to set the hook as it swims away'", "priority": 8 },
+        { "when": { "fishDepth": "10+" }, "tip": "Yamamoto: 'Add a 1/8-ounce screw-lock weight for deeper water — it stays with the worm and makes it spiral as it falls'", "priority": 8 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Use 3/0 or 4/0 EWG hook, 8-12lb fluorocarbon, medium or medium-heavy rod. Fluorocarbon sinks with the bait and does not interfere with fluttering action'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-origin-story",
+      "insight": "Yamamoto: 'I originally wanted to make a twitch bait like the Slug-Go, but after testing it turned out the Senko was better as a finesse bait. I got the idea for the shape from a Bic pen I had'",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "senko-seasonal-use",
+      "insight": "Yamamoto: The Senko works all year round but shines spring to fall. In colder months, fish deeper water on long underwater structure such as points with a small weight added",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "senko-deep-cold-water",
+      "insight": "Yamamoto: Has caught fish on the Senko in cold water from as deep as 30 feet at Beaver Lake",
+      "conditions": { "waterTemp": "cold", "fishDepth": "deep" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "senko-strike-trigger",
+      "insight": "Yamamoto: 'When the fish hear the splash, they look to see what it is. When they see the worm, they may not grab it right away, but go over and inspect it. When they get a good look at it and it moves again, that's when most strikes occur'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "senko-common-mistake",
+      "insight": "Yamamoto: 'The most common mistake is fishing too fast. This bait is very subtle. It needs to be worked slowly. From the time it splashes and falls, it only needs to be moved a little bit to get good action'",
+      "conditions": {}
+    }
+  ]
+}

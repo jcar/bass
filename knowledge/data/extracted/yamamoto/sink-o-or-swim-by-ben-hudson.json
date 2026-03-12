@@ -1,0 +1,53 @@
+{
+  "source": "sink-o-or-swim-by-ben-hudson.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "fishDepth": "6-10ft" }, "tip": "Hudson: 'Senko is a better option when wanting to fish faster or around slightly deeper structure 6-10ft'", "priority": 7 },
+        { "when": { "fishDepth": "shallow" }, "tip": "Hudson: 'Prefer Dinger when fishing extremely shallow cover or post-spawn pitching at finicky bass near the surface due to slower sink rate'", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": {}, "tip": "Hudson: 'Dinger durability makes it preferred for Neko rigging since inserting nail weight tears softer baits'", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-vs-dinger-sink-rate",
+      "insight": "Hudson: 'The biggest difference is rate of fall - Senko sinks much faster than Dinger. Faster fall lets you fish faster and deeper, slower fall irritates fish by hanging slowly in their face'",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "senko-salt-softness",
+      "insight": "Hudson: 'Senko is more heavily salt infused making fish hold on longer, and way softer feeling more realistic. Softness gives slightly more action and it sinks straight down. Downside is much less durability'",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "dinger-sway-action",
+      "insight": "Hudson: 'Dinger sways side to side more than Senko due to slower sink rate, while Senko tends to sink straight down'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "senko-searching-for-bites",
+      "insight": "Hudson: 'Senko is best option if you are searching for bites and not on a pattern, or when fish are overly color sensitive or not giving solid hookups'",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "dinger-post-spawn",
+      "insight": "Hudson: 'Prefer Dinger in post-spawn pitching at finicky recovering bass hanging near the surface'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

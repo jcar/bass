@@ -1,0 +1,34 @@
+{
+  "source": "156068.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "trailerType": "Zako" }, "tip": "Yamamoto pro Hite: The Zako was designed as a chatter-style bait trailer; its restrained action won't overpower the vibrating jig — most other soft plastic trailers exhibit too much action or aren't durable enough", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "spawn", "structure": "vegetation" }, "tip": "Yamamoto pro Hite: The Zako rigged Texas-style replicates the subtle gliding of a tube; use it as a flipping bait around aquatic or flooded terrestrial vegetation during the spawn or whenever bass are in shallow-water haunts", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "zako-swimbait-design",
+      "insight": "Yamamoto pro Hite: The Zako was designed with restrained 'no-feel' action to mimic how bluegill, green sunfish, and gizzard shad hover and subtly swim; the V-shaped tail with an interior flange minimizes tail movement; a back groove facilitates easy rigging; non-salt-impregnated blend for increased durability",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "zako-durability",
+      "insight": "Yamamoto pro Hite convinced Colby to create a non-salt-impregnated plastic blend for the Zako for increased durability — can withstand multiple fish catches without tearing",
+      "conditions": {}
+    }
+  ]
+}

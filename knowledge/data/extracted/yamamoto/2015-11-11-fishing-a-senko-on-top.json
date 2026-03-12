@@ -1,0 +1,33 @@
+{
+  "source": "2015-11-11-fishing-a-senko-on-top.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "fishPressure": "high" }, "tip": "Fish an unweighted Senko on a wide-gap hook across the surface — hopping and skipping like a fleeing minnow or bream; works best on heavily pressured fish that have seen every other lure", "priority": 8 },
+        { "when": { "structure": "grass" }, "tip": "Use 30-lb braid for heavy weeds with a 7:1 baitcaster on a 7'3\" MH rod; switch to 15-lb fluoro for open water", "priority": 7 },
+        { "when": { "structure": "open water" }, "tip": "In open water, use a fast spinning reel with 10-lb braid on a 7' medium-action rod for the surface Senko technique", "priority": 7 },
+        { "when": { "fishBehavior": "chasing" }, "tip": "If a bass chases the surface Senko, just stop it and let it sit — fish will grab it on the fall even though it doesn't look great sinking", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "forage": "shad" }, "color": "shad", "hex": "#C0C0C0", "priority": 6 },
+        { "when": { "forage": "bream" }, "color": "bream colors", "hex": "#6B8E23", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "surface-senko",
+      "insight": "Cast an unweighted Senko on a 4/0 wide-gap hook and retrieve with a hopping/skipping cadence across the surface — faster than a floating worm but not burning it; the wide-gap hook acts as a keel to keep the Senko running straight and prevents line twist; 3- or 4-inch size works best",
+      "conditions": { "fishPressure": "high" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "surface-senko-year-round",
+      "insight": "The surface Senko technique is a year-round pattern — works whenever there are fish up shallow, and according to this angler there are always fish up shallow",
+      "conditions": {}
+    }
+  ]
+}

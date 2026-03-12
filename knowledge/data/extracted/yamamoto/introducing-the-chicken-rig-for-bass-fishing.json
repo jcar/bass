@@ -1,0 +1,55 @@
+{
+  "source": "introducing-the-chicken-rig-for-bass-fishing.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "chicken-rig-definition",
+      "insight": "Yamamoto: The Chicken Rig is a modification of the Neko rig using a 7.75-inch Kut Tail worm rigged backward with a 4/0 or 5/0 straight-shank hook inserted about an inch behind the egg sack, threaded on Texas-rig style, with a drywall screw inserted in the meaty tail end for weight",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "chicken-rig-fishing",
+      "insight": "Yamamoto: 'Cast it out and let it fall on slack line. Once it hits bottom, lift it up a couple feet and let it drop again. If I haven't gotten bit, I reel it back up and throw again. It's more like a power fishing tool than finesse'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "chicken-rig-hookset",
+      "insight": "Yamamoto: 'When a fish bites, they are almost always swimming with it. If you jerk really hard, you'll likely lose fish. Just reel down and pull with hard steady pressure'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "chicken-rig-tackle",
+      "insight": "Yamamoto: Fish the Chicken Rig on medium-heavy spinning tackle, 15-20lb braid mainline with 16 or 20lb Sugoi Fluorocarbon leader",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "chicken-rig-advantages",
+      "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "chicken-rig-targets",
+      "insight": "Yamamoto: Fish the Chicken Rig around bridge pilings, barge tieups, docks, riprap, and other hard cover. Used it to finish 5th at Rayovac FLW Series on Upper Mississippi",
+      "conditions": { "structure": "hard-cover" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "chicken-rig-novelty",
+      "insight": "Yamamoto: 'We as anglers need to show the bass something different. When that backwards weighted Kut-Tail falls in front of them, it presents an image they haven't seen before that looks really natural. They have no choice but to strike'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "chicken-rig-champlain-record",
+      "insight": "Yamamoto: In 2011, broke the FLW single day weight record for Lake Champlain with 24lb 4oz stringer skipping docks with a Senko tail-weighted with a No. 7 finishing screw",
+      "conditions": {}
+    }
+  ]
+}

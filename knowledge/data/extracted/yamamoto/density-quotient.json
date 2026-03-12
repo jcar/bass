@@ -1,0 +1,31 @@
+{
+  "source": "density-quotient.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-density-perfected",
+      "insight": "Klein: Gary Yamamoto got the density and sink rate just right with the Senko; stickworms must have the right stiffness and fall rate for each end to quiver enticingly on slack line — 'If the plastic is too stiff, there isn't enough action. If it's too soft, the bait just folds in half as it sinks'",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "soft-plastic-density-principles",
+      "insight": "Klein: Dense, salt-infused soft plastics sink faster and are stiffer; softer/less-dense plastics are preferred for finesse and have a slower sink rate; when flipping into heavy cover, select dense, tough plastic that withstands abuse — too soft tears up quickly",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "bass-spit-hard-plastic",
+      "insight": "Prochnow (Berkley): Bass are more inclined to spit out a hard soft plastic bait faster than a softer one — softness increases how long a bass holds the bait",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "colorant-affects-density",
+      "insight": "Prochnow (Berkley): Some colorants harden the plastic while others do not — Berkley adjusts the plastic formula by colorant to ensure consistent action, density, and texture across colors",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "source": "skinniest-over-ever-how-yamamoto-rigs-senkos-winning-costa-baits.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": {}, "tip": "Yamamoto: 'Prefers weightless Texas rig with 3/0 Gamakatsu EWG hook. Some people use too big of a hook - they lose the action on the fall and the bait tears off'", "priority": 9 },
+        { "when": {}, "tip": "Yamamoto: 'Smaller light-wire hooks increase tail action and make Senko last longer since bait slides easier up hook onto line while fighting fish'", "priority": 8 },
+        { "when": {}, "tip": "Yamamoto: 'Recommends rigging Senko on a Yamamoto Split Shot Hook (circle hook) with a snell knot - when you tug it pulls the hook barb straight toward the line'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "green pumpkin", "hex": "#6B8E23", "priority": 8 },
+        { "when": {}, "color": "green pumpkin/watermelon laminate", "hex": "#5B7B2F", "priority": 8 },
+        { "when": {}, "color": "salt and pepper", "hex": "#8B8682", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "senko-sleeper-color",
+      "insight": "Yamamoto: 'One of the best colors that is probably a sleeper is salt-and-pepper. I think it is a forgotten color, but I can take that color any place in the world and fish will bite it'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-lift-and-drop",
+      "insight": "Yamamoto: 'Employs a simple lift-and-drop retrieve - it is like working a plastic worm but not quite as fast because it takes longer for it to fall'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "senko-hook-selection",
+      "insight": "Yamamoto: 'Prefers 3/0 Gamakatsu EWG on weightless Texas rig. Smaller light-wire hooks increase tail action and bait durability'",
+      "conditions": {}
+    }
+  ]
+}

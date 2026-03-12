@@ -1,0 +1,64 @@
+{
+  "source": "fishing-yamamoto-ika-and-senko.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "technique": "deadsticking" }, "tip": "DeFronzo: Fish the Senko weightless Texas-rigged on a 3/0 Gamakatsu EWG hook with 6-8lb line; skip into bushes or undercut banks and let it sit — 'You can't fish it too slow'; the bait falls away from the angler like a Flying Lure Tube", "priority": 7 },
+        { "when": { "frontalSystem": "post-frontal" }, "tip": "DeFronzo: Deadsticking a weightless Senko is especially good in front situations when fish have shut down — the subtle presentation is not intrusive to bass", "priority": 8 },
+        { "when": { "structure": "weed pockets" }, "tip": "DeFronzo: Drop the weightless Senko into pockets of weeds or pads and let it flutter to the bottom; occasionally give a twitch or two but don't overdo it — bass pick it up and swim off", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Black (20)", "hex": "#000000", "priority": 5 },
+        { "when": {}, "color": "Blue Pearl w/ Silver (31)", "hex": "#4169E1", "priority": 5 },
+        { "when": {}, "color": "Green Pumpkin (297)", "hex": "#8B7D3C", "priority": 5 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "fishDepth": "shallow" }, "tip": "DeFronzo: Shallow dropshot a 3-inch Ika with a foam float on the line — the float gives a vertical presentation in shallow water, acts as a strike indicator, and shows exact bait location; use a tabless splitshot as the bottom weight (pulls off if snagged) with hook 18-24 inches above", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "jigWeight": "1/16 to 1/8-oz" }, "tip": "DeFronzo: Rig the 3-inch Ika on a 1/16 or 1/8-oz Florida rig screw-in weight with a 2/0 hook — creates a downsized Mega Tube look; skip through brush, trees, and docks; let fall on controlled slack line with a hop or two before retrieving", "priority": 7 },
+        { "when": { "structure": "submerged vegetation" }, "tip": "DeFronzo: For extremely shallow water or over bottom-growing vegetation, omit weight entirely and rig the Ika on a 2/0 or 3/0 hook — the slow descent lets every bass in the area scope it out", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Smoke/Black Blue Gold Flake (214)", "hex": "#696969", "priority": 5 },
+        { "when": {}, "color": "Green Pumpkin (297)", "hex": "#8B7D3C", "priority": 5 },
+        { "when": {}, "color": "Smoke with Red Flake (334)", "hex": "#808080", "priority": 5 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-senko-hookset",
+      "insight": "DeFronzo (via Yamamoto staffer Jerry Puckett): Do not set the hook on wacky-rigged Senko — apply slow steady pressure instead; the hook will penetrate the corner of the bass's mouth; switching from a straight-shank to a splitshot hook and using pressure instead of a hookset drastically reduced lost fish",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "split-shot-ika",
+      "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass bead above the weight adds noise and reflects light",
+      "conditions": { "fishDepth": "0-20ft" }
+    },
+    {
+      "category": "bait-design",
+      "topic": "senko-fall-characteristics",
+      "insight": "DeFronzo: The Senko has a unique 'fall away from the angler' action like a Flying Lure Tube — this fall is deadly and unlike any other weightless bait",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "finesse-senko-tackle",
+      "insight": "DeFronzo: Use a 6ft or 6'6\" ML IM8 rod with a solid backbone for Senko and Ika finesse work; 6lb Silver Thread line for almost all applications; light wire hooks reduce durability problems with soft Yamamoto plastics by not tearing the bait as much; skin-hook the baits to get multiple fish per bait",
+      "conditions": {}
+    }
+  ]
+}

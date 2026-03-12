@@ -1,0 +1,19 @@
+{
+  "source": "yamamoto-book-a-quick-entertaining-read.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-origin-story",
+      "insight": "Yamamoto: The Senko was initially considered a flop because it did not catch fish when applied the way it was originally intended. Over 17 million Senkos were produced in 2016 alone",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "yamamoto-book-tips",
+      "insight": "Book 'Gary Yamamoto: My Life with Fish' by Steve Price contains one-page tips at end of each chapter on fishing the Senko, Hula Grub, dropshot rigs, flipping, and Neko rig",
+      "conditions": {}
+    }
+  ]
+}

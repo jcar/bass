@@ -1,0 +1,41 @@
+{
+  "source": "yamamoto-senko-breakdown.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": {}, "tip": "Texas rig Senko with 3/0 Gamakatsu EWG Hook. Cast out, let sink to bottom, pick up, repeat. Action comes from the fall", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "green pumpkin", "hex": "#6B8E23", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-formula-secret",
+      "insight": "What separates Senko from competitors is the plastic formula - tuned for perfect amount of salt, softness, and natural sink rate. Most competitors fall too fast, too slow, or have other issues. The natural sink and wobble is what makes fish unable to resist",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "senko-wacky-best-demo",
+      "insight": "Best way to see Senko's fish-catching power is wacky rig - cast out, let it sink, twitch rod to make worm shake then return to sinking. Catches fish from 6 inches to over 5 pounds",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "senko-seven-rigs",
+      "insight": "Senko can be rigged at least seven ways: Texas rig, weightless Texas rig, jig worm, drop shot, wacky rig, Neko rig, and Carolina rig. Keep one or more rigged up at all times",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "wacky-rig-hook-choice",
+      "insight": "For wacky rig Senko use #1 VMC Neko Hook. For Texas rig use 3/0 Gamakatsu EWG Hook",
+      "conditions": {}
+    }
+  ]
+}

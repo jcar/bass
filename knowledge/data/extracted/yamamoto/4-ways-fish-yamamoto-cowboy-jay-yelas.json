@@ -1,0 +1,51 @@
+{
+  "source": "4-ways-fish-yamamoto-cowboy-jay-yelas.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "waterClarity": "stained" }, "tip": "Yamamoto pro Yelas: 'The Cowboy is excellent on the back of a jig in dirty water' — use it when you want a big profile with aggressive kick as a jig trailer", "priority": 8 },
+        { "when": { "trailerAction": "aggressive" }, "tip": "Yamamoto pro Yelas: Use the Cowboy trailer when you want a bulkier profile with more action than the Psycho Dad or Flappin' Hog, which have limited action", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "jigWeight": "3/8-oz to 1/2-oz" }, "tip": "Yamamoto pro Yelas: 'Add a Cowboy trailer to a 3/8 or 1/2-oz swim jig to get vibration — the only real attraction of a swim jig is the skirt, the Cowboy adds kick to attract fish'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Yamamoto pro Yelas: Use the Cowboy on a Carolina rig during pre-spawn when bass are aggressive — its big profile appeals to big bass more than standard worms or Senkos", "priority": 7 },
+        { "when": { "season": "summer" }, "tip": "Yamamoto pro Yelas: The Cowboy excels on a C-Rig in summer when bass want a bigger meal; make first casts with the Cowboy to catch the most aggressive fish, then downsize if the bite slows", "priority": 7 },
+        { "when": { "season": "spawn" }, "tip": "Yamamoto pro Yelas: 'Right around the spawn and after, the fish seem to prefer a smaller bait with less action' — downsize from the Cowboy during spawn and post-spawn", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "technique": "flipping" }, "tip": "Yamamoto pro Yelas: Use at least a 1/4-oz weight with the Cowboy on a Texas rig because the bait is so bulky — 3/8-oz or heavier is ideal to get it down", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "cowboy-versatility",
+      "insight": "Yamamoto pro Yelas: The Cowboy is a 4-inch 'power soft plastic' — big, bulky, salt-laden with a powerful double tail and two side appendages; always rig it perfectly straight to get the most action out of it",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "cowboy-aggressive-first",
+      "insight": "Yamamoto pro Yelas: 'A lot of times I will make my first few casts with the Cowboy to catch the most aggressive fish and then if the bite slows down, I'll downsize my lure'",
+      "conditions": {}
+    }
+  ]
+}

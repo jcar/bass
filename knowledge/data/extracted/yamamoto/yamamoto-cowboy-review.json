@@ -1,0 +1,32 @@
+{
+  "source": "yamamoto-cowboy-review.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Yamamoto Cowboy works as flipping bait and jig trailer. Legs are sturdy but pliable enough to move water. Small appendages catch water and move with slightest shake", "priority": 7 },
+        { "when": { "season": "spawn" }, "tip": "Cowboy can be trimmed down for bed fishing - cut tails and appendages to make a small bug with flare for bedding bass or fry guarders", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "black and blue", "hex": "#00001A", "priority": 6 },
+        { "when": {}, "color": "watermelon red", "hex": "#4B6F44", "priority": 6 },
+        { "when": {}, "color": "green pumpkin", "hex": "#6B8E23", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "cowboy-customization",
+      "insight": "Yamamoto Cowboy is very customizable - cut tails, remove appendages, trim profile to change action. Full profile adds bulk as jig trailer, trimmed slicks through cover easier",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "cowboy-durability",
+      "insight": "Cowboy legs are more solid and durable than most flipping baits and jig trailers, yet still pliable enough to move water well",
+      "conditions": {}
+    }
+  ]
+}

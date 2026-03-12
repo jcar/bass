@@ -1,0 +1,58 @@
+{
+  "source": "the-5-best-ways-to-fish-a-senko-style-bait-mtb.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": {}, "tip": "Texas rig Senko with 3/0 or 4/0 hook and 1/8 or 3/16oz screw-on weight for flipping and pitching to bushes, brush piles, and matted vegetation", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": {}, "tip": "Senko on 3/16oz jighead is great finesse tactic for pressured waters or postspawn. Let it fall next to dock, shake in place, then retrieve", "priority": 7 },
+        { "when": { "fishDepth": "suspended" }, "tip": "Scale down to 1/8oz jighead for suspended fish. Count down to right depth, then shake and reel back", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "Carolina rig Senko produces best in prespawn and postspawn when bass stage in front of spawning banks 6-10ft deep. Use 1oz tungsten weight with 4ft leader of 12lb fluorocarbon", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "pre-spawn" }, "color": "green pumpkin with purple flake", "hex": "#6B8E23", "priority": 7 },
+        { "when": { "season": "pre-spawn" }, "color": "watermelon candy", "hex": "#4B6F44", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "summer", "fishDepth": "deep" }, "tip": "3-inch Senko on 2/0 straight shank hook drop shot with 1/4 to 3/16oz weight 1ft below lure. Drop to depth of baitfish balls on electronics and shake to trigger strikes along bluffs and ledges", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-crippled-shad",
+      "insight": "Most effective wacky style retrieve mimics crippled shad - raise and lower stick worm a couple feet, never letting it touch bottom. Pop it a couple times for herky-jerky action then return to subtle fall",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "wacky-under-docks",
+      "insight": "Wacky rig causes Senko to fall sideways, gliding under pier platforms or foam flotation of docks where bass lurk in shadows. Especially effective when bass suspend under docks",
+      "conditions": {}
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "jighead-senko-versatility",
+      "insight": "Senko on jighead can be fished from 6 inches to 30-40ft of water. Vary jighead size to control depth presentation",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "free-rig-and-other-ways-fish-spawn-shin-fukae-yamamoto.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "Yamamoto pro Fukae: Rig a 3-inch Fat Senko on a 1/16 or 3/32-oz Gamakatsu G-Finesse Trickyhead — great for pre-spawn, spawn, and post-spawn", "priority": 7 },
+        { "when": { "structure": "cover" }, "tip": "Yamamoto pro Fukae: Rig the 3-inch Fat Senko on a drop-shot with a very short 3-inch leader to replicate a Ned Rig — 'This is just like a Ned Rig but is better around cover' since standard Ned Rigs hang up on the bottom", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "Yamamoto pro Fukae: Use both a standard Senko and a 6.5-inch Kut Tail on a Neko Rig during the spawn; the Kut Tail is 'not too big and not too small' and can be fished on both spinning and baitcasting gear", "priority": 8 },
+        { "when": {}, "tip": "Yamamoto pro Fukae: Insert a 1/16-oz G7 Tungsten Screw Sinker Nail Weight into the Senko/Kut Tail and add a G7 Worm Protect Tube to preserve the plastic; pair with a Shimano Expride 172 ML baitcast rod and 8-12lb fluorocarbon", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "Yamamoto pro Fukae: Drop-shot the Yamamoto Sanshouo creature bait around the spawn — 'It looks like a lizard or salamander and when the bass are starting to spawn, they eat it'", "priority": 8 },
+        { "when": {}, "tip": "Yamamoto pro Fukae: Fish a drop-shot on baitcast gear — easier to work the bait and cast than spinning; more common technique in Japan", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "free-rig",
+      "insight": "Yamamoto pro Fukae: The Free Rig is a cross between a Texas Rig and Carolina Rig — the line runs freely through the weight's eye so the weight falls first and the soft plastic flutters down behind it with an unpredictable slow fall; use a 'lift and fall' retrieve; 1/4-oz tungsten weight is the all-around top choice",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "ned-rig-dropshot-hybrid",
+      "insight": "Yamamoto pro Fukae: Rigging a 3-inch Fat Senko Texas-rigged on a drop-shot with a 3-inch leader replicates a Ned Rig presentation but avoids bottom hang-ups around cover",
+      "conditions": { "structure": "cover" }
+    },
+    {
+      "category": "gear",
+      "topic": "fukae-spawn-line",
+      "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

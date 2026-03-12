@@ -1,0 +1,42 @@
+{
+  "source": "gary-yamamoto-on-the-senko.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Use a 3/0 Gamakatsu EWG hook — bigger hooks lose tail action on the fall and tear the bait off more often'", "priority": 8 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Use smaller light-wire hooks to increase tail action and make the Senko last longer since bait slides up the hook onto the line while fighting fish'", "priority": 8 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Tie with a Snell knot — when you tug on it, it pulls the hook barb straight toward the line for better hooksets'", "priority": 7 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Use a simple lift-and-drop retrieve, like working a plastic worm but slower because it takes longer to fall'", "priority": 8 },
+        { "when": { "waterClarity": "clear" }, "tip": "Yamamoto: 'Scale down to 4-inch Senko in gin-clear water'", "priority": 8 },
+        { "when": { "presentation": "weightless" }, "tip": "Yamamoto: 'Use 7-foot light-action spinning rod with 2500 series reel, 10-15lb braid mainline with fluorocarbon leader'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "any" }, "color": "green pumpkin", "hex": "#4B6F44", "priority": 8 },
+        { "when": { "waterClarity": "any" }, "color": "green pumpkin/watermelon laminate", "hex": "#5A7A4A", "priority": 8 },
+        { "when": { "waterClarity": "any" }, "color": "salt and pepper", "hex": "#8B8B8B", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "bait-design",
+      "topic": "senko-action-origin",
+      "insight": "Yamamoto: 'I designed the Senko after trying the Slug-Go which I thought was too hard and bulky. The softer plastic and the way water flows around the lure as it falls gives it a continual vibration on a weightless Texas rig'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "senko-leader-by-clarity",
+      "insight": "Yamamoto: Use 10-14lb Sugoi Fluorocarbon leader for stained water, 6-10lb for clear water",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "salt-and-pepper-sleeper",
+      "insight": "Yamamoto: 'Salt-and-pepper is probably a sleeper color — a forgotten color, but I can take it any place in the world and fish will bite it'",
+      "conditions": {}
+    }
+  ]
+}

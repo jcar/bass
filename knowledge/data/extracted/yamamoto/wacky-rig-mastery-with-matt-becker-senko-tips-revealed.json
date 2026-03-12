@@ -1,0 +1,34 @@
+{
+  "source": "wacky-rig-mastery-with-matt-becker-senko-tips-revealed.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": {}, "tip": "Becker (MLF pro): 'Wacky rig 5-inch Senko around docks with 7ft 2in medium-heavy spinning rod, 20lb braid mainline to 12-15lb fluorocarbon leader. Heavier leader facilitates faster sink and better durability around dock posts'", "priority": 8 },
+        { "when": {}, "tip": "Becker (MLF pro): 'Position upwind of target for better casting accuracy. Target shaded regions beneath docks. Watch line movement for bites on the fall - use bright-colored braid for detection'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "wacky-rig-dock-setup",
+      "insight": "Becker (MLF pro): Uses 7ft 2in MH spinning rod, 20lb braid mainline (abrasion resistance around docks), 12-15lb fluorocarbon leader. TroKar TK137 Finesse Hook 1/0 with unique bend that locks and holds fish",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-rig-line-watching",
+      "insight": "Becker (MLF pro): 'Bites commonly go undetected while Senko sinks on slack. Watch line movement and use bright-colored braid to see line bites'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "heavier-leader-faster-sink",
+      "insight": "Becker (MLF pro): 'Heavier fluorocarbon leader (15lb vs 12lb) facilitates faster sink rate in addition to better durability around docks'",
+      "conditions": {}
+    }
+  ]
+}

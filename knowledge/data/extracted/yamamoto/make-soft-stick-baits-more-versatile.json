@@ -1,0 +1,88 @@
+{
+  "source": "make-soft-stick-baits-more-versatile.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "fishDepth": "15-45ft" }, "tip": "Yamamoto pro Hawk: 'Insert nail weight in thick end of Senko, pin hook in middle. Weight in head makes it fall straight down very fast — fish this rig easily in 15-45 feet on 4-6lb line. Drag, shake softly, fall technique'", "priority": 8 },
+        { "when": { "structure": "grass" }, "tip": "Japanese pro Iwahori tip (from Yamamoto ranch): Insert nail weight in head but position hook in-line with bait (shank facing forward) instead of perpendicular — allows fishing through vegetation with far less snagging", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "structure": "docks/deep-structure" }, "tip": "FLW pro Casey Martin: Rig 3/16-oz shaky head with 5-inch stick bait — stands upright for enticing look. Pitch around docks or fish over deeper structure", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "presentation": "finesse" }, "tip": "Nose hook or Texas rig a 3-inch stickbait for simple baitfish profile. For power shotting, upsize to 4-5 inch wacky rigged for maximum motion", "priority": 6 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "structure": "ledges/offshore-points" }, "tip": "FLW pro Casey Martin: Pair stick bait with monofilament leader on C-rig — lets bait float above short grass on ledges and offshore points for appearance of vulnerable baitfish", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "presentation": "topwater-followup" }, "tip": "Elite pro Scroggins: Keep unweighted 5-inch Senko handy when topwater fishing around shallow vegetation — if a fish misses your topwater, throw the Senko at point of contact for quick followup bite", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "trailer": "stickbait" }, "tip": "Using a stick bait as swim jig trailer shows finicky fish a more streamlined profile", "priority": 5 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "trailer": "stickbait" }, "tip": "Using a stick bait as vibrating jig trailer shows finicky fish a more streamlined profile — something different", "priority": 5 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-rig-flick-shake",
+      "insight": "Weighted wacky hooks and wacky jig heads (flick shake) take the double-ended wiggle straight to the bottom. FLW pro Roy Hawk: 'Throw it at anything — grass lines, pockets, docks, single rocks, shade lines. Vary the head weight depending on wind, current and depth'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "neko-vs-flick-shake-deep",
+      "insight": "FLW pro Roy Hawk prefers nail-weighted Neko over flick shake in deeper waters because the rig falls faster with less lateral resistance — straight down",
+      "conditions": { "fishDepth": "deep" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "stickbait-color-mods",
+      "insight": "Rubbing the tail of a Senko releases more salt and subtly changes the color — an on-the-fly alteration when fish have seen enough of one color. Chartreuse tail dip gets most carries; orange works where bluegill abound",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "wacky-rig-blade-accessory",
+      "insight": "Kevin Hawk: Owner Flashy accent (Indiana or willow blade on barrel swivel slipped onto hook bend) used in murky water or high pressure situations to draw more attention to wacky-rigged Senko",
+      "conditions": { "waterClarity": "stained" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "stickbait-football-head",
+      "insight": "A stick bait on a skirtless football head is a productive look for walking down bluff ends",
+      "conditions": { "structure": "bluffs" }
+    }
+  ]
+}

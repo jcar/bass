@@ -1,0 +1,21 @@
+{
+  "source": "a-better-way-to-fish-senkos-faster.txt",
+  "anglerName": "Yamamoto",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "coverWater": "fast" }, "tip": "Yamamoto: Rig a Senko on a weighted screw-lock hook to cover water much quicker than wacky rigging or weightless — maintains excellent skipping attributes while adding speed", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "weighted-screw-lock-senko",
+      "insight": "Yamamoto: A Senko rigged on a weighted screw-lock hook is a simple system that covers water faster than wacky or weightless while maintaining skipping ability",
+      "conditions": {}
+    }
+  ]
+}
