@@ -1,0 +1,19 @@
+{
+  "source": "hack-day-early.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "mental-approach",
+      "topic": "end-of-day-mental-reset",
+      "insight": "Hackney: 'With 1-2 hours left in a tournament, sit down, put the rod down, and mentally pretend the day is over. Critique yourself as if you are driving home. Ask what you would have done differently, then come back and make that change.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "avoid-panic-casting",
+      "insight": "Hackney: 'Many times speeding up and changing lures is not the answer. It is just the opposite - slow down, mentally evaluate, then make a deliberate change.'",
+      "conditions": {}
+    }
+  ]
+}

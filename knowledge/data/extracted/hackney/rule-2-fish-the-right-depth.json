@@ -1,0 +1,37 @@
+{
+  "source": "rule-2-fish-the-right-depth.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "vertical-position-matters",
+      "insight": "Hackney: 'After you find the bass, figure out whether they are on the bottom or suspended. At Okeechobee in 2 feet of water, smaller bass were on the bottom and bigger ones were suspended — hitting the lure as soon as it hit the water'",
+      "conditions": {}
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "size-separation-by-depth",
+      "insight": "Hackney: 'Sometimes different size fish hold at different depths in the same place. If you are catching smaller bass at one depth, try a different depth. There is only a short time in the spring when big bass mix with little bass'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "dirty-water-suspension",
+      "insight": "Hackney: 'When the water is dirty or muddy, bass will suspend more. They don't like to be on the bottom when it is real dark because they can't see. In the end they are sight feeders'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "cold-water-mat-position",
+      "insight": "Hackney: 'In cold water under something thick with sun shining, bass are much more likely to be up high under the mat or heavy overhead cover. I have actually seen them touching the underside of a mat — they grab whatever you pitch the second it breaks through the canopy'",
+      "conditions": { "season": "winter", "waterTemp": "cold" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "shallow-fish-method",
+      "insight": "Hackney: 'If fishing shallow, let your bait fall to the bottom and drag or short-hop it. If no bites, pull it up to the surface. After a couple catches you can figure things out'",
+      "conditions": { "fishDepth": "shallow" }
+    }
+  ]
+}

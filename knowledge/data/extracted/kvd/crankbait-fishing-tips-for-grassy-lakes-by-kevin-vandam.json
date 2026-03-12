@@ -1,0 +1,13 @@
+{
+  "source": "crankbait-fishing-tips-for-grassy-lakes-by-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Cranking grass edges: position boat just outside grass line, make parallel/quartering casts along it. Use 14-20lb fluorocarbon for strength to rip free. When bait loads up slightly, pause — that tug might be a fish. If not, drop rod tip for slack, sharp snap to free it, continue retrieving. 3XD/Series 5/5XD covers 8-15ft grass edges.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

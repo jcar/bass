@@ -1,0 +1,31 @@
+{
+  "source": "flipping-mats-part-1.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "mat-definition",
+      "insight": "Hackney: 'A mat can be made of anything — vegetation, pine needles, leaves piled by wind and current, even discarded lumber or trash. Bass will hold under any mat if it breaks the sunlight and there's a foot of water under it.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "why-bass-use-mats",
+      "insight": "Hackney: 'Mats offer shade, an ambush point and a safe place from predators. The only time bass won't use a mat is when they're actually on the bed — they like sunlight then.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-mat-rod-requirements",
+      "insight": "Hackney: 'You want a heavy action blank with some tip and a parabolic bend from tip to handle. Not a featherweight — you need weight to help set the hook. Close to 8 feet long, never shorter than 7-6. The parabolic bend sets the hook and the strong blank pulls the fish out.'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "flipping-mats-tackle-gap",
+      "insight": "Hackney: 'Most anglers do not use anything close to what they should for flipping mats. Most of them are carrying a knife to a gunfight.'",
+      "conditions": {}
+    }
+  ]
+}

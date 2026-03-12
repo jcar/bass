@@ -1,0 +1,19 @@
+{
+  "source": "has-greg-hackney-changed-his-style-of-fishing-for-major-league-fishing.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "mlf-vs-bassmaster-approach",
+      "insight": "Hackney: 'I have not changed my fishing strategy at all for MLF. The one thing that will change is you probably will not leave a spot producing lots of bass to go look for bigger ones. But at the end of the day the angler who catches the most big bass will win.'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "consistency-over-format",
+      "insight": "Hackney: 'I won the MLF World Championship in March 2018 flipping a Rodent. If it is not broken, do not try to fix it.'",
+      "conditions": {}
+    }
+  ]
+}

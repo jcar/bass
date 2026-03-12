@@ -1,0 +1,30 @@
+{
+  "source": "kevin-vandams-three-favorite-crankbaits-for-spring-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'No place in the country I go without a 1.5 tied on in spring. It's versatile around laydowns, rocks, deeper grass. Vary line size to control depth — heavier line (up to 20lb fluoro) to run shallower, lighter line to dig deeper.'", "priority": 10 },
+        { "when": { "season": "spawn" }, "tip": "KVD: 'When bass are dirt shallow near spawn, use the 1.5 Shallow — runs about 12 inches below surface. Throw on heavy 17lb line near shallow cover and docks. Rod tip high and it practically doubles as a wakebait. Use bluegill/sunfish colors — bass are targeting them around beds.'", "priority": 9 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "post-spawn" }, "tip": "KVD: 'Post-spawn bass slide to secondary points, road beds, shallow ledges, main lake points — the 8-10ft depth range. A Series 5 in Sexy Shad does its best work here. Don't jump to deep divers too early post-spawn — meet bass in the middle with a medium diver, it's less intrusive than aggressive deep plugs.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-crankbait-transition",
+      "insight": "KVD: 'Bass don't go extremely deep immediately after spawning. They stop at secondary points, road beds, shallow ledges, main lake points in the 8-10ft range. Many anglers pull out deep divers too soon — a medium-diving crankbait in Sexy Shad matches the shad-gorging post-spawn phase better.'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

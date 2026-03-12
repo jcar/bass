@@ -1,0 +1,53 @@
+{
+  "source": "greg-hackneys-braid-flipping-system.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'With braid (no stretch), you need a parabolic rod - limber tip with the whole rod loading. If you use a stiff rod with braid and move the fish too much on hookset, you get slack and that is when one comes off.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Keep the fish on the bend of the rod the whole time so you get no slack. With braid, the only place for forgiveness is in the rod.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Use a reel with big handles for power - everything happens fast and up close when flipping. Get the fish in as fast as possible. The less time in the water, the less chance they have of coming off.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "braid-vs-fluorocarbon-visibility",
+      "insight": "Hackney: 'Braid carries no light - it is real natural-looking in the water. Fluorocarbon and mono are not natural-looking at all. If fishing cover, the fish sees the jig first, not the line. I have caught them in 18 feet of visible water in cover with braid.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "braid-color-matching",
+      "insight": "Hackney: 'Let braid color fade to match cover. If fishing green grass, use green braid. Do not paint it black because that is one of the easiest colors for fish to see.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "braid-efficiency",
+      "insight": "Hackney: 'Braid makes me a lot more efficient. I do not have to retie as much. The whole deal about line type is whatever makes the bait act natural - I am not worried about them seeing the line.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "parabolic-rod-for-braid",
+      "insight": "Hackney: 'The 7-foot-11 flip stick was built for braid - not fast enough for fluorocarbon. Very parabolic bend, limber tip, and the whole rod loads. With no-stretch line you need that forgiveness in the rod.'",
+      "conditions": {}
+    }
+  ]
+}

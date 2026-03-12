@@ -1,0 +1,64 @@
+{
+  "source": "how-to-choose-the-right-crankbait-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "KVD: Square bills have great deflection qualities and are one of the most weedless crankbaits. The square bill kicks off hard from grass, brush, gnarly rocks, and riprap — triggering neutral or negative fish. Works cold or warm.",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "KVD: Pick a crankbait that runs just a little deeper than the water you're fishing — that's when it's at its best action. A 5XD in 15ft of water contacts bottom at 13-14ft with great lively action and deflection. The same 5XD in 5ft overpowers the bottom and loses triggering quality.",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "crankbait-bill-angle-theory",
+      "insight": "KVD: Bill angle determines everything. Straighter bill = tighter action + steeper dive angle + deeper running. More angle from the body = wider wobble + more displacement + more vibration + quicker recovery after deflection. The line tie position relative to the bill matters too.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flatside-vs-round-body-crankbait",
+      "insight": "KVD: Flatside crankbaits send off a lot of pressure waves because flat sides displace a ton of water. Best in cold water (bass rely on lateral line to hunt) and dirty water any season (visibility is down). Round body crankbaits vary widely depending on bill angle — the body shape alone doesn't tell the whole story.",
+      "conditions": {}
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "crankbait-depth-matching-rule",
+      "insight": "KVD: 'Pick a bait that runs just a little deeper than the depth of water you're fishing — that particular crankbait is going to be at its best.' It contacts bottom with great action. A bait that runs much deeper than the water overpowers the bottom and loses its triggering qualities.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "10xd-unique-design",
+      "insight": "KVD: The 10XD is unique for a straight-body deep diver — it has a slightly wider wobble than expected, giving it great deflection even in 12-15ft of water. Most deep divers with straight bills lose themselves completely when hitting cover. The 10XD doesn't — that's why it's a premier deep cranking bait.",
+      "conditions": { "lure": "Deep Diving Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "squarebill-versatility",
+      "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Works in cold or warm water. Triggers neutral/negative fish with deflection.",
+      "conditions": { "lure": "Squarebill Crankbait" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "crankbait-bottom-contact-paramount",
+      "insight": "KVD: 'In 99% of circumstances, I want to make sure whatever depth I'm fishing, the bait is getting to the bottom.' Biggest mistake anglers make is using the wrong style crankbait and not contacting the bottom. That's why depth-specific models exist (10XD, 8XD, 6XD, 5XD, 3XD).",
+      "conditions": {}
+    }
+  ]
+}

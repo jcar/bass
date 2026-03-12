@@ -1,0 +1,74 @@
+{
+  "source": "part-2-inside-the-mind-of-greg-hackney.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'I like to fish a 7-foot 11-inch flipping stick with a Hack Attack Jig and 50-pound braided line tied straight to the jig without a leader'", "priority": 7 },
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'The only time I use a leader is when fishing braided line on a spinning rod'", "priority": 6 }
+      ],
+      "colorRules": [
+        { "when": { "general": true }, "color": "black and blue", "hex": "#1a1a3e", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "general": true }, "tip": "Hackney: 'I use a 1/8-ounce jig head with a Double Header Finesse Worm — I can skip it under boat docks and tree limbs, fish it on deep ledges or underwater rock piles'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "fishJumping": true }, "tip": "Hackney: 'If I'm fishing a crankbait and the bass is about to jump, I try to pull the bass and keep its head down. Anytime I have treble hooks I'll attempt to keep the bass from jumping'", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "electronics-mapping",
+      "insight": "Hackney: 'The topographical map is the number-one screen on the depth finder I use to find bass. I mark spots where I catch a bass at a certain depth, and it instantly shows me similar depth structure elsewhere on the lake'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "losing-big-fish",
+      "insight": "Hackney: 'If I lose a big bass today I can get over that tragedy in about 5 minutes. Instead of being upset, I think: you've found the right lure, you're in the correct depth on the best structure, so keep doing the same thing and you will catch another one'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "hook-sharpness-equipment-prep",
+      "insight": "Hackney: 'One of the secrets to winning tournaments is controlling all the variables — sharpen hooks, have fresh line. Once those tasks are done and a bass still gets off, accept the bass just beat you'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "visual-pattern-recognition",
+      "insight": "Hackney: 'I'm a really good visual learner. As I run down a lake I can see where bass should be. If you've put the time in on the water, your brain identifies the places you need to fish based on past experiences'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "spinning-tackle-leader",
+      "insight": "Hackney: 'On spinning gear I use 10-pound braid tied to a 3-6 foot fluorocarbon leader material, not casting-style fluorocarbon. The leader material is much stronger and abrasion-resistant'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "equipment-maintenance",
+      "insight": "Hackney: 'I fix little problems before they become major problems. A bass fisherman is only as good as the equipment he uses. I change lower unit fluid regularly and keep tools in the boat to fix almost anything'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fish-fighting-single-hook",
+      "insight": "Hackney: 'With a single hook I set the hook hard enough the bass shouldn't throw it. I put a lot of pressure on a fish, pulling hard and winding fast to break the fish's will to jump, keeping its head above water like it's on skis'",
+      "conditions": {}
+    }
+  ]
+}

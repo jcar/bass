@@ -1,0 +1,39 @@
+{
+  "source": "kevin-vandam-on-the-red-eyed-shad.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "confidenceModifiers": [
+        { "when": { "fishDepth": { "min": 6, "max": 8 } }, "adjustment": 5 },
+        { "when": { "fishDepth": { "min": 12 } }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "fishDepth": { "max": 6 } }, "tip": "KVD: 'On shallow flats, use your rod tip and line size (10-20lb) to control depth. I want the bait hitting bottom. Every time it ticks cover, pop it and let it flutter — that's when fish bite.'", "priority": 10 },
+        { "when": { "fishDepth": { "min": 6, "max": 12 } }, "tip": "KVD: 'My favorite technique is pump-and-stop. Rod tip to the side, sweep it, follow the bait back down on a tight line. Lets the Red Eye Shad swim to bottom with its shimmer. I catch more fish this way than any other.'", "priority": 10 },
+        { "when": { "fishDepth": { "min": 12 } }, "tip": "KVD: 'In deeper water, yo-yo on ledges — cast, let sink, hop up and follow back down. The 3/4oz gets down 15-20 feet. Use lighter line and fluorocarbon to keep the bait deep.'", "priority": 8 }
+      ],
+      "defaultTip": "KVD: 'If you're just casting and reeling back, you're selling yourself short. The beauty of the Red Eye Shad is it stays balanced and doesn't tip over — it has this shimmer as it swims back to bottom. That's when the fish really bite it.'"
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "lipless-pump-and-stop",
+      "insight": "KVD: 'Pump and stop retrieve — rod tip to the side, sweep and follow the bait back down keeping tension. Let the Red Eye Shad do its thing and swim to bottom. Works over grass, rocks, deeper flats. I probably catch more fish this way than any other.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-rod-setup",
+      "insight": "KVD: 'I throw the Red Eye Shad on a 7-7'10\" fiberglass composite rod. Gives me graphite feel with the slow reaction time of glass. Enough power to snap it free from grass. Long casts cover more water. Always fluorocarbon — it sinks, great feel, good hook sets on long casts.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-weight-selection-by-depth",
+      "insight": "KVD: 'I use the 1/2oz Red Eye Shad in the 7-12 foot zone and the 3/4oz for deeper — 15-20 feet on ledges. Use lighter line to help keep the bait down.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "hackneys-hook-change-strategies.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "cover": "heavy" }, "tip": "Hackney: 'On a KVD 2.5, replace standard No.2 hooks with short shank No.1 around heavy cover for greater lip-grabbing ability.'", "priority": 8 },
+        { "when": { "waterClarity": "clear", "fishingPressure": "high" }, "tip": "Hackney: 'Go to a 1/0 hook on the 2.5 to deaden the action. A shad does not have aggressive action. You still get the big profile but more natural movement for pressured fish.'", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'Add a larger hook on the rear to make the bait tilt tail-down on the pause. In clear water those fish are looking at the bait and this will get them to commit.'", "priority": 8 },
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'Adding bigger hooks numbs the action enough for cold water fish. But you may need to drop line size to 10 or 8 pound to keep the bait neutral.'", "priority": 8 },
+        { "when": {}, "tip": "Hackney: 'Adding a larger hook to the front end allows the jerkbait to reach a couple feet deeper without making it sink.'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "Hackney: 'Upsize to 2X strong No.4 trebles on deep divers to swap buoyancy for a couple more feet of depth. The spots where you use a 6XD or 8XD don't have a lot of snags.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "hook-upsizing-general-philosophy",
+      "insight": "Hackney: 'I typically like to go with the biggest hook I can put on a treble hook bait because it increases my chances of catching a fish. A fish on a treble hook bait is harder to land than one caught on a single hook bait.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "hook-weight-affects-buoyancy-by-water-temp",
+      "insight": "Hackney: 'You can manipulate hooks because of water temperature. It is easier to sink a bait in cold water than warm water because air and gas inside the bait are less buoyant in cold water.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-crankbait-suspend-trick",
+      "insight": "Hackney: 'Adding No.4 2X strong trebles to a flat-sided balsa bait (Lucky Shad) tempers buoyancy and lets it suspend on contact with cover. It acts like a jerkbait but you can crank it and cover more water.'",
+      "conditions": { "waterTemp": "cold" }
+    },
+    {
+      "category": "gear",
+      "topic": "hook-storage-prevents-dull-points",
+      "insight": "Hackney: 'Only carry about 10 replacement hooks of each size. Overpacking trays leads to dull hooks as masses of metal bump against one another during long runs.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "inside-the-mind-of-greg-hackney.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "slow-and-steady-wins",
+      "insight": "Hackney: 'Slow and steady typically wins the fishing race. When within striking distance of winning, I do not want to fish too hard and spin out.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "finesse-in-final-hour",
+      "insight": "Hackney: 'If I am struggling or close to winning and may need one or two more fish, I will slowly fish a shakyhead worm or a wacky-rigged worm thoroughly, working the cover. Time and again this tactic produces more bass than running up and down the lake chucking and winding.'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "versatility-is-essential",
+      "insight": "Hackney: 'You cannot be a one-dimensional bass fisherman. The pros who continue to cash checks are good at every form of bass fishing. I always have a spinning rod and finesse lure on my casting deck.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "finesse-bait-arsenal",
+      "insight": "Hackney: 'My favorite finesse baits are the wacky worm, the shakyhead worm, and a dropshot worm. I am also learning the Ned Rig and sometimes fish a hair jig.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-tournament-research",
+      "insight": "Hackney: 'I spend a ton of time watching old tournament videos to learn about structures in the lake, what bass should be doing at that time of year, what portion of the lake produces the biggest bass, and what lures are most productive.'",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "reorganize-tackle-by-pattern",
+      "insight": "Hackney: 'Before each tournament I completely reorganize my boat for the expected pattern. Going from Florida spawning bass to Tennessee winter pattern means getting rid of all the heavy tackle and packing smaller tackle.'",
+      "conditions": {}
+    }
+  ]
+}

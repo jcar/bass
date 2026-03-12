@@ -1,0 +1,38 @@
+{
+  "source": "power-fishing-with-kevin-vandam-7.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "tip": "KVD: 'In stained water over grass during pre-spawn, the Red Eye Shad is a primary go-to. It covers water and has inherent reaction qualities to trigger cold-water strikes. You can alter action by jerking, ripping, or pausing to interest neutral fish.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'In clear cold water, the jerkbait may be the better choice over lipless or spinnerbait. You can alter its action by jerking, ripping, or pausing to interest neutral fish.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "power-fishing-cold-water-philosophy",
+      "insight": "KVD: 'I power fish year-round, even in cold water. Bass are far more active than I once believed. Strike zone is smaller but they'll crush a power bait worked in their immediate area. Power fishing is the foundation of everything I do — it helps locate fish and dial in patterns more efficiently than finesse.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "pre-spawn-boat-positioning",
+      "insight": "KVD: 'In cold water, boat position is as critical as lure selection. Position parallel to dropoffs and edges so your bait stays in the proper depth zone throughout the retrieve. Bass won't move far in cold water — if you don't fish parallel, your bait catches a much smaller percentage of the key depth.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-weather-response",
+      "insight": "KVD: 'Cold-water bass respond to weather changes like warmer seasons. Strike zone largest on cloudy, rainy frontal days with wind — move lures faster. High pressure/no wind — slow down to bottom-bouncing baits but still fish faster and erratically. 2008 Classic at Hartwell: hammered them cranking Day 1 in brutal cold, switched to stained water with flat-sided cranks Day 2 when front passed.'",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

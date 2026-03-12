@@ -1,0 +1,45 @@
+{
+  "source": "hackneys-utilitarian-swim-strategy.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Hackney: 'The 3/8-ounce is a really user-friendly size. It casts good and is easy to fish shallow and mid-depths. It is as effective on fish in 40-degree water as 90-degree water.'", "priority": 8 },
+        { "when": { "fishDepth": "shallow" }, "tip": "Hackney: 'Use a Rage Craw trailer (bite off the top two segments) for surface-level waking presentations. The skirt flares broadly to keep the bait up higher in the water column.'", "priority": 9 },
+        { "when": { "fishDepth": "5-10ft", "season": "summer" }, "tip": "Hackney: 'When slow rolling in 5-10 feet, use a heavier paddletail swimbait trailer (Rage Swimmer) to keep the bait low. Figure out the right speed and keep it slow and steady.'", "priority": 9 },
+        { "when": { "waterClarity": "stained" }, "tip": "Hackney: 'Use a larger craw trailer like the Rage Lobster in dirtier water. It pushes more water when visibility declines.'", "priority": 8 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'Use a grub-style trailer (Menace) in extremely clear water or when fish are feeding on smaller prey. Much more subtle profile.'", "priority": 8 },
+        { "when": { "cover": "lily pads" }, "tip": "Hackney: 'Pitch the swim jig like a flipping jig into holes and lanes in lily pad fields. You are getting a reaction bite by suddenly swimming the bait through the opening.'", "priority": 8 },
+        { "when": {}, "tip": "Hackney: 'If you miss a fish on the swim jig, pitch it back and fish it like a traditional jig. You can give it any action - steady retrieve, hop, pop, stop and go.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "swim-jig-trailer-depth-control",
+      "insight": "Hackney: 'Manipulate running depth by varying the trailer. Rage Craw keeps it high, Rage Swimmer keeps it low, Rage Lobster keeps it high with bigger profile, Menace Grub for subtle smaller profile.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "swim-jig-rod-and-reel",
+      "insight": "Hackney: 'Use a 7-2 swim jig/frog rod with a 7.5:1 or 8.3:1 reel for fast retrieves. In winter when fishing deep and slow, switch to a 6.4:1 reel.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "swim-jig-line-selection",
+      "insight": "Hackney: 'Use 50-pound braid most of the time for snappy response and shallow cover. Switch to 14-20 pound fluorocarbon only for the deep-and-slow presentation.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "swim-jig-forage-size-trailer-match",
+      "insight": "Hackney: 'Use 4.75-inch Rage Swimmer for bigger shad or baitfish. Use 3.75-inch in colder water or when fishing deeper. Both keep the swim jig down.'",
+      "conditions": {}
+    }
+  ]
+}

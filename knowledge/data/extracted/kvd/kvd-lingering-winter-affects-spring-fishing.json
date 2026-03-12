@@ -1,0 +1,26 @@
+{
+  "source": "kvd-lingering-winter-affects-spring-fishing.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'Late winter/cold spring with snowmelt runoff makes water clearer than normal — great prespawn jerkbait period. Target flats near deep water access, not shallow creek backs. Focus on northerly flats that get the longest sun benefit. Dark/muck bottoms, rocky areas, dying vegetation make them warmer.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'In shallower prespawn areas around cover, a Rage Blade (bladed jig), swim jig, Red Eye Shad, or squarebill are my choices. These cover the shallower zone while jerkbaits handle the staging areas on the flat.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "late-winter-spring-transition",
+      "insight": "KVD: 'Daylight length and time of year affect spawning movements as much as anything, but conditions must be right too. Snowmelt runoff is colder AND clearer than normal spring rain — moves slower and drops water temps faster. In prespawn, target pockets and bays near creek channels or deep water access. Northerly flats with dark/muck bottoms, rock, dying vegetation are degrees warmer.'",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

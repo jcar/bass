@@ -1,0 +1,40 @@
+{
+  "source": "kevin-vandam-power-fishes-for-the-hardware---championship-sunday-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": "summer" },
+          "tip": "KVD: Texas rig 5-inch Ocho in blue craw or green pumpkin — pitch into holes in the grass at 9-11ft. 3/8oz tungsten with 3/0 Mustad grip pin hook. Color doesn't matter much — 'anything green pumpkin.' The Ocho just glides straight down into the clean holes.",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        {
+          "when": { "windSpeed": { "max": 3 } },
+          "tip": "KVD: When it goes slick calm and fish get finicky, switch the same Ocho to a wacky rig on a spinning rod. Cast it out, let it painfully sink to the bottom, twitch a few times — they usually eat it before it hits bottom.",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lake-reading",
+      "topic": "grass-holes-as-key-structure",
+      "insight": "KVD: On Cayuga Lake (northern natural lake), the north end is a huge expanse of flats at 8-12ft, all grass. The key is finding clean holes in the grass at 9-11ft. Good holes have a little bit of rock in them. Each hole has its own ecosystem — bluegill, perch, gobies all live there. Good holes have reloaded with fish all week.",
+      "conditions": { "structure": "grass" }
+    },
+    {
+      "category": "gear",
+      "topic": "texas-rig-grass-holes-setup",
+      "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down clean into the holes.",
+      "conditions": { "lure": "Texas Rig (Creature Bait)", "structure": "grass" }
+    }
+  ]
+}

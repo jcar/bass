@@ -1,0 +1,16 @@
+{
+  "source": "fishing-the-thunder-cricket-in-pre-spawn-conditions.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Pre-spawn Thunder Cricket in grass: wind it really slowly — you should barely feel it vibrate. If it thumps your rod hard, you're going too fast. Use it as a wakebait that just barely gets into the grass, jerk it out of the grass for more bites. Lighter weight for shallow grass, heavier for deeper. Blade Minnow trailer in bluegill color for grassy conditions.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

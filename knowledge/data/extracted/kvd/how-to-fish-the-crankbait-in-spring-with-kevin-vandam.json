@@ -1,0 +1,29 @@
+{
+  "source": "how-to-fish-the-crankbait-in-spring-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Red Eye Shad is my go-to as soon as water opens — even with ice still floating. The falling action triggers the most strikes. Fish it like a yo-yo: side sweep of rod, let it fall, repeat. The balanced shimmy as it drops looks like a wounded baitfish. Rip it off grass or stumps for reaction strikes.'", "priority": 10 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-rod-setup",
+      "insight": "KVD: 'For lipless crankbaits, use a long composite rod (part glass, part graphite). Graphite gives sensitivity to feel tiny bits of weed on hooks. Glass slows the action for better deflection off cover. Longer rod gives depth control — rod tip up for shallow flats (2-4ft), rod tip down for deeper areas. Always fluorocarbon — sinks, low stretch, abrasion resistant.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "spring-lipless-color-strategy",
+      "insight": "KVD: 'Early spring lipless colors: stick to natural patterns mimicking what bass already feed on — bluegill and crayfish in clear water. Stained or murky water, switch to brighter colors — chartreuse, fluorescent reds, anything that stands out more.'",
+      "conditions": { "lure": "Lipless Crankbait", "season": "pre-spawn" }
+    }
+  ]
+}

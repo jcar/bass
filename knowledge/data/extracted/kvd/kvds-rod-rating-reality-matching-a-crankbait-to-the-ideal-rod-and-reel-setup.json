@@ -1,0 +1,30 @@
+{
+  "source": "kvds-rod-rating-reality-matching-a-crankbait-to-the-ideal-rod-and-reel-setup.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "KVD: Don't just cast and reel a Red Eye Shad — yo-yo it, tick the grass, rip it out. Follow the ditches and drains on your LakeMaster. Look for subtle depressions on big flats — sometimes the best fish are on features you can only find by fishing, not on the map.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-shallow-grass-setup",
+      "insight": "KVD: For lipless crankbaits in shallow grass (3-7ft): CC5 7'4\" heavy action composite rod, 7.5:1 reel, 20lb fluoro. Multiple cranking rods with 14, 17, and 20lb line for different depths. Heavy line keeps the bait up and slows it down in shallow grass. The heavy composite rod has backbone to rip through grass.",
+      "conditions": { "lure": "Lipless Crankbait", "structure": "grass" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "follow-ditches-drains-pre-spawn",
+      "insight": "KVD: Pre-spawn in Texas (and everywhere), follow the ditches and drains leading into spawning flats. Fish use these as highways. Subtle depressions on LakeMaster mapping concentrate fish, but sometimes the best spots are subtle features you find just by covering water with a Red Eye Shad.",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

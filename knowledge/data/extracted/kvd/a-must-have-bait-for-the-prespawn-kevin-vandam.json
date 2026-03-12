@@ -1,0 +1,74 @@
+{
+  "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 12 },
+        { "when": { "season": "winter" }, "adjustment": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "color": "Rayburn Red", "hex": "#8b1a1a", "priority": 12 },
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "color": "Baby Carp", "hex": "#5c3a1e", "priority": 10 },
+        { "when": { "waterClarity": "stained" }, "color": "Chartreuse Sexy Shad", "hex": "#b8c900", "priority": 10 },
+        { "when": { "waterClarity": "clear" }, "color": "Chrome Sexy Shad", "hex": "#c0c0c0", "priority": 8 }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "KVD: Fish the Red Eye Shad like a worm or jig, not just cast-and-reel. Rip it out of cover, let it flutter down — that swimming shimmy on the fall is the magic. The colder it is, the slower you fish. Downsize to 1/4oz on ultra-shallow flats (1-2ft). Upsize line to 17-20lb fluoro to slow the fall and keep bait above grass.",
+          "priority": 12
+        }
+      ],
+      "defaultTip": "KVD: 'To really unlock the power of a Red Eye Shad, fish it like a worm or a jig.' Rip out of grass, let it flutter. The quiver/shimmy fall triggers bites from tracking bass. Won the Classic at Lay Lake with this exact technique."
+    }
+  ],
+  "credibilityUpdates": {
+    "Lipless Crankbait": 0.95
+  },
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-size-depth-control",
+      "insight": "KVD: Red Eye Shad sizes for depth control — 1/4oz for ultra-shallow (1-2ft), 3/8oz for shallow flats, 1/2oz as go-to, 3/4oz for 10-15ft deep drains. Plus tungsten Two Tap in 1/2 and 3/4oz — heavier tungsten fishes slightly deeper. Most anglers get stuck on 1/2oz and don't downsize when fish are shallow.",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-line-controls-depth",
+      "insight": "KVD: Line size is a major depth control tool for lipless crankbaits. Lighter line (10-12lb) = bait gets deeper (use for clear water, deeper grass, northern natural lakes). Heavier line (17-20lb) = bait stays higher and falls slower (use for shallow grass lakes like Guntersville). Rod tip up in shallow water.",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-rod-reel",
+      "insight": "KVD: CC3 medium-heavy composite (graphite/glass) cranking rod for lipless crankbaits. 6.2:1 gear ratio reel — not high-speed in cold water. The composite gives feel for detecting grass on hooks while having power to rip free.",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-hook-upgrade",
+      "insight": "KVD: Always change hooks to KVD/Mustad Triple Grip. Upsize: #2 on 1/2oz, #4 on 1/4oz, #1/0 on 3/4oz. Triple grip design locks fish on — critical because lipless crankbaits are known for poor strike-to-land ratio. Won the Classic catching 5-pounders hooked in the back and side thanks to these hooks.",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "lipless-crankbait-comprehensive-colors",
+      "insight": "KVD: Crawfish patterns dominate pre-spawn — reds in any water clarity (Rayburn Red, Delta Red, Fire Craw). Clear water = natural craw patterns (dark brown, baby carp, orange brim, bluegill). Stained/dirty = chartreuse, chartreuse sexy shad, brighter colors. Shad-focused systems (Tennessee River) = chrome sexy shad, gold sexy shad, straight sexy shad.",
+      "conditions": { "lure": "Lipless Crankbait", "season": "pre-spawn" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "lipless-crankbait-jig-style",
+      "insight": "KVD: Fish the lipless crankbait like a jig in cold water. Short hop it along the bottom. Pull it around cover, deflect off rocks. Rip it out of grass, let it flutter down. Use rod tip to manipulate depth — tip up in shallow, down to get deeper. Make the bait fall as many times as possible — that's when bites happen.",
+      "conditions": { "lure": "Lipless Crankbait", "season": "pre-spawn" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "lipless-crankbait-pre-spawn-targets",
+      "insight": "KVD: Focus on large flats and spawning flats — where fish are coming and going. Look for deeper depressions, edges, drops, centers of drains within the flat. These subtle depth changes concentrate pre-spawn fish. At places like Toledo Bend and Sam Rayburn, fish deeper drains/ditches leading into spawning bays with 3/4oz.",
+      "conditions": { "lure": "Lipless Crankbait", "season": "pre-spawn" }
+    }
+  ]
+}

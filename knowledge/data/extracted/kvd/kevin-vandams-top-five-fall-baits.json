@@ -1,0 +1,22 @@
+{
+  "source": "kevin-vandams-top-five-fall-baits.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'Thunder Cricket vibrating jig with Blade Minnow trailer is a tremendous big bass catcher in fall. I use it in clear water — it's a great smallmouth bait. Gives off a lot of vibration, very different than a squarebill.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Fall spinnerbait: super versatile, top to bottom. Burn it right under surface in clear water, slow-roll around laydowns and logs, fish around docks and bushes. Usually double willow blade in fall. Heavy rain or dirty water in creek backs, switch to Colorado blade. Always match color to the forage.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

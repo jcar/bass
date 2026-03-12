@@ -1,0 +1,24 @@
+{
+  "source": "jerkbait-fishing-tips-with-kevin-vandam-catch-more-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'Fall is an especially great jerkbait time — forage has been growing all year, so use bigger jerkbaits. Always fish windy areas over calm spots — wind makes bass aggressive and looking up. Start and finish retrieves with slack line for best side-to-side action. Chrome Sexy Shad on sunny days for maximum flash.'", "priority": 10 },
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'No other lure can pull bass from farther away. If you can see bottom at 20ft, that's still shallow enough for jerkbaits. Adjust cadence daily — let bass tell you what they want. Cold water = longer pauses, warm water = more active retrieve. Always start erratic.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "jerkbait-cadence-rules",
+      "insight": "KVD: 'Jerkbait cadence: always start and finish with slack in your line — this gives the bait its best side-to-side action. Experiment every day and let bass tell you what they want. Cold water = longer pauses. Warm water = more active and erratic retrieve. The clearer the water, the more action in the retrieve.'",
+      "conditions": { "lure": "Suspending Jerkbait" }
+    }
+  ]
+}

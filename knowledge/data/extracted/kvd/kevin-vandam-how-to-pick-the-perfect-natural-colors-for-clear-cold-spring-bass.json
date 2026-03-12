@@ -1,0 +1,34 @@
+{
+  "source": "kevin-vandam-how-to-pick-the-perfect-natural-colors-for-clear-cold-spring-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "colorRules": [
+        { "when": { "waterClarity": "clear", "season": "pre-spawn" }, "color": "Blue Craw", "hex": "#3a5f8a", "priority": 10 },
+        { "when": { "waterClarity": "clear" }, "color": "Green Pumpkin", "hex": "#6b8e23", "priority": 8 }
+      ],
+      "tipRules": [
+        {
+          "when": { "waterClarity": "clear", "season": "pre-spawn" },
+          "tip": "KVD: Clear water = natural colors on the Thunder Cricket. Green pumpkin or blue craw body with KVD Magic trailer (bite the head off to shorten). Imitates bluegill and crayfish — looks natural to the bass. Cover water and get it in the zone.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "trailer-modification",
+      "topic": "thunder-cricket-kvd-magic-trim",
+      "insight": "KVD: Bite the head off the KVD Magic trailer — shorten it just a bit. Combined with blue craw Thunder Cricket, it looks like a bluegill. The trailer adds a little flash and keeps the presentation subtle and natural for clear water.",
+      "conditions": { "lure": "Chatterbait", "waterClarity": "clear" }
+    },
+    {
+      "category": "gear",
+      "topic": "chatterbait-clear-water-setup",
+      "insight": "KVD: CC5 composite rod with heavy action (e-glass/graphite blend) — you feel everything with the bladed jig and it absorbs shock on the bite. 7.5:1 KVD reel, 20lb fluorocarbon.",
+      "conditions": { "lure": "Chatterbait" }
+    }
+  ]
+}

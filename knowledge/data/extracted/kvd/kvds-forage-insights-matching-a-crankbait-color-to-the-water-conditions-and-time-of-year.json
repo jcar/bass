@@ -1,0 +1,34 @@
+{
+  "source": "kvds-forage-insights-matching-a-crankbait-color-to-the-water-conditions-and-time-of-year.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "colorRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "color": "Fire Craw", "hex": "#c4302b", "priority": 10 },
+        { "when": { "waterClarity": "stained" }, "color": "Gold Sexy Shad", "hex": "#b8860b", "priority": 8 }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "KVD: Red Eye Shad is one of the most efficient baits for covering flat spawning areas. In spring in Texas, red = crawfish coming out. Stained water = fire craw or brighter reds. As sun comes up, switch to gold sexy shad — great flash in stained water.",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "lipless-crankbait-forage-color-matching",
+      "insight": "KVD: Match the forage and water clarity. Spring in Texas = red (crawfish coming out, dark red). Stained water = brighter reds like fire craw or chili craw. Gold has great flash in stained water (gold sexy shad). General rule: 'Pick something that's natural and something that's visible.' Match bluegill, crawfish, or shad based on the system.",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "pre-spawn-fish-scatter-flats",
+      "insight": "KVD: As water warms in pre-spawn, fish scatter out into big spawning bays. Try to follow ditches but sometimes you just have to fan cast randomly. Wind or clouds help position fish better and make them more aggressive.",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

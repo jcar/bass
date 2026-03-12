@@ -1,0 +1,44 @@
+{
+  "source": "flipping-and-pitching-mats-for-bass-greg-hackney-brain-dump.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'For punching mats, use 1 to 1.5 oz tungsten weights as the most common range, with a 6/0 Heavy Cover Flipping Hook on 50-pound braid.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "black blue flake",
+          "hex": "#000033",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "why-mats-hold-bass",
+      "insight": "Hackney: 'Matted grass provides excellent surrounding and overhead protection and ambush points while heating up quicker than the surroundings. These factors make them resilient to cold fronts. Rich soils support food webs including crawfish and sunfish.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "mat-punching-tackle",
+      "insight": "Hackney: 'Key tackle for punching mats: 7-11 Heavy rod, high-speed reel, 50-pound braid, 1 to 1.5 oz tungsten, 6/0 flipping hook, Rage Punch Bug in Black Blue Flake.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "mat-punching-coverage",
+      "insight": "Hackney: 'Once you get bit, your job becomes dropping your bait into every nearby nook and cranny. Choose a powerful and balanced flipping rod for effortless and pinpoint pitches and flips.'",
+      "conditions": {}
+    }
+  ]
+}

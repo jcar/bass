@@ -1,0 +1,41 @@
+{
+  "source": "kevin-vandams-three-favorite-lures-for-fall.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving shallow and will bite it in just about any color of water.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterClarity": ["clear", "stained"] }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'A 4.5\" Sexy Dawg has incredible drawing power — you can attract bass from far away in clear to stained water, as long as there's not too much wave action. Use 50lb braid, 7.3:1 reel — braid makes it easier to walk and gets better hook-ups.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Not every bass swims to the back of creeks in fall. Keep your boat in 10 feet, cast up to 4-5 feet on shallow flat main lake secondary points. Quality reel for long smooth casts, 12lb fluorocarbon.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-not-all-in-creeks",
+      "insight": "KVD: 'Not every quality bass follows bait to the back of a creek in fall — there's still plenty of good fish eating bait on flat, shallow points along the main lake too. Target shallow flat main lake secondary points.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "hackneys-new-school-flipping-and-pitching-approach.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "post-spawn" }, "tip": "Hackney: 'A Texas-rigged soft plastic is tops for versatility in post-spawn conditions and even outshines the classic jig in tournament conditions.'", "priority": 7 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'In clearer water, make quick targeted presentations. In dirty water, soak the bait longer to give bass more time to react and find the bait.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-heavy-cover-migration",
+      "insight": "Hackney: 'As bass conclude spawning, big females seek thick heavy grass to rest, recuperate, and feed up on bluegills and crawfish.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "gear",
+      "topic": "rod-length-for-flipping-scenarios",
+      "insight": "Hackney: 'Use the 7-foot-11 flipping stick for standard flipping and a 7-foot-6 version for different pitching scenarios. Balance rod action, bait weight, and the need for precise efficient hook sets.'",
+      "conditions": {}
+    }
+  ]
+}

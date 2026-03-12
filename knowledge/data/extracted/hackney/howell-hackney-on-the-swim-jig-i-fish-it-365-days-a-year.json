@@ -1,0 +1,32 @@
+{
+  "source": "howell-hackney-on-the-swim-jig-i-fish-it-365-days-a-year.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Hackney: 'A swim jig is the best of both worlds - great for catching high numbers of quality fish and for covering huge expanses of cover-filled water. I fish it 365 days a year.'", "priority": 8 },
+        { "when": { "cover": "vegetation" }, "tip": "Hackney: 'My favorite cover for a swim jig is any type of vegetation. They work from 6 inches of water to 30 feet deep.'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "stained" }, "color": "black and blue", "hex": "#00001A", "priority": 7 },
+        { "when": { "waterClarity": "clear" }, "color": "green pumpkin", "hex": "#6B8E23", "priority": 7 },
+        { "when": { "forage": "shad" }, "color": "white", "hex": "#FFFFFF", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "swim-jig-setup-hackney",
+      "insight": "Hackney: 'Use a Lew's 7-2 Hack Attack swim jig/frog rod, Custom Pro reel 8.3:1 gear ratio, and 50-pound braid. Three trailers: Rage Craw, Menace Grub, and Rage Swimmer.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "swim-jig-color-system",
+      "insight": "Hackney: 'Three favorite swim jig colors are green pumpkin, black and blue, and white. Choose color depending on water cover and what the dominant forage is.'",
+      "conditions": {}
+    }
+  ]
+}

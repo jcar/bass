@@ -1,0 +1,25 @@
+{
+  "source": "vandams-3-top-lures-for-early-spring.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Early spring cold water (40s-low 50s): 1/2oz Red Eye Shad in red/crawfish colors. Key is to fish it near the bottom — drag or short-hop it, don't burn it. Use a slower 6.1:1 reel to force a slower retrieve. Won 2010 Classic on Lay Lake with this approach — still ice on backwaters.'", "priority": 9 }
+      ]
+    },
+    {
+      "lure": "Structure Jig",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "muddy" }, "tip": "KVD: 'Early spring muddy water: 1/2oz Structure Jig to slowly probe every piece of shallow cover. Black/blue for muddy water. Clearer water, drag it slowly across rocky bottom on primary or secondary points — green pumpkin. Super versatile lure for late winter/early spring.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'In cold clear water, the jerkbait is probably the very best lure you can tie on. Jerks then long pauses give cold lethargic fish time to react. Crystal Shad for super clear, Sexy Shad for barely stained. Deep 300 dives to 10ft on 10lb line. Not for muddy water.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

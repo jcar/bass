@@ -1,0 +1,19 @@
+{
+  "source": "cold-water-bass-fishing-in-tough-conditions-kevin-vandams-approach-to-getting-reaction-bites.txt",
+  "anglerName": "KVD",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-bluebird-adjustment",
+      "insight": "KVD: 'Cold water + no wind + high bright skies = shrunk strike zone, maybe only 1-2 feet. Don't fish fast or randomly. Slow down, be thorough, put the bait right in front of them. Pick small areas apart with repeated precise casts instead of running the lake.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "gold-sexy-shad-stained-water",
+      "insight": "KVD: 'In stained water on tough days, Gold Sexy Shad is a go-to. High visibility, reflects light as sun gets higher, mimics shad without being too subtle. Stained water creates opportunity even with bluebird skies — bass rely on vibration and contrast for reaction strikes.'",
+      "conditions": { "waterClarity": "stained" }
+    }
+  ]
+}

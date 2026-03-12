@@ -1,0 +1,28 @@
+{
+  "source": "best-swim-jig-fishing-technique-in-heavy-cover.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "confidenceModifiers": [
+        { "when": { "waterClarity": "muddy" }, "adjustment": 12 },
+        { "when": { "waterClarity": "stained" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "waterClarity": "muddy" }, "tip": "KVD: 'In dirty water, pick a swim jig color that stands out — either really bright or really dark. Black and blue is always a good go-to. Rage Craw trailer with thick flanges displaces a lot of water, helps fish find it.'", "priority": 10 },
+        { "when": {}, "tip": "KVD: 'Swim jig is the first bait I reach for on unfamiliar water with shallow cover. Swim it fast like a spinnerbait OR pitch it like a regular jig around docks. It's so efficient for covering water — a mainstay in every pro's arsenal.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "muddy" }, "color": "Black & Blue", "hex": "#1a1a2e", "priority": 10 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "swim-jig-versatility",
+      "insight": "KVD: 'The swim jig handles any shallow cover — grass, bushes, lily pads, wood, rocks. Swim it through pads like you're frogging. Skip it under docks. Fish everything from the bank to the outside grass edge. The heavy cover version powers through slime and algae.'",
+      "conditions": { "lure": "Swim Jig" }
+    }
+  ]
+}

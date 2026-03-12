@@ -1,0 +1,106 @@
+{
+  "source": "fishing-in-extremely-cold-water-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Blade Bait",
+      "tipRules": [
+        {
+          "when": { "season": "winter" },
+          "tip": "KVD: Blade bait is my #1 bait for covering water in super cold water. Fish get locked on the bottom — short hop it on edges, drops, outside edges of flats and weed lines. Use just heavy enough to get to the zone. Great for largemouth, smallmouth, and spots.",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "season": "winter", "waterClarity": "clear" },
+          "tip": "KVD: KVD 300 Deep runs 10-12ft — go-to for highland reservoirs and clear natural lakes in cold water. Fish off main lake points, bluff walls, bridge pilings, riprap. Parallel deeper edges. Twitch-twitch-pause with LONG pauses. Bright colors in shad kill conditions so fish see it from distance.",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and reel. The shimmy/quiver fall is what makes the Red Eye Shad special.",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "winter" },
+          "tip": "KVD: Flatside crankbait (Hardliner 35) is the FIRST crankbait in extreme cold — 'the difference between a flatside and even a squarebill is night and day in the amount of bites in extremely cold water.' Smaller profile, no rattle, but flat sides give off huge pressure waves fish home in on.",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterTemp": { "max": 50 } }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it down in old dead vegetation — it holds heat and bass are drawn to it. Tungsten model has smaller blade, tighter vibration, runs deeper — good for tough conditions.",
+          "priority": 12
+        }
+      ]
+    }
+  ],
+  "newStructureAdvice": {
+    "grass": "KVD: In extreme cold on grass lakes, fish don't go deep — they stay shallow in flats with pad stems in 1-2ft of water even in upper 30s temps. Dead vegetation holds heat. Look for staging areas with slightly deeper water adjacent to spawning flats."
+  },
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-lake-type-matters",
+      "insight": "KVD: '45 degree water at Sam Rayburn Texas is a lot different than 45 degree water in Michigan.' Shallower natural lakes and lowland reservoirs with vegetation — fish don't go deep regardless of cold, they stay shallow. Highland reservoirs (Table Rock, Dale Hollow) — fish live deeper, suspend, roam following shad. Approach must match lake type.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-kill-opportunity",
+      "insight": "KVD: When water temps drop into the 30s, threadfin shad start dying off and bass gorge. Can be the best fishing you've ever had. Signs: watch for birds (seagulls, herons) hovering over the middle of the lake on frosty mornings — birds tell you where the bait is, and that's where bass will be.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-suspended-fish",
+      "insight": "KVD: In clear deep lakes with shad kills, fish often suspend. The higher they are in the water column, the more active they are. Fish off main lake points, humps, drops, centers of big bays — not near the bank. Alabama rig with spinners (keeps rig up in water column) or minnow/swimbait on spotlight head are best for covering water around suspended fish.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-downsize-rule",
+      "insight": "KVD: In extreme cold, downsize everything. Clearer the water = smaller the bait. Coffee tube, Bitsy tube (Zona taught him this at ice-out in Michigan — 'absolute money'). Small compact minnow baits. Use just heavy enough weight to reach the zone.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-bass-still-active",
+      "insight": "KVD: 'The common misnomer is that bass slow down and don't bite in cold water. That is absolutely not true.' Growing up in Michigan, fish live under ice all winter and still feed actively. Cold water fishing is nothing to be intimidated by — it can be some of the best fishing of the season.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-grass-lake-staging",
+      "insight": "KVD: On lowland reservoirs with grass (Guntersville, Toledo Bend, Okeechobee), bass don't leave shallow areas even in extreme cold. They stage in slightly deeper areas adjacent to spawning flats — drains, ditches, depressions, holes in the grass. Old dead vegetation holds heat and draws bass. Fish caught in 1-2ft of water in upper 30s temps.",
+      "conditions": { "season": "winter", "structure": "grass" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-lateral-line-vibration",
+      "insight": "KVD: Bass in super cold water are focused on vibration. They use their lateral line to feed — they can feel the presence of shad, the vibration and water displacement of your bait. That's why flatside crankbaits, lipless crankbaits, and bladed jigs all work in extreme cold: vibration is the common thread.",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

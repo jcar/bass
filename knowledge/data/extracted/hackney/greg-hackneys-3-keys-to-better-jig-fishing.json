@@ -1,0 +1,69 @@
+{
+  "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'Bass rarely slam a jig. Sometimes it is just a pressure bite where you feel a little weight on the line. Other times a slight tick. Get a feel for that and your confidence will soar.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Start with a smaller profile jig like a 1/4-ounce - it gets you more bites and builds confidence quicker. As confidence grows, move up in size.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Use a minimum 7-foot rod, but 7-4 and 7-6 are best. The longer rod picks up line quicker and helps power fish away from cover.'",
+          "priority": 7
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "tip": "Hackney: 'I use braided line for most jig fishing unless I am casting a jig in clear water. If you are dragging a jig in clear water, that is a different scenario - use fluorocarbon.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'When you drop down in line size, use jigs with lighter wire hooks and a lighter action rod.'",
+          "priority": 6
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "jig-trailer-cold-water",
+      "insight": "Hackney: 'In early spring or cold water, tip the jig with a KVD Chunk - big profile but less action. A more subtle swimming jig is better in cold water.'",
+      "conditions": { "season": "pre-spawn", "waterTemp": "cold" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jig-trailer-warm-water",
+      "insight": "Hackney: 'Once water heats into upper 60s, switch to a Rage Craw with active vibrating legs. The Rage Craw is also his first choice for swimming a jig.'",
+      "conditions": { "waterTemp": "upper 60s+" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "jig-fall-rate-trailer-selection",
+      "insight": "Hackney: 'Different trailers affect rate of fall. A bulky active trailer makes a jig fall slower. A slender trailer like a Rage Menace causes it to plummet faster. Rate of fall can be critical - experiment with trailers.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "jig-rod-for-deep-casting",
+      "insight": "Hackney: 'For casting jigs into deeper water, use a 7-6 with a lighter tip. The longer rod improves hook sets on fish farther away and in deeper water.'",
+      "conditions": { "fishDepth": "deep" }
+    },
+    {
+      "category": "mental-approach",
+      "topic": "jig-confidence-building",
+      "insight": "Hackney: 'Go to your favorite lake and carry one rod for jigs. That is the best way to get familiar with jig fishing and resist using other techniques.'",
+      "conditions": {}
+    }
+  ]
+}

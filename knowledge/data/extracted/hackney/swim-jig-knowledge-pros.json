@@ -1,0 +1,35 @@
+{
+  "source": "swim-jig-knowledge-pros.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'In colder water the basic approach is to simply cast it out and wind it with a steady retrieve'", "priority": 8 },
+        { "when": { "general": true }, "tip": "Hackney: 'You can pop it and rip it through shallow vegetation, slow-roll it like a spinnerbait down deep, or pitch it under docks — you can fish a swim jig almost anywhere bass live'", "priority": 7 },
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'The only time I use fluorocarbon for swim jig fishing is when the water is colder and I need to fish slower and deeper — it has to do with the action of the jig on the lighter line, not the fish reacting to the line'", "priority": 8 },
+        { "when": { "general": true }, "tip": "Hackney: 'I almost always use braid for swim jigs whether the water is gin clear or muddy. Bass aren't line shy with a moving bait'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "forage": "bluegill" }, "color": "bluegill/green pumpkin", "hex": "#6B8E23", "priority": 7 },
+        { "when": { "isLowLight": true }, "color": "black and blue", "hex": "#1a1a3e", "priority": 7 },
+        { "when": { "waterClarity": "muddy" }, "color": "chartreuse", "hex": "#7FFF00", "priority": 7 },
+        { "when": { "forage": "shad" }, "color": "white/shad", "hex": "#F5F5F5", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "swim-jig-trailer-selection",
+      "insight": "Hackney: 'Most of the time I use a Rage Craw trailer. Sometimes I use a small swimbait if the bass are on shad. I use the standard swim jig in colder water with less cover and the heavy cover jig most other times'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "swim-jig-versatility",
+      "insight": "Hackney: 'If you can cast and retrieve you can fish a swim jig. If you are fishing spinnerbaits now you have the ability to fish a swim jig. I always have one tied on'",
+      "conditions": {}
+    }
+  ]
+}

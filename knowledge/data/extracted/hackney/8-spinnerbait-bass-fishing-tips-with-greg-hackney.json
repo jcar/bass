@@ -1,0 +1,116 @@
+{
+  "source": "8-spinnerbait-bass-fishing-tips-with-greg-hackney.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'Use double Colorado blades in shallow, cold, and muddy water. Colorado blades give off a ton of vibration helping bass track the bait using its lateral line.'",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "tip": "Hackney: 'Willow leaf blades offer less resistance, so for fishing fast along the surface in clear water, a double willow leaf spinnerbait is a great option.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'The best all-around spinnerbait is a Colorado/willow combination — smaller Colorado up on the arm, larger willow out on the end. Great for fairly clear to pretty muddy water and temps from 52 to 80+ degrees.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Killing a spinnerbait — stopping the retrieve for a second right after it clears cover — lets the blades tumble and flutter. Great way to trigger strikes.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Pump or twitch your rod tip during the retrieve for irregular action. Never stop reeling — just intermittently give a quick pump every few seconds.'",
+          "priority": 7
+        },
+        {
+          "when": { "season": "summer" },
+          "tip": "Hackney: 'In summer, use a heavier spinnerbait (3/4 oz) to get it down and fish it fast, covering more ground while triggering aggressive warm-water bass.'",
+          "priority": 7
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'In winter, go with 1/2 or 3/8 oz spinnerbaits. Reeling slower to reach depth gives lethargic winter bass more time to react.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "chartreuse",
+          "hex": "#7FFF00",
+          "priority": 7
+        },
+        {
+          "when": { "isLowLight": true },
+          "color": "black",
+          "hex": "#000000",
+          "priority": 7
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "color": "silver blades",
+          "hex": "#C0C0C0",
+          "priority": 6
+        },
+        {
+          "when": { "waterClarity": "stained" },
+          "color": "gold blades",
+          "hex": "#FFD700",
+          "priority": 6
+        },
+        {
+          "when": { "waterClarity": "stained" },
+          "color": "silver/gold combo blades",
+          "hex": "#C0C0C0",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "spinnerbait-head-shape",
+      "insight": "Hackney: 'Round heads are better suited to fishing rock and stumps — less likely to get wedged. Keel-style heads are ideal for fast retrieves and fishing higher in the water column. Bullet heads offer a mix but can get wedged in crevices.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "spinnerbait-wire-tuning",
+      "insight": "Hackney: 'Opening the wire spread gives the spinnerbait more lift so you can slow down without cutting vibration. Closing the wire gives more speed and keeps it down.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-around-cover",
+      "insight": "Hackney: 'Nine times out of 10 you'll find better success with a spinnerbait fishing around isolated cover like dock posts, stumps, and boulders. Bass position near cover to ambush prey.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "spinnerbait-trailer-selection",
+      "insight": "Hackney: 'Split-tail trailers give the most bang for your buck — good action without changing the speed on retrieve or fall. Craw trailers increase profile and slow the bait down.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "spinnerbait-trailer-hook",
+      "insight": "Hackney: 'Use a trailer hook slightly smaller than the main hook, oriented the same direction. Run the main hook point through the back of the trailer hook eye.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "spinnerbait-blade-size-muddy",
+      "insight": "Hackney: 'In muddy water, it's more important to increase the size of the blades than to worry about what color they are.'",
+      "conditions": { "waterClarity": "muddy" }
+    }
+  ]
+}

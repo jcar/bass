@@ -1,0 +1,13 @@
+{
+  "source": "a-drop-shot-bait-for-my-aggressive-style.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Drop shot lets me cover water faster than typical finesse — cast, hop a few times, swim it, let it fall back. For clear water, use smaller subtle baits with lots of action. Use No. 2 hook through the nose with flat side down for darting/swimming action. Around brush, Texas-rig on 1/0 Grip Pin Edge hook.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

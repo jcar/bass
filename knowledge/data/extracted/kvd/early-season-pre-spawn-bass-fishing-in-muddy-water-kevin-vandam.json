@@ -1,0 +1,44 @@
+{
+  "source": "early-season-pre-spawn-bass-fishing-in-muddy-water-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "colorRules": [
+        {
+          "when": { "waterClarity": "stained" },
+          "color": "Gold Sexy Shad",
+          "hex": "#b8860b",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn", "waterClarity": "stained" },
+          "tip": "KVD: In stained water with high bright skies, you can still make fish react. Gold Sexy Shad is a go-to color when the water has that stain color.",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "stained-water-compensates-bright-skies",
+      "insight": "KVD: Stained water compensates for tough conditions like no wind and high bright skies — you can still trigger reaction bites. In clear water under those conditions, it would be much harder.",
+      "conditions": { "season": "pre-spawn", "waterClarity": "stained" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-strike-zone-small",
+      "insight": "KVD: In cold water, you can't just cover water. The strike zone is very small — fish won't swim 10 feet to eat your bait. You have to get it right in front of them and 'knock them on the head.' Slow down and be more thorough.",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-the-conditions",
+      "insight": "KVD: 'You've got to fish the conditions and dictate your lure choice, your patterns, your style, your speed to those conditions — and as they change, you want to adjust.' This applies to any tournament or fishing day.",
+      "conditions": {}
+    }
+  ]
+}

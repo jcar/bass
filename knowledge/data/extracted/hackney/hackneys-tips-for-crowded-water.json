@@ -1,0 +1,25 @@
+{
+  "source": "hackneys-tips-for-crowded-water.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "fishing-in-a-crowd",
+      "insight": "Hackney: 'Sometimes fishing around other people is good because you can see what they are doing differently. Make a point to avoid following anything they might be doing. I have gone in behind other anglers and caught fish doing something completely different.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "leave-spot-early-to-preserve-it",
+      "insight": "Hackney: 'Catch what you believe to be your best weight for the day and get out of there. Do not burn out an area in practice - if you catch a 3-4 pounder in practice you risk not catching it again during the tournament.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "rotating-spots-to-replenish",
+      "insight": "Hackney: 'Disappear from a productive spot when the crowd shows up, then return later. The area needs time to replenish with more bass.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "kevin-vandams-surefire-fall-tactics.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "confidenceModifiers": [
+        { "when": { "season": "fall" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Fall is all about topwater. Use a Sexy Dawg to cast to surfacing activity — the Hard Knock version so bass hear it too. 7-4 MH fast tip rod, 40-50lb braid for optimum retrieve. Best shad activity often comes in the afternoon in fall.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Bass can be finicky about baitfish size in fall — downsize to a KVD 1.0 squarebill. That smaller bait can be phenomenal.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'In fall I often downsize to a 3/8 or 5/16oz Finesse spinnerbait with smaller blades to match baitfish size. Target channel-swing banks, mud flats, and backs of creeks where shad hang out.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-trigger-10-degree-drop",
+      "insight": "KVD: 'I look for a 10-degree drop from average summer water temps to trigger the fall pattern. On Ozarks reservoirs that's when temps drop from low-mid 80s to mid 70s. Length of day is the most important determinant — shorter days trigger change.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-afternoon-bite",
+      "insight": "KVD: 'You don't have to be out at dawn in fall. The best shad activity often comes in the afternoon — especially later into fall, the shad seem more active when it warms up a bit.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "fall-baitfish-variety",
+      "insight": "KVD: 'It isn't always shad. In northern lakes, bluegills are often the main prey. In the southeast, blueback herring are dominant. Know the habits of the dominant prey species to be successful.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "2026-bassmaster-classic-preview-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "classic-knoxville-2026-preview",
+      "insight": "KVD: For Knoxville Classic (Fort Loudoun/Tellico, mid-March), the key baits are: Red Eye Shad, flatside crankbait (Hardliner 35), jerkbait, and Thunder Cricket. Power fishing will dominate. Most winning fish will come from Loudoun with largemouth. Fish are staging to spawn but cold winter has them behind schedule. Forward-facing sonar will add 1-2 extra fish per day but won't change the core pattern.",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "classic-strategy-time-management",
+      "insight": "KVD: At Knoxville, running to Tellico costs ~3 hours of fishing time per day. In a 3-day event needing 17-18lbs/day to win, you can't afford that. The winner will likely stay on Loudoun and maximize casts. Time management wins classics.",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "pre-spawn-one-two-punch",
+      "insight": "KVD: Pre-spawn one-two punch strategy: shallow crankbait or jerkbait on deeper edges outside pockets, then Thunder Cricket and Hardliner back in the bays where fish are moving to spawn. The combo covers both staging and migrating fish.",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

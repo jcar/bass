@@ -1,0 +1,32 @@
+{
+  "source": "kvd-on-fishing-the-15-and-25-crankbaits.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "maxFishDepthOverride": 7,
+      "confidenceModifiers": [
+        { "when": { "waterClarity": "clear" }, "adjustment": 5 },
+        { "when": { "frontalSystem": "post-frontal" }, "adjustment": 5 }
+      ],
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Run the 1.5 or 2.5 into cover — even in clear water the erratic swimming action triggers strikes. Stop-and-start retrieve, let the bait hunt around. Use rod height to control depth — tip up to tick above grass, tip down for deeper.'", "priority": 8 },
+        { "when": { "frontalSystem": "post-frontal" }, "tip": "KVD: 'This has no rattle, so it's real quiet. I throw it in tough conditions when the bite is a bit off — the silent erratic action still triggers reflex strikes.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "squarebill-depth-control",
+      "insight": "KVD: 'The KVD 1.5 can run almost 6 feet deep with light line (10-12lb fluoro) — deeper than you'd think for a shallow runner. Put it on 20lb and it runs shallow. Rod height controls depth during retrieve — tip up to stay high, tip down to dig deeper.'",
+      "conditions": { "lure": "Squarebill Crankbait" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "squarebill-erratic-action",
+      "insight": "KVD: 'What I look for in a squarebill is erratic swimming — kick around, don't run straight. Old wood baits had this but broke fast. The body and weighting design make every single one swim erratically out of the package. It looks like an injured baitfish — catches a lot of smallmouth over deep water.'",
+      "conditions": { "lure": "Squarebill Crankbait" }
+    }
+  ]
+}

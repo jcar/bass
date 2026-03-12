@@ -1,0 +1,19 @@
+{
+  "source": "time-to-talk-crankin-2.txt",
+  "anglerName": "KVD",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "crankbait-depth-matching-rule",
+      "insight": "KVD: 'Choose a crankbait that runs slightly deeper than the water — that gives best action and triggering when banging off bottom. If water is 10ft, I want bait running 11ft. Manage with bait selection, line size, and rod angle. Multiple rods rigged with different line sizes — smaller for deeper, bigger for shallower. Hold rod up for shallower over ledge tops, lower for depth increases.'",
+      "conditions": {}
+    },
+    {
+      "category": "lake-reading",
+      "topic": "when-crankbait-vs-finesse",
+      "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait but speed up retrieve and use natural colors. Monitor electronics to see how fish relate to bottom.'",
+      "conditions": {}
+    }
+  ]
+}

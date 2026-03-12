@@ -1,0 +1,25 @@
+{
+  "source": "when-bass-disappear.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "bass-dont-move-far",
+      "insight": "Hackney: 'Bass rarely move very far in a short period of time. A far more likely explanation than movement is they simply shut down — ate their fill the day before or environmental factors turned them negative'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "cold-water-vertical-rise",
+      "insight": "Hackney: 'If the water is cold and warms quickly, bass often move vertically into the upper foot or two of the water column, especially in heavily stained or muddy water. SONAR won't find them and you can fish a long time without a bite'",
+      "conditions": { "waterClarity": "stained", "waterTemp": "warming" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "unpredictable-feeding",
+      "insight": "Hackney: 'I fished a tree top three days in a row knowing a 3.5 pounder was in it. First two days no bite. Third day she nearly ripped the rod out of my hand — same jig, nothing different. Sometimes they go negative for reasons we don't understand'",
+      "conditions": {}
+    }
+  ]
+}

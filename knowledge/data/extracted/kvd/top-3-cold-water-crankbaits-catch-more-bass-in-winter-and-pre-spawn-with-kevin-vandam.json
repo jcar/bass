@@ -1,0 +1,57 @@
+{
+  "source": "top-3-cold-water-crankbaits-catch-more-bass-in-winter-and-pre-spawn-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "seasonAdd": ["winter", "pre-spawn"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter" }, "adjustment": 8 },
+        { "when": { "season": "pre-spawn" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'Shallow zone cold water cranking: flat-sided crankbait with tight wobble, small profile, no loud rattle. Fish channel swing ends, flat edges, steep-to-shallow transitions, and rock. Even in dirty water, bass locate it by lateral line.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "seasonAdd": ["winter"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'Mid-range 6-12ft zone: round body crankbait with wide wobble and loud rattle. Must contact bottom — deflection off rock and cover is the biggest strike trigger in cold water. Fish chunk rock banks, riprap, bridge areas, bluffs.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "seasonAdd": ["winter", "pre-spawn"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter", "fishDepth": { "min": 12 } }, "tip": "KVD: 'Deep zone 12-15ft: go smaller profile with tight action on 10lb fluoro. This 3XD has produced all over the country, especially on highland reservoirs where bass live deeper in winter.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "cold-water-crankbait-colors",
+      "insight": "KVD: 'Cold water crankbait colors: crawfish patterns are top choice. Red/fire craw in stained water, natural greens/browns in clear water, shad patterns when baitfish are present. Pro tip: if you catch a bass with a crawfish in its mouth, note the color and match it.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-cranking-setup",
+      "insight": "KVD: 'Cold water cranking setup: 6.2:1 gear ratio reel, 10lb fluorocarbon, slow to medium retrieve with frequent pauses. Make long casts, parallel the bank, and let the bait reach max depth. Bottom contact is non-negotiable.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-three-crankbait-zones",
+      "insight": "KVD: 'Cold water cranking revolves around three depth zones: (1) Shallow transitions — flat-sided, tight wobble, no rattle; (2) Mid-range 6-12ft — round body, wide wobble, loud rattle; (3) Deep 12-15ft — smaller profile, tight action. Match the crankbait to the zone.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

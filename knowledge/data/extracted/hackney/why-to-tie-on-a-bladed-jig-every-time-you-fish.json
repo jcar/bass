@@ -1,0 +1,41 @@
+{
+  "source": "why-to-tie-on-a-bladed-jig-every-time-you-fish.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "waterTemp": ">50" }, "tip": "Hackney: 'Anytime the water is warmer than 50 degrees I will fish a bladed jig sometime during the day. Winter is the only time I might not have one on my deck unless I find warmer water'", "priority": 9 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'In clear water I like painted blades — gives the vibration without the big flash. Use natural colors for super-clear water'", "priority": 8 },
+        { "when": { "waterClarity": "muddy" }, "tip": "Hackney: 'In dirty water doll it up with something more ambitious in color. Switch to a Rage Bug or Rage Craw trailer when fish are shallow in dirty water — the creature trailer holds the lure higher'", "priority": 8 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'Increase retrieve speed with water clarity. The better a fish can see, the faster and more erratic you want the bait to move'", "priority": 8 },
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'In cold water when I want to hold the bait up and fish extremely slow, I put a 4.75-inch Rage Swimmer on the back'", "priority": 8 },
+        { "when": { "fishDepth": "deep" }, "tip": "Hackney: 'To fish deeper, use a Blade Minnow trailer — it makes the jig run deeper. I can stay with the 1/2-ounce and just change trailer rather than changing jig weight'", "priority": 8 },
+        { "when": { "season": "spawn" }, "tip": "Hackney: 'During spawn you need wind and/or clouds to relax wary fish, but a bladed jig will get them mad'", "priority": 7 },
+        { "when": { "forage": "shad-spawn" }, "tip": "Hackney: 'During shad spawns, fish the bladed jig slow and high in the water column to mimic the buffet'", "priority": 8 },
+        { "when": { "season": "summer", "fishDepth": "deep" }, "tip": "Hackney: 'On summer ledges, rig skirt-less with a Rage Swimmer — the bladed jig runs deep and presents a profile similar to a lead head swimbait but with unique motion and vibration'", "priority": 8 },
+        { "when": { "forage": "shad" }, "tip": "Hackney: 'When fish are particularly shad-focused or in super clear water, remove the skirt for a streamlined profile'", "priority": 7 },
+        { "when": { "species": "smallmouth", "fishDepth": "shallow" }, "tip": "Hackney: 'When smallmouth are roaming flats, they are highly receptive to the bladed jig. A smallmouth will run 50 feet to get a bladed jig'", "priority": 7 },
+        { "when": { "cover": "grass" }, "tip": "Hackney: 'Around grass, try to make contact. In warm water snap the bait free; a slower pulling motion is best in chilly temperatures'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "clear" }, "color": "natural/painted blade", "hex": "#8B7355", "priority": 8 },
+        { "when": { "waterClarity": "muddy" }, "color": "bold/ambitious colors", "hex": "#FFD700", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "bladed-jig-vs-lipless",
+      "insight": "Hackney: 'A bladed jig has the visual appeal of swimming a jig — a very natural look — plus vibration. It does not have rattles, so it is more subtle than a lipless crankbait'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "bladed-jig-trailer-manipulation",
+      "insight": "Hackney: 'You can manipulate a bladed jig so much just by changing trailer. A creature bait holds the lure higher, a blade minnow runs deeper. A 1/2-ounce jig with trailer change can fish shallower than a 3/8-ounce with a different trailer'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "squarebill-vs-thunder-cricket.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Thunder Cricket shines in pre-spawn when water temps are mid-to-upper 50s. Fish it around grass or any aquatic vegetation — goes through grass better than a squarebill. Can be skipped underneath docks. Comes in four sizes to imitate shad or bream. Catches fish year-round.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

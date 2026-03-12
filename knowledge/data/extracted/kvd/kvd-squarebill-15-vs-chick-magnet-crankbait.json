@@ -1,0 +1,13 @@
+{
+  "source": "kvd-squarebill-15-vs-chick-magnet-crankbait.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "waterClarity": "muddy" }, "tip": "KVD: 'Cold or dirty water: switch from standard squarebill to flat-sided crankbait (Chick Magnet). Round bill on circuit board, extremely flat sides that displace a ton of water — gives off sonic images to help bass find it in stained/muddy water. Excels in late fall, early spring, and winter. Standard 1.5 squarebill is better year-round for cover (logs, laydowns, brush, rocks).'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

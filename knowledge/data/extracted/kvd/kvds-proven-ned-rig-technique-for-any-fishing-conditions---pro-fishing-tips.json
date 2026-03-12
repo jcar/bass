@@ -1,0 +1,54 @@
+{
+  "source": "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "clear" },
+          "tip": "KVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.",
+          "priority": 10
+        },
+        {
+          "when": { "windSpeed": { "min": 10 } },
+          "tip": "KVD: In heavy wind and deep water, bump up to 3/16 oz Ned head. In shallower water, use 1/16 oz — lighter the head, the better the action.",
+          "priority": 8
+        }
+      ],
+      "defaultTip": "KVD: Cast, let it sink on dead slack line, then just drag real slow keeping the jig head on the bottom. The mushroom head makes it stand up — that's what's special. If you miss one, immediately drop it right back — they'll come back and bite it."
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "ned-rig-rod-setup",
+      "insight": "KVD: 7'2\" medium light with extra fast tip (GS4 LSE KVD rod). Uses braid for maximum feel — 'with that braid, you can feel everything.' Bites can be very subtle.",
+      "conditions": { "lure": "Ned Rig" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "ned-rig-hookset",
+      "insight": "KVD: Don't set the hook traditionally on a Ned Rig. Reel into them fast — let the rod load, then pull. If you miss one, immediately drop it right back down because they'll come right back and bite it.",
+      "conditions": { "lure": "Ned Rig" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "ned-rig-goby-imitation",
+      "insight": "KVD: The Ned Rig is so popular for smallmouth because it imitates gobies. Gobies stay locked on the bottom on rocks — that's exactly where the Ned Rig sits. Find the rocks, you find the big smallmouth. Gobies have changed these fisheries — fish don't have to move because the food source is so prolific.",
+      "conditions": { "lure": "Ned Rig", "species": "smallmouth" }
+    },
+    {
+      "category": "gear",
+      "topic": "ned-rig-weight-selection",
+      "insight": "KVD: Use the lightest Ned head you can get away with. 1/16 oz in shallow, 3/16 oz in deep water or heavy wind. Lighter head = better action on the bait.",
+      "conditions": { "lure": "Ned Rig" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "ned-rig-positioning",
+      "insight": "KVD: When fishing the Ned Rig on an edge, the main thing is keeping yourself positioned on the edge where the fish are. Spot Lock (trolling motor GPS anchor) is essential — 'without that spot lock, I would never be able to stay positioned or hold or land one.'",
+      "conditions": { "lure": "Ned Rig" }
+    }
+  ]
+}

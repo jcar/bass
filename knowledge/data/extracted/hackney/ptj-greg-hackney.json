@@ -1,0 +1,58 @@
+{
+  "source": "ptj-greg-hackney.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "waterClarity": "muddy" }, "tip": "Hackney: 'I use a Tour Grade Spinnerbait with an orange kicker blade — the flash of color makes a difference because of how dirty the water tends to be'", "priority": 7 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "muddy" }, "color": "orange kicker blade", "hex": "#FF6600", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": "fall", "frontalSystem": "incoming" }, "tip": "Hackney: 'When the front starts making fish tighten up and they stop biting on top, switch to a Thunder Cricket vibrating jig — they are still biting, just not on top now'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall", "isLowLight": true }, "color": "gold", "hex": "#FFD700", "priority": 8 },
+        { "when": { "season": "fall" }, "color": "gold", "hex": "#FFD700", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Structure Jig",
+      "tipRules": [
+        { "when": { "general": true }, "tip": "Hackney: 'This jig is just such a good jig for getting bites. It catches big ones, but it catches all of them. It's small, real compact with a big hook in it — I use it on both braid and fluorocarbon depending on the cover'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "resident-fish-fall-movement",
+      "insight": "Hackney: 'In Zone 1 you are dealing with resident fish — they just move in and out of close proximity from summer to fall and winter. As it cools off, fish move into places with less current and less wind, like dead ends'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "mental-approach",
+      "topic": "confidence-in-lure",
+      "insight": "Hackney: 'Confidence will make you fish a lure better. Without confidence there are casts anglers simply won't make. You'll do things that get you bites when you are confident'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "crankbait-deflection",
+      "insight": "Hackney: 'If you are not getting hung up you are not catching anything. You have to be deflecting that bait — that is what makes a crankbait better on inactive fish than anything. It spurs defensive bites'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "adapting-to-conditions",
+      "insight": "Hackney: 'The big thing for me that makes fishing fun is figuring them out — making those changes. Having that weather change and knowing what bait to pick up and catching a big bass. That is the part I like'",
+      "conditions": {}
+    }
+  ]
+}

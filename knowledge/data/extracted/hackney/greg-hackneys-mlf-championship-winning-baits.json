@@ -1,0 +1,68 @@
+{
+  "source": "greg-hackneys-mlf-championship-winning-baits.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'At Stick Marsh with no vegetation - just dirt like an AR reservoir - flipped a 1/2-oz Flipping Jig with Rage Craw around willow trees and cane where fish were spawning. Never caught a fish on anything else.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": "spawn" },
+          "color": "black/blue",
+          "hex": "#000033",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        {
+          "when": { "season": "spawn" },
+          "tip": "Hackney: 'Used a Thunder Cricket with a Blade Minnow trailer in bluegill color on a big grass flat where fish were spawning at Lake Garcia.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": "spawn" },
+          "color": "bluegill",
+          "hex": "#4A6741",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "spawn-fish-need-something-to-spawn-around",
+      "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "mlf-score-tracker-mindset",
+      "insight": "Hackney: 'In MLF, use Score Tracker to decide if you need to abandon a pattern or ride it out. I never got in a hurry. More slow and steady was the deal because fishing was not through the roof.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-for-big-bites-in-florida",
+      "insight": "Hackney: 'I got behind in the first round but did not worry because it is FL - the way I was fishing you could catch an 8-10 pounder. I like to go places where they have big ones.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "punching-mats-heavy-weight",
+      "insight": "Hackney: 'Flipped mats with a Rodent (black/blue) and a heavy 1.5-oz weight at Lake Garcia and Kenansville. For hydrilla and hyacinth mats, heavy tungsten is essential.'",
+      "conditions": {}
+    }
+  ]
+}

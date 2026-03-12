@@ -1,0 +1,74 @@
+{
+  "source": "big-fish-and-wintertime-flippin.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Use a lighter weight than summer — the lightest I can use and still penetrate the cover. I want more of a natural presentation, not to overly surprise the fish.'",
+          "priority": 9
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Use a controlled fall with the rod rather than the summertime tactic of allowing the bait to fall on a slack line.'",
+          "priority": 9
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Use bigger braid that drags more and slows the fall. These kinds of things will help you get more bites in cold water.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Most bites are pressure bites — you may not feel the fish bite, but when you pick up you will feel resistance. That's when you lean into them.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Keep flips no more than a foot apart in cold water. You have to basically hit that fish on the head to trigger a bite. In warm water I may cast every 3 or 4 feet.'",
+          "priority": 9
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Scale down to a Gamakatsu Aaron Martens G-Power Heavy Cover Flipping Hook in winter — smaller diameter wire slides through harder cold-weather plastic easier but is rigid enough to not flex.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-mat-flipping-timing",
+      "insight": "Hackney: 'Fish will move under mats of grass or cattails in the afternoon after the sun has warmed them up. You can duck hunt in the morning and bass fish in the afternoon.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-prespawn-big-females",
+      "insight": "Hackney: 'Big females will group up under mats during the winter-to-prespawn transition. That's when I catch some of the biggest fish of the year.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "winter-wind-sheltered-areas",
+      "insight": "Hackney: 'During cold fronts, look for old canals, dead-end channels and northern banks sheltered from cold northern winds that retain heat from the sun.'",
+      "conditions": { "season": "winter", "frontalSystem": "post-front" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "winter-plastic-profile",
+      "insight": "Hackney: 'I prefer the Strike King Rodent because it penetrates well and doesn't have a lot of unnecessary action. When the water is cold, I don't want a lot of flappy parts on my lure, but I do want a bait with a profile.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-rod-selection-flipping",
+      "insight": "Hackney: 'For primarily flipping (not pitching), I prefer the 7-6 rod over the 7-11. The 7-6 has a softer tip which makes it easier to flip lighter baits.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

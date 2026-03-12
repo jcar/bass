@@ -1,0 +1,32 @@
+{
+  "source": "tricks-for-catching-suspended-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'When bass are high in the water column with some clarity, the deep diving jerkbait is my favorite for suspended fish. They still relate to structure features like points, ledges, and humps — just not on the bottom.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Jigging Spoon",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'For suspended bass, rip a jigging spoon or flutter spoon above the fish and let it fall back. Also works with swimbaits on jig heads — 3/8oz for higher fish, 3/4oz for deeper. Choose a lure that stays in their strike zone and maintain that depth throughout the cast.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Don't overlook spinnerbaits for suspended bass. A 1oz Bottom Dweller counted down lets me fish through the 15-25ft zone, winding it just above suspended fish. Maintain a specific depth throughout the retrieve.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "reading-suspended-bass",
+      "insight": "KVD: 'Summer bass suspend when temps peak, no current, and thermocline forms. See the thermocline as a consistent band on your graph — fish above it, none below. Schooling activity away from bottom and structure is a giveaway. Clouds of suspended baitfish with big marks around them = active fish. Use Neko or drop shot to drop to marked fish — sometimes let it fall to bottom and they'll chase it down.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

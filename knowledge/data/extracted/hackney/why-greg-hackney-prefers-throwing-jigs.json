@@ -1,0 +1,23 @@
+{
+  "source": "why-greg-hackney-prefers-throwing-jigs.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "general": true }, "tip": "Hackney: 'If I can get 10 jig bites over 20 other bites on different bait, my chances of catching a bigger than average fish are higher. The jig produces bigger fish even if the difference is 3.5-pounders vs 2.5-pounders'", "priority": 7 },
+        { "when": { "general": true }, "tip": "Hackney: 'The Hack Attack jig has a 27-degree line tie putting it almost at the center of the head. It goes in and out of cover easily and leaves nothing in the way of the hook point — no hook-up interference from the line tie'", "priority": 8 },
+        { "when": { "general": true }, "tip": "Hackney: 'Use a heavy hook that won't flex. A hook that flexes will cut its way out of the fish's mouth. You need a strong shaft to withstand pressure in heavy cover — it will penetrate and go straight in'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "jig-line-tie-angle",
+      "insight": "Hackney: 'A 90- or 60-degree line tie covers up half the bite on your hook point. With a big weighted jig like 3/4 oz, the line tie can catch in the roof of their mouth instead of the hook point — feels hooked but the hook never penetrated'",
+      "conditions": {}
+    }
+  ]
+}

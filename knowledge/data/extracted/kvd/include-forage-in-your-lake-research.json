@@ -1,0 +1,13 @@
+{
+  "source": "include-forage-in-your-lake-research.txt",
+  "anglerName": "KVD",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "forage-matching",
+      "topic": "regional-forage-research",
+      "insight": "KVD: 'Knowing the dominant baitfish is critical, especially in fall when bass target the most abundant species to fatten up. Forage varies even between lakes miles apart — bluegill, perch, alewives, smelt, shad, gobies. Regional differences affect coloration, seasonal patterns, migration, and habitat. Study biological reports, ask guides about dominant bait, note coloration and size during practice. Inspect regurgitated baitfish closely.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

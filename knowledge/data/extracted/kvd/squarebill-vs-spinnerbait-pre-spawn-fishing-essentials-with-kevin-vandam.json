@@ -1,0 +1,19 @@
+{
+  "source": "squarebill-vs-spinnerbait-pre-spawn-fishing-essentials-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Pre-spawn rocky areas and channel swings: squarebill is unbeatable. Use crawfish patterns — Delta Red, Fire Craw, Brown Crawfish, Red Tomato. Position boat close to bank and make short, accurate parallel casts to keep bait in the strike zone.'", "priority": 9 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Pre-spawn grass and brush cover (cattails, lily pads, laydowns, bushes) — spinnerbait is the go-to. Slow-roll through thick cover. Dirty water = bright colors (chartreuse) with Colorado blades for max vibration. Clear water = natural colors (bluegill, pearl white, shad). Slow retrieve keeps bait in strike zone longer.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

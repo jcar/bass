@@ -1,0 +1,25 @@
+{
+  "source": "two-summer-lures-that-kvd-loves.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "confidenceModifiers": [
+        { "when": { "season": "summer" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Always have a Sexy Dawg topwater tied on in summer. No matter how hot, there are always shallow bass willing to hit topwater at sunrise or sunset. Use 40lb braid — helps it walk better on surface AND gives firmer hooksets at end of long casts vs mono. 7-4 rod with soft forgiving tip to keep fish hooked.'", "priority": 9 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "summer" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'As summer day heats up and topwater fades, tie on a 6XD to dig main lake points and deep vegetation to 20ft on 12lb line. Clear water = Blue Gizzard Shad color. Dingy = Sexy Shad. Long 7-10 rod to launch as far as possible — longer cast maximizes diving depth. Slow 5.3:1 reel for deep cranking torque.'", "priority": 10 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

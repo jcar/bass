@@ -1,0 +1,78 @@
+{
+  "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "seasonAdd": ["winter"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter" }, "adjustment": 12 },
+        { "when": { "waterClarity": "stained", "isLowLight": true }, "adjustment": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "clear", "skyCondition": "clear" }, "color": "Bluegill", "hex": "#4a6741", "priority": 10 },
+        { "when": { "waterClarity": "muddy" }, "color": "Black/Blue", "hex": "#1a1a2e", "priority": 10 },
+        { "when": { "season": "pre-spawn" }, "color": "Red Crawfish", "hex": "#8b1a1a", "priority": 6 }
+      ],
+      "tipRules": [
+        {
+          "when": { "waterClarity": ["stained", "muddy"] },
+          "tip": "KVD: Colorado/Indiana combo for stained or dirty water — maximum vibration with still a lot of flash. Half-ounce size to get deeper in the water column. Slow roll over cover, keep bait above bass's line of sight.",
+          "priority": 12
+        },
+        {
+          "when": { "waterClarity": ["clear", "stained"] },
+          "tip": "KVD: Colorado/Willow for cleaner water. Half-ounce still works. Slow pulsing vibration is the key — keep that bait in the strike zone as long as possible.",
+          "priority": 10
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "KVD: Slow rolling a spinnerbait around steep rocky banks and laydowns in cold water. First Bassmaster win was in December at Lake Lanier doing exactly this. Use a plastic trailer — 'absolutely paramount' in cold winter months.",
+          "priority": 12
+        }
+      ],
+      "defaultTip": "KVD: Slow rolling is one of the most underestimated powerful tools. Keep bait above the bass's line of sight over cover. Barely turn the handle. Speed up through limbs — the flutter on the other side is when they bite."
+    }
+  ],
+  "credibilityUpdates": {
+    "Spinnerbait (Colorado/Willow)": 0.95
+  },
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "spinnerbait-slow-roll-setup",
+      "insight": "KVD: 7'4\" medium-heavy rod (KVD Elite GC7), 7.5:1 gear ratio reel, 20lb fluorocarbon. Heavy line does NOT affect spinnerbait action — it's one of the few lures where heavy line doesn't hurt. Allows accurate casts tight to cover.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-slow-roll-cadence",
+      "insight": "KVD: Barely turn the handle. When the bait hits a limb, speed the reel up one fast turn to force the bait over the limb keeping it up and down (not turning over and hanging). The flutter on the other side of the limb is when they bite. Even without cover, intermittently speed up for a quick flare of the skirt and blades to trigger following fish.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "trailer-modification",
+      "topic": "spinnerbait-trailer-selection",
+      "insight": "KVD: Always use a plastic trailer when slow rolling — adds bulk and extra action fish home in on. Rage Slim Swimmer is his go-to: subtle, not too bulky (doesn't make bait ride up), has an erratic wag. In coldest months, sometimes removes the skirt entirely and just uses a swimbait as trailer.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "spinnerbait-color-matching",
+      "insight": "KVD: Bright sunny + clear water = natural colors (bluegill, spot remover). Dirty water = brightest or darkest colors (chartreuse/white or black/blue) to maximize silhouette. Shad patterns (white/chartreuse) are day-in day-out staples. Spring around grass in Texas = red crawfish patterns. Match the forage and water clarity.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "spinnerbait-above-line-of-sight",
+      "insight": "KVD: When slow rolling, keep the bait ABOVE the bass's line of sight — you're imitating baitfish, not crawfish. Fish cover or fish over the bass's head. Steep rocky banks, laydowns, grass — the bait should be slowly ticking the cover above where bass are positioned.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "gear",
+      "topic": "spinnerbait-heavy-line-exception",
+      "insight": "KVD: Spinnerbait is one of the few lures where heavy line (20lb fluoro) does NOT hinder the action at all. On a small crankbait or finesse jig, heavy line hurts the action — but not on a spinnerbait.",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "swim-jig-versatility-when-changing-pattern-swim-jig-tips.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'For heaviest cover, vertical presentations: 3/4oz Hack Attack jig with Rage Craw trailer. Fast fall mimics bowling ball — prompts quick reaction, no time to think. Smaller trailer (Scon Bug, Menace) increases fall rate. For thickest mats, use big weight with single hook and punch bug instead — penetrates better than a flipping jig.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Swim jig versatility: while casting and reeling, spot a target and pitch it into a bush, hole in the grass, or heavy cover — fish it like a flipping jig. Transition from horizontal to vertical presentation with the same bait. Always opt for heavier jig rather than lighter for the reaction strike advantage.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

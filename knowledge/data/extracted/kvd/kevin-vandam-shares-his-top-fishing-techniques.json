@@ -1,0 +1,26 @@
+{
+  "source": "kevin-vandam-shares-his-top-fishing-techniques.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Deep cranking outside weed grass is my absolute favorite way to fish natural lakes in summer. Deep weed edge can be 8ft in shallow milfoil lakes or 20ft in clear deep lakes. Key: when you snag a little, SNAP the crankbait out of the weeds — that often triggers the fish into biting.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "natural-lake-summer-weeds",
+      "insight": "KVD: 'Summer natural lakes: weeds are where you find the majority of largemouth. Look for prime structure or irregular features — dropoff close to dense vegetation, creek channel, or where covers combine (thick weeds against a dock, two weed types mixing). Bluegill colors on all lures in summer, especially up north where bluegills are primary forage.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "gear",
+      "topic": "dense-vegetation-line-choices",
+      "insight": "KVD: 'Dense vegetation techniques (frogs, flipping, swim jigs): 50lb braid on lakes where bass max around 6lbs. Lakes with 10-pounders, use 65lb braid. 7-4 rod for frogs and jigs with high-speed reel. 7-10 rod for flipping and punching.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "bass-fishing-with-spinnerbaits-techniques-and-tips-by-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "maxFishDepthOverride": 20,
+      "confidenceModifiers": [
+        { "when": { "season": "summer", "fishDepth": { "min": 10 } }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "summer", "fishDepth": { "min": 10 } }, "tip": "KVD: 'Big 3/4oz spinnerbait with single willow blade for offshore structure — let it helicopter down on a tight line feeling the blade turn, rip it off the bottom, let it flutter back. Mimics fleeing shad. 7-foot rod for big jumps.'", "priority": 10 },
+        { "when": { "waterClarity": "stained" }, "tip": "KVD: 'Slow-roll spinnerbaits along tapering grass lines, standing timber, submerged structures. Reel just fast enough to skim cover. When it touches an obstacle, speed up and let it flutter back — that provokes the reaction strike.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-offshore-yo-yo",
+      "insight": "KVD: 'Offshore spinnerbait: 3/4oz, trim wire down a third, single willow blade. Cast, let helicopter down to bottom on tight line. Rip up sharply, let flutter back down. Provokes reaction strikes from suspended bass in summer heat.'",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)", "season": "summer" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-blade-selection",
+      "insight": "KVD: 'Tandem willow blades for horizontal retrieves through grass — less lift, runs deeper. Single blade for vertical presentations and helicopter flutter. Colorado/willow combo for slower retrieves and longer time in strike zone.'",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "spinnerbait-parallel-presentation",
+      "insight": "KVD: 'Position boat to fish parallel to edges and cover. Keeps the bait in the strike zone longer. Short accurate casts (30-40ft) for control in dense cover. Soft underhand presentations so bait lands quietly in shallow water.'",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    }
+  ]
+}

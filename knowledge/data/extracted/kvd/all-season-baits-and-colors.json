@@ -1,0 +1,30 @@
+{
+  "source": "all-season-baits-and-colors.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 8 },
+        { "when": { "season": "post-spawn" }, "adjustment": 6 },
+        { "when": { "season": "fall" }, "adjustment": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "pre-spawn" }, "color": "Orange Belly Craw", "hex": "#c4724e", "priority": 8 },
+        { "when": { "season": ["post-spawn", "summer"] }, "color": "Bluegill", "hex": "#4a6741", "priority": 6 },
+        { "when": { "season": "fall" }, "color": "Sexy Shad", "hex": "#a8b5c2", "priority": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Fall — start with a KVD 1.5 in a shad pattern in the backs of creeks. Bass are feeding on shad. Look for surface activity and swarms of shad along creek channel banks, sand/mud flats, rocky shorelines.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "squarebill-seasonal-colors",
+      "insight": "KVD: 'Spring = crawfish patterns with red. Summer = shad and bluegill patterns. Fall = shad patterns in creek backs. When the 1.5 hits grass, clear hooks with a hard snap of the rod tip.'",
+      "conditions": { "lure": "Squarebill Crankbait" }
+    }
+  ]
+}

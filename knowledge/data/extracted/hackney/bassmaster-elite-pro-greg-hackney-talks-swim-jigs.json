@@ -1,0 +1,82 @@
+{
+  "source": "bassmaster-elite-pro-greg-hackney-talks-swim-jigs.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'The basic approach is to simply cast it out and wind it. That is especially true in colder water. Start with a basic steady retrieve, then vary from there.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'You can pop it and rip it through shallow vegetation, slow-roll it like a spinnerbait down deep, or pitch it under docks. You can fish a swim jig almost anywhere bass live.'",
+          "priority": 7
+        },
+        {
+          "when": { "waterTemp": "cold" },
+          "tip": "Hackney: 'Use the standard swim jig (not heavy cover) when fishing colder water with less cover.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'I almost always use braid for swim jigs, whether the water is gin-clear or muddy. Bass aren't fixated on the line with a moving bait.'",
+          "priority": 8
+        },
+        {
+          "when": { "waterTemp": "cold" },
+          "tip": "Hackney: 'The only time I use fluorocarbon for swim jig fishing is when the water is colder and I need to fish slower and deeper. It has to do with the action of the jig on lighter line, not the fish reacting to the line.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "green pumpkin",
+          "hex": "#6B8E23",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "bluegill",
+          "hex": "#4A6741",
+          "priority": 7
+        },
+        {
+          "when": { "isLowLight": true },
+          "color": "black and blue",
+          "hex": "#00008B",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "chartreuse",
+          "hex": "#7FFF00",
+          "priority": 7
+        },
+        {
+          "when": { "forage": "shad" },
+          "color": "white/shad",
+          "hex": "#FFFFFF",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "swim-jig-trailer-selection",
+      "insight": "Hackney: 'The trailer is usually a Rage Tail Craw. Sometimes I use a small swimbait if the bass are on shad.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "swim-jig-line-choice",
+      "insight": "Hackney: 'I don't believe bass are line shy. You need to adjust what line you use based on how a lure performs using the line, not based on water clarity.'",
+      "conditions": {}
+    }
+  ]
+}

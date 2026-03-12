@@ -1,0 +1,73 @@
+{
+  "source": "greg-hackneys-bassfest-winning-pattern.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": "summer" },
+          "tip": "Hackney: 'A 1-oz jig with a Rodent trailer was the key - the Rodent has no drag so it falls like a 1.5-oz jig. Use it for reaction bites on suspended fish. That is why I did not use a Rage Craw - I wanted it to fall real fast.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Only 1 flip per spot. I had to get it right on their head. I knew how long it took to get to the bottom. If it ever fell an instant too long, I swung. Sometimes you would not feel the strike.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "stained" },
+          "color": "Alabama craw with double header trailer",
+          "hex": "#6B3A2A",
+          "priority": 9
+        },
+        {
+          "when": { "isLowLight": true },
+          "color": "solid blue jig with blue bug trailer",
+          "hex": "#00008B",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "ditch-and-drain-oriented-fish",
+      "insight": "Hackney: 'It was all about creek channels or drains. Where the drain turns, the break is steep and bass relate to that steep break. Bushes were everywhere but the deal was the bottom contour, not the cover.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "suspended-fish-high-water",
+      "insight": "Hackney: 'When water gets real high, fish do not go shallow - they go straight up. They sit where they were at normal pool and suspend. Every fish I caught was suspended 1-4 feet under the surface in 8-11 feet of water.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "natural-color-philosophy",
+      "insight": "Hackney: 'I pull a bait through the water and if it looks real, you will get bit. I do not like to fish anything that stands out. I think I am more apt to get bit on something that looks natural.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "water-level-aggression",
+      "insight": "Hackney: 'When the water was falling, they were not as aggressive. When it was creeping up, they were aggressive.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "spots-dont-replenish",
+      "insight": "Hackney: 'Key spots did not replenish. You could not go back to the same place and catch another one. Had to keep the jig wet all 8 hours for 5 big bites each day.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "bassfest-flipping-setup",
+      "insight": "Hackney: 'Fished a 7-foot-11 Hack Attack flip stick, Quantum 200 HD reel (7.3 gear ratio), and 50-lb Gamma Torque braid.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "source": "hackneys-cayuga-pattern-details.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "fishDepth": "14-17ft", "waterClarity": "clear" }, "tip": "Hackney: 'Fish the outside grassline edge where a steep drop swings into it. Hop the jig once or twice then reel it in - in clear water if they are going to get it, they get it really quick.'", "priority": 9 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'You have to be precise and hit the fish right on the head - they are not coming to get it. Make a lot of casts and be real thorough.'", "priority": 8 },
+        { "when": { "fishDepth": "14-17ft" }, "tip": "Hackney: 'Fish the 1-ounce jig, then go to 1.25-ounce to fish faster. Bass only hit it on the initial drop.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "isLowLight": true }, "color": "candy craw jig with junebug trailer", "hex": "#4B0028", "priority": 7 },
+        { "when": { "waterClarity": "clear", "isLowLight": false }, "color": "blue craw jig with green pumpkin sapphire trailer", "hex": "#2E4A62", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Hackney: 'Fish a 1/2-ounce Rage Blade on inside grasslines for shallow fish.'", "priority": 6 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "green pumpkin", "hex": "#6B8E23", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "deep-vs-shallow-grass-quality",
+      "insight": "Hackney: 'There were more numbers of fish shallow, but bigger ones were on the deeper edge of that grass.'",
+      "conditions": { "waterClarity": "clear" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jig-over-punch-rig-for-big-fish",
+      "insight": "Hackney: 'Most guys flipping grass were using a punch skirt and plastic or just plastic. But I am a firm believer that when they are biting the jig, it catches the big ones.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "baitfish-presence-indicates-bass",
+      "insight": "Hackney: 'Anywhere I caught bass, I had to get perch bites. If I fished a stretch of grass and I did not get any perch or bluegill bites, there would not be any bass there.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "deep-flipping-setup",
+      "insight": "Hackney: 'Flipped with a 7-foot-11 rod, EXO PT 100 reel, and 50-pound braid for deep grass jigging.'",
+      "conditions": { "fishDepth": "14-20ft" }
+    }
+  ]
+}

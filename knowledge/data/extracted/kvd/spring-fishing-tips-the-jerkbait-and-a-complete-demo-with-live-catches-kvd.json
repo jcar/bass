@@ -1,0 +1,20 @@
+{
+  "source": "spring-fishing-tips-the-jerkbait-and-a-complete-demo-with-live-catches-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'Spring jerkbait: work it on slack line — never go the same direction twice. Pop forward, pause, point rod tip back at bait to maintain slack, repeat. The pause is deadly — bait just suspends like a dying shad and fish can't resist. Biggest mistake is just steadily jerking and reeling back.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "jerkbait-rod-reel-line-setup",
+      "insight": "KVD: 'Jerkbait setup: high-speed reel (not for pulling bait, just picking up slack fast). All-graphite rod with snappy tip for sharp darting action, even at end of long casts in wind. Fluorocarbon line — lighter line runs deeper, heavier stays shallow. Line choice controls bait depth with precision.'",
+      "conditions": { "lure": "Suspending Jerkbait" }
+    }
+  ]
+}

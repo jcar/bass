@@ -1,0 +1,24 @@
+{
+  "source": "scoping-out-early-season-lakes---where-bass-lurk-pre-spawn---with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn", "frontalSystem": ["post-frontal", "cold-front"] },
+          "tip": "KVD: Cold front makes pre-spawn fish swipe and slap at the Red Eye Shad instead of eating it. Triple grip hooks catch them foul-hooked in the back or dorsal — 'that's why you use triple grips.' Won a Classic doing exactly this.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "texas-pre-spawn-variety",
+      "insight": "KVD: Texas pre-spawn isn't just about Rayburn and Toledo Bend. Many other Texas lakes have big fish. Pre-spawn in Texas = follow ditches and drains leading to spawning flats.",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

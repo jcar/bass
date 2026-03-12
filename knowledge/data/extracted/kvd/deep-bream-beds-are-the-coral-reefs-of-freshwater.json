@@ -1,0 +1,43 @@
+{
+  "source": "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'For deep bream beds in summer (10-20ft), drag a 3/4oz football jig with Rage Craw trailer in blue craw/red flake. Also try a swinging football head jig with Rage Menace. Drag slowly in and out of individual craters. Fish lurk on outsides of beds waiting for bluegill to stray too far from home base.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'First bait on deep bream beds is a crankbait that contacts bottom where beds are — 5XD in Natural Bream color, grinding through the beds fires up big bass lurking around them. Set up where you can see beds on Mega 360.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": { "season": "summer", "waterClarity": "clear" }, "tip": "KVD: 'In clearer water on deep bream beds, go finesse with a shaky head and Fat Baby Finesse Worm in blue craw/red flake. Drag slowly in and out of individual bed craters. Cast far beyond the bed complex and drag through.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Don't overlook an old-school Carolina-rigged lizard through deep bream beds. The weightless presentation of the lizard hovering over the beds imitates bedding bream better than anything else sometimes.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "deep-bream-bed-pattern",
+      "insight": "KVD: 'Deep bream beds are the coral reefs of freshwater — bass attractors all summer. Bream bed in 10-17ft well into August/September. Use side imaging to find them around deep docks, points, shoals, humps, flats, river bars. Full/new moons are peak activity but beds attract bass between spawns too. Mark with waypoints — bream use same beds year after year.'",
+      "conditions": { "season": "summer" }
+    }
+  ],
+  "newStructureAdvice": {
+    "hump": [
+      { "when": { "season": "summer" }, "tip": "KVD: 'Offshore humps in 10-20ft are prime areas for deep bream beds in summer. Scan with side imaging — the beds look like large waffles underwater. Any cover on these spots (rock, shell, brush, scattered logs) makes them even more attractive.'", "priority": 7 }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source": "how-greg-hackneys-lipless-rattles-get-fall-time-bass-bite.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "Hackney: 'A great open water lure for fall. You can cover water, fish grass, and fish flats with 2-8 feet of water. Fish are more aggressive due to weather and daylight change.'", "priority": 8 },
+        { "when": { "fishingPressure": "high" }, "tip": "Hackney: 'Use the Tungsten 2 Tap version for pressured fish - the single tungsten rattle creates a subtle tap-tap-tap sound totally unique from the standard rattling version.'", "priority": 9 },
+        { "when": { "frontalSystem": "post-frontal", "waterClarity": "clear" }, "tip": "Hackney: 'Use the silent version for post-frontal conditions, clear water, bright blue skies, or minimal wind - conditions that put bass in a negative mood.'", "priority": 9 },
+        { "when": { "season": "early fall" }, "tip": "Hackney: 'Use the 1/4-ounce version early in fall when bass are feeding on smaller bait and reluctant to eat larger offerings.'", "priority": 8 },
+        { "when": {}, "tip": "Hackney: 'The 1/2-ounce version is my mainstay. Use the 3/4-ounce for super aggressive fish or trophy fisheries like Amistad or Falcon.'", "priority": 7 },
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'In clear water they often hit in the first 3-4 cranks. If you catch 2-3 in a row on the first 10 feet and then the bite stops, change up the retrieve all the way back to the boat.'", "priority": 8 },
+        { "when": { "cover": "grass", "waterTemp": "warm" }, "tip": "Hackney: 'In warm water around grass, rip the lipless crankbait. In colder water, pull it, almost worming it through the grass because they are not that aggressive.'", "priority": 9 },
+        { "when": { "cover": "isolated" }, "tip": "Hackney: 'When bass are spot-oriented inside a pocket of grass or on a depression in a rock pile, pitch the lipless crank and let it fall right into the sweet spot. It shimmies as it falls like a dying baitfish.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall" }, "color": "natural shad", "hex": "#C0C0C0", "priority": 8 },
+        { "when": { "season": "spring" }, "color": "red craw", "hex": "#8B0000", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "fall-big-fish-location",
+      "insight": "Hackney: 'Big fish relate to the perimeter, a creek channel, and hold on an isolated piece of grass on a flat. Little fish run up shallow while big fish satellite around the area.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "winter-drawdown-big-fish",
+      "insight": "Hackney: 'During winter drawdown, larger fish will be on the flat out front holding on a stump, even in 2-3 feet of water, always relating to solid structure like a drop-off, rock pile, piece of wood, or isolated grass.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crank-hook-upsizing",
+      "insight": "Hackney: 'Always upsize hooks with short-shank trebles at least one size bigger than factory. 1/4-ounce gets a No.4, 1/2-ounce gets a No.2, 3/4-ounce gets a No.1.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "lipless-crank-line-depth-control",
+      "insight": "Hackney: 'Line test dictates running depth. Lighter line runs deeper. 20-pound fluorocarbon is the mainstay. Use a 7-4 medium-heavy composite rod for flats and a 7-foot rod for the 1/4-ounce model.'",
+      "conditions": {}
+    }
+  ]
+}

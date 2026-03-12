@@ -1,0 +1,19 @@
+{
+  "source": "a-season-of-big-poles-big-line-big-hook-sets.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "mental-approach",
+      "topic": "power-fishing-preference",
+      "insight": "Hackney: 'I like big poles, big line and big hook sets. It's easier to get a bite on a wacky worm than a 3/4-ounce Hack Attack Jig, but at the end of the day the results are the same. It boils down to how you like to fish.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "schedule-and-approach",
+      "insight": "Hackney: 'The first six events during the prespawn/spawn period allow power fishing because bass are most active and in the rut.'",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

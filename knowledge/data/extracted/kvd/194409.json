@@ -1,0 +1,62 @@
+{
+  "source": "194409.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterClarity": "stained" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "stained" }, "tip": "KVD: 'Fall reservoir creek arms — line up with the creek channel edge and fire long casts ahead of the boat. Use the squarebill for surveillance, running down edges, hitting bottom, stumps, laydowns, docks. Work it fast and erratic. Bump everything. 17-20lb fluorocarbon to rip through grass.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Lipless Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterTemp": { "max": 50 } }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall", "waterTemp": { "max": 50 } }, "tip": "KVD: 'Red Eye Shad is at its best in cold water. It always makes bottom contact and finds inside weed edges. Ripping it free triggers strikes. It has a shimmy as it sinks like a stick worm — dynamite for yo-yoing inside edges. Sweep rod to the side, let it sink, repeat, moving bait 4-6 feet each sweep.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'After catching a good fish cranking, pitch back with a Texas-rigged Ocho on slack line. In clear fall water it's deadly — 1/8oz unpegged tungsten, 14lb fluorocarbon, 7ft baitcaster. Let it sink to bottom even in 20 feet. Fish it pretty fast, concentrating on that drop.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterTemp": { "max": 50 } }, "tip": "KVD: 'Late fall, use cranks with tighter wobble and slow down. Series 3 runs 7-8ft with tight action — appeals to big bass in that depth range. Switch to deeper Series 5 when fish are at 10ft. Below 50 degrees they won't react to a burned bait.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-reservoir-creek-arm-pattern",
+      "insight": "KVD: 'Fall reservoirs — shad move shallow to warmest water in creek arms. Go as far up a creek as your boat allows. If it has a defined channel, bass use it for ambush points. Pods of bait near surface plus birds indicate a really good afternoon bite as sun warms water. Fall drawdown exposes cover you can't see in summer.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-natural-lake-weedline-pattern",
+      "insight": "KVD: 'Natural lakes in fall — start on outside weed edge of biggest flat on main lake. Crank finds irregularities in the weedline, then pitch finesse baits to those spots. Inside turns are where you find concentrations — the closer to the bank that turn is, the better. Bass can stay shallow in milfoil/coontail even in the 40-degree range.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fall-retrieve-speed-progression",
+      "insight": "KVD: 'Fall retrieve progression: go fast and erratic early in fall, less erratic late. The later in fall, the more important it is to hit bottom and keep it there at a slow, steady pace — just enough speed to keep the bill thumping. Use cranks right until ice-up but switch to tighter wobble action below 50 degrees.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "fall-baitfish-location-clues",
+      "insight": "KVD: 'Always look for baitfish in fall — herons, seagulls, terns, bait on the graph, visible bait in the water. Seeing shad on top indicates a really good afternoon bite. From there, look for the type of cover the lake has in the areas the most abundant baitfish want to use.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

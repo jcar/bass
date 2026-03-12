@@ -1,0 +1,48 @@
+{
+  "source": "how-to-fish-your-way-around-a-new-lake---9-mintue-lesson-with-kvd-on-how-to-keep-moving-take-notes.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "KVD: Thunder Cricket is a great search bait for shallow grass flats in practice. Cast around scattered patches and holes — if there's a group of active fish, one should come up and bite it. Also good as a backup plan when sight fishing conditions deteriorate (wind, clouds).",
+          "priority": 6
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lake-reading",
+      "topic": "deeper-grass-overlooked",
+      "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of largemouth have already spawned out there.",
+      "conditions": { "structure": "grass", "waterClarity": "clear" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "wind-affects-visibility-strategy",
+      "insight": "KVD: North wind blowing into a bank knocks algae loose and muddies the water, making sight fishing impossible. When this happens, switch from sight fishing to casting Thunder Cricket or fan casting the area. Conditions can clear up fast when wind lays down.",
+      "conditions": { "waterClarity": "clear" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "northern-lake-forage",
+      "insight": "KVD: In northern natural lakes, perch and gobies are the primary forage — fish spend most of their time feeding on them. Both live on or near rocks. Birds diving on shallow points = alewives spawning (another forage clue).",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "polarized-glasses-clear-water",
+      "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish.",
+      "conditions": { "waterClarity": "clear" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "practice-keep-moving",
+      "insight": "KVD: In practice, keep moving and take notes. Don't fall in love with one area. Stop at many stretches, get a feel for what's there, then move on. 'That's why we call it practice.' Save the commitment for tournament day.",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source": "master-series-on-power-fishing-with-kevin-vandam-lesson-3.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Drop shot is one of my favorites for covering deep and shallow flats when I'm uncertain where bass are holding. Use a heavier sinker — cast farther, get to bottom quickly, work it a few times, make more casts. A faster fall can trigger strikes better than slow fall when fish are neutral or negative.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Power finesse with shaky head: make precise casts to where bass should be, shake it a few times, quickly recast. Narrow the pattern to specific key areas — 80% of bites on a certain structure type, on first couple casts. Fish the meat of a spot quickly and move to the next one.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "power-finesse-philosophy",
+      "insight": "KVD: 'Power finesse: use heavier weights (3/8 to 1/2oz) on finesse rigs to fish them faster. Heavier sinker keeps line tight, puts more action in lure, and triggers reactionary strikes. Start heavy and work down. On tubes, I'll throw 1/2 to 3/4oz heads — sinks like a bowling ball but still produces erratic fall. Cover a ton of water.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "power-finesse-tackle",
+      "insight": "KVD: 'For power finesse, use the heaviest gear you can get away with. 10lb fluorocarbon instead of 6lb — far less visible, better hooksets, land more quality fish around cover. The lack of stretch in heavier fluoro gives better hook penetration on long casts. Fish don't notice the line with a fast-falling heavy weight.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "its-topwater-fishing-time.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Sexy Dawg walking bait for covering water quickly in clear water and open areas — big grass flats, rocky points, long casts. That walking action really draws them. Good during shad and herring spawns. Use translucent colors in clear water. Line: mono, not braid, for topwater poppers (14lb small, 17-20lb large).'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "topwater-season-triggers",
+      "insight": "KVD: 'Summer topwater triggers: bluegill spawn and mayfly hatches. Popper has tremendous drawing power during bluegill spawn — great hook-up ratio even with smallmouth. Use larger popper in wind, dirtier water, or around big bass for more commotion. Fish topwater all day long in summer — produces some of the biggest bass of the year.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

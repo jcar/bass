@@ -1,0 +1,20 @@
+{
+  "source": "vandam-offers-a-trick-and-a-treat-for-halloween-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'In clearer fall creek arms, switch from Sexy Shad to Summer Sexy Shad color on a 1.5 squarebill. Fish it around laydowns, windy banks, and especially shallow floating boat docks in October/November. It's the shad migration toward back of major creeks — but if water is clearer than usual, the subtler color is better.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "summer-sexy-shad-clear-fall",
+      "insight": "KVD: 'Summer Sexy Shad vs Sexy Shad: if creeks are clearer than normal from lack of rain or zebra mussels, Summer Sexy Shad is the better choice. It's a subtler version for clear water fall conditions.'",
+      "conditions": { "season": "fall", "waterClarity": "clear" }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source": "how-to-fish-lipless-crankbaits-on-flat-water-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. Deflection and disturbance trigger strikes.'", "priority": 10 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "lipless-crankbait-flat-water-setup",
+      "insight": "KVD: 'For lipless on flats: 7-foot glass rod, 5:1 gear ratio reel. Slower retrieve keeps bait down in the strike zone. Line controls depth — 20lb test for shallow water above grass, 8-10lb fluorocarbon for deeper to maximize depth and bottom contact.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "lipless-flat-water-technique",
+      "insight": "KVD: 'On large flats, the key is contact, depth, and placement. Vary retrieve speed with stop-and-go movements. Let the bait sink periodically. Always aim for the bait to be hitting something — if it's not interacting with cover, it loses effectiveness.'",
+      "conditions": { "lure": "Lipless Crankbait" }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "source": "greg-hackneys-favorite-spring-and-early-summer-bait.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'My favorite spring and summer bait. When bass are aggressive in pre- or post-spawn and feeding heavily, you can cover a lot of water. In early spring with dead or dying grass, nothing beats a lipless crankbait.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Reel it right over the top of submerged grass. The more times a lipless crankbait makes contact with grass, the more bites you will receive.'",
+          "priority": 8
+        },
+        {
+          "when": { "waterTemp": "warm" },
+          "tip": "Hackney: 'If the water is warm, rip the lipless crankbait out of the grass. If the water is cooler, pull it out gently to allow the bait to stop and restart - that hesitation may be the only way to get a bite.'",
+          "priority": 9
+        },
+        {
+          "when": { "waterClarity": "stained" },
+          "tip": "Hackney: 'The more stained the water, the slower you should retrieve. The clearer the water, the faster you should retrieve.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "color": "Delta Craw",
+          "hex": "#8B4513",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Gold Sexy Shad",
+          "hex": "#DAA520",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "Chrome Sexy Shad",
+          "hex": "#C0C0C0",
+          "priority": 6
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "lipless-crankbait-versatility",
+      "insight": "Hackney: 'You can make a lipless crankbait look and act like a shad, bluegill, or crawfish simply by changing the color.'",
+      "conditions": {}
+    }
+  ]
+}

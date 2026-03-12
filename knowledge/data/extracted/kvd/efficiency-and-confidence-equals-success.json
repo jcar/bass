@@ -1,0 +1,20 @@
+{
+  "source": "efficiency-and-confidence-equals-success.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'On natural lakes in early fall, use a crankbait first to cover water and identify key spots. Then switch to a deep jerkbait to triple catch rates — it stays in the strike zone longer and matches the conditions better. Target inside turns cutting into breaklines, not just points.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lake-reading",
+      "topic": "inside-turns-on-breaklines",
+      "insight": "KVD: 'When fishing expansive flats with breaks, mark waypoints at each catch. The pattern often isn't the obvious points — it's tapering breaks with inside turns cutting into the breakline. Those inside turns concentrate fish. Use a crankbait to survey, then switch to a jerkbait to work the productive spots more efficiently.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

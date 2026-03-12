@@ -1,0 +1,13 @@
+{
+  "source": "clear-water-fishing-with-a-jerkbait-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Clear water jerkbait: if water is clear, always have one ready. Fish come up hard from 17-18ft to strike. Use Deep 300 Series for deep clear water. Shallower over grass, switch to shallow-running version. Cast, pop forward, let rod tip fall back toward bait to maintain slack — that gives the perfect erratic side-to-side action. Quick sequences of 2-3 jerks/twitches.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

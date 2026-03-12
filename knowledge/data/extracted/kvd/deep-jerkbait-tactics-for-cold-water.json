@@ -1,0 +1,41 @@
+{
+  "source": "deep-jerkbait-tactics-for-cold-water.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterClarity": "clear" }, "adjustment": 15 },
+        { "when": { "season": "winter", "waterTemp": { "max": 48 } }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'In cold water, I use a solid pull a couple times and pause briefly — point the rod at the bait for slack and enhanced action. Pull the bait short distances vs. jerking hard to run 3-4 feet deeper. One second pause between pulls is plenty for me.'", "priority": 10 },
+        { "when": { "season": "winter", "waterClarity": "clear" }, "tip": "KVD: 'I prefer real bright colors — sexy shad and chartreuse sexy shad — even in clear water. It's about getting the fish to see the bait when they're far away. I like 3-4 feet of clarity minimum, crystal clear is ideal.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "winter", "waterClarity": "clear" }, "color": "Sexy Shad", "hex": "#a8b5c2", "priority": 8 },
+        { "when": { "season": "winter", "waterClarity": "stained" }, "color": "Chartreuse Sexy Shad", "hex": "#b8c900", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "winter-jerkbait-cadence",
+      "insight": "KVD: 'Cold water jerkbait: solid pull (not snap), pause one second with rod pointed at bait for slack. By pulling short distances the bait runs 3-4 feet deeper. I still cover a lot of water by fishing parallel to edges — keeps the lure in the productive zone throughout the retrieve.'",
+      "conditions": { "lure": "Suspending Jerkbait", "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-jerkbait-hook-tuning",
+      "insight": "KVD: 'As water temp drops, a jerkbait that floats in summer will sink in cold water. Switch to three No. 4 Mustad KVD Trebles and test balance — a little sink is fine but nothing rapid or unnatural. 6-10 medium heavy rod, 10lb fluorocarbon for long casts in clear water.'",
+      "conditions": { "lure": "Suspending Jerkbait", "season": "winter" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "winter-jerkbait-targets",
+      "insight": "KVD: 'Cold water jerkbait targets: drop-offs, edges, weedlines, bridge corners, riprap, bluff ends. Fish parallel to these edges and make multiple casts to high-percentage spots like laydown tips or grass points.'",
+      "conditions": { "lure": "Suspending Jerkbait", "season": "winter" }
+    }
+  ]
+}

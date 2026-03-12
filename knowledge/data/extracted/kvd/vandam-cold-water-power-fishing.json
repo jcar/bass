@@ -1,0 +1,47 @@
+{
+  "source": "vandam-cold-water-power-fishing.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "tip": "KVD: 'In stained water over grass during prespawn, the Red Eye Shad or slow-rolled spinnerbait are my go-to power baits. They cover water and feature inherent reaction qualities to trigger cold-water strikes.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'In clear cold water, the jerkbait may be a better choice than lipless or spinnerbait. You can alter its action by jerking, ripping, or pausing to interest neutral fish.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "cold-water-power-fishing-philosophy",
+      "insight": "KVD: 'I power fish year-round, even in cold water. Bass are far more active in cold water than I once believed. The strike zone is smaller but they'll crush a power bait worked in their immediate area. Power fishing is the foundation of everything I do — it helps locate fish and dial in patterns.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "cold-water-boat-position",
+      "insight": "KVD: 'In cold water, boat position is as critical as lure selection. Position parallel to dropoffs and edges — if you don't fish parallel, your bait catches a much smaller percentage of the key depth zone. Fish are less likely to move far.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-weather-response",
+      "insight": "KVD: 'Cold-water bass respond to weather changes like in warmer seasons. Strike zone is largest on cloudy, rainy frontal days with wind — move lures faster. On high-pressure/no-wind days, slow down to bottom-bouncing baits but still fish them faster and erratically.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "classic-2008-cold-water-adjustment",
+      "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fished flat-sided cranks shallower — caught 12lbs in 2 hours.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

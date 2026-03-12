@@ -1,0 +1,70 @@
+{
+  "source": "greg-hackney-explains-the-power-of-the-buzzbait-for-catching-bass.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Buzzbait",
+      "tipRules": [
+        {
+          "when": { "season": "fall" },
+          "tip": "Hackney: 'Most people fish buzzbaits in spring and summer, but I like to fish a buzzbait in the fall and winter, especially in the Deep South where water temps stay above 60 degrees.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "winter" },
+          "tip": "Hackney: 'Once the surface temp gets below 60-75 degrees, I can fish a buzzbait successfully all day long in the South.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "fall" },
+          "tip": "Hackney: 'In fall and winter months in the South, I can fish a buzzbait all day for bass no matter whether sunny or cloudy. The only time I don't is during a severe cold front.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Replace the skirt with a frog (Strike King Gurgle Toad). The hook-up is much better with the frog - it acts like a piece of meat so the bass holds on. The frog also floats the buzzbait so you can reel it much slower without sinking.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Cast a buzzbait on a 6-foot-6 to 7-foot medium-heavy rod with a relatively light tip - same style rod as for spinnerbaits or bladed jigs.'",
+          "priority": 6
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": "fall" },
+          "color": "black with black frog",
+          "hex": "#000000",
+          "priority": 9
+        },
+        {
+          "when": { "season": "winter" },
+          "color": "black with black frog",
+          "hex": "#000000",
+          "priority": 9
+        },
+        {
+          "when": { "season": "summer" },
+          "color": "chartreuse or white frog",
+          "hex": "#7FFF00",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "bass-aggression-fall-winter",
+      "insight": "Hackney: 'As the days become shorter and there has been cool weather, bass are very aggressive. I think black is a color that is easily seen by the bass in cooler weather.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "buzzbait-slow-retrieve-with-frog",
+      "insight": "Hackney: 'The frog on a buzzbait floats it, enabling you to reel much slower than with a skirt. A skirted buzzbait sinks when you slow down, but the frog keeps it on the surface.'",
+      "conditions": {}
+    }
+  ]
+}

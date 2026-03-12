@@ -1,0 +1,20 @@
+{
+  "source": "best-drop-shot-fishing-technique-tips-setup-and-pro-tricks-by-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Drop shot works deep AND shallow — I fish it on 6-8ft flats just as effectively. Use a long cylindrical weight that pulls through vegetation and rocks. Tungsten for clean bottoms. Nose-hook a straight-tailed worm for unbelievable action. Use heavy enough weight to maintain consistent bottom contact — if 1/4oz isn't cutting it, go to 3/8oz.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "drop-shot-rod-hookset",
+      "insight": "KVD: 'Drop shot rod: fast-tapering tip with backbone for long casts. Most bend in the first third for sensitivity without sacrificing control. On the bite, don't jerk the rod — just reel in and let the tip load. The sharp hook takes care of the rest. Keep finger on the line to detect strikes.'",
+      "conditions": { "lure": "Drop Shot" }
+    }
+  ]
+}

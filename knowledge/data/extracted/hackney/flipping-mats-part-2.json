@@ -1,0 +1,67 @@
+{
+  "source": "flipping-mats-part-2.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'For mat flipping, use the lightest tungsten weight (3/4 oz to 1.5 oz) that will just barely penetrate the mat. You don't want to crash through — many bites come from fish suspended right under the bottom of the mat.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Primary mat flipping bait is the Rodent. If the bite is slow, downsize to a Baby Rodent. When they aren't biting at all, switch to a Twin Tail Menace Grub — have some bait movement but not too much.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "black and blue",
+          "hex": "#00008B",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "black neon",
+          "hex": "#1A1A2E",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "mat-flipping-reel",
+      "insight": "Hackney: 'Use a high-speed 7.3:1 gear ratio reel to get slack out quickly. I don't crank fish out — I pull them out with the rod. The reel just manages slack.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "mat-flipping-line",
+      "insight": "Hackney: 'Only braid for mat flipping, nothing else under any circumstances. 50 or 60 lb test. Go up to 80 lb when you want to slow the fall. No stretch, minimal resistance sliding through the mat.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "mat-flipping-hook",
+      "insight": "Hackney: 'Use a 6/0 heavy flipping hook — no flex. If it flexes, it'll wear a hole in the fish's mouth and you'll lose her.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "tungsten-vs-lead-mats",
+      "insight": "Hackney: 'Always use tungsten. I don't have a lead weight in my boat. Tungsten is more sensitive and smaller so it penetrates the mat easier.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "mat-flipping-color-variety",
+      "insight": "Hackney: 'It's a mistake to only use black and blue for mats. I frequently pick colors like I do for any other lure — match the hatch and pay attention to water color. The more natural a lure looks the more likely a fish will eat it.'",
+      "conditions": {}
+    }
+  ]
+}

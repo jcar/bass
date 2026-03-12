@@ -1,0 +1,82 @@
+{
+  "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterTemp": { "min": 40, "max": 45 } }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter", "waterTemp": { "max": 45 } }, "tip": "KVD: 'I caught half a dozen on a jerkbait in 41°F water. When you find one, they're not going to be alone — there's going to be more.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Swim Jig",
+      "seasonAdd": ["winter"],
+      "minTempOverride": 40,
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterTemp": { "min": 40, "max": 48 } }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'A Rage Swimmer scuffed along the bottom is deadly in cold water. Just scoot it along — looks like a perch, bluegill, or crawfish. Fish it DOWN on the bottom, slow hopping. Night and day difference in bites vs. swimming it through the water column.'", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": "winter", "waterClarity": "clear" }, "color": "KVD Magic (Natural)", "hex": "#8b7355", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "seasonAdd": ["winter"],
+      "minTempOverride": 45,
+      "tipRules": [
+        { "when": { "season": "winter", "waterTemp": { "min": 45, "max": 55 } }, "tip": "KVD: 'When that water gets into the mid to upper 40s in March, you're going to start catching them with a Thunder Cricket. That's when fish move out of wintering areas and start patrolling flats.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": "winter", "waterTemp": { "min": 45, "max": 55 } }, "tip": "KVD: 'Red Eye Shad is just dynamite when fish start moving out of the basin onto flats. That's when spring fishing gets really good.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Ned Rig",
+      "seasonAdd": ["winter"],
+      "tipRules": [
+        { "when": { "season": "winter", "waterTemp": { "max": 45 } }, "tip": "KVD: 'I threw the Ned rig out and immediately caught one on that in 43°F water.'", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-cold-water-forage-location",
+      "insight": "KVD: 'In cold water (40s°F), bass are where the food is — locked into winter areas. Look for depressions, little ditches, anywhere slightly deeper with warm water around it. Graph for bluegill concentrations — if you see wall-to-wall bluegill, the bass will be there.'",
+      "conditions": { "season": "winter", "waterTemp": "40s" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "winter-heat-seeking-structure",
+      "insight": "KVD: 'Look for areas with dark bottom — dead vegetation, pad stems, rocks. Sun radiates anything dark on the bottom. Even in cold water, depth changes, depressions, and little ditches hold fish. Same principle north and south.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-wind-positioning",
+      "insight": "KVD: 'Bass were locked into one corner of the hole where wind was pushing in. Anything that creates current, a funnel, or an edge leading onto a flat — that's where fish stack in cold water.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "rage-swimmer-bottom-scuff",
+      "insight": "KVD: 'The Rage Swimmer on a jig head, scooting along bottom, kicks up mud and sand. In clear northern lakes, all forage lives on the bottom — perch, bluegill, crawfish. Swim it through the column only when bluegill are suspended.'",
+      "conditions": { "lure": "Swim Jig", "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-spinning-setup",
+      "insight": "KVD: 'For cold water swimbaits and finesse — Custom Lite 200 series shallow spool reel with 8lb braid + fluoro leader. Shallow spool manages line perfectly, no wind knots. Saves line since bass won't strip 100 yards.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

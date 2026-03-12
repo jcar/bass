@@ -1,0 +1,30 @@
+{
+  "source": "why-greg-hackney-uses-big-flipping-hooks.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'Always go for the biggest hook possible to make up for user error. If I'm fishing a Rage Bug in a mat, I use a 6/0. I want the hook point out in front of that weight because the weight is huge and I want more gap'", "priority": 9 },
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'Use a round bend J-style hook with short shank and big bite for flipping — gives more room for error. An EWG hook has the hook point not in line with the eye. The big gap and heavy wire let you put all the pressure you want on the fish'", "priority": 9 },
+        { "when": { "technique": "flipping", "cover": "mats" }, "tip": "Hackney: 'When using a big weight it is like a jighead on top of the hook. Open the gap with a bigger hook for more chances to catch fish. With a mat I want 6/0; plinking around on a 5/16-oz sinker I can get by with 5/0'", "priority": 8 },
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'Use a sealed-eye hook with braided line to keep braid from slipping out, and a good keeper to hold plastic on — a big weight will knock the bait off without a proper keeper'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "flipping-hook-wire-gauge",
+      "insight": "Hackney: 'With low-stretch line, if a lighter-wire hook flexes it will cut its way out of a fish's mouth. A heavy wire hook sticks a lot deeper because it won't flex — it is a low-stretch hook designed for a lot of pressure'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-gear-setup",
+      "insight": "Hackney: 'Flipping gear is a 7-foot 10-inch flipping stick, Quantum 200 HD reel at 7.6 ratio, with 50 or 65-lb braid depending on fall rate desired'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source": "kevin-vandam-fishing-tips-why-a-bladed-jig-thunder-cricket-is-deadly-in-late-winter-early-fall.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "KVD: 'Before I ever got there, I had a Thunder Cricket on my mind.' Pre-spawn at 55° water with shallow grass — perfect for a bladed jig. Fish the outside edge of the grass, get it down, nice and slow. When you find one they're grouped — pre-spawn fish have buddies.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "pre-spawn-fish-group-on-points",
+      "insight": "KVD: During pre-spawn, when you find one fish on a spot, they're usually grouped. Got a bite every single cast on one little spot on a point. They stage together before moving up to spawn. Mark the spot and work it thoroughly.",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "clear-water-grass-bladed-jig-challenge",
+      "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area.",
+      "conditions": { "lure": "Chatterbait", "waterClarity": "clear", "structure": "grass" }
+    }
+  ]
+}

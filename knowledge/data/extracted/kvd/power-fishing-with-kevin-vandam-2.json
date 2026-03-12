@@ -1,0 +1,20 @@
+{
+  "source": "power-fishing-with-kevin-vandam-2.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Jigging Spoon",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Dog days suspended bass: if crankbait doesn't fire them up, try a spoon or hair jig that falls fast to where fish are. Rip it and let it fall back — resembles a dying shad. Hit a lot of spots, catch a few, move on. Rotate back to the same spots 3-4 times a day.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "dog-days-suspended-bass-rotation",
+      "insight": "KVD: 'Hot water dog days: bait and bass suspend off structure over deep points and humps. Clear water makes them selective and easily spooked — odds of catching several from one spot are minimal. Hit a lot of spots, catch a few, move on. Go back to the same area 3-4 times during the day while rotating with other spots. Give edgy bass time to forget what just happened.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

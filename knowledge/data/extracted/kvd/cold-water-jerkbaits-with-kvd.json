@@ -1,0 +1,26 @@
+{
+  "source": "cold-water-jerkbaits-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'The right jerkbait cadence varies day to day — some days I wait nearly a minute between twitches, some days only a few seconds. Water temp and weather play a big factor but sometimes it's trial and error. It's all about feel and experience.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-jerkbait-depth-positioning",
+      "insight": "KVD: 'Depth is critical in cold water jerkbait fishing — you want the bait slightly above the fish or directly in front of them. They won't chase far when metabolism is low and they certainly don't go down after a bait.'",
+      "conditions": { "lure": "Suspending Jerkbait", "season": "winter" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "cold-water-jerkbait-colors",
+      "insight": "KVD: 'Color is crucial for jerkbaits — it's a very visual technique and fish get a really good look as the bait sits still between twitches. You need the right blend of visibility and naturalness.'",
+      "conditions": { "lure": "Suspending Jerkbait", "season": "winter" }
+    }
+  ]
+}

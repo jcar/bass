@@ -1,0 +1,43 @@
+{
+  "source": "greg-hackney-names-his-favorite-lure-for-bass-fishing-in-hot-weather.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        {
+          "when": { "season": "summer", "waterTemp": "90+" },
+          "tip": "Hackney: 'Topwater fishing is best when water and weather are the hottest all year. Bass metabolism is extremely high and they are aggressive. If I throw a crankbait or drag a worm, the bass won't even pay attention.'",
+          "priority": 9
+        },
+        {
+          "when": { "season": "summer" },
+          "tip": "Hackney: 'You don't have to cast into thick cover - fish it around cover or on outer edges of weed lines, lily pads, and in shade of cypress trees or boat docks.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": "summer" },
+          "color": "Stump Jumper (bluegill/bream pattern)",
+          "hex": "#8B7D3C",
+          "priority": 9
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "hot-weather-shallow-bass",
+      "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'",
+      "conditions": { "season": "summer", "waterTemp": "90+" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "match-bream-in-summer",
+      "insight": "Hackney: 'Bluegill and bream are the bait bass feed on most at this time of year. A bream-colored topwater looks like a bream jumping, skipping, and moving on the surface.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

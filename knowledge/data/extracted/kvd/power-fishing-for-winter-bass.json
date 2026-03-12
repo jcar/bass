@@ -1,0 +1,59 @@
+{
+  "source": "power-fishing-for-winter-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "seasonAdd": ["winter"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "skyCondition": "clear", "windSpeed": { "max": 5 } }, "adjustment": 10 },
+        { "when": { "season": "winter" }, "adjustment": 5 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'A shallow diving crankbait is extremely effective for covering water in winter. Make repetitive casts down rock banks. Bass prefer a slow, tight wobble over wide hunting action in frigid temps — flat-sided crankbaits excel.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "seasonAdd": ["winter"],
+      "minTempOverride": 45,
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterClarity": "stained" }, "adjustment": 12 },
+        { "when": { "season": "winter" }, "adjustment": 6 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter", "waterClarity": "stained" }, "tip": "KVD: 'Spinnerbait and vibrating jig are both productive in stained winter water — they move lots of water. Target laydowns, docks, and rock banks with visible cover.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "seasonAdd": ["winter"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterClarity": "muddy" }, "adjustment": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": "winter", "waterClarity": "muddy" }, "color": "Fire Craw", "hex": "#c4724e", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-power-fishing-conditions",
+      "insight": "KVD: 'Winter shallow power fishing is often best on calm bluebird days with little traffic. While these conditions are typically unfavorable, they allow fish to move shallow and bask in the sun. Target stained water and shallow rock — both hold heat.'",
+      "conditions": { "season": "winter", "skyCondition": "clear" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "winter-stained-water-heat",
+      "insight": "KVD: 'Stained water traps heat much better than clear water, making stained areas the warmest on the lake. It also decreases visibility making bass more receptive to fast-moving presentations.'",
+      "conditions": { "season": "winter", "waterClarity": "stained" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "winter-rock-heat-retention",
+      "insight": "KVD: 'Shallow rock traps and holds heat. Fish hold tight to it for comfort and ambush points. Parallel a crankbait down rocky banks, targeting rocks in direct sunlight — extremely consistent winter pattern.'",
+      "conditions": { "season": "winter", "structure": "riprap" }
+    }
+  ]
+}

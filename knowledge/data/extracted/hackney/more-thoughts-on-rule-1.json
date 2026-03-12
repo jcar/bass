@@ -1,0 +1,25 @@
+{
+  "source": "more-thoughts-on-rule-1.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "mental-approach",
+      "topic": "rule-1-finding-fish-matters-most",
+      "insight": "Hackney: 'The single most useful thing I can say is learn how to find them. The deal is not about our lures, it is about where we are fishing. Two completely different plastics caught fish because the fish were there and we were fishing on the bottom.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "bass-are-simple-creatures",
+      "insight": "Hackney: 'Largemouth bass do not think. They are simple prehistoric creatures. They eat, rest, and have sex once a year. They do not hide behind rocks because they are afraid.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "lure-brand-and-color-matter-less-than-location",
+      "insight": "Hackney: 'If Rule 1 did not apply, every pro at the top of every tournament would have caught them on the same exact bait. The only thing we have in common is that we found them.'",
+      "conditions": {}
+    }
+  ]
+}

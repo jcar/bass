@@ -1,0 +1,35 @@
+{
+  "source": "picking-the-right-pitchin-and-flippin-stick.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "line": "fluorocarbon" }, "tip": "Hackney: 'With fluorocarbon I use a 7-foot 10-inch heavy action, fast tip rod. Fluorocarbon has stretch so you need a fast tip to keep from breaking off or pulling the hook out'", "priority": 8 },
+        { "when": { "line": "braid" }, "tip": "Hackney: 'With braid I use a 7-foot 11-inch slow action rod. Braid is unforgiving with no stretch, so whatever forgiveness you get must come from the rod — it bends almost to the handle'", "priority": 8 },
+        { "when": { "technique": "flipping" }, "tip": "Hackney: 'Use a high-speed reel with a smaller profile and big spool — I use an 8.1:1 gear ratio for both fluorocarbon and braid'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "flipping-rod-selection",
+      "insight": "Hackney: 'A longer rod gives more distance on pitch and flip and more control over the fish. But shorter rods double as heavy casting rods for Texas rigged plastics and suit shorter anglers'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-rod-weight",
+      "insight": "Hackney: 'Beware of lightweight rods — they feel good in the shop but beat you to death with a heavy jig or worm weight. The more the rod weighs, the less stress on your arm, wrist and hand at end of day'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "rod-action-standards",
+      "insight": "Hackney: 'There is no industry standard for heavy/extra-heavy or fast/extra-fast tip — they are all a little different. Look at and mess with a rod before you buy it'",
+      "conditions": {}
+    }
+  ]
+}

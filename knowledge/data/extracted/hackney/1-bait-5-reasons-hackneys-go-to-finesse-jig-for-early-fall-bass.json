@@ -1,0 +1,58 @@
+{
+  "source": "1-bait-5-reasons-hackneys-go-to-finesse-jig-for-early-fall-bass.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Structure Jig",
+      "tipRules": [
+        {
+          "when": { "season": "fall" },
+          "tip": "Hackney: 'Fish in the southern part of the country are still in that blah summer mode where they don't really want to bite a bigger bait. That's why I love using this smaller jig because it's something these fish don't really see.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "fall" },
+          "tip": "Hackney: 'Once fall fully gets here, that's when I like to increase the size of my jigs.' Use the fluorocarbon flipping jig in early fall as a transition bait before upsizing.",
+          "priority": 7
+        },
+        {
+          "when": { "season": "fall" },
+          "tip": "Hackney: 'Even though it's smaller, you can still fish it on heavy tackle and fish it like you would a bigger and heavier jig. I like to use 20- or 25-pound fluorocarbon or 50-pound braid depending on the cover.'",
+          "priority": 7
+        },
+        {
+          "when": { "season": "fall", "coverType": "grass" },
+          "tip": "Hackney: 'When I'm working in grass I go lighter (fluorocarbon), but with the brush I move up to braid.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "finesse-jig-early-fall",
+      "insight": "Hackney: 'The end of summer is one of the most difficult times to fish in the South. Downsizing to a compact finesse jig gives pressured bass something they haven't seen.'",
+      "conditions": { "season": "fall", "region": "south" }
+    },
+    {
+      "category": "gear",
+      "topic": "jig-line-tie-design",
+      "insight": "Hackney: 'The zero-degree line tie has the same effect as a Texas rig — the line goes straight down making it weedless. Perfect for going through brush and cover without getting stuck.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "jig-weed-guard",
+      "insight": "Hackney: 'Usually when you get stuck with a jig, it's not because the weed guard is giving, it's because the guard is too far away from the hook point. That's how brush can get up under there.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "finesse-jig-species-versatility",
+      "insight": "Hackney: 'The thinner skirt gives a sleeker presentation for finicky fish. It's also great for smallmouth and spotted bass with their smaller mouths.'",
+      "conditions": {}
+    }
+  ]
+}

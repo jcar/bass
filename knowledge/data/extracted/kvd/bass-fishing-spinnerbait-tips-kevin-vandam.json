@@ -1,0 +1,21 @@
+{
+  "source": "bass-fishing-spinnerbait-tips-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "waterClarity": "clear", "skyCondition": "clear" }, "tip": "KVD: 'On bright days in clear water, run your spinnerbait fast — rip it for reaction strikes so bass can't inspect it. Slow down on overcast days or in turbid water.'", "priority": 8 },
+        { "when": {}, "tip": "KVD: 'Run your spinnerbait into cover — docks, vegetation, logs. The erratic motion triggers more strikes. In open water, give sporadic jerks for the same effect. Bump it.'", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "spinnerbait-blade-weight-selection",
+      "insight": "KVD: 'Simple rule: lighter spinnerbait with smaller blades in shallow water, larger bait in deep water. The KVD Finesse Spinnerbait (3/8oz, one willow + smaller Colorado) is a great all-around option for weeds, stumps, docks.'",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)" }
+    }
+  ]
+}

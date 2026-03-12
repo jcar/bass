@@ -1,0 +1,26 @@
+{
+  "source": "skip-cast-like-a-pro-part-2-of-2.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'For skipping swim jigs around shallow cover and vegetation, use 1/4 or 3/8oz Heavy Cover Swim Jig. In colored water, 50lb braid. Sparser cover or clearer water, 20lb fluorocarbon. Deep docks where jig falls to bottom in clear water, bump down to 14lb fluoro. Rage Bug trailer for lift and pulsing action.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Buzzbait",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Skipping buzzbaits under docks has been a secret on tour for years. Use compact frame designs that skip well. Gets into dark haunts that have never heard the gurgle of a buzzbait — an unconventional technique that's definitely different on pressured water.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "skip-casting-line-selection",
+      "insight": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jigs on deep docks in clear water. Less line on the spool is better for skip casting.'",
+      "conditions": {}
+    }
+  ]
+}

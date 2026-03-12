@@ -1,0 +1,44 @@
+{
+  "source": "kevin-vandam-four-key-finesse-baits-and-why-i-use-them.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Drop-shot excels over muddy, mucky, slimy bottoms — suspends the bait above gunk. Favor it for vertical fishing under the boat, video gaming on graph. Heavier weight for fast drop without impacting bait action — good for heavy current too.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Neko rig is excellent on gunky bottoms — hook above weight stays clean in the strike zone. Drop it vertical under the boat or cast out around. Use lead nail weights and cut excess to perfect the fall. 3/32oz tungsten for deep.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Shakyhead",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Shaky head is my choice for casting to specific targets — bushes, seawalls, riprap, standing timber, pilings, docks. Best over clean hard bottom (sand, gravel, rock) and generally 15 feet or less for me.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Ned rig is a huge player on clear water lakes with clean rocky bottoms and mixed species. Absolute deal in goby-infested Great Lakes waters. Great cleanup bait for smallmouth.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "kvd-finesse-line-setup",
+      "insight": "KVD: 'For all four finesse techniques (drop-shot, Neko, shaky head, Ned): 10lb braid to 8lb fluorocarbon leader with FG knot as baseline. Go heavier for cover or colored water. Longer 7-2 to 7-4 rods for open water long casts, shorter 6-10 to 7-foot for tight target work.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "finesse-cleanup-strategy",
+      "insight": "KVD: 'After scouring a productive spot with power approaches, drop down to lighter line and finesse to pick up the scraps. Cleaning up with finesse has become a regular part of my game — these techniques revitalize a worn-out fishing spot.'",
+      "conditions": {}
+    }
+  ]
+}

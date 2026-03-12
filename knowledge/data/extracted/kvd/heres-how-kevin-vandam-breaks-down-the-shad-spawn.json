@@ -1,0 +1,20 @@
+{
+  "source": "heres-how-kevin-vandam-breaks-down-the-shad-spawn.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "post-spawn" }, "tip": "KVD: 'During shad spawn (~72 degrees, after bass spawn), a willowleaf spinnerbait is one of the best lures. You'll feel shad ticking against it and see them following it back. Also use Thunder Cricket, white swim jig, or buzzbait depending on cover. Once sun comes out, switch to jerkbait or crankbait as fish ease deeper.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-spawn-breakdown",
+      "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at night; first hour of daylight is crucial. Shady areas or cloud cover extend it. Look near deep-water access: rocks, riprap, laydowns, flooded trees, grass edges, floating docks.'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

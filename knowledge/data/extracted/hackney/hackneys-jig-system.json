@@ -1,0 +1,54 @@
+{
+  "source": "hackneys-jig-system.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Hair Jig / Finesse Jig",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "Hackney: 'Use a Bitsy Bug in 1/4, 3/8, or 1/2 ounce for extremely clear, extremely cold, or heavily pressured water. Great for downsizing to up the size of fish you catch.'", "priority": 8 },
+        { "when": { "fishingPressure": "high" }, "tip": "Hackney: 'Throw the Bitsy Bug when fishing an event directly following another tournament where fish have seen a lot of lures.'", "priority": 8 },
+        { "when": { "species": "smallmouth" }, "tip": "Hackney: 'I use the Bitsy Bug a lot in river systems with smallmouth. They take the small jig better than a traditional jig.'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        { "when": { "fishDepth": "deep" }, "tip": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolina rig but only one knot.'", "priority": 8 },
+        { "when": {}, "tip": "Hackney: 'Use the football head when deep fish are not eating the crankbait or a slow-rolled spinnerbait. It stays in contact with the bottom and has a larger profile to appeal to quality fish.'", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Hackney: 'If I could have one jig, the Hack Attack would be it. I can make it look like a shad, a crawfish, or a bluegill - whatever they are feeding on.'", "priority": 7 },
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'Use the 3/8-ounce in extremely shallow or cold water when fish prefer a larger, slow-moving profile. Also good for swimming presentations and suspending fish.'", "priority": 8 },
+        { "when": {}, "tip": "Hackney: 'The 1/2-ounce is my go-to - versatile enough for shallow targets, cover penetration, or 10-20 foot depths by downsizing line.'", "priority": 8 },
+        { "when": { "fishDepth": "15-25ft" }, "tip": "Hackney: 'The 3/4-ounce is best for brushpiles in 15-25 feet.'", "priority": 7 },
+        { "when": { "cover": "heavy" }, "tip": "Hackney: 'Use 1-ounce or 1.25-ounce in really heavy stuff for a fast-falling presentation that bullies its way through cover.'", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "trailer-variety-over-jig-variety",
+      "insight": "Hackney: 'I carry more trailers than I do jigs because conditions sometimes change hourly. I can completely change the look of a jig by changing the trailer - from no action with a Chunk to looking like the trailer is propelling the jig with a Rage Craw.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "medium-heavy-rod-for-flipping",
+      "insight": "Hackney: 'I use a medium-heavy rod instead of a heavy action broomstick for flipping. With braid there is no stretch so you do not need a superstiff rod. The medium-heavy is more accurate, lets me feel the fish before it feels me, and a softer rod is better for fighting fish.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "braid-for-jig-action",
+      "insight": "Hackney: 'I use braid for 90 percent of my flipping. Its smaller diameter and limpness gives the jig more action. I prefer 50-pound red Cajun braid.'",
+      "conditions": {}
+    }
+  ]
+}

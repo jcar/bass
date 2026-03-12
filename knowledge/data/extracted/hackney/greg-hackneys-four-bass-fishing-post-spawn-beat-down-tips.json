@@ -1,0 +1,116 @@
+{
+  "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'Roll a spinnerbait over grass during the shad spawn. Male shad are attracted to the blades so you always have 7-8 shad following it - bass attack the shad and often hook on a trailer hook.'",
+          "priority": 9
+        },
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'Always fish a trailer hook during shad spawn because bass attack the shad attacking the spinnerbait and often hit the trailer hook outside their face.'",
+          "priority": 9
+        },
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'In dirty water use a Colorado/Indiana or double Colorado blade configuration. Colorado/willow excels in clear water.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'Use a medium to slower retrieve - if you reel too fast you pull it away from the shad. Do not impart any rod action as it will spook the shad and the bass feeding on them.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Match blade size to the size of the bait bass are feeding on. You want bass to hit the lure, not the blades.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "bright colors",
+          "hex": "#FFFF00",
+          "priority": 7
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "color": "translucent natural colors",
+          "hex": "#D3D3D3",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "white/chartreuse",
+          "hex": "#F5F5DC",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'At places where shad spawn a little deeper, use a squarebill crankbait matched to the size of the shad. Change out factory trebles with short-shank EWG style and up-size the hook, but be careful not to hurt the lure action.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "season": "post-spawn", "waterClarity": "clear" },
+          "tip": "Hackney: 'In extremely clear water during the shad spawn, a jerkbait is an option.'",
+          "priority": 6
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-shad-spawn-timing",
+      "insight": "Hackney: 'Threadfin shad spawn happens just as bass come off beds. Gizzard shad spawn is later. There is never a gap - it is the perfect storm. Largemouth are run down from the spawn and the shad spawn is a really easy time to gorge.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-spawn-first-light",
+      "insight": "Hackney: 'Threadfins spawn all night. The only time to cash in is within the first 45 minutes of daylight or the last 45 minutes of the day. In that span, 20-25 pounds of bass is possible on the right lake.'",
+      "conditions": { "season": "post-spawn", "isLowLight": true }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "shad-spawn-locations-south",
+      "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "shad-spawn-light-penetration",
+      "insight": "Hackney: 'Shad will not spawn deeper than light penetration - it takes light for their eggs to hatch. Same reason bass do not spawn in 20 feet when water is dirty.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "shad-spawn-slow-and-steady",
+      "insight": "Hackney: 'The big key during the shad spawn is to be slow and steady and pound the place. It is easy to fish over the bass when there is so much bait. You do not see a lot of chasing because they do not have to.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "gear",
+      "topic": "spinnerbait-shad-spawn-setup",
+      "insight": "Hackney: 'Fish a 6.8:1 reel with 16-lb fluorocarbon on a medium-heavy spinnerbait rod. The slower gear ratio helps maintain the medium to slow retrieve needed.'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

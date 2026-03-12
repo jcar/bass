@@ -1,0 +1,35 @@
+{
+  "source": "best-texas-rig-tipshtml.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'I'm 100% of the time pegging my weight. That way I'll always know where my bait is. If the bait gets caught on something the weight will pull away and you've wasted the cast. If I want a slow fall, I just use an extra small weight.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Always use a rubber insert peg, not a bobber stop. It protects your line from tungsten weights which are extremely hard with hard edges and harder on your line regardless of braid or fluorocarbon.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Have a good selection of rubber pegs because not all weights have the same line hole. Typically the bigger the weight, the bigger the hole.'",
+          "priority": 6
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "tungsten-weight-line-protection",
+      "insight": "Hackney: 'Tungsten weights are extremely hard with hard edges and are a lot harder on your line than lead, regardless of braid or fluorocarbon. Always use a rubber insert peg to protect the line.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "video-greg-hackneys-formula-for-post-spawn-bass-success-2.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-feeding",
+      "insight": "Hackney: 'After bass finish spawning their primary instinct is to feed. Females shift focus to recovery and nourishment quickly after spawning — sometimes over multiple beds. Males remain shallow longer guarding fry'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-dominant-forage",
+      "insight": "Hackney: 'Bass are opportunistic feeders. During post-spawn they target dominant forage — on many lakes bluegill begin spawning right after bass, becoming the primary food source. On other lakes it may be shad, blueback herring, or crawfish'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "check-fish-mouths",
+      "insight": "Hackney: 'Check the mouths of caught fish for signs of their recent meals — shad tails, crawfish antennae, or bluegill fins. That detail often leads to the right bait choice'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

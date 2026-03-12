@@ -1,0 +1,43 @@
+{
+  "source": "finding-bass-in-muddy-water.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "muddy-water-depth-positioning",
+      "insight": "Hackney: 'Bass in real muddy water move shallow, about as deep as the light penetrates. They don't like pitch black but also don't like being near the surface. They stay close to the bottom but not on it, right at the point where the light disappears.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "muddy-water-cover-relation",
+      "insight": "Hackney: 'When the water's a little clearer they relate to cover — around it. When it's real muddy they're right on it, almost touching sometimes. Even more true in strong current.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "muddy-water-filtered-areas",
+      "insight": "Hackney: 'Flooded shallow areas where grass and bushes filter the water are usually your best water. The difference in color might be slight to us, but a bass living in it sees that slight difference as huge.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "muddy-water-current-breaks",
+      "insight": "Hackney: 'If fishing a river or main lake with good current, the only thing I'm looking for is the current break. Bass have to get out of that moving water to survive. That one factor makes up for anything else.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "warm-vs-cold-muddy-water",
+      "insight": "Hackney: 'Cold, muddy water is tough but warm, muddy water isn't really that bad. Don't let it get into your head. Think water conditions rather than seasonal pattern.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "muddy-water-target-oriented",
+      "insight": "Hackney: 'Muddy water bass are target oriented. Look for something shallow, out of the current, with cover in it — stump, laydown, rock, or flooded dock. If there's something that filters the water, so much the better.'",
+      "conditions": { "waterClarity": "muddy" }
+    }
+  ]
+}

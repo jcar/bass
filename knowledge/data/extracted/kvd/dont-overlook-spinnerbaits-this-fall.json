@@ -1,0 +1,30 @@
+{
+  "source": "dont-overlook-spinnerbaits-this-fall.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "confidenceModifiers": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'Fall — burn a spinnerbait just beneath the surface in clear water. Use compact baits with smaller blades (3/16oz, small Colorado/willow or single Colorado) to match the smaller young-of-year baitfish. Keep it in the upper water column.'", "priority": 10 },
+        { "when": { "season": "fall", "waterClarity": "stained" }, "tip": "KVD: 'In stained fall water, go bigger with Colorado blades for more vibration. For grass like hydrilla/milfoil, use larger baits with willowleaf blades.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "fall-spinnerbait-sizing",
+      "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets you burn it and keep it down.'",
+      "conditions": { "lure": "Spinnerbait (Colorado/Willow)", "season": "fall" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "fall-spinnerbait-baitfish-matching",
+      "insight": "KVD: 'During fall, lakes become lower and clearer. Baitfish move shallow — great combination for spinnerbaits. The look of spinning blades and vibration really mimics all types of baitfish. Match weight to blades for the right retrieve speed and depth.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "rule-1-find-the-bass.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "location-over-lure",
+      "insight": "Hackney: 'At least 75 percent of catching bass is about fishing in the right spot. All the high-dollar tackle in the world won't help if the fish aren't there. It is rare — like never — that bass are keyed on a specific bait in a specific color'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "lure-versatility-at-right-spot",
+      "insight": "Hackney: 'I fished cypress trees with a chartreuse-black crankbait, next day another angler caught just as many from same spot on a dark tube, then Aaron Martens caught a mess on a drop shot — the bass were there and feeding, it was location'",
+      "conditions": {}
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "find-then-figure-depth",
+      "insight": "Hackney: 'Use your knowledge, your electronics and anything else. Once you find them figure out the details — are they suspended, on the bottom, breaking the surface? Then make an intelligent decision on what bait to throw'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "simplicity",
+      "insight": "Hackney: 'Don't overcomplicate things. Bass fishing isn't brain surgery'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "how-to-fish-a-swim-jig-and-select-the-right-color-a-technique-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Fish swim jig up high in the water column, shaking it along. Rage Craw trailer has wide swimming action that helps keep it high. Three basic colors you need: black and blue, bluegill, and shad. Fish on braided line around grass, scattered pads, bushes, boat docks. Works everywhere there's shallow cover.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "waterClarity": "muddy" }, "color": "Black & Blue", "hex": "#1a1a2e", "priority": 10 },
+        { "when": { "waterClarity": "stained" }, "color": "Bluegill", "hex": "#5a7a3a", "priority": 8 },
+        { "when": { "waterClarity": "clear" }, "color": "Shad", "hex": "#c0c0c0", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

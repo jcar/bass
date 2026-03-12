@@ -1,0 +1,20 @@
+{
+  "source": "cranking-great-lakes-smallmouth-in-heavy-wind-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'Great Lakes smallmouth in heavy wind: crank a 5XD in Green Gizzard Shad on 17lb fluoro. The heavier line reduces running depth — keep bait above the fish, not digging bottom. Speed is the trigger, not bottom deflections. Reel fast, add erratic starts/stops/jerks. Drift with the wind using trolling motor drift mode, make long downwind casts.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "wind-cranking-smallmouth-strategy",
+      "insight": "KVD: 'Wind and waves make light-line finesse nearly impossible on big water — can't feel bites with bow bouncing and line bowing. That's when crankbaits shine. Use 360 and forward-facing sonar to define bottom composition and find fish. Drift with the wind to conserve battery, make long downwind casts. Use electronics to find irregularities, then cover water with crankbaits.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "source": "kicking-off-the-2026-bass-fishing-tournament-season-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "winter" },
+          "tip": "KVD: At Guntersville, bass get super shallow on river bars — a 1/4oz Red Eye Shad is 'absolutely deadly' there. Most people use 1/2oz but these fish are in 1-2ft of water. It's all about the fall — rip it out of the grass and let it flutter with that shimmy/hover.",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "clear", "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: Jerkbait is a major player when Tennessee River is clear. Fish parallel down riprap, causeways, grass edges, bridge pilings. Efficient at covering different sections. The start-and-stop retrieve is 'absolutely deadly' this time of year — keeps bait in the strike zone for a long time.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lake-reading",
+      "topic": "guntersville-grass-types",
+      "insight": "KVD: Guntersville's grass has evolved over the years: milfoil first, then hydrilla, now a lot of eel grass. All three still present. The grass creates great habitat and clear water (filters it). Floating eel grass cut up by wind/waves/boats makes it hard to throw lipless crankbaits and jerkbaits — catches on your line.",
+      "conditions": { "structure": "grass" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "guntersville-lake-sections",
+      "insight": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-event-weather-analysis",
+      "insight": "KVD: 'One of the things when I'm preparing for a big tournament is I really want to follow the weather — not only current conditions but what's been happening leading up to the event.' When lakes are off-limits for a month+, weather tracking is how you prepare. Water clarity, temp trends, rain history all matter.",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "guntersville-winter-mild-vs-cold",
+      "insight": "KVD: Mild winters at Guntersville keep water in low 50s with grass still green and water exceptionally clear. Cold winters push shad into creek centers with wolf packs of bass around them. Both scenarios produce but require completely different approaches.",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

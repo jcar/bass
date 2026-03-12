@@ -1,0 +1,44 @@
+{
+  "source": "kevin-vandam-on-how-to-catch-small-mouth-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Jerkbait is a staple for northern smallmouth power fishing. Even if they don't bite, smallmouth follow baits to the boat and reveal their location. Go back and finesse them later. Power fishing catches smallies AND helps find them.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'For northern smallmouth, a 1/2oz Burner spinnerbait is one of my top three power lures. It locates fish fast — smallmouth that won't commit still show themselves following it to the boat.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Never go smallmouth fishing without a dropshot tied on. When fish chase power baits to the boat but won't commit, drop down to them with a dropshot. Use 3/8 to 1/2oz weight for cleanup finesse work on finicky smallmouth.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Ned rig with 1/8oz head is a smallmouth finesse staple. Great cleanup bait when conditions call for subtle presentation or fish won't react to aggressive offerings.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "smallmouth-long-rod-clear-water",
+      "insight": "KVD: 'For northern smallmouth in clear water, use longer-than-usual rods — never shorter than 7 feet. Long casts are extremely important. Light line and long rod keep bait far from the boat and help move more line on hookset. I designed a 7-4 spinning rod specifically for finesse applications.'",
+      "conditions": { "waterClarity": "clear" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "smallmouth-bottom-transitions",
+      "insight": "KVD: 'Smallmouth love transitions or changes in bottom composition. Good polarized sunglasses are as critical as electronics — I'm constantly looking for transitions, irregularities, individual pieces of cover, or the fish themselves. Eyes scanning the water catches a pile of smallmouth each year.'",
+      "conditions": {}
+    }
+  ]
+}

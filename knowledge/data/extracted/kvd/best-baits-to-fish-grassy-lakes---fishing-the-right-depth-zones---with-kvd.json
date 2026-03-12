@@ -1,0 +1,77 @@
+{
+  "source": "best-baits-to-fish-grassy-lakes---fishing-the-right-depth-zones---with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "summer", "waterClarity": "stained" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        {
+          "when": { "season": "summer", "waterClarity": "stained" },
+          "tip": "KVD: Half-ounce Thunder Cricket in white with blade minnow trailer — cut the head off to shorten it. Water rushes around the blade and hits the tail at the perfect distance for lively action.",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "summer" },
+          "tip": "KVD: When grass clumps reach the surface, a regular squarebill runs too deep. Switch to the 2.5 wake — choose baits that are efficient for the cover in that depth zone.",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "season": "summer" },
+          "tip": "KVD: Spinnerbait is one of the key baits for shallow grass flats alongside the Thunder Cricket and Hybrid Hunter.",
+          "priority": 5
+        }
+      ]
+    }
+  ],
+  "newStructureAdvice": {
+    "grass": "KVD: 'Lakes that have grass change the most.' When hydrilla clumps to the surface, fish offshore grass in the middle of the lake — that's where the bait and big fish are in summer. They don't get up by the shore when it's hot."
+  },
+  "credibilityUpdates": {
+    "Chatterbait": 0.9
+  },
+  "knowledge": [
+    {
+      "category": "trailer-modification",
+      "topic": "chatterbait-blade-minnow-trim",
+      "insight": "KVD: Cut the head off the blade minnow trailer to shorten it slightly. The water rushing around the chatterbait blade hits the shortened tail at the perfect distance for lively action. This is his #1 trailer for the Thunder Cricket.",
+      "conditions": { "lure": "Chatterbait" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "grass-lakes-change-most",
+      "insight": "KVD: 'Lakes that have grass change the most.' Creek channels don't move and bottom terrain is static, but grass lakes change a lot year to year — grass types, height, density all shift. Different areas of the same lake may have different grass types (hydrilla, eel grass, pepper grass, streaming grass).",
+      "conditions": { "structure": "grass" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "summer-grass-fish-offshore",
+      "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake.",
+      "conditions": { "season": "summer", "structure": "grass" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "grass-water-clarity-relationship",
+      "insight": "KVD: Heavy grass volume makes the water clearer. When grass clumps reach the surface, expect improved water clarity compared to areas without grass.",
+      "conditions": { "structure": "grass" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "match-bait-to-depth-zone",
+      "insight": "KVD: Choosing baits that are efficient for the type of cover in that depth zone is a big part of it. When grass is to the surface, a regular crankbait runs too deep — switch to a wake bait version to stay in the strike zone.",
+      "conditions": { "structure": "grass" }
+    }
+  ]
+}

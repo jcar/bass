@@ -1,0 +1,86 @@
+{
+  "source": "catching-bass-in-muddy-water.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'I almost always rig my plastics on a jig in muddy water. It needs to be big and bulky, and most important of all, it needs to have rattles. There's no such thing as too many, and they can't be too loud.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "black and blue",
+          "hex": "#00008B",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'For muddy water spinnerbaits, use big baits with giant Colorado blades, but go with lighter colored skirts. Bass move towards the bait because of the thump, then can see the light colored skirt when close.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "light/white",
+          "hex": "#F5F5F5",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'For muddy water crankbaits, make sure it has size and rattles. I reach for the Strike King Pro Model Series 4S.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "muddy" },
+          "color": "dark with orange/chartreuse/white accents",
+          "hex": "#333333",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "muddy-water-plastic-color",
+      "insight": "Hackney: 'I'll use any color as long as it's black. It's almost impossible to get pure black anymore — it all has flake in it — so I go with the darkest looking stuff I can find. If black isn't working, try Summer Craw or Bama Craw.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "muddy-water-plastic-profile",
+      "insight": "Hackney: 'Any plastic I throw in muddy water will be big and bulky, with a lot of arms and legs to move water. My choice is a Strike King Rage Tail Lobster when the water's real bad.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "muddy-water-four-factors",
+      "insight": "Hackney: 'Picking the right lure for muddy conditions begins with helping the bass find it. Four related factors: water movement, noise, size, and color.'",
+      "conditions": { "waterClarity": "muddy" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "muddy-water-size-agnostic",
+      "insight": "Hackney: 'I don't pick lures based on the size of bass I expect to catch in muddy water. It's all the same whether targeting 2-pounders or 5-pounders. They gotta find it before they can bite it.'",
+      "conditions": { "waterClarity": "muddy" }
+    }
+  ]
+}

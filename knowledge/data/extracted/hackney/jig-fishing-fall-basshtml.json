@@ -1,0 +1,59 @@
+{
+  "source": "jig-fishing-fall-basshtml.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "Hackney: 'In the fall, drop jig weight one size from summer - if using 1-ounce in summer go to 3/4, if 3/4 go to 1/2. Slow everything down slightly from summer but not to winter levels.'", "priority": 9 },
+        { "when": { "season": "fall" }, "tip": "Hackney: 'Fish edges in the fall, not the middle of brush or mats. Bass move to the edges to feed as water cools.'", "priority": 8 },
+        { "when": { "season": "fall" }, "tip": "Hackney: 'Use a jig with a rattle in fall when fishing isolated cover - it will get you some bites.'", "priority": 7 },
+        { "when": { "season": "fall", "frontalSystem": "post-frontal" }, "tip": "Hackney: 'After a fall cold front, bass come right back and park on isolated cover on flats. That is the keyest place you can find that time of year - pitch a jig on it.'", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall", "forage": "bluegill" }, "color": "green pumpkin", "hex": "#6B8E23", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": "fall", "forage": "shad" }, "tip": "Hackney: 'In fall when shad migrate shallow into vegetation, use a white swim jig. Makes you efficient fishing a shad pattern around grass.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall", "forage": "shad" }, "color": "white", "hex": "#FFFFFF", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-is-reverse-pre-spawn",
+      "insight": "Hackney: 'Think of fall as a faster pre-spawn in reverse. Fish migrate back to the exact same cover they use pre-spawn. They get on boat docks, cypress trees, heavy cover just outside spawning areas. They are aggressive and feeding up for winter.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "fall-cold-fronts-help",
+      "insight": "Hackney: 'Cold fronts in the fall are not as negatively effective as in the spring. I like those cold front days in fall because the cool water triggers them to feed. I do not like warm Indian summer days in the fall.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "fall-fish-return-to-cover",
+      "insight": "Hackney: 'In summer fish swim around in the abyss on nothing, but in fall as water temps drop they get back on cover - brush piles, boat docks, grass edges. Now we can pinpoint and target them.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-vegetation-die-off-concentrates-bait",
+      "insight": "Hackney: 'As grass dies and milfoil goes away in fall, it confines bluegill to whatever cover is left. When bluegill concentrate on remaining cover, big largemouth go there too. Everybody has their feed bag on.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "isolated-cover-on-flats-in-fall",
+      "insight": "Hackney: 'One big log sticking up on a flat - never run past that in the fall. That is about the keyest place you can find. Isolated cover on flats holds the bigger, quality fish, not the little schoolers chasing shad.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

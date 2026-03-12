@@ -1,0 +1,19 @@
+{
+  "source": "best-baits-strategies-for-fishing-grassy-lakes-depth-zones-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "grassy-lake-depth-zones",
+      "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transitions (8ft+) — where grass tops out, fish suspend, use deep cranks, jigging spoons, blade baits. Cast along features, not straight across flats.'",
+      "conditions": {}
+    },
+    {
+      "category": "lake-reading",
+      "topic": "grassy-lake-water-reading",
+      "insight": "KVD: 'Reading grassy lake water: color breaks (darker water = deeper edges), grass clumps (ambush points), wind-driven current seams (concentrate bass). Match bait to time of day AND depth zone: morning/evening = topwater/shallow, midday = soft plastics/spinnerbaits on weed edges, late/low light = crankbaits and deeper jigs.'",
+      "conditions": {}
+    }
+  ]
+}

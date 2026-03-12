@@ -1,0 +1,38 @@
+{
+  "source": "power-fishing-with-kevin-vandam-8.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "KVD: 'During spawn, burn a spinnerbait around shallow bushes in pockets. Spawners may not bite but they'll swat at it, giving away their location. Then switch to a creature bait and dunk into those bushes to make them bite.'", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": "post-spawn" }, "tip": "KVD: 'Post-spawn bass suspend around cover like docks and bushes while recovering. Best lures prey on their guarding instincts — walking stickbaits, topwaters, jerkbaits. They have built-in action and stay in the strike zone longer. Avoid bottom baits since fish suspend during this period.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "spawn" }, "tip": "KVD: 'For spawning bass in bushes, rig a creature bait with 3/8oz weight and flip fast. Make more flips to cover water. You may not catch every fish but you'll catch several. If the area holds big fish, go back through slower.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-temperature-misconceptions",
+      "insight": "KVD: 'There is no magic temperature that triggers the hot bite — it's about transition and rising temperatures, not a set number. The moon has greater influence over spawning than temperature. Stable weather + full moon + water in the 50s = very active bass, some spawning. Don't wait for the 60s. Northern bass spawn at lower temperatures than southern fish.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-staging-power-pattern",
+      "insight": "KVD: 'Peak prespawn: concentrate on fish staging near spawning areas — they're the most aggressive. Cover water with fast baits searching for the sweet spots. I've hit one little stretch where a school of hungry big ones pulled up and caught four or five in a row. Dragging soft plastics, I might have missed those opportunities.'",
+      "conditions": { "season": "pre-spawn" }
+    }
+  ]
+}

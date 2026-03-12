@@ -1,0 +1,92 @@
+{
+  "source": "greg-hackney-my-baits-to-get-bites-in-each-stage-of-the-spawn.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'Fish want a big, slow-moving bait in the pre-prespawn. A bladed jig keeps the bait in the strike zone longer because males are roaming a big area and are really aggressive.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'When fish first come up shallow to set up for spawn, a swim jig with a Rage Craw trailer keeps the bait in the strike area longer because the males are aggressive and roaming.'",
+          "priority": 8
+        },
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'At the tail end of spawn when males guard fry, the swim jig comes back into play. Bass are no longer on the bottom guarding beds - focus on the upper water column. Drag a swim jig through fry areas and the male will attack it.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'A Red Eye Shad (lipless crankbait) is one of my go-to pre-prespawn baits when fish are aggressive coming out of winter.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "season": "pre-spawn" },
+          "tip": "Hackney: 'A spinnerbait is one of my key baits for the pre-prespawn phase when fish are aggressive and setting up shallow.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": "post-spawn" },
+          "tip": "Hackney: 'When females are done spawning, reach for the flipping jig. Females bunch up after spawning - when you find one, you find a group. In Louisiana, there will be a female on every cypress tree in the area.'",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "pre-prespawn-aggression",
+      "insight": "Hackney: 'There are two phases for prespawn: pre-prespawn right out of winter and then prespawn. These two phases are your best bet at catching a personal best. Fish are stressed from spawning prep - males guard a huge territory and are really aggressive.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "early-spawn-less-action-baits",
+      "insight": "Hackney: 'In the early spawn, nothing beats a piece of plastic. Use baits without a lot of action like a tube or Rodent - the only action is from your rod tip. Be patient with repetitive casts to bedding bass.'",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "warming-spawn-more-action",
+      "insight": "Hackney: 'Once water hits the 70s, fish pay more attention to baits with appendages that swim. Use something like a Game Hawg or Rage Bug. Fish grab it even when reeling back in.'",
+      "conditions": { "season": "spawn", "waterTemp": "70s" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "post-spawn-females-bunch-up",
+      "insight": "Hackney: 'Especially in the South, females like to bunch up after spawning. When you find one female, you find a group of them. Use topwater around those groups as females seem to like it more.'",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

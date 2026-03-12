@@ -1,0 +1,26 @@
+{
+  "source": "have-more-than-one-thick-vegetation-setups-to-punch-through-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Punching matted vegetation: use 1.5oz tungsten weight pegged with bobber stop, 65lb braid, 4/0 hook with a Punch Bug. Cast high to build momentum through the mat. Rod at 10 o'clock, slack line for free fall. Give 3-4 shakes under the mat, sometimes lift bait just under surface to tempt a bite.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "reading-matted-vegetation",
+      "insight": "KVD: 'Target the greenest mats — they're untreated, most fertile, and hold the most bass. Avoid brown dying mats that lack ecosystem. Noise isn't a concern when punching — the loud impact of your weight often attracts fish rather than spooking them. Mats are naturally noisy environments.'",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "punching-mats-timing",
+      "insight": "KVD: 'Punching mats is especially effective during cold fronts (bass bury deeper under mats for stable conditions) and heat of summer (mats provide cooler shade). Aggressive fish hit on the drop. If bites are sluggish, pause and jig longer. This technique is known for producing trophy bass.'",
+      "conditions": {}
+    }
+  ]
+}

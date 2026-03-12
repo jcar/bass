@@ -1,0 +1,104 @@
+{
+  "source": "flipping-thoughts.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "waterTemp": "below 70" },
+          "tip": "Hackney: 'I flip a jig 100 percent of the time until the water temperature gets above 70 degrees. Fish feed more on crawfish up to the spawn.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'I fish a 1/2-ounce jig 99 percent of the time. I alter the fall rate by varying my trailer — a bigger, bulkier trailer makes it act like a 3/8 or 1/4 ouncer. Eliminates one more decision on the water.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Match the jig speed to the mood of the fish. Active and aggressive — fast pace triggers more strikes. Post-front or pressured — slower fall rate is what you want.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'The bass focuses most on the end of the bait — the jig trailer. The jighead plunges downward and the bass sees the trailer for the longest duration. That's why jig trailers are the most important part of flipping.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "stained", "isLowLight": true },
+          "color": "black/blue",
+          "hex": "#00008B",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "color": "green pumpkin",
+          "hex": "#6B8E23",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "waterTemp": "above 70" },
+          "tip": "Hackney: 'In heavy cover above 70 degrees, a Texas rig is less likely to get hung up than a jig. I flip soft plastics most when the water is off-color.'",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "muddy" },
+          "tip": "Hackney: 'If it's really chocolate water, go with a 10-inch worm. Fish need to feel the bait when visibility is cut way down — bigger bait or one that kicks out vibrations catches more fish.'",
+          "priority": 9
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "tip": "Hackney: 'In clear water, fish feed more by sight, so go with something more subtle like a smaller worm or even a tube.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Normally use a 3/8-ounce bullet sinker, up to 1/2 ounce on windy days. Use the lightest weight that achieves the sink rate that triggers a bite.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "waterClarity": "stained", "isLowLight": true },
+          "color": "black/blue",
+          "hex": "#00008B",
+          "priority": 8
+        },
+        {
+          "when": { "waterClarity": "clear" },
+          "color": "green pumpkin",
+          "hex": "#6B8E23",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "seasonal-forage-shift",
+      "insight": "Hackney: 'Fish feed more on crawfish up to the spawn, then switch to shad and bluegill diet. Shad spawns and bluegill spawns occur after the bass spawn, so bass switch because of all that fresh food right in their faces.'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jig-trailer-fall-rate-control",
+      "insight": "Hackney: 'Changing the sink rate of a jig does not mean tying on a heavier jig. Alter the fall rate by varying the trailer. A bigger, bulkier trailer on a 1/2-ounce jig makes it act like a 3/8 or 1/4 ouncer.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "two-color-simplicity",
+      "insight": "Hackney: 'I limit myself to just two colors — black/blue for dark water or dark conditions, green pumpkin for clearer water and bright days. These two catch fish from Florida to New York. I may switch during the day — black/blue early morning, green pumpkin when the sun gets up.'",
+      "conditions": {}
+    }
+  ]
+}

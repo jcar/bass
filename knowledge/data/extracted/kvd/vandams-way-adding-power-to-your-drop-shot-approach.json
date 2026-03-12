@@ -1,0 +1,51 @@
+{
+  "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "confidenceModifiers": [
+        { "when": { "waterClarity": "clear" }, "adjustment": 12 },
+        { "when": { "windSpeed": { "min": 5 } }, "adjustment": 5 }
+      ],
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'The drop-shot is one of the unique ways — especially for clear water lakes — to cover water from shallow to deep, and fast. It gets the bait down in a hurry yet you can still make a finesse presentation.'", "priority": 10 },
+        { "when": { "fishDepth": { "min": 15 } }, "tip": "KVD: 'With a half-ounce weight, the bait gets down to 20-30 feet in just a few seconds. Shake it a few times, see if you can get a bite, then move on. I can cover a ton of water this way.'", "priority": 8 },
+        { "when": { "frontalSystem": "post-frontal" }, "tip": "KVD: 'When the bite is super tough, wacky rig a 4-inch Ocho or Dream Shot on the drop shot. For power-shotting, go with something that has a lot of wiggle — Baby Z-Too or nose-hooked Dream Shot.'", "priority": 8 }
+      ],
+      "defaultTip": "KVD: 'I throw a drop-shot in 2 feet of water as much as 40. It's a great presentation for all scenarios — a really good way to cover water AND catch fish when the bite is tough.'"
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "kvd-power-drop-shot-setup",
+      "insight": "KVD: '7.5-foot rod, 3000 series spinning reel, 10lb braid with a 20-foot leader of 8lb fluorocarbon. Long leader and small-diameter braid means long casts with no twist. Critical for clear water where long casts matter.'",
+      "conditions": { "lure": "Drop Shot", "waterClarity": "clear" }
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-weight-selection",
+      "insight": "KVD: '1/2oz tungsten for 10-40ft depth range with the 7-6 rod. Shallow water gets 1/8 or 3/16oz weight. Use just heavy enough weight to keep good bottom contact and line tight.'",
+      "conditions": { "lure": "Drop Shot" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "power-shot-technique",
+      "insight": "KVD: 'On a long cast, let it sink then tightline the last bit so the Baby Z-Too swims like a real minnow on the way down. Shake 3-4 times, reel a little, shake again. If you find concentrated fish, work it longer through the cast.'",
+      "conditions": { "lure": "Drop Shot" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "drop-shot-bait-matching-mood",
+      "insight": "KVD: 'Match bait to fish mood: super tough = wacky-rigged Ocho or finesse worm. Power fishing = something with lots of wiggle like Baby Z-Too or nose-hooked Dream Shot. Figure out the mood and give them action that generates extra strikes.'",
+      "conditions": { "lure": "Drop Shot" }
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-vertical-deep-setup",
+      "insight": "KVD: 'For vertical deep water (50ft on Table Rock, fishing standing timber at 30ft down), use a short rod. Video gaming — looking at graph, dropping to the fish, watching bait on sonar, trying to talk them into biting.'",
+      "conditions": { "lure": "Drop Shot", "fishDepth": "30+" }
+    }
+  ]
+}

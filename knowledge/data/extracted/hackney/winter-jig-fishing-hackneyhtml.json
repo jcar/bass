@@ -1,0 +1,65 @@
+{
+  "source": "winter-jig-fishing-hackneyhtml.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "winter", "cover": "matted-vegetation" }, "tip": "Hackney: 'In December-January I target matted vegetation with a jig — dying dead vegetation absorbs heat. Use the lightest version of the flipping jig you can get by with to fish those mats efficiently'", "priority": 9 },
+        { "when": { "season": "winter" }, "tip": "Hackney: 'I prefer a jig over plastic in winter because it has a big profile but moves slower. Plastics fall fast when punching, but a light jig parachutes under the mat which gets more bites'", "priority": 9 },
+        { "when": { "season": "winter", "technique": "flipping" }, "tip": "Hackney: 'In winter I shake the jig to get it to fall through the mat. Once it breaks through it parachutes. When pulling up, ease it up — don't hop hard — so it parachutes back down, which generates strikes'", "priority": 9 },
+        { "when": { "season": "winter", "cover": "matted-vegetation" }, "tip": "Hackney: 'Trim the silicone skirt and make it poufy — when the strands are spread out it creates a parachute look, just like a live crawfish putting all its limbs out as it falls'", "priority": 8 },
+        { "when": { "season": "winter", "cover": "mats" }, "tip": "Hackney: 'For mats I use 50-pound braid with the 7-foot 11-inch flipping stick. Anytime fishing straight up and down, use the big rod regardless of water depth'", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Structure Jig",
+      "tipRules": [
+        { "when": { "season": "winter", "fishDepth": "deep" }, "tip": "Hackney: 'When casting a jig in winter fishing deep — brush piles, creek channels, ledges — use the structure jig with fluorocarbon. I use a lighter jig to slow down and maintain a natural action'", "priority": 9 },
+        { "when": { "season": "winter", "waterClarity": "clear" }, "tip": "Hackney: 'In extremely clean, cold, deep water I switch to a living rubber skirt for more lifelike movement. In clear winter water a rubber skirt is a little more lively and lifelike'", "priority": 8 },
+        { "when": { "season": "winter", "fishDepth": "deep" }, "tip": "Hackney: 'For deep winter jig fishing, use a 7-foot 6-inch pitching rod with soft tip for casting and feeling the jig. Use the lighter softer-tip rod anytime fishing the bait back over a distance'", "priority": 8 },
+        { "when": { "season": "winter", "fishDepth": "very-deep", "waterClarity": "clear" }, "tip": "Hackney: 'Only downsize to 12-pound fluorocarbon in extremely deep, extremely clear water. Light line lets you stay in contact with a light jig when fishing 20 to 60 feet deep'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-trailer-switch",
+      "insight": "Hackney: 'Below 55 degrees I switch from a Rage Craw to a KVD plastic chunk. I still want a big profile but not a lot of action — everything bass eat in winter is cold-blooded and moves slower, so a crawfish does not root around and shoot everywhere in the 40s'",
+      "conditions": { "season": "winter", "waterTemp": "<55" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-mat-targeting",
+      "insight": "Hackney: 'In December-January I target blown-in mats around cypress trees, dead-end canals, oilfield canals. Big females sit in those dead ends because a month later they will be spawning'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-line-selection",
+      "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "winter-jig-speed",
+      "insight": "Hackney: 'In winter it is almost impossible to fish a jig too slow. Use a lighter jig — the bigger jig you throw the quicker it reaches bottom and the tendency is to move it. A lighter one naturally slows you down'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "winter-jig-reel",
+      "insight": "Hackney: 'I always use a super-high-speed reel for jig fishing — 8.3:1 ratio. Super fast and super strong, works with both braid and fluorocarbon'",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "three-jig-system",
+      "insight": "Hackney: 'There are really three jigs I use year-round: the Hack Attack Flipping Jig for grass, the Structure Jig for casting on fluorocarbon, and the Denny Brauer Premier Pro-Model with a rattle for boat docks and brush piles'",
+      "conditions": {}
+    }
+  ]
+}

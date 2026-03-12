@@ -1,0 +1,47 @@
+{
+  "source": "shallow-summertime-power-fishing-with-kvd.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Chatterbait",
+      "confidenceModifiers": [
+        { "when": { "season": "summer", "waterClarity": "stained" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'Around bluegill beds, use a 3/8oz Thunder Cricket tipped with a Blade Minnow. 95% of the time green pumpkin. Start on the outer edge of spawning beds — that's where big bass hang out.'", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "Green Pumpkin", "hex": "#6b8e23", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "summer", "waterClarity": "stained" }, "tip": "KVD: 'Summer shallow — use a bigger squarebill (2.5 or 4.0) in bluegill patterns around spawning panfish. Both have plenty of vibration for dirty water. Conditions dictate — high dirty water means shallow bass even in summer.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "summer" }, "color": "Bluegill", "hex": "#4a6741", "priority": 6 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "KVD: 'After power-fishing through an area, clean up with a Texas-rigged Game Hawg and light 1/4oz weight. Lighter weight lets the bait fall slower so the appendages dance through the area.'", "priority": 6 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "summer-shallow-conditions",
+      "insight": "KVD: 'Conditions over calendar. High, off-colored water sets the stage for shallow bass even in summer. More structure in shallows means more bass. The bluegill spawn is a coast-to-coast pattern — bass target spawning panfish for big meals.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "finding-bluegill-beds",
+      "insight": "KVD: 'Bluegills spawn midway back in a pocket, not all the way in the back. They like sides of secondary points and shade trees that stick over water — almost guaranteed under a big willow tree. Use Mega 360 or Side Imaging, or find them with your eyes.'",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

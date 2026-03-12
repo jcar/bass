@@ -1,0 +1,36 @@
+{
+  "source": "bassmaster-elite-toledo-bend-2016.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": "summer" },
+          "tip": "KVD: Won Toledo Bend fishing 'stop signs' — clean areas outside major spawning coves with crankbaits. Rotated 10XD, 8XD, and 6XD across three depth ranges. Start shallow early on the shad spawn, then transition to deep cranking for the biggest fish.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "shallow-to-deep-transition",
+      "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "stop-signs-outside-spawning-coves",
+      "insight": "KVD: 'Stop signs' = clean areas (hard bottom, rock transitions) that sit just outside major spawning coves. Fish stage on these as they move in and out of spawning areas. Concentrate on high-percentage corners. LakeMaster mapping showing bottom contours was the critical tool — 'the only reason I won.'",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "gallery-pressure-management",
+      "insight": "KVD: With a big lead, 30+ boats follow you. Spectators fish your spots after you leave. 'It's challenging when they're fishing your stuff.' One of the toughest aspects of being the frontrunner.",
+      "conditions": {}
+    }
+  ]
+}

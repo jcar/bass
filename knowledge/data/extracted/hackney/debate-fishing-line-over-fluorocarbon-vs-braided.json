@@ -1,0 +1,25 @@
+{
+  "source": "debate-fishing-line-over-fluorocarbon-vs-braided.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "waterClarity": "clear" },
+          "tip": "Hackney: 'Generally uses braid even in clear water when swimming jigs over and in milfoil beds. Won a Bassmaster Elite event on Cayuga Lake in New York using braid in clear water over milfoil.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "braid-vs-fluoro-swim-jig",
+      "insight": "Hackney: 'Uses braid even in clear water when swimming jigs. As long as it is a moving bait, line type doesn't seem to matter — bass chomp regardless.'",
+      "conditions": {}
+    }
+  ]
+}

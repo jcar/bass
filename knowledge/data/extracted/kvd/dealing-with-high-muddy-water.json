@@ -1,0 +1,35 @@
+{
+  "source": "dealing-with-high-muddy-water.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "confidenceModifiers": [
+        { "when": { "waterClarity": "muddy" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "waterClarity": "muddy" }, "tip": "KVD: 'High muddy water = spinnerbait time. Use bulky spinnerbait with Colorado blades — more vibration helps fish find it, provides lift, requires slower wind for more time in strike zone. Bright colors: fire tiger, chartreuse, fluorescent orange/yellow, pearl white. Black works too for silhouette in dirty water.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "waterClarity": "muddy" }, "tip": "KVD: 'When debris prevents spinnerbait fishing in muddy water, switch to a 1/2oz flipping jig in black/blue with blue craw Rage Craw trailer. Flip into thick cover or swim it depending on the area. White jig is another option.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "high-water-spring-pattern",
+      "insight": "KVD: 'Rising water — bass push shallow and spread out. Best spring days can occur when warming water rises fast. Key on runoff areas: backs of creeks, culverts, residential yards, city street drainage. Water temp can vary 5 degrees between pockets — find the warmest runoff. Don't overlook ultra-shallow water — bass will put noses on seawalls and banks in inches of water.'",
+      "conditions": { "season": "pre-spawn", "waterClarity": "muddy" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-muddy-water-cranking",
+      "insight": "KVD: 'Cold + rising + muddy is the toughest spring combo. Bass in winter pattern are less likely to move to prespawn areas. Fish a flat-sided crankbait that displaces a lot of water, close to bottom or near objects. Make parallel casts to channel swings, steep banks, and riprap. Some fish always live shallow — target them.'",
+      "conditions": { "season": "pre-spawn", "waterClarity": "muddy" }
+    }
+  ]
+}

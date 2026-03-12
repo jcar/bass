@@ -1,0 +1,13 @@
+{
+  "source": "jerkbait-bass-fishing-with-kvd-wind-and-overcast.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Overcast + wind puts bass into feeding overdrive on clear reservoirs. Target main lake windblown points and where river channel pushes close to shore. Get deep jerkbait to maximum diving depth to call bass from as far as possible. Bright but natural-hued baits (bone, white) on overcast days. Start and finish jerking with slack line.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

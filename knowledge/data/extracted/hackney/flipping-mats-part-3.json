@@ -1,0 +1,48 @@
+{
+  "source": "flipping-mats-part-3.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'If you see a mat made out of anything, flip it. Don't think about the season or weather. Mats are some of the most reliable places to catch a bass.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Hackney: 'Change weight sizes based on hardness of the mat top. Leaves with no wind — go light. Dead grass baked hard by the sun — upsize your weight.'",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "mat-flipping-hookset",
+      "insight": "Hackney: 'Do not set the hook with a jerk when flipping mats — the weight and plastic will ball up and you'll never get a good hookset. Reel down until you feel the fish, then use a steady, hard, strong, quick pull back to drive the hook home.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "mat-flipping-fish-extraction",
+      "insight": "Hackney: 'Pull the fish back with the rod — don't try to crank her back. The reel's only function is to keep slack out of the line.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "mat-flipping-tackle-critical",
+      "insight": "Hackney: 'Flipping mats absolutely requires the right rod, reel and line. Most techniques you can do with several different combinations and still catch fish. Not when you're flipping mats.'",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "mat-flipping-visualization",
+      "insight": "Hackney: 'Visualize the hookset in your mind before every flip. If you don't, you'll reflexively jerk your rod when you get a bite.'",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source": "kvds-jerkbait-system-for-big-water-smallmouth-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "waterClarity": "clear" }, "tip": "KVD: 'Deep jerkbait is a search lure for big-water smallmouth on huge flats. Use MEGA 360 to find bottom composition changes, then direct high-percentage casts. Forward-facing sonar gives real-time feedback — adjust cadence, color, or running depth until you trigger fish. Switch to dropshot when bass follow but won't commit.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "forage-matching",
+      "topic": "great-lakes-forage-lure-matching",
+      "insight": "KVD: 'Great Lakes smallmouth forage varies — yellow perch, crawfish, round gobies. Perch favor grass/sand patches; gobies live in rock. Minnow-imitating lures (jerkbaits, crankbaits) excel on perch bites. Goby-imitating swimbaits and jig combos for goby bites. Identify target forage first — it can change seasonally and day-to-day.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "deep-jerkbait-setup",
+      "insight": "KVD: 'Deep jerkbait for smallmouth: slower-action medium-heavy rod (not snappy like standard jerkbait rod), fast reel, 12-14lb fluorocarbon. The slower rod action works better for the deep-diving versions.'",
+      "conditions": { "lure": "Suspending Jerkbait" }
+    }
+  ]
+}

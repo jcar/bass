@@ -1,0 +1,71 @@
+{
+  "source": "hackneys-fishing-class-flipping-session-video.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "season": "summer" }, "tip": "Hackney: 'Always throw a jig first over any piece of plastic. Only go to a heavy Texas rig weight when the jig will not penetrate the grass.'", "priority": 9 },
+        { "when": { "season": "summer" }, "tip": "Hackney: 'If I get 9 bites on a jig I will catch 7 of them. If I get 9 bites on a big weight in grass, there are days I will be lucky to catch 5.'", "priority": 8 },
+        { "when": { "fishDepth": "deep" }, "tip": "Hackney: 'I will never fish deep grass with a soft plastic, always with a jig.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "forage": "crawfish" }, "color": "double header", "hex": "#8B4513", "priority": 7 },
+        { "when": { "forage": "bluegill/perch" }, "color": "candy craw", "hex": "#CC5533", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": "summer", "cover": "heavy mats" }, "tip": "Hackney: 'Use 1.25-ounce weight minimum if 1-ounce requires wiggling through the mat. Fish it from surface to within 3 feet, yo-yo 3-4 times then reel out. Most bites come on the initial drop - it is a reaction bite.'", "priority": 9 },
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'In cold water use just enough weight to get through the mat so it moves slowly as it falls.'", "priority": 7 },
+        { "when": {}, "tip": "Hackney: 'Always reel set - reel the slack out quickly until you feel the weight of the fish, then lean back into the hookset. Setting the hook with slack is a major error.'", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "finding-bass-in-mats",
+      "insight": "Hackney: 'Look for something different in the mat - a yellow algae mat growing in green milfoil will isolate the fish. Fish are never random, NEVER.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "mat-fish-are-schooled",
+      "insight": "Hackney: 'Fish in mats are school oriented, not isolated. Once you get a bite, it is time to slow down.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "baitfish-inside-mats",
+      "insight": "Hackney: 'Shad hang along the outside edge of a mat but never go inside it. Bluegill, sunfish, shiners, and crawfish will go inside. Bass in mats are short-range ambush predators, not bait chasers.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "mixed-vegetation-concentrates-fish",
+      "insight": "Hackney: 'An abnormality in vegetation like mixed species can be key. A small area of cabbage growing outside deep milfoil or coontail growing inside will concentrate fish.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "big-bass-flock-together",
+      "insight": "Hackney: 'Birds of a feather flock together. Bigger fish stick together because they are on bigger bait. If you find 3-pounders, a 5-pounder could be nearby. A group of 1-pounders - consider a 3-pounder a gift.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-braid-weight",
+      "insight": "Hackney: 'Always flip a jig on 50-pound braid for faster fall rate. When flipping an ounce or heavier weight or throwing a frog, use 65-pound test.'",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-prefer-plastics",
+      "insight": "Hackney: 'I will never target smallmouth with a jig. Smallmouth get a soft plastic better than a jig - they are a weird fish.'",
+      "conditions": {}
+    }
+  ]
+}

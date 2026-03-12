@@ -1,0 +1,67 @@
+{
+  "source": "greg-hackney-uses-the-flipping-technique-to-catch-bass.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'When punching grass with a 1.5-oz weight, the heavy weight has a tendency to knock the bass's mouth open, so be ready and do not lose the bass.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "black and blue",
+          "hex": "#000033",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "green pumpkin",
+          "hex": "#4A7023",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Hackney: 'Flipping produces the right size of bass to win tournaments. Thick matted vegetation, cypress trees, and thick cover are where I have caught most of my winning limits.'",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "flipping-braid-advantages",
+      "insight": "Hackney: 'I use 55- or 60-pound braided line for flipping. It is low-stretch, cuts through vegetation well with a big bass on, and I can tie on in the morning and never have to retie all day.'",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-rod-8-foot",
+      "insight": "Hackney: 'An 8-foot rod gives better line control than 7 or 7.5-foot. It gives the right amount of tip action and backbone. With braided line you need a parabolic rod with softer action than most flipping sticks because the line does not stretch.'",
+      "conditions": {}
+    },
+    {
+      "category": "color-selection",
+      "topic": "universal-flipping-colors",
+      "insight": "Hackney: 'Black-and-blue and green-pumpkin are my two favorite colors for punching grass. These two colors you can fish in all 50 states and be very successful.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-accuracy",
+      "insight": "Hackney: 'Flippin and pitchin are great techniques but you must be accurate with your bait placement.'",
+      "conditions": {}
+    }
+  ]
+}

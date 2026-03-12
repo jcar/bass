@@ -1,0 +1,26 @@
+{
+  "source": "kvds-favorite-fall-baits.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "stained" }, "tip": "KVD: 'Fall with 2ft visibility — Red Eye Shad 1/2oz is my absolute favorite. Vary line size to control depth: 17lb fluoro for 2ft zone, lighter for deeper. Must contact bottom or nip grass. Pumping retrieve — pull/stop/pull like a jig only faster. The unique fluttering fall triggers bites. Sexy Shad color; perch/bluegill in northern lakes.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "muddy" }, "tip": "KVD: 'Fall dirty water after heavy rain — head farther back in creeks into the dirty water. Incoming stained water pulls shad toward current and bass follow. Fish get extremely shallow and tight to cover. That's when a squarebill shines.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "forage-matching",
+      "topic": "fall-bird-indicators",
+      "insight": "KVD: 'Fall hotspot indicators: gulls, cormorants, and herons point to baitfish concentrations. Watch for coots — they sit and feed over grass beds, preferring the greener, healthier grass that also attracts bait and bass.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

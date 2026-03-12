@@ -1,0 +1,24 @@
+{
+  "source": "the-bass-blueprint-kvds-system-for-finding-bass-on-a-new-lake-or-new-season---part-1.txt",
+  "anglerName": "KVD",
+  "knowledge": [
+    {
+      "category": "lake-reading",
+      "topic": "10-minute-rule",
+      "insight": "KVD: 'I don't spend more than 10 minutes in the same area doing the same thing without making some kind of change.' Either move, change baits, change presentation — but don't waste time without positive feedback. Any sign (blowup, follow, catch, short bite) is a clue to the puzzle.",
+      "conditions": {}
+    },
+    {
+      "category": "lake-reading",
+      "topic": "new-lake-system",
+      "insight": "KVD: Most important thing arriving at a lake: figure out the seasonal pattern plus current conditions. Even on a known lake, see what's changed. On grass lakes, determine how much grass there is and where. Look for bottlenecks and funnels on your mapping. Cover a lot of water on day 1.",
+      "conditions": {}
+    },
+    {
+      "category": "lake-reading",
+      "topic": "grass-lake-bottlenecks",
+      "insight": "KVD: On grass lakes, look for bottlenecks and funnels on your LakeMaster mapping — cuts and narrows between grass mats. Areas leading in and out of these bottlenecks can be really good, especially with wind creating current.",
+      "conditions": { "structure": "grass" }
+    }
+  ]
+}

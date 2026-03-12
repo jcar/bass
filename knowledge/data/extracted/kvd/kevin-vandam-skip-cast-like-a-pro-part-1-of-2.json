@@ -1,0 +1,20 @@
+{
+  "source": "kevin-vandam-skip-cast-like-a-pro-part-1-of-2.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "KVD: 'Skip cast swim jigs with baitcasting gear into tight spaces — docks, catwalks, bushes, overhanging trees, under pontoons. Heavier tackle lets you pull bass away from heavy cover quickly. First cast is critical: stealth provokes reaction bite from fish in shadows. Use heavy line (50lb braid or 20lb fluoro).'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "skip-casting-fundamentals",
+      "insight": "KVD: 'Skip casting with baitcasters: sidearm cast low to water that turns into a tight, quick roll cast. Lure should travel 70-80% of the cast just above water, skip 2-3 times, then land quietly. First cast is critical — a bad cast spooks fish and your one shot is over. It's a deadly combination of stealth and accuracy for pressured fish.'",
+      "conditions": {}
+    }
+  ]
+}

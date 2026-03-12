@@ -1,0 +1,19 @@
+{
+  "source": "three-lures-kevin-vandam-will-count-on-most-at-redcrest.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "tip": "KVD: 'Jerkbaits really shine in clear water reservoirs because they attract bass visually. Very few lures outperform a jerkbait in late winter/early spring. Standard 300 series around docks and under 10ft; 300D for 15-25ft depths. On herring lakes, bass are nomadic — need to stay on the move with power baits.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'The 3XD's small body gets bites that bigger-bodied crankbaits won't. Dives 10-12ft — a key depth zone in late winter/early spring. When things get tough, switch to a Baby Z-Too on a shaky head, swimbait jig head, or drop shot for finesse versatility.'", "priority": 7 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

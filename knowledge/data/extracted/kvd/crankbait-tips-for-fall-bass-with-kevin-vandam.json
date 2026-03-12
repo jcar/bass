@@ -1,0 +1,13 @@
+{
+  "source": "crankbait-tips-for-fall-bass-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Fall crankbait strategy: target bank transitions where different rock types meet (gravel meets stair-step rocks) — creates natural ambush zones. 3XD hits 12ft, 5XD reaches 15-18ft. Key is consistent bottom contact. Parallel bank transitions to keep bait in the strike zone longer. Works regardless of water clarity.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": []
+}

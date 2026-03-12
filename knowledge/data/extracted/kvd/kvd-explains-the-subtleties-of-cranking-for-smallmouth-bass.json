@@ -1,0 +1,32 @@
+{
+  "source": "kvd-explains-the-subtleties-of-cranking-for-smallmouth-bass.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'For smallmouth cranking on 5-7ft flats, use a squarebill. Key difference from largemouth: DON'T dig into the bottom. Smallmouth feed by looking up — burn the bait over their heads a few feet off bottom. Use 17lb fluorocarbon (heavier than normal since bottom contact isn't needed).'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "tip": "KVD: 'Smallmouth on deeper flats (15-25ft): use 5XD or 6XD, reel as fast as you can with occasional pauses and rod snaps. It's not a specific target deal — cast in all directions to intercept roaming fish. Use 6.4:1 gear ratio, slightly faster than normal cranking.'", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "color-selection",
+      "topic": "smallmouth-crankbait-color-extremes",
+      "insight": "KVD: 'Smallmouth crankbait color: go to one extreme or the other. Start super bright — Chartreuse Sexy Shad, Powder Blue Back Chartreuse. Smallmouth are sight feeders, want a bait they can see from far off. On slick calm sunny days or when they won't commit to bright, switch to natural — Green Gizzard Shad, bluegill, or perch pattern.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "smallmouth-cranking-vs-largemouth",
+      "insight": "KVD: 'Biggest smallmouth cranking difference: it's NOT about bottom contact. Keep crankbait a few feet off bottom — smallmouth in clear water love to feed looking up. It's about speed and covering water, casting all directions to find roaming aggressive fish. Burns a meal over their heads and they can't resist.'",
+      "conditions": { "season": "fall" }
+    }
+  ]
+}

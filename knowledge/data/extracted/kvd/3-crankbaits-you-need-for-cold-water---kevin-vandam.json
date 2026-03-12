@@ -1,0 +1,90 @@
+{
+  "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: For the shallow zone in cold water, use a flatside crankbait (Hardliner). Extremely tight action — bass use their lateral line to hunt in cold water and flatsides displace a ton of water. Small profile matters in cold water.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        { "when": { "season": ["winter", "pre-spawn"], "waterClarity": "clear" }, "color": "Ghost Crawfish", "hex": "#8b7355", "priority": 10 },
+        { "when": { "season": ["winter", "pre-spawn"], "waterClarity": "stained" }, "color": "Fire Craw", "hex": "#c4302b", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: Gravel Dog for the 6-12ft mid-range zone in cold water. Round body, super wide wobble, loud rattle. Eats up the bottom — perfect for chunk rock banks, bluffs, riprap around bridges. One of the most weedless crankbaits you can throw.",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "pre-spawn"] },
+          "tip": "KVD: 3XD for the deep zone in cold water. Smaller profile, tight action, gets 12-15ft on 10lb fluoro. Fish steeper rocky banks, deeper transition zones. Make long casts to keep the bait in the zone for as long as possible.",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "cold-water-crankbait-zones",
+      "insight": "KVD: Three depth zones need three crankbaits in cold water. Shallow = flatside (Hardliner). Mid-range 6-12ft = round body wide wobble (Gravel Dog). Deep 12-15ft = smaller tight-action diver (3XD). Each zone demands a different action and profile.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "cold-water-crankbait-cadence",
+      "insight": "KVD: In cold water cranking, use slow to medium retrieve. Start and stop often — any time during the retrieve, pausing can trigger a following bass into biting. Parallel the bank for long casts to keep the bait in the zone the entire cast.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-cranking-line",
+      "insight": "KVD: Use lighter line in cold water cranking. Lighter line allows the bait to have its liveliest action and reach maximum depth. 10lb fluoro for the 3XD deep zone.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "gear",
+      "topic": "cold-water-cranking-rod",
+      "insight": "KVD: CC4 medium-heavy with a soft tip for cranking. 6.2:1 gear ratio reel (Paramag RX braking). The soft tip throws small cold-water crankbaits well and allows long casts for maximum time in the zone.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-lateral-line-hunting",
+      "insight": "KVD: Bass in cold water really use their lateral line to hunt. Even in dirty water they can feel the pressure waves of a flatside bait. This is why flatsided crankbaits are 'magical' in cold water — the flat sides displace a lot of water.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "color-selection",
+      "topic": "cold-water-crankbait-colors",
+      "insight": "KVD: Crawfish patterns dominate cold water. Clear water = natural/ghost crawfish (greens and browns). Stained = fire craw, brighter patterns like spring craw. If you see shad activity, shad patterns work too. Look at what color crawfish the fish are eating — is it green, brown, red, or purple? Match it.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "cold-water-crankbait-targets",
+      "insight": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and riprap around bridges are prime for the mid-range crankbait.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "crankbait-must-contact-bottom",
+      "insight": "KVD: 'Making sure your crankbait is contacting the bottom in any depth zone you're fishing — that is absolutely paramount.' The deflection off rocks, cover, even gravel makes a big difference in triggering cold water fish to bite.",
+      "conditions": {}
+    }
+  ]
+}

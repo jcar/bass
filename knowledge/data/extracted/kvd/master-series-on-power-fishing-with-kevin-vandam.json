@@ -1,0 +1,20 @@
+{
+  "source": "master-series-on-power-fishing-with-kevin-vandam.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": "spawn", "waterClarity": "stained" }, "tip": "KVD: 'Power fishing the spawn: use a squarebill to locate stumps, then make persistent casts from various angles. Slow the retrieve to keep bait banging on cover for erratic deflection. Several big fish came after 4+ casts to the same stump. If snagged, snap free from a distance or break off — never go over the stump and disturb the area.'", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "power-fishing-spawning-flats",
+      "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp rise in a week, full moon. Day 1 spinnerbait (fish aggressive), Day 2 crankbait (fish on beds, needed triggering). Dirty water helped crankbait effectiveness.'",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

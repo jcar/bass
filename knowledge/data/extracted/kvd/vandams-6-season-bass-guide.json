@@ -1,0 +1,177 @@
+{
+  "source": "vandams-6-season-bass-guide.txt",
+  "anglerName": "KVD",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "seasonAdd": ["winter"],
+      "confidenceModifiers": [
+        { "when": { "season": "winter", "waterClarity": ["clear", "stained"] }, "adjustment": 15 },
+        { "when": { "season": "pre-spawn", "waterClarity": "clear" }, "adjustment": 10 },
+        { "when": { "season": "fall", "waterTemp": { "max": 60 } }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'Suspending jerkbaits are my favorite winter artificials. You can fish them in the same place for long periods — extremely deadly on suspending bass.'", "priority": 10 },
+        { "when": { "season": "fall", "waterTemp": { "max": 60 } }, "tip": "KVD: 'As the water cools to the lower end of the autumn range, a suspending jerkbait will catch fish.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Lipless Crankbait",
+      "seasonAdd": ["pre-spawn"],
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterTemp": { "min": 48, "max": 55 } }, "adjustment": 12 },
+        { "when": { "season": "pre-spawn", "waterTemp": { "min": 52 } }, "adjustment": 5 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'For combing large expanses of prespawn water, I love a lipless crankbait like the Red Eye Shad. I use this faster-moving lure in the upper ranges of the prespawn temp zone (52-55°F).'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "adjustment": 10 },
+        { "when": { "season": "post-spawn", "waterClarity": "stained" }, "adjustment": 8 },
+        { "when": { "season": "fall" }, "adjustment": 8 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'A slow-rolled spinnerbait works well in prespawn. I pick up my pace at around 52°F, running down a bank quickly throwing a spinnerbait.'", "priority": 10 },
+        { "when": { "season": "post-spawn", "waterClarity": "stained" }, "tip": "KVD: 'Postspawn in stained water, a tandem Colorado or Colorado/Indiana spinnerbait is excellent.'", "priority": 8 },
+        { "when": { "season": "fall" }, "tip": "KVD: 'Fall lure preferences include spinnerbaits with willow leaf blades — they match the profile of baitfish.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall", "waterClarity": "muddy" }, "color": "Chartreuse/Black Back", "hex": "#c4d600", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Crawfish Pattern Jig",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "adjustment": 12 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn" }, "tip": "KVD: 'Bass relate to cover like stumps strongly in prespawn, especially in murky lakes. A jig-and-pig rules here.'", "priority": 10 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "fall" }, "adjustment": 8 },
+        { "when": { "season": "summer", "waterClarity": "stained" }, "adjustment": 6 }
+      ],
+      "tipRules": [
+        { "when": { "season": "fall" }, "tip": "KVD: 'Shallow to medium running crankbaits are my fall preference. Keep your lure off the bottom — baitfish are suspended in the water column. Match lure size to baitfish size.'", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "season": "fall", "waterClarity": "clear" }, "color": "Sexy Shad", "hex": "#a8b5c2", "priority": 6 },
+        { "when": { "season": "fall", "waterClarity": "muddy" }, "color": "Chartreuse Black Back", "hex": "#c4d600", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "confidenceModifiers": [
+        { "when": { "season": "post-spawn" }, "adjustment": 12 },
+        { "when": { "season": "fall" }, "adjustment": 8 },
+        { "when": { "season": "summer", "timeOfDay": ["dawn"] }, "adjustment": 6 }
+      ],
+      "tipRules": [
+        { "when": { "season": "post-spawn" }, "tip": "KVD: 'Postspawn in clear water, topwaters work great — they stay in the strike zone a long time, a big plus when bass aren't very aggressive.'", "priority": 10 },
+        { "when": { "season": "fall" }, "tip": "KVD: 'Always keep a topwater lure, especially a noisy chugger, tied on in fall. Bass often school on the surface chasing baitfish.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Blade Bait",
+      "confidenceModifiers": [
+        { "when": { "season": "winter" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "winter" }, "tip": "KVD: 'Metal blade baits probe vertical and fast-sloping structure efficiently in winter.'", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "confidenceModifiers": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "adjustment": 10 }
+      ],
+      "tipRules": [
+        { "when": { "season": "pre-spawn", "waterClarity": "stained" }, "tip": "KVD: 'If there's some stain to the water, a deep-running crawfish-pattern crankbait rooted along the bottom is strong in prespawn. Bass feed heavily on crawfish emerging from hibernation.'", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": { "season": "pre-spawn" }, "color": "Orange Belly Craw", "hex": "#c4724e", "priority": 8 }
+      ]
+    }
+  ],
+  "newStructureAdvice": {
+    "bluff": "KVD: 'Winter bass relate strongly to vertical and fast-sloping structure — rock bluffs, river channel dropoffs, standing timber, 45-degree banks. These let bass make major depth changes without swimming far. In prespawn, fish the ends of bluffs close to shallower water.'",
+    "point": "KVD: 'Summer — bass migrate to the main lake and hang around channel-oriented structure: humps, points, dropoffs, ledges. Your best bet early summer is a slow-tapering point at the mouth of a spawning cove. In fall, bass move to long points with a gradual taper.'",
+    "flat": "KVD: 'Bass spawn on flat, protected structure — large expanses of shallow water (10ft or less on lowland reservoirs, 8-20ft on highland reservoirs). Look for areas where contour lines are spread far apart, not close together.'",
+    "grass": "KVD: 'Summer — baitfish and bass gravitate to weedy bays and pockets where water is cooler and oxygenated. Bass position near irregularities: holes, pockets, and points in the weed bed. Weedless frog on top, or flip plastics through the grass.'",
+    "creek-channel": "KVD: 'Fall — follow the shad migration into creek arms. Fish the first third early fall, then press farther back as temps drop. Idle up watching your graph for suspended shad. Isolated wood and docks in the backs of creek arms are dependable fall patterns.'"
+  },
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "kvd-6-season-framework",
+      "insight": "KVD: 'My Seasonal Guide helps me make educated guesses about where bass are most likely at any given time. It quickly eliminates unproductive water. The concept: at any given time, the majority of bass in a lake will be on certain key types of structure.'",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-bass-depth-clarity",
+      "insight": "KVD: 'Water clarity is a major determinant of bass depth in winter. In clear lakes, bass can go 50-60 feet deep. In murky lakes, they'll be much shallower. Bass often suspend in clear water rather than hold tight to cover.'",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-migration-routes",
+      "insight": "KVD: 'Once the water hits 50°F, bass are definitely prespawn. They follow migration routes — ditches, depth contours, tapering points, fallen trees on sloping banks — toward shallow water. Northern banks are warmer and very important now.'",
+      "conditions": { "season": "pre-spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-pace-change",
+      "insight": "KVD: 'I pick up my fishing pace considerably as the water hits around 52°F. I may run down a bank quickly throwing a lipless crankbait or spinnerbait, then pause to pitch a jig at submerged logs or brushpiles.'",
+      "conditions": { "season": "pre-spawn", "waterTemp": 52 }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "spawn-timing-moon-sun",
+      "insight": "KVD: 'Many bass move onto spawning beds around the new or full moon, or when the sun comes out after prolonged cloudy weather. Not all spawn at once — biggest bass are first. Personally, I stay with prespawn bass as long as I can because they're more aggressive and weigh more.'",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "postspawn-vertical-cover",
+      "insight": "KVD: 'Postspawn bass hang around their spawning grounds near cover sticking up vertically — dock pilings, submerged bushes, standing tree trunks. Keep your presentation up high in the water column, not bumping bottom.'",
+      "conditions": { "season": "post-spawn" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "summer-light-penetration",
+      "insight": "KVD: 'In summer, light penetration is a major factor. Bass hold at the lower end of the light penetration spectrum where they can still see but remain concealed from prey. In extremely hot water, they hold near cover or dropoffs for long periods, then feed in short aggressive bursts.'",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "forage-matching",
+      "topic": "fall-baitfish-migration",
+      "insight": "KVD: 'Bass are more baitfish-oriented in fall than any other season. Cooling water causes vast shad schools to migrate into tributary arms, bass follow. Match lure size to baitfish size. In lakes without shad, target weedy areas — bass feed on bluegill and shiners.'",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "lake-reading",
+      "topic": "weather-monitoring-15-days",
+      "insight": "KVD: 'I begin checking weather conditions for the area I'll be fishing as early as 15 days before a tournament. I want to know warm front or cold front coming in or out. Water temp is critical — sometimes just one degree warmer holds most of the bass.'",
+      "conditions": {}
+    },
+    {
+      "category": "lake-reading",
+      "topic": "lake-classification-matters",
+      "insight": "KVD: 'It helps to determine what type of lake you're fishing — lowland reservoir, highland reservoir, natural lake, tidewater, or river. Bass use different places in different types of lakes.'",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "winter-parallel-presentation",
+      "insight": "KVD: 'In winter, fish parallel to the structure — this keeps your lure deeper in the water column longer. Use search lures that draw strikes without moving fast.'",
+      "conditions": { "season": "winter" }
+    }
+  ]
+}

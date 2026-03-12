@@ -1,0 +1,30 @@
+{
+  "source": "when-to-throw-a-swim-jig-vs-flippin-jig.txt",
+  "anglerName": "Hackney",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "waterTemp": "warm" }, "tip": "Hackney: 'In warmer water I pick up the swim jig because covering water and being efficient is key. It can look like a crawfish on the bottom, a swimming bluegill, or a shad depending on color'", "priority": 9 },
+        { "when": { "waterTemp": "warming-in-cold-period" }, "tip": "Hackney: 'If there are a few warm days during a cold period, fish suspend higher because the top water layer heats up. The swim jig keeps the bait in the top water column and stays in the strike zone much longer'", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        { "when": { "waterTemp": "cold" }, "tip": "Hackney: 'When water is colder, fish hold tighter to cover. A flipping jig is the go-to since picking apart cover is important when fish are sluggish'", "priority": 9 },
+        { "when": { "frontalSystem": "cold-front" }, "tip": "Hackney: 'When a cold front comes along, fish tighten to cover and are more sluggish. Picking cover apart with a flipping jig is hard to beat'", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "lure-selection",
+      "topic": "swim-jig-vs-flipping-jig",
+      "insight": "Hackney: 'I let water temperature dictate which jig to throw in shallow cover. Warm water means swim jig, cold water means flipping jig. It only takes a few casts to determine which method works better'",
+      "conditions": {}
+    }
+  ]
+}
