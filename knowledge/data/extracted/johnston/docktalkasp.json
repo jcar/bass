@@ -1,0 +1,20 @@
+{
+  "source": "docktalkasp.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"], "waterClarity": ["clear"] }, "tip": "Johnston: On clear-water smallmouth, use a drop shot with an 8-10 inch leader. Fish shallow (15 ft or less) targeting rock, sand, and weed -- every spot is different.", "priority": 9 },
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: Use a Flogger (cone-shaped surface viewing device) to see your bait, see the fish, and see the sweet spot. It shows how fish react to your bait and speeds up the process.", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "saving-fish-for-later-days", "insight": "Johnston: Save certain previously-located fish for when you need a big bite. Start tournament days with known bed fish or saved difference-makers to build an early cushion, then go fishing.", "conditions": { "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "spot-rotation-conservation", "insight": "Johnston: Don't burn too many fish -- get a limit, upgrade a little, but save fish for subsequent days. Play the long game over a multi-day tournament.", "conditions": {} },
+    { "category": "structure-reading", "topic": "smallmouth-variety-spots", "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite.", "conditions": { "species": "smallmouth", "season": "summer" } },
+    { "category": "retrieve-technique", "topic": "flogger-sight-fishing-aid", "insight": "Johnston: A Flogger (cone-shaped clear-screen surface viewing device) lets you see your bait, where the fish is, and the sweet spot. You see how the fish reacts to your bait -- it speeds up the process.", "conditions": { "waterClarity": "clear" } }
+  ]
+}

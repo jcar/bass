@@ -1,0 +1,72 @@
+{
+  "source": "a-northern-perspective-on-flipping-pitching.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+          "priority": 10
+        },
+        {
+          "when": { "fallRate": "slow" },
+          "tip": "Johnston: Use a bulkier 80-strand skirt when a slower fall is required, while a 60-strand skirt is the mainstay for standard flipping.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Black",
+          "hex": "#000000",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "mini-jig-rod-and-line-setup",
+      "insight": "Johnston: Use a Daiwa 7'5\" rod designed especially for a mini-jig - lighter tip action but plenty of power to handle a 1.5-ounce weight. Pair with an 8.8:1 reel spooled with 65-pound Seaguar TactX braid or 20-22-pound Seaguar Tatsu fluorocarbon. Cover dictates line choice.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "jig-hook-selection-by-line",
+      "insight": "Johnston: Use an EWG-style jig hook with thicker wire for braided line, and a round-bend wide-gap hook for fluorocarbon. The EWG hook is slightly harder to get full penetration on fluoro.",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "compact-jig-pressure-advantage",
+      "insight": "Johnston: Down south with a smaller jig, you will get smallmouth, largemouth and spots. A compact jig gets just as many bites as a full-size jig, if not more, even in Florida.",
+      "conditions": {}
+    },
+    {
+      "category": "bait-design",
+      "topic": "jig-rattle-removal",
+      "insight": "Johnston: All jigs come with rattles, but tear them off if you don't think they'll help. Use a chunk-style trailer that matches the jig skirt color.",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jig-weight-range-flipping",
+      "insight": "Johnston: Jig box should contain 3/8-, 1/2-, 5/8- and 3/4-ounce jigs for flipping.",
+      "conditions": {}
+    }
+  ]
+}

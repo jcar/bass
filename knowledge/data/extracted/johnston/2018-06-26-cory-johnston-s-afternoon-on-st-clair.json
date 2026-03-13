@@ -1,0 +1,54 @@
+{
+  "source": "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: When you get bit on a moving bait like a swimbait, work around the area with a tube or drop-shot to pick off additional fish from the same spot.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "species": "smallmouth" },
+          "tip": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't beat a tube.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "cover-water-then-finesse",
+      "insight": "Johnston: Cover water quickly with a moving bait like a crankbait or swimbait. If you drifted across the whole lake you could catch bass everywhere - that's why you need to cover water and find the sweet spots where they are grouped up.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "lure-selection",
+      "topic": "st-clair-four-bait-approach",
+      "insight": "Johnston: Keep rod choices simple on Lake St. Clair - two swimbaits, a tube, and a drop-shot are all you need on the deck.",
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "chalky-water-move-deeper",
+      "insight": "Johnston: If shallow water has a chalky tint to it, head back out to the lake. Water color changes indicate you need to move to cleaner water.",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-abundance-st-clair",
+      "insight": "Johnston: There are so many smallmouths in St. Clair that you can catch them anywhere, even in shallow pencil reeds where you'd expect largemouth. A 4-pound smallmouth in reeds is not unusual.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "species": ["smallmouth"], "waterBody": "St. Lawrence River" },
+          "tip": "Johnston: Use a drop shot with a tungsten weight and a 6th Sense Party Minnow on a BKK drop-shot hook. This is the primary technique for St. Lawrence smallmouth across shallow and deep zones.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "species": ["smallmouth"], "waterBody": "St. Lawrence River" },
+          "tip": "Johnston: Mix in a Ned rig alongside the drop shot when targeting St. Lawrence River smallmouth as a secondary presentation.",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "st-lawrence-habitat-variety",
+      "insight": "Johnston: On the St. Lawrence, catch them shallow on sand flats, rockpiles, weed edges all the way to 35-40 feet on little high spots, rocks and deeper weed edges. There's not one specific thing — hit as many spots as you can until you run into them.",
+      "conditions": { "species": "smallmouth", "waterBody": "St. Lawrence River" }
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "bigger-fish-shallow-st-lawrence",
+      "insight": "Johnston: On the St. Lawrence, my bigger fish (5.5 and 6.75 lbs) came shallow. Hit 12 spots and the last one had them — sometimes the late-day push to new water pays off.",
+      "conditions": { "species": "smallmouth", "waterBody": "St. Lawrence River" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "daily-25-pound-benchmark",
+      "insight": "Johnston: On the St. Lawrence, 24 pounds really isn't a good day — anything over 25 is what you need to win. It's a special place.",
+      "conditions": { "species": "smallmouth", "waterBody": "St. Lawrence River" }
+    }
+  ]
+}

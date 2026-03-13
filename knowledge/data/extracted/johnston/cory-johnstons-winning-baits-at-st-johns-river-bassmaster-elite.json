@@ -1,0 +1,13 @@
+{
+  "source": "cory-johnstons-winning-baits-at-st-johns-river-bassmaster-elite.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "perspective-mode-bed-fish-visibility",
+      "insight": "Johnston: Use Garmin Perspective Mode when seeing bed fish in low-visibility conditions. This was one of two main tools (along with flipping and drop shot baits) for bed fishing at the St. Johns River.",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

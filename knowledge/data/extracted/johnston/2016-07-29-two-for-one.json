@@ -1,0 +1,25 @@
+{
+  "source": "2016-07-29-two-for-one.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-splitting-with-partner",
+      "insight": "Johnston: When you have a trusted practice partner, each head in a different direction every day during practice to effectively split the lake in half, giving you double the practice coverage.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pattern-sharing-not-spot-sharing",
+      "insight": "Johnston: If I find a pattern, I'll share it so my partner can replicate that pattern somewhere else. We don't split spots or fish, because then we're just competing against each other.",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "unfamiliar-lakes-open-mind",
+      "insight": "Johnston: When fishing an unfamiliar lake, go in with open minds rather than preconceived notions about what fish should be doing.",
+      "conditions": {}
+    }
+  ]
+}

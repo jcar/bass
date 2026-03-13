@@ -1,0 +1,9 @@
+{
+  "source": "top-tournament-anglers-call-out-rewards-aqua-vu-underwater-camera.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "electronics", "topic": "aqua-vu-for-river-smallmouth", "insight": "Johnston: On the St. Lawrence River, sonar doesn't always mark bass on drop-offs, which are key spots where bass push bait. River bass sit very tight to bottom. The Aqua-Vu HD10i Pro with on-screen water temp and depth, using the XD Trolling Fin and extra XD weight, gets down to depth and provides a stable picture of what's happening.", "conditions": { "species": "smallmouth" } },
+    { "category": "structure-reading", "topic": "drop-offs-bait-pushing", "insight": "Johnston: Drop-offs are the key structure on the St. Lawrence because bass can push bait up against them. Sonar won't mark these tight-to-bottom fish, making an underwater camera essential for confirming fish presence.", "conditions": { "species": "smallmouth" } }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "st-johns-river-florida-bass-fishing-report-best-baits-tactics.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": ["spawn"], "species": ["largemouth"] }, "tip": "Johnston: Texas rigged flipping baits including creatures, craws, straight tail worms, and stick baits are the go-to for sight fishing beds on the St. Johns River.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "st-johns-spawning-bass-mindset", "insight": "Johnston: Any time we've been to the St. Johns, my mind goes toward trying to find spawning bass. You can always catch one or two big spawners and fill out a big limit.", "conditions": { "season": "spawn", "waterBody": "St. Johns River" } }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["fall"], "species": ["smallmouth"] }, "tip": "Johnston: In early fall (55-65F), burn a deep-diving crankbait that runs 10-15 feet, occasionally grinding bottom or ticking just above it, to trigger reaction strikes from smallmouth tight to bottom.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "species": ["smallmouth"], "season": ["fall"] }, "color": "Natural Shad", "hex": "#C0C0C0", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Chatterbait",
+      "tipRules": [
+        { "when": { "season": ["fall"], "species": ["smallmouth"] }, "tip": "Johnston: In early fall, a 1/2 oz bladed jig covers water fast and is effective around grass, rock, and mixed cover. It often attracts the biggest smallmouth in the system.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": ["fall"], "species": ["smallmouth"] }, "tip": "Johnston: In early fall, jerkbaits are excellent for covering water and getting multiple smallmouth to follow and bite.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "species": ["smallmouth"], "season": ["fall"] }, "color": "Natural Shad", "hex": "#C0C0C0", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": ["late fall"], "species": ["smallmouth"] }, "tip": "Johnston: In mid to late fall (45-55F), squarebill crankbaits are ideal when grass is absent. Deflect off cover to trigger bites from shallow-grouped smallmouth.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "season": ["late fall"], "species": ["smallmouth"] }, "tip": "Johnston: In mid to late fall, the Ned rig is perfect for follow-up after aggressive reaction baits stop producing. Downsized presentation fools pressured smallmouth.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "species": ["smallmouth"], "season": ["fall"] }, "color": "Green Pumpkin", "hex": "#4B6F44", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": ["late fall"], "species": ["smallmouth"] }, "tip": "Johnston: In mid to late fall, drop shot with small nose-hooked minnow-style swimbaits maintain action while dragging along bottom for grouped smallmouth.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "species": ["smallmouth"], "season": ["fall"] }, "color": "Goby Brown", "hex": "#8B7355", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "fall-smallmouth-location-progression", "insight": "Johnston: In fall, smallmouth group tightly on specific spots and feed heavily before winter. Early fall fish hold on offshore rock piles and summer haunts. Mid to late fall they push shallow to island tips, sand flats, and points with isolated cover.", "conditions": { "season": "fall", "species": "smallmouth" } },
+    { "category": "structure-reading", "topic": "fall-smallmouth-key-features", "insight": "Johnston: The key to fall smallmouth is finding something different -- a lone weed clump, isolated rock, or small patch of gravel that holds bait and draws the school.", "conditions": { "season": "fall", "species": "smallmouth" } },
+    { "category": "retrieve-technique", "topic": "fall-reaction-to-finesse-progression", "insight": "Johnston: Fall smallmouth fishing is all about location and timing. Cover water fast with reaction baits to find active groups, then slow down with finesse presentations to catch the rest. If fish stop biting a tube, switch to Ned rig or drop shot.", "conditions": { "season": "fall", "species": "smallmouth" } },
+    { "category": "tournament-strategy", "topic": "leave-and-return-to-schools", "insight": "Johnston: Leave resting schools of fall smallmouth and return later to catch more. Don't burn through a school in one pass.", "conditions": { "season": "fall", "species": "smallmouth" } },
+    { "category": "gear", "topic": "fall-smallmouth-line-selection", "insight": "Johnston: Use 10-12 lb fluorocarbon for finesse presentations and 15-20 lb braid with fluorocarbon leader for reaction baits when targeting fall smallmouth.", "conditions": { "season": "fall", "species": "smallmouth" } },
+    { "category": "color-selection", "topic": "fall-smallmouth-colors", "insight": "Johnston: For fall smallmouth, use natural shad or baitfish colors for reaction baits, and green pumpkin, brown, or goby for bottom presentations.", "conditions": { "season": "fall", "species": "smallmouth" } }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"], "waterClarity": ["clear"] }, "tip": "Johnston: On heavily-pressured clear smallmouth water, adapt your drop shot presentation daily. Calm days may require casting out and leaving it completely motionless. Rougher days may require dragging it through the fish.", "priority": 10 },
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: Drop shot with a paddletail minnow bait is deadly on smallmouth -- they just can't resist it. The paddletail doesn't necessarily need to be kicking to be effective.", "priority": 9 },
+        { "when": { "species": ["smallmouth"], "season": ["summer"] }, "tip": "Johnston: On extremely pressured smallmouth fisheries, standard drop shot stops working. You have to figure out alternative presentations or baits they haven't seen.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": { "species": ["smallmouth"] }, "color": "Electric Shiner", "hex": "#D4D4D4", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "depth-strategy", "topic": "st-lawrence-depth-range", "insight": "Johnston: On the St. Lawrence/Lake Ontario system, fish from 10 feet all the way to 45 feet. Run stuff across the full depth range to find where fish are congregated.", "conditions": { "species": "smallmouth", "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "lake-over-river-preference", "insight": "Johnston: Prefers fishing Lake Ontario over the St. Lawrence River current. Fish on the lake are more congregated in certain little areas. Even in rough weather with 8-10 foot waves, committed to the lake because he knows what lives out there.", "conditions": { "species": "smallmouth" } },
+    { "category": "tournament-strategy", "topic": "adapting-to-rough-weather", "insight": "Johnston: In rough weather on big water, limit your spots to a few known groups of fish and rotate them. When you only have 3 hours to fish due to long runs and rough conditions, pick your best 3-4 spots and rotate.", "conditions": { "season": "summer" } },
+    { "category": "electronics", "topic": "livescope-plus-echomap-setup", "insight": "Johnston: Runs a Garmin 1643 for LiveScope (watching fish eat) and 12-inch EchoMap Ultras for the rest of his electronics needs.", "conditions": {} },
+    { "category": "gear", "topic": "drop-shot-braid-to-fluoro", "insight": "Johnston: Drop shot setup uses 16-lb Seaguar JDM PEX8 Braid to 8-lb Seaguar Tatsu fluoro, #2 Gamakatsu drop shot hook, 3/8-oz tungsten weight, Daiwa Exist 3000 reel, 6'10\" L Daiwa BLX rod.", "conditions": { "species": "smallmouth" } }
+  ]
+}

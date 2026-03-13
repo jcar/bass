@@ -1,0 +1,54 @@
+{
+  "source": "catpage-bwbasstc20bhtml.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "species": ["smallmouth"], "structure": ["sand flats", "isolated grass"] },
+          "tip": "Johnston: Target sand flats with isolated grass in 16 to 21 feet. Rotate through multiple locations — some produce well above others. The real key is LiveScope; without it you're at a huge disadvantage. I saw about 90% of fish on the graph way out and could cast to them before they were under the boat.",
+          "priority": 10
+        },
+        {
+          "when": { "species": ["smallmouth"] },
+          "tip": "Johnston: Use a 3/8-ounce tungsten teardrop-style weight, size 1 Gamakatsu drop shot hook, with shad-colored or green pumpkin soft plastics. Pair with 15-pound braid main line and 8-pound fluorocarbon leader (10-foot leader).",
+          "priority": 9
+        },
+        {
+          "when": { "species": ["smallmouth"], "structure": ["isolated structure"] },
+          "tip": "Johnston: Look for oddities like a sunken barrel or isolated object — they can be smallmouth magnets. Fish that group out one day may be gone the next, so keep covering water until you find a group.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "species": ["smallmouth"] },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "livescope-for-deep-smallmouth",
+      "insight": "Johnston: The real key on deep sand flats is Garmin LiveScope — without it you're at a huge disadvantage. You can see 90% of the fish way out and cast to them before they're under the boat.",
+      "conditions": { "species": "smallmouth", "depth": "16-21 feet" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-roaming-groups",
+      "insight": "Johnston: Smallmouth groups on sand flats are transient. You could find a group one day but the next day they were gone. Keep covering water until you come across a group of them.",
+      "conditions": { "species": "smallmouth", "structure": "sand flats" }
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-rod-setup-smallmouth",
+      "insight": "Johnston: For deep smallmouth drop shot, use a 7-foot medium-light Daiwa Tatula Elite Dropshot rod, size 3000 Daiwa Exist spinning reel, 15-pound braid to 8-pound fluorocarbon leader (10 feet).",
+      "conditions": { "species": "smallmouth" }
+    }
+  ]
+}

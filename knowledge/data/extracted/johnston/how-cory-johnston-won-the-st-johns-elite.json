@@ -1,0 +1,23 @@
+{
+  "source": "how-cory-johnston-won-the-st-johns-elite.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        { "when": { "season": ["spawn"], "structure": ["pads"] }, "tip": "Johnston: When flipping spatterdock pads for bedding bass, rotate 2-3 baits because every fish is different. Cover a lot of water doing laps because new fish pull up on beds constantly.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": { "season": ["spawn"] }, "color": "Green Pumpkin", "hex": "#4B6F44", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "weather-window-practice-advantage", "insight": "Johnston: Early practice in flat calm sunny conditions lets you see bedding fish that later arrivals can't. If wind stains the water later, competitors won't see the fish and fewer boats will fish the area.", "conditions": { "season": "spawn" } },
+    { "category": "color-selection", "topic": "natural-colors-bed-fishing", "insight": "Johnston: For bed fishing, uses green pumpkin on everything. Fish bite quicker with a more natural bait. You don't need to see the bait yourself.", "conditions": { "season": "spawn" } },
+    { "category": "retrieve-technique", "topic": "covering-water-bed-fishing", "insight": "Johnston: The key to winning on bed fish is covering a lot of water -- doing laps -- because new fish are pulling up on beds constantly. Catch them fairly quick when you find one and move on.", "conditions": { "season": "spawn" } },
+    { "category": "gear", "topic": "flipping-setup-pads", "insight": "Johnston: Flipping setup is a 3.7-inch 6th Sense Bongo craw on a 4/0 Gamakatsu G-Finesse Heavy Cover Hook, 1/4-oz tungsten weight, 20-lb Seaguar Tatsu fluoro, Daiwa Pitch/Flip reel, 7'5\" Daiwa Tatula Elite rod.", "conditions": { "season": "spawn" } },
+    { "category": "electronics", "topic": "livescope-perspective-mode-spawn", "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt.", "conditions": { "season": "spawn", "waterClarity": "clear" } },
+    { "category": "gear", "topic": "quiet-trolling-motor-bed-fishing", "insight": "Johnston: A quiet trolling motor (Power-Pole Move) is critical for bed fishing. Fish dart off beds if your trolling motor is on full power. Being able to cover more water quicker and quieter is a big key.", "conditions": { "season": "spawn" } }
+  ]
+}

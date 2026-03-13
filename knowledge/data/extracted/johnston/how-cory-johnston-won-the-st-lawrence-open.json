@@ -1,0 +1,22 @@
+{
+  "source": "how-cory-johnston-won-the-st-lawrence-open.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: Won catching every single bass on a drop shot. Fished a prototype SPRO bait -- small, compact, 4 inches -- that combines everything he looks for in a drop shot bait. Fish just eat it.", "priority": 9 },
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: Uses two drop shot rods with different actions. A 7' ML for standard work and a 6'10\" L with softer action that helps when fighting bigger fish.", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "structure-reading", "topic": "subtle-smallmouth-spots", "insight": "Johnston: On the St. Lawrence, fish a lot of stuff other guys wouldn't fish -- little small subtle things. Spots vary with no similarities: some rocks, some breaks, some little grass patches, depths from 15 to 42 feet.", "conditions": { "species": "smallmouth", "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "practice-stealth-poachers", "insight": "Johnston: On well-known fisheries, limit practice time to about a day and a half to avoid poachers. If guys see boats in the middle of nowhere, they'll go check it. Rely on experience and knowledge of where fish will be.", "conditions": {} },
+    { "category": "electronics", "topic": "side-imaging-dual-screen", "insight": "Johnston: Runs 2 twelve-inch units on console -- left unit for left side imaging, right for right side imaging. Gives a bigger picture so you can see things clearer. On bow, 2 ten-inch Garmin units stacked: front is LiveScope, bottom is mapping and 2D.", "conditions": {} },
+    { "category": "electronics", "topic": "side-imaging-over-livescope", "insight": "Johnston: LiveScope wasn't a huge deal for the St. Lawrence Open win. A lot of spots were found by side imaging in practice, then casting to the structure rather than necessarily seeing individual fish.", "conditions": { "species": "smallmouth" } },
+    { "category": "gear", "topic": "drift-paddles-slow-presentation", "insight": "Johnston: Power-Pole Drift Paddles are key for slowing drift over areas. Half paddle slows about 25%, full paddles slow 50-80%. Allows slower drop shot drags which get more bites. Can adjust angle to drift across a shoal at an angle.", "conditions": { "species": "smallmouth" } },
+    { "category": "gear", "topic": "drop-shot-rod-setup-st-lawrence", "insight": "Johnston: Drop shot setup is 10-lb Seaguar Smackdown Flash Green Braid to 8-lb Seaguar Tatsu fluoro, #2 Gamakatsu drop shot hook, 3/8-oz Woo Tungsten teardrop weight.", "conditions": { "species": "smallmouth" } }
+  ]
+}

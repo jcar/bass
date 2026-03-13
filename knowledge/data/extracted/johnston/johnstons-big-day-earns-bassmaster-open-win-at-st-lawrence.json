@@ -1,0 +1,26 @@
+{
+  "source": "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": ["summer"], "species": ["smallmouth"] }, "tip": "Johnston: Use a tungsten drop shot weight with a 6th Sense Party Minnow on a BKK drop-shot hook for St. Lawrence smallmouth across sand flats, rockpiles, weed edges, and deep high spots from shallow to 35-40 feet.", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "season": ["summer"], "species": ["smallmouth"] }, "tip": "Johnston: Use a Ned rig as a secondary presentation when targeting St. Lawrence smallmouth alongside a drop shot.", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "st-lawrence-winning-weight", "insight": "Johnston: On the St. Lawrence, 24 pounds really isn't a good day and anything over 25 is what you need to win. It's a special place.", "conditions": { "season": "summer" } },
+    { "category": "structure-reading", "topic": "variety-of-habitat-st-lawrence", "insight": "Johnston: Catch St. Lawrence smallmouth across a wide variety of habitats in a single day: shallow sand flats, rockpiles, weed edges, and deep high spots, rocks, and deeper weed edges in 35-40 feet.", "conditions": { "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "hit-spots-until-big-bites", "insight": "Johnston: Hit as many spots as possible until you run into the bigger fish. Quality bites often come late in the day after working through many locations.", "conditions": { "season": "summer" } },
+    { "category": "depth-strategy", "topic": "bigger-fish-shallow-st-lawrence", "insight": "Johnston: At the St. Lawrence, bigger smallmouth (5.5 to 6.75 lbs) often come from shallow water rather than deep.", "conditions": { "season": "summer" } }
+  ]
+}

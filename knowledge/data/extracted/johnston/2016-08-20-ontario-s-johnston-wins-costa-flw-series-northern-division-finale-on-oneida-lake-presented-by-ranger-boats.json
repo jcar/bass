@@ -1,0 +1,49 @@
+{
+  "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: Fan-cast a green-pumpkin tube or 4-inch green-pumpkin Senko when sight-fished smallmouth are spooked off shallow rock piles. Use these as follow-up baits after topwater.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Flipping Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: A Punisher Lures jig around docks can produce key largemouth that supplement a smallmouth bag on northern fisheries.",
+          "priority": 7
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "shallow-rock-piles-run-and-gun",
+      "insight": "Johnston: Run shallow rock piles starting on the east end of the lake and working west, hitting about 20 isolated piles. Spend the first two days running shallow and adjust deeper only if conditions force it.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "northern-largemouth-bonus-fish",
+      "insight": "Johnston: You don't get a ton of largemouth on northern smallmouth lakes, but when you do, they're big ones. Those largemouth catches are crucial to tournament success.",
+      "conditions": {}
+    }
+  ]
+}

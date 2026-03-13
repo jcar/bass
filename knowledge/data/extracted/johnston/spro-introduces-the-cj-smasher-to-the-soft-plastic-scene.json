@@ -1,0 +1,17 @@
+{
+  "source": "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "Johnston: The SPRO CJ Smasher (3-inch soft plastic) is designed for drop shot, Texas rig, and jig head techniques. It features Dura Tuff material that floats completely for great action, and Amino Bite scent.", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "bait-design", "topic": "cj-smasher-design", "insight": "Johnston: Co-designed the SPRO CJ Smasher with brother Chris. The 3-inch soft plastic uses Dura Tuff material that is super soft yet super tough, floats completely for great action, and features Amino Bite scent with amino acids that create a scent trail through the water column.", "conditions": {} },
+    { "category": "lure-selection", "topic": "cj-smasher-versatility", "insight": "Johnston: The CJ Smasher is best suited for drop shot, jig head, or Texas rig applications. It works in both freshwater and saltwater.", "conditions": {} }
+  ]
+}

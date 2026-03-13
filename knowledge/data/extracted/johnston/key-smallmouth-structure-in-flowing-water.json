@@ -1,0 +1,24 @@
+{
+  "source": "key-smallmouth-structure-in-flowing-water.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"], "structure": ["current"] }, "tip": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is important when targeting neutral fish.", "priority": 11 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "structure-reading", "topic": "depth-drops-smallmouth-rivers", "insight": "Johnston: The most important structure for smallmouth in rivers is breaks - ledges, humps, anything where the depth drops off. These aren't always adjacent to shoreline; they could be a ledge next to the main channel, a hump rising from the channel, or an underwater point extending from shore.", "conditions": { "species": "smallmouth" } },
+    { "category": "fish-behavior", "topic": "hump-feeding-vs-resting", "insight": "Johnston: Humps in current are unique structure because fish will be in front of them feeding in the current, or resting in the slack water behind. You can catch them in both states, which makes humps especially productive.", "conditions": { "species": "smallmouth" } },
+    { "category": "fish-behavior", "topic": "smallmouth-tight-to-bottom-current", "insight": "Johnston: River smallmouth sit very tight to bottom in current and won't show up on sonar. Always take the time to drop a bait even if you don't mark fish. They're more stationary now due to goby forage - why move when there's so much food right there?", "conditions": { "species": "smallmouth" } },
+    { "category": "structure-reading", "topic": "boulder-milk-runs", "insight": "Johnston: Set up a milk run of big boulders for smallmouth. Each boulder typically holds one big smallmouth and maybe one small one. Stop on each, do a few short drifts, and move on. If you catch a big fish, move right away since a boulder only holds one big fish.", "conditions": { "species": "smallmouth" } },
+    { "category": "structure-reading", "topic": "boulder-replenishment", "insight": "Johnston: Boulders used to replenish more quickly with resident gobies keeping smallmouth stationary, but now it takes longer. You generally can't return to boulders during a tournament, so you need to mark as many as possible.", "conditions": { "species": "smallmouth" } },
+    { "category": "structure-reading", "topic": "bottom-transitions-smallmouth", "insight": "Johnston: On the St. Lawrence, smallmouth prefer flat bottoms. Look for transitions from hard bottom to soft, or rock to sand, rather than gravel-to-rock transitions. These transitions are easy to spot on Garmin electronics via color change on the bottom.", "conditions": { "species": "smallmouth" } },
+    { "category": "depth-strategy", "topic": "deeper-transitions-preferred", "insight": "Johnston: Prefer deeper transitions for St. Lawrence smallmouth. Fish used to be catchable shallow but now go deeper sooner due to pressure.", "conditions": { "species": "smallmouth", "season": "summer" } },
+    { "category": "electronics", "topic": "aqua-vu-camera-current", "insight": "Johnston: Use an Aqua-Vu underwater camera (HD10i Pro with onscreen water temp and depth) to get a true understanding of bottom structure in current. Attach a weight to stabilize it in the current for a clear picture in clear water.", "conditions": { "species": "smallmouth" } },
+    { "category": "depth-strategy", "topic": "break-depth-doesnt-matter", "insight": "Johnston: On the St. Lawrence, the depth of the break doesn't matter much - it might drop 3 feet, 10 feet, or 20+ feet. It's simply a place where fish can push bait up against the ledge so they don't have to chase it.", "conditions": { "species": "smallmouth" } }
+  ]
+}

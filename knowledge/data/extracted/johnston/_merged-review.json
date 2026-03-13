@@ -1,0 +1,2461 @@
+{
+  "sources": [
+    "2015-06-29-johnston-targets-beds-for-big-limit.txt",
+    "2016-07-29-two-for-one.txt",
+    "2016-08-19-johnston-takes-over-on-oneida.txt",
+    "2016-08-20-king-in-the-north.txt",
+    "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt",
+    "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt",
+    "2017-10-09-johnston-brothers-team-up-back-home.txt",
+    "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt",
+    "377907.txt",
+    "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt",
+    "534176.txt",
+    "534800.txt",
+    "a-northern-perspective-on-flipping-pitching.txt",
+    "a-special-week-on-familiar-waters.txt",
+    "across-the-border-and-back-home.txt",
+    "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt",
+    "bro-series-johnston-brothers.txt",
+    "catpage-bwbasstc20bhtml.txt",
+    "cold-water-bass-tactics-with-cory-johnston.txt",
+    "cory-and-chris-johnston-take-family-history-of-competitive-fishing-to-new-level.txt",
+    "cory-johnston-claims-st-lawrence-river-elite.txt",
+    "cory-johnston-claims-the-title-at-st-lawrence-river.txt",
+    "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt",
+    "cory-johnston-his-way-bassmaster-classic-daiwa.txt",
+    "cory-johnston-s-lead-huge-with-1-day-left.txt",
+    "cory-johnston-wins-first-elite-title.txt",
+    "cory-johnston.txt",
+    "cory-johnstons-pro-picks.txt",
+    "cory-johnstons-winning-baits-at-st-johns-river-bassmaster-elite.txt",
+    "cory-johnstons-worst-fishing-day-ever.txt",
+    "cracking-code-century-club.txt",
+    "daily-limit-cory-johnston-relieved-to-join-canadian-club-of-winners.txt",
+    "docktalkasp.txt",
+    "dont-mess-with-the-johnston-brothers.txt",
+    "even-on-elites-johnstons-share-information-winnings-and-costs.txt",
+    "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
+    "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt",
+    "how-cory-johnston-won-the-st-johns-elite.txt",
+    "how-cory-johnston-won-the-st-lawrence-open.txt",
+    "how-johnston-won-top-st-lawrence-baits-co-angler-tactics.txt",
+    "how-to-catch-more-bass-with-forward-looking-technology.txt",
+    "inside-elite-boats-cory-johnston.txt",
+    "its-out-the-spro-cj-smasher.txt",
+    "johnston-bags-2nd-win-of-24-with-102-pounds.txt",
+    "johnston-claims-second-bassmaster-elite-title-with-win-at-st-lawrence-river.txt",
+    "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt",
+    "johnston-overcomes-crowded-waters-to-lead-day-1-at-bassmaster-open-on-st-lawrence-river.txt",
+    "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt",
+    "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt",
+    "johnstons-bring-team-approach-to-flw-tour.txt",
+    "key-smallmouth-structure-in-flowing-water.txt",
+    "meet-elites-cory-johnston.txt",
+    "meet-the-elites-cory-johnston.txt",
+    "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt",
+    "st-johns-river-florida-bass-fishing-report-best-baits-tactics.txt",
+    "starting-spot-johnston-wins-st-lawrence-flying-bass-hits-truck-smallmouth-bass-world-record.txt",
+    "sturgeon-bay-small-talk.txt",
+    "tackle-tip-tuesday-how-cory-johnston-broke-100-pounds-at-st-lawrence-river.txt",
+    "top-lures-of-the-st-johns-river.txt",
+    "top-tournament-anglers-call-out-rewards-aqua-vu-underwater-camera.txt"
+  ],
+  "opinions": {
+    "Drop Shot": {
+      "lure": "Drop Shot",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "fall"
+            ]
+          },
+          "color": "Goby Brown",
+          "hex": "#8B7355",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "color": "Electric Shiner",
+          "hex": "#D4D4D4",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "spawn",
+              "post-spawn"
+            ]
+          },
+          "tip": "Johnston: Drop-shot green-pumpkin soft plastics when targeting spawning and postspawn bass in 3 to 18 feet of water.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: On Lake Ontario and the 1000 Islands, a drop-shot is the go-to for targeting smallmouth on the open lake.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "depth": "deep"
+          },
+          "tip": "Johnston: When the need calls for going deep for smallmouth, switch to a drop-shot rod with a Jackall Crosstail Shad.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: When you get bit on a moving bait like a swimbait, work around the area with a tube or drop-shot to pick off additional fish from the same spot.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": "smallmouth"
+          },
+          "tip": "Johnston: For smallmouths, drop-shot Jackall Cross Tail Shads, then switch to a tube jig when you find the right kind of clean bottom.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "depth": "deep"
+          },
+          "tip": "Johnston: On the St. Lawrence, fish an 80-yard stretch of bottom in about 40 feet targeting a pod of giant smallmouth. Catch one, then leave the spot and make a big run away before returning, because pressured deepwater smallmouth shut down after each catch.",
+          "priority": 11
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "depth": "deep"
+          },
+          "tip": "Johnston: Use a drop-shot with a 3/8-ounce weight and a 4-inch worm on a No. 2 Gamakatsu G-Finesse hook for deepwater smallmouth on Lake Ontario in 18 to 42 feet over rock structure.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: Use Power-Pole Drift Paddles to slow your drift in big water with 6-foot waves. Drift with the wind using LiveScope to cover a lot of water while drop-shotting.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "structure": [
+              "sand flats",
+              "isolated grass"
+            ]
+          },
+          "tip": "Johnston: Target sand flats with isolated grass in 16 to 21 feet. Rotate through multiple locations \u2014 some produce well above others. The real key is LiveScope; without it you're at a huge disadvantage. I saw about 90% of fish on the graph way out and could cast to them before they were under the boat.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a 3/8-ounce tungsten teardrop-style weight, size 1 Gamakatsu drop shot hook, with shad-colored or green pumpkin soft plastics. Pair with 15-pound braid main line and 8-pound fluorocarbon leader (10-foot leader).",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "structure": [
+              "isolated structure"
+            ]
+          },
+          "tip": "Johnston: Look for oddities like a sunken barrel or isolated object \u2014 they can be smallmouth magnets. Fish that group out one day may be gone the next, so keep covering water until you find a group.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "depth": "33 feet",
+            "waterBody": "Lake Ontario"
+          },
+          "tip": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit \u2014 don't move it. On rough, windy days, cast past the fish and drag it through them.",
+          "priority": 11
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a 6th Sense Party Minnow on the drop shot for deep smallmouth. A minnow-style bait is key.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "waterBody": "St. Lawrence River"
+          },
+          "tip": "Johnston: Use a drop shot with a tungsten weight and a 6th Sense Party Minnow on a BKK drop-shot hook. This is the primary technique for St. Lawrence smallmouth across shallow and deep zones.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "technique": "bed fishing"
+          },
+          "tip": "Johnston: When bed fishing, drop shot a finesse worm alongside flipping presentations. Use Garmin Perspective Mode and a Power-Pole Move trolling motor to see and target bed fish.",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Johnston: The G Finesse Drop Shot hooks from SPRO are his signature/favorite bait. Drop shot is a core technique.",
+          "priority": 6
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Smooth drag is a big key to fighting big smallmouth on 6-lb test drop shot. Use a soft rod to absorb their runs and headshakes.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "waterClarity": [
+              "clear"
+            ]
+          },
+          "tip": "Johnston: On clear-water smallmouth, use a drop shot with an 8-10 inch leader. Fish shallow (15 ft or less) targeting rock, sand, and weed -- every spot is different.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a Flogger (cone-shaped surface viewing device) to see your bait, see the fish, and see the sweet spot. It shows how fish react to your bait and speeds up the process.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": [
+              "late fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In mid to late fall, drop shot with small nose-hooked minnow-style swimbaits maintain action while dragging along bottom for grouped smallmouth.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "waterClarity": [
+              "clear"
+            ]
+          },
+          "tip": "Johnston: On heavily-pressured clear smallmouth water, adapt your drop shot presentation daily. Calm days may require casting out and leaving it completely motionless. Rougher days may require dragging it through the fish.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Drop shot with a paddletail minnow bait is deadly on smallmouth -- they just can't resist it. The paddletail doesn't necessarily need to be kicking to be effective.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: On extremely pressured smallmouth fisheries, standard drop shot stops working. You have to figure out alternative presentations or baits they haven't seen.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Won catching every single bass on a drop shot. Fished a prototype SPRO bait -- small, compact, 4 inches -- that combines everything he looks for in a drop shot bait. Fish just eat it.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Uses two drop shot rods with different actions. A 7' ML for standard work and a 6'10\" L with softer action that helps when fighting bigger fish.",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Johnston: The SPRO CJ Smasher 3-inch worm is incredibly versatile -- can be rigged drop shot, shakey head, midwest finesse rig, or Texas rig. Poured with Dura Tuff material for durability and Amino Bite scent for committed strikes from finicky fish.",
+          "priority": 7
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: Won with 102 lbs of smallmouth on drop shot. Fished an 80-yard stretch at 33 feet in Lake Ontario. Used 3/8-oz weight in all conditions but adapted presentation -- motionless on calm days, dragged through fish on windy days.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: For Century Club smallmouth weights, fish a drop shot with 6th Sense Party Minnow and prototype minnow baits. Use 3/8-oz weight regardless of conditions but change presentation -- dead still on calm days, drag through on rough days.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a 3/4-ounce drop shot weight when targeting pressured smallmouth in deep water up to 35 feet on the St. Lawrence River.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: When fish aren't grouped up due to heavy pressure, adopt a run-and-gun approach hitting isolated structure rather than working one area. Hit 40+ spots catching one here and one there.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "species": [
+              "largemouth"
+            ]
+          },
+          "tip": "Johnston: Drop shot a finesse worm to target bedding bass in spring runs and backwater areas off main lakes in Florida.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a tungsten drop shot weight with a 6th Sense Party Minnow on a BKK drop-shot hook for St. Lawrence smallmouth across sand flats, rockpiles, weed edges, and deep high spots from shallow to 35-40 feet.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "structure": [
+              "current"
+            ]
+          },
+          "tip": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is important when targeting neutral fish.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Johnston: The SPRO CJ Smasher (3-inch soft plastic) is designed for drop shot, Texas rig, and jig head techniques. It features Dura Tuff material that floats completely for great action, and Amino Bite scent.",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: During the prespawn, do a lot more dragging with a drop shot because smallmouth are sitting on bottom eating gobies and crayfish rather than on beds.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: For bedding smallmouth, throw a drop shot right into the bed, pick up the trolling motor, and go straight to the next bed. It's a one-and-move approach.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2015-06-29-johnston-targets-beds-for-big-limit.txt",
+        "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt",
+        "2017-10-09-johnston-brothers-team-up-back-home.txt",
+        "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt",
+        "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt",
+        "534176.txt",
+        "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt",
+        "catpage-bwbasstc20bhtml.txt",
+        "cory-johnston-claims-st-lawrence-river-elite.txt",
+        "cory-johnston-claims-the-title-at-st-lawrence-river.txt",
+        "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt",
+        "cory-johnston-wins-first-elite-title.txt",
+        "cory-johnston.txt",
+        "cracking-code-century-club.txt",
+        "docktalkasp.txt",
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
+        "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt",
+        "how-cory-johnston-won-the-st-lawrence-open.txt",
+        "its-out-the-spro-cj-smasher.txt",
+        "johnston-bags-2nd-win-of-24-with-102-pounds.txt",
+        "johnston-claims-second-bassmaster-elite-title-with-win-at-st-lawrence-river.txt",
+        "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt",
+        "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt",
+        "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt",
+        "key-smallmouth-structure-in-flowing-water.txt",
+        "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt",
+        "sturgeon-bay-small-talk.txt"
+      ]
+    },
+    "Spy Bait": {
+      "lure": "Spy Bait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "clarity": "clear"
+          },
+          "color": "Ghost Pearl",
+          "hex": "#f5f0e1",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: Use a DUO Realis Spinbait 80 in ghost pearl for sight-fishing shallow smallmouth on isolated rock piles in 4 feet or less.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2016-08-20-king-in-the-north.txt"
+      ]
+    },
+    "Walking Topwater": {
+      "lure": "Walking Topwater",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Chartreuse Ghost",
+          "hex": "#d4e88b",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: Use a Rapala X-Rap Pop in chartreuse ghost to locate big fish on shallow rock piles in summer. If you catch a 4-pounder and 3-pounder on topwater, you know the big fish are shallow.",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2016-08-20-king-in-the-north.txt"
+      ]
+    },
+    "Texas Rig (Creature Bait)": {
+      "lure": "Texas Rig (Creature Bait)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4B6F44",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: Fan-cast a green-pumpkin tube or 4-inch green-pumpkin Senko when sight-fished smallmouth are spooked off shallow rock piles. Use these as follow-up baits after topwater.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": "smallmouth"
+          },
+          "tip": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't beat a tube.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "bottom": "clean"
+          },
+          "tip": "Johnston: You can't beat a tube jig if the bottom's clean. It imitates a crayfish or a goby.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "technique": "bed fishing"
+          },
+          "tip": "Johnston: Flip various worms and creature baits to bed fish. When the bed fish pattern starts dwindling, switch to flipping spatterdock (pads) on the main river for big bites \u2014 this produced a 7-12.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "technique": "bed fishing"
+          },
+          "tip": "Johnston: Flip a variety of Texas-rigged plastics to bed fish while watching them on live sonar to monitor locations and reactions. Keep looking and looking until you come across them \u2014 with recreational boat traffic stirring the water, persistence is key.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "cover": [
+              "pads",
+              "spatterdock"
+            ]
+          },
+          "tip": "Johnston: When the bed fish bite dwindles, flip spatterdock (pads) on the main river. This produced a 7-12 and was the best decision for the final day. Manage your fish well and be willing to pivot to a backup pattern.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "structure": [
+              "pads"
+            ]
+          },
+          "tip": "Johnston: When flipping spatterdock pads for bedding bass, rotate 2-3 baits because every fish is different. Cover a lot of water doing laps because new fish pull up on beds constantly.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "species": [
+              "largemouth"
+            ]
+          },
+          "tip": "Johnston: Flip various worms and creature baits to bed fish in spring runs off the main lake. Use Garmin Perspective Mode and Power-Pole Move trolling motor for precise presentations.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "species": [
+              "largemouth"
+            ],
+            "cover": [
+              "pads"
+            ]
+          },
+          "tip": "Johnston: When the bed fish pattern starts dwindling, switch to flipping spatterdock (pads) on the main river for big bites including 7+ pounders.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ],
+            "species": [
+              "largemouth"
+            ]
+          },
+          "tip": "Johnston: Texas rigged flipping baits including creatures, craws, straight tail worms, and stick baits are the go-to for sight fishing beds on the St. Johns River.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt",
+        "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt",
+        "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt",
+        "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt",
+        "cory-johnston-s-lead-huge-with-1-day-left.txt",
+        "cory-johnston-wins-first-elite-title.txt",
+        "how-cory-johnston-won-the-st-johns-elite.txt",
+        "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt",
+        "st-johns-river-florida-bass-fishing-report-best-baits-tactics.txt"
+      ]
+    },
+    "Flipping Jig": {
+      "lure": "Flipping Jig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Black",
+          "hex": "#000000",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Johnston: A Punisher Lures jig around docks can produce key largemouth that supplement a smallmouth bag on northern fisheries.",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "fallRate": "slow"
+          },
+          "tip": "Johnston: Use a bulkier 80-strand skirt when a slower fall is required, while a 60-strand skirt is the mainstay for standard flipping.",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt",
+        "a-northern-perspective-on-flipping-pitching.txt"
+      ]
+    },
+    "Suspending Jerkbait": {
+      "lure": "Suspending Jerkbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "fall"
+            ]
+          },
+          "color": "Natural Shad",
+          "hex": "#C0C0C0",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ],
+            "waterTemp": "40-degree range"
+          },
+          "tip": "Johnston: In cold water around 40 degrees, slow-twitch a suspending jerkbait for largemouth bass that are suspending in the water column. Target the middle to bottom of the water column and work lures with a sluggish style.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In early fall, jerkbaits are excellent for covering water and getting multiple smallmouth to follow and bite.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: There's a short window between prespawn and spawn when the water is warm enough to catch smallmouth on a jerkbait.",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "cold-water-bass-tactics-with-cory-johnston.txt",
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
+        "sturgeon-bay-small-talk.txt"
+      ]
+    },
+    "Football Jig": {
+      "lure": "Football Jig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ],
+            "waterTemp": "40-degree range"
+          },
+          "tip": "Johnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "tip": "Johnston: In cold-water months, slow drag jigs. Use drift paddles to dial down drift speed and control your presentation for more effective casting and a better hookup ratio. Be methodical to stay in the strike zone.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "structure": [
+              "timber",
+              "offshore"
+            ]
+          },
+          "tip": "Johnston: Drag a football jig around standing timber and offshore hard spots. Use a 7'4\" heavy frog-style rod and a fast 8.1:1 reel to pick up line quickly and get a good hookset in deep water. In Texas timber, you need heavy line and a fast reel to get fish away from cover.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "cold-water-bass-tactics-with-cory-johnston.txt",
+        "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      ]
+    },
+    "Ned Rig": {
+      "lure": "Ned Rig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "fall"
+            ]
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4B6F44",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "waterBody": "St. Lawrence River"
+          },
+          "tip": "Johnston: Mix in a Ned rig alongside the drop shot when targeting St. Lawrence River smallmouth as a secondary presentation.",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": [
+              "late fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In mid to late fall, the Ned rig is perfect for follow-up after aggressive reaction baits stop producing. Downsized presentation fools pressured smallmouth.",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Johnston: The CJ Smasher works well on a midwest finesse (Ned) rig. Easily fished in weeds, rocky points, and shot into cover or under docks where big fish live.",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: Use a Ned rig as a secondary presentation when targeting St. Lawrence smallmouth alongside a drop shot.",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "cory-johnston-claims-the-title-at-st-lawrence-river.txt",
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
+        "its-out-the-spro-cj-smasher.txt",
+        "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt"
+      ]
+    },
+    "Deep Diving Crankbait": {
+      "lure": "Deep Diving Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "species": [
+              "smallmouth"
+            ],
+            "season": [
+              "fall"
+            ]
+          },
+          "color": "Natural Shad",
+          "hex": "#C0C0C0",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "structure": [
+              "timber"
+            ]
+          },
+          "tip": "Johnston: For summer offshore fishing with big crankbaits like a 10XD, use an 8-foot medium-heavy fiberglass cranking rod. The 8-foot length allows the longest cast possible to get the bait down quickly and keep it at maximum depth longer. Fiberglass gives bass an extra second to get the bait and you'll hook more fish.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In early fall (55-65F), burn a deep-diving crankbait that runs 10-15 feet, occasionally grinding bottom or ticking just above it, to trigger reaction strikes from smallmouth tight to bottom.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "cory-johnston-his-way-bassmaster-classic-daiwa.txt",
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      ]
+    },
+    "Carolina Rig": {
+      "lure": "Carolina Rig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ],
+            "structure": [
+              "offshore"
+            ]
+          },
+          "tip": "Johnston: Use big baits on a Carolina Rig for bigger fish offshore \u2014 10-inch worms, magnum flukes, and full-sized creature baits. Fish it on the same hard spots as a football jig. Use an 8.1:1 reel to pick up slack quickly and a heavy flipping rod.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      ]
+    },
+    "Chatterbait": {
+      "lure": "Chatterbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In early fall, a 1/2 oz bladed jig covers water fast and is effective around grass, rock, and mixed cover. It often attracts the biggest smallmouth in the system.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      ]
+    },
+    "Squarebill Crankbait": {
+      "lure": "Squarebill Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "late fall"
+            ],
+            "species": [
+              "smallmouth"
+            ]
+          },
+          "tip": "Johnston: In mid to late fall (45-55F), squarebill crankbaits are ideal when grass is absent. Deflect off cover to trigger bites from shallow-grouped smallmouth.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      ]
+    }
+  },
+  "structureAdvice": {},
+  "credibility": {},
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "spawn-sight-fishing-size-judging",
+      "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "2015-06-29-johnston-targets-beds-for-big-limit.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "postspawn-transition-deeper-water",
+      "insight": "Johnston: After catching spawners early, chase postspawners in deeper water at spots no one else knows about. Having secret deeper-water spots for postspawn fish can produce multiple 5-pounders.",
+      "conditions": {
+        "season": "post-spawn"
+      },
+      "source": "2015-06-29-johnston-targets-beds-for-big-limit.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-splitting-with-partner",
+      "insight": "Johnston: When you have a trusted practice partner, each head in a different direction every day during practice to effectively split the lake in half, giving you double the practice coverage.",
+      "conditions": {},
+      "source": "2016-07-29-two-for-one.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pattern-sharing-not-spot-sharing",
+      "insight": "Johnston: If I find a pattern, I'll share it so my partner can replicate that pattern somewhere else. We don't split spots or fish, because then we're just competing against each other.",
+      "conditions": {},
+      "source": "2016-07-29-two-for-one.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "unfamiliar-lakes-open-mind",
+      "insight": "Johnston: When fishing an unfamiliar lake, go in with open minds rather than preconceived notions about what fish should be doing.",
+      "conditions": {},
+      "source": "2016-07-29-two-for-one.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "isolated-spots-run-and-gun",
+      "insight": "Johnston: Run a bunch of isolated spots where there's one or two fish, hitting upwards of 40 different spots per day. Don't be afraid to stop on new water that looks good to test it out.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-19-johnston-takes-over-on-oneida.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "rock-weed-transition-shallow",
+      "insight": "Johnston: Fish regular rock/weed transition areas, anywhere from 12 feet deep right up to about a foot of water.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-19-johnston-takes-over-on-oneida.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "calm-clear-advantage-shallow",
+      "insight": "Johnston: I need the sun and the calm. Most people want the wind to blow, but I want it to be really tough on everybody because I figured out a method to catch them when it's really slick.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-19-johnston-takes-over-on-oneida.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "pressured-fish-drag-presentation",
+      "insight": "Johnston: On pressured fisheries, if fish see your bait fall they spook every time. Overshoot them and drag your bait to the fish - they'll eat it every time. The key is not letting them see your bait fall.",
+      "priority": 11,
+      "conditions": {},
+      "source": "2016-08-20-king-in-the-north.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "isolated-shallow-targets-summer",
+      "insight": "Johnston: Key on isolated rock piles off the shore in 4 feet or less. Anything that provides a transition - rock pile, patch of sand, clump of weeds - a shallow bass can key on is fair game in summer.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-20-king-in-the-north.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "new-lake-no-preconceptions",
+      "insight": "Johnston: When you haven't been to a lake before, you're not going in with a preconceived notion of what the fish were doing last time. You can really figure it out and zone in on them real good.",
+      "conditions": {},
+      "source": "2016-08-20-king-in-the-north.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-stain-forces-deeper-adjustment",
+      "insight": "Johnston: When wind creates waves and stains shallow water, move to sheltered secondary spots that aren't too close to shallow water so they aren't stained. When shallow is blown out, fish a break with a moving bait.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-20-king-in-the-north.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "shallow-rock-piles-run-and-gun",
+      "insight": "Johnston: Run shallow rock piles starting on the east end of the lake and working west, hitting about 20 isolated piles. Spend the first two days running shallow and adjust deeper only if conditions force it.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "northern-largemouth-bonus-fish",
+      "insight": "Johnston: You don't get a ton of largemouth on northern smallmouth lakes, but when you do, they're big ones. Those largemouth catches are crucial to tournament success.",
+      "conditions": {},
+      "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-rod-power-selection",
+      "insight": "Johnston: Rod power matters when flipping. I switched from a 4-power GLX flipping stick to a 5-power NRX and the stiffer butt section was so powerful I was ripping holes in fish mouths on the hookset, losing four 4-pounders. Going down to a 4-power NRX solved it - never lost a fish on the jig afterward.",
+      "conditions": {},
+      "source": "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "casting-vs-flipping-grass",
+      "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "no-internet-scouting-figure-it-out",
+      "insight": "Johnston: We're not really guys that do a lot of research on the Internet. We just back the boat in and figure it out.",
+      "conditions": {},
+      "source": "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "smallmouth-swimbait-shallow-setup",
+      "insight": "Johnston: For tossing swimbaits up shallow for smallmouth, use a G.Loomis GLX 892S spinning rod with a Shimano Sustain 2500 reel. For deep drop-shot, use NRX 822S rods.",
+      "conditions": {},
+      "source": "2017-10-09-johnston-brothers-team-up-back-home.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "cover-water-then-finesse",
+      "insight": "Johnston: Cover water quickly with a moving bait like a crankbait or swimbait. If you drifted across the whole lake you could catch bass everywhere - that's why you need to cover water and find the sweet spots where they are grouped up.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "st-clair-four-bait-approach",
+      "insight": "Johnston: Keep rod choices simple on Lake St. Clair - two swimbaits, a tube, and a drop-shot are all you need on the deck.",
+      "conditions": {},
+      "source": "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "chalky-water-move-deeper",
+      "insight": "Johnston: If shallow water has a chalky tint to it, head back out to the lake. Water color changes indicate you need to move to cleaner water.",
+      "conditions": {},
+      "source": "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-abundance-st-clair",
+      "insight": "Johnston: There are so many smallmouths in St. Clair that you can catch them anywhere, even in shallow pencil reeds where you'd expect largemouth. A 4-pound smallmouth in reeds is not unusual.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "2018-06-26-cory-johnston-s-afternoon-on-st-clair.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "underwater-camera-river-smallmouth",
+      "insight": "Johnston: On the St. Lawrence River, sonar doesn't always mark bass on drop-offs because river bass are tight to the bottom. An underwater camera with a trolling fin and extra weight lets you get down to depth and get a stable picture of what's happening.",
+      "conditions": {},
+      "source": "377907.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "aqua-vu-dropoff-verification",
+      "insight": "Johnston: Drop-offs are key spots against which bass can push bait. Use an HD underwater camera with on-screen water temperature and depth to verify fish presence on these spots when sonar can't distinguish bottom-hugging bass.",
+      "conditions": {},
+      "source": "377907.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-fishing-no-casting",
+      "insight": "Johnston: When pre-fishing, very rarely make a cast, because you'd only sting fish you could catch in the tournament. Instead, closely watch sonar looking for the right kind of bottom.",
+      "conditions": {},
+      "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-bottom-composition",
+      "insight": "Johnston: You can find smallmouth on rock, you can find them on sand. It doesn't really seem to matter as long as the bottom's not covered in moss or weeds.",
+      "conditions": {},
+      "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pressure-downsize-isolated-spots",
+      "insight": "Johnston: Where there's a lot of angling pressure, downsize your line and hooks, and try to get off the beaten path. Look for spots on the spot - anything different like rock and weed mixed in, or bigger pockets in grass. It's something small or isolated where people aren't all over it.",
+      "conditions": {},
+      "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "smallmouth-spinning-rod-specs",
+      "insight": "Johnston: For smallmouths, use a seven-foot six-inch rod that doesn't have a lot of backbone, allowing long casts with small baits on light line. That's especially important in clear water.",
+      "conditions": {
+        "clarity": "clear"
+      },
+      "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "pressured-smallmouth-sensitivity",
+      "insight": "Johnston: Pressured St. Lawrence smallmouth are extremely sensitive. Catch one and they shut down. Time and distance are the best remedy - make a big run away from the spot between catches. It's like night and day from even two years ago.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "534176.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-deep-smallmouth",
+      "insight": "Johnston: Use Garmin LiveScope to track down deep smallmouth and make the perfect cast. In rough conditions with big waves, efficiency drops because it's harder to use LiveScope accurately.",
+      "conditions": {},
+      "source": "534176.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "four-bait-rotation-pressured-smallmouth",
+      "insight": "Johnston: Use a four-bait rotation for picky pressured smallmouth. Figured out something about rigging and presentation that makes the difference - it has to do with how you rig and present the bait, not just what bait you use.",
+      "conditions": {},
+      "source": "534176.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "mini-jig-rod-and-line-setup",
+      "insight": "Johnston: Use a Daiwa 7'5\" rod designed especially for a mini-jig - lighter tip action but plenty of power to handle a 1.5-ounce weight. Pair with an 8.8:1 reel spooled with 65-pound Seaguar TactX braid or 20-22-pound Seaguar Tatsu fluorocarbon. Cover dictates line choice.",
+      "conditions": {},
+      "source": "a-northern-perspective-on-flipping-pitching.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "jig-hook-selection-by-line",
+      "insight": "Johnston: Use an EWG-style jig hook with thicker wire for braided line, and a round-bend wide-gap hook for fluorocarbon. The EWG hook is slightly harder to get full penetration on fluoro.",
+      "conditions": {},
+      "source": "a-northern-perspective-on-flipping-pitching.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "compact-jig-pressure-advantage",
+      "insight": "Johnston: Down south with a smaller jig, you will get smallmouth, largemouth and spots. A compact jig gets just as many bites as a full-size jig, if not more, even in Florida.",
+      "conditions": {},
+      "source": "a-northern-perspective-on-flipping-pitching.txt"
+    },
+    {
+      "category": "bait-design",
+      "topic": "jig-rattle-removal",
+      "insight": "Johnston: All jigs come with rattles, but tear them off if you don't think they'll help. Use a chunk-style trailer that matches the jig skirt color.",
+      "conditions": {},
+      "source": "a-northern-perspective-on-flipping-pitching.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jig-weight-range-flipping",
+      "insight": "Johnston: Jig box should contain 3/8-, 1/2-, 5/8- and 3/4-ounce jigs for flipping.",
+      "conditions": {},
+      "source": "a-northern-perspective-on-flipping-pitching.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "versatility-across-fisheries",
+      "insight": "Johnston: Consistency and success on tour comes from being a well-rounded angler. I don't feel like there's a technique at which I cannot excel, which means it's a matter of figuring out what I need to do and then executing to the best of my abilities.",
+      "conditions": {},
+      "source": "a-special-week-on-familiar-waters.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "commitment-to-gameplan-rough-conditions",
+      "insight": "Johnston: On Lake Ontario in big waves, I prepared my whole life for that moment. All of my equipment is up to the task. Don't abandon the plan to run to the lake because of wind and waves if you've prepared properly and know what lives on those spots.",
+      "conditions": {
+        "waterBody": "Lake Ontario"
+      },
+      "source": "a-special-week-on-familiar-waters.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "deep-smallmouth-lake-ontario",
+      "insight": "Johnston: Won two Elite events in one season on very different fisheries \u2014 one largemouth chasing shallow fish, and the other deep smallmouth. Being able to adapt between the two is key.",
+      "conditions": {},
+      "source": "a-special-week-on-familiar-waters.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "deep-eel-grass-edge-vs-shallow",
+      "insight": "Johnston: At the Bassmaster Classic on Lake Guntersville, I was getting bites on the deeper edge of the eel grass in practice and committed to it. But when the wind blew and everything got muddy, it hurt the deep bite. Having a shallow backup plan is important.",
+      "conditions": {},
+      "source": "across-the-border-and-back-home.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-lake-ontario",
+      "insight": "Johnston: Run a milk run on Lake Ontario starting at the closest spot and working out to the farthest, then come in. Use Garmin LiveScope to cover water while drifting. Pretty simple - just cover a lot of water over rock structure in 18 to 42 feet.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "local-knowledge-advantage",
+      "insight": "Johnston: Local knowledge is invaluable. Having a lot of spots on Lake Ontario means you only need two days of pre-fishing when you know the place well.",
+      "conditions": {},
+      "source": "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-shelter-strategy-big-water",
+      "insight": "Johnston: On big water, commit to the lake when the wind direction gives you shelter from a point or land feature. Staying sheltered can reduce 8-foot waves to 6-footers, which is fishable.",
+      "conditions": {},
+      "source": "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "patience-with-deep-electronics",
+      "insight": "Johnston: I learned a lot from my brother Chris about being patient, slowing down and being methodical when using electronics out deep.",
+      "conditions": {
+        "depth": "deep"
+      },
+      "source": "bro-series-johnston-brothers.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "team-practice-strategy",
+      "insight": "Johnston: In team tournaments, practice separately and then merge findings for the good of the team. We made a pact to do this from our early teens and it has always worked well.",
+      "conditions": {},
+      "source": "bro-series-johnston-brothers.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-for-deep-smallmouth",
+      "insight": "Johnston: The real key on deep sand flats is Garmin LiveScope \u2014 without it you're at a huge disadvantage. You can see 90% of the fish way out and cast to them before they're under the boat.",
+      "conditions": {
+        "species": "smallmouth",
+        "depth": "16-21 feet"
+      },
+      "source": "catpage-bwbasstc20bhtml.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-roaming-groups",
+      "insight": "Johnston: Smallmouth groups on sand flats are transient. You could find a group one day but the next day they were gone. Keep covering water until you come across a group of them.",
+      "conditions": {
+        "species": "smallmouth",
+        "structure": "sand flats"
+      },
+      "source": "catpage-bwbasstc20bhtml.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-rod-setup-smallmouth",
+      "insight": "Johnston: For deep smallmouth drop shot, use a 7-foot medium-light Daiwa Tatula Elite Dropshot rod, size 3000 Daiwa Exist spinning reel, 15-pound braid to 8-pound fluorocarbon leader (10 feet).",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "catpage-bwbasstc20bhtml.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-general-approach",
+      "insight": "Johnston: Everything from your technique to the fish themselves pretty much slows down when it gets cold in that 40-degree range. You have to adapt and change tactics \u2014 target the middle to bottom of the water column and work lures with a sluggish style.",
+      "conditions": {
+        "season": "winter",
+        "waterTemp": "40-degree range"
+      },
+      "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "cold-water-species-preferences",
+      "insight": "Johnston: For smallmouth bass in cold water, they seem to key in on tube jigs or a swimbait better than jerkbaits. For largemouth, suspending jerkbaits and deep-drop jigs are the go-to.",
+      "conditions": {
+        "season": "winter"
+      },
+      "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "cold-water-shallow-anchoring",
+      "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow \u2014 you really have to work an area over hard with repeated casts to get a strike.",
+      "conditions": {
+        "season": "winter",
+        "depth": "2-10 feet"
+      },
+      "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-fishing-scouting-approach",
+      "insight": "Johnston: During pre-fishing, cruise around the tournament site examining the lake bottom and looking for irregularities that might represent opportunities. Rarely make a cast during these tours \u2014 why risk snagging a fish in practice that you could catch in competition?",
+      "conditions": {},
+      "source": "cory-and-chris-johnston-take-family-history-of-competitive-fishing-to-new-level.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "research-over-practice",
+      "insight": "Johnston: Practice helps, but research makes the difference. Pool knowledge with partners, develop and test theories about how to do things differently.",
+      "conditions": {},
+      "source": "cory-and-chris-johnston-take-family-history-of-competitive-fishing-to-new-level.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "dropshot-presentation-by-conditions",
+      "insight": "Johnston: On calm days for deep smallmouth, cast the drop shot out and let it sit \u2014 don't move it. On rough windy days, cast past the fish and drag it through them. Adjust presentation to match conditions even though the bait stays the same.",
+      "conditions": {
+        "species": "smallmouth",
+        "depth": "30+ feet"
+      },
+      "source": "cory-johnston-claims-st-lawrence-river-elite.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "lake-ontario-deep-smallmouth-spot",
+      "insight": "Johnston: Targeted an 80-yard stretch of bottom in 33 feet loaded with big smallmouth. Had about three hours of fishing time per day due to the long run, but committed to the spot and made it worth it.",
+      "conditions": {
+        "species": "smallmouth",
+        "waterBody": "Lake Ontario"
+      },
+      "source": "cory-johnston-claims-st-lawrence-river-elite.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "commit-to-big-run",
+      "insight": "Johnston: Don't abandon the plan to run to Lake Ontario because of 8- to 10-foot waves if you've prepared. Even with only about three hours of fishing time per day, the quality of the spot makes it worth it.",
+      "conditions": {
+        "waterBody": "St. Lawrence River"
+      },
+      "source": "cory-johnston-claims-st-lawrence-river-elite.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "st-lawrence-habitat-variety",
+      "insight": "Johnston: On the St. Lawrence, catch them shallow on sand flats, rockpiles, weed edges all the way to 35-40 feet on little high spots, rocks and deeper weed edges. There's not one specific thing \u2014 hit as many spots as you can until you run into them.",
+      "conditions": {
+        "species": "smallmouth",
+        "waterBody": "St. Lawrence River"
+      },
+      "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "bigger-fish-shallow-st-lawrence",
+      "insight": "Johnston: On the St. Lawrence, my bigger fish (5.5 and 6.75 lbs) came shallow. Hit 12 spots and the last one had them \u2014 sometimes the late-day push to new water pays off.",
+      "conditions": {
+        "species": "smallmouth",
+        "waterBody": "St. Lawrence River"
+      },
+      "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "daily-25-pound-benchmark",
+      "insight": "Johnston: On the St. Lawrence, 24 pounds really isn't a good day \u2014 anything over 25 is what you need to win. It's a special place.",
+      "conditions": {
+        "species": "smallmouth",
+        "waterBody": "St. Lawrence River"
+      },
+      "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "managing-dwindling-pattern",
+      "insight": "Johnston: When a main pattern starts dwindling, have a backup plan ready. At St. Johns, flipping pads on the main river when the bed fish pattern faded was probably the best decision I could have made \u2014 it produced my biggest fish.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "perspective-mode-bed-fishing",
+      "insight": "Johnston: Garmin Perspective Mode is critical for bed fishing in low-visibility conditions. Relied heavily on it along with the Power-Pole Move trolling motor for targeting bed fish.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "oversized-reel-for-distance",
+      "insight": "Johnston: Use a larger reel like the Daiwa Tatula 150 size for swimbaits and big crankbaits \u2014 it holds more line and helps cast big baits further.",
+      "conditions": {},
+      "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "fiberglass-for-crankbaits",
+      "insight": "Johnston: Fiberglass rods for crankbaits allow bass an extra second to really get the bait, so you hook more crankbait fish compared to graphite.",
+      "conditions": {},
+      "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "classic-big-bait-mentality",
+      "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-in-timber",
+      "insight": "Johnston: In a lake full of timber, idle a bunch and use LiveScope to play a big part in finding fish. The technology is essential when navigating and fishing around heavy timber cover.",
+      "conditions": {
+        "structure": "timber"
+      },
+      "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "background-as-largemouth-flipper",
+      "insight": "Johnston: Where we grew up, it was all largemouth fishing \u2014 the smallmouth weren't as relevant. We grew up punching mats, flipping reeds and that kind of stuff.",
+      "conditions": {},
+      "source": "cory-johnston-s-lead-huge-with-1-day-left.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "backup-plan-readiness",
+      "insight": "Johnston: Always have a backup plan ready. At St. Johns, I had one I hadn't needed to use all week but felt the final day would be the day to deploy it \u2014 being prepared to pivot is essential.",
+      "conditions": {},
+      "source": "cory-johnston-s-lead-huge-with-1-day-left.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "live-sonar-bed-fishing",
+      "insight": "Johnston: Watch bed fish on live sonar to monitor their locations and reactions to your presentation. This lets you know when they're cooperative and when to move on.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "cory-johnston-s-lead-huge-with-1-day-left.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-management-pattern-shift",
+      "insight": "Johnston: Managed fish well and made good decisions across four days. When the main bed-fishing pattern dwindled on the final day, shifting to flipping pads on the main river was the best decision \u2014 it produced the biggest fish of the day.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "cory-johnston-wins-first-elite-title.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "favorite-techniques",
+      "insight": "Johnston: Favorite techniques are flipping and sight fishing. Favorite lakes are Lake Simcoe and Lake Ontario.",
+      "conditions": {},
+      "source": "cory-johnston.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "johnston-6th-sense-pro-picks",
+      "insight": "Johnston: Pro picks from 6th Sense include the Provoke jerkbait series, Slice Blade Bait, Divine Jigging Spoon, Party Minnow (drop shot bait), Crube tube, Stroker Craw, NedFry 4.6, Juggle Minnow, Glitch soft plastic, and Whale Swimbait 6.0 in various shad and natural colors.",
+      "conditions": {},
+      "source": "cory-johnstons-pro-picks.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "perspective-mode-bed-fish-visibility",
+      "insight": "Johnston: Use Garmin Perspective Mode when seeing bed fish in low-visibility conditions. This was one of two main tools (along with flipping and drop shot baits) for bed fishing at the St. Johns River.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "cory-johnstons-winning-baits-at-st-johns-river-bassmaster-elite.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "time-management-check-in",
+      "insight": "Johnston: Always verify your time against official tournament clocks, not just your boat graphs or cell phone. A mismatch cost me 7 pounds of penalties (1 pound per minute late) and dropped me from 7th to 60th, likely costing a shot at Angler of the Year and winning the tournament.",
+      "conditions": {},
+      "source": "cory-johnstons-worst-fishing-day-ever.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-rod-reel-pairing",
+      "insight": "Johnston: For big smallmouth drop shot fishing, pairs a Daiwa Ballistic 2500 reel with a Cody Meyer Tatula Elite signature drop shot rod. The parabolic bend and smooth drag are critical on 6-lb test.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "cracking-code-century-club.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "downsizing-for-more-bites",
+      "insight": "Johnston: The soft rod setup was critical to letting him downsize line to get more bites at the event. Having the soft rod to absorb runs and headshakes helped.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "cracking-code-century-club.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "dual-drop-shot-rod-system",
+      "insight": "Johnston: Fishes two drop shot rods -- a Tatula Elite 7'0\" with 8-lb test and a 6'10\" light-action BLX with 6-lb test. The EXIST 3000 reel drag is absolutely key when fishing big smallmouth.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "cracking-code-century-club.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "northern-tournament-aoy-strategy",
+      "insight": "Johnston: If you can get through tough southern events and just have a shot at AOY going into the northern swing, be happy. The St. Lawrence and northern fisheries are where you can make up ground.",
+      "conditions": {},
+      "source": "daily-limit-cory-johnston-relieved-to-join-canadian-club-of-winners.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "confidence-in-home-waters",
+      "insight": "Johnston: Get me to the St. Lawrence -- familiarity with home waters breeds confidence. Being within striking distance going into familiar fisheries is the ideal AOY scenario.",
+      "conditions": {},
+      "source": "daily-limit-cory-johnston-relieved-to-join-canadian-club-of-winners.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "saving-fish-for-later-days",
+      "insight": "Johnston: Save certain previously-located fish for when you need a big bite. Start tournament days with known bed fish or saved difference-makers to build an early cushion, then go fishing.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "docktalkasp.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "spot-rotation-conservation",
+      "insight": "Johnston: Don't burn too many fish -- get a limit, upgrade a little, but save fish for subsequent days. Play the long game over a multi-day tournament.",
+      "conditions": {},
+      "source": "docktalkasp.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "smallmouth-variety-spots",
+      "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "docktalkasp.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flogger-sight-fishing-aid",
+      "insight": "Johnston: A Flogger (cone-shaped clear-screen surface viewing device) lets you see your bait, where the fish is, and the sweet spot. You see how the fish reacts to your bait -- it speeds up the process.",
+      "conditions": {
+        "waterClarity": "clear"
+      },
+      "source": "docktalkasp.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "zebra-mussel-smallmouth-growth",
+      "insight": "Johnston: Zebra mussels clearing the water in the St. Lawrence River system led to goby proliferation, which fueled dramatic smallmouth growth. Clearer water also enabled new sight-based angling techniques.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "dont-mess-with-the-johnston-brothers.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-separately-fish-together",
+      "insight": "Johnston: When team fishing with a partner, practice in separate boats on official practice days to cover more water, then combine information for tournament days.",
+      "conditions": {},
+      "source": "dont-mess-with-the-johnston-brothers.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "sharing-practice-information",
+      "insight": "Johnston: Sharing all practice information with a trusted partner doubles your water coverage. If your partner says there are no fish in an area, you don't have to waste time checking it yourself.",
+      "conditions": {},
+      "source": "even-on-elites-johnstons-share-information-winnings-and-costs.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "knowing-partner-fishing-style",
+      "insight": "Johnston: When you and your practice partner are essentially the same person when it comes to fishing, you know how they'll fish and where they'll go. That eliminates redundancy and maximizes efficiency.",
+      "conditions": {},
+      "source": "even-on-elites-johnstons-share-information-winnings-and-costs.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-smallmouth-location-progression",
+      "insight": "Johnston: In fall, smallmouth group tightly on specific spots and feed heavily before winter. Early fall fish hold on offshore rock piles and summer haunts. Mid to late fall they push shallow to island tips, sand flats, and points with isolated cover.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "fall-smallmouth-key-features",
+      "insight": "Johnston: The key to fall smallmouth is finding something different -- a lone weed clump, isolated rock, or small patch of gravel that holds bait and draws the school.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fall-reaction-to-finesse-progression",
+      "insight": "Johnston: Fall smallmouth fishing is all about location and timing. Cover water fast with reaction baits to find active groups, then slow down with finesse presentations to catch the rest. If fish stop biting a tube, switch to Ned rig or drop shot.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "leave-and-return-to-schools",
+      "insight": "Johnston: Leave resting schools of fall smallmouth and return later to catch more. Don't burn through a school in one pass.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "fall-smallmouth-line-selection",
+      "insight": "Johnston: Use 10-12 lb fluorocarbon for finesse presentations and 15-20 lb braid with fluorocarbon leader for reaction baits when targeting fall smallmouth.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "fall-smallmouth-colors",
+      "insight": "Johnston: For fall smallmouth, use natural shad or baitfish colors for reaction baits, and green pumpkin, brown, or goby for bottom presentations.",
+      "conditions": {
+        "season": "fall",
+        "species": "smallmouth"
+      },
+      "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "st-lawrence-depth-range",
+      "insight": "Johnston: On the St. Lawrence/Lake Ontario system, fish from 10 feet all the way to 45 feet. Run stuff across the full depth range to find where fish are congregated.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "lake-over-river-preference",
+      "insight": "Johnston: Prefers fishing Lake Ontario over the St. Lawrence River current. Fish on the lake are more congregated in certain little areas. Even in rough weather with 8-10 foot waves, committed to the lake because he knows what lives out there.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "adapting-to-rough-weather",
+      "insight": "Johnston: In rough weather on big water, limit your spots to a few known groups of fish and rotate them. When you only have 3 hours to fish due to long runs and rough conditions, pick your best 3-4 spots and rotate.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-plus-echomap-setup",
+      "insight": "Johnston: Runs a Garmin 1643 for LiveScope (watching fish eat) and 12-inch EchoMap Ultras for the rest of his electronics needs.",
+      "conditions": {},
+      "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-braid-to-fluoro",
+      "insight": "Johnston: Drop shot setup uses 16-lb Seaguar JDM PEX8 Braid to 8-lb Seaguar Tatsu fluoro, #2 Gamakatsu drop shot hook, 3/8-oz tungsten weight, Daiwa Exist 3000 reel, 6'10\" L Daiwa BLX rod.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "how-cory-johnston-won-his-2nd-elite-this-year-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "weather-window-practice-advantage",
+      "insight": "Johnston: Early practice in flat calm sunny conditions lets you see bedding fish that later arrivals can't. If wind stains the water later, competitors won't see the fish and fewer boats will fish the area.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "natural-colors-bed-fishing",
+      "insight": "Johnston: For bed fishing, uses green pumpkin on everything. Fish bite quicker with a more natural bait. You don't need to see the bait yourself.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "covering-water-bed-fishing",
+      "insight": "Johnston: The key to winning on bed fish is covering a lot of water -- doing laps -- because new fish are pulling up on beds constantly. Catch them fairly quick when you find one and move on.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-setup-pads",
+      "insight": "Johnston: Flipping setup is a 3.7-inch 6th Sense Bongo craw on a 4/0 Gamakatsu G-Finesse Heavy Cover Hook, 1/4-oz tungsten weight, 20-lb Seaguar Tatsu fluoro, Daiwa Pitch/Flip reel, 7'5\" Daiwa Tatula Elite rod.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-perspective-mode-spawn",
+      "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt.",
+      "conditions": {
+        "season": "spawn",
+        "waterClarity": "clear"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "quiet-trolling-motor-bed-fishing",
+      "insight": "Johnston: A quiet trolling motor (Power-Pole Move) is critical for bed fishing. Fish dart off beds if your trolling motor is on full power. Being able to cover more water quicker and quieter is a big key.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "subtle-smallmouth-spots",
+      "insight": "Johnston: On the St. Lawrence, fish a lot of stuff other guys wouldn't fish -- little small subtle things. Spots vary with no similarities: some rocks, some breaks, some little grass patches, depths from 15 to 42 feet.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-stealth-poachers",
+      "insight": "Johnston: On well-known fisheries, limit practice time to about a day and a half to avoid poachers. If guys see boats in the middle of nowhere, they'll go check it. Rely on experience and knowledge of where fish will be.",
+      "conditions": {},
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-dual-screen",
+      "insight": "Johnston: Runs 2 twelve-inch units on console -- left unit for left side imaging, right for right side imaging. Gives a bigger picture so you can see things clearer. On bow, 2 ten-inch Garmin units stacked: front is LiveScope, bottom is mapping and 2D.",
+      "conditions": {},
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-over-livescope",
+      "insight": "Johnston: LiveScope wasn't a huge deal for the St. Lawrence Open win. A lot of spots were found by side imaging in practice, then casting to the structure rather than necessarily seeing individual fish.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drift-paddles-slow-presentation",
+      "insight": "Johnston: Power-Pole Drift Paddles are key for slowing drift over areas. Half paddle slows about 25%, full paddles slow 50-80%. Allows slower drop shot drags which get more bites. Can adjust angle to drift across a shoal at an angle.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-rod-setup-st-lawrence",
+      "insight": "Johnston: Drop shot setup is 10-lb Seaguar Smackdown Flash Green Braid to 8-lb Seaguar Tatsu fluoro, #2 Gamakatsu drop shot hook, 3/8-oz Woo Tungsten teardrop weight.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "how-cory-johnston-won-the-st-lawrence-open.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-gain-and-distance-settings",
+      "insight": "Johnston: Sets Garmin LiveScope gain at 60-65 and distance at 75 feet for his comfort zone. As soon as a fish appears on screen, he makes a precise cast landing within 5 feet of the fish using muscle memory for the 75-foot range.",
+      "conditions": {},
+      "source": "how-to-catch-more-bass-with-forward-looking-technology.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-finding-unfindable-structure",
+      "insight": "Johnston: Forward-facing sonar is particularly important for picking out subtleties like anomalies in grass lines and spotting individual fish. Found a sunken barrel on a featureless Lake St. Clair flat with fish sitting on it -- never would have found it without forward-facing sonar.",
+      "conditions": {},
+      "source": "how-to-catch-more-bass-with-forward-looking-technology.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-bottom-fish-detection",
+      "insight": "Johnston: Fish pinned to the bottom may elude 2D sonar, but with forward-facing sonar you can spot wiggling fins that betray hidden bass. When you throw your bait to them, you see their tail and fins speed up as they race to your bait.",
+      "conditions": {},
+      "source": "how-to-catch-more-bass-with-forward-looking-technology.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-casting-efficiency",
+      "insight": "Johnston: With LiveScope at 75 feet, you don't waste time chasing fish or making 2-3 attempts. Just look where the trolling motor is facing and make the cast. Extremely efficient -- no wasted casts.",
+      "conditions": {},
+      "source": "how-to-catch-more-bass-with-forward-looking-technology.txt"
+    },
+    {
+      "category": "bait-design",
+      "topic": "cj-smasher-design-philosophy",
+      "insight": "Johnston: Developed the SPRO CJ Smasher as a versatile 3-inch worm that is durable (Dura Tuff material), scent-infused (Amino Bite), and can be rigged multiple ways including drop shot, shakey head, Ned rig, and Texas rig.",
+      "conditions": {},
+      "source": "its-out-the-spro-cj-smasher.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "commit-to-lake-over-river",
+      "insight": "Johnston: Learned from a previous mistake of spending too much time in the river. Committed to fishing Lake Ontario exclusively even with only about 3 hours of fishing time per day due to long runs and rough conditions.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "johnston-bags-2nd-win-of-24-with-102-pounds.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "deep-smallmouth-lake-ontario",
+      "insight": "Johnston: Did most of his work on an 80-yard stretch of bottom in 33 feet loaded with big smallmouth. Even in 8-10 foot waves, the deep fish were worth the commitment.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "johnston-bags-2nd-win-of-24-with-102-pounds.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "century-club-smallmouth-commitment",
+      "insight": "Johnston: First angler to earn a Bassmaster Century Club Belt with all smallmouth (100-5 in 2022). Repeated it with 102 lbs in 2024. Key is committing to known big-fish areas even when conditions are tough.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "johnston-claims-second-bassmaster-elite-title-with-win-at-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pressure-adjustment-st-lawrence",
+      "insight": "Johnston: When extreme fishing pressure pushes smallmouth off typical spots, hunt individual bass in areas with less pressure on flats with isolated structure.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-pressured-smallmouth",
+      "insight": "Johnston: Use Garmin LiveScope to pick apart structure and look for bigger fish when smallmouth are pressured and not in their typical locations.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "extreme-depth-range-smallmouth",
+      "insight": "Johnston: Pressured St. Lawrence smallmouth can range from 2 feet to 35 feet deep in the same day. Be willing to fish the full water column.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "pressure-changes-fish-location",
+      "insight": "Johnston: Heavy recreational and tournament pressure on the St. Lawrence causes fish to behave differently and not go to where they're typically at.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "duplicate-article-note",
+      "insight": "Johnston: This article is identical content to johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt, republished on thefishingwire.com. See that extraction for all opinions and knowledge.",
+      "conditions": {},
+      "source": "johnston-overcomes-crowded-waters-to-lead-day-1-at-bassmaster-open-on-st-lawrence-river.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "st-johns-bed-fish-strategy",
+      "insight": "Johnston: At the St. Johns River, always look for spawning bass. You can always catch one or two big spawners and fill out a big limit.",
+      "conditions": {
+        "season": "spawn",
+        "waterBody": "St. Johns River"
+      },
+      "source": "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pattern-dwindling-adjustment",
+      "insight": "Johnston: When your main bed fish pattern dwindles on the final day, make the adjustment to flip pads on the main river. Managing fish well and making good decisions is key.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "perspective-mode-bed-fishing",
+      "insight": "Johnston: Rely heavily on Garmin Perspective Mode for locating and targeting bed fish in Florida spring runs.",
+      "conditions": {
+        "season": "spawn"
+      },
+      "source": "johnston-victorious-with-overwhelming-performance-in-bassmaster-elite-series-event-at-st-johns-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "st-lawrence-winning-weight",
+      "insight": "Johnston: On the St. Lawrence, 24 pounds really isn't a good day and anything over 25 is what you need to win. It's a special place.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "variety-of-habitat-st-lawrence",
+      "insight": "Johnston: Catch St. Lawrence smallmouth across a wide variety of habitats in a single day: shallow sand flats, rockpiles, weed edges, and deep high spots, rocks, and deeper weed edges in 35-40 feet.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "hit-spots-until-big-bites",
+      "insight": "Johnston: Hit as many spots as possible until you run into the bigger fish. Quality bites often come late in the day after working through many locations.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "bigger-fish-shallow-st-lawrence",
+      "insight": "Johnston: At the St. Lawrence, bigger smallmouth (5.5 to 6.75 lbs) often come from shallow water rather than deep.",
+      "conditions": {
+        "season": "summer"
+      },
+      "source": "johnstons-big-day-earns-bassmaster-open-win-at-st-lawrence.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "team-practice-advantage",
+      "insight": "Johnston: Having a brother/partner who also competes lets you cover twice as much water in practice. It's like having 6 days on the water with no false information.",
+      "conditions": {},
+      "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "share-water-for-contention",
+      "insight": "Johnston: When one angler is in contention to win, the other should give up their best water. No sense in both trying to do okay if one has a chance to win.",
+      "conditions": {},
+      "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "fish-to-win-mentality",
+      "insight": "Johnston: Always swing for the win rather than fishing for a check. If you don't make a check, don't let it hinder your next tournament.",
+      "conditions": {},
+      "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "versatility-over-specialization",
+      "insight": "Johnston: Try to be good at a lot of things rather than great at one thing and not good with the others. We can catch them deep or shallow, largemouth or smallmouth.",
+      "conditions": {},
+      "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "ledge-fishing-like-smallmouth-graphing",
+      "insight": "Johnston: Playing the ledge-fishing game on southern reservoirs is very much like graphing structure in search of smallmouth on northern lakes.",
+      "conditions": {},
+      "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "depth-drops-smallmouth-rivers",
+      "insight": "Johnston: The most important structure for smallmouth in rivers is breaks - ledges, humps, anything where the depth drops off. These aren't always adjacent to shoreline; they could be a ledge next to the main channel, a hump rising from the channel, or an underwater point extending from shore.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "hump-feeding-vs-resting",
+      "insight": "Johnston: Humps in current are unique structure because fish will be in front of them feeding in the current, or resting in the slack water behind. You can catch them in both states, which makes humps especially productive.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-tight-to-bottom-current",
+      "insight": "Johnston: River smallmouth sit very tight to bottom in current and won't show up on sonar. Always take the time to drop a bait even if you don't mark fish. They're more stationary now due to goby forage - why move when there's so much food right there?",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "boulder-milk-runs",
+      "insight": "Johnston: Set up a milk run of big boulders for smallmouth. Each boulder typically holds one big smallmouth and maybe one small one. Stop on each, do a few short drifts, and move on. If you catch a big fish, move right away since a boulder only holds one big fish.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "boulder-replenishment",
+      "insight": "Johnston: Boulders used to replenish more quickly with resident gobies keeping smallmouth stationary, but now it takes longer. You generally can't return to boulders during a tournament, so you need to mark as many as possible.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "bottom-transitions-smallmouth",
+      "insight": "Johnston: On the St. Lawrence, smallmouth prefer flat bottoms. Look for transitions from hard bottom to soft, or rock to sand, rather than gravel-to-rock transitions. These transitions are easy to spot on Garmin electronics via color change on the bottom.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "deeper-transitions-preferred",
+      "insight": "Johnston: Prefer deeper transitions for St. Lawrence smallmouth. Fish used to be catchable shallow but now go deeper sooner due to pressure.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "summer"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "aqua-vu-camera-current",
+      "insight": "Johnston: Use an Aqua-Vu underwater camera (HD10i Pro with onscreen water temp and depth) to get a true understanding of bottom structure in current. Attach a weight to stabilize it in the current for a clear picture in clear water.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "break-depth-doesnt-matter",
+      "insight": "Johnston: On the St. Lawrence, the depth of the break doesn't matter much - it might drop 3 feet, 10 feet, or 20+ feet. It's simply a place where fish can push bait up against the ledge so they don't have to chase it.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "key-smallmouth-structure-in-flowing-water.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "smallmouth-revolution-ontario",
+      "insight": "Johnston: The key to tournament success in Canada was figuring out smallmouth on inland lakes that had been dominated by largemouth. When zebra mussels and gobies began impacting lakes, thinking outside the box and expanding beyond traditional flipping mats, docks and milfoil was critical.",
+      "conditions": {},
+      "source": "meet-elites-cory-johnston.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "rivalry-drives-improvement",
+      "insight": "Johnston: Having a sibling rivalry with brother Chris pushes both to be better. They help each other out, which is especially advantageous during practice.",
+      "conditions": {},
+      "source": "meet-elites-cory-johnston.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "aoy-ambition",
+      "insight": "Johnston: Without a doubt, my goal is to win the AOY Title.",
+      "conditions": {},
+      "source": "meet-elites-cory-johnston.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "duplicate-article-note",
+      "insight": "Johnston: This article is identical content to meet-elites-cory-johnston.txt, published under a different URL. See that extraction for all opinions and knowledge.",
+      "conditions": {},
+      "source": "meet-the-elites-cory-johnston.txt"
+    },
+    {
+      "category": "bait-design",
+      "topic": "cj-smasher-design",
+      "insight": "Johnston: Co-designed the SPRO CJ Smasher with brother Chris. The 3-inch soft plastic uses Dura Tuff material that is super soft yet super tough, floats completely for great action, and features Amino Bite scent with amino acids that create a scent trail through the water column.",
+      "conditions": {},
+      "source": "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "cj-smasher-versatility",
+      "insight": "Johnston: The CJ Smasher is best suited for drop shot, jig head, or Texas rig applications. It works in both freshwater and saltwater.",
+      "conditions": {},
+      "source": "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "st-johns-spawning-bass-mindset",
+      "insight": "Johnston: Any time we've been to the St. Johns, my mind goes toward trying to find spawning bass. You can always catch one or two big spawners and fill out a big limit.",
+      "conditions": {
+        "season": "spawn",
+        "waterBody": "St. Johns River"
+      },
+      "source": "st-johns-river-florida-bass-fishing-report-best-baits-tactics.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "news-roundup-no-new-content",
+      "insight": "Johnston: This is a news roundup article summarizing his 2025 St. Lawrence Open win (74-15 three-day total). No new technique details beyond what is covered in the primary win article.",
+      "conditions": {},
+      "source": "starting-spot-johnston-wins-st-lawrence-flying-bass-hits-truck-smallmouth-bass-world-record.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "smallmouth-spawn-cycle",
+      "insight": "Johnston: After ice-out, smallmouth come into back bays and shallows to feed. Then big fish disappear - they go back over deep water and suspend to get ready for the spawn. Once the spawn gets close, big females pull back in.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "pre-spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "smallmouth-spawn-temperature",
+      "insight": "Johnston: Smallmouth start making beds when water reaches the mid-50s. The optimal spawning temperature is between 55 and 65 degrees.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "biggest-smallmouth-spawn-first",
+      "insight": "Johnston: A lot of the biggest smallmouth spawn first, but there's no set rule. You can definitely find a few big ones kicking around late into the spawn.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "sight-fishing-deep-smallmouth-beds",
+      "insight": "Johnston: Sight fish for bedding smallmouth as deep as 20 feet in clear water, or as shallow as 1 foot in the same area. Start looking in the 8-10 foot range. In tournament practice, just look without throwing so you know what you're getting into.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "smallmouth-bed-substrate",
+      "insight": "Johnston: Smallmouth like to spawn on something - rock, gravel, a boulder, patch of weeds, a stick, cracks of slate. Sometimes they'll be on a gravel flat in the middle of nowhere.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-smallmouth-shallow",
+      "insight": "Johnston: Unlike largemouth, female smallmouth generally hang out shallow after they spawn because the water is warmer. They feed up post-spawn. Some stay shallow for a month or two; some go straight to deep water depending on the fishery.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "post-spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "high-water-spring-benefit",
+      "insight": "Johnston: A late cold spring with high water isn't bad for smallmouth fishing - it can actually make it better.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "pre-spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "bedfish-basic-baits",
+      "insight": "Johnston: For bedding smallmouth, throw basic baits like a tube, drop shot, or Senko right into the bed.",
+      "conditions": {
+        "species": "smallmouth",
+        "season": "spawn"
+      },
+      "source": "sturgeon-bay-small-talk.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "paywall-content-unavailable",
+      "insight": "Johnston: This article is behind a B.A.S.S. membership paywall. The accessible text only states Johnston gives a bait breakdown of the key lure used while battling waves of Lake Ontario en route to his second Elite Series title of 2024. No technique details are accessible.",
+      "conditions": {},
+      "source": "tackle-tip-tuesday-how-cory-johnston-broke-100-pounds-at-st-lawrence-river.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "paywall-content-unavailable",
+      "insight": "Johnston: This article is behind a B.A.S.S. membership paywall. The accessible text only states it covers baits used by the Top 10 pros at the 2024 MAXAM Tire Bassmaster Elite at St. Johns River. No technique details are accessible.",
+      "conditions": {},
+      "source": "top-lures-of-the-st-johns-river.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "aqua-vu-for-river-smallmouth",
+      "insight": "Johnston: On the St. Lawrence River, sonar doesn't always mark bass on drop-offs, which are key spots where bass push bait. River bass sit very tight to bottom. The Aqua-Vu HD10i Pro with on-screen water temp and depth, using the XD Trolling Fin and extra XD weight, gets down to depth and provides a stable picture of what's happening.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "top-tournament-anglers-call-out-rewards-aqua-vu-underwater-camera.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "drop-offs-bait-pushing",
+      "insight": "Johnston: Drop-offs are the key structure on the St. Lawrence because bass can push bait up against them. Sonar won't mark these tight-to-bottom fish, making an underwater camera essential for confirming fish presence.",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "top-tournament-anglers-call-out-rewards-aqua-vu-underwater-camera.txt"
+    }
+  ]
+}

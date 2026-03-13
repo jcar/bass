@@ -1,0 +1,20 @@
+{
+  "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": ["summer"], "species": ["smallmouth"] }, "tip": "Johnston: Use a 3/4-ounce drop shot weight when targeting pressured smallmouth in deep water up to 35 feet on the St. Lawrence River.", "priority": 10 },
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: When fish aren't grouped up due to heavy pressure, adopt a run-and-gun approach hitting isolated structure rather than working one area. Hit 40+ spots catching one here and one there.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "pressure-adjustment-st-lawrence", "insight": "Johnston: When extreme fishing pressure pushes smallmouth off typical spots, hunt individual bass in areas with less pressure on flats with isolated structure.", "conditions": { "season": "summer" } },
+    { "category": "electronics", "topic": "livescope-pressured-smallmouth", "insight": "Johnston: Use Garmin LiveScope to pick apart structure and look for bigger fish when smallmouth are pressured and not in their typical locations.", "conditions": { "season": "summer" } },
+    { "category": "depth-strategy", "topic": "extreme-depth-range-smallmouth", "insight": "Johnston: Pressured St. Lawrence smallmouth can range from 2 feet to 35 feet deep in the same day. Be willing to fish the full water column.", "conditions": { "season": "summer" } },
+    { "category": "fish-behavior", "topic": "pressure-changes-fish-location", "insight": "Johnston: Heavy recreational and tournament pressure on the St. Lawrence causes fish to behave differently and not go to where they're typically at.", "conditions": { "season": "summer" } }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source": "cold-water-bass-tactics-with-cory-johnston.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"], "waterTemp": "40-degree range" },
+          "tip": "Johnston: In cold water around 40 degrees, slow-twitch a suspending jerkbait for largemouth bass that are suspending in the water column. Target the middle to bottom of the water column and work lures with a sluggish style.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["winter"], "waterTemp": "40-degree range" },
+          "tip": "Johnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["winter"] },
+          "tip": "Johnston: In cold-water months, slow drag jigs. Use drift paddles to dial down drift speed and control your presentation for more effective casting and a better hookup ratio. Be methodical to stay in the strike zone.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "season": ["winter"] },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-water-general-approach",
+      "insight": "Johnston: Everything from your technique to the fish themselves pretty much slows down when it gets cold in that 40-degree range. You have to adapt and change tactics — target the middle to bottom of the water column and work lures with a sluggish style.",
+      "conditions": { "season": "winter", "waterTemp": "40-degree range" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "cold-water-species-preferences",
+      "insight": "Johnston: For smallmouth bass in cold water, they seem to key in on tube jigs or a swimbait better than jerkbaits. For largemouth, suspending jerkbaits and deep-drop jigs are the go-to.",
+      "conditions": { "season": "winter" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "cold-water-shallow-anchoring",
+      "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard with repeated casts to get a strike.",
+      "conditions": { "season": "winter", "depth": "2-10 feet" }
+    }
+  ]
+}

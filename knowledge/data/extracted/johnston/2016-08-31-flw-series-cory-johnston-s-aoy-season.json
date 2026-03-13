@@ -1,0 +1,37 @@
+{
+  "source": "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: On Lake Ontario and the 1000 Islands, a drop-shot is the go-to for targeting smallmouth on the open lake.",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "flipping-rod-power-selection",
+      "insight": "Johnston: Rod power matters when flipping. I switched from a 4-power GLX flipping stick to a 5-power NRX and the stiffer butt section was so powerful I was ripping holes in fish mouths on the hookset, losing four 4-pounders. Going down to a 4-power NRX solved it - never lost a fish on the jig afterward.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "casting-vs-flipping-grass",
+      "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "mental-approach",
+      "topic": "no-internet-scouting-figure-it-out",
+      "insight": "Johnston: We're not really guys that do a lot of research on the Internet. We just back the boat in and figure it out.",
+      "conditions": {}
+    }
+  ]
+}

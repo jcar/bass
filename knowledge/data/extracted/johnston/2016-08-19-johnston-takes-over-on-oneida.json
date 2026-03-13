@@ -1,0 +1,25 @@
+{
+  "source": "2016-08-19-johnston-takes-over-on-oneida.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "isolated-spots-run-and-gun",
+      "insight": "Johnston: Run a bunch of isolated spots where there's one or two fish, hitting upwards of 40 different spots per day. Don't be afraid to stop on new water that looks good to test it out.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "structure-reading",
+      "topic": "rock-weed-transition-shallow",
+      "insight": "Johnston: Fish regular rock/weed transition areas, anywhere from 12 feet deep right up to about a foot of water.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "calm-clear-advantage-shallow",
+      "insight": "Johnston: I need the sun and the calm. Most people want the wind to blow, but I want it to be really tough on everybody because I figured out a method to catch them when it's really slick.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

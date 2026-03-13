@@ -1,0 +1,38 @@
+{
+  "source": "2015-06-29-johnston-targets-beds-for-big-limit.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn", "post-spawn"] },
+          "tip": "Johnston: Drop-shot green-pumpkin soft plastics when targeting spawning and postspawn bass in 3 to 18 feet of water.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "spawn-sight-fishing-size-judging",
+      "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day.",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "postspawn-transition-deeper-water",
+      "insight": "Johnston: After catching spawners early, chase postspawners in deeper water at spots no one else knows about. Having secret deeper-water spots for postspawn fish can produce multiple 5-pounders.",
+      "conditions": { "season": "post-spawn" }
+    }
+  ]
+}

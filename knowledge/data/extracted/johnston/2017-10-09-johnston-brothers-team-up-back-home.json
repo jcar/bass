@@ -1,0 +1,25 @@
+{
+  "source": "2017-10-09-johnston-brothers-team-up-back-home.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "depth": "deep" },
+          "tip": "Johnston: When the need calls for going deep for smallmouth, switch to a drop-shot rod with a Jackall Crosstail Shad.",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "smallmouth-swimbait-shallow-setup",
+      "insight": "Johnston: For tossing swimbaits up shallow for smallmouth, use a G.Loomis GLX 892S spinning rod with a Shimano Sustain 2500 reel. For deep drop-shot, use NRX 822S rods.",
+      "conditions": {}
+    }
+  ]
+}

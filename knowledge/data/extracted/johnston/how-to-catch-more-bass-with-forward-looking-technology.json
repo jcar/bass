@@ -1,0 +1,11 @@
+{
+  "source": "how-to-catch-more-bass-with-forward-looking-technology.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "electronics", "topic": "livescope-gain-and-distance-settings", "insight": "Johnston: Sets Garmin LiveScope gain at 60-65 and distance at 75 feet for his comfort zone. As soon as a fish appears on screen, he makes a precise cast landing within 5 feet of the fish using muscle memory for the 75-foot range.", "conditions": {} },
+    { "category": "electronics", "topic": "livescope-finding-unfindable-structure", "insight": "Johnston: Forward-facing sonar is particularly important for picking out subtleties like anomalies in grass lines and spotting individual fish. Found a sunken barrel on a featureless Lake St. Clair flat with fish sitting on it -- never would have found it without forward-facing sonar.", "conditions": {} },
+    { "category": "electronics", "topic": "livescope-bottom-fish-detection", "insight": "Johnston: Fish pinned to the bottom may elude 2D sonar, but with forward-facing sonar you can spot wiggling fins that betray hidden bass. When you throw your bait to them, you see their tail and fins speed up as they race to your bait.", "conditions": {} },
+    { "category": "electronics", "topic": "livescope-casting-efficiency", "insight": "Johnston: With LiveScope at 75 feet, you don't waste time chasing fish or making 2-3 attempts. Just look where the trolling motor is facing and make the cast. Extremely efficient -- no wasted casts.", "conditions": {} }
+  ]
+}

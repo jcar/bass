@@ -1,0 +1,13 @@
+{
+  "source": "cory-johnstons-worst-fishing-day-ever.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "time-management-check-in",
+      "insight": "Johnston: Always verify your time against official tournament clocks, not just your boat graphs or cell phone. A mismatch cost me 7 pounds of penalties (1 pound per minute late) and dropped me from 7th to 60th, likely costing a shot at Angler of the Year and winning the tournament.",
+      "conditions": {}
+    }
+  ]
+}

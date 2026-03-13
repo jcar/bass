@@ -1,0 +1,9 @@
+{
+  "source": "dont-mess-with-the-johnston-brothers.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "fish-behavior", "topic": "zebra-mussel-smallmouth-growth", "insight": "Johnston: Zebra mussels clearing the water in the St. Lawrence River system led to goby proliferation, which fueled dramatic smallmouth growth. Clearer water also enabled new sight-based angling techniques.", "conditions": { "species": "smallmouth" } },
+    { "category": "tournament-strategy", "topic": "practice-separately-fish-together", "insight": "Johnston: When team fishing with a partner, practice in separate boats on official practice days to cover more water, then combine information for tournament days.", "conditions": {} }
+  ]
+}

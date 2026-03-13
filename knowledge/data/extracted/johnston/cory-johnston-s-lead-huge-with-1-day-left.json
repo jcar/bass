@@ -1,0 +1,37 @@
+{
+  "source": "cory-johnston-s-lead-huge-with-1-day-left.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "technique": "bed fishing" },
+          "tip": "Johnston: Flip a variety of Texas-rigged plastics to bed fish while watching them on live sonar to monitor locations and reactions. Keep looking and looking until you come across them — with recreational boat traffic stirring the water, persistence is key.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "background-as-largemouth-flipper",
+      "insight": "Johnston: Where we grew up, it was all largemouth fishing — the smallmouth weren't as relevant. We grew up punching mats, flipping reeds and that kind of stuff.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "backup-plan-readiness",
+      "insight": "Johnston: Always have a backup plan ready. At St. Johns, I had one I hadn't needed to use all week but felt the final day would be the day to deploy it — being prepared to pivot is essential.",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "live-sonar-bed-fishing",
+      "insight": "Johnston: Watch bed fish on live sonar to monitor their locations and reactions to your presentation. This lets you know when they're cooperative and when to move on.",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

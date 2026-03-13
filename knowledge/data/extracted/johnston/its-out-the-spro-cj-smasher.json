@@ -1,0 +1,23 @@
+{
+  "source": "its-out-the-spro-cj-smasher.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": {}, "tip": "Johnston: The SPRO CJ Smasher 3-inch worm is incredibly versatile -- can be rigged drop shot, shakey head, midwest finesse rig, or Texas rig. Poured with Dura Tuff material for durability and Amino Bite scent for committed strikes from finicky fish.", "priority": 7 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": {}, "tip": "Johnston: The CJ Smasher works well on a midwest finesse (Ned) rig. Easily fished in weeds, rocky points, and shot into cover or under docks where big fish live.", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "bait-design", "topic": "cj-smasher-design-philosophy", "insight": "Johnston: Developed the SPRO CJ Smasher as a versatile 3-inch worm that is durable (Dura Tuff material), scent-infused (Amino Bite), and can be rigged multiple ways including drop shot, shakey head, Ned rig, and Texas rig.", "conditions": {} }
+  ]
+}

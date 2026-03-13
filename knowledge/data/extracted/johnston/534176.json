@@ -1,0 +1,37 @@
+{
+  "source": "534176.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "depth": "deep" },
+          "tip": "Johnston: On the St. Lawrence, fish an 80-yard stretch of bottom in about 40 feet targeting a pod of giant smallmouth. Catch one, then leave the spot and make a big run away before returning, because pressured deepwater smallmouth shut down after each catch.",
+          "priority": 11
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "fish-behavior",
+      "topic": "pressured-smallmouth-sensitivity",
+      "insight": "Johnston: Pressured St. Lawrence smallmouth are extremely sensitive. Catch one and they shut down. Time and distance are the best remedy - make a big run away from the spot between catches. It's like night and day from even two years ago.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-deep-smallmouth",
+      "insight": "Johnston: Use Garmin LiveScope to track down deep smallmouth and make the perfect cast. In rough conditions with big waves, efficiency drops because it's harder to use LiveScope accurately.",
+      "conditions": {}
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "four-bait-rotation-pressured-smallmouth",
+      "insight": "Johnston: Use a four-bait rotation for picky pressured smallmouth. Figured out something about rigging and presentation that makes the difference - it has to do with how you rig and present the bait, not just what bait you use.",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "cory-johnston.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Johnston: The G Finesse Drop Shot hooks from SPRO are his signature/favorite bait. Drop shot is a core technique.",
+          "priority": 6
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "favorite-techniques",
+      "insight": "Johnston: Favorite techniques are flipping and sight fishing. Favorite lakes are Lake Simcoe and Lake Ontario.",
+      "conditions": {}
+    }
+  ]
+}

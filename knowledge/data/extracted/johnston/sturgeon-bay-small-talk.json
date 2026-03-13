@@ -1,0 +1,31 @@
+{
+  "source": "sturgeon-bay-small-talk.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "species": ["smallmouth"] }, "tip": "Johnston: During the prespawn, do a lot more dragging with a drop shot because smallmouth are sitting on bottom eating gobies and crayfish rather than on beds.", "priority": 9 },
+        { "when": { "season": ["spawn"], "species": ["smallmouth"] }, "tip": "Johnston: For bedding smallmouth, throw a drop shot right into the bed, pick up the trolling motor, and go straight to the next bed. It's a one-and-move approach.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": { "season": ["pre-spawn"], "species": ["smallmouth"] }, "tip": "Johnston: There's a short window between prespawn and spawn when the water is warm enough to catch smallmouth on a jerkbait.", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "smallmouth-spawn-cycle", "insight": "Johnston: After ice-out, smallmouth come into back bays and shallows to feed. Then big fish disappear - they go back over deep water and suspend to get ready for the spawn. Once the spawn gets close, big females pull back in.", "conditions": { "species": "smallmouth", "season": "pre-spawn" } },
+    { "category": "seasonal-pattern", "topic": "smallmouth-spawn-temperature", "insight": "Johnston: Smallmouth start making beds when water reaches the mid-50s. The optimal spawning temperature is between 55 and 65 degrees.", "conditions": { "species": "smallmouth", "season": "spawn" } },
+    { "category": "seasonal-pattern", "topic": "biggest-smallmouth-spawn-first", "insight": "Johnston: A lot of the biggest smallmouth spawn first, but there's no set rule. You can definitely find a few big ones kicking around late into the spawn.", "conditions": { "species": "smallmouth", "season": "spawn" } },
+    { "category": "retrieve-technique", "topic": "sight-fishing-deep-smallmouth-beds", "insight": "Johnston: Sight fish for bedding smallmouth as deep as 20 feet in clear water, or as shallow as 1 foot in the same area. Start looking in the 8-10 foot range. In tournament practice, just look without throwing so you know what you're getting into.", "conditions": { "species": "smallmouth", "season": "spawn" } },
+    { "category": "seasonal-pattern", "topic": "smallmouth-bed-substrate", "insight": "Johnston: Smallmouth like to spawn on something - rock, gravel, a boulder, patch of weeds, a stick, cracks of slate. Sometimes they'll be on a gravel flat in the middle of nowhere.", "conditions": { "species": "smallmouth", "season": "spawn" } },
+    { "category": "seasonal-pattern", "topic": "post-spawn-smallmouth-shallow", "insight": "Johnston: Unlike largemouth, female smallmouth generally hang out shallow after they spawn because the water is warmer. They feed up post-spawn. Some stay shallow for a month or two; some go straight to deep water depending on the fishery.", "conditions": { "species": "smallmouth", "season": "post-spawn" } },
+    { "category": "weather-adaptation", "topic": "high-water-spring-benefit", "insight": "Johnston: A late cold spring with high water isn't bad for smallmouth fishing - it can actually make it better.", "conditions": { "species": "smallmouth", "season": "pre-spawn" } },
+    { "category": "lure-selection", "topic": "bedfish-basic-baits", "insight": "Johnston: For bedding smallmouth, throw basic baits like a tube, drop shot, or Senko right into the bed.", "conditions": { "species": "smallmouth", "season": "spawn" } }
+  ]
+}

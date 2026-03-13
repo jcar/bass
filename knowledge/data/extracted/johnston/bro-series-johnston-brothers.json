@@ -1,0 +1,19 @@
+{
+  "source": "bro-series-johnston-brothers.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "patience-with-deep-electronics",
+      "insight": "Johnston: I learned a lot from my brother Chris about being patient, slowing down and being methodical when using electronics out deep.",
+      "conditions": { "depth": "deep" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "team-practice-strategy",
+      "insight": "Johnston: In team tournaments, practice separately and then merge findings for the good of the team. We made a pact to do this from our early teens and it has always worked well.",
+      "conditions": {}
+    }
+  ]
+}

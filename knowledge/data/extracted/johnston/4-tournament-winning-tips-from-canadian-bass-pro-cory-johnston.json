@@ -1,0 +1,54 @@
+{
+  "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "species": "smallmouth" },
+          "tip": "Johnston: For smallmouths, drop-shot Jackall Cross Tail Shads, then switch to a tube jig when you find the right kind of clean bottom.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "species": "smallmouth", "bottom": "clean" },
+          "tip": "Johnston: You can't beat a tube jig if the bottom's clean. It imitates a crayfish or a goby.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-fishing-no-casting",
+      "insight": "Johnston: When pre-fishing, very rarely make a cast, because you'd only sting fish you could catch in the tournament. Instead, closely watch sonar looking for the right kind of bottom.",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-bottom-composition",
+      "insight": "Johnston: You can find smallmouth on rock, you can find them on sand. It doesn't really seem to matter as long as the bottom's not covered in moss or weeds.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pressure-downsize-isolated-spots",
+      "insight": "Johnston: Where there's a lot of angling pressure, downsize your line and hooks, and try to get off the beaten path. Look for spots on the spot - anything different like rock and weed mixed in, or bigger pockets in grass. It's something small or isolated where people aren't all over it.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "smallmouth-spinning-rod-specs",
+      "insight": "Johnston: For smallmouths, use a seven-foot six-inch rod that doesn't have a lot of backbone, allowing long casts with small baits on light line. That's especially important in clear water.",
+      "conditions": { "clarity": "clear" }
+    }
+  ]
+}

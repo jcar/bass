@@ -1,0 +1,18 @@
+{
+  "source": "cracking-code-century-club.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"] }, "tip": "Johnston: Smooth drag is a big key to fighting big smallmouth on 6-lb test drop shot. Use a soft rod to absorb their runs and headshakes.", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "gear", "topic": "drop-shot-rod-reel-pairing", "insight": "Johnston: For big smallmouth drop shot fishing, pairs a Daiwa Ballistic 2500 reel with a Cody Meyer Tatula Elite signature drop shot rod. The parabolic bend and smooth drag are critical on 6-lb test.", "conditions": { "species": "smallmouth" } },
+    { "category": "gear", "topic": "downsizing-for-more-bites", "insight": "Johnston: The soft rod setup was critical to letting him downsize line to get more bites at the event. Having the soft rod to absorb runs and headshakes helped.", "conditions": { "species": "smallmouth" } },
+    { "category": "gear", "topic": "dual-drop-shot-rod-system", "insight": "Johnston: Fishes two drop shot rods -- a Tatula Elite 7'0\" with 8-lb test and a 6'10\" light-action BLX with 6-lb test. The EXIST 3000 reel drag is absolutely key when fishing big smallmouth.", "conditions": { "species": "smallmouth" } }
+  ]
+}

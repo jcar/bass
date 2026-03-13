@@ -1,0 +1,9 @@
+{
+  "source": "even-on-elites-johnstons-share-information-winnings-and-costs.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "sharing-practice-information", "insight": "Johnston: Sharing all practice information with a trusted partner doubles your water coverage. If your partner says there are no fish in an area, you don't have to waste time checking it yourself.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "knowing-partner-fishing-style", "insight": "Johnston: When you and your practice partner are essentially the same person when it comes to fishing, you know how they'll fish and where they'll go. That eliminates redundancy and maximizes efficiency.", "conditions": {} }
+  ]
+}

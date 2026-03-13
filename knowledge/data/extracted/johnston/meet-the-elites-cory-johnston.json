@@ -1,0 +1,8 @@
+{
+  "source": "meet-the-elites-cory-johnston.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "duplicate-article-note", "insight": "Johnston: This article is identical content to meet-elites-cory-johnston.txt, published under a different URL. See that extraction for all opinions and knowledge.", "conditions": {} }
+  ]
+}

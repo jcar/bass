@@ -1,0 +1,69 @@
+{
+  "source": "2016-08-20-king-in-the-north.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Spy Bait",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: Use a DUO Realis Spinbait 80 in ghost pearl for sight-fishing shallow smallmouth on isolated rock piles in 4 feet or less.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "clarity": "clear" },
+          "color": "Ghost Pearl",
+          "hex": "#f5f0e1",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: Use a Rapala X-Rap Pop in chartreuse ghost to locate big fish on shallow rock piles in summer. If you catch a 4-pounder and 3-pounder on topwater, you know the big fish are shallow.",
+          "priority": 8
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Chartreuse Ghost",
+          "hex": "#d4e88b",
+          "priority": 7
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "retrieve-technique",
+      "topic": "pressured-fish-drag-presentation",
+      "insight": "Johnston: On pressured fisheries, if fish see your bait fall they spook every time. Overshoot them and drag your bait to the fish - they'll eat it every time. The key is not letting them see your bait fall.",
+      "priority": 11,
+      "conditions": {}
+    },
+    {
+      "category": "structure-reading",
+      "topic": "isolated-shallow-targets-summer",
+      "insight": "Johnston: Key on isolated rock piles off the shore in 4 feet or less. Anything that provides a transition - rock pile, patch of sand, clump of weeds - a shallow bass can key on is fair game in summer.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "new-lake-no-preconceptions",
+      "insight": "Johnston: When you haven't been to a lake before, you're not going in with a preconceived notion of what the fish were doing last time. You can really figure it out and zone in on them real good.",
+      "conditions": {}
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-stain-forces-deeper-adjustment",
+      "insight": "Johnston: When wind creates waves and stains shallow water, move to sheltered secondary spots that aren't too close to shallow water so they aren't stained. When shallow is blown out, fish a break with a moving bait.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

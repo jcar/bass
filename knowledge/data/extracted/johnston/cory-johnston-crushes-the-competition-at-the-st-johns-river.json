@@ -1,0 +1,42 @@
+{
+  "source": "cory-johnston-crushes-the-competition-at-the-st-johns-river.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "technique": "bed fishing" },
+          "tip": "Johnston: When bed fishing, drop shot a finesse worm alongside flipping presentations. Use Garmin Perspective Mode and a Power-Pole Move trolling motor to see and target bed fish.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "technique": "bed fishing" },
+          "tip": "Johnston: Flip various worms and creature baits to bed fish. When the bed fish pattern starts dwindling, switch to flipping spatterdock (pads) on the main river for big bites — this produced a 7-12.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "managing-dwindling-pattern",
+      "insight": "Johnston: When a main pattern starts dwindling, have a backup plan ready. At St. Johns, flipping pads on the main river when the bed fish pattern faded was probably the best decision I could have made — it produced my biggest fish.",
+      "conditions": { "season": "spawn" }
+    },
+    {
+      "category": "electronics",
+      "topic": "perspective-mode-bed-fishing",
+      "insight": "Johnston: Garmin Perspective Mode is critical for bed fishing in low-visibility conditions. Relied heavily on it along with the Power-Pole Move trolling motor for targeting bed fish.",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

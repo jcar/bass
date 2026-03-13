@@ -1,0 +1,25 @@
+{
+  "source": "a-special-week-on-familiar-waters.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "versatility-across-fisheries",
+      "insight": "Johnston: Consistency and success on tour comes from being a well-rounded angler. I don't feel like there's a technique at which I cannot excel, which means it's a matter of figuring out what I need to do and then executing to the best of my abilities.",
+      "conditions": {}
+    },
+    {
+      "category": "mental-approach",
+      "topic": "commitment-to-gameplan-rough-conditions",
+      "insight": "Johnston: On Lake Ontario in big waves, I prepared my whole life for that moment. All of my equipment is up to the task. Don't abandon the plan to run to the lake because of wind and waves if you've prepared properly and know what lives on those spots.",
+      "conditions": { "waterBody": "Lake Ontario" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "deep-smallmouth-lake-ontario",
+      "insight": "Johnston: Won two Elite events in one season on very different fisheries — one largemouth chasing shallow fish, and the other deep smallmouth. Being able to adapt between the two is key.",
+      "conditions": {}
+    }
+  ]
+}

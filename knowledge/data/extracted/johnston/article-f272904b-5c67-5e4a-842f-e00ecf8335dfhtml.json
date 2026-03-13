@@ -1,0 +1,42 @@
+{
+  "source": "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "depth": "deep" },
+          "tip": "Johnston: Use a drop-shot with a 3/8-ounce weight and a 4-inch worm on a No. 2 Gamakatsu G-Finesse hook for deepwater smallmouth on Lake Ontario in 18 to 42 feet over rock structure.",
+          "priority": 10
+        },
+        {
+          "when": { "season": ["summer"] },
+          "tip": "Johnston: Use Power-Pole Drift Paddles to slow your drift in big water with 6-foot waves. Drift with the wind using LiveScope to cover a lot of water while drop-shotting.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-lake-ontario",
+      "insight": "Johnston: Run a milk run on Lake Ontario starting at the closest spot and working out to the farthest, then come in. Use Garmin LiveScope to cover water while drifting. Pretty simple - just cover a lot of water over rock structure in 18 to 42 feet.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "local-knowledge-advantage",
+      "insight": "Johnston: Local knowledge is invaluable. Having a lot of spots on Lake Ontario means you only need two days of pre-fishing when you know the place well.",
+      "conditions": {}
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-shelter-strategy-big-water",
+      "insight": "Johnston: On big water, commit to the lake when the wind direction gives you shelter from a point or land feature. Staying sheltered can reduce 8-foot waves to 6-footers, which is fishable.",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "johnston-bags-2nd-win-of-24-with-102-pounds.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"], "season": ["summer"] }, "tip": "Johnston: Won with 102 lbs of smallmouth on drop shot. Fished an 80-yard stretch at 33 feet in Lake Ontario. Used 3/8-oz weight in all conditions but adapted presentation -- motionless on calm days, dragged through fish on windy days.", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "commit-to-lake-over-river", "insight": "Johnston: Learned from a previous mistake of spending too much time in the river. Committed to fishing Lake Ontario exclusively even with only about 3 hours of fishing time per day due to long runs and rough conditions.", "conditions": { "species": "smallmouth", "season": "summer" } },
+    { "category": "depth-strategy", "topic": "deep-smallmouth-lake-ontario", "insight": "Johnston: Did most of his work on an 80-yard stretch of bottom in 33 feet loaded with big smallmouth. Even in 8-10 foot waves, the deep fish were worth the commitment.", "conditions": { "species": "smallmouth", "season": "summer" } }
+  ]
+}

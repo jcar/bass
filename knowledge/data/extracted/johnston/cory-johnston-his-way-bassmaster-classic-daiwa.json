@@ -1,0 +1,65 @@
+{
+  "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": ["timber"] },
+          "tip": "Johnston: For summer offshore fishing with big crankbaits like a 10XD, use an 8-foot medium-heavy fiberglass cranking rod. The 8-foot length allows the longest cast possible to get the bait down quickly and keep it at maximum depth longer. Fiberglass gives bass an extra second to get the bait and you'll hook more fish.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Football Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": ["timber", "offshore"] },
+          "tip": "Johnston: Drag a football jig around standing timber and offshore hard spots. Use a 7'4\" heavy frog-style rod and a fast 8.1:1 reel to pick up line quickly and get a good hookset in deep water. In Texas timber, you need heavy line and a fast reel to get fish away from cover.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Carolina Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["summer"], "structure": ["offshore"] },
+          "tip": "Johnston: Use big baits on a Carolina Rig for bigger fish offshore — 10-inch worms, magnum flukes, and full-sized creature baits. Fish it on the same hard spots as a football jig. Use an 8.1:1 reel to pick up slack quickly and a heavy flipping rod.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "oversized-reel-for-distance",
+      "insight": "Johnston: Use a larger reel like the Daiwa Tatula 150 size for swimbaits and big crankbaits — it holds more line and helps cast big baits further.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "fiberglass-for-crankbaits",
+      "insight": "Johnston: Fiberglass rods for crankbaits allow bass an extra second to really get the bait, so you hook more crankbait fish compared to graphite.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "classic-big-bait-mentality",
+      "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-in-timber",
+      "insight": "Johnston: In a lake full of timber, idle a bunch and use LiveScope to play a big part in finding fish. The technology is essential when navigating and fishing around heavy timber cover.",
+      "conditions": { "structure": "timber" }
+    }
+  ]
+}

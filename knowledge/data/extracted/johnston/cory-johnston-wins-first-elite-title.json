@@ -1,0 +1,36 @@
+{
+  "source": "cory-johnston-wins-first-elite-title.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "technique": "bed fishing" },
+          "tip": "Johnston: Drop shot a finesse worm to bed fish alongside flipping worms and creature baits. Use Garmin Perspective Mode and Power-Pole Move trolling motor for targeting bed fish.",
+          "priority": 9
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Texas Rig (Creature Bait)",
+      "tipRules": [
+        {
+          "when": { "season": ["spawn"], "cover": ["pads", "spatterdock"] },
+          "tip": "Johnston: When the bed fish bite dwindles, flip spatterdock (pads) on the main river. This produced a 7-12 and was the best decision for the final day. Manage your fish well and be willing to pivot to a backup pattern.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-management-pattern-shift",
+      "insight": "Johnston: Managed fish well and made good decisions across four days. When the main bed-fishing pattern dwindled on the final day, shifting to flipping pads on the main river was the best decision — it produced the biggest fish of the day.",
+      "conditions": { "season": "spawn" }
+    }
+  ]
+}

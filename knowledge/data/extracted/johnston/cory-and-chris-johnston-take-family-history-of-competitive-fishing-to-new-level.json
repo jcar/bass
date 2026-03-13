@@ -1,0 +1,19 @@
+{
+  "source": "cory-and-chris-johnston-take-family-history-of-competitive-fishing-to-new-level.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-fishing-scouting-approach",
+      "insight": "Johnston: During pre-fishing, cruise around the tournament site examining the lake bottom and looking for irregularities that might represent opportunities. Rarely make a cast during these tours — why risk snagging a fish in practice that you could catch in competition?",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "research-over-practice",
+      "insight": "Johnston: Practice helps, but research makes the difference. Pool knowledge with partners, develop and test theories about how to do things differently.",
+      "conditions": {}
+    }
+  ]
+}

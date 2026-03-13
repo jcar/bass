@@ -1,0 +1,16 @@
+{
+  "source": "johnston-claims-second-bassmaster-elite-title-with-win-at-st-lawrence-river.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "species": ["smallmouth"], "season": ["summer"] }, "tip": "Johnston: For Century Club smallmouth weights, fish a drop shot with 6th Sense Party Minnow and prototype minnow baits. Use 3/8-oz weight regardless of conditions but change presentation -- dead still on calm days, drag through on rough days.", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "century-club-smallmouth-commitment", "insight": "Johnston: First angler to earn a Bassmaster Century Club Belt with all smallmouth (100-5 in 2022). Repeated it with 102 lbs in 2024. Key is committing to known big-fish areas even when conditions are tough.", "conditions": { "species": "smallmouth", "season": "summer" } }
+  ]
+}

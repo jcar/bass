@@ -1,0 +1,19 @@
+{
+  "source": "377907.txt",
+  "anglerName": "Johnston",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "electronics",
+      "topic": "underwater-camera-river-smallmouth",
+      "insight": "Johnston: On the St. Lawrence River, sonar doesn't always mark bass on drop-offs because river bass are tight to the bottom. An underwater camera with a trolling fin and extra weight lets you get down to depth and get a stable picture of what's happening.",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "aqua-vu-dropoff-verification",
+      "insight": "Johnston: Drop-offs are key spots against which bass can push bait. Use an HD underwater camera with on-screen water temperature and depth to verify fish presence on these spots when sonar can't distinguish bottom-hugging bass.",
+      "conditions": {}
+    }
+  ]
+}
