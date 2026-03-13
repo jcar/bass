@@ -319,6 +319,8 @@ From KVD's cold-water crankbait article — shows the expected structure with op
 | Jacob Wheeler | wheeler | 72 | 22 | 188 | Cranking, electronics, moving baits |
 | Brandon Palaniuk | palaniuk | 65 | 14 | 151 | Finesse, clear water, drop shot |
 | Gary Yamamoto | yamamoto | 41 | 11 | 118 | Soft plastics, Senko, Texas Rig |
+| Cory Johnston | johnston | 60 | 12 | 163 | Drop shot, smallmouth, northern fisheries |
+| Matt Robertson | robertson | 54 | 12 | 83 | Offshore ledges, lipless, swim jig |
 
 ---
 
