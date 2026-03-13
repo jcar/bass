@@ -1,0 +1,27 @@
+{
+  "source": "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["winter"] }, "tip": "Robertson: Use a SPRO Big John crankbait in citrus color to target offshore bass holding on hard-bottom spots in 9-10 feet of water with no visible structure.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Citrus", "hex": "#ffa500", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": {}, "tip": "Robertson: Pair a 7-inch swimbait on a 1-oz jighead to target offshore bass on hard-bottom areas in 9-10 feet, where big fish stack up invisibly.", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "structure-reading", "topic": "offshore-hard-spots", "insight": "Robertson: Fish exclusively offshore by idling every inch of a lake to find hard-bottom spots in 9-10 feet with no visible structure. Use electronics to see big bass stacked on these areas -- spots as small as 40x50 yards can hold massive numbers.", "conditions": {} },
+    { "category": "electronics", "topic": "idling-for-offshore-spots", "insight": "Robertson: Idle every inch of the lake to find hard spots on the bottom. When you see big bass on electronics over featureless-looking bottom, commit to fishing offshore -- pull out big swimbaits, big spinnerbaits, and big crankbaits.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "die-doing-what-you-do-well", "insight": "Robertson: If you're going to fail, fail doing what you do well. When a shallow approach produces only 11 pounds, switch to offshore fishing with big baits if that's your strength.", "conditions": {} }
+  ]
+}

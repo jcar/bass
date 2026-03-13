@@ -1,0 +1,66 @@
+{
+  "source": "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"] },
+          "tip": "Robertson: Use a 7-inch swimbait on a 1-ounce jighead to target big bass on offshore hard-bottom spots with no visible structure, casting to fish spotted on electronics in 9-10 feet of water.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"] },
+          "tip": "Robertson: Pair a SPRO Little John XL crankbait with big swimbaits and spinnerbaits when targeting offshore bass on featureless hard-bottom areas in 9-10 feet of water.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "isClear": true },
+          "color": "Citrus",
+          "hex": "#ffa500",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"] },
+          "tip": "Robertson: Include a big spinnerbait in your offshore rotation alongside swimbaits and crankbaits when targeting bass grouped on hard-bottom spots.",
+          "priority": 8
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "offshore-hard-bottom-spots",
+      "insight": "Robertson: On fisheries known for shallow grass fishing like the Harris Chain, look for offshore hard-bottom spots 150 yards from shore in 9-10 feet of water. Idle over the area and use electronics to spot big bass — a 40x50 yard hard spot can hold fish that replenish daily.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-your-strengths-offshore",
+      "insight": "Robertson: If you're an offshore fisherman, commit to your style even on fisheries known for shallow patterns. When a shallow approach fails, go back to what you do well — if you're going to die, die doing what you do well.",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "idling-to-find-offshore-fish",
+      "insight": "Robertson: Idle every inch of a lake during practice to find offshore spots. Look for hard-bottom areas where you can see big bass on electronics, even if you can't get them to bite in practice.",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "robertson-goes-offshore-to-grab-lead-in-bassmaster-elite-series-event-on-pickwick-lake.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "summer-tva-get-off-the-bank",
+      "insight": "Robertson: On TVA lakes in summer, you have no choice but to get off the bank. 25+ years of experience on ledge fisheries like Kentucky Lake directly translates to success on similar Tennessee River impoundments like Pickwick.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "trigger-bigger-bites-offshore",
+      "insight": "Robertson: On offshore ledges you won't get a lot of bites, but one or two subtle adjustments that other anglers aren't doing can trigger the bigger bites that make the difference.",
+      "conditions": { "season": "summer", "structure": "ledges" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "community-holes-work-when-others-leave",
+      "insight": "Robertson: Don't avoid community holes on ledge fisheries. Fish some community spots and let other anglers fish ahead of you, but also have your own spots where you catch the bulk of your weight undisturbed.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

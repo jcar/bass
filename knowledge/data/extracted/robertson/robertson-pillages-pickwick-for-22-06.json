@@ -1,0 +1,11 @@
+{
+  "source": "robertson-pillages-pickwick-for-22-06.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [],
+  "knowledge": [
+    { "category": "depth-strategy", "topic": "tva-summer-ledges", "insight": "Robertson: On TVA (Tennessee Valley Authority) lakes in summer, you have no choice but to get off the bank. Fish the offshore ledges — that's where the bass live.", "conditions": { "season": "summer" } },
+    { "category": "retrieve-technique", "topic": "triggering-big-bites-on-ledges", "insight": "Robertson: On offshore ledges, you won't get a lot of bites, but there are little things you can do to trigger bigger bites that other anglers aren't doing — subtle presentation adjustments make the difference.", "conditions": { "season": "summer" } },
+    { "category": "tournament-strategy", "topic": "community-holes-patience", "insight": "Robertson: Don't avoid community holes on ledge fisheries — let other anglers fish through first, then work behind them. But save your best weight-producing spots where you won't have competition.", "conditions": { "season": "summer" } },
+    { "category": "structure-reading", "topic": "tennessee-river-ledge-experience", "insight": "Robertson: A lifetime of experience on Tennessee River ledge fisheries (Kentucky Lake, Pickwick) is invaluable — knowing how fish set up on ledges from years of fishing them gives you an edge others can't replicate.", "conditions": {} }
+  ]
+}

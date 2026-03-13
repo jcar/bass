@@ -1,0 +1,23 @@
+{
+  "source": "the-2020-opens-lure-trends.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Drop Shot",
+      "tipRules": [
+        { "when": { "season": ["fall"] }, "tip": "Robertson: A drop shot paired with a topwater can be a winning fall combination on Tennessee River reservoirs, especially under post-frontal conditions.", "priority": 8 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["fall"] }, "tip": "Robertson: Topwater can be the key fall pattern on highland reservoirs when tropical storms and post-front conditions scatter bass.", "priority": 8 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "tournament-strategy", "topic": "cherokee-lake-win-pattern", "insight": "Robertson: Won the Cherokee Lake Open with a drop shot and topwater combination during post-tropical-storm, post-frontal fall conditions.", "conditions": { "season": "fall" } }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "robertson-on-em-to-cement-day-2-lead-on-chick.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring"], "structure": ["grass"] }, "tip": "Robertson: Throw a lipless bait in grass during prespawn on Chickamauga — pair it with a big swimbait for a two-pronged offshore prespawn approach.", "priority": 10 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "weather-adaptation", "topic": "wind-on-pressured-lakes", "insight": "Robertson: Wind equalizes fishing pressure on Tennessee River lakes — the only thing that overcomes heavy pressure is weather. Root for it to blow hard.", "conditions": { "season": "spring" } },
+    { "category": "seasonal-pattern", "topic": "prespawn-cold-snap-benefit", "insight": "Robertson: During prespawn, a cold snap slowing fish from spawning keeps them in the offshore staging pattern longer, which benefits offshore anglers.", "conditions": { "season": "spring" } }
+  ]
+}

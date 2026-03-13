@@ -1,0 +1,44 @@
+{
+  "source": "crankbaits-for-bass-fishing-in-the-spring.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring"] }, "tip": "Robertson: Slow-roll a 3/8 or 1/2-oz lipless crankbait just off the bottom during the prespawn, moving it only 12-18 inches at a time in a yo-yo motion. Works in 1-6 feet on flats near deeper channel banks.", "priority": 11 },
+        { "when": { "season": ["spring"] }, "tip": "Robertson: On lakes without heavy vegetation, slow-roll the lipless along ledges, long bars, and underwater humps to target prespawners that may spawn in those areas.", "priority": 10 },
+        { "when": { "season": ["spring"] }, "tip": "Robertson: No matter how slow you reel a lipless crankbait, it still appeals to bass -- the slow short hops still rattle, vibrate, and look like an easy meal.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Shad", "hex": "#c0c0c0", "priority": 9 }
+      ]
+    },
+    {
+      "lure": "Squarebill Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring"] }, "tip": "Robertson: After the spawn, switch to a large-bodied squarebill (Berkley Frittside Biggun) to target postspawners on small tapering points and bars within 150 yards of spawning flats, in less than 10 feet. Retrieve fast and hit rocks, logs, stumps for reaction bites.", "priority": 11 },
+        { "when": { "season": ["spring"] }, "tip": "Robertson: Postspawn fish on points congregate on the highest spot of the bar, sometimes in just 3 feet of water. Larger rocks make these places more attractive. Use an erratic retrieve to fire up the school.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Kentucky Blue", "hex": "#4169e1", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring", "summer"] }, "tip": "Robertson: When postspawners leave the tapering points, follow them with a Berkley Dredger 20.5 or 25.5 down ditches and drainages 10-15 feet deep that lead from spawning flats toward the main lake.", "priority": 11 },
+        { "when": { "season": ["summer"] }, "tip": "Robertson: Cast a deep diver at a 45-degree angle across the point where a ditch intersects the main river channel. Position the boat on the downriver side. If current prevents the crankbait from diving, move upstream and cast downstream to retrieve against the current.", "priority": 10 },
+        { "when": { "season": ["spring", "summer"] }, "tip": "Robertson: Follow ditches out to where they meet the main river channel. At any intersection of channels, that point can be an important fishing spot. Bass are often up on top of that point.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "spring-crankbait-progression", "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following ditches and drainages 10-15 feet out to summer structure.", "conditions": { "season": "spring" } },
+    { "category": "retrieve-technique", "topic": "lipless-slow-roll-no-grass", "insight": "Robertson: On lakes without heavy vegetation (like Kentucky Lake), slow-roll the lipless just off the bottom rather than ripping it through grass. Move the bait only 12-18 inches at a time horizontally, almost like yo-yoing.", "conditions": { "season": "spring" } },
+    { "category": "seasonal-pattern", "topic": "postspawn-tapering-points", "insight": "Robertson: Postspawners don't immediately go deep. They hold on small tapering points and bars about 150 yards from spawning flats for about three weeks. New fish keep replenishing the spot.", "conditions": { "season": "spring" } },
+    { "category": "color-selection", "topic": "lipless-shad-colors-no-grass", "insight": "Robertson: Use shad-type colors for lipless crankbaits on lakes without vegetation -- not the reds and oranges that work in grass.", "conditions": {} },
+    { "category": "gear", "topic": "crankbait-rod-setup", "insight": "Robertson: Uses 12-lb Berkley Big Game mono for all crankbaits. 7-foot Ugly Stik (MH parabolic) for squarebills and lipless; 7'11\" Abu Garcia Winch (MH parabolic) for deep divers.", "conditions": {} },
+    { "category": "retrieve-technique", "topic": "deep-diver-ditch-following", "insight": "Robertson: When following postspawn bass down ditches with a deep diver, start by casting ahead and up on top, then bring the crankbait down the side of the ditch at about a 45-degree angle. The crankbait must hit bottom.", "conditions": { "season": "spring" } }
+  ]
+}

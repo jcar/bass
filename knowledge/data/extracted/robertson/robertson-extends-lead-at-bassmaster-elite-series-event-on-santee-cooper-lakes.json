@@ -1,0 +1,48 @@
+{
+  "source": "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["spring"], "structure": ["shad spawn"] },
+          "tip": "Robertson: During a shad spawn on big-fish lakes, use a giant swimbait to target bass around spawning shad in the morning. Limit your time on the shad spawn to 1-1.5 hours since there are often a lot of shad spawning but not many bass around them.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        {
+          "when": { "season": ["spring"], "structure": ["eelgrass flats"] },
+          "tip": "Robertson: After the morning shad spawn bite tapers off, target large eelgrass flats with a topwater bait using a fast retrieve to trigger bites. Focus on areas where the grass is more isolated rather than dense.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "eelgrass-density-matters",
+      "insight": "Robertson: When fishing eelgrass flats, the big bites come from areas where the grass is not dense but more isolated. Concentrate on those isolated clump areas rather than the thick grass mats.",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-for-the-win-on-big-fish-lakes",
+      "insight": "Robertson: On lakes with big fish like Santee Cooper, commit to fishing for big bites rather than playing it safe for consistency. Fish to win rather than just survive.",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-spawn-morning-window",
+      "insight": "Robertson: The shad spawn is a morning-only pattern. Spend 1-1.5 hours on it maximum, then transition to other patterns. Having limited shad-spawn locations means you must have a backup plan for the rest of the day.",
+      "conditions": { "season": "spring" }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source": "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": ["winter", "spring"], "structure": ["grass"] }, "tip": "Robertson: Burn a swimbait (like the Strike King Rage Swimmer on a 5/0 swimbait hook with 1/8-oz bullet weight) through Florida vegetation for prespawn bass — a fast burning retrieve produces best.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Ayu", "hex": "#c8b87c", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "prespawn-okeechobee-progression", "insight": "Robertson: On Lake Okeechobee during prespawn, quantity comes first and quality follows — Day 1 produced 60 fish of lesser quality, Day 2 produced 40, and Day 3 produced fewer but bigger fish as spawning females moved in.", "conditions": { "season": "spring" } },
+    { "category": "tournament-strategy", "topic": "commit-to-area", "insight": "Robertson: Staying in a 600-yard area all three days can pay off if the fish are the right caliber — commit when practice shows big bites and wait for weather to stabilize post-cold-front.", "conditions": {} },
+    { "category": "gear", "topic": "braid-in-vegetation", "insight": "Robertson: Use 65-pound braid in heavy Florida vegetation even when fluorocarbon might get more bites — avoiding heartbreak in the grass is more important than getting extra bites.", "conditions": { "structure": ["grass"] } },
+    { "category": "retrieve-technique", "topic": "run-and-gun-swimbait", "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot.", "conditions": { "season": "spring" } }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "matt-robertson-leads-day-one-of-2022-whataburger-bassmaster-elite-series-pickwick-lake.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [],
+  "knowledge": [
+    {
+      "category": "depth-strategy",
+      "topic": "summer-tva-offshore-mandatory",
+      "insight": "Robertson: On TVA (Tennessee Valley Authority) lakes in summer, you have no choice but to fish offshore. You come to the TVA in the summer, you better get off the bank.",
+      "conditions": { "season": "summer" }
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "triggering-big-bites-on-ledges",
+      "insight": "Robertson: On offshore ledges, you won't get a lot of bites, but figuring out one or two little things to trigger bigger bites can make the difference. It's about quality over quantity.",
+      "conditions": { "season": "summer", "structure": "ledges" }
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "rotating-offshore-spots",
+      "insight": "Robertson: On ledge fisheries, rotate through multiple spots rather than hammering one area. This keeps the fish from getting too pressured and ensures fresh opportunities throughout the day.",
+      "conditions": { "season": "summer" }
+    }
+  ]
+}

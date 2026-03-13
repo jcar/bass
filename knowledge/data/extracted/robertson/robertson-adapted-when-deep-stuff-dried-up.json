@@ -1,0 +1,91 @@
+{
+  "source": "robertson-adapted-when-deep-stuff-dried-up.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["fall"], "structure": ["boulders"] },
+          "tip": "Robertson: Use a Ned rig with a 1/4-ounce mushroom-style jighead and green-pumpkin Ned Ocho on spinning gear (10-pound braid to 6-pound fluorocarbon leader) to target smallmouth holding on boulders in 20 feet of water where baitfish are present.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "isClear": true },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        {
+          "when": { "season": ["fall"], "structure": ["boulders"] },
+          "tip": "Robertson: Pair a Neko rig (size 2 Gamakatsu circle hook, 6.5-inch finesse worm in green-pumpkin) with a Ned rig when targeting smallmouth on deep boulders. Work both presentations in a 60-foot area where fish are concentrated.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": { "isClear": true },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        {
+          "when": { "season": ["fall"] },
+          "tip": "Robertson: When a deep pattern dies due to wind shift muddying the water, switch to a modified walking topwater (Sexy Dawg with SuspenDots and upgraded treble hooks to reduce buoyancy) targeting bass in 1-4 feet of water in drains at the backs of pockets, casting to any distinctive rock or wood cover.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Robertson: Adding Storm SuspenDots and replacing stock hooks with heavier Japanese trebles (Yogi) on a walking topwater like the Sexy Dawg pulls the belly down for a different action. Fish are more apt to get the bait and hooks instead of blowing it out of the water.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Sexy Shad",
+          "hex": "#c0c0c0",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-shift-kills-deep-bite",
+      "insight": "Robertson: A wind direction change can destroy a deep-water pattern by muddying previously clear water. When visibility drops from 6 feet to 2 feet, bass stop moving through the area and the deep bite dies. Be ready to switch to a shallow backup plan.",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-on-boulders-with-bait",
+      "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up.",
+      "conditions": { "season": "fall" }
+    },
+    {
+      "category": "bait-design",
+      "topic": "suspendots-on-walking-topwater",
+      "insight": "Robertson: Adding SuspenDots and heavier aftermarket treble hooks to a walking topwater bait reduces buoyancy so the belly rides lower in the water. This gives the bait a different action and results in better hookup rates because fish get the bait and hooks instead of blowing it out of the water.",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-is-a-strong-suit",
+      "insight": "Robertson: The prespawn period is one of Robertson's strongest seasonal patterns, complementing his offshore fishing identity. He considers himself a 'heavyweight angler' who prefers big-fish fisheries.",
+      "conditions": { "season": "spring" }
+    }
+  ]
+}

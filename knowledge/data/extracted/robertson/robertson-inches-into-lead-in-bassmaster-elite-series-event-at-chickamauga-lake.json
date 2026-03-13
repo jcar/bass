@@ -1,0 +1,25 @@
+{
+  "source": "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring"], "structure": ["grass"] }, "tip": "Robertson: Throw a lipless crankbait in grass during the prespawn period on Tennessee River lakes — use it as a primary approach before switching to a big swimbait for bonus bites.", "priority": 10 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": ["spring"] }, "tip": "Robertson: After working a lipless bait through grass during prespawn, switch to headhunting with a big swimbait for individual big bites — a two-pronged approach.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "weather-adaptation", "topic": "wind-equalizes-pressure", "insight": "Robertson: On heavily pressured Tennessee River lakes, wind is the great equalizer — when the wind blows, the fish bite. Root for bad weather on pressured fisheries.", "conditions": { "season": "spring" } },
+    { "category": "seasonal-pattern", "topic": "cold-snap-delays-spawn", "insight": "Robertson: A cold snap during prespawn can work in your favor by keeping fish offshore and slowing the spawn, extending the prespawn feeding window.", "conditions": { "season": "spring" } },
+    { "category": "mental-approach", "topic": "fish-your-way", "insight": "Robertson: Commit to fishing your strengths — if you come in with no fish, that's fine because you fished how you wanted. Don't chase other patterns.", "conditions": {} }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["summer"] }, "tip": "Robertson: Use a Strike King 5XD in Blue and Chartreuse to target post-spawn bass on points at mouths of bays on Kentucky Lake.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Blue/Chartreuse", "hex": "#4682b4", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "season": ["summer"] }, "tip": "Robertson: When post-spawn schools bust up due to high water, Texas-rig a big worm (Strike King Bullworm) in green pumpkin to find small scattered schools.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Green Pumpkin", "hex": "#556b2f", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "post-spawn-bay-mouths", "insight": "Robertson: After the spawn on Kentucky Lake, target points at the mouths of bays where fish move to after spawning. High water can bust up schools, requiring an open mind.", "conditions": { "season": "summer" } },
+    { "category": "fish-behavior", "topic": "rising-water-movement", "insight": "Robertson: Fish move a lot with rising water -- keep an open mind and don't get stuck on previous spots. Be willing to search for new schools.", "conditions": {} },
+    { "category": "depth-strategy", "topic": "kentucky-lake-mid-section", "insight": "Robertson: Fish the mid-section of Kentucky Lake from Blood River to Highway 68 Bridge targeting post-spawn largemouth on structure.", "conditions": { "season": "summer" } }
+  ]
+}

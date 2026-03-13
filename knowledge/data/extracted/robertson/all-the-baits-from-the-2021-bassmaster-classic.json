@@ -1,0 +1,18 @@
+{
+  "source": "all-the-baits-from-the-2021-bassmaster-classic.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "season": ["spring"] }, "tip": "Robertson: Use a 3/8-oz white swim jig with a white Berkley Chigger Craw trailer for flipping flooded bushes in 2-4 feet during the shad spawn.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "White", "hex": "#ffffff", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "gear", "topic": "classic-swim-jig-setup", "insight": "Robertson: At the 2021 Classic on Ray Roberts, fished a 3/8-oz Outkast Swim Jig (white) with Berkley Chigger Craw (white), 50-lb Berkley X5 Braid, Abu REVO STX 6.6 reel, 6'8\" MH Ugly Stik rod.", "conditions": { "season": "spring" } }
+  ]
+}

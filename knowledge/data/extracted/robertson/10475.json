@@ -1,0 +1,19 @@
+{
+  "source": "10475.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        { "when": { "season": ["spring"] }, "tip": "Robertson: Throw a lipless bait in grass during the prespawn offshore pattern at Chickamauga-style fisheries to target fish still wanting to spawn.", "priority": 9 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "seasonal-pattern", "topic": "prespawn-offshore-chickamauga", "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites.", "conditions": { "season": "spring" } },
+    { "category": "weather-adaptation", "topic": "wind-and-pressure", "insight": "Robertson: On heavily-pressured lakes, wind is the great equalizer -- when the wind blows, the fish bite. Want it to blow hard.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "fish-your-strengths", "insight": "Robertson: After a tough start to a season, commit to fishing your strengths rather than adjusting to what others are doing. Fish for five bites and don't care if you blank -- fish how you want.", "conditions": {} },
+    { "category": "weather-adaptation", "topic": "cold-snap-delays-spawn", "insight": "Robertson: A cold snap during prespawn can work in your favor by slowing fish down and keeping them in their prespawn staging areas longer.", "conditions": { "season": "spring" } }
+  ]
+}

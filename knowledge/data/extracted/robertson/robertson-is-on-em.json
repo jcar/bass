@@ -1,0 +1,14 @@
+{
+  "source": "robertson-is-on-em.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Suspending Jerkbait",
+      "tipRules": [
+        { "when": {}, "tip": "Robertson: A jerkbait can produce quick limits early in the morning — Robertson landed multiple keepers on a jerkbait before even putting on his tournament jersey.", "priority": 6 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": []
+}

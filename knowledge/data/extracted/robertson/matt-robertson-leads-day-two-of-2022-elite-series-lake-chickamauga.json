@@ -1,0 +1,54 @@
+{
+  "source": "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["spring"], "structure": ["grass"] },
+          "tip": "Robertson: During a prespawn cold snap, throw a lipless crankbait in offshore grass to target bass that are staging to spawn but have been slowed by cooler temperatures.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "season": ["spring"] },
+          "tip": "Robertson: Use a two-pronged approach during prespawn: throw a lipless crankbait in grass for quantity, then go headhunting with a big swimbait for quality bites targeting individual large bass.",
+          "priority": 10
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-triggers-bites-on-pressured-lakes",
+      "insight": "Robertson: On heavily pressured lakes, wind is the great equalizer. When the wind blows, the fish bite — especially on a lake with significant fishing pressure. The only thing that equalizes the pressure is the weather.",
+      "conditions": {}
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-snap-delays-spawn",
+      "insight": "Robertson: During prespawn, a cold snap that slows bass from moving shallow is beneficial for offshore prespawn fishing. If fish are still wanting to spawn, cold weather keeps them staged offshore longer.",
+      "conditions": { "season": "spring" }
+    },
+    {
+      "category": "mental-approach",
+      "topic": "fish-your-way-regardless",
+      "insight": "Robertson: Commit to fishing your own way. If you come in with no fish, that's fine because you're fishing how you want. Fish for five bites and don't worry about the outcome.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-to-strengths-after-tough-start",
+      "insight": "Robertson: After a tough start to a season, make the decision to fish more to your strengths rather than trying to adapt to every situation. Leaning into what you do best produces better results.",
+      "conditions": {}
+    }
+  ]
+}

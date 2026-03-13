@@ -1,0 +1,35 @@
+{
+  "source": "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Ned Rig",
+      "tipRules": [
+        { "when": { "season": ["fall"], "structure": ["rocks", "boulders"] }, "tip": "Robertson: Use a Ned rig to intercept smallmouth ravaging bait schools on boulder-laden bottom in 20 feet of water.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Neko Rig",
+      "tipRules": [
+        { "when": { "season": ["fall"], "structure": ["rocks", "boulders"] }, "tip": "Robertson: Pair a Neko rig with a Ned rig when targeting smallmouth on deep boulders — both finesse presentations work on bait-chasing smallmouth in 20 feet.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Walking Topwater",
+      "tipRules": [
+        { "when": { "season": ["fall"] }, "tip": "Robertson: When deep fish shut down under post-frontal high pressure, switch to a topwater in pockets with docks, deeper cuts, and flat points with scattered rock — target wolf packs of bass hunting bait.", "priority": 10 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Sexy Shad", "hex": "#c0c0c0", "priority": 9 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "bait-design", "topic": "topwater-modification", "insight": "Robertson: Modify a Strike King Sexy Dawg by replacing stock hooks with round-bend treble hooks and adding SuspenDots to the belly — this makes it sit lower, improves castability, and prevents fish from popping the bait out of the water.", "conditions": {} },
+    { "category": "fish-behavior", "topic": "wolf-pack-feeding", "insight": "Robertson: Look for bass hunting bait in small feeding groups called 'wolf packs' — these aggressive groups will respond well to topwater presentations in pockets and around scattered rock.", "conditions": { "season": "fall" } },
+    { "category": "tournament-strategy", "topic": "scrap-and-adapt", "insight": "Robertson: Be willing to completely scrap your game plan midday if the pattern dies. Set a deadline (e.g., noon) and if it's not producing, switch to something in your wheelhouse.", "conditions": {} },
+    { "category": "mental-approach", "topic": "deliberate-fishing", "insight": "Robertson: Fish more deliberately and stop second-guessing. Have faith in yourself and roll with your decisions instead of bouncing between spots.", "conditions": {} }
+  ]
+}

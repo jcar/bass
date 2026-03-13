@@ -1,0 +1,34 @@
+{
+  "source": "robertson-headed-to-the-classic.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        { "when": { "structure": ["offshore hard bottom"] }, "tip": "Robertson: Use a 7-inch swimbait on a 1-ounce jighead to target bass holding on offshore hard spots with no visible structure — just a hard bottom detected on electronics.", "priority": 9 }
+      ],
+      "colorRules": []
+    },
+    {
+      "lure": "Medium Diving Crankbait",
+      "tipRules": [
+        { "when": { "structure": ["offshore hard bottom"] }, "tip": "Robertson: Use a big crankbait like the SPRO Big John when targeting bass offshore on hard-bottom spots in 9-10 feet of water.", "priority": 8 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Citrus", "hex": "#ffd700", "priority": 7 }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        { "when": { "structure": ["offshore hard bottom"] }, "tip": "Robertson: Pull out big spinnerbaits when fishing offshore hard spots for big bass — complement crankbaits and swimbaits for a multi-lure offshore rotation.", "priority": 7 }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    { "category": "structure-reading", "topic": "offshore-hard-spots", "insight": "Robertson: When idling offshore, look for hard-bottom spots that hold big bass even with no visible structure. A 40x50 yard hard spot in 9-10 feet can hold large concentrations of quality fish.", "conditions": {} },
+    { "category": "electronics", "topic": "idling-for-fish", "insight": "Robertson: Idle every inch of a lake to find offshore hard spots — if you see big bass on electronics but can't get them to bite in practice, commit to the spot in the tournament.", "conditions": {} },
+    { "category": "tournament-strategy", "topic": "play-to-strengths", "insight": "Robertson: If you're going to fail, fail doing what you do well. Commit to your strengths — for Robertson, that's fishing offshore.", "conditions": {} }
+  ]
+}

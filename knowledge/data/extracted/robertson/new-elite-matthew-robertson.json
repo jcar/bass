@@ -1,0 +1,25 @@
+{
+  "source": "new-elite-matthew-robertson.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Lipless Crankbait",
+      "tipRules": [
+        {
+          "when": { "season": ["winter", "early spring"] },
+          "tip": "Robertson: A Rat-L-Trap (lipless crankbait) is effective for early-season bass on Kentucky Lake, even in tough conditions with 35-degree highs and 20-mph winds forcing you into bays.",
+          "priority": 6
+        }
+      ],
+      "colorRules": []
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "tournament-strategy",
+      "topic": "self-employed-flexibility",
+      "insight": "Robertson: Being self-employed (pressure cleaning business) provides the schedule flexibility needed to fish multi-day tournaments and pursue a professional fishing career through the Opens path.",
+      "conditions": {}
+    }
+  ]
+}

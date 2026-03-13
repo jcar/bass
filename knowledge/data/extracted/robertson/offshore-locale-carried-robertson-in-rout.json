@@ -1,0 +1,103 @@
+{
+  "source": "offshore-locale-carried-robertson-in-rout.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Swim Jig",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"] },
+          "tip": "Robertson: A 7-inch swimbait on a 1-ounce jighead works best when fish are grouped up. If fish become scattered after following the bait, switch to a crankbait or spinnerbait since swimbaits tend to separate the school.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Robertson: Use a 7'6\" extra-heavy rod, 7.1:1 reel, and 20-pound fluorocarbon for throwing big swimbaits offshore. The heavier line works fine in 10-foot depths and prevents break-offs.",
+          "priority": 9
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Ol' Smokey",
+          "hex": "#8b8682",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"] },
+          "tip": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-pound bag.",
+          "priority": 11
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Citrus Shad",
+          "hex": "#ffa500",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "tipRules": [
+        {
+          "when": { "structure": ["offshore hard bottom"], "weather": ["windy"] },
+          "tip": "Robertson: A 1-ounce white spinnerbait with double willow-leaf blades is effective offshore when wind is present. When the wind slacks off and the spinnerbait bite slows, switch to a crankbait.",
+          "priority": 10
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "White",
+          "hex": "#ffffff",
+          "priority": 8
+        }
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "category": "structure-reading",
+      "topic": "featureless-hard-bottom-offshore",
+      "insight": "Robertson: Winning offshore areas can be essentially featureless — no defined contour, just a hard bottom with 'sort of a point but not really.' The distinguishing feature is simply hard bottom 150 yards from shore.",
+      "conditions": {}
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "light-dependent-fish-movement",
+      "insight": "Robertson: On offshore hard-bottom spots, bass move to the outside edge in bright sun but hold 40 yards closer to shore under cloud cover. When you hit a lull in the action, it often means they've relocated.",
+      "conditions": {}
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-relocating-offshore-fish",
+      "insight": "Robertson: The Garmin Panoptix LiveScope is essential for relocating offshore fish when they shift position. Just move the trolling motor around to find them again without losing time.",
+      "conditions": {}
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "protect-your-spot",
+      "insight": "Robertson: After catching your limit quickly on an offshore spot, stay on the spot to protect it for the rest of the day rather than risking someone else finding it. This was a key strategic move that preserved fish for the next day.",
+      "conditions": {}
+    },
+    {
+      "category": "lure-selection",
+      "topic": "unpressured-fish-big-baits",
+      "insight": "Robertson: On fisheries known for shallow-water patterns, offshore fish have likely never seen a 7-inch swimbait or a big spinnerbait. Throwing big baits that fish haven't been exposed to is a major advantage.",
+      "conditions": {}
+    },
+    {
+      "category": "gear",
+      "topic": "heavier-line-for-offshore-depths",
+      "insight": "Robertson: When fishing 10-foot depths offshore, 20-pound fluorocarbon works for swimbaits, crankbaits, and spinnerbaits. The heavier line won't spook fish at that depth and prevents break-offs. Normally he'd use mono for swimbaits and lighter fluoro for cranking.",
+      "conditions": {}
+    }
+  ]
+}

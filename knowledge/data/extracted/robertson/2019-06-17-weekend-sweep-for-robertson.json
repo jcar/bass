@@ -1,0 +1,27 @@
+{
+  "source": "2019-06-17-weekend-sweep-for-robertson.txt",
+  "anglerName": "Robertson",
+  "newOpinions": [
+    {
+      "lure": "Deep Diving Crankbait",
+      "tipRules": [
+        { "when": { "season": ["summer"] }, "tip": "Robertson: Use a Strike King 5XD in Blue and Chartreuse on post-spawn points at bay mouths on Kentucky Lake.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Blue/Chartreuse", "hex": "#4682b4", "priority": 8 }
+      ]
+    },
+    {
+      "lure": "10\" Worm (Shakey/TX)",
+      "tipRules": [
+        { "when": { "season": ["summer"] }, "tip": "Robertson: Texas-rig a Strike King Bullworm in green pumpkin to catch post-spawn largemouth around creek mouths when schools are scattered from high water.", "priority": 9 }
+      ],
+      "colorRules": [
+        { "when": {}, "color": "Green Pumpkin", "hex": "#556b2f", "priority": 8 }
+      ]
+    }
+  ],
+  "knowledge": [
+    { "category": "fish-behavior", "topic": "rising-water-scattered-schools", "insight": "Robertson: High water busts up schools of post-spawn bass. Keep an open mind, don't get stuck on previous spots, and be willing to search for new fish.", "conditions": { "season": "summer" } }
+  ]
+}
