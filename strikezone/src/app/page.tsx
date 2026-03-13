@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Crosshair, AlertTriangle } from 'lucide-react';
 import { loadTuning, saveTuning, resetTuning, type TuningConfig } from '@/lib/tuning';
 import LakePicker from '@/components/LakePicker';
@@ -12,6 +12,8 @@ import StructureTargets from '@/components/StructureTargets';
 import OutlookHero from '@/components/OutlookHero';
 import TuningPanel from '@/components/TuningPanel';
 import AnglerPickCard from '@/components/AnglerPickCard';
+import TacticalBriefing from '@/components/TacticalBriefing';
+import { getBriefingsForAnalysis } from '@/lib/briefings';
 
 const DEFAULT_CONDITIONS: WeatherConditions = {
   airTemp: 68,
@@ -226,6 +228,17 @@ export default function Dashboard() {
     setAnalysis(runStrikeAnalysis(conditions, tuning, lakeMaxDepth));
   }, [conditions, tuning, lakeMaxDepth]);
 
+  const briefings = useMemo(() => {
+    if (!analysis) return [];
+    const topLures = analysis.anglerPicks.map(p => p.lure.name);
+    return getBriefingsForAnalysis(
+      analysis.seasonalPhase.season,
+      conditions.waterClarity,
+      conditions.frontalSystem,
+      topLures,
+    );
+  }, [analysis, conditions.waterClarity, conditions.frontalSystem]);
+
   if (!analysis) {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center">
@@ -342,6 +355,9 @@ export default function Dashboard() {
             </div>
           </div>
         )}
+
+        {/* Tactical Briefing */}
+        {briefings.length > 0 && <TacticalBriefing briefings={briefings} />}
 
         {/* Engine Tuning */}
         <TuningPanel config={tuning} onChange={handleTuningChange} onReset={handleTuningReset} />

@@ -1,0 +1,1713 @@
+{
+  "sources": [
+    "10475.txt",
+    "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt",
+    "2019-06-17-weekend-sweep-for-robertson.txt",
+    "2021-bassmaster-classic-day-two-matt-robertson.txt",
+    "2021-bassmaster-classic-final-day-matt-robertson.txt",
+    "20210129-matt-robertson-on-em-busy-bass-angler.txt",
+    "a-breath-of-fresh-air.txt",
+    "afternoon-rally-lifts-robertson-to-day-1-lead-at-bassmaster-elite-on-lake-murray.txt",
+    "all-black-baits-3-with-on-em-andy-montgomery-skip-tips.txt",
+    "all-the-baits-from-the-2021-bassmaster-classic.txt",
+    "b-a-s-s-announces-high-powered-2025-elite-series-field.txt",
+    "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt",
+    "bassmaster-elite-series-angler-matt-on-em-robertson-hops-on-the-scum-frog-team.txt",
+    "crankbaits-for-bass-fishing-in-the-spring.txt",
+    "daily-limit-robertsons-on-em-derby-grows-into-monster.txt",
+    "day-on-the-lake-matt-robertson.txt",
+    "good-butch-brown-stuff-disco-frog-bruce-lee-fishing-advice.txt",
+    "i-know-that-tequila-got-me-right-matt-robertson-delivers-best-bass-fishing-interview-of-all-time.txt",
+    "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt",
+    "kolleen-and-matt-robertson-the-details-onem.txt",
+    "matt-on-em-robertson-hops-on-the-scum-frog-team.txt",
+    "matt-robertson-becomes-the-first-member-of-the-ugly-stik-pro-staff.txt",
+    "matt-robertson-big-swimbait-bass-on-grand-lake.txt",
+    "matt-robertson-is-now-a-very-busy-b-a-s-s-angler.txt",
+    "matt-robertson-leads-day-one-of-2022-whataburger-bassmaster-elite-series-pickwick-lake.txt",
+    "matt-robertson-leads-day-one-of-2023-bassmaster-elite-series-lake-murray.txt",
+    "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt",
+    "new-elite-matthew-robertson.txt",
+    "offshore-locale-carried-robertson-in-rout.txt",
+    "opens-profile-robertson-longs-for-the-elites.txt",
+    "robertson-adapted-when-deep-stuff-dried-up.txt",
+    "robertson-adds-sponsorships.txt",
+    "robertson-and-martins-chickamauga-charge.txt",
+    "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt",
+    "robertson-first-to-represent-ugly-stick-on-pro-fishing-tour.txt",
+    "robertson-goes-offshore-to-grab-lead-in-bassmaster-elite-series-event-on-pickwick-lake.txt",
+    "robertson-headed-to-the-classic.txt",
+    "robertson-hops-on-the-scum-frog-team.txt",
+    "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt",
+    "robertson-is-on-em.txt",
+    "robertson-on-em-to-cement-day-2-lead-on-chick.txt",
+    "robertson-overcomes-issues-to-lead-day-1.txt",
+    "robertson-pillages-pickwick-for-22-06.txt",
+    "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt",
+    "the-2020-opens-lure-trends.txt",
+    "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt",
+    "top-5-matt-robertson-ugly-stik-moments-at-the-2021-bassmaster-classic.txt",
+    "top-lures-at-chickamauga-lake-2022.txt",
+    "top-lures-at-pickwick-lake-2022.txt",
+    "top-lures-of-santee-cooper-elite.txt",
+    "tournament-angler-has-20000-of-gear-stolen-from-truck.txt",
+    "ugly-stik-appoints-first-pro-staffer.txt",
+    "up-close-and-personal-with-matt-robertson.txt",
+    "whats-matt-roberson-using.txt"
+  ],
+  "opinions": {
+    "Lipless Crankbait": {
+      "lure": "Lipless Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: Throw a lipless bait in grass during the prespawn offshore pattern at Chickamauga-style fisheries to target fish still wanting to spawn.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: Slow-roll a 3/8 or 1/2-oz lipless crankbait just off the bottom during the prespawn, moving it only 12-18 inches at a time in a yo-yo motion. Works in 1-6 feet on flats near deeper channel banks.",
+          "priority": 11
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: On lakes without heavy vegetation, slow-roll the lipless along ledges, long bars, and underwater humps to target prespawners that may spawn in those areas.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: No matter how slow you reel a lipless crankbait, it still appeals to bass -- the slow short hops still rattle, vibrate, and look like an easy meal.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ],
+            "structure": [
+              "grass"
+            ]
+          },
+          "tip": "Robertson: During a prespawn cold snap, throw a lipless crankbait in offshore grass to target bass that are staging to spawn but have been slowed by cooler temperatures.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "winter",
+              "early spring"
+            ]
+          },
+          "tip": "Robertson: A Rat-L-Trap (lipless crankbait) is effective for early-season bass on Kentucky Lake, even in tough conditions with 35-degree highs and 20-mph winds forcing you into bays.",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ],
+            "structure": [
+              "grass"
+            ]
+          },
+          "tip": "Robertson: Throw a lipless crankbait in grass during the prespawn period on Tennessee River lakes — use it as a primary approach before switching to a big swimbait for bonus bites.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ],
+            "structure": [
+              "grass"
+            ]
+          },
+          "tip": "Robertson: Throw a lipless bait in grass during prespawn on Chickamauga — pair it with a big swimbait for a two-pronged offshore prespawn approach.",
+          "priority": 10
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "10475.txt",
+        "crankbaits-for-bass-fishing-in-the-spring.txt",
+        "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt",
+        "new-elite-matthew-robertson.txt",
+        "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt",
+        "robertson-on-em-to-cement-day-2-lead-on-chick.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Deep Diving Crankbait": {
+      "lure": "Deep Diving Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Blue/Chartreuse",
+          "hex": "#4682b4",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Blue/Chartreuse",
+          "hex": "#4682b4",
+          "priority": 8
+        },
+        {
+          "when": {
+            "isClear": true
+          },
+          "color": "Citrus",
+          "hex": "#ffa500",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Citrus Shad",
+          "hex": "#ffa500",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Robertson: Use a Strike King 5XD in Blue and Chartreuse to target post-spawn bass on points at mouths of bays on Kentucky Lake.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spring",
+              "summer"
+            ]
+          },
+          "tip": "Robertson: When postspawners leave the tapering points, follow them with a Berkley Dredger 20.5 or 25.5 down ditches and drainages 10-15 feet deep that lead from spawning flats toward the main lake.",
+          "priority": 11
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Robertson: Cast a deep diver at a 45-degree angle across the point where a ditch intersects the main river channel. Position the boat on the downriver side. If current prevents the crankbait from diving, move upstream and cast downstream to retrieve against the current.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spring",
+              "summer"
+            ]
+          },
+          "tip": "Robertson: Follow ditches out to where they meet the main river channel. At any intersection of channels, that point can be an important fishing spot. Bass are often up on top of that point.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Pair a SPRO Little John XL crankbait with big swimbaits and spinnerbaits when targeting offshore bass on featureless hard-bottom areas in 9-10 feet of water.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-pound bag.",
+          "priority": 11
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt",
+        "2019-06-17-weekend-sweep-for-robertson.txt",
+        "crankbaits-for-bass-fishing-in-the-spring.txt",
+        "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt",
+        "offshore-locale-carried-robertson-in-rout.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "10\" Worm (Shakey/TX)": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#556b2f",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Green Pumpkin",
+          "hex": "#556b2f",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Robertson: When post-spawn schools bust up due to high water, Texas-rig a big worm (Strike King Bullworm) in green pumpkin to find small scattered schools.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "tip": "Robertson: Texas-rig a Strike King Bullworm in green pumpkin to catch post-spawn largemouth around creek mouths when schools are scattered from high water.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt",
+        "2019-06-17-weekend-sweep-for-robertson.txt"
+      ],
+      "lureCategory": "soft-plastics"
+    },
+    "Swim Jig": {
+      "lure": "Swim Jig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "White",
+          "hex": "#ffffff",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "color": "Ol' Smokey",
+          "hex": "#8b8682",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "Ayu",
+          "hex": "#c8b87c",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: Use a 3/8-oz white swim jig with a white Berkley Chigger Craw trailer for flipping flooded bushes in 2-4 feet during the shad spawn.",
+          "priority": 10
+        },
+        {
+          "when": {},
+          "tip": "Robertson: Pair a 7-inch swimbait on a 1-oz jighead to target offshore bass on hard-bottom areas in 9-10 feet, where big fish stack up invisibly.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Use a 7-inch swimbait on a 1-ounce jighead to target big bass on offshore hard-bottom spots with no visible structure, casting to fish spotted on electronics in 9-10 feet of water.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: Use a two-pronged approach during prespawn: throw a lipless crankbait in grass for quantity, then go headhunting with a big swimbait for quality bites targeting individual large bass.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: A 7-inch swimbait on a 1-ounce jighead works best when fish are grouped up. If fish become scattered after following the bait, switch to a crankbait or spinnerbait since swimbaits tend to separate the school.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Robertson: Use a 7'6\" extra-heavy rod, 7.1:1 reel, and 20-pound fluorocarbon for throwing big swimbaits offshore. The heavier line works fine in 10-foot depths and prevents break-offs.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ],
+            "structure": [
+              "shad spawn"
+            ]
+          },
+          "tip": "Robertson: During a shad spawn on big-fish lakes, use a giant swimbait to target bass around spawning shad in the morning. Limit your time on the shad spawn to 1-1.5 hours since there are often a lot of shad spawning but not many bass around them.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Use a 7-inch swimbait on a 1-ounce jighead to target bass holding on offshore hard spots with no visible structure — just a hard bottom detected on electronics.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: After working a lipless bait through grass during prespawn, switch to headhunting with a big swimbait for individual big bites — a two-pronged approach.",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": [
+              "winter",
+              "spring"
+            ],
+            "structure": [
+              "grass"
+            ]
+          },
+          "tip": "Robertson: Burn a swimbait (like the Strike King Rage Swimmer on a 5/0 swimbait hook with 1/8-oz bullet weight) through Florida vegetation for prespawn bass — a fast burning retrieve produces best.",
+          "priority": 10
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "all-the-baits-from-the-2021-bassmaster-classic.txt",
+        "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt",
+        "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt",
+        "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt",
+        "offshore-locale-carried-robertson-in-rout.txt",
+        "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt",
+        "robertson-headed-to-the-classic.txt",
+        "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt",
+        "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt"
+      ],
+      "lureCategory": "moving-baits"
+    },
+    "Medium Diving Crankbait": {
+      "lure": "Medium Diving Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Citrus",
+          "hex": "#ffa500",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Citrus",
+          "hex": "#ffd700",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "tip": "Robertson: Use a SPRO Big John crankbait in citrus color to target offshore bass holding on hard-bottom spots in 9-10 feet of water with no visible structure.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Use a big crankbait like the SPRO Big John when targeting bass offshore on hard-bottom spots in 9-10 feet of water.",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt",
+        "robertson-headed-to-the-classic.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Squarebill Crankbait": {
+      "lure": "Squarebill Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Kentucky Blue",
+          "hex": "#4169e1",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: After the spawn, switch to a large-bodied squarebill (Berkley Frittside Biggun) to target postspawners on small tapering points and bars within 150 yards of spawning flats, in less than 10 feet. Retrieve fast and hit rocks, logs, stumps for reaction bites.",
+          "priority": 11
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ]
+          },
+          "tip": "Robertson: Postspawn fish on points congregate on the highest spot of the bar, sometimes in just 3 feet of water. Larger rocks make these places more attractive. Use an erratic retrieve to fire up the school.",
+          "priority": 10
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "crankbaits-for-bass-fishing-in-the-spring.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Spinnerbait (Colorado/Willow)": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "White",
+          "hex": "#ffffff",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Include a big spinnerbait in your offshore rotation alongside swimbaits and crankbaits when targeting bass grouped on hard-bottom spots.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ],
+            "weather": [
+              "windy"
+            ]
+          },
+          "tip": "Robertson: A 1-ounce white spinnerbait with double willow-leaf blades is effective offshore when wind is present. When the wind slacks off and the spinnerbait bite slows, switch to a crankbait.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "structure": [
+              "offshore hard bottom"
+            ]
+          },
+          "tip": "Robertson: Pull out big spinnerbaits when fishing offshore hard spots for big bass — complement crankbaits and swimbaits for a multi-lure offshore rotation.",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt",
+        "offshore-locale-carried-robertson-in-rout.txt",
+        "robertson-headed-to-the-classic.txt"
+      ],
+      "lureCategory": "moving-baits"
+    },
+    "Ned Rig": {
+      "lure": "Ned Rig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "isClear": true
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "structure": [
+              "boulders"
+            ]
+          },
+          "tip": "Robertson: Use a Ned rig with a 1/4-ounce mushroom-style jighead and green-pumpkin Ned Ocho on spinning gear (10-pound braid to 6-pound fluorocarbon leader) to target smallmouth holding on boulders in 20 feet of water where baitfish are present.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "structure": [
+              "rocks",
+              "boulders"
+            ]
+          },
+          "tip": "Robertson: Use a Ned rig to intercept smallmouth ravaging bait schools on boulder-laden bottom in 20 feet of water.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "robertson-adapted-when-deep-stuff-dried-up.txt",
+        "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+      ],
+      "lureCategory": "finesse"
+    },
+    "Neko Rig": {
+      "lure": "Neko Rig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "isClear": true
+          },
+          "color": "Green Pumpkin",
+          "hex": "#4a7023",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "structure": [
+              "boulders"
+            ]
+          },
+          "tip": "Robertson: Pair a Neko rig (size 2 Gamakatsu circle hook, 6.5-inch finesse worm in green-pumpkin) with a Ned rig when targeting smallmouth on deep boulders. Work both presentations in a 60-foot area where fish are concentrated.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ],
+            "structure": [
+              "rocks",
+              "boulders"
+            ]
+          },
+          "tip": "Robertson: Pair a Neko rig with a Ned rig when targeting smallmouth on deep boulders — both finesse presentations work on bait-chasing smallmouth in 20 feet.",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "robertson-adapted-when-deep-stuff-dried-up.txt",
+        "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+      ],
+      "lureCategory": "finesse"
+    },
+    "Walking Topwater": {
+      "lure": "Walking Topwater",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {},
+          "color": "Sexy Shad",
+          "hex": "#c0c0c0",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "color": "Sexy Shad",
+          "hex": "#c0c0c0",
+          "priority": 9
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "tip": "Robertson: When a deep pattern dies due to wind shift muddying the water, switch to a modified walking topwater (Sexy Dawg with SuspenDots and upgraded treble hooks to reduce buoyancy) targeting bass in 1-4 feet of water in drains at the backs of pockets, casting to any distinctive rock or wood cover.",
+          "priority": 11
+        },
+        {
+          "when": {},
+          "tip": "Robertson: Adding Storm SuspenDots and replacing stock hooks with heavier Japanese trebles (Yogi) on a walking topwater like the Sexy Dawg pulls the belly down for a different action. Fish are more apt to get the bait and hooks instead of blowing it out of the water.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "spring"
+            ],
+            "structure": [
+              "eelgrass flats"
+            ]
+          },
+          "tip": "Robertson: After the morning shad spawn bite tapers off, target large eelgrass flats with a topwater bait using a fast retrieve to trigger bites. Focus on areas where the grass is more isolated rather than dense.",
+          "priority": 10
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "tip": "Robertson: Topwater can be the key fall pattern on highland reservoirs when tropical storms and post-front conditions scatter bass.",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "tip": "Robertson: When deep fish shut down under post-frontal high pressure, switch to a topwater in pockets with docks, deeper cuts, and flat points with scattered rock — target wolf packs of bass hunting bait.",
+          "priority": 10
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "robertson-adapted-when-deep-stuff-dried-up.txt",
+        "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt",
+        "the-2020-opens-lure-trends.txt",
+        "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+      ],
+      "lureCategory": "topwater"
+    },
+    "Suspending Jerkbait": {
+      "lure": "Suspending Jerkbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {},
+          "tip": "Robertson: A jerkbait can produce quick limits early in the morning — Robertson landed multiple keepers on a jerkbait before even putting on his tournament jersey.",
+          "priority": 6
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "robertson-is-on-em.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Drop Shot": {
+      "lure": "Drop Shot",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "tip": "Robertson: A drop shot paired with a topwater can be a winning fall combination on Tennessee River reservoirs, especially under post-frontal conditions.",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "the-2020-opens-lure-trends.txt"
+      ],
+      "lureCategory": "finesse"
+    }
+  },
+  "structureAdvice": {},
+  "credibility": {},
+  "knowledge": [
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-offshore-chickamauga",
+      "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "depthZone": "deep",
+        "lureCategory": "cranking",
+        "coverType": "grass"
+      },
+      "source": "10475.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-and-pressure",
+      "insight": "Robertson: On heavily-pressured lakes, wind is the great equalizer -- when the wind blows, the fish bite. Want it to blow hard.",
+      "conditions": {},
+      "source": "10475.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-your-strengths",
+      "insight": "Robertson: After a tough start to a season, commit to fishing your strengths rather than adjusting to what others are doing. Fish for five bites and don't care if you blank -- fish how you want.",
+      "conditions": {},
+      "source": "10475.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "cold-snap-delays-spawn",
+      "insight": "Robertson: A cold snap during prespawn can work in your favor by slowing fish down and keeping them in their prespawn staging areas longer.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "retrieveStyle": "twitch"
+      },
+      "source": "10475.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "post-spawn-bay-mouths",
+      "insight": "Robertson: After the spawn on Kentucky Lake, target points at the mouths of bays where fish move to after spawning. High water can bust up schools, requiring an open mind.",
+      "conditions": {
+        "season": [
+          "summer",
+          "spawn"
+        ],
+        "structure": [
+          "point"
+        ]
+      },
+      "source": "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "rising-water-movement",
+      "insight": "Robertson: Fish move a lot with rising water -- keep an open mind and don't get stuck on previous spots. Be willing to search for new schools.",
+      "conditions": {},
+      "source": "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "kentucky-lake-mid-section",
+      "insight": "Robertson: Fish the mid-section of Kentucky Lake from Blood River to Highway 68 Bridge targeting post-spawn largemouth on structure.",
+      "conditions": {
+        "season": [
+          "summer",
+          "post-spawn"
+        ]
+      },
+      "source": "2019-06-17-kuttawa-s-robertson-wins-two-t-h-marine-flw-bass-fishing-league-tournaments-on-kentucky-lake-in-same-weekend.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "rising-water-scattered-schools",
+      "insight": "Robertson: High water busts up schools of post-spawn bass. Keep an open mind, don't get stuck on previous spots, and be willing to search for new fish.",
+      "conditions": {
+        "season": [
+          "summer",
+          "post-spawn"
+        ]
+      },
+      "source": "2019-06-17-weekend-sweep-for-robertson.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "outkast-jig-partnership",
+      "insight": "Robertson: As a ledge/Tennessee River angler, partnered with Outkast Tackle for jigs, bringing an offshore jig perspective to their lineup.",
+      "conditions": {
+        "structure": [
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "20210129-matt-robertson-on-em-busy-bass-angler.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "stop-caring-too-much",
+      "insight": "Robertson: When you stop caring too much about the outcome and just go fishing, good things happen. Assumed he'd weigh 6 pounds and stopped pressing -- ended up catching 25-8.",
+      "conditions": {},
+      "source": "afternoon-rally-lifts-robertson-to-day-1-lead-at-bassmaster-elite-on-lake-murray.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "afternoon-rally-pattern",
+      "insight": "Robertson: Sometimes the bite doesn't develop until afternoon. All five keepers caught after 12:50 PM on Lake Murray in April -- don't give up when the morning is slow.",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "afternoon-rally-lifts-robertson-to-day-1-lead-at-bassmaster-elite-on-lake-murray.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "classic-swim-jig-setup",
+      "insight": "Robertson: At the 2021 Classic on Ray Roberts, fished a 3/8-oz Outkast Swim Jig (white) with Berkley Chigger Craw (white), 50-lb Berkley X5 Braid, Abu REVO STX 6.6 reel, 6'8\" MH Ugly Stik rod.",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "lureCategory": "moving-baits"
+      },
+      "source": "all-the-baits-from-the-2021-bassmaster-classic.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "offshore-hard-spots",
+      "insight": "Robertson: Fish exclusively offshore by idling every inch of a lake to find hard-bottom spots in 9-10 feet with no visible structure. Use electronics to see big bass stacked on these areas -- spots as small as 40x50 yards can hold massive numbers.",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "idling-for-offshore-spots",
+      "insight": "Robertson: Idle every inch of the lake to find hard spots on the bottom. When you see big bass on electronics over featureless-looking bottom, commit to fishing offshore -- pull out big swimbaits, big spinnerbaits, and big crankbaits.",
+      "conditions": {
+        "depthZone": "deep",
+        "lureCategory": "moving-baits"
+      },
+      "source": "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "die-doing-what-you-do-well",
+      "insight": "Robertson: If you're going to fail, fail doing what you do well. When a shallow approach produces only 11 pounds, switch to offshore fishing with big baits if that's your strength.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "bass-angler-matthew-robertson-fulfills-dream-to-qualify-for-the-bassmaster-classic.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "scum-frog-year-round",
+      "insight": "Robertson: Loves throwing hollow-bodied frogs almost any time of year. The Scum Frog Launch Frog and Trophy Series Frog are his go-to frog baits.",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "bassmaster-elite-series-angler-matt-on-em-robertson-hops-on-the-scum-frog-team.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "spring-crankbait-progression",
+      "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following ditches and drainages 10-15 feet out to summer structure.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn",
+          "post-spawn",
+          "summer"
+        ],
+        "structure": [
+          "point",
+          "flat",
+          "creek-channel"
+        ],
+        "depthZone": "mid",
+        "lureCategory": "cranking",
+        "retrieveStyle": "slow-roll"
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "lipless-slow-roll-no-grass",
+      "insight": "Robertson: On lakes without heavy vegetation (like Kentucky Lake), slow-roll the lipless just off the bottom rather than ripping it through grass. Move the bait only 12-18 inches at a time horizontally, almost like yo-yoing.",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "retrieveStyle": "hop",
+        "coverType": "grass"
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "postspawn-tapering-points",
+      "insight": "Robertson: Postspawners don't immediately go deep. They hold on small tapering points and bars about 150 yards from spawning flats for about three weeks. New fish keep replenishing the spot.",
+      "conditions": {
+        "season": [
+          "spring",
+          "post-spawn"
+        ],
+        "structure": [
+          "point",
+          "flat"
+        ]
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "lipless-shad-colors-no-grass",
+      "insight": "Robertson: Use shad-type colors for lipless crankbaits on lakes without vegetation -- not the reds and oranges that work in grass.",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "lureCategory": "cranking",
+        "coverType": "grass"
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "crankbait-rod-setup",
+      "insight": "Robertson: Uses 12-lb Berkley Big Game mono for all crankbaits. 7-foot Ugly Stik (MH parabolic) for squarebills and lipless; 7'11\" Abu Garcia Winch (MH parabolic) for deep divers.",
+      "conditions": {
+        "depthZone": "mid",
+        "lureCategory": "cranking"
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-diver-ditch-following",
+      "insight": "Robertson: When following postspawn bass down ditches with a deep diver, start by casting ahead and up on top, then bring the crankbait down the side of the ditch at about a 45-degree angle. The crankbait must hit bottom.",
+      "conditions": {
+        "season": [
+          "spring",
+          "post-spawn"
+        ],
+        "structure": [
+          "creek-channel"
+        ],
+        "lureCategory": "cranking"
+      },
+      "source": "crankbaits-for-bass-fishing-in-the-spring.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "offshore-hard-bottom-spots",
+      "insight": "Robertson: On fisheries known for shallow grass fishing like the Harris Chain, look for offshore hard-bottom spots 150 yards from shore in 9-10 feet of water. Idle over the area and use electronics to spot big bass — a 40x50 yard hard spot can hold fish that replenish daily.",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "depthZone": "mid",
+        "coverType": "grass"
+      },
+      "source": "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-your-strengths-offshore",
+      "insight": "Robertson: If you're an offshore fisherman, commit to your style even on fisheries known for shallow patterns. When a shallow approach fails, go back to what you do well — if you're going to die, die doing what you do well.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "idling-to-find-offshore-fish",
+      "insight": "Robertson: Idle every inch of a lake during practice to find offshore spots. Look for hard-bottom areas where you can see big bass on electronics, even if you can't get them to bite in practice.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "kentucky-angler-earns-final-berth-into-2019-bass-classic.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "hollow-body-frog-versatility",
+      "insight": "Robertson: Hollow-bodied frogs like the Scum Frog Launch Frog and Trophy Series Frog can be thrown almost any time of year, not just during typical frog season.",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "matt-on-em-robertson-hops-on-the-scum-frog-team.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "ugly-stik-carbon-elite-series",
+      "insight": "Robertson: The Ugly Stik Carbon rod offers lightweight sensitivity combined with legendary toughness, proving that an accessible working-man's rod can compete at the Bassmaster Elite Series level.",
+      "conditions": {},
+      "source": "matt-robertson-becomes-the-first-member-of-the-ugly-stik-pro-staff.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "outkast-tackle-jig-partnership",
+      "insight": "Robertson: As a ledge and Tennessee River specialist, bringing an offshore jig-fishing perspective to jig design helps create products tuned for deep structure fishing.",
+      "conditions": {
+        "structure": [
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "matt-robertson-is-now-a-very-busy-b-a-s-s-angler.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "summer-tva-offshore-mandatory",
+      "insight": "Robertson: On TVA (Tennessee Valley Authority) lakes in summer, you have no choice but to fish offshore. You come to the TVA in the summer, you better get off the bank.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "matt-robertson-leads-day-one-of-2022-whataburger-bassmaster-elite-series-pickwick-lake.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "triggering-big-bites-on-ledges",
+      "insight": "Robertson: On offshore ledges, you won't get a lot of bites, but figuring out one or two little things to trigger bigger bites can make the difference. It's about quality over quantity.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledges",
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "matt-robertson-leads-day-one-of-2022-whataburger-bassmaster-elite-series-pickwick-lake.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "rotating-offshore-spots",
+      "insight": "Robertson: On ledge fisheries, rotate through multiple spots rather than hammering one area. This keeps the fish from getting too pressured and ensures fresh opportunities throughout the day.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ]
+      },
+      "source": "matt-robertson-leads-day-one-of-2022-whataburger-bassmaster-elite-series-pickwick-lake.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "stop-caring-to-fish-better",
+      "insight": "Robertson: Sometimes when practice goes poorly, the best approach is to stop caring so much about the outcome. Just go fishing and let things happen rather than forcing it — this mental shift can unlock better bites.",
+      "conditions": {},
+      "source": "matt-robertson-leads-day-one-of-2023-bassmaster-elite-series-lake-murray.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "afternoon-rally-potential",
+      "insight": "Robertson: Don't give up on a tournament day even with a rough morning. All five keepers in a 25-pound bag can come after 12:50 PM when you stop overthinking and just go fishing.",
+      "conditions": {},
+      "source": "matt-robertson-leads-day-one-of-2023-bassmaster-elite-series-lake-murray.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-triggers-bites-on-pressured-lakes",
+      "insight": "Robertson: On heavily pressured lakes, wind is the great equalizer. When the wind blows, the fish bite — especially on a lake with significant fishing pressure. The only thing that equalizes the pressure is the weather.",
+      "conditions": {},
+      "source": "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-snap-delays-spawn",
+      "insight": "Robertson: During prespawn, a cold snap that slows bass from moving shallow is beneficial for offshore prespawn fishing. If fish are still wanting to spawn, cold weather keeps them staged offshore longer.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "depthZone": "deep",
+        "retrieveStyle": "twitch"
+      },
+      "source": "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "fish-your-way-regardless",
+      "insight": "Robertson: Commit to fishing your own way. If you come in with no fish, that's fine because you're fishing how you want. Fish for five bites and don't worry about the outcome.",
+      "conditions": {},
+      "source": "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-to-strengths-after-tough-start",
+      "insight": "Robertson: After a tough start to a season, make the decision to fish more to your strengths rather than trying to adapt to every situation. Leaning into what you do best produces better results.",
+      "conditions": {},
+      "source": "matt-robertson-leads-day-two-of-2022-elite-series-lake-chickamauga.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "self-employed-flexibility",
+      "insight": "Robertson: Being self-employed (pressure cleaning business) provides the schedule flexibility needed to fish multi-day tournaments and pursue a professional fishing career through the Opens path.",
+      "conditions": {},
+      "source": "new-elite-matthew-robertson.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "featureless-hard-bottom-offshore",
+      "insight": "Robertson: Winning offshore areas can be essentially featureless — no defined contour, just a hard bottom with 'sort of a point but not really.' The distinguishing feature is simply hard bottom 150 yards from shore.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "light-dependent-fish-movement",
+      "insight": "Robertson: On offshore hard-bottom spots, bass move to the outside edge in bright sun but hold 40 yards closer to shore under cloud cover. When you hit a lull in the action, it often means they've relocated.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "livescope-relocating-offshore-fish",
+      "insight": "Robertson: The Garmin Panoptix LiveScope is essential for relocating offshore fish when they shift position. Just move the trolling motor around to find them again without losing time.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "protect-your-spot",
+      "insight": "Robertson: After catching your limit quickly on an offshore spot, stay on the spot to protect it for the rest of the day rather than risking someone else finding it. This was a key strategic move that preserved fish for the next day.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "unpressured-fish-big-baits",
+      "insight": "Robertson: On fisheries known for shallow-water patterns, offshore fish have likely never seen a 7-inch swimbait or a big spinnerbait. Throwing big baits that fish haven't been exposed to is a major advantage.",
+      "conditions": {
+        "depthZone": "deep",
+        "lureCategory": "moving-baits"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "heavier-line-for-offshore-depths",
+      "insight": "Robertson: When fishing 10-foot depths offshore, 20-pound fluorocarbon works for swimbaits, crankbaits, and spinnerbaits. The heavier line won't spook fish at that depth and prevents break-offs. Normally he'd use mono for swimbaits and lighter fluoro for cranking.",
+      "conditions": {
+        "depthZone": "mid",
+        "lureCategory": "moving-baits"
+      },
+      "source": "offshore-locale-carried-robertson-in-rout.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-shift-kills-deep-bite",
+      "insight": "Robertson: A wind direction change can destroy a deep-water pattern by muddying previously clear water. When visibility drops from 6 feet to 2 feet, bass stop moving through the area and the deep bite dies. Be ready to switch to a shallow backup plan.",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "waterClarity": "muddy",
+        "depthZone": "mid"
+      },
+      "source": "robertson-adapted-when-deep-stuff-dried-up.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-on-boulders-with-bait",
+      "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up.",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "depthZone": "deep",
+        "coverType": "rock"
+      },
+      "source": "robertson-adapted-when-deep-stuff-dried-up.txt"
+    },
+    {
+      "category": "bait-design",
+      "topic": "suspendots-on-walking-topwater",
+      "insight": "Robertson: Adding SuspenDots and heavier aftermarket treble hooks to a walking topwater bait reduces buoyancy so the belly rides lower in the water. This gives the bait a different action and results in better hookup rates because fish get the bait and hooks instead of blowing it out of the water.",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "robertson-adapted-when-deep-stuff-dried-up.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-is-a-strong-suit",
+      "insight": "Robertson: The prespawn period is one of Robertson's strongest seasonal patterns, complementing his offshore fishing identity. He considers himself a 'heavyweight angler' who prefers big-fish fisheries.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "robertson-adapted-when-deep-stuff-dried-up.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "eelgrass-density-matters",
+      "insight": "Robertson: When fishing eelgrass flats, the big bites come from areas where the grass is not dense but more isolated. Concentrate on those isolated clump areas rather than the thick grass mats.",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "structure": [
+          "flat",
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fish-for-the-win-on-big-fish-lakes",
+      "insight": "Robertson: On lakes with big fish like Santee Cooper, commit to fishing for big bites rather than playing it safe for consistency. Fish to win rather than just survive.",
+      "conditions": {},
+      "source": "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "shad-spawn-morning-window",
+      "insight": "Robertson: The shad spawn is a morning-only pattern. Spend 1-1.5 hours on it maximum, then transition to other patterns. Having limited shad-spawn locations means you must have a backup plan for the rest of the day.",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "robertson-extends-lead-at-bassmaster-elite-series-event-on-santee-cooper-lakes.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "ugly-stik-carbon-tournament-capable",
+      "insight": "Robertson: The Ugly Stik Carbon provides lightweight sensitivity with legendary toughness, proving an Ugly Stik can be both your first rod and your last rod, even at the Elite Series level.",
+      "conditions": {},
+      "source": "robertson-first-to-represent-ugly-stick-on-pro-fishing-tour.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "summer-tva-get-off-the-bank",
+      "insight": "Robertson: On TVA lakes in summer, you have no choice but to get off the bank. 25+ years of experience on ledge fisheries like Kentucky Lake directly translates to success on similar Tennessee River impoundments like Pickwick.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ]
+      },
+      "source": "robertson-goes-offshore-to-grab-lead-in-bassmaster-elite-series-event-on-pickwick-lake.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "trigger-bigger-bites-offshore",
+      "insight": "Robertson: On offshore ledges you won't get a lot of bites, but one or two subtle adjustments that other anglers aren't doing can trigger the bigger bites that make the difference.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledges",
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "robertson-goes-offshore-to-grab-lead-in-bassmaster-elite-series-event-on-pickwick-lake.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "community-holes-work-when-others-leave",
+      "insight": "Robertson: Don't avoid community holes on ledge fisheries. Fish some community spots and let other anglers fish ahead of you, but also have your own spots where you catch the bulk of your weight undisturbed.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ]
+      },
+      "source": "robertson-goes-offshore-to-grab-lead-in-bassmaster-elite-series-event-on-pickwick-lake.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "offshore-hard-spots",
+      "insight": "Robertson: When idling offshore, look for hard-bottom spots that hold big bass even with no visible structure. A 40x50 yard hard spot in 9-10 feet can hold large concentrations of quality fish.",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "robertson-headed-to-the-classic.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "idling-for-fish",
+      "insight": "Robertson: Idle every inch of a lake to find offshore hard spots — if you see big bass on electronics but can't get them to bite in practice, commit to the spot in the tournament.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "robertson-headed-to-the-classic.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "play-to-strengths",
+      "insight": "Robertson: If you're going to fail, fail doing what you do well. Commit to your strengths — for Robertson, that's fishing offshore.",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "robertson-headed-to-the-classic.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "hollow-body-frog-year-round",
+      "insight": "Robertson: Loves throwing hollow-bodied frogs almost any time of year — not just a summer-only technique.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "lureCategory": "topwater"
+      },
+      "source": "robertson-hops-on-the-scum-frog-team.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "scum-frog-models",
+      "insight": "Robertson: Considers the Scum Frog Launch Frog and Trophy Series Frog legendary baits for catching giant bass.",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "robertson-hops-on-the-scum-frog-team.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-equalizes-pressure",
+      "insight": "Robertson: On heavily pressured Tennessee River lakes, wind is the great equalizer — when the wind blows, the fish bite. Root for bad weather on pressured fisheries.",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "cold-snap-delays-spawn",
+      "insight": "Robertson: A cold snap during prespawn can work in your favor by keeping fish offshore and slowing the spawn, extending the prespawn feeding window.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "depthZone": "deep",
+        "retrieveStyle": "twitch"
+      },
+      "source": "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "fish-your-way",
+      "insight": "Robertson: Commit to fishing your strengths — if you come in with no fish, that's fine because you fished how you wanted. Don't chase other patterns.",
+      "conditions": {},
+      "source": "robertson-inches-into-lead-in-bassmaster-elite-series-event-at-chickamauga-lake.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "wind-on-pressured-lakes",
+      "insight": "Robertson: Wind equalizes fishing pressure on Tennessee River lakes — the only thing that overcomes heavy pressure is weather. Root for it to blow hard.",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "robertson-on-em-to-cement-day-2-lead-on-chick.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-cold-snap-benefit",
+      "insight": "Robertson: During prespawn, a cold snap slowing fish from spawning keeps them in the offshore staging pattern longer, which benefits offshore anglers.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ],
+        "depthZone": "deep",
+        "retrieveStyle": "twitch"
+      },
+      "source": "robertson-on-em-to-cement-day-2-lead-on-chick.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "stop-caring-too-much",
+      "insight": "Robertson: Sometimes the best thing is to stop caring too much about results — when he stopped overthinking and just went fishing, he caught 25 pounds including a 6-14 kicker.",
+      "conditions": {},
+      "source": "robertson-overcomes-issues-to-lead-day-1.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "afternoon-rally",
+      "insight": "Robertson: Don't panic if the morning is slow — all five of his weigh-in fish were caught after 12:50 PM after boat problems forced him to restart his day.",
+      "conditions": {},
+      "source": "robertson-overcomes-issues-to-lead-day-1.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "faith-over-second-guessing",
+      "insight": "Robertson: Fish more deliberately and stop second-guessing. Go with your gut instead of constantly questioning whether to move.",
+      "conditions": {},
+      "source": "robertson-overcomes-issues-to-lead-day-1.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "tva-summer-ledges",
+      "insight": "Robertson: On TVA (Tennessee Valley Authority) lakes in summer, you have no choice but to get off the bank. Fish the offshore ledges — that's where the bass live.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "robertson-pillages-pickwick-for-22-06.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "triggering-big-bites-on-ledges",
+      "insight": "Robertson: On offshore ledges, you won't get a lot of bites, but there are little things you can do to trigger bigger bites that other anglers aren't doing — subtle presentation adjustments make the difference.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "robertson-pillages-pickwick-for-22-06.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "community-holes-patience",
+      "insight": "Robertson: Don't avoid community holes on ledge fisheries — let other anglers fish through first, then work behind them. But save your best weight-producing spots where you won't have competition.",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "ledge"
+        ]
+      },
+      "source": "robertson-pillages-pickwick-for-22-06.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "tennessee-river-ledge-experience",
+      "insight": "Robertson: A lifetime of experience on Tennessee River ledge fisheries (Kentucky Lake, Pickwick) is invaluable — knowing how fish set up on ledges from years of fishing them gives you an edge others can't replicate.",
+      "conditions": {
+        "structure": [
+          "ledge"
+        ]
+      },
+      "source": "robertson-pillages-pickwick-for-22-06.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "prespawn-okeechobee-progression",
+      "insight": "Robertson: On Lake Okeechobee during prespawn, quantity comes first and quality follows — Day 1 produced 60 fish of lesser quality, Day 2 produced 40, and Day 3 produced fewer but bigger fish as spawning females moved in.",
+      "conditions": {
+        "season": [
+          "spring",
+          "pre-spawn"
+        ]
+      },
+      "source": "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "commit-to-area",
+      "insight": "Robertson: Staying in a 600-yard area all three days can pay off if the fish are the right caliber — commit when practice shows big bites and wait for weather to stabilize post-cold-front.",
+      "conditions": {},
+      "source": "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "braid-in-vegetation",
+      "insight": "Robertson: Use 65-pound braid in heavy Florida vegetation even when fluorocarbon might get more bites — avoiding heartbreak in the grass is more important than getting extra bites.",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "run-and-gun-swimbait",
+      "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot.",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "structure": [
+          "flat",
+          "grass"
+        ],
+        "lureCategory": "moving-baits",
+        "coverType": "grass"
+      },
+      "source": "robertson-wins-2020-bass-nation-regional-on-okeechobee.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "cherokee-lake-win-pattern",
+      "insight": "Robertson: Won the Cherokee Lake Open with a drop shot and topwater combination during post-tropical-storm, post-frontal fall conditions.",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "lureCategory": "finesse"
+      },
+      "source": "the-2020-opens-lure-trends.txt"
+    },
+    {
+      "category": "bait-design",
+      "topic": "topwater-modification",
+      "insight": "Robertson: Modify a Strike King Sexy Dawg by replacing stock hooks with round-bend treble hooks and adding SuspenDots to the belly — this makes it sit lower, improves castability, and prevents fish from popping the bait out of the water.",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "wolf-pack-feeding",
+      "insight": "Robertson: Look for bass hunting bait in small feeding groups called 'wolf packs' — these aggressive groups will respond well to topwater presentations in pockets and around scattered rock.",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "lureCategory": "topwater",
+        "coverType": "rock"
+      },
+      "source": "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "scrap-and-adapt",
+      "insight": "Robertson: Be willing to completely scrap your game plan midday if the pattern dies. Set a deadline (e.g., noon) and if it's not producing, switch to something in your wheelhouse.",
+      "conditions": {},
+      "source": "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "deliberate-fishing",
+      "insight": "Robertson: Fish more deliberately and stop second-guessing. Have faith in yourself and roll with your decisions instead of bouncing between spots.",
+      "conditions": {},
+      "source": "three-days-and-40-pounds-finds-robertson-on-top-at-cherokee-lake.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "ugly-stik-carbon-classic",
+      "insight": "Robertson: Fishing rods don't have to cost a fortune to compete at the highest level — Robertson finished 7th at the 2021 Bassmaster Classic using Ugly Stik Carbon rods that retail under $80.",
+      "conditions": {},
+      "source": "top-5-matt-robertson-ugly-stik-moments-at-the-2021-bassmaster-classic.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "ugly-stik-carbon-elite-series",
+      "insight": "Robertson: Fishes the Bassmaster Elite Series with Ugly Stik Carbon rods, proving that the working man's rod can compete at the highest level of professional bass fishing.",
+      "conditions": {},
+      "source": "ugly-stik-appoints-first-pro-staffer.txt"
+    }
+  ]
+}

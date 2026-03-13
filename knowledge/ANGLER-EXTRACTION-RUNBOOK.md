@@ -12,7 +12,7 @@ Use this document to add a new angler to the bass fishing knowledge pipeline. A 
 5. Commit & push
 ```
 
-All commands run from: `/var/home/jcar/source/bass/knowledge/`
+All commands run from: `/Users/jcar/source/bass/knowledge/`
 
 ---
 
@@ -109,14 +109,14 @@ Each agent gets this prompt (fill in angler name, batch file list, and brand map
 You are extracting structured bass fishing knowledge from articles about pro angler **<Angler Name>**.
 
 Read each article file listed below and produce a JSON extraction file for each one.
-Write each JSON to `/var/home/jcar/source/bass/knowledge/data/extracted/<angler>/<article-filename-without-txt>.json`.
+Write each JSON to `/Users/jcar/source/bass/knowledge/data/extracted/<angler>/<article-filename-without-txt>.json`.
 
 **Articles to process (batch X of 4):**
 1. data/articles/<angler>/file1.txt
 2. data/articles/<angler>/file2.txt
 ...
 
-All article paths are relative to `/var/home/jcar/source/bass/knowledge/`.
+All article paths are relative to `/Users/jcar/source/bass/knowledge/`.
 
 **JSON format:**
 ```json
@@ -240,7 +240,7 @@ for c, n in sorted(cats.items(), key=lambda x: -x[1]):
 ## Step 5: Commit & Push
 
 ```bash
-cd /var/home/jcar/source/bass
+cd /Users/jcar/source/bass
 
 git add knowledge/data/article-urls-<angler>.txt \
        knowledge/data/articles/<angler>/ \
@@ -324,8 +324,122 @@ From KVD's cold-water crankbait article — shows the expected structure with op
 
 ---
 
+## Step 6: Enrich Knowledge Conditions
+
+After merging, enrich the knowledge entries with standardized condition tags. This enables the tactical briefing system to retrieve relevant entries by season, clarity, lure category, etc.
+
+```bash
+python3 scripts/enrich-local.py <angler>
+```
+
+Output: `data/extracted/<angler>/_merged-review-enriched.json`
+
+This script uses keyword-based text analysis (no API key needed) to extract:
+
+| Tag | Values |
+|-----|--------|
+| `season` (array) | pre-spawn, spawn, post-spawn, summer, fall, winter |
+| `waterClarity` | clear, stained, muddy |
+| `structure` (array) | point, bluff, grass, flat, dock, creek-channel, hump, riprap, laydown, ledge |
+| `depthZone` | shallow, mid, deep |
+| `lureCategory` | cranking, finesse, jigs, moving-baits, topwater, reaction, soft-plastics |
+| `retrieveStyle` | burn, slow-roll, stop-and-go, drag, hop, twitch, steady |
+| `coverType` | grass, wood, rock, dock, open |
+
+It also adds `lureCategory` to each opinion entry based on the lure name.
+
+**To enrich all anglers at once:**
+```bash
+python3 scripts/enrich-local.py
+```
+
+### Quality check
+
+After enrichment, spot-check entries where the topic contradicts the tagged season. Multi-season entries (3+) are often comparative text like "fall is reverse pre-spawn" — these should usually only be tagged with the primary season being discussed.
+
+---
+
+## Step 7: Generate Tactical Briefings
+
+Generate pre-computed tactical briefings from enriched knowledge. These are served statically in the StrikeZone app — zero runtime API calls.
+
+```bash
+python3 scripts/generate-briefings-local.py --all
+```
+
+Output:
+- `data/briefings/{season}_{clarity}_{pressure}_{category}.json` — 326 individual briefings
+- `data/briefings/_index.json` — condition key → filename mapping
+- `data/briefings/briefings-bundle.json` — all briefings in one file (~1MB, ~46KB gzipped)
+
+### Condition matrix
+
+326 briefings from: 6 seasons × 3 clarities × 3 pressures × 7 lure categories, minus pruned combos (topwater+winter, topwater+muddy, topwater+post-frontal, reaction+summer, reaction+spawn).
+
+### How retrieval works
+
+For each briefing, the script:
+1. Queries all enriched knowledge entries matching the target season + clarity + lure category
+2. Scores entries by relevance (single-season match = +4, dual = +2, 3+ = 0; lure category match = +3; clarity = +2)
+3. Caps at 25 entries total, 5 per angler
+4. Pulls matching tipRules and colorRules from opinions
+5. Assembles the briefing with primary/alternate lure approaches, pro insights, depth strategy, and conditional adjustments
+
+### Copy bundle to StrikeZone app
+
+After generating, copy the bundle into the app's src directory for Next.js bundling:
+
+```bash
+cp knowledge/data/briefings/briefings-bundle.json strikezone/src/data/briefings-bundle.json
+```
+
+The app loads this at build time via `strikezone/src/lib/briefings/index.ts`.
+
+### Higher-quality narratives (optional)
+
+For Claude-generated narrative briefings instead of template-based ones, use the API-powered script:
+
+```bash
+python3 scripts/generate-briefings.py --all --model claude-opus-4-20250514
+```
+
+Requires `ANTHROPIC_API_KEY`. Default model is Opus. Cost: ~$30-50 for all 326 briefings.
+
+---
+
+## Step 8: Create StrikeZone Angler Profile (if new angler)
+
+If the angler doesn't have a `.ts` profile in `strikezone/src/lib/anglers/`, create one following the pattern in `hackney.ts`:
+
+1. Create `strikezone/src/lib/anglers/<angler>.ts` with credibility scores, opinions (confidenceModifiers, colorRules, tipRules), and structureAdvice
+2. Add the export/import to `strikezone/src/lib/anglers/index.ts` and add to `ANGLER_PROFILES` array
+3. Add ANGLER_META entry in `strikezone/src/lib/theme.ts`
+
+Use the `_merged-review.json` opinions data as source material for the profile.
+
+---
+
+## Full Pipeline for New Angler (Summary)
+
+```
+1. Research URLs     →  article-urls-<angler>.txt
+2. Scrape            →  data/articles/<angler>/*.txt
+3. Extract           →  data/extracted/<angler>/*.json  (parallel agents)
+4. Merge             →  data/extracted/<angler>/_merged-review.json
+5. Commit raw data
+6. Enrich conditions →  data/extracted/<angler>/_merged-review-enriched.json
+7. Regenerate briefings → data/briefings/briefings-bundle.json (run for ALL anglers)
+8. Copy bundle       →  strikezone/src/data/briefings-bundle.json
+9. Create .ts profile → strikezone/src/lib/anglers/<angler>.ts
+10. Commit & push
+```
+
+**Important:** Step 7 regenerates ALL briefings (not just the new angler), since the new angler's knowledge improves every briefing where they have relevant insights.
+
+---
+
 ## Quick-Start for a New Session
 
 Paste this to a new Claude Code session:
 
-> Read `/var/home/jcar/source/bass/knowledge/ANGLER-EXTRACTION-RUNBOOK.md` and then run the full pipeline for **[Angler Name]**. They are known for [brief specialty description] and sponsored by [key sponsors if known].
+> Read `/Users/jcar/source/bass/knowledge/ANGLER-EXTRACTION-RUNBOOK.md` and then run the full pipeline for **[Angler Name]**. They are known for [brief specialty description] and sponsored by [key sponsors if known].

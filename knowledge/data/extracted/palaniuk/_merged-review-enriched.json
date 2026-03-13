@@ -1,0 +1,3200 @@
+{
+  "sources": [
+    "20qs-with-brandon-palaniuk.txt",
+    "3609-3-bassmaster-elite-series-pros-share-plastic-worms-for-summertime-bass.txt",
+    "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt",
+    "beginners-tacklebox-with-brandon-palaniuk.txt",
+    "best-drop-shot-rig-setups-palaniuks-a-list.txt",
+    "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt",
+    "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt",
+    "brandon-palaniuk-fishing-for-bass-in-traffic.txt",
+    "brandon-palaniuk-guide-to-learning-deep-cranks.txt",
+    "brandon-palaniuk-on-new-electronics-for-bass-fishing.txt",
+    "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt",
+    "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt",
+    "brandon-palaniuk-stage-three-north-carolina-big-bass.txt",
+    "brandon-palaniuk-talks-fishing-line-diameter.txt",
+    "brandon-palaniuk-the-series-lake-conroe.txt",
+    "brandon-palaniuk-what-i-used-on-lake-chickamauga.txt",
+    "brandon-palaniuks-5-favorite-smallmouth-baits.txt",
+    "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt",
+    "brandon-palaniuks-best-tactics-for-fall-fishing.txt",
+    "brandon-palaniuks-braid-to-fluorocarbon-knot.txt",
+    "brandon-palaniuks-drop-shot-setup.txt",
+    "brandon-palaniuks-preparation-for-the-santee-cooper-bass-tournament.txt",
+    "brandon-palaniuks-tournament-tactic-when-times-running-out.txt",
+    "brandon-palaniuks-winning-rayburn-baits.txt",
+    "brandon-palaniuks-winning-strategy.txt",
+    "breaking-down-vegetation-with-brandon-palaniuk.txt",
+    "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt",
+    "chalk-talk-palaniuk-on-flipping-vs-pitching.txt",
+    "chalk-talk-palaniuk92s-percentage-triangle.txt",
+    "dropshotting-tips-with-brandon-palaniuk.txt",
+    "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt",
+    "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt",
+    "fishing-the-ned-rig-with-brandon-palaniuk.txt",
+    "five-questions-brandon-palaniuk.txt",
+    "floating-crankbaits-for-key-bites.txt",
+    "going-against-the-grain-palaniuks-big-bait-theory.txt",
+    "heres-brandon-palaniuks-fishing-right-now.txt",
+    "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt",
+    "how-brandon-palaniuk-caught-em-at-mille-lacs.txt",
+    "how-brandon-palaniuk-smashed-okeechobee.txt",
+    "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt",
+    "how-brandon-palaniuk-won-the-champlain-elite.txt",
+    "how-brandon-palaniuk-won-the-santee-cooper-elite.txt",
+    "how-to-fish-like-brandon-palaniuk-what-is-maxscent-monsoor-swim-jig-tips.txt",
+    "inside-elite-boats-brandon-palaniuk-4.txt",
+    "major-league-lesson-brandon-palaniuk-on-suspended-jerkbaits.txt",
+    "major-league-lesson-brandon-palaniuk-ties-a-braid-to-fluoro-leader.txt",
+    "major-league-lesson-palaniuk-explains-how-to-fish-a-spinbait.txt",
+    "major-league-lesson-palaniuk-on-topwater-walking-baits.txt",
+    "my-three-favorite-river-baits-with-brandon-palaniuk.txt",
+    "on-point-with-brandon-palaniuk.txt",
+    "palaniuk-shares-three-keys-to-springtime-topwater-success.txt",
+    "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt",
+    "palaniuks-favorite-knot-for-all-baits.txt",
+    "palaniuks-jerkbait-color-system-revealed.txt",
+    "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt",
+    "palaniuks-top-2017-lures.txt",
+    "reels-winter-bass-fishing-brandon-palaniuk.txt",
+    "running-a-pattern.txt",
+    "tips-articleasp.txt",
+    "top-5-fall-bass-fishing-lures-palaniuks-favorites.txt",
+    "try-palaniuk-s-1-2-punch-with-big-baits.txt",
+    "video-brandon-palaniuk-pro-tips.txt",
+    "video-spotted-bass-in-clear-water-palaniuks-strategy.txt",
+    "worlds-widest-smallmouth-brandon-palaniuk-swimbait-secret-toughest-derp-shot.txt"
+  ],
+  "opinions": {
+    "10\" Worm (Shakey/TX)": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "plum",
+          "hex": "#8E4585",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "color": "plum",
+          "hex": "#8E4585",
+          "priority": 7
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "color": "plum",
+          "hex": "#8E4585",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'I stick with a pretty standard summer setup. A 10-inch Power Worm in plum color with a 1/2-ounce tungsten weight and 4/0 worm hook. Fish offshore targeting shell bars or brushpiles.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "18-30ft"
+          },
+          "tip": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Use 1/2-oz tungsten flipping weight with VMC Sinker Stop, 5/0 heavy duty wide gap hook, 15-17lb fluorocarbon for Texas-rigged 10-inch worm in deep cover'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "20-45ft",
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Texas-rig a 10-inch worm with 5/0 EWG hook and 3/8-1/2oz tungsten on 15-lb fluorocarbon. Cast past the cover and drag the worm into it — lift over brush pile limbs and drop back to bottom'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "deep",
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'When fishing deep with a 10-inch worm, many times you won't feel a bite — the line will just feel heavy as the bass inhales the worm and starts to swim off'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "fishDepth": "deep",
+            "structure": "brush piles or ledges"
+          },
+          "tip": "Palaniuk: 'When big fish on Texas brush piles or Tennessee River ledges won't eat a big jig, use an oversized shaky-head with a 10-inch Power Worm. It's easier for those fish to swallow than a small fat compact football jig.'",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "3609-3-bassmaster-elite-series-pros-share-plastic-worms-for-summertime-bass.txt",
+        "brandon-palaniuks-winning-rayburn-baits.txt",
+        "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt",
+        "tips-articleasp.txt"
+      ],
+      "lureCategory": "soft-plastics"
+    },
+    "Deep Diving Crankbait": {
+      "lure": "Deep Diving Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "waterClarity": "tannic"
+          },
+          "color": "PM Strike Chartreuse",
+          "hex": "#DFFF00",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "color": "PM Chartreuse",
+          "hex": "#DFFF00",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Start with a deep-diving crankbait on offshore schools. It covers the most water fastest and can fire up the school. The Rapala DT-16 gets thrown the most for 12-16 foot depths.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "fishDepth": "12-16ft"
+          },
+          "tip": "Palaniuk: 'You just have to adjust your crankbait selection to whatever you need to make sure you keep contact with the bottom. Bottom contact is crucial for cranking.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: '95% of the time a deep crankbait needs to hit the bottom or structure to create strikes. Pick crankbaits that dive a little deeper than the bottom you are fishing.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "fishDepth": "14-15ft"
+          },
+          "tip": "Palaniuk: 'If fishing 14-15 foot bottom, throw a DT16. If 18-19 feet, use a DT20. Those dive just deeper than the bottom depths.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'The DT Series gets to its depth quickly so most of the cast is in the strike zone. Instead of 80 feet to reach max depth, DT gets there after 20-30 feet of retrieve.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Spend hours throwing lures over rocks in varying depths to learn dive angle and when each lure reaches max depth. Get feedback from hitting rocks to know the lure is reaching its depth.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'The Big-M 4.0 has a really fluid swimming action with a lot of flash and roll -- less intrusive than big hard-wobbling cranks. Key when it's calm or just a tiny ripple. A big profile combined with big action can be too obnoxious and turn off bites.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "tannic"
+          },
+          "tip": "Palaniuk: 'In tannic water, flash aids in fish finding the lure. The subtle roll and flash of the Big-M 4.0 did it better than a crazy hard wobbling crank.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "~10 ft",
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'Caught two 9-pounders on the Big M 4.0 at Okeechobee. Used it when fish were high in the water column or on top of the lip dropping off into deeper water.'",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt",
+        "brandon-palaniuk-guide-to-learning-deep-cranks.txt",
+        "going-against-the-grain-palaniuks-big-bait-theory.txt",
+        "how-brandon-palaniuk-smashed-okeechobee.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Neko Rig": {
+      "lure": "Neko Rig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "green pumpkin",
+          "hex": "#6B8E23",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Neko rig is a last resort after working through crankbait, swimbait, spoon, and big worm on offshore schools.'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "fishDepth": "18-28ft"
+          },
+          "tip": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target trees with fish'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Use a 3/16-oz VMC Half Moon weight with a 1/0 weedless Neko hook for fishing nasty cover — expect to lose some fish but you get far more bites than with football jigs or big cranks'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "18-28ft"
+          },
+          "tip": "Palaniuk: 'Use 15-lb braid to 10-lb fluorocarbon leader on a 7-ft medium spinning rod for deep Neko rigging in cover'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Use the Neko Rig for offshore locations and the same places you'd fish a drop shot — it gives fish a different look even with the same worm and keeps the bait right on the bottom with great action'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Use a VMC Half Moon weight for the Neko Rig — it creates better falling action than the standard nail weight. The standard weight makes the bait glide more, which can also be good at times'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Use a Size 1 weedless Neko hook since you're always around some type of cover when fishing a Neko Rig'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'Used a Neko rig as a change-up at Okeechobee alongside big baits and crankbaits, catching quality fish on it across multiple days.'",
+          "priority": 5
+        },
+        {
+          "when": {
+            "fishDepth": "15-17 ft"
+          },
+          "tip": "Palaniuk: 'A Neko rig has better odds of catching a largemouth or smallmouth than a dropshot -- generally largemouth want a bigger package.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt",
+        "brandon-palaniuks-winning-rayburn-baits.txt",
+        "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt",
+        "how-brandon-palaniuk-smashed-okeechobee.txt",
+        "how-brandon-palaniuk-won-the-champlain-elite.txt"
+      ],
+      "lureCategory": "finesse"
+    },
+    "Drop Shot": {
+      "lure": "Drop Shot",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "fall"
+          },
+          "color": "green pumpkin blue",
+          "hex": "#6B8E23",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "color": "green pumpkin blue",
+          "hex": "#6B8E23",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "GP Blue",
+          "hex": "#4169E1",
+          "priority": 6
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "waterClarity": "clear"
+          },
+          "color": "Clear Silver Shiner",
+          "hex": "#C0C0C0",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "waterClarity": "clear"
+          },
+          "color": "Green Pumpkin",
+          "hex": "#8B7D3C",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "late-fall"
+          },
+          "color": "Green Pumpkin with Red Flake / Blue Laminate",
+          "hex": "#6B7A3C",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Drop shot is a last resort bait for offshore schools after exhausting reaction baits. Use it to pick off remaining reluctant fish.'",
+          "priority": 6
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Use teardrop-style weights exclusively for drop shot due to snag resistance and bottom telegraphing. Start light and go progressively heavier as drop speed and water depth demand.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'A single well-balanced rod delivers all drop shot setups. Vary only the leader size/length, hook style, plastics, and weight shape/size.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "fishDepth": "shallow"
+          },
+          "tip": "Palaniuk: 'Use a shorter 2-4 inch plastic for shallow or pressured drop shot situations with a nose-hooked presentation.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Use a longer 6-7 inch worm threaded on the hook for deeper drop shot applications.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "tip": "Palaniuk: 'When bass are in brushpiles in 7 feet of water with slimy grass on the bottom, use a drop shot with the worm 12 inches above the weight to keep the bait above the slime and avoid spooking fish.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "tip": "Palaniuk: 'On highly pressured bass, choose finesse techniques like drop shot even when you have been fishing heavy tackle all week.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "summer",
+            "fishDepth": "20-40ft"
+          },
+          "tip": "Palaniuk: 'When fishing deep smallmouth (20-40 feet) on boulders and rocks, hold the boat right on top of them and fish vertically with a drop shot on spinning tackle.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "40ft"
+          },
+          "tip": "Palaniuk: 'Use braided mainline to 15-foot fluorocarbon leader with Crazy Alberto knot for maximum sensitivity when drop shotting 40 feet deep'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Watch your lure fall on your depth finder, see bass react, and follow the bait down to where the bass are — drop right on top of the fish'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Don't set the hook — reel down on the fish when you feel the bite and put pressure on the rod to let the rod drive the hook in'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Set drag tight enough to get the hook set, then loosen the drag once hooked to let the fish fight against the line on long runs'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "tip": "Palaniuk: 'Use 8-pound fluorocarbon leader to 15-pound braid mainline with a 3/8-oz tungsten weight and light wire #2 hook for pressured smallmouth'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Walks through his drop shot setup as a foundational technique for tournament bass fishing.'",
+          "priority": 4
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Always have a drop shot rod rigged and ready regardless of where or how deep you're fishing or the species — it works for largemouth in brush piles at 8 feet just as well as deep smallmouth'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Start with a Size 1 Finesse Neko hook for drop shot and go bigger or smaller depending on the worm. Use a tungsten teardrop weight — it gives the best feel and hangs up less than ball shape and causes less line twist than cylinder style'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "8-22 ft"
+          },
+          "tip": "Palaniuk: 'Fish isolated targets where you can use 360 imaging -- every cast is as efficient as possible because you're making a cast with a bait a fish will eat if he's there, at a target he should be sitting next to, not on some big expansive flat.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "8-22 ft"
+          },
+          "tip": "Palaniuk: 'Shake the bait in one spot, sometimes all the way up to a minute depending on how active the fish are. Balance not wasting time if they're not there versus not fishing too fast and passing them up.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "25-32 ft"
+          },
+          "tip": "Palaniuk: 'For deep smallmouth on sand-to-rock transitions with isolated boulders, use 360 imaging boulder to boulder or follow rock veins, then look for fish on 2D sonar to drop on them.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'When it slicked off calm, smallmouth positioned on more specific boulders or tighter to specific little rockpiles. When wind blew, they scattered more and bait pushed up on deeper flats.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "6-7 ft"
+          },
+          "tip": "Palaniuk: 'Found a brushpile on the Mega 360, flipped the dropshot in and caught a 7-12. When a big fish gets you in the brushpile, just hold your rod tight -- the bigger ones' head shakes are big enough to break branches and free themselves.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "fishDepth": "20-35ft"
+          },
+          "tip": "Palaniuk: 'Use 6-pound fluorocarbon leader to 8-pound braid. The light line lets the bait move with a more natural action and bass won't notice the line when you drop a bait in front of them.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "fishDepth": "20-35ft"
+          },
+          "tip": "Palaniuk: 'Make short 10- to 15-foot pitches, let the weight sink to the bottom, then move your boat up to the bait. Keep eyes on the graph — when you spot a fish, drop your bait directly to it.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "species": "smallmouth"
+          },
+          "tip": "Palaniuk: 'Hold the handle of your rod up in front of your face and point the rod tip almost straight down at the water. This prevents wind from bagging the line and stalling the bait's fall.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": "smallmouth"
+          },
+          "tip": "Palaniuk: 'I caught 90 percent of my bass after I first saw them on my graph. They were typically 2 to 3 feet above the bottom.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "late-fall"
+          },
+          "tip": "Palaniuk: 'The great thing about a drop shot any time of year, but especially now, is how versatile it is. You can fish it shallow around isolated wood, then quickly shift to deeper ledges and rock, and switch again to shallow.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "late-fall"
+          },
+          "tip": "Palaniuk: 'I rig weedless with a VMC No. 1 Finesse Neko Hook — to me, this is the best hook for this style of fishing. Leader strength depends on cover: 6-, 8-, or 10-pound fluorocarbon.'",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt",
+        "best-drop-shot-rig-setups-palaniuks-a-list.txt",
+        "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt",
+        "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt",
+        "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt",
+        "brandon-palaniuks-drop-shot-setup.txt",
+        "dropshotting-tips-with-brandon-palaniuk.txt",
+        "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt",
+        "how-brandon-palaniuk-caught-em-at-mille-lacs.txt",
+        "how-brandon-palaniuk-won-the-champlain-elite.txt",
+        "how-brandon-palaniuk-won-the-santee-cooper-elite.txt",
+        "on-point-with-brandon-palaniuk.txt",
+        "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt"
+      ],
+      "lureCategory": "finesse"
+    },
+    "Chatterbait": {
+      "lure": "Chatterbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "isStained": true
+          },
+          "color": "white",
+          "hex": "#FFFFFF",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "color": "White",
+          "hex": "#FFFFFF",
+          "priority": 6
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "isStained": true
+          },
+          "tip": "Palaniuk: 'A white bladed jig shows up better when the water is dirty or stained. Fish it on flats with scattered grass and stumps.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Use a vibrating jig with 15-lb fluorocarbon to cover submerged grass lines — go up to 17 or 20-lb in shallower thick grass'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "waterClarity": "stained",
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'When water was dirty and topwater wouldn't work, picked up a Chatterbait and caught two good ones -- a 4 and a 3 -- around the only submerged vegetation within miles.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt",
+        "breaking-down-vegetation-with-brandon-palaniuk.txt",
+        "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+      ],
+      "lureCategory": "moving-baits"
+    },
+    "Suspending Jerkbait": {
+      "lure": "Suspending Jerkbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "any"
+          },
+          "color": "mossback shiner",
+          "hex": "#8B9A6B",
+          "priority": 6
+        },
+        {
+          "when": {
+            "waterClarity": "tannic"
+          },
+          "color": "Kameyama Ghost Pearl",
+          "hex": "#F0EDE6",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "south"
+          },
+          "color": "Blueback Herring",
+          "hex": "#7B9EBF",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "north"
+          },
+          "color": "Green Gill",
+          "hex": "#5B7A3D",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "color": "Ito Wakasagi",
+          "hex": "#B8C4D0",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "clear-to-stained"
+          },
+          "color": "GP Pro Blue",
+          "hex": "#3A5F3A",
+          "priority": 8
+        },
+        {
+          "when": {
+            "forage": "shad"
+          },
+          "color": "Mat Shad",
+          "hex": "#C8C0B0",
+          "priority": 8
+        },
+        {
+          "when": {
+            "forage": "shad"
+          },
+          "color": "HT Ito Tennessee Shad",
+          "hex": "#A8B8A0",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "color": "Table Rock SP",
+          "hex": "#9EAEB0",
+          "priority": 7
+        },
+        {
+          "when": {
+            "species": "largemouth"
+          },
+          "color": "Mat Shad",
+          "hex": "#C8C0B0",
+          "priority": 8
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "waterClarity": "clear"
+          },
+          "color": "Pro Blue",
+          "hex": "#1E3A5F",
+          "priority": 7
+        },
+        {
+          "when": {
+            "species": "smallmouth",
+            "waterClarity": "clear"
+          },
+          "color": "HT Tennessee Shad",
+          "hex": "#A8B8A0",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "isStained": true
+          },
+          "tip": "Palaniuk: 'Fish a jerkbait on stained-water flats with scattered grass and stumps alongside a bladed jig for a complementary pattern.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "isLowLight": true
+          },
+          "tip": "Palaniuk: 'If bass wont come to the surface, switch to a jerkbait running 5-6 feet deep. Fish it quickly and make it move erratically to get a reaction strike. Also effective when schooling bass go down or quit hitting topwater.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'When time is running out in a tournament, a jerkbait like the Rapala Shadow Rap is one of my go-to power baits to cover water quickly and find actively feeding bass'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'The jerkbait has had a huge resurgence with forward-facing sonar — it's easily tracked on screen and can be effective sitting still, and FFS helps you dial in the right cadence'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Add SuspenDots or SuspenStrips toward the front of the bait to make it suspend at the right depth — the same lure may require different weighting in different water temperatures'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'All the action is in your wrist — create slack in the line on the twitch, then throw the rod back to the initial position. Use a shorter 6ft 10in medium rod to control the bait without slapping the water'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "cold"
+          },
+          "tip": "Palaniuk: 'If pausing the jerkbait for more than 8 seconds, switch from fluorocarbon to 8-10lb monofilament — mono keeps a direct line to your bait instead of sinking'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'The Kanata has high flash and is pretty loud, creating a lot of drawing power. It's easier to change speed than with a crankbait -- when you stop it, a crankbait floats up, but a weighted-to-suspend jerkbait sits as long as you want.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'Start slower until you gauge the mood of the fish. Go slow because you don't want to spook them -- you want to surprise them and have a positive reaction. The aggressiveness of the fish determines how erratic you want to be.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "< 10 ft"
+          },
+          "tip": "Palaniuk: 'When fish push bait toward the surface, mimic that by twitching upward -- change rod angle to twitch up. That makes the bait look like it's about to get eaten. When they see it escaping, they hit another gear. As bait approaches surface, go back down with it and that's when the bite happens.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "waterClarity": "clear",
+            "season": "spring"
+          },
+          "tip": "Palaniuk: 'Since it's a lot clearer than normal, this year has been even better for a jerkbait. Any time the water level is moving up or down, some fish tend to pull off the bank and suspend. That is where the jerkbait is so good.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Caught a double on the jerkbait -- a 4 and a 2 on the same cast, then caught a 6. When fish are schooling near isolated stumps, rockpiles, and drops, a jerkbait can trigger multiple fish at once.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'I always change cadence first — it's the easiest thing to change quickly. I want to notice how closely fish are following it. The more they're mimicking the bait's movement, the more aggressive they'll be.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "tip": "Palaniuk: 'In clear water, start with a baseline like Ito Wakasagi. If not getting the reaction you want, go more natural/transparent like GP Pro Blue. If still no improvement, flip to opposite end — something more opaque or bright with full body flash. Then refine further from the strongest response.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Sometimes bright atrocious colors create reaction strikes in gin clear water. It makes them react in a different way. Go against the general rule to test your assumptions.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'After cadence and color, assess bait profile and action. The ONETEN runs completely different than the ITO SHINER despite similar size. Assessing all of those variables is the key to success.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "tip": "Palaniuk: 'I like a smaller 70-size reel frame for jerkbaits. It palms much better and you'll notice less forearm fatigue fishing all day. Even though a 100-size reel is not much bigger, I notice a big difference.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "tip": "Palaniuk: 'I always start the season with a 7.1:1 gear ratio and then go faster later into spring. On a 70-size reel, even an 8.1:1 is not too fast for a jerkbait because the smaller spool doesn't take up as much line per handle turn.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'When bass react to a glidebait but won't fully commit, switch to a large jerkbait like the Kanata. It's a 1-2 punch — the big bait draws them, but the jerkbait's erratic dying action triggers the bite. You can create a much different action with a jerkbait that you can't create with a swimbait.'",
+          "priority": 9
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Consistent movement triggers bites more than long pauses. Twitch-twitch-pause or single twitches where the bait is constantly moving away from the fish. If you pause for long periods, more fish turn away.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'A bass's metabolism runs at a higher speed during summer so they burn more calories. If you give them a bigger meal while exerting the same amount of effort, you have a better chance to get bigger fish to trigger.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'The high-percentage area where most bites occur is within 10 feet of some piece of structure — grass clumps, rock piles, brush piles or rock.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'To get the bait down, make a super long cast and pull hard three times. Don't just reel — at a certain point reeling can prevent the bait from reaching maximum depth.'",
+          "priority": 7
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'I would rather that fish turn away and return to where it was than see the boat and get spooked. Don't dead-stick too close to the boat.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt",
+        "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt",
+        "brandon-palaniuks-tournament-tactic-when-times-running-out.txt",
+        "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt",
+        "going-against-the-grain-palaniuks-big-bait-theory.txt",
+        "heres-brandon-palaniuks-fishing-right-now.txt",
+        "how-brandon-palaniuk-won-the-santee-cooper-elite.txt",
+        "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt",
+        "palaniuks-jerkbait-color-system-revealed.txt",
+        "reels-winter-bass-fishing-brandon-palaniuk.txt",
+        "try-palaniuk-s-1-2-punch-with-big-baits.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Flipping Jig": {
+      "lure": "Flipping Jig",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "fall"
+          },
+          "color": "black blue laminate",
+          "hex": "#1B1B3A",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "color": "wild craw",
+          "hex": "#8B4513",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "color": "black and blue",
+          "hex": "#1B1B3A",
+          "priority": 7
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "color": "Wild Craw / Green Pumpkin",
+          "hex": "#8B7D3C",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "color": "Black and Blue",
+          "hex": "#1A1A3E",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "fall"
+          },
+          "tip": "Palaniuk: 'Punch hyacinths and salvinia mats with a 1-1/4 oz sinker and 3/0 VMC Heavy Duty Flipping Hook in 4-6 foot water during the late summer/fall transition.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "tip": "Palaniuk: 'In October, fish a 1/2-ounce flipping jig around isolated cover in the backs of creeks and adjacent to channel swings with big flats. Target laydowns, single docks, shallow brushpiles, or any isolated targets.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Pitch a 1/2-oz to 1-oz jig into deep milfoil to replicate the punching approach in deeper water — use 50-lb braid to 20-lb fluorocarbon leader'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "structure": "river"
+          },
+          "tip": "Palaniuk: 'One of the reasons most professional anglers will choose a jig for river fishing is because there are few places you can't fish a jig successfully. You can slow it down and crawl it on the bottom, speed it up and swim it over grass, through lily pads and around trees and stumps, or flip it into dense cover.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "structure": "river"
+          },
+          "tip": "Palaniuk: 'Change the style and color of the trailer on the back of the jig and switch the skirt or head color to modify the jig for any type of cover, structure or water depth.'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": "late-fall"
+          },
+          "tip": "Palaniuk: 'Big fish are usually in the back half of creeks and pockets at this time. I especially like flatter pockets that still have a decent channel running through them. Fish the jig in isolated cover — it's usually visible stuff.'",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt",
+        "brandon-palaniuks-best-tactics-for-fall-fishing.txt",
+        "breaking-down-vegetation-with-brandon-palaniuk.txt",
+        "my-three-favorite-river-baits-with-brandon-palaniuk.txt",
+        "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt"
+      ],
+      "lureCategory": "jigs"
+    },
+    "Walking Topwater": {
+      "lure": "Walking Topwater",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "isLowLight": true
+          },
+          "color": "green back white sides (IU)",
+          "hex": "#4A7C59",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "pro blue",
+          "hex": "#003DA5",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "pearl white shad",
+          "hex": "#F5F5DC",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "bluegill pattern",
+          "hex": "#4A7C59",
+          "priority": 6
+        },
+        {
+          "when": {
+            "season": "spring",
+            "spawnStage": "pre-spawn/spawn"
+          },
+          "color": "Bluegill",
+          "hex": "#5B8C3A",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "south"
+          },
+          "color": "Pro Blue",
+          "hex": "#1E3A5F",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "north"
+          },
+          "color": "Ayu",
+          "hex": "#C4B896",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "isLowLight": true
+          },
+          "tip": "Palaniuk: 'My favorite lure to start off the morning is a topwater walker. I can cover lots of water quickly, it creates a lot of commotion on the surface, and I can slow it down to keep it in the strike zone longer.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "fishDepth": "shallow"
+          },
+          "tip": "Palaniuk: 'Throw a topwater walker on 40-lb braid with a medium rod that has a good tip — the braid requires a rod tip with enough give to walk the bait and create action'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer",
+            "fishDepth": "shallow"
+          },
+          "tip": "Palaniuk: 'In late summer upriver sections, cast topwater at a 45-degree angle to current — bass hold just off the current behind structure. Bring the lure right beside the cover so it's right over top of the bass'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'Use 40-lb braid mainline to a 20-lb monofilament leader for topwater walkers'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "spring",
+            "spawnStage": "pre-spawn/spawn"
+          },
+          "tip": "Palaniuk: 'Any time the bass are around that time of their spawn, they can't stand bluegill. I chose a popper because I wanted it to stay in their strike zone for as long as possible, but still have a lot of action — enough disturbance to draw bass but not so much it spooks fish in shallow water.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "spring"
+          },
+          "tip": "Palaniuk: 'Be patient. A lot of times you can go too fast and the fish end up following your bait but they can never commit and catch up to it. Take your time and really work the bait in the strike zones where you think fish may be holding.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "spring"
+          },
+          "tip": "Palaniuk: 'If you have a rod that's too stiff you end up moving the bait and lose action. If the rod is too long, you can hit the water when casting. I go with a shorter 6-foot 10-inch Medium rod for topwater.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt",
+        "brandon-palaniuks-winning-rayburn-baits.txt",
+        "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt",
+        "palaniuk-shares-three-keys-to-springtime-topwater-success.txt",
+        "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt"
+      ],
+      "lureCategory": "topwater"
+    },
+    "Squarebill Crankbait": {
+      "lure": "Squarebill Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "color": "Wild Craw (red crawfish)",
+          "hex": "#8B2500",
+          "priority": 7
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "color": "Mat Craw II (matte crawfish)",
+          "hex": "#6B3A2A",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "fishDepth": "shallow"
+          },
+          "tip": "Palaniuk: 'When you need a quick bite, use a squarebill crankbait to fish shallow water thoroughly — cover water but don't rush the retrieve'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "fishDepth": "< 6 ft"
+          },
+          "tip": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the other side -- looks like a crawfish slowly scooting, acts like something between a normal crankbait and a football jig.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "season": "spring"
+          },
+          "tip": "Palaniuk: 'That small profile does make a difference in the spring. When they haven't really made their push to spawn, they'll eat a smaller bait better, especially when you're around northern-strain bass.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "< 6 ft"
+          },
+          "tip": "Palaniuk: 'Use a 7.1:1 gear ratio reel when cranking shallow -- fish will push the bait and knock slack in the line. With a slower reel, you can't catch up to them.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "spring",
+            "fishDepth": "4-6 ft"
+          },
+          "tip": "Palaniuk: 'Balsa crankbaits have a great action for the spring because they are not super aggressive. Fish them on transitions and first breaks when bass are sitting in that 4-6 foot range.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "spring"
+          },
+          "tip": "Palaniuk: 'A squarebill-style bait with a wider front end that tapers toward the back has been deadly around rock transitions. If you find any laydown or wood still in the water, it is almost a guarantee you will catch one.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "structure": "river"
+          },
+          "tip": "Palaniuk: 'A crankbait is appropriate anytime you're fishing rocks, wood, underwater grass, points and ledges on a river. A self-tuning line tie makes it easy to swim around or through cover.'",
+          "priority": 6
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuks-tournament-tactic-when-times-running-out.txt",
+        "floating-crankbaits-for-key-bites.txt",
+        "heres-brandon-palaniuks-fishing-right-now.txt",
+        "my-three-favorite-river-baits-with-brandon-palaniuk.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Spinnerbait (Colorado/Willow)": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'A 1/2-ounce spinnerbait is a key power bait for covering water quickly when you need to find actively feeding bass fast'",
+          "priority": 6
+        },
+        {
+          "when": {
+            "structure": "river"
+          },
+          "tip": "Palaniuk: 'I can fish a spinnerbait successfully in current, through eddy breaks, along wing dams, over and through log jams and in almost any other type of structure or cover on a river.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "brandon-palaniuks-tournament-tactic-when-times-running-out.txt",
+        "my-three-favorite-river-baits-with-brandon-palaniuk.txt"
+      ],
+      "lureCategory": "moving-baits"
+    },
+    "Texas Rig (Creature Bait)": {
+      "lure": "Texas Rig (Creature Bait)",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "California 420",
+          "hex": "#8B7355",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "color": "sprayed grass",
+          "hex": "#567D46",
+          "priority": 7
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'For punching matted vegetation, use 65-lb braid with a big tungsten weight, creature bait, and stout hook — smoothness of braid is crucial for quiet presentations in close quarters'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'When punching mats, free spool until the weight hits bottom, then hop the bait two or three times before reeling in and casting to the next thick mat'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'When pitching, start with the rod tip high, drop the tip so the bait swings forward, then raise back up with your wrist for distance — the bait should barely make a ripple hitting the water'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'When a fish bites, don't set the hook instantly — let them swim off. Set the hook cross-body to maximize power. Keep semi-slack line, never completely slack or completely tight'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "any"
+          },
+          "tip": "Palaniuk: 'Use the lightest weight possible, especially in silty bottoms — fish don't want to suck all that muck in. Don't peg the weight unless absolutely necessary; a free-sliding sinker gets more bites'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "tip": "Palaniuk: 'For punching thick matted grass, use a 1.5-oz tungsten weight Texas-rigged with 4/0 straight-shank hook. Free spool until hitting bottom, then hop two or three times before reeling in'",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "breaking-down-vegetation-with-brandon-palaniuk.txt",
+        "chalk-talk-palaniuk-on-flipping-vs-pitching.txt",
+        "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt"
+      ],
+      "lureCategory": "soft-plastics"
+    },
+    "Medium Diving Crankbait": {
+      "lure": "Medium Diving Crankbait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "waterClarity": "tannic"
+          },
+          "color": "Sexy French Pearl",
+          "hex": "#E8D5C4",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "tannic"
+          },
+          "color": "Megabass Sexy Shad",
+          "hex": "#C0C0C0",
+          "priority": 7
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "south"
+          },
+          "color": "Blueback Herring",
+          "hex": "#7B9EBF",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "fall",
+            "region": "north"
+          },
+          "color": "HD Live Bluegill",
+          "hex": "#5B8C3A",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'When pre-spawners are traveling in packs of 3-5 fish, constantly hunting and moving up and down in the water column, a crankbait allows you to fish where they're hunting with repetitive casts to trigger bites. A lot of times it was a reaction bite, fast reeling then stop and go.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'Constantly change retrieves every 5-6 casts. Erratic speeds are what trigger them, even if it changes fish to fish.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "~10 ft",
+            "season": "pre-spawn"
+          },
+          "tip": "Palaniuk: 'Used a prototype Megabass IPX crankbait in an average depth of 10 ft with a steep dive angle, smaller profile, and traditional hard-hitting wobble. Castability was key -- long casts gave more room to change cadences and try to trigger the bite.'",
+          "priority": 8
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "going-against-the-grain-palaniuks-big-bait-theory.txt",
+        "how-brandon-palaniuk-smashed-okeechobee.txt",
+        "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt"
+      ],
+      "lureCategory": "cranking"
+    },
+    "Blade Bait": {
+      "lure": "Blade Bait",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [],
+      "tipRules": [
+        {
+          "when": {
+            "fishDepth": "> 20 ft"
+          },
+          "tip": "Palaniuk: 'Snap your rod and it will dart a foot or two off to the right and then continue falling fast. Snap it again and it might dart two feet back to the left, or forwards, or backwards. For fish that are in a negative, inactive mood, that erratic action triggers a feeding response.'",
+          "priority": 8
+        },
+        {
+          "when": {
+            "fishDepth": "> 20 ft"
+          },
+          "tip": "Palaniuk: 'Start with the bait right in the fish's face -- drop it 4-5 inches above the fish. Rip it up and let it fall right back into his face or right below. If that doesn't work, go slightly above them so the bait is dropping a foot within their head.'",
+          "priority": 9
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
+      ],
+      "lureCategory": "reaction"
+    },
+    "Shakyhead": {
+      "lure": "Shakyhead",
+      "seasonAdd": [],
+      "minTempOverride": null,
+      "maxFishDepthOverride": null,
+      "confidenceModifiers": [],
+      "colorRules": [
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "color": "Black Emerald",
+          "hex": "#003D2B",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "color": "Junebug",
+          "hex": "#3D1F4E",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "clearing"
+          },
+          "color": "Green Pumpkin Red",
+          "hex": "#7B6B33",
+          "priority": 8
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "color": "Watermelon Red",
+          "hex": "#5B7A3D",
+          "priority": 8
+        }
+      ],
+      "tipRules": [
+        {
+          "when": {
+            "waterTemp": "below 42F or above 90F"
+          },
+          "tip": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "waterTemp": "above 90F"
+          },
+          "tip": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that aren't willing to chase a crankbait or eat a bigger worm.'",
+          "priority": 9
+        },
+        {
+          "when": {
+            "structure": "brush pile"
+          },
+          "tip": "Palaniuk: 'Start from the outside of the brush pile. If it's sunny, approach from the shady side. If no bite on the outside, make casts more to the inside. Getting the fish to bite on the outside gives a better opportunity to land it.'",
+          "priority": 8
+        },
+        {
+          "when": {},
+          "tip": "Palaniuk: 'Once you feel a bite, take up the slack before pulling into the fish fairly quickly without snapping the rod, but with enough power to get all the way into the backbone of the rod. Keep good steady pressure and those fish will work themselves out of brush.'",
+          "priority": 7
+        },
+        {
+          "when": {
+            "windSpeed": "high"
+          },
+          "tip": "Palaniuk: 'The deeper and windier the condition, the heavier the jighead — from 1/8-ounce up to 1/4-ounce.'",
+          "priority": 7
+        }
+      ],
+      "defaultTips": [],
+      "sources": [
+        "tips-articleasp.txt"
+      ],
+      "lureCategory": "finesse"
+    }
+  },
+  "structureAdvice": {},
+  "credibility": {},
+  "knowledge": [
+    {
+      "category": "gear",
+      "topic": "10-inch-worm-summer-setup",
+      "insight": "Palaniuk: 'Uses a 7-foot-6 medium-heavy Abu Garcia Fantasista Regista rod with Revo MGXtreme reel spooled with 15-pound Trilene 100% fluorocarbon for summer worming.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "mid",
+        "lureCategory": "soft-plastics"
+      },
+      "source": "3609-3-bassmaster-elite-series-pros-share-plastic-worms-for-summertime-bass.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "summer-worm-targets",
+      "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "deep",
+        "lureCategory": "soft-plastics",
+        "coverType": "wood"
+      },
+      "source": "3609-3-bassmaster-elite-series-pros-share-plastic-worms-for-summertime-bass.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "offshore-bait-rotation",
+      "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on electronics, 4) big worm dragged on bottom to soak bait, 5) neko rig or drop shot as last resort.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "deep",
+        "lureCategory": "finesse",
+        "retrieveStyle": "drag"
+      },
+      "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "school-fish-personality",
+      "insight": "Palaniuk: 'No two schools are the same, and no two fish in a school are the same. Each one is sitting down there with a little bit different personality. You have to figure out which bait pushes their buttons enough to get them to bite.'",
+      "conditions": {},
+      "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "horizontal-to-vertical-transition",
+      "insight": "Palaniuk: 'When you change from horizontal action (crankbait/swimbait) to vertical action (spoon), it makes fish react. There are two things that trigger a fish to react: a fleeing baitfish or a dying baitfish. You get both with the retrieve on a spoon.'",
+      "conditions": {
+        "lureCategory": "cranking"
+      },
+      "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "swimbait-after-crankbait",
+      "insight": "Palaniuk: 'After you burn a crankbait through and catch a few, the ones that dont want to bite kind of move out of the way and break up. A swimbait allows them to settle back in but still gives them a moving target to chase.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "burn"
+      },
+      "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "spoon-landing-ratio",
+      "insight": "Palaniuk: 'I dont start with the spoon because the landing ratio is poor. Bass can gain leverage and throw the spoon on the jump or tear off underwater. But it triggers additional strikes once they slow down on crankbait and swimbait.'",
+      "conditions": {
+        "lureCategory": "cranking"
+      },
+      "source": "an-inside-look-at-palaniuks-offshore-bass-fishing-bait-rotation.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-setup-nose-hook",
+      "insight": "Palaniuk: 'Setup 1 (nose-hooked): X-Zone 4-inch Original Slammer, VMC Drop Shot Hook size 2, VMC Tungsten Teardrop weight 1/8 to 3/4 oz, 6-foot-10 medium Alpha Angler DSR spinning rod, Daiwa Exist 3000, 15-lb Seaguar Smackdown braid to 6-12 lb Seaguar Gold Label fluoro leader.'",
+      "conditions": {
+        "depthZone": "mid",
+        "lureCategory": "finesse"
+      },
+      "source": "best-drop-shot-rig-setups-palaniuks-a-list.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-setup-threaded",
+      "insight": "Palaniuk: 'Setup 2 (threaded): X-Zone 6-inch MB Fat Finesse Worm, VMC Finesse Neko Hook size 2, VMC Tungsten Teardrop weight 1/8 to 3/4 oz, same rod/reel, 15-lb Smackdown braid to 6-12 lb Seaguar Tatsu fluoro leader.'",
+      "conditions": {
+        "lureCategory": "finesse"
+      },
+      "source": "best-drop-shot-rig-setups-palaniuks-a-list.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "drop-shot-versatility",
+      "insight": "Palaniuk: 'Drop shot can be fished shallow to deep, in open water or around cover, and in clear or dingy water by making slight changes to leader length, hook style, plastics, and weight size.'",
+      "conditions": {
+        "lureCategory": "finesse",
+        "coverType": "open"
+      },
+      "source": "best-drop-shot-rig-setups-palaniuks-a-list.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-transition-versatility",
+      "insight": "Palaniuk: 'In the fall, plan to fish everything in your tackle box. Bass are moving between deep and shallow water. Not all bass will be on the same cover or depth at the same time. You must be willing to adapt and adjust to various water and wind conditions.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ]
+      },
+      "source": "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "humminbird-360-brush-detection",
+      "insight": "Palaniuk: 'I caught my biggest bass (7-12) by spotting a brushpile off to the side of my boat with the Humminbird Mega 360. I held my boat 50 feet away and cast a drop shot to it.'",
+      "conditions": {
+        "depthZone": "deep",
+        "lureCategory": "finesse",
+        "coverType": "wood"
+      },
+      "source": "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "drop-shot-santee-cooper-setup",
+      "insight": "Palaniuk: 'For the Santee Cooper drop shot, I used a green/pumpkin/blue X-Zone Deception Worm 12 inches above the weight on an Alpha Angler DSR 6-foot-10 medium rod with a Daiwa Exist 3000 reel.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "depthZone": "mid",
+        "lureCategory": "finesse"
+      },
+      "source": "brandon-palaniuk-catches-his-biggest-bass-in-the-santee-cooper.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "fall-transition-mat-fishing",
+      "insight": "Palaniuk: 'During the late-summer/fall transition, bream and shad hold around and under grass mats. Bigger largemouths are ambush feeders and move under those mats for a safe haven and to locate ambush points.'",
+      "conditions": {
+        "season": [
+          "fall",
+          "summer"
+        ],
+        "structure": [
+          "point",
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "mat-punching-setup",
+      "insight": "Palaniuk: 'For punching mats, use a 7-foot-9 extra heavy Alpha Angler Mag Hitter rod with Daiwa Zillion HD 7.3:1 reel. The X-Zone Muscle Back Finesse Craw in black-blue-laminate with 1-1/4 oz weight gets through heavy mats.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "depthZone": "mid",
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuk-catches-keeper-bass-on-the-flats.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "fishing-pressured-spots",
+      "insight": "Palaniuk: 'Dont hesitate to fish a spot just because another competitor fished it before you. Another smallmouth will start holding in that same site before long. Decisions on how long you fish and how quickly or slowly you move from spot to spot make the difference.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-fishing-for-bass-in-traffic.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-rock-boulders",
+      "insight": "Palaniuk: 'Set up a milk run starting with 50 different rocks/boulders in the area with the most baitfish. Over the tournament, learn which rocks and boulders consistently hold good-sized smallmouths.'",
+      "conditions": {
+        "coverType": "rock"
+      },
+      "source": "brandon-palaniuk-fishing-for-bass-in-traffic.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-roaming-vs-resident",
+      "insight": "Palaniuk: 'Some fish caught off rocks are resident fish, but a larger majority are roaming and following schools of baitfish like perch and alewives.'",
+      "conditions": {
+        "coverType": "rock"
+      },
+      "source": "brandon-palaniuk-fishing-for-bass-in-traffic.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "deep-crank-equipment",
+      "insight": "Palaniuk: 'Use a longer than average rod for deep cranking. A 7-foot-6 medium-heavy cranking rod with a 5.4:1 retrieve reel and 10-lb fluorocarbon helps make long casts and get the lure as deep as possible.'",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "deep-crank-boat-positioning",
+      "insight": "Palaniuk: 'Make a waypoint on the structure you want to hit, then after finding the right cast angle, make another waypoint for boat position. Also pick shore landmarks in front and behind you to stay on line at a glance.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-crank-bubble-trail-trick",
+      "insight": "Palaniuk: 'When idling over an area and you find structure, idle past it. The prop leaves a bubble trail on the surface. Cast back to that bubble trail and retrieve through it to speed up finding the right cast line.'",
+      "conditions": {
+        "retrieveStyle": "burn"
+      },
+      "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "deep-crank-lure-feel",
+      "insight": "Palaniuk: 'The more you fish a lure, the more you understand its vibration pattern. That helps you know if there is grass on the lure or a fish has subtly struck it.'",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "deep-crank-as-reaction-tool",
+      "insight": "Palaniuk: 'Deep diving crankbaits are really one of the few ways we have of generating any kind of reaction strike through much of the year on tour.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "deep",
+        "lureCategory": "cranking"
+      },
+      "source": "brandon-palaniuk-guide-to-learning-deep-cranks.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "humminbird-360-scanning-range",
+      "insight": "Palaniuk: 'I set my Humminbird 360 to scan about 150 feet all the way around the boat because thats a little past the distance I can cast. I constantly see bottom and structure in front, to either side, and behind me to determine where to make my next cast.'",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "brandon-palaniuk-on-new-electronics-for-bass-fishing.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "side-imaging-for-baitfish",
+      "insight": "Palaniuk: 'When hunting baitfish in fall, use Mega Side Imaging which looks 200 feet from the boat. I can see baitfish, how bass are positioned relative to the school, and which direction the bass are following. I can tell which end is the head and tail to know which end to present the bait to.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "brandon-palaniuk-on-new-electronics-for-bass-fishing.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "360-isolated-targets",
+      "insight": "Palaniuk: 'With the 360, I can mark isolated targets I may not have seen with just down scan or side scan. I can even see behind my boat and pinpoint structure that I missed. I can remain on a creek channel or river ledge much better.'",
+      "conditions": {
+        "structure": [
+          "creek-channel",
+          "ledge"
+        ]
+      },
+      "source": "brandon-palaniuk-on-new-electronics-for-bass-fishing.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "four-unit-depth-finder-setup",
+      "insight": "Palaniuk: 'I use four Humminbird Solix 12 units: two on the console (left has mapping + 2D sonar, right has Mega side/down imaging) and two on the casting deck (one on Mega 360 imaging with mapping, one for waypoints). Split screen gives two views per unit.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "arch-reading-for-fish-size",
+      "insight": "Palaniuk: 'The width of the arches tells me how big the fish are, and the length shows how long the bass were in the sonar cone. The thickness of the arch determines the size of the fish.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "practice-idling-strategy",
+      "insight": "Palaniuk: 'During the last days of practice I just idle around dropping GPS pins in areas rather than catching fish. I use mapping clarity and LakeMaster charts to dial in the pattern.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "open-mind-on-familiar-water",
+      "insight": "Palaniuk: 'Even on lakes I have fished many times, I keep an open mind and try not to fish the same places where I caught bass in past years. I keep tabs on water and weather conditions each day to determine where bass might be.'",
+      "conditions": {},
+      "source": "brandon-palaniuk-says-depth-finders-are-critical-for-tournament-success.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "deep-drop-shot-line-system",
+      "insight": "Palaniuk: 'Braided line has the most sensitivity compared to any other line — having 15-lb braid mainline to an 8-lb fluoro leader with a Crazy Alberto knot creates a nearly same-diameter connection that runs free through the guides'",
+      "conditions": {
+        "fishDepth": "30-40ft"
+      },
+      "source": "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "fighting-deep-smallmouth",
+      "insight": "Palaniuk: 'Play a 4-5 pound smallmouth for 1-2 minutes before bringing it to the boat. When they jump, don't try to pull them down or you'll pull the hooks out. Pick them up by the belly like a football — they act paralyzed'",
+      "conditions": {
+        "fishDepth": "deep"
+      },
+      "source": "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "finesse-under-pressure",
+      "insight": "Palaniuk: 'The more fishing pressure the bass get, the more effective finesse fishing is with little baits, light line and spinning tackle'",
+      "conditions": {},
+      "source": "brandon-palaniuk-selects-the-bait-that-won-the-2020-lake-champlain.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "low-light-three-bait-system",
+      "insight": "Palaniuk: 'My low-light system: 1) topwater walker for aggressive fish and covering water, 2) jerkbait at 5-6 feet when bass wont surface, 3) weightless wacky-rigged stick bait as finesse to slow down for non-aggressive bass. Use all three early morning, late afternoon, and on cloudy/overcast days.'",
+      "conditions": {
+        "isLowLight": true,
+        "depthZone": "mid",
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "wacky-rig-fork-tail-advantage",
+      "insight": "Palaniuk: 'A stick bait with a forked tail gives a slightly different action and more shimmy on the fall than regular stick baits. I believe it draws bass from further away. Rig it wacky on a No. 2 VMC hook.'",
+      "conditions": {
+        "isLowLight": true
+      },
+      "source": "brandon-palaniuks-best-baits-for-low-light-bass-fishing.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-big-bait-rationale",
+      "insight": "Palaniuk: 'In fall, cooling temps trigger bass to feed heavily for winter and the spawn. Bass prefer to eat a bigger bait so they dont have to chase as much small bait. A big swimbait moves slowly through the water column so bass can track it easier. Thats why I start with a giant swimbait in October.'",
+      "conditions": {
+        "season": [
+          "fall",
+          "spawn",
+          "winter"
+        ],
+        "lureCategory": "moving-baits"
+      },
+      "source": "brandon-palaniuks-best-tactics-for-fall-fishing.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-flipping-jig-location",
+      "insight": "Palaniuk: 'In fall, bigger bass set up to ambush bait on isolated cover in creek backs and adjacent to channel swings with big flats. Match jig color to water color.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "structure": [
+          "flat",
+          "creek-channel"
+        ],
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuks-best-tactics-for-fall-fishing.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "fall-flipping-jig-setup",
+      "insight": "Palaniuk: 'For flipping jig in fall: 7-foot-6 heavy-action Alpha Angler Hitter rod, Daiwa Steez A reel, 20-pound Seaguar Tatsu fluorocarbon line.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "depthZone": "mid",
+        "lureCategory": "jigs"
+      },
+      "source": "brandon-palaniuks-best-tactics-for-fall-fishing.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "braid-to-fluoro-knot",
+      "insight": "Palaniuk: 'Uses a specific braid to fluorocarbon leader knot for combining braided mainline with a fluorocarbon leader.'",
+      "conditions": {},
+      "source": "brandon-palaniuks-braid-to-fluorocarbon-knot.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-tournament-research",
+      "insight": "Palaniuk: 'On a 170,000-acre lake with only three practice days, do as much online research as possible studying past tournament results from the same time period to determine where the most productive water will be'",
+      "conditions": {
+        "season": [
+          "fall"
+        ]
+      },
+      "source": "brandon-palaniuks-preparation-for-the-santee-cooper-bass-tournament.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "eliminating-water",
+      "insight": "Palaniuk: 'On large lakes you must eliminate a lot of water quickly — use past tournament results to guide your practice days to the most productive sections, then verify under current conditions'",
+      "conditions": {},
+      "source": "brandon-palaniuks-preparation-for-the-santee-cooper-bass-tournament.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "fall-weather-factor",
+      "insight": "Palaniuk: 'In the fall, weather can be a big factor in where you'll pinpoint bass and how you'll catch them — chilly mornings warming through the day will shift fish locations'",
+      "conditions": {
+        "season": [
+          "fall"
+        ]
+      },
+      "source": "brandon-palaniuks-preparation-for-the-santee-cooper-bass-tournament.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "last-minute-tactics",
+      "insight": "Palaniuk: 'With 15 minutes left and no keeper, don't rush — you still need to fish your lure thoroughly. Switch to power baits (jerkbait, crankbait, spinnerbait) to cover water efficiently but not frantically'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "brandon-palaniuks-tournament-tactic-when-times-running-out.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "time-management-near-ramp",
+      "insight": "Palaniuk: 'If you haven't had bites in a while, run to productive water closer to the boat ramp — being close to the ramp lets you push the clock longer and fish until the last possible moment'",
+      "conditions": {},
+      "source": "brandon-palaniuks-tournament-tactic-when-times-running-out.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "staying-calm-under-pressure",
+      "insight": "Palaniuk: 'You can't get in a hurry and attempt to force a bass to bite. Very rarely will you get a bite if you're rushing through your cast and working your bait faster than you should'",
+      "conditions": {},
+      "source": "brandon-palaniuks-tournament-tactic-when-times-running-out.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "transition-fish-location",
+      "insight": "Palaniuk: 'Big fish that haven't made the full transition to main summertime structure are singles or doubles on brushpiles or standing timber with a bottom composition change (mud to hard), on straight banks leading from spawning areas to points — a midway transition point'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "point"
+        ],
+        "coverType": "wood"
+      },
+      "source": "brandon-palaniuks-winning-rayburn-baits.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "suspended-timber-fish",
+      "insight": "Palaniuk: 'Standing-timber fish sit in 18-28ft suspended 5-6ft off the bottom, relating to bottom composition changes even though they aren't on the bottom'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "depthZone": "mid",
+        "coverType": "wood"
+      },
+      "source": "brandon-palaniuks-winning-rayburn-baits.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "straight-edge-principle",
+      "insight": "Palaniuk: 'The same principles applied from 4ft to 30ft: it had to have a good straight steeper edge close to a main channel — main-lake fish near the main river channel, grass fish near a creek channel'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass",
+          "creek-channel"
+        ],
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuks-winning-rayburn-baits.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "paralleling-edges",
+      "insight": "Palaniuk: 'Parallel the edges where grass falls off to a straight wall to keep the bait in the strike zone the longest — fish roam and sit on the edge for an ambush point'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "brandon-palaniuks-winning-rayburn-baits.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "neko-rig-over-power-baits",
+      "insight": "Palaniuk: 'When marking fish on electronics that won't bite big cranks or football jigs, drop a Neko rig — the first fish was a 9+. When I kept it in my hand I could go to every single brushpile and catch one'",
+      "conditions": {
+        "fishDepth": "18-28ft",
+        "lureCategory": "finesse",
+        "coverType": "wood"
+      },
+      "source": "brandon-palaniuks-winning-rayburn-baits.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "culling-with-balance-beam",
+      "insight": "Palaniuk: 'Use a balancing beam to compare your smallest livewell fish against each new catch — whichever side goes down stays, the other goes back. Knowing your exact weight is a real secret to winning'",
+      "conditions": {},
+      "source": "brandon-palaniuks-winning-strategy.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "species-commitment",
+      "insight": "Palaniuk: 'I dedicated myself to catching five big smallmouths each day rather than splitting time between largemouth and smallmouth. Consistent 19-20 pound bags beat the gamble of one big largemouth bite per day'",
+      "conditions": {},
+      "source": "brandon-palaniuks-winning-strategy.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "smallmouth-rock-rotation",
+      "insight": "Palaniuk: 'Fish an 8-mile stretch moving between rock piles and boulders — build confidence on spots that reload with big smallmouths daily. I had 50 spots and was sure to catch a 4-pounder on 20 of them'",
+      "conditions": {
+        "coverType": "rock"
+      },
+      "source": "brandon-palaniuks-winning-strategy.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "matted-vegetation-keys",
+      "insight": "Palaniuk: 'Look for a mixture of different grass types in mats — different species grow and die at different rates creating better canopy. Always seek out the cleanest, greenest grass which produces more oxygen and is crucial in summer'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "vegetation-temperature-shelter",
+      "insight": "Palaniuk: 'Matted vegetation provides warmth for bass early and late in the year and helps them cool down in summer — no other type of cover can do that'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "standing-vegetation-clues",
+      "insight": "Palaniuk: 'In reeds and cattails, focus on places where they create little debris mats — grass blown in, or where some have folded over. Also look for tighter clumps and areas where contour lines show quick access to deeper water'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "lily-pad-technique",
+      "insight": "Palaniuk: 'In lily pads, look for tight clumps and pay attention to where you flip so the line doesn't get in the cracks between pad stems — braid slices through pads but stems and stalks hang you up'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "submerged-grass-keys",
+      "insight": "Palaniuk: 'In hydrilla and milfoil, use contour lines to find where bottom tightens from deep to shallow or makes a point in the grass. A harder edge congregates fish better than sparse grass — find subtle points or ditches in the grass'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "point",
+          "grass",
+          "creek-channel"
+        ],
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "frog-braid-casting-distance",
+      "insight": "Palaniuk: 'Drop to 50-lb braid for frog fishing on thin cheese mats — the smaller pound test gives much better casting distance and helps in pressured areas. If you can cast farther than others, you reach unpressured fish in the back of the mats'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "lureCategory": "topwater",
+        "coverType": "grass"
+      },
+      "source": "breaking-down-vegetation-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "jerkbait-line-choice",
+      "insight": "Palaniuk: 'Use 10-12lb Tatsu fluorocarbon for jerkbaits which sinks and helps the bait stay down, but switch to 8-10lb monofilament when pausing more than 8 seconds to keep a direct line to the bait'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "ffs-jerkbait-efficiency",
+      "insight": "Palaniuk: 'Aim Mega Live at your jerkbait even when blind casting to follow it back and see how fish react — it makes you much more efficient and helps dial in the right cadence for the day'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "match-the-hatch-jerkbait",
+      "insight": "Palaniuk: 'Match the hatch in terms of size and color with jerkbaits. Want the lure to sit right above the bass or at their level — adjust suspension with SuspenDots placed toward the front'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch",
+        "coverType": "grass"
+      },
+      "source": "chalk-talk-how-palaniuk-combines-jerkbaits-ffs.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-pitching-line-selection",
+      "insight": "Palaniuk: 'In soft cover like grass, use braid. In harder cover like wood, use fluorocarbon because braid digs in. 22-lb Tatsu fluorocarbon is a good in-between — 20 is too light for big fish in heavy cover, 25 struggles with lighter weights'",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "chalk-talk-palaniuk-on-flipping-vs-pitching.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "flipping-rod-reel-setup",
+      "insight": "Palaniuk: 'Use a 7ft 6in heavy-fast rod for leverage and control, with an 8.1:1 gear ratio reel. Offset the power loss from high gear ratio with a bigger 100mm handle with oversized knobs'",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "chalk-talk-palaniuk-on-flipping-vs-pitching.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-bait-action",
+      "insight": "Palaniuk: 'Shake the bait in place using your forearm, not your wrist, to create subtle action while keeping it in the strike zone'",
+      "conditions": {},
+      "source": "chalk-talk-palaniuk-on-flipping-vs-pitching.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "flipping-vs-pitching-definition",
+      "insight": "Palaniuk: '90 percent of people say they're flipping but are actually pitching. Flipping uses a fixed amount of line, never releasing more. Pitching picks a target and creates a cast while releasing line'",
+      "conditions": {},
+      "source": "chalk-talk-palaniuk-on-flipping-vs-pitching.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "percentage-triangle",
+      "insight": "Palaniuk: 'The Percentage Triangle: the wide base is the spawning flats where contour lines are widest, the point is where contours are steepest. It's all based off the spawn — the larger the triangle, the more fish it holds, and fish use contour lines like highways'",
+      "conditions": {
+        "season": [
+          "spawn"
+        ],
+        "structure": [
+          "point",
+          "flat"
+        ]
+      },
+      "source": "chalk-talk-palaniuk92s-percentage-triangle.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "triangle-application",
+      "insight": "Palaniuk: 'Pull out a paper map and reduce the playing field by identifying percentage triangles. When you find where the fish are in one triangle, run to other triangles and focus on the same section — it eliminates home lake advantage'",
+      "conditions": {},
+      "source": "chalk-talk-palaniuk92s-percentage-triangle.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "triangle-limitations",
+      "insight": "Palaniuk: 'Florida is the hardest place to apply the Percentage Triangle because it lacks distinct contour changes. Grand Lake is one of the best — I could look at a map and tell you where I was going to catch a bass'",
+      "conditions": {},
+      "source": "chalk-talk-palaniuk92s-percentage-triangle.txt"
+    },
+    {
+      "category": "mental-approach",
+      "topic": "adapting-with-confidence",
+      "insight": "Palaniuk: 'The only constant we have in fishing is change. The Percentage Triangle gives you baseline confidence to pivot from practice findings when conditions change — it tells you about fish movements so you can alter your game plan quickly'",
+      "conditions": {},
+      "source": "chalk-talk-palaniuk92s-percentage-triangle.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "wacky-vs-neko-situations",
+      "insight": "Palaniuk: 'Prefer wacky rig over Neko mainly when fishing shallow around docks or laydowns or when fish are suspended under deeper docks. Use Crossover Rings to quickly switch between Neko and wacky by pulling the weight out and switching hook direction'",
+      "conditions": {
+        "structure": [
+          "dock",
+          "laydown"
+        ],
+        "lureCategory": "finesse",
+        "coverType": "wood"
+      },
+      "source": "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "damiki-rig-application",
+      "insight": "Palaniuk: 'The Damiki Rig (jighead with fluke-style bait) works best when fish are in a negative mood or suspended 25-30ft off the bottom, or locked to cover. The bait just sits there and piques their curiosity because it's doing nothing'",
+      "conditions": {
+        "waterTemp": "cold",
+        "depthZone": "deep",
+        "coverType": "open"
+      },
+      "source": "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "damiki-rig-jighead",
+      "insight": "Palaniuk: 'Use a 1/4 or 3/8-oz Neon Moon Eye Jig Head for the Damiki Rig — originally designed for walleye but the bait sits perfectly horizontal at rest and the lighter wire hook hooks fish well even when they're just nipping'",
+      "conditions": {
+        "fishDepth": "25-30ft"
+      },
+      "source": "finesse-terminal-tackle-breakdown-brandon-palaniuk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "late-summer-bass-location",
+      "insight": "Palaniuk: 'Late August and early September are the worst times for most anglers. Bass need cooler, well-oxygenated water — find it in three places: water running into the lake (upper river/creeks), deep cover (brush/rock piles), and thick vegetation providing shade'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "waterTemp": "hot",
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "current-ambush-points",
+      "insight": "Palaniuk: 'Bass hold just off the current behind structure — trees in the water, rock piles coming up off the bottom, or other cover that breaks the current'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "coverType": "wood"
+      },
+      "source": "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "healthy-vegetation-oxygen",
+      "insight": "Palaniuk: 'Find good, healthy, green vegetation that looks vibrant — it produces the most oxygen and shade for bass and baitfish. The thickest part of the grass that makes a canopy over the water is where bass hold'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "frog-walking-on-grass",
+      "insight": "Palaniuk: 'Walk the frog on top of thick grass to get bass to blow through it, or fish it on edges and points of the grass. Walk it 90% of the time like a Zara Spook'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "point",
+          "grass"
+        ],
+        "lureCategory": "topwater",
+        "coverType": "grass"
+      },
+      "source": "fishing-tactics-for-late-summer-bass-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "floating-crankbait-technique",
+      "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'",
+      "conditions": {
+        "fishDepth": "< 6 ft",
+        "season": [
+          "spring"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "drag",
+        "coverType": "rock"
+      },
+      "source": "floating-crankbaits-for-key-bites.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "red-crankbait-theory",
+      "insight": "Palaniuk: 'Red is the first color in the light spectrum to disappear. Bass and bait in the spring tend to be real milky or void of color. If you're looking for something muted, red, the first color to disappear, looks the most that way.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "floating-crankbaits-for-key-bites.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "shallow-crankbait-line-choice",
+      "insight": "Palaniuk: '12-pound fluorocarbon is the optimal line for the Z2 -- the lure is sensitive to different diameters. There are occasions for 10 or 15, but 12 is the sweet spot.'",
+      "conditions": {
+        "fishDepth": "< 6 ft"
+      },
+      "source": "floating-crankbaits-for-key-bites.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "spring-cranking-targets",
+      "insight": "Palaniuk: 'Find the perfect mixture of a particular level of visibility mixed with a particular type of rock or rock transitions. Focus on areas where contours change from tight to wide, with something unique -- a laydown, small rockpile, or bottom composition change that concentrates the strike zone.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "structure": [
+          "laydown"
+        ],
+        "coverType": "wood"
+      },
+      "source": "floating-crankbaits-for-key-bites.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "pre-spawn-stability-selection",
+      "insight": "Palaniuk: 'As fish progress toward the spawn, you want things to be as stable as possible. On large waters, wind might be the biggest factor. On rivers, it might be water levels and current. Find the places that are most stable and least affected by conditions.'",
+      "conditions": {
+        "season": [
+          "pre-spawn",
+          "spawn"
+        ]
+      },
+      "source": "going-against-the-grain-palaniuks-big-bait-theory.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "crankbait-vs-jerkbait-by-fish-position",
+      "insight": "Palaniuk: 'If fish are high in the water column, pick up a jerkbait. If they're toward the bottom, pick up a crankbait. Use forward-facing sonar to see where fish are positioned and choose accordingly.'",
+      "conditions": {
+        "season": [
+          "pre-spawn"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "going-against-the-grain-palaniuks-big-bait-theory.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "big-crankbait-line-choice",
+      "insight": "Palaniuk: 'Throws the Big-M 4.0 on 15-lb Tatsu fluorocarbon -- 15 is the perfect balance of diving ability and action, though not a stretch to go to 20. Uses 12-lb Tatsu with the Kanata and mid-depth crankbaits as his go-to mid-depth zone line.'",
+      "conditions": {
+        "lureCategory": "cranking"
+      },
+      "source": "going-against-the-grain-palaniuks-big-bait-theory.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-lure-selection",
+      "insight": "Palaniuk: 'Used Humminbird MEGA Live 2 not to target specific fish but to scan around and see where fish were showing up in groups. If seeing them high in the water column, he knew which bait to pick up. If toward the bottom, he'd pick a crankbait.'",
+      "conditions": {
+        "lureCategory": "cranking"
+      },
+      "source": "going-against-the-grain-palaniuks-big-bait-theory.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "crankbait-rod-popping",
+      "insight": "Palaniuk: 'I was popping the rod almost like stroking a jig. The crankbait was trying to dive but the line was pulling up at the same time -- like a teeter-totter or a bull bucking. I don't think that fish would have hit otherwise.'",
+      "conditions": {
+        "season": [
+          "pre-spawn"
+        ],
+        "lureCategory": "cranking"
+      },
+      "source": "going-against-the-grain-palaniuks-big-bait-theory.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "spring-low-water-cranking",
+      "insight": "Palaniuk: 'When water is still really low and clearer than normal in the spring, fish want to go shallow but there is nothing for them to get on -- they are just sitting and waiting on those transitions, the first breaks. Shallow crankbaits become the top producer.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "waterClarity": "clear",
+        "lureCategory": "cranking"
+      },
+      "source": "heres-brandon-palaniuks-fishing-right-now.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "northern-strain-big-baits",
+      "insight": "Palaniuk: 'When the water hits the upper 40s and low 50s, fish start getting more active and willing to eat a big bait. Northern strain bass get much more aggressive sooner in the year since they are used to living in a colder climate.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "waterTemp": "upper 40s to low 50s",
+        "coverType": "grass"
+      },
+      "source": "heres-brandon-palaniuks-fishing-right-now.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glide-bait-same-areas-bigger-fish",
+      "insight": "Palaniuk: 'I fish the same areas that I throw a crankbait or jerkbait, but use the glide bait when I am after the really big ones.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "heres-brandon-palaniuks-fishing-right-now.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "jigging-rap-tackle",
+      "insight": "Palaniuk: 'Uses a 7-foot medium-action spinning rod, spinning reel with 8-lb Nanofil to 8-lb fluorocarbon leader. Ties on a snap swivel to prevent line twist and give the Jigging Rap more freedom -- the smaller the swivel the better, as large snaps may get caught in the lure's hooks.'",
+      "conditions": {
+        "depthZone": "mid",
+        "lureCategory": "reaction",
+        "retrieveStyle": "twitch"
+      },
+      "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "vertical-jigging-sonar-use",
+      "insight": "Palaniuk: 'Uses Humminbird to position the boat over individual fish, then drops the lure into its strike zone. Watching the screen shows lure depth and fish response, which helps refine tactics to trigger a reaction strike.'",
+      "conditions": {
+        "fishDepth": "> 20 ft"
+      },
+      "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "isolated-targets-dropshot",
+      "insight": "Palaniuk: 'Fish isolated rockpiles, boulders and grass patches anywhere from 8 to 22 feet. It just has to be the right-looking stuff -- depth didn't really seem to matter. Had a milk run of places to hit and cycle through, and at some point during the day would run into a group of fish actively feeding.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "depthZone": "deep",
+        "coverType": "grass"
+      },
+      "source": "how-brandon-palaniuk-caught-em-at-mille-lacs.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "dropshot-minnow-profile-tackle",
+      "insight": "Palaniuk: 'Uses a Super Fluke (minnow-style bait) on the dropshot with a 2/0 straight shank hook and 3/8-oz weight. 15-lb Smackdown braid to 8-lb Tatsu fluorocarbon leader.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-caught-em-at-mille-lacs.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "360-imaging-isolated-targets",
+      "insight": "Palaniuk: 'Humminbird 360 and Ultrex trolling motor were big, especially when the wind was blowing. Could pull up on isolated targets, line up with the 360 and know exactly how far away he was, keep the boat off the fish and make repeated specific casts.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-caught-em-at-mille-lacs.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "canal-structure-features",
+      "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole the trough dumps into.'",
+      "conditions": {
+        "season": [
+          "pre-spawn"
+        ],
+        "structure": [
+          "riprap"
+        ],
+        "depthZone": "deep",
+        "retrieveStyle": "hop",
+        "coverType": "rock"
+      },
+      "source": "how-brandon-palaniuk-smashed-okeechobee.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "mega-live-2-fish-identification",
+      "insight": "Palaniuk: 'MEGA Live 2 is way better than version 1. Could tell the detail of what was a bass, what was a gar, what was a crappie -- had a lot to do with how they were positioned and how they moved.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-smashed-okeechobee.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "bait-selection-by-water-column-position",
+      "insight": "Palaniuk: 'If seeing fish high in the water column on MEGA Live 2, pick up a jerkbait or big bait. If seeing them toward the bottom, pick up a crankbait.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "how-brandon-palaniuk-smashed-okeechobee.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "shared-spot-adjustments",
+      "insight": "Palaniuk: 'When 3 other competitors were already on his spot, he adapted by using forward-facing sonar to gauge fish interest and differentiated his approach with oversized crankbaits and jerkbaits rather than downsizing to jig and minnow like the others.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "how-brandon-palaniuk-smashed-okeechobee.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "okeechobee-crankbait-tackle",
+      "insight": "Palaniuk: 'Big M 4.0: 15-lb Tatsu fluoro, Daiwa Steez A reel (6.3:1), 7-foot 6-inch MH rod. Prototype IPX: 12-lb Tatsu fluoro, Daiwa Zillion reel (7.1:1), 7-foot MH Mod rod. Kanata: 12-lb Tatsu fluoro, Daiwa Steez CT SV reel, 6-foot 10-inch rod.'",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "how-brandon-palaniuk-smashed-okeechobee.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "when-to-throw-big-baits",
+      "insight": "Palaniuk: 'First, there has to be a decent population of 4-pounders. Second, the bass need to be feeding on larger forage -- gizzard shad, trout, or perch. Third, fish should be in less than 10 feet of water for it to be consistently good, which favors February through May.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "fishDepth": "< 10 ft",
+        "depthZone": "mid"
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "weather-adaptation",
+      "topic": "big-bait-seasonal-conditions",
+      "insight": "Palaniuk: 'In the spring you want more warm sunshine, maybe even calmer water, so it pushes big bass to docks and laydowns. In August, you might still want sunshine, but a little more wind or current will generally make things better.'",
+      "conditions": {
+        "structure": [
+          "dock",
+          "laydown"
+        ],
+        "coverType": "wood"
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "big-bait-size-adjustments",
+      "insight": "Palaniuk: 'A 7-inch glide is the sweet spot. With a 6-inch Magdraft you'll catch 2 and 3-pounders galore. Going up in size doesn't always mean less bites -- sometimes fish just want the most bang for their buck.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glide-vs-swimbait-action",
+      "insight": "Palaniuk: 'At Chickamauga, I had to switch from a 7-inch glide to the 8-inch Magdraft. The fish had switched from wanting a side-to-side action to something straight and more methodical.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ]
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "swimbait-rod-and-line",
+      "insight": "Palaniuk: 'Uses 22-lb Seaguar Tatsu for big baits -- small diameter, high strength, and supple double structure. Suppleness is particularly important with glide baits because it allows them to be fluid. Most bites come on the pause, so if line coils up when you pull it, the lure won't look natural.'",
+      "conditions": {
+        "retrieveStyle": "stop-and-go"
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "swimbait-reel-choice",
+      "insight": "Palaniuk: 'Pairs the swimbait rod with a Daiwa Tatula 300 with 7.1:1 gear ratio -- faster than most would use, but the 110mm handle, bigger gears and oversized knobs make up for any loss in power. In tournaments, big bait casts are typically target-oriented, not long retrieves.'",
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "big-bait-confidence-trigger",
+      "insight": "Palaniuk: 'At Champlain, one big-bait bite on the way to weigh-in gave me confidence to start on largemouths the next day. I saw a weather system coming in, so I tied on multiple swimbaits and glide baits.'",
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
+      "source": "how-brandon-palaniuk-takes-advantage-of-big-bait-opportunities.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-wind-bait-relationship",
+      "insight": "Palaniuk: 'When it slicked off, the bait would roam wherever in the lake. But when the wind blew it pushed bait to the edges of deep flats, and smallmouth would pull up and get on rocks and stuff on those flats.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "flat"
+        ],
+        "coverType": "rock"
+      },
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "depth-strategy",
+      "topic": "champlain-smallmouth-depth",
+      "insight": "Palaniuk: 'Fish were in 20-40 feet but 25-32 feet was where the flats set up and held the best average quality fish. Targeted sand-to-rock transitions with gravelly rock and giant isolated boulders.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "flat"
+        ],
+        "depthZone": "deep",
+        "coverType": "rock"
+      },
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-following-bait",
+      "insight": "Palaniuk: 'On the last day, realized smallmouth were just following bait across 40-foot sand flats. Made the decision to jump downwind to intercept the same group of fish again -- first drop caught almost a 4.5-pounder.'",
+      "conditions": {
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "flat"
+        ],
+        "depthZone": "deep"
+      },
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "champlain-dropshot-tackle",
+      "insight": "Palaniuk: 'Dropshot: 3/8-oz VMC tungsten weight, #2 hook, 8-lb Tatsu fluoro leader (15 feet) to 15-lb Smackdown Flash Green braid. 15-lb braid is super small, 6-lb equivalent diameter.'",
+      "conditions": {
+        "depthZone": "deep"
+      },
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "milk-run-big-water-smallmouth",
+      "insight": "Palaniuk: 'Used LakeMaster charts to drive to spots -- based on contours could idle over a spot, see fish, and catch them almost every single stop. Spent the third practice day just driving and marking spots rather than fishing.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "glide-bait-handle-turn",
+      "insight": "Palaniuk: 'Standard glide bait retrieve is a 3/4 handle turn that pulls the bait to the side, then a 1/4 turn and stop, which allows it to glide.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-won-the-champlain-elite.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "pre-tournament-research",
+      "insight": "Palaniuk: 'Took time to do research online, looking at areas that continually came up in past tournament results no matter what time of year. That way he knew a population of fish lived in that area, then could see how they were using those places that week.'",
+      "conditions": {
+        "coverType": "grass"
+      },
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "one-big-bite-strategy",
+      "insight": "Palaniuk: 'Strategy was to figure out how to get one big bite and then fill out a limit. That one big bite was a difference-maker for guys cutting checks. The guy who'd win would get 2-3 of those in a day vs just getting 1.'",
+      "conditions": {},
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "rare-vegetation-value",
+      "insight": "Palaniuk: 'Read the entire vegetation management plan document to figure out where grass was and wasn't. Found only a 50-yard section of submerged grass. Because it was the only submerged stuff within miles, it held bait and fish. It wasn't far off the main lake so bigger fish could move in and out easily.'",
+      "conditions": {
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "santee-punch-rig-tackle",
+      "insight": "Palaniuk: 'Punch rig: Muscle Back Finesse Craw (black/blue), 3/0 VMC Heavy Duty Flippin Hook, 1.25-oz tungsten weight, VMC Sinker Stop, 65-lb Smackdown Stealth Grey braid, 7-foot 11-inch Heavy rod. Best mats were 1.5-3 foot hyacinth with giant salvinia blown up against them.'",
+      "conditions": {
+        "depthZone": "mid",
+        "coverType": "grass"
+      },
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "santee-dropshot-tackle",
+      "insight": "Palaniuk: 'Dropshot at Santee: 6-foot 10-inch M rod, 15-lb Smackdown Flash Green braid to 10-lb Seaguar Gold Label fluoro, 1/4-oz VMC tungsten teardrop weight, #1 VMC Finesse Neko Hook, 6-inch Deception Worm (GP blue).'",
+      "conditions": {
+        "depthZone": "mid",
+        "lureCategory": "soft-plastics"
+      },
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "soft-swimbait-bottom-contact",
+      "insight": "Palaniuk: 'Cast the soft swimbait out and let it hit bottom. Reeled at a fairly decent pace in 4-6 feet of water, trying to keep it right on the bottom and bounce it off shell or stumps. When it deflected off something, he'd get bites.'",
+      "conditions": {
+        "fishDepth": "4-6 ft",
+        "depthZone": "mid",
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "stop-and-go",
+        "coverType": "wood"
+      },
+      "source": "how-brandon-palaniuk-won-the-santee-cooper-elite.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "river-bait-versatility",
+      "insight": "Palaniuk: 'For river fishing, I want a lure that will be appropriate for the type of cover I expect to find. My top three are a jig, crankbait, and spinnerbait because each can be fished in nearly any river situation.'",
+      "conditions": {
+        "structure": [
+          "river"
+        ],
+        "lureCategory": "cranking"
+      },
+      "source": "my-three-favorite-river-baits-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "2d-sonar-for-smallmouth",
+      "insight": "Palaniuk: 'I couldn't see many bass in down scanning mode while idling, but when I used my bow graph set on 2D sonar in 2X bottom scan mode, I could see individual smallmouths near the bottom.'",
+      "conditions": {
+        "species": "smallmouth",
+        "fishDepth": "20-35ft"
+      },
+      "source": "on-point-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "structure-reading",
+      "topic": "points-near-spawning-flats",
+      "insight": "Palaniuk: 'I looked for the largest spawning areas near deep water and the best smallmouth habitat. The bass were on points and steep drops near those points in 20 to 35 feet. They were relating to sand and gravel seams on some spots and boulders on others.'",
+      "conditions": {
+        "species": "smallmouth",
+        "season": [
+          "summer"
+        ],
+        "structure": [
+          "point"
+        ],
+        "depthZone": "deep",
+        "coverType": "rock"
+      },
+      "source": "on-point-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "smallmouth-tracking-bait-on-sonar",
+      "insight": "Palaniuk: 'I often watched a bass on my graph move up to my bait as it was sinking and then followed it to the bottom. Whenever that happened, a strike was almost sure to follow.'",
+      "conditions": {
+        "species": "smallmouth"
+      },
+      "source": "on-point-with-brandon-palaniuk.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "topwater-patience-spring",
+      "insight": "Palaniuk: 'If you slow down and work topwater in the strike zones, you'll get more bites and the bites you do get hook up a lot better.'",
+      "conditions": {
+        "season": [
+          "spring"
+        ],
+        "lureCategory": "topwater"
+      },
+      "source": "palaniuk-shares-three-keys-to-springtime-topwater-success.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "topwater-rod-selection",
+      "insight": "Palaniuk: 'The right rod for topwater needs a good backbone and a good light tip that allows you to control the bait very well. That creates a system where you can stay in the strike zone and take your time.'",
+      "conditions": {
+        "lureCategory": "topwater"
+      },
+      "source": "palaniuk-shares-three-keys-to-springtime-topwater-success.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "fall-color-north-vs-south",
+      "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go more towards greenish hues, often with vertical bars to imitate perch.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "depthZone": "deep",
+        "coverType": "grass"
+      },
+      "source": "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-baitfish-transition",
+      "insight": "Palaniuk: 'Fall is when the difference between primary forage up north vs down south is most noticeable. The baitfish start to make their fall transitions, with bass soon to follow or already set up and waiting.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ]
+      },
+      "source": "palaniuks-fall-colors-klein-talks-bpt-year-1-thrifts-brushpile-electronics.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "palomar-knot-all-techniques",
+      "insight": "Palaniuk: 'The palomar knot is my favorite knot for any given technique.'",
+      "conditions": {},
+      "source": "palaniuks-favorite-knot-for-all-baits.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "jerkbait-color-bracketing",
+      "insight": "Palaniuk: 'Start with 4-5 baseline colors based on conditions and experience. If the baseline isn't working, bracket — go more natural/transparent one direction, more opaque/bright the other. Identify the strongest response, make that your new baseline, and bracket again. It may take 6-7 color switches to dial in.'",
+      "conditions": {},
+      "source": "palaniuks-jerkbait-color-system-revealed.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-color-selection",
+      "insight": "Palaniuk: 'With forward-facing sonar I can see in real time how fish react to different colors. I can see how many are looking, chasing, and not reacting. That has changed how I fish jerkbaits and sped up my color bracketing process.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "palaniuks-jerkbait-color-system-revealed.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "cadence-before-color",
+      "insight": "Palaniuk: 'I always change cadence first, then color, then profile. Cadence is the easiest thing to change quickly. Color becomes the deciding factor when cadence adjustments don't generate the bite.'",
+      "conditions": {
+        "retrieveStyle": "twitch"
+      },
+      "source": "palaniuks-jerkbait-color-system-revealed.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "jerkbait-year-round",
+      "insight": "Palaniuk: 'Jerkbaits aren't merely a seasonal tool for the coldest months. I've made them 12-month options. Color selections aren't typically seasonal but relate to water conditions, sunlight, wind, and forage.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "palaniuks-jerkbait-color-system-revealed.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "jerkbait-baseline-colors",
+      "insight": "Palaniuk: 'My baseline jerkbait colors are Mat Shad, Ito Wakasagi, GP Pro Blue, HT Ito Tennessee Shad, and Table Rock SP. Rather than copying my colors, adopt the bracketing system for your specific waters.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch",
+        "coverType": "grass"
+      },
+      "source": "palaniuks-jerkbait-color-system-revealed.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "big-bass-late-fall-feeding",
+      "insight": "Palaniuk: 'The largest bass prefer cooler water. During late fall, they get more active since the water is cooling and shorter days trigger them to feed more. Big bass are very efficient at eating an easy, large meal. They usually won't waste a lot of energy chasing something down.'",
+      "conditions": {
+        "season": [
+          "late-fall",
+          "fall"
+        ]
+      },
+      "source": "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "late-fall-glide-bait",
+      "insight": "Palaniuk: 'A glide bait's slow side-to-side motion has drawing power that will pull fish out of deeper water and cover like submerged brush piles or bluff ends. You can fish it fast or slow with 3/4-turns and a pause. Definitely a big fish bait.'",
+      "conditions": {
+        "season": [
+          "late-fall"
+        ],
+        "structure": [
+          "bluff"
+        ],
+        "retrieveStyle": "stop-and-go",
+        "coverType": "wood"
+      },
+      "source": "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "glide-bait-setup",
+      "insight": "Palaniuk: 'For glide baits, use a 7-foot-9 mag/heavy action rod paired with 20-pound Seaguar Tatsu fluorocarbon. You want some shock absorption when fishing this bait.'",
+      "conditions": {
+        "depthZone": "mid"
+      },
+      "source": "palaniuks-prime-picks-for-late-fall-glide-bait-jig-drop-shot.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "winter-reel-jerkbait",
+      "insight": "Palaniuk: 'For winter jerkbaits, use a smaller 70-size reel with 7.1:1 gear ratio in cold water, then bump up to 8.1:1 as it warms into spring. The smaller spool means even a faster ratio isn't too fast.'",
+      "conditions": {
+        "season": [
+          "winter"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "reels-winter-bass-fishing-brandon-palaniuk.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "winter-reel-jighead-minnow",
+      "insight": "Palaniuk: 'For jighead minnow in winter, I use a 3000-size spinning reel. Smoothness of the drag from start to finish is critical, and the smoothness of the retrieve impacts your technique, especially when constantly shaking your rod and reeling in slack.'",
+      "conditions": {
+        "season": [
+          "winter"
+        ],
+        "retrieveStyle": "drag"
+      },
+      "source": "reels-winter-bass-fishing-brandon-palaniuk.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "winter-reel-cranking",
+      "insight": "Palaniuk: 'For winter cranking, I prefer a 7.1:1 gear ratio with Hyperdrive gears. Since you usually retrieve a crankbait fairly slowly in winter, smooth gears let you feel everything your crankbait is doing. You can lose sensitivity if gears are not smooth.'",
+      "conditions": {
+        "season": [
+          "winter"
+        ],
+        "lureCategory": "cranking"
+      },
+      "source": "reels-winter-bass-fishing-brandon-palaniuk.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "winter-punching-vegetation",
+      "insight": "Palaniuk: 'If you can still find vegetation in winter, get there as fast as possible. On places like Okeechobee, big prespawn females will be under those mats. Use a heavy-duty reel with bigger spool, handles, and gears to winch big ones out of cover.'",
+      "conditions": {
+        "season": [
+          "winter",
+          "pre-spawn"
+        ],
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass"
+      },
+      "source": "reels-winter-bass-fishing-brandon-palaniuk.txt"
+    },
+    {
+      "category": "tournament-strategy",
+      "topic": "spot-vs-pattern",
+      "insight": "Palaniuk: Won Bull Shoals by capitalizing on a specific spot — flooded roadbed and bridge pilings in West Sugarloaf Creek — catching 20-pound bags the first two days and 19 pounds on Day Three. He was the 99th boat to launch on Day One, so he took advantage of a spot others passed over.",
+      "conditions": {
+        "coverType": "rock"
+      },
+      "source": "running-a-pattern.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "extreme-temp-feeding",
+      "insight": "Palaniuk: 'At temperature extremes (below 42F or above 90F), bass metabolism is either too slow or they conserve energy by sitting in shade. An opportunistic feeder will still take one more bite if it's an easy meal — a finesse bait is ideal.'",
+      "conditions": {
+        "waterTemp": "extreme"
+      },
+      "source": "tips-articleasp.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "shaky-head-setup",
+      "insight": "Palaniuk: 'Keep a tight drag on a 7-foot medium-action spinning rod with 8- to 10-pound fluorocarbon leader on 8-pound braid. Never ventures above 10-pound test even fishing heavy brush.'",
+      "conditions": {
+        "depthZone": "mid",
+        "retrieveStyle": "drag",
+        "coverType": "wood"
+      },
+      "source": "tips-articleasp.txt"
+    },
+    {
+      "category": "seasonal-pattern",
+      "topic": "fall-downsize-bait-theory",
+      "insight": "Palaniuk: 'In fall I operate under the theory that you downsize your baits. Baitfish born in spring have grown but are still smaller. These smaller baitfish school in large numbers making them easy pickings for bass. Downsizing to match the hatch ensures more consistent bites and might be your best shot at a true giant.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ],
+        "coverType": "grass"
+      },
+      "source": "top-5-fall-bass-fishing-lures-palaniuks-favorites.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "fall-multiple-sizes",
+      "insight": "Palaniuk: 'Always have multiple sizes of baits in fall. A fish's mood can change day to day, even hour to hour. Having multiple offerings to present can pay off with extra bites throughout the day.'",
+      "conditions": {
+        "season": [
+          "fall"
+        ]
+      },
+      "source": "top-5-fall-bass-fishing-lures-palaniuks-favorites.txt"
+    },
+    {
+      "category": "retrieve-technique",
+      "topic": "jerkbait-cadence-forward-sonar",
+      "insight": "Palaniuk: 'All the things we thought were black-and-white rules about how to work a jerkbait during different times of year are not always the case. It doesn't always have to be a fast pace — you just have to read each fish. If you don't have forward-facing sonar, the general rule of thumb is move the jerkbait faster.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "try-palaniuk-s-1-2-punch-with-big-baits.txt"
+    },
+    {
+      "category": "lure-selection",
+      "topic": "glidebait-jerkbait-combo",
+      "insight": "Palaniuk: 'Use a glidebait to draw fish and identify interest, then follow up with a large jerkbait to convert followers. The jerkbait has erratic dying action that glidebaits can't replicate, triggering bites from fish that won't fully commit to the swimbait.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "try-palaniuk-s-1-2-punch-with-big-baits.txt"
+    },
+    {
+      "category": "gear",
+      "topic": "jerkbait-rod-reel",
+      "insight": "Palaniuk: 'I fish all jerkbaits on an Alpha Angler Slasher casting rod with a Daiwa 70-size reel and 12-pound Seaguar Tatsu fluorocarbon. The small reel palms well, reducing forearm fatigue.'",
+      "conditions": {
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch"
+      },
+      "source": "try-palaniuk-s-1-2-punch-with-big-baits.txt"
+    },
+    {
+      "category": "color-selection",
+      "topic": "jerkbait-match-forage",
+      "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blue and HT Tennessee shad are good starting points.'",
+      "conditions": {
+        "structure": [
+          "point"
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "twitch",
+        "coverType": "grass"
+      },
+      "source": "try-palaniuk-s-1-2-punch-with-big-baits.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "forward-facing-sonar-spotted-bass",
+      "insight": "Palaniuk: 'With forward-facing sonar, look at the distance between head and tail on screen — greater separation often signals a better-quality fish. This allows prioritizing casts and staying efficient, targeting the right fish.'",
+      "conditions": {
+        "species": "spotted bass",
+        "waterClarity": "clear"
+      },
+      "source": "video-spotted-bass-in-clear-water-palaniuks-strategy.txt"
+    },
+    {
+      "category": "electronics",
+      "topic": "mega-live-scanning-angles",
+      "insight": "Palaniuk: 'Make small, deliberate trolling motor movements to get multiple angles on key cover. Small changes in viewing angles may reveal hidden limbs, isolated fish, or changes in bottom composition.'",
+      "conditions": {
+        "coverType": "wood"
+      },
+      "source": "video-spotted-bass-in-clear-water-palaniuks-strategy.txt"
+    },
+    {
+      "category": "fish-behavior",
+      "topic": "spotted-bass-grouping-by-size",
+      "insight": "Palaniuk: 'Spotted bass often group by size, varying from section to section. Recognizing these patterns lets you shift quickly between areas and be selective.'",
+      "conditions": {
+        "species": "spotted bass"
+      },
+      "source": "video-spotted-bass-in-clear-water-palaniuks-strategy.txt"
+    }
+  ]
+}

@@ -8,6 +8,8 @@ export const ANGLER_META: Record<string, { fullName: string; style: string; acce
   yamamoto: { fullName: 'Gary Yamamoto', style: 'Soft Plastics & Finesse', accent: '#a78bfa' },
   milliken: { fullName: 'Ben Milliken', style: 'Big Baits & Sonar', accent: '#10b981' },
   palaniuk: { fullName: 'Brandon Palaniuk', style: 'Deep Finesse & Current', accent: '#06b6d4' },
+  johnston: { fullName: 'Cory Johnston', style: 'Drop Shot & Smallmouth', accent: '#f472b6' },
+  robertson: { fullName: 'Matt Robertson', style: 'Offshore Ledge Fishing', accent: '#fb923c' },
 };
 
 export const ACTION_COLORS: Record<LureAction, string> = {
