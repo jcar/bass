@@ -442,7 +442,7 @@ export default function Dashboard() {
   const isFutureDay = selectedDay > 0 && !currentDayForecast?.isYesterday;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200">
+    <div className="min-h-screen bg-slate-950 text-slate-200 overflow-x-hidden">
       {/* 0. Header (unchanged, sticky) */}
       <header className="border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">

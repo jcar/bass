@@ -75,8 +75,8 @@ export default function BiteForecast({
   // ── Compact mode: tight day-picker strip ──
   if (compact) {
     return (
-      <div className="px-3 py-1.5">
-        <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
+      <div className="px-3 py-1.5 overflow-hidden">
+        <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
           {forecast.map((day, i) => {
             const a = analyses[i];
             if (!a) return null;
@@ -90,7 +90,7 @@ export default function BiteForecast({
               <button
                 key={day.date}
                 onClick={() => onDaySelect(i)}
-                className={`flex-1 min-w-0 rounded-md px-1 py-1 transition-all text-center relative
+                className={`flex-1 min-w-[44px] rounded-md px-1 py-1 transition-all text-center relative
                   ${isSelected
                     ? isNow
                       ? 'bg-slate-800/80 border-sky-400/50 border ring-1 ring-sky-400/20'

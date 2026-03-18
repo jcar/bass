@@ -37,7 +37,7 @@ export default function CommandStrip({
           </div>
 
           {/* Center: Compact 7-day forecast */}
-          <div className="flex-1 min-w-0 flex items-center">
+          <div className="flex-1 min-w-0 overflow-hidden flex items-center">
             {analyses.length > 0 && forecast.length > 0 && (
               <div className="w-full">
                 <BiteForecast
