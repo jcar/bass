@@ -1,10 +1,9 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { MapPin, ChevronDown, X, Sun, CloudSun, Cloud, CloudRain, Droplets, Search, Calendar, Star } from 'lucide-react';
-import type { DayForecast, SkyCondition, Lake } from '@/lib/types';
+import { MapPin, ChevronDown, X, Sun, CloudSun, Cloud, CloudRain, Search, Star } from 'lucide-react';
+import type { SkyCondition, Lake } from '@/lib/types';
 import LakeSearchPanel from './LakeSearchPanel';
-import ForecastGrid from './ForecastGrid';
 
 export type { Lake };
 
@@ -15,11 +14,7 @@ interface LakePickerProps {
   onUseGPS?: () => void;
   gpsLocating?: boolean;
   locationName?: string;
-  forecast?: DayForecast[];
-  selectedDay?: number;
-  onDaySelect?: (index: number) => void;
-  loading?: boolean;
-  onRefresh?: () => void;
+  today?: { skyCondition: SkyCondition; airTempHigh: number; airTempLow: number; waterTemp: number };
   favoriteLakeIds?: string[];
   onToggleFavorite?: (lakeId: string) => void;
   lastFetchTimestamp?: number;
@@ -37,19 +32,16 @@ const skyIconSm: Record<SkyCondition, React.ReactNode> = {
 
 export default function LakePicker({
   selectedLake, onLakeSelect, onClear, onUseGPS, gpsLocating, locationName,
-  forecast = [], selectedDay = 0, onDaySelect, loading,
-  favoriteLakeIds = [], onToggleFavorite, lastFetchTimestamp,
+  today, favoriteLakeIds = [], onToggleFavorite, lastFetchTimestamp,
   userLat, userLon, favoriteLakes,
 }: LakePickerProps) {
   const [open, setOpen] = useState(false);
-  const [mode, setMode] = useState<'forecast' | 'search'>('forecast');
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
         setOpen(false);
-        setMode('forecast');
       }
     }
     document.addEventListener('mousedown', handleClick);
@@ -59,27 +51,22 @@ export default function LakePicker({
   function handleSearchSelect(lake: Lake) {
     onLakeSelect(lake);
     setOpen(false);
-    setMode('forecast');
   }
 
   function handleGPS() {
     onUseGPS?.();
     setOpen(false);
-    setMode('forecast');
   }
 
   function closePanel() {
     setOpen(false);
-    setMode('forecast');
   }
-
-  const today = forecast[selectedDay];
 
   return (
     <div className="relative" ref={dropdownRef}>
       {/* ── Trigger Button ── */}
       <button
-        onClick={() => { setOpen(!open); setMode('forecast'); }}
+        onClick={() => setOpen(!open)}
         className="flex items-center gap-2.5 bg-slate-800/60 border border-slate-700 rounded-lg px-3 py-1.5 text-left hover:border-slate-600 transition-colors"
       >
         <MapPin className="w-3 h-3 text-emerald-400 flex-shrink-0" />
@@ -95,23 +82,17 @@ export default function LakePicker({
               <span className="text-xs font-mono text-white">{today.airTempHigh}°</span>
               <span className="text-xs font-mono text-slate-500">{today.airTempLow}°</span>
             </div>
-            <div className="w-px h-4 bg-slate-700" />
-            <div className="flex items-center gap-1">
-              <Droplets className="w-2.5 h-2.5 text-sky-400" />
+            {/* Water temp — hidden on mobile (visible in CommandStrip) */}
+            <div className="hidden sm:flex items-center gap-1">
+              <div className="w-px h-4 bg-slate-700" />
               <span className="text-xs font-mono text-sky-300">{today.waterTemp}°</span>
             </div>
           </>
         )}
 
-        {forecast.length > 0 && selectedDay > 0 && (
-          <>
-            <div className="w-px h-4 bg-slate-700" />
-            <span className="text-xs font-mono text-amber-400 uppercase">{forecast[selectedDay]?.dayLabel}</span>
-          </>
-        )}
-
+        {/* Fetch timestamp — hidden on mobile */}
         {lastFetchTimestamp != null && lastFetchTimestamp > 0 && (
-          <>
+          <div className="hidden sm:flex items-center gap-1.5">
             <div className="w-px h-4 bg-slate-700" />
             <span className="text-xs font-mono text-slate-600">
               {(() => {
@@ -121,36 +102,22 @@ export default function LakePicker({
                 return `${Math.round(mins / 60)}h ago`;
               })()}
             </span>
-          </>
+          </div>
         )}
 
         <ChevronDown className={`w-3 h-3 text-slate-500 flex-shrink-0 transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
 
-      {/* ── Dropdown Panel ── */}
+      {/* ── Dropdown Panel — opens directly to search ── */}
       {open && (
         <div className="absolute top-full right-0 mt-1.5 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl shadow-black/60 z-50 overflow-hidden"
           style={{ width: 'min(calc(100vw - 2rem), 540px)' }}>
 
-          {/* Tab bar */}
+          {/* Header */}
           <div className="flex items-center justify-between px-3 pt-2.5 pb-2 border-b border-slate-800">
-            <div className="flex items-center gap-1">
-              <button
-                onClick={() => setMode('forecast')}
-                className={`px-2.5 py-1 rounded-md text-xs font-mono uppercase tracking-wider transition-colors
-                  ${mode === 'forecast' ? 'bg-slate-800 text-emerald-400' : 'text-slate-500 hover:text-slate-300'}`}
-              >
-                <Calendar className="w-3 h-3 inline-block mr-1 -mt-0.5" />
-                Forecast
-              </button>
-              <button
-                onClick={() => setMode('search')}
-                className={`px-2.5 py-1 rounded-md text-xs font-mono uppercase tracking-wider transition-colors
-                  ${mode === 'search' ? 'bg-slate-800 text-emerald-400' : 'text-slate-500 hover:text-slate-300'}`}
-              >
-                <Search className="w-3 h-3 inline-block mr-1 -mt-0.5" />
-                Change Lake
-              </button>
+            <div className="flex items-center gap-1.5">
+              <Search className="w-3 h-3 text-emerald-400" />
+              <span className="text-xs font-mono text-slate-400 uppercase tracking-wider">Change Lake</span>
             </div>
             <button onClick={closePanel} className="text-slate-500 hover:text-slate-300 p-0.5">
               <X className="w-3.5 h-3.5" />
@@ -194,27 +161,16 @@ export default function LakePicker({
             </div>
           )}
 
-          {/* Panel content */}
-          {mode === 'forecast' && (
-            <ForecastGrid
-              forecast={forecast}
-              selectedDay={selectedDay}
-              onDaySelect={(i) => onDaySelect?.(i)}
-              loading={loading}
-            />
-          )}
-
-          {mode === 'search' && (
-            <LakeSearchPanel
-              onSelect={handleSearchSelect}
-              onUseGPS={onUseGPS ? handleGPS : undefined}
-              gpsLocating={gpsLocating}
-              userLat={userLat}
-              userLon={userLon}
-              selectedLake={selectedLake ?? undefined}
-              favoriteLakes={favoriteLakes}
-            />
-          )}
+          {/* Search panel — always shown */}
+          <LakeSearchPanel
+            onSelect={handleSearchSelect}
+            onUseGPS={onUseGPS ? handleGPS : undefined}
+            gpsLocating={gpsLocating}
+            userLat={userLat}
+            userLon={userLon}
+            selectedLake={selectedLake ?? undefined}
+            favoriteLakes={favoriteLakes}
+          />
         </div>
       )}
     </div>

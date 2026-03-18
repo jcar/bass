@@ -6,8 +6,6 @@ import type { ScoreFactor } from '@/lib/types';
 interface BiteGaugeProps {
   score: number;
   biteFactors: ScoreFactor[];
-  /** Size of the SVG gauge in px */
-  size?: number;
   /** Previous day's bite intensity for delta badge */
   prevBiteIntensity?: number;
 }
@@ -35,8 +33,9 @@ function describeArc(cx: number, cy: number, r: number, startDeg: number, endDeg
   return `M ${s.x} ${s.y} A ${r} ${r} 0 ${large} 0 ${e.x} ${e.y}`;
 }
 
-export default function BiteGauge({ score, biteFactors, size = 80, prevBiteIntensity }: BiteGaugeProps) {
+export default function BiteGauge({ score, biteFactors, prevBiteIntensity }: BiteGaugeProps) {
   const verdict = getVerdict(score);
+  const size = 80;
   const radius = (size - 12) / 2;
   const center = size / 2;
   const sweepAngle = 270;
@@ -49,8 +48,8 @@ export default function BiteGauge({ score, biteFactors, size = 80, prevBiteInten
 
   return (
     <div className="flex items-center gap-3">
-      <div className="relative flex-shrink-0">
-        <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+      <div className="relative flex-shrink-0 w-16 sm:w-20">
+        <svg width="100%" height="100%" viewBox={`0 0 ${size} ${size}`}>
           {[0, 25, 50, 75, 100].map((tick) => {
             const angle = startAngle + (tick / 100) * sweepAngle;
             const outer = polarToCartesian(center, center, radius + 3, angle);

@@ -473,11 +473,12 @@ export default function Dashboard() {
               onUseGPS={handleUseGPS}
               gpsLocating={gpsLocating}
               locationName={location.name}
-              forecast={forecastDays}
-              selectedDay={displaySelectedDay}
-              onDaySelect={handleChartDaySelect}
-              loading={loading}
-              onRefresh={() => loadForecast(location.lat, location.lon)}
+              today={forecastDays[displaySelectedDay] ? {
+                skyCondition: forecastDays[displaySelectedDay].skyCondition,
+                airTempHigh: forecastDays[displaySelectedDay].airTempHigh,
+                airTempLow: forecastDays[displaySelectedDay].airTempLow,
+                waterTemp: forecastDays[displaySelectedDay].waterTemp,
+              } : undefined}
               favoriteLakeIds={session.favoriteLakeIds}
               onToggleFavorite={handleToggleFavorite}
               lastFetchTimestamp={session.lastFetchTimestamp}
@@ -508,7 +509,7 @@ export default function Dashboard() {
         />
       )}
 
-      <main className="max-w-7xl mx-auto px-4 py-6 space-y-6">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-4 sm:space-y-6">
         {/* 2. Conditional Alerts */}
         {/* C2: Auto-detect confirmation toast */}
         {autoDetectLake && (

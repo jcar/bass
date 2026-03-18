@@ -23,12 +23,12 @@ export default function MorningBriefing({ bullets }: MorningBriefingProps) {
   return (
     <div className="border border-slate-700/60 rounded-lg bg-slate-900/60 overflow-hidden">
       {/* Header */}
-      <div className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/40">
+      <div className="flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 bg-slate-800/40">
         <Sunrise className="w-4 h-4 text-amber-400 flex-shrink-0" />
         <span className="text-xs font-mono font-semibold text-amber-300 uppercase tracking-wider">
           Morning Briefing
         </span>
-        <span className="text-xs text-slate-500 font-mono">What changed overnight</span>
+        <span className="hidden sm:inline text-xs text-slate-500 font-mono">What changed overnight</span>
         <div className="ml-auto flex items-center gap-1">
           <button
             onClick={() => setCollapsed(!collapsed)}
@@ -47,7 +47,7 @@ export default function MorningBriefing({ bullets }: MorningBriefingProps) {
 
       {/* Bullets */}
       {!collapsed && (
-        <div className="px-4 py-3 space-y-2">
+        <div className="px-3 sm:px-4 py-2.5 sm:py-3 space-y-2">
           {bullets.map((bullet, i) => (
             <div key={i} className="flex items-start gap-2.5">
               <div className={`w-2 h-2 rounded-full mt-1.5 flex-shrink-0 ${typeColor[bullet.type]}`} />
