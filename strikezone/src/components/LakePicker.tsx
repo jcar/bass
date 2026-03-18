@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { MapPin, ChevronDown, X, Sun, CloudSun, Cloud, CloudRain, Droplets, Search, Calendar } from 'lucide-react';
+import { MapPin, ChevronDown, X, Sun, CloudSun, Cloud, CloudRain, Droplets, Search, Calendar, Star } from 'lucide-react';
 import type { DayForecast, SkyCondition, Lake } from '@/lib/types';
 import LakeSearchPanel from './LakeSearchPanel';
 import ForecastGrid from './ForecastGrid';
@@ -20,6 +20,12 @@ interface LakePickerProps {
   onDaySelect?: (index: number) => void;
   loading?: boolean;
   onRefresh?: () => void;
+  favoriteLakeIds?: string[];
+  onToggleFavorite?: (lakeId: string) => void;
+  lastFetchTimestamp?: number;
+  userLat?: number;
+  userLon?: number;
+  favoriteLakes?: Lake[];
 }
 
 const skyIconSm: Record<SkyCondition, React.ReactNode> = {
@@ -32,6 +38,8 @@ const skyIconSm: Record<SkyCondition, React.ReactNode> = {
 export default function LakePicker({
   selectedLake, onLakeSelect, onClear, onUseGPS, gpsLocating, locationName,
   forecast = [], selectedDay = 0, onDaySelect, loading,
+  favoriteLakeIds = [], onToggleFavorite, lastFetchTimestamp,
+  userLat, userLon, favoriteLakes,
 }: LakePickerProps) {
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState<'forecast' | 'search'>('forecast');
@@ -85,12 +93,12 @@ export default function LakePicker({
             <div className="flex items-center gap-1.5">
               {skyIconSm[today.skyCondition]}
               <span className="text-xs font-mono text-white">{today.airTempHigh}°</span>
-              <span className="text-[10px] font-mono text-slate-500">{today.airTempLow}°</span>
+              <span className="text-xs font-mono text-slate-500">{today.airTempLow}°</span>
             </div>
             <div className="w-px h-4 bg-slate-700" />
             <div className="flex items-center gap-1">
               <Droplets className="w-2.5 h-2.5 text-sky-400" />
-              <span className="text-[10px] font-mono text-sky-300">{today.waterTemp}°</span>
+              <span className="text-xs font-mono text-sky-300">{today.waterTemp}°</span>
             </div>
           </>
         )}
@@ -98,7 +106,21 @@ export default function LakePicker({
         {forecast.length > 0 && selectedDay > 0 && (
           <>
             <div className="w-px h-4 bg-slate-700" />
-            <span className="text-[9px] font-mono text-amber-400 uppercase">{forecast[selectedDay]?.dayLabel}</span>
+            <span className="text-xs font-mono text-amber-400 uppercase">{forecast[selectedDay]?.dayLabel}</span>
+          </>
+        )}
+
+        {lastFetchTimestamp != null && lastFetchTimestamp > 0 && (
+          <>
+            <div className="w-px h-4 bg-slate-700" />
+            <span className="text-xs font-mono text-slate-600">
+              {(() => {
+                const mins = Math.round((Date.now() - lastFetchTimestamp) / 60000);
+                if (mins < 1) return 'Just now';
+                if (mins < 60) return `${mins}m ago`;
+                return `${Math.round(mins / 60)}h ago`;
+              })()}
+            </span>
           </>
         )}
 
@@ -115,7 +137,7 @@ export default function LakePicker({
             <div className="flex items-center gap-1">
               <button
                 onClick={() => setMode('forecast')}
-                className={`px-2.5 py-1 rounded-md text-[10px] font-mono uppercase tracking-wider transition-colors
+                className={`px-2.5 py-1 rounded-md text-xs font-mono uppercase tracking-wider transition-colors
                   ${mode === 'forecast' ? 'bg-slate-800 text-emerald-400' : 'text-slate-500 hover:text-slate-300'}`}
               >
                 <Calendar className="w-3 h-3 inline-block mr-1 -mt-0.5" />
@@ -123,7 +145,7 @@ export default function LakePicker({
               </button>
               <button
                 onClick={() => setMode('search')}
-                className={`px-2.5 py-1 rounded-md text-[10px] font-mono uppercase tracking-wider transition-colors
+                className={`px-2.5 py-1 rounded-md text-xs font-mono uppercase tracking-wider transition-colors
                   ${mode === 'search' ? 'bg-slate-800 text-emerald-400' : 'text-slate-500 hover:text-slate-300'}`}
               >
                 <Search className="w-3 h-3 inline-block mr-1 -mt-0.5" />
@@ -141,14 +163,28 @@ export default function LakePicker({
               <MapPin className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <span className="text-xs font-mono font-semibold text-white">{selectedLake.name}</span>
-                <span className="text-[10px] font-mono text-slate-500 ml-2">
-                  {selectedLake.state} &middot; {selectedLake.county} Co.
+                <span className="text-xs font-mono text-slate-500 ml-2">
+                  {selectedLake.state}
+                  {selectedLake.surfaceAcres > 0 && <> &middot; {selectedLake.surfaceAcres.toLocaleString()} ac</>}
                 </span>
               </div>
-              <div className="flex items-center gap-3 text-[10px] font-mono text-slate-400 flex-shrink-0">
+              <div className="flex items-center gap-3 text-xs font-mono text-slate-400 flex-shrink-0">
                 {selectedLake.maxDepth && <span>{selectedLake.maxDepth}ft deep</span>}
                 {selectedLake.surfaceAcres && <span>{selectedLake.surfaceAcres.toLocaleString()} ac</span>}
               </div>
+              {onToggleFavorite && (
+                <button
+                  onClick={(e) => { e.stopPropagation(); onToggleFavorite(selectedLake.id); }}
+                  className="p-0.5 rounded hover:bg-slate-700 transition-colors flex-shrink-0"
+                  title={favoriteLakeIds.includes(selectedLake.id) ? 'Remove from favorites' : 'Add to favorites'}
+                >
+                  <Star className={`w-3.5 h-3.5 ${
+                    favoriteLakeIds.includes(selectedLake.id)
+                      ? 'text-amber-400 fill-amber-400'
+                      : 'text-slate-500 hover:text-amber-400'
+                  }`} />
+                </button>
+              )}
               <button
                 onClick={(e) => { e.stopPropagation(); onClear(); }}
                 className="p-0.5 rounded hover:bg-slate-700 text-slate-500 hover:text-slate-300 transition-colors flex-shrink-0"
@@ -173,6 +209,10 @@ export default function LakePicker({
               onSelect={handleSearchSelect}
               onUseGPS={onUseGPS ? handleGPS : undefined}
               gpsLocating={gpsLocating}
+              userLat={userLat}
+              userLon={userLon}
+              selectedLake={selectedLake ?? undefined}
+              favoriteLakes={favoriteLakes}
             />
           )}
         </div>

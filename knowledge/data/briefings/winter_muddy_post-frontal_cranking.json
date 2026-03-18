@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lureCategory": "cranking"
+  },
+  "briefing": {
+    "headline": "Crank it — winter muddy water calls for finesse cranking on key structure.",
+    "gameplan": "In winter with muddy water and post frontal conditions, cranking presentations shine.\n\nKVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and reel. The shimmy/quiver fall is what makes the Red Eye Shad special.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Shad",
+      "retrieve": "KVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and r",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "KVD: Flatside crankbait (Hardliner 35) is the FIRST crankbait in extreme cold — 'the difference between a flatside and even a squarebill is night and day in the amount of bites in extremely cold water",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

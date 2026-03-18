@@ -3,36 +3,45 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Search, Navigation, Loader2 } from 'lucide-react';
 import type { Lake } from '@/lib/types';
+import { searchLakes } from '@/data/bass-lakes';
 
 interface LakeSearchPanelProps {
   onSelect: (lake: Lake) => void;
   onUseGPS?: () => void;
   gpsLocating?: boolean;
+  userLat?: number;
+  userLon?: number;
+  selectedLake?: Lake;
+  favoriteLakes?: Lake[];
 }
 
-export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating }: LakeSearchPanelProps) {
+function approxDistanceMiles(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const dLat = lat2 - lat1;
+  const dLon = (lon2 - lon1) * Math.cos(((lat1 + lat2) / 2) * Math.PI / 180);
+  return Math.sqrt(dLat * dLat + dLon * dLon) * 69;
+}
+
+function formatDistance(miles: number): string {
+  if (miles < 1) return '<1 mi';
+  if (miles < 100) return `~${Math.round(miles)} mi`;
+  return `~${Math.round(miles / 10) * 10} mi`;
+}
+
+export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating, userLat, userLon, selectedLake, favoriteLakes }: LakeSearchPanelProps) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<Lake[]>([]);
-  const [searchLoading, setSearchLoading] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const hasLocation = userLat != null && userLon != null;
 
-  const search = useCallback(async (q: string) => {
+  const search = useCallback((q: string) => {
     if (q.length < 2) {
       setResults([]);
       return;
     }
-    setSearchLoading(true);
-    try {
-      const res = await fetch(`/api/lakes?q=${encodeURIComponent(q)}&limit=20`);
-      const data = await res.json();
-      if (Array.isArray(data)) setResults(data);
-    } catch {
-      // ignore
-    } finally {
-      setSearchLoading(false);
-    }
-  }, []);
+    const found = searchLakes(q, hasLocation ? userLat : undefined, hasLocation ? userLon : undefined, 20);
+    setResults(found);
+  }, [hasLocation, userLat, userLon]);
 
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
@@ -44,6 +53,8 @@ export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating }: Lak
     setTimeout(() => inputRef.current?.focus(), 50);
   }, []);
 
+  const showEmptyState = query.length < 2 && results.length === 0;
+
   return (
     <div>
       {/* Search input */}
@@ -54,13 +65,10 @@ export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating }: Lak
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search 88,000+ US lakes..."
+          placeholder="Search bass lakes..."
           className="flex-1 bg-transparent text-sm text-white placeholder-slate-600 focus:outline-none font-mono"
           autoFocus
         />
-        {searchLoading && (
-          <div className="w-3.5 h-3.5 border border-cyan-400 border-t-transparent rounded-full animate-spin flex-shrink-0" />
-        )}
       </div>
 
       {/* GPS button */}
@@ -83,12 +91,59 @@ export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating }: Lak
 
       {/* Results */}
       <div className="max-h-64 overflow-y-auto">
-        {results.length === 0 && query.length >= 2 && !searchLoading && (
+        {results.length === 0 && query.length >= 2 && (
           <div className="px-3 py-4 text-center text-[10px] text-slate-600 font-mono">No lakes found</div>
         )}
-        {query.length < 2 && results.length === 0 && (
-          <div className="px-3 py-4 text-center text-[10px] text-slate-600 font-mono">Type at least 2 characters to search</div>
+
+        {/* Empty state: current lake + favorites */}
+        {showEmptyState && (
+          <>
+            {selectedLake && (
+              <button
+                onClick={() => onSelect(selectedLake)}
+                className="w-full px-3 py-2 text-left hover:bg-slate-800/80 transition-colors border-b border-slate-800/50"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-mono font-semibold text-white">{selectedLake.name}</span>
+                  <span className="text-[9px] font-mono text-emerald-400 uppercase">Current</span>
+                </div>
+                <div className="flex items-center gap-2 mt-0.5">
+                  <span className="text-[9px] font-mono text-slate-500">{selectedLake.state}</span>
+                  {selectedLake.surfaceAcres > 0 && (
+                    <span className="text-[9px] font-mono text-slate-500">{selectedLake.surfaceAcres.toLocaleString()} acres</span>
+                  )}
+                </div>
+              </button>
+            )}
+            {favoriteLakes && favoriteLakes.length > 0 && (
+              <>
+                <div className="px-3 py-1 text-[9px] font-mono text-slate-600 uppercase tracking-wider">Favorites</div>
+                {favoriteLakes.filter(l => l.id !== selectedLake?.id).map((lake) => (
+                  <button
+                    key={lake.id}
+                    onClick={() => onSelect(lake)}
+                    className="w-full px-3 py-2 text-left hover:bg-slate-800/80 transition-colors border-b border-slate-800/50 last:border-0"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-mono font-semibold text-white">{lake.name}</span>
+                      <span className="text-[9px] font-mono text-amber-400">★</span>
+                    </div>
+                    <div className="flex items-center gap-2 mt-0.5">
+                      <span className="text-[9px] font-mono text-slate-500">{lake.state}</span>
+                      {hasLocation && (
+                        <span className="text-[9px] font-mono text-slate-600">
+                          {formatDistance(approxDistanceMiles(userLat, userLon, lake.lat, lake.lon))}
+                        </span>
+                      )}
+                    </div>
+                  </button>
+                ))}
+              </>
+            )}
+            <div className="px-3 py-4 text-center text-[10px] text-slate-600 font-mono">Type at least 2 characters to search</div>
+          </>
         )}
+
         {results.map((lake) => (
           <button
             key={lake.id}
@@ -97,14 +152,20 @@ export default function LakeSearchPanel({ onSelect, onUseGPS, gpsLocating }: Lak
           >
             <div className="flex items-center justify-between">
               <span className="text-xs font-mono font-semibold text-white">{lake.name}</span>
-              <span className="text-[9px] font-mono text-slate-600 uppercase">{lake.type}</span>
+              <div className="flex items-center gap-1.5">
+                {hasLocation && (
+                  <span className="text-[9px] font-mono text-slate-600">
+                    {formatDistance(approxDistanceMiles(userLat, userLon, lake.lat, lake.lon))}
+                  </span>
+                )}
+              </div>
             </div>
             <div className="flex items-center gap-2 mt-0.5">
-              <span className="text-[9px] font-mono text-slate-500">{lake.state} &middot; {lake.county} Co.</span>
-              {lake.maxDepth && (
+              <span className="text-[9px] font-mono text-slate-500">{lake.state}</span>
+              {lake.maxDepth > 0 && (
                 <span className="text-[9px] font-mono text-cyan-500">{lake.maxDepth}ft deep</span>
               )}
-              {lake.surfaceAcres && (
+              {lake.surfaceAcres > 0 && (
                 <span className="text-[9px] font-mono text-slate-500">{lake.surfaceAcres.toLocaleString()} acres</span>
               )}
             </div>

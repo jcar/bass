@@ -14,8 +14,8 @@ function toPressureState(frontal: FrontalSystem): string {
   }
 }
 
-// Map lure names to briefing lure categories
-const LURE_TO_CATEGORY: Record<string, string> = {
+// Map lure names to briefing lure categories (used only for briefing lookup)
+export const LURE_TO_CATEGORY: Record<string, string> = {
   'Squarebill Crankbait': 'cranking',
   'Medium Diving Crankbait': 'cranking',
   'Deep Diving Crankbait': 'cranking',
@@ -33,10 +33,11 @@ const LURE_TO_CATEGORY: Record<string, string> = {
   'Crawfish Pattern Jig': 'jigs',
   'Swim Jig': 'moving-baits',
   'Spinnerbait (Colorado/Willow)': 'moving-baits',
-  'Chatterbait': 'moving-baits',
+  'Bladed Jig': 'moving-baits',
   'Strolling Rig': 'moving-baits',
   'Walking Topwater': 'topwater',
   'Buzzbait': 'topwater',
+  'Hollow-Body Frog': 'topwater',
   'Blade Bait': 'reaction',
   'Jigging Spoon': 'reaction',
   'Texas Rig (Creature Bait)': 'soft-plastics',

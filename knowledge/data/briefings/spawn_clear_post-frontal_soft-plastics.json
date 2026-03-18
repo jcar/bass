@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lureCategory": "soft-plastics"
+  },
+  "briefing": {
+    "headline": "Slow and natural — spawn clear water is prime soft plastic territory.",
+    "gameplan": "In spawn with clear water and post frontal conditions, soft plastics presentations shine.\n\nWheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "Match the conditions — slow down significantly — extended pauses, subtle movements, finesse presentations.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: The Free Rig is a cross between a Texas Rig and Carolina Rig — the line runs freely through the weight's eye so the weight falls first and the soft plastic flutters down behind it with an unpredictable slow fall; use a 'lift an..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the early spawn, nothing beats a piece of plastic. Use baits without a lot of action like a tube or Rodent - the only action is from your rod tip. Be patient with repetitive casts to bedding bass.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      }
+    ],
+    "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize lures and switch to brighter colors",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

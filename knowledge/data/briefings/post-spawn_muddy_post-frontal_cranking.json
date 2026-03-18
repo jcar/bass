@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lureCategory": "cranking"
+  },
+  "briefing": {
+    "headline": "Crank it — post-spawn muddy water calls for finesse cranking on key structure.",
+    "gameplan": "In post-spawn with muddy water and post frontal conditions, cranking presentations shine.\n\nRobertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-pound bag.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Deep Diving Crankbait",
+      "color": "Caribbean Shad",
+      "retrieve": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-p",
+      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "alternateApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Shad",
+      "retrieve": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. De",
+      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Bass don't go extremely deep immediately after spawning. They stop at secondary points, road beds, shallow ledges, main lake points in the 8-10ft range. Many anglers pull out deep divers too soon — a medium-diving crankbait in Sexy Shad matc..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

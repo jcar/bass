@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lureCategory": "soft-plastics"
+  },
+  "briefing": {
+    "headline": "Slow and natural — spawn muddy water is prime soft plastic territory.",
+    "gameplan": "In spawn with muddy water and post frontal conditions, soft plastics presentations shine.\n\nWheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "Match the conditions — slow down significantly — extended pauses, subtle movements, finesse presentations.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: The Free Rig is a cross between a Texas Rig and Carolina Rig — the line runs freely through the weight's eye so the weight falls first and the soft plastic flutters down behind it with an unpredictable slow fall; use a 'lift an..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the early spawn, nothing beats a piece of plastic. Use baits without a lot of action like a tube or Rodent - the only action is from your rod tip. Be patient with repetitive casts to bedding bass.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: For bedding smallmouth, throw basic baits like a tube, drop shot, or Senko right into the bed."
+      }
+    ],
+    "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

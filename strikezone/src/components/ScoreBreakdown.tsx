@@ -51,7 +51,7 @@ export default function ScoreBreakdown({ factors, title, mode = 'weighted' }: Sc
           className="absolute z-[60] top-full mt-1 right-0 w-72 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl shadow-black/60 overflow-hidden"
         >
           <div className="px-3 py-2 border-b border-slate-800 bg-slate-800/50">
-            <span className="text-[10px] font-mono font-semibold text-slate-300 uppercase tracking-wider">{title}</span>
+            <span className="text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">{title}</span>
           </div>
 
           <div className="p-2 space-y-1.5 max-h-80 overflow-y-auto">
@@ -62,12 +62,12 @@ export default function ScoreBreakdown({ factors, title, mode = 'weighted' }: Sc
                   <div className="flex items-center justify-between mb-0.5">
                     <div className="flex items-center gap-1.5">
                       <div className={`w-1.5 h-1.5 rounded-full ${colors.dot}`} />
-                      <span className="text-[10px] font-mono font-semibold text-slate-300">{f.label}</span>
+                      <span className="text-xs font-mono font-semibold text-slate-300">{f.label}</span>
                     </div>
                     {mode === 'weighted' && (
                       <div className="flex items-center gap-1.5">
-                        <span className={`text-[10px] font-mono font-bold ${colors.text}`}>{f.score}</span>
-                        <span className="text-[9px] font-mono text-slate-600">{Math.round(f.weight * 100)}%</span>
+                        <span className={`text-xs font-mono font-bold ${colors.text}`}>{f.score}</span>
+                        <span className="text-xs font-mono text-slate-600">{Math.round(f.weight * 100)}%</span>
                       </div>
                     )}
                   </div>
@@ -79,7 +79,7 @@ export default function ScoreBreakdown({ factors, title, mode = 'weighted' }: Sc
                       />
                     </div>
                   )}
-                  <p className="text-[9px] font-mono text-slate-500 leading-snug">{f.detail}</p>
+                  <p className="text-xs font-mono text-slate-500 leading-snug">{f.detail}</p>
                 </div>
               );
             })}

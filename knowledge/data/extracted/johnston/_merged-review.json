@@ -67,7 +67,32 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "adjustment": 12
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "adjustment": 8
+        },
+        {
+          "when": {
+            "waterClarity": [
+              "clear"
+            ]
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [
         {
           "when": {},
@@ -76,20 +101,13 @@
           "priority": 8
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "color": "Green Pumpkin",
           "hex": "#4a7023",
           "priority": 8
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "fall"
             ]
@@ -99,11 +117,7 @@
           "priority": 8
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "color": "Electric Shiner",
           "hex": "#D4D4D4",
           "priority": 8
@@ -130,9 +144,7 @@
           "priority": 8
         },
         {
-          "when": {
-            "depth": "deep"
-          },
+          "when": {},
           "tip": "Johnston: When the need calls for going deep for smallmouth, switch to a drop-shot rod with a Jackall Crosstail Shad.",
           "priority": 8
         },
@@ -146,9 +158,7 @@
           "priority": 10
         },
         {
-          "when": {
-            "species": "smallmouth"
-          },
+          "when": {},
           "tip": "Johnston: For smallmouths, drop-shot Jackall Cross Tail Shads, then switch to a tube jig when you find the right kind of clean bottom.",
           "priority": 9
         },
@@ -156,8 +166,7 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "depth": "deep"
+            ]
           },
           "tip": "Johnston: On the St. Lawrence, fish an 80-yard stretch of bottom in about 40 feet targeting a pod of giant smallmouth. Catch one, then leave the spot and make a big run away before returning, because pressured deepwater smallmouth shut down after each catch.",
           "priority": 11
@@ -166,8 +175,7 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "depth": "deep"
+            ]
           },
           "tip": "Johnston: Use a drop-shot with a 3/8-ounce weight and a 4-inch worm on a No. 2 Gamakatsu G-Finesse hook for deepwater smallmouth on Lake Ontario in 18 to 42 feet over rock structure.",
           "priority": 10
@@ -182,66 +190,32 @@
           "priority": 9
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "structure": [
-              "sand flats",
-              "isolated grass"
-            ]
-          },
-          "tip": "Johnston: Target sand flats with isolated grass in 16 to 21 feet. Rotate through multiple locations \u2014 some produce well above others. The real key is LiveScope; without it you're at a huge disadvantage. I saw about 90% of fish on the graph way out and could cast to them before they were under the boat.",
+          "when": {},
+          "tip": "Johnston: Target sand flats with isolated grass in 16 to 21 feet. Rotate through multiple locations \u2014 some produce well above others. The real key is LiveScope; without it you're at a huge disadvantage. I saw about 90% of fish on the graph way out and could cast to them before they were under the boat. [structure: [\"sand flats\",\"isolated grass\"]]",
           "priority": 10
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Use a 3/8-ounce tungsten teardrop-style weight, size 1 Gamakatsu drop shot hook, with shad-colored or green pumpkin soft plastics. Pair with 15-pound braid main line and 8-pound fluorocarbon leader (10-foot leader).",
           "priority": 9
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "structure": [
-              "isolated structure"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Look for oddities like a sunken barrel or isolated object \u2014 they can be smallmouth magnets. Fish that group out one day may be gone the next, so keep covering water until you find a group.",
           "priority": 8
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "depth": "33 feet",
-            "waterBody": "Lake Ontario"
-          },
+          "when": {},
           "tip": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit \u2014 don't move it. On rough, windy days, cast past the fish and drag it through them.",
           "priority": 11
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Use a 6th Sense Party Minnow on the drop shot for deep smallmouth. A minnow-style bait is key.",
           "priority": 9
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "waterBody": "St. Lawrence River"
-          },
+          "when": {},
           "tip": "Johnston: Use a drop shot with a tungsten weight and a 6th Sense Party Minnow on a BKK drop-shot hook. This is the primary technique for St. Lawrence smallmouth across shallow and deep zones.",
           "priority": 10
         },
@@ -249,8 +223,7 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "technique": "bed fishing"
+            ]
           },
           "tip": "Johnston: When bed fishing, drop shot a finesse worm alongside flipping presentations. Use Garmin Perspective Mode and a Power-Pole Move trolling motor to see and target bed fish.",
           "priority": 9
@@ -261,19 +234,12 @@
           "priority": 6
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Smooth drag is a big key to fighting big smallmouth on 6-lb test drop shot. Use a soft rod to absorb their runs and headshakes.",
           "priority": 8
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "waterClarity": [
               "clear"
             ]
@@ -282,11 +248,7 @@
           "priority": 9
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Use a Flogger (cone-shaped surface viewing device) to see your bait, see the fish, and see the sweet spot. It shows how fish react to your bait and speeds up the process.",
           "priority": 8
         },
@@ -294,9 +256,6 @@
           "when": {
             "season": [
               "late fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In mid to late fall, drop shot with small nose-hooked minnow-style swimbaits maintain action while dragging along bottom for grouped smallmouth.",
@@ -304,9 +263,6 @@
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "waterClarity": [
               "clear"
             ]
@@ -315,19 +271,12 @@
           "priority": 10
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Drop shot with a paddletail minnow bait is deadly on smallmouth -- they just can't resist it. The paddletail doesn't necessarily need to be kicking to be effective.",
           "priority": 9
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "summer"
             ]
@@ -336,20 +285,12 @@
           "priority": 8
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Won catching every single bass on a drop shot. Fished a prototype SPRO bait -- small, compact, 4 inches -- that combines everything he looks for in a drop shot bait. Fish just eat it.",
           "priority": 9
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Uses two drop shot rods with different actions. A 7' ML for standard work and a 6'10\" L with softer action that helps when fighting bigger fish.",
           "priority": 8
         },
@@ -360,9 +301,6 @@
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "summer"
             ]
@@ -372,9 +310,6 @@
         },
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "summer"
             ]
@@ -386,20 +321,13 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: Use a 3/4-ounce drop shot weight when targeting pressured smallmouth in deep water up to 35 feet on the St. Lawrence River.",
           "priority": 10
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: When fish aren't grouped up due to heavy pressure, adopt a run-and-gun approach hitting isolated structure rather than working one area. Hit 40+ spots catching one here and one there.",
           "priority": 9
         },
@@ -407,9 +335,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "species": [
-              "largemouth"
             ]
           },
           "tip": "Johnston: Drop shot a finesse worm to target bedding bass in spring runs and backwater areas off main lakes in Florida.",
@@ -419,23 +344,13 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: Use a tungsten drop shot weight with a 6th Sense Party Minnow on a BKK drop-shot hook for St. Lawrence smallmouth across sand flats, rockpiles, weed edges, and deep high spots from shallow to 35-40 feet.",
           "priority": 10
         },
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "structure": [
-              "current"
-            ]
-          },
+          "when": {},
           "tip": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is important when targeting neutral fish.",
           "priority": 11
         },
@@ -448,9 +363,6 @@
           "when": {
             "season": [
               "pre-spawn"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: During the prespawn, do a lot more dragging with a drop shot because smallmouth are sitting on bottom eating gobies and crayfish rather than on beds.",
@@ -460,9 +372,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: For bedding smallmouth, throw a drop shot right into the bed, pick up the trolling motor, and go straight to the next bed. It's a one-and-move approach.",
@@ -498,7 +407,32 @@
         "key-smallmouth-structure-in-flowing-water.txt",
         "spro-introduces-the-cj-smasher-to-the-soft-plastic-scene.txt",
         "sturgeon-bay-small-talk.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz",
+          "retrieveNote": "Use 3/8-oz weight regardless of conditions but change presentation -- dead still on calm days, drag through on rough ..."
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "paddletail",
+        "retrieveNote": "On rough, windy days, cast past the fish and drag it through them"
+      }
     },
     "Spy Bait": {
       "lure": "Spy Bait",
@@ -508,9 +442,7 @@
       "confidenceModifiers": [],
       "colorRules": [
         {
-          "when": {
-            "clarity": "clear"
-          },
+          "when": {},
           "color": "Ghost Pearl",
           "hex": "#f5f0e1",
           "priority": 8
@@ -567,7 +499,16 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "adjustment": 12
+        }
+      ],
       "colorRules": [
         {
           "when": {},
@@ -597,17 +538,12 @@
           "priority": 9
         },
         {
-          "when": {
-            "species": "smallmouth"
-          },
+          "when": {},
           "tip": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't beat a tube.",
           "priority": 10
         },
         {
-          "when": {
-            "species": "smallmouth",
-            "bottom": "clean"
-          },
+          "when": {},
           "tip": "Johnston: You can't beat a tube jig if the bottom's clean. It imitates a crayfish or a goby.",
           "priority": 10
         },
@@ -615,8 +551,7 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "technique": "bed fishing"
+            ]
           },
           "tip": "Johnston: Flip various worms and creature baits to bed fish. When the bed fish pattern starts dwindling, switch to flipping spatterdock (pads) on the main river for big bites \u2014 this produced a 7-12.",
           "priority": 10
@@ -625,8 +560,7 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "technique": "bed fishing"
+            ]
           },
           "tip": "Johnston: Flip a variety of Texas-rigged plastics to bed fish while watching them on live sonar to monitor locations and reactions. Keep looking and looking until you come across them \u2014 with recreational boat traffic stirring the water, persistence is key.",
           "priority": 9
@@ -635,10 +569,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "cover": [
-              "pads",
-              "spatterdock"
             ]
           },
           "tip": "Johnston: When the bed fish bite dwindles, flip spatterdock (pads) on the main river. This produced a 7-12 and was the best decision for the final day. Manage your fish well and be willing to pivot to a backup pattern.",
@@ -648,9 +578,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "structure": [
-              "pads"
             ]
           },
           "tip": "Johnston: When flipping spatterdock pads for bedding bass, rotate 2-3 baits because every fish is different. Cover a lot of water doing laps because new fish pull up on beds constantly.",
@@ -660,9 +587,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "species": [
-              "largemouth"
             ]
           },
           "tip": "Johnston: Flip various worms and creature baits to bed fish in spring runs off the main lake. Use Garmin Perspective Mode and Power-Pole Move trolling motor for precise presentations.",
@@ -672,12 +596,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "species": [
-              "largemouth"
-            ],
-            "cover": [
-              "pads"
             ]
           },
           "tip": "Johnston: When the bed fish pattern starts dwindling, switch to flipping spatterdock (pads) on the main river for big bites including 7+ pounders.",
@@ -687,9 +605,6 @@
           "when": {
             "season": [
               "spawn"
-            ],
-            "species": [
-              "largemouth"
             ]
           },
           "tip": "Johnston: Texas rigged flipping baits including creatures, craws, straight tail worms, and stick baits are the go-to for sight fishing beds on the St. Johns River.",
@@ -750,9 +665,7 @@
           "priority": 10
         },
         {
-          "when": {
-            "fallRate": "slow"
-          },
+          "when": {},
           "tip": "Johnston: Use a bulkier 80-strand skirt when a slower fall is required, while a 60-strand skirt is the mainstay for standard flipping.",
           "priority": 8
         }
@@ -768,13 +681,19 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "fall"
             ]
@@ -799,9 +718,6 @@
           "when": {
             "season": [
               "fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In early fall, jerkbaits are excellent for covering water and getting multiple smallmouth to follow and bite.",
@@ -811,9 +727,6 @@
           "when": {
             "season": [
               "pre-spawn"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: There's a short window between prespawn and spawn when the water is warm enough to catch smallmouth on a jerkbait.",
@@ -825,6 +738,18 @@
         "cold-water-bass-tactics-with-cory-johnston.txt",
         "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt",
         "sturgeon-bay-small-talk.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ],
+            "waterTemp": "40-degree range"
+          },
+          "priority": 5,
+          "retrieveNote": "Johnston: In cold water around 40 degrees, slow-twitch a suspending jerkbait for largemouth bass that are suspending ..."
+        }
       ]
     },
     "Football Jig": {
@@ -832,7 +757,16 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [
         {
           "when": {
@@ -869,10 +803,6 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "structure": [
-              "timber",
-              "offshore"
             ]
           },
           "tip": "Johnston: Drag a football jig around standing timber and offshore hard spots. Use a 7'4\" heavy frog-style rod and a fast 8.1:1 reel to pick up line quickly and get a good hookset in deep water. In Texas timber, you need heavy line and a fast reel to get fish away from cover.",
@@ -883,6 +813,26 @@
       "sources": [
         "cold-water-bass-tactics-with-cory-johnston.txt",
         "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Johnston: In cold-water months, slow drag jigs"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Johnston: Drag a football jig around standing timber and offshore hard spots"
+        }
       ]
     },
     "Ned Rig": {
@@ -894,9 +844,6 @@
       "colorRules": [
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "fall"
             ]
@@ -908,12 +855,7 @@
       ],
       "tipRules": [
         {
-          "when": {
-            "species": [
-              "smallmouth"
-            ],
-            "waterBody": "St. Lawrence River"
-          },
+          "when": {},
           "tip": "Johnston: Mix in a Ned rig alongside the drop shot when targeting St. Lawrence River smallmouth as a secondary presentation.",
           "priority": 7
         },
@@ -921,9 +863,6 @@
           "when": {
             "season": [
               "late fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In mid to late fall, the Ned rig is perfect for follow-up after aggressive reaction baits stop producing. Downsized presentation fools pressured smallmouth.",
@@ -933,18 +872,6 @@
           "when": {},
           "tip": "Johnston: The CJ Smasher works well on a midwest finesse (Ned) rig. Easily fished in weeds, rocky points, and shot into cover or under docks where big fish live.",
           "priority": 6
-        },
-        {
-          "when": {
-            "season": [
-              "summer"
-            ],
-            "species": [
-              "smallmouth"
-            ]
-          },
-          "tip": "Johnston: Use a Ned rig as a secondary presentation when targeting St. Lawrence smallmouth alongside a drop shot.",
-          "priority": 7
         }
       ],
       "defaultTips": [],
@@ -960,13 +887,19 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [
         {
           "when": {
-            "species": [
-              "smallmouth"
-            ],
             "season": [
               "fall"
             ]
@@ -981,9 +914,6 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "structure": [
-              "timber"
             ]
           },
           "tip": "Johnston: For summer offshore fishing with big crankbaits like a 10XD, use an 8-foot medium-heavy fiberglass cranking rod. The 8-foot length allows the longest cast possible to get the bait down quickly and keep it at maximum depth longer. Fiberglass gives bass an extra second to get the bait and you'll hook more fish.",
@@ -993,9 +923,6 @@
           "when": {
             "season": [
               "fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In early fall (55-65F), burn a deep-diving crankbait that runs 10-15 feet, occasionally grinding bottom or ticking just above it, to trigger reaction strikes from smallmouth tight to bottom.",
@@ -1006,6 +933,17 @@
       "sources": [
         "cory-johnston-his-way-bassmaster-classic-daiwa.txt",
         "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Johnston: In early fall (55-65F), burn a deep-diving crankbait that runs 10-15 feet, occasionally grinding bottom or ..."
+        }
       ]
     },
     "Carolina Rig": {
@@ -1020,9 +958,6 @@
           "when": {
             "season": [
               "summer"
-            ],
-            "structure": [
-              "offshore"
             ]
           },
           "tip": "Johnston: Use big baits on a Carolina Rig for bigger fish offshore \u2014 10-inch worms, magnum flukes, and full-sized creature baits. Fish it on the same hard spots as a football jig. Use an 8.1:1 reel to pick up slack quickly and a heavy flipping rod.",
@@ -1046,9 +981,6 @@
           "when": {
             "season": [
               "fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In early fall, a 1/2 oz bladed jig covers water fast and is effective around grass, rock, and mixed cover. It often attracts the biggest smallmouth in the system.",
@@ -1058,6 +990,17 @@
       "defaultTips": [],
       "sources": [
         "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2oz"
+        }
       ]
     },
     "Squarebill Crankbait": {
@@ -1072,9 +1015,6 @@
           "when": {
             "season": [
               "late fall"
-            ],
-            "species": [
-              "smallmouth"
             ]
           },
           "tip": "Johnston: In mid to late fall (45-55F), squarebill crankbaits are ideal when grass is absent. Deflect off cover to trigger bites from shallow-grouped smallmouth.",
@@ -1087,8 +1027,172 @@
       ]
     }
   },
-  "structureAdvice": {},
-  "credibility": {},
+  "structureAdvice": {
+    "grass": [
+      {
+        "advice": "Johnston: Key on isolated rock piles off the shore in 4 feet or less. Anything that provides a transition - rock pile, patch of sand, clump of weeds - a shallow bass can key on is fair game in summer.",
+        "source": "2016-08-20-king-in-the-north.txt"
+      },
+      {
+        "advice": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats.",
+        "source": "2016-08-31-flw-series-cory-johnston-s-aoy-season.txt"
+      },
+      {
+        "advice": "Johnston: You can find smallmouth on rock, you can find them on sand. It doesn't really seem to matter as long as the bottom's not covered in moss or weeds.",
+        "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+      },
+      {
+        "advice": "Johnston: Where there's a lot of angling pressure, downsize your line and hooks, and try to get off the beaten path. Look for spots on the spot - anything different like rock and weed mixed in, or bigger pockets in grass. It's something small or isolated where people aren't all over it.",
+        "source": "4-tournament-winning-tips-from-canadian-bass-pro-cory-johnston.txt"
+      },
+      {
+        "advice": "Johnston: At the Bassmaster Classic on Lake Guntersville, I was getting bites on the deeper edge of the eel grass in practice and committed to it. But when the wind blew and everything got muddy, it hurt the deep bite. Having a shallow backup plan is important.",
+        "source": "across-the-border-and-back-home.txt"
+      }
+    ],
+    "point": [
+      {
+        "advice": "Johnston: On big water, commit to the lake when the wind direction gives you shelter from a point or land feature. Staying sheltered can reduce 8-foot waves to 6-footers, which is fishable.",
+        "source": "article-f272904b-5c67-5e4a-842f-e00ecf8335dfhtml.txt"
+      },
+      {
+        "advice": "Johnston: In fall, smallmouth group tightly on specific spots and feed heavily before winter. Early fall fish hold on offshore rock piles and summer haunts. Mid to late fall they push shallow to island tips, sand flats, and points with isolated cover.",
+        "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      },
+      {
+        "advice": "Johnston: The most important structure for smallmouth in rivers is breaks - ledges, humps, anything where the depth drops off. These aren't always adjacent to shoreline; they could be a ledge next to the main channel, a hump rising from the channel, or an underwater point extending from shore.",
+        "source": "key-smallmouth-structure-in-flowing-water.txt"
+      }
+    ],
+    "flat": [
+      {
+        "advice": "Johnston: The real key on deep sand flats is Garmin LiveScope \u2014 without it you're at a huge disadvantage. You can see 90% of the fish way out and cast to them before they're under the boat.",
+        "source": "catpage-bwbasstc20bhtml.txt"
+      },
+      {
+        "advice": "Johnston: Smallmouth groups on sand flats are transient. You could find a group one day but the next day they were gone. Keep covering water until you come across a group of them.",
+        "source": "catpage-bwbasstc20bhtml.txt"
+      },
+      {
+        "advice": "Johnston: On the St. Lawrence, catch them shallow on sand flats, rockpiles, weed edges all the way to 35-40 feet on little high spots, rocks and deeper weed edges. There's not one specific thing \u2014 hit as many spots as you can until you run into them.",
+        "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt"
+      },
+      {
+        "advice": "Johnston: Early practice in flat calm sunny conditions lets you see bedding fish that later arrivals can't. If wind stains the water later, competitors won't see the fish and fewer boats will fish the area.",
+        "source": "how-cory-johnston-won-the-st-johns-elite.txt"
+      },
+      {
+        "advice": "Johnston: When extreme fishing pressure pushes smallmouth off typical spots, hunt individual bass in areas with less pressure on flats with isolated structure.",
+        "source": "johnston-jumps-into-day-1-lead-at-the-st-lawrence-river.txt"
+      }
+    ],
+    "laydown": [
+      {
+        "advice": "Johnston: In a lake full of timber, idle a bunch and use LiveScope to play a big part in finding fish. The technology is essential when navigating and fishing around heavy timber cover.",
+        "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      },
+      {
+        "advice": "Johnston: Drag a football jig around standing timber and offshore hard spots. Use a 7'4\" heavy frog-style rod and a fast 8.1:1 reel to pick up line quickly and get a good hookset in deep water. In Texas timber, you need heavy line and a fast reel to get fish away from cover.",
+        "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+      }
+    ],
+    "creek-channel": [
+      {
+        "advice": "Johnston: Playing the ledge-fishing game on southern reservoirs is very much like graphing structure in search of smallmouth on northern lakes.",
+        "source": "johnstons-bring-team-approach-to-flw-tour.txt"
+      },
+      {
+        "advice": "Johnston: On the St. Lawrence, the depth of the break doesn't matter much - it might drop 3 feet, 10 feet, or 20+ feet. It's simply a place where fish can push bait up against the ledge so they don't have to chase it.",
+        "source": "key-smallmouth-structure-in-flowing-water.txt"
+      }
+    ],
+    "hump": [
+      {
+        "advice": "Johnston: Humps in current are unique structure because fish will be in front of them feeding in the current, or resting in the slack water behind. You can catch them in both states, which makes humps especially productive.",
+        "source": "key-smallmouth-structure-in-flowing-water.txt"
+      }
+    ],
+    "dock": [
+      {
+        "advice": "Johnston: A Punisher Lures jig around docks can produce key largemouth that supplement a smallmouth bag on northern fisheries.",
+        "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt"
+      }
+    ]
+  },
+  "credibility": {
+    "Drop Shot": [
+      {
+        "score": 1.0,
+        "source": "2015-06-29-johnston-targets-beds-for-big-limit.txt"
+      }
+    ],
+    "Spy Bait": [
+      {
+        "score": 0.55,
+        "source": "2016-08-20-king-in-the-north.txt"
+      }
+    ],
+    "Walking Topwater": [
+      {
+        "score": 0.5,
+        "source": "2016-08-20-king-in-the-north.txt"
+      }
+    ],
+    "Texas Rig (Creature Bait)": [
+      {
+        "score": 0.85,
+        "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt"
+      }
+    ],
+    "Flipping Jig": [
+      {
+        "score": 0.6,
+        "source": "2016-08-20-ontario-s-johnston-wins-costa-flw-series-northern-division-finale-on-oneida-lake-presented-by-ranger-boats.txt"
+      }
+    ],
+    "Suspending Jerkbait": [
+      {
+        "score": 0.63,
+        "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+      }
+    ],
+    "Football Jig": [
+      {
+        "score": 0.63,
+        "source": "cold-water-bass-tactics-with-cory-johnston.txt"
+      }
+    ],
+    "Ned Rig": [
+      {
+        "score": 0.65,
+        "source": "cory-johnston-claims-the-title-at-st-lawrence-river.txt"
+      }
+    ],
+    "Deep Diving Crankbait": [
+      {
+        "score": 0.55,
+        "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      }
+    ],
+    "Carolina Rig": [
+      {
+        "score": 0.5,
+        "source": "cory-johnston-his-way-bassmaster-classic-daiwa.txt"
+      }
+    ],
+    "Chatterbait": [
+      {
+        "score": 0.5,
+        "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      }
+    ],
+    "Squarebill Crankbait": [
+      {
+        "score": 0.5,
+        "source": "fall-smallmouth-fishing-tips-with-chris-cory-johnston.txt"
+      }
+    ]
+  },
   "knowledge": [
     {
       "category": "seasonal-pattern",

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lureCategory": "finesse"
+  },
+  "briefing": {
+    "headline": "Go small, go slow — fall stained conditions demand finesse presentations.",
+    "gameplan": "In fall with stained water and stable conditions, finesse presentations shine.\n\nJohnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast past the fish and drag it through them.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Drop Shot",
+      "color": "Morning Dawn",
+      "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Robertson: Use a Ned rig with a 1/4-ounce mushroom-style jighead and green-pumpkin Ned Ocho on spinning gear (10-pound braid to 6-pound fluorocarbon leader) to target smallmouth holding on boulders in",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For the Santee Cooper drop shot, I used a green/pumpkin/blue X-Zone Deception Worm 12 inches above the weight on an Alpha Angler DSR 6-foot-10 medium rod with a Daiwa Exist 3000 reel.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Fall smallmouth fishing is all about location and timing. Cover water fast with reaction baits to find active groups, then slow down with finesse presentations to catch the rest. If fish stop biting a tube, switch to Ned rig or drop shot."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      }
+    ],
+    "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

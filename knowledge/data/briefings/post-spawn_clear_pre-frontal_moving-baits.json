@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lureCategory": "moving-baits"
+  },
+  "briefing": {
+    "headline": "Cover water — post-spawn clear conditions reward moving baits that trigger reaction strikes.",
+    "gameplan": "In post-spawn with clear water and pre frontal conditions, moving baits presentations shine.\n\nWheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heavier heads (3/8-1/2 oz) keep the tail tabs intact as they won't affect action with the heavier weight\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Green Shad",
+      "retrieve": "Wheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heav",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Bluegill",
+      "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Fish a 6.8:1 reel with 16-lb fluorocarbon on a medium-heavy spinnerbait rod. The slower gear ratio helps maintain the medium to slow retrieve needed.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize lures and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

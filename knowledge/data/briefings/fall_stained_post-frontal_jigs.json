@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lureCategory": "jigs"
+  },
+  "briefing": {
+    "headline": "Pitch it tight — fall stained water puts a jig in its best element.",
+    "gameplan": "In fall with stained water and post frontal conditions, jigs presentations shine.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "Alabama craw with double header trailer",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Hair Jig / Finesse Jig",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Keep baits close to the bottom on ledges, but often burn them and kill it to trigger a strike — that retrieve variation produced key fish",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For flipping jig in fall: 7-foot-6 heavy-action Alpha Angler Hitter rod, Daiwa Steez A reel, 20-pound Seaguar Tatsu fluorocarbon line.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Big fish relate to the perimeter, a creek channel, and hold on an isolated piece of grass on a flat. Little fish run up shallow while big fish satellite around the area.'"
+      }
+    ],
+    "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

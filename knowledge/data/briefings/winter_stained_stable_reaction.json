@@ -1,0 +1,41 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lureCategory": "reaction"
+  },
+  "briefing": {
+    "headline": "Vertical and precise — winter stained conditions call for reaction baits on deep structure.",
+    "gameplan": "In winter with stained water and stable conditions, reaction presentations shine.\n\nKVD: Blade bait is my #1 bait for covering water in super cold water. Fish get locked on the bottom — short hop it on edges, drops, outside edges of flats and weed lines. Use just heavy enough to get to the zone. Great for largemouth, smallmouth, and spots.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Blade Bait",
+      "color": "Glow",
+      "retrieve": "KVD: Blade bait is my #1 bait for covering water in super cold water. Fish get locked on the bottom — short hop it on edges, drops, outside edges of flats and weed lines. Use just heavy enough to get ",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Jigging Spoon",
+      "color": "Sexy Shad",
+      "retrieve": "Match the conditions — moderate cadence — match the natural pace of local forage.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Uses Lowrance HDS LIVE 12 to find bass in deep wintering holes or around brush piles, then drops a Jigging Rap for vertical presentation; targets bass that are grouped together and competing for food."
+      }
+    ],
+    "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns"
+    ]
+  }
+}

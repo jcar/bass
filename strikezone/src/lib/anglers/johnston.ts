@@ -7,18 +7,18 @@ export const JOHNSTON: AnglerProfile = {
   id: 'johnston',
   defaultCredibility: 0.5,
   credibility: {
+    'Carolina Rig': 0.6,
+    'Bladed Jig': 0.6,
+    'Deep Diving Crankbait': 0.7,
     'Drop Shot': 1.0,
+    'Flipping Jig': 0.7,
+    'Football Jig': 0.8,
     'Ned Rig': 0.9,
     'Spy Bait': 0.9,
-    'Suspending Jerkbait': 0.8,
-    'Football Jig': 0.8,
-    'Texas Rig (Creature Bait)': 0.8,
-    'Flipping Jig': 0.7,
-    'Deep Diving Crankbait': 0.7,
-    'Walking Topwater': 0.6,
-    'Carolina Rig': 0.6,
-    'Chatterbait': 0.6,
     'Squarebill Crankbait': 0.6,
+    'Suspending Jerkbait': 0.8,
+    'Texas Rig (Creature Bait)': 0.85,
+    'Walking Topwater': 0.6,
   },
   opinions: [
     // ─── Drop Shot ───
@@ -181,11 +181,11 @@ export const JOHNSTON: AnglerProfile = {
       ],
     },
 
-    // ─── Chatterbait ───
+    // ─── Bladed Jig ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       tipRules: [
-        { when: { season: 'fall' }, tip: 'Johnston: 1/2oz chatterbait covers water fast for early fall smallmouth around grass and rock transitions. Search tool when fish are scattered.', priority: 10 },
+        { when: { season: 'fall' }, tip: 'Johnston: 1/2oz bladed jig covers water fast for early fall smallmouth around grass and rock transitions. Search tool when fish are scattered.', priority: 10 },
       ],
     },
 

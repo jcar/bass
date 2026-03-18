@@ -833,7 +833,14 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [],
       "tipRules": [
         {
@@ -2258,7 +2265,14 @@
       ],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "adjustment": 8
+        }
+      ],
       "colorRules": [],
       "tipRules": [
         {
@@ -2627,7 +2641,14 @@
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "adjustment": 5
+        }
+      ],
       "colorRules": [],
       "tipRules": [
         {
@@ -2743,6 +2764,10 @@
       {
         "advice": "KVD: 'Summer — baitfish and bass gravitate to weedy bays and pockets where water is cooler and oxygenated. Bass position near irregularities: holes, pockets, and points in the weed bed. Weedless frog on top, or flip plastics through the grass.'",
         "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: 'Natural lakes in fall — start on outside weed edge of biggest flat on main lake. Crank finds irregularities in the weedline, then pitch finesse baits to those spots. Inside turns are where you find concentrations — the closer to the bank that turn is, the better. Bass can stay shallow in milfoil/coontail even in the 40-degree range.'",
+        "source": "194409.txt"
       }
     ],
     "hump": [
@@ -2763,32 +2788,174 @@
       {
         "advice": "KVD: 'Winter bass relate strongly to vertical and fast-sloping structure — rock bluffs, river channel dropoffs, standing timber, 45-degree banks. These let bass make major depth changes without swimming far. In prespawn, fish the ends of bluffs close to shallower water.'",
         "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and riprap around bridges are prime for the mid-range crankbait.",
+        "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
+      },
+      {
+        "advice": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: Gravel Dog for the 6-12ft mid-range zone in cold water. Round body, super wide wobble, loud rattle. Eats up the bottom — perfect for chunk rock banks, bluffs, riprap around bridges. One of the most weedless crankbaits you can throw.",
+        "source": "194409.txt"
+      },
+      {
+        "advice": "KVD: 'Mid-range 6-12ft zone: round body crankbait with wide wobble and loud rattle. Must contact bottom — deflection off rock and cover is the biggest strike trigger in cold water. Fish chunk rock banks, riprap, bridge areas, bluffs.'",
+        "source": "194409.txt"
       }
     ],
     "point": [
       {
         "advice": "KVD: 'Summer — bass migrate to the main lake and hang around channel-oriented structure: humps, points, dropoffs, ledges. Your best bet early summer is a slow-tapering point at the mouth of a spawning cove. In fall, bass move to long points with a gradual taper.'",
         "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: 'Fall reservoirs — shad move shallow to warmest water in creek arms. Go as far up a creek as your boat allows. If it has a defined channel, bass use it for ambush points. Pods of bait near surface plus birds indicate a really good afternoon bite as sun warms water. Fall drawdown exposes cover you can't see in summer.'",
+        "source": "194409.txt"
+      },
+      {
+        "advice": "KVD: In clear deep lakes with shad kills, fish often suspend. The higher they are in the water column, the more active they are. Fish off main lake points, humps, drops, centers of big bays — not near the bank. Alabama rig with spinners (keeps rig up in water column) or minnow/swimbait on spotlight head are best for covering water around suspended fish.",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: In northern natural lakes, perch and gobies are the primary forage — fish spend most of their time feeding on them. Both live on or near rocks. Birds diving on shallow points = alewives spawning (another forage clue).",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: During pre-spawn, when you find one fish on a spot, they're usually grouped. Got a bite every single cast on one little spot on a point. They stage together before moving up to spawn. Mark the spot and work it thoroughly.",
+        "source": "_merged-review.json"
       }
     ],
     "flat": [
       {
         "advice": "KVD: 'Bass spawn on flat, protected structure — large expanses of shallow water (10ft or less on lowland reservoirs, 8-20ft on highland reservoirs). Look for areas where contour lines are spread far apart, not close together.'",
         "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: Bass in cold water really use their lateral line to hunt. Even in dirty water they can feel the pressure waves of a flatside bait. This is why flatsided crankbaits are 'magical' in cold water — the flat sides displace a lot of water.",
+        "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
+      },
+      {
+        "advice": "KVD: Red Eye Shad sizes for depth control — 1/4oz for ultra-shallow (1-2ft), 3/8oz for shallow flats, 1/2oz as go-to, 3/4oz for 10-15ft deep drains. Plus tungsten Two Tap in 1/2 and 3/4oz — heavier tungsten fishes slightly deeper. Most anglers get stuck on 1/2oz and don't downsize when fish are shallow.",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: Focus on large flats and spawning flats — where fish are coming and going. Look for deeper depressions, edges, drops, centers of drains within the flat. These subtle depth changes concentrate pre-spawn fish. At places like Toledo Bend and Sam Rayburn, fish deeper drains/ditches leading into spawning bays with 3/4oz.",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: Flatside crankbaits send off a lot of pressure waves because flat sides displace a ton of water. Best in cold water (bass rely on lateral line to hunt) and dirty water any season (visibility is down). Round body crankbaits vary widely depending on bill angle — the body shape alone doesn't tell the whole story.",
+        "source": "_merged-review.json"
       }
     ],
     "creek-channel": [
       {
         "advice": "KVD: 'Fall — follow the shad migration into creek arms. Fish the first third early fall, then press farther back as temps drop. Idle up watching your graph for suspended shad. Isolated wood and docks in the backs of creek arms are dependable fall patterns.'",
         "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: 'Choose a crankbait that runs slightly deeper than the water — that gives best action and triggering when banging off bottom. If water is 10ft, I want bait running 11ft. Manage with bait selection, line size, and rod angle. Multiple rods rigged with different line sizes — smaller for deeper, bigger for shallower. Hold rod up for shallower over ledge tops, lower for depth increases.'",
+        "source": "time-to-talk-crankin-2.txt"
+      },
+      {
+        "advice": "KVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving shallow and will bite it in just about any color of water.'",
+        "source": "194409.txt"
+      },
+      {
+        "advice": "KVD: 'Pre-spawn rocky areas and channel swings: squarebill is unbeatable. Use crawfish patterns — Delta Red, Fire Craw, Brown Crawfish, Red Tomato. Position boat close to bank and make short, accurate parallel casts to keep bait in the strike zone.'",
+        "source": "194409.txt"
+      }
+    ],
+    "dock": [
+      {
+        "advice": "KVD: GS1 spinning rod, 6'10\" medium action for accuracy around docks. Longer spinning rod for open water distance. 8lb braid to 8lb fluoro leader. Mustad Apex weedless hook for cover/docks, exposed hook in open water. Mustad Apex drop shot hook (wide gap) for creature baits.",
+        "source": "_merged-review.json"
+      },
+      {
+        "advice": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jigs on deep docks in clear water. Less line on the spool is better for skip casting.'",
+        "source": "skip-cast-like-a-pro-part-2-of-2.txt"
+      },
+      {
+        "advice": "KVD: 'Postspawn bass hang around their spawning grounds near cover sticking up vertically — dock pilings, submerged bushes, standing tree trunks. Keep your presentation up high in the water column, not bumping bottom.'",
+        "source": "vandams-6-season-bass-guide.txt"
+      },
+      {
+        "advice": "KVD: 'When bass are dirt shallow near spawn, use the 1.5 Shallow — runs about 12 inches below surface. Throw on heavy 17lb line near shallow cover and docks. Rod tip high and it practically doubles as a wakebait. Use bluegill/sunfish colors — bass are targeting them around beds.'",
+        "source": "194409.txt"
+      },
+      {
+        "advice": "KVD: 'In clearer fall creek arms, switch from Sexy Shad to Summer Sexy Shad color on a 1.5 squarebill. Fish it around laydowns, windy banks, and especially shallow floating boat docks in October/November. It's the shad migration toward back of major creeks — but if water is clearer than usual, the subtler color is better.'",
+        "source": "194409.txt"
+      }
+    ],
+    "laydown": [
+      {
+        "advice": "KVD: 'What I look for in a squarebill is erratic swimming — kick around, don't run straight. Old wood baits had this but broke fast. The body and weighting design make every single one swim erratically out of the package. It looks like an injured baitfish — catches a lot of smallmouth over deep water.'",
+        "source": "kvd-on-fishing-the-15-and-25-crankbaits.txt"
+      },
+      {
+        "advice": "KVD: 'For vertical deep water (50ft on Table Rock, fishing standing timber at 30ft down), use a short rod. Video gaming — looking at graph, dropping to the fish, watching bait on sonar, trying to talk them into biting.'",
+        "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
+      },
+      {
+        "advice": "KVD: 'Power fishing the spawn: use a squarebill to locate stumps, then make persistent casts from various angles. Slow the retrieve to keep bait banging on cover for erratic deflection. Several big fish came after 4+ casts to the same stump. If snagged, snap free from a distance or break off — never go over the stump and disturb the area.'",
+        "source": "194409.txt"
+      },
+      {
+        "advice": "KVD: 'Bass relate to cover like stumps strongly in prespawn, especially in murky lakes. A jig-and-pig rules here.'",
+        "source": "vandams-6-season-bass-guide.txt"
       }
     ]
   },
   "credibility": {
+    "Squarebill Crankbait": [
+      {
+        "score": 1.0,
+        "source": "194409.txt"
+      }
+    ],
     "Lipless Crankbait": [
       {
         "score": 0.95,
         "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
+      }
+    ],
+    "Texas Rig (Creature Bait)": [
+      {
+        "score": 0.65,
+        "source": "194409.txt"
+      }
+    ],
+    "Medium Diving Crankbait": [
+      {
+        "score": 0.75,
+        "source": "194409.txt"
+      }
+    ],
+    "Deep Diving Crankbait": [
+      {
+        "score": 0.87,
+        "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
+      }
+    ],
+    "Suspending Jerkbait": [
+      {
+        "score": 0.93,
+        "source": "4-jerkbait-tips-for-fall-smallmouth-bass-with-kvd.txt"
+      }
+    ],
+    "Drop Shot": [
+      {
+        "score": 0.7,
+        "source": "a-drop-shot-bait-for-my-aggressive-style.txt"
+      }
+    ],
+    "Spinnerbait (Colorado/Willow)": [
+      {
+        "score": 0.95,
+        "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
       }
     ],
     "Chatterbait": [
@@ -2797,10 +2964,82 @@
         "source": "best-baits-to-fish-grassy-lakes---fishing-the-right-depth-zones---with-kvd.txt"
       }
     ],
-    "Spinnerbait (Colorado/Willow)": [
+    "Swim Jig": [
       {
-        "score": 0.95,
-        "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
+        "score": 0.68,
+        "source": "best-swim-jig-fishing-technique-in-heavy-cover.txt"
+      }
+    ],
+    "Ned Rig": [
+      {
+        "score": 0.65,
+        "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
+      }
+    ],
+    "Flipping Jig": [
+      {
+        "score": 0.55,
+        "source": "dealing-with-high-muddy-water.txt"
+      }
+    ],
+    "Football Jig": [
+      {
+        "score": 0.5,
+        "source": "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt"
+      }
+    ],
+    "Shakyhead": [
+      {
+        "score": 0.55,
+        "source": "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt"
+      }
+    ],
+    "Carolina Rig": [
+      {
+        "score": 0.5,
+        "source": "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt"
+      }
+    ],
+    "Blade Bait": [
+      {
+        "score": 0.55,
+        "source": "fishing-in-extremely-cold-water-kevin-vandam.txt"
+      }
+    ],
+    "Walking Topwater": [
+      {
+        "score": 0.73,
+        "source": "its-topwater-fishing-time.txt"
+      }
+    ],
+    "Neko Rig": [
+      {
+        "score": 0.55,
+        "source": "kevin-vandam-four-key-finesse-baits-and-why-i-use-them.txt"
+      }
+    ],
+    "Jigging Spoon": [
+      {
+        "score": 0.55,
+        "source": "power-fishing-with-kevin-vandam-2.txt"
+      }
+    ],
+    "Buzzbait": [
+      {
+        "score": 0.55,
+        "source": "skip-cast-like-a-pro-part-2-of-2.txt"
+      }
+    ],
+    "Structure Jig": [
+      {
+        "score": 0.5,
+        "source": "vandams-3-top-lures-for-early-spring.txt"
+      }
+    ],
+    "Crawfish Pattern Jig": [
+      {
+        "score": 0.5,
+        "source": "vandams-6-season-bass-guide.txt"
       }
     ]
   },
@@ -2982,10 +3221,10 @@
           "winter"
         ],
         "structure": [
-          "bluff",
           "flat",
+          "riprap",
           "creek-channel",
-          "riprap"
+          "bluff"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "hop",
@@ -3125,10 +3364,10 @@
           "winter"
         ],
         "structure": [
-          "bluff",
           "flat",
+          "riprap",
           "creek-channel",
-          "riprap"
+          "bluff"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "hop",
@@ -3775,9 +4014,9 @@
       "insight": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
       "conditions": {
         "structure": [
+          "ledge",
           "bluff",
-          "grass",
-          "ledge"
+          "grass"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "twitch",
@@ -4250,8 +4489,8 @@
           "summer"
         ],
         "structure": [
-          "grass",
-          "creek-channel"
+          "creek-channel",
+          "grass"
         ],
         "retrieveStyle": "twitch",
         "coverType": "grass"
@@ -4505,8 +4744,8 @@
           "winter"
         ],
         "structure": [
-          "grass",
-          "creek-channel"
+          "creek-channel",
+          "grass"
         ],
         "coverType": "grass"
       },
@@ -4621,9 +4860,9 @@
         ],
         "waterClarity": "muddy",
         "structure": [
-          "riprap",
           "flat",
-          "creek-channel"
+          "creek-channel",
+          "riprap"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "hop",
@@ -4640,8 +4879,8 @@
           "summer"
         ],
         "structure": [
-          "point",
           "flat",
+          "point",
           "hump",
           "dock"
         ],
@@ -4691,11 +4930,11 @@
           "winter"
         ],
         "structure": [
-          "riprap",
-          "laydown",
           "point",
-          "bluff",
-          "grass"
+          "laydown",
+          "riprap",
+          "grass",
+          "bluff"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "hop",
@@ -4788,8 +5027,8 @@
           "fall"
         ],
         "structure": [
-          "point",
-          "flat"
+          "flat",
+          "point"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "twitch"
@@ -4904,9 +5143,9 @@
         ],
         "structure": [
           "point",
-          "grass",
           "hump",
-          "creek-channel"
+          "creek-channel",
+          "grass"
         ],
         "coverType": "grass"
       },
@@ -4953,10 +5192,10 @@
           "post-spawn"
         ],
         "structure": [
-          "dock",
           "laydown",
-          "grass",
-          "riprap"
+          "riprap",
+          "dock",
+          "grass"
         ],
         "retrieveStyle": "hop",
         "coverType": "wood"
@@ -5506,9 +5745,9 @@
           "summer"
         ],
         "structure": [
+          "creek-channel",
           "dock",
-          "grass",
-          "creek-channel"
+          "grass"
         ],
         "coverType": "grass"
       },
@@ -5660,8 +5899,8 @@
           "fall"
         ],
         "structure": [
-          "point",
-          "flat"
+          "flat",
+          "point"
         ]
       },
       "source": "kevin-vandams-three-favorite-lures-for-fall.txt"
@@ -5700,9 +5939,9 @@
       "insight": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
       "conditions": {
         "structure": [
+          "ledge",
           "bluff",
-          "grass",
-          "ledge"
+          "grass"
         ],
         "lureCategory": "cranking",
         "retrieveStyle": "twitch",
@@ -5770,8 +6009,8 @@
         ],
         "structure": [
           "flat",
-          "grass",
-          "creek-channel"
+          "creek-channel",
+          "grass"
         ],
         "depthZone": "deep",
         "coverType": "grass"
@@ -6254,8 +6493,8 @@
           "winter"
         ],
         "structure": [
-          "point",
           "flat",
+          "point",
           "riprap"
         ],
         "depthZone": "mid",
@@ -6610,8 +6849,8 @@
           "pre-spawn"
         ],
         "structure": [
-          "point",
           "laydown",
+          "point",
           "creek-channel"
         ],
         "coverType": "wood"

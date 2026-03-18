@@ -68,9 +68,9 @@ export default function PressureIndicator({ pressure, trend }: PressureIndicator
             background: `linear-gradient(to right, #ef4444, #f59e0b, #10b981)`,
           }} />
         {/* Range labels */}
-        <div className="absolute -bottom-3.5 left-0 text-[8px] font-mono text-slate-600">29.40</div>
-        <div className="absolute -bottom-3.5 left-1/2 -translate-x-1/2 text-[8px] font-mono text-slate-600">30.00</div>
-        <div className="absolute -bottom-3.5 right-0 text-[8px] font-mono text-slate-600">30.60</div>
+        <div className="absolute -bottom-3.5 left-0 text-xs font-mono text-slate-600">29.40</div>
+        <div className="absolute -bottom-3.5 left-1/2 -translate-x-1/2 text-xs font-mono text-slate-600">30.00</div>
+        <div className="absolute -bottom-3.5 right-0 text-xs font-mono text-slate-600">30.60</div>
       </div>
 
       <p className="text-[11px] text-slate-400 mt-5 leading-relaxed">{data.impact}</p>

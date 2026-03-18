@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lureCategory": "cranking"
+  },
+  "briefing": {
+    "headline": "Crank it — pre-spawn stained water calls for steady cranking on key structure.",
+    "gameplan": "In pre-spawn with stained water and stable conditions, cranking presentations shine.\n\nKVD: Fish the Red Eye Shad like a worm or jig, not just cast-and-reel. Rip it out of cover, let it flutter down — that swimming shimmy on the fall is the magic. The colder it is, the slower you fish. Downsize to 1/4oz on ultra-shallow flats (1-2ft). Upsize line to 17-20lb fluoro to slow the fall and\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Chartreuse Sexy Shad",
+      "retrieve": "KVD: Fish the Red Eye Shad like a worm or jig, not just cast-and-reel. Rip it out of cover, let it flutter down — that swimming shimmy on the fall is the magic. The colder it is, the slower you fish. ",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Fire Craw",
+      "retrieve": "Wheeler: During spring the prime depth zone on most lakes is 6 feet or less; the Jabber Jaw Hybrid Squarebill dives 3-5 feet which is the right zone for most fisheries across the country.",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'I pick up my fishing pace considerably as the water hits around 52°F. I may run down a bank quickly throwing a lipless crankbait or spinnerbait, then pause to pitch a jig at submerged logs or brushpiles.'"
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

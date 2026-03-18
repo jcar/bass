@@ -7,23 +7,24 @@ export const KVD: AnglerProfile = {
   id: 'kvd',
   defaultCredibility: 0.5,
   credibility: {
-    'Squarebill Crankbait': 1.0,
-    'Medium Diving Crankbait': 1.0,
-    'Deep Diving Crankbait': 1.0,
-    'Lipless Crankbait': 0.9,
-    'Suspending Jerkbait': 1.0,
-    'Chatterbait': 0.8,
-    'Spinnerbait (Colorado/Willow)': 0.9,
-    'Drop Shot': 0.9,
-    'Ned Rig': 0.8,
-    'Walking Topwater': 0.8,
     'Buzzbait': 0.7,
+    'Bladed Jig': 0.9,
+    'Crawfish Pattern Jig': 0.5,
+    'Deep Diving Crankbait': 1.0,
+    'Drop Shot': 0.9,
+    'Lipless Crankbait': 0.95,
+    'Medium Diving Crankbait': 1.0,
+    'Ned Rig': 0.8,
+    'Spinnerbait (Colorado/Willow)': 0.95,
+    'Squarebill Crankbait': 1.0,
+    'Suspending Jerkbait': 1.0,
     'Swim Jig': 0.7,
+    'Walking Topwater': 0.8,
   },
   opinions: [
-    // ─── Chatterbait / Thunder Cricket ───
+    // ─── Bladed Jig / Thunder Cricket ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       // KVD: Thunder Cricket works in cold water as reaction bait — wider seasonal range
       seasonAdd: ['winter'],
       // KVD: Thunder Cricket triggers reaction bites even below Hackney's 55° threshold
@@ -154,7 +155,7 @@ export const KVD: AnglerProfile = {
     'point': 'KVD: "Points are the interstate system for bass." Fan-cast a medium diver from shallow to deep — the crankbait tells you what depth they\'re using.',
     'bluff': 'KVD: Parallel a jerkbait tight to the bluff wall. Bass suspend at specific depths along vertical rock — cover the whole water column with long casts.',
     'grass': 'KVD: "Rip it out of the grass — that erratic action triggers reaction strikes." Lipless or squarebill through the tops, deep diver along the outside edge.',
-    'flat': 'KVD: Flats are made for covering water fast. Lipless crankbait or chatterbait — keep moving until you find the active school, then pick them apart.',
+    'flat': 'KVD: Flats are made for covering water fast. Lipless crankbait or bladed jig — keep moving until you find the active school, then pick them apart.',
     'dock': 'KVD: Squarebill deflecting off dock posts is deadly. Cast past the dock, crank it into the pilings — the deflection is what triggers the bite.',
     'creek-channel': 'KVD: Deep crank the channel swing where it bends closest to the bank. That inside turn concentrates fish — grind the bill right into the ledge.',
     'hump': 'KVD: Offshore humps are crankbait gold. Circle the hump with a deep diver, varying your cast angle until you find which side they\'re sitting on.',

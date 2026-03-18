@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lureCategory": "moving-baits"
+  },
+  "briefing": {
+    "headline": "Cover water — winter stained conditions reward moving baits that trigger reaction strikes.",
+    "gameplan": "In winter with stained water and pre frontal conditions, moving baits presentations shine.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Green Shad",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "Black and Blue",
+      "retrieve": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it do",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: In late February/early March, bass group up in underwater ditches 30-40 feet deep; targets them with underspin or small swimbait on light fluorocarbon."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In clear deep lakes with shad kills, fish often suspend. The higher they are in the water column, the more active they are. Fish off main lake points, humps, drops, centers of big bays — not near the bank. Alabama rig with spinners (keeps rig..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

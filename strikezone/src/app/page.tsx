@@ -1,19 +1,24 @@
 'use client';
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
-import { Crosshair, AlertTriangle } from 'lucide-react';
-import { loadTuning, saveTuning, resetTuning, type TuningConfig } from '@/lib/tuning';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import { Crosshair, AlertTriangle, MapPin, X, RefreshCw } from 'lucide-react';
+import { loadTuning } from '@/lib/tuning';
+import { loadSession, saveSession, updateLakeMemory, toggleFavorite, type SessionState } from '@/lib/session';
+import { nearestLake, getLakeById } from '@/data/bass-lakes';
+import { generateMorningBriefing } from '@/lib/morningBriefing';
 import LakePicker from '@/components/LakePicker';
 import type { WeatherConditions, StrikeAnalysis, DayForecast, Lake, WaterClarity } from '@/lib/types';
 import { runStrikeAnalysis } from '@/lib/StrikeEngine';
+import { fetchForecast } from '@/lib/fetchForecast';
 import WaterColumn from '@/components/WaterColumn';
 import ConditionsPanel from '@/components/ConditionsPanel';
-import StructureTargets from '@/components/StructureTargets';
-import OutlookHero from '@/components/OutlookHero';
-import TuningPanel from '@/components/TuningPanel';
-import AnglerPickCard from '@/components/AnglerPickCard';
-import TacticalBriefing from '@/components/TacticalBriefing';
-import { getBriefingsForAnalysis } from '@/lib/briefings';
+import type { ConditionDelta } from '@/components/ConditionsPanel';
+import WhatToThrowSection from '@/components/WhatToThrowSection';
+import MorningBriefing from '@/components/MorningBriefing';
+import DayComparison from '@/components/DayComparison';
+import CommandStrip from '@/components/CommandStrip';
+import TopPickCard from '@/components/TopPickCard';
+import { buildWhatToThrow } from '@/lib/whatToThrow';
 
 const DEFAULT_CONDITIONS: WeatherConditions = {
   airTemp: 68,
@@ -35,20 +40,10 @@ function deriveFrontalSystem(days: DayForecast[], index: number): WeatherConditi
   const pressureDiff = curr.barometricPressure - prev.barometricPressure;
   const tempDiff = curr.airTemp - prev.airTemp;
 
-  if (pressureDiff < -0.15 && tempDiff < -5) return 'cold-front';
+  if (pressureDiff < -0.15 && tempDiff < -3) return 'cold-front';
   if (pressureDiff < -0.08) return 'pre-frontal';
-  if (pressureDiff > 0.1 && prev.barometricPressure < 29.85) return 'post-frontal';
+  if (pressureDiff > 0.1 && (prev.barometricPressure < 29.85 || pressureDiff > 0.15)) return 'post-frontal';
   return 'stable';
-}
-
-function derivePressureTrend(days: DayForecast[], index: number): WeatherConditions['pressureTrend'] {
-  if (days.length < 2) return 'steady';
-  const start = Math.max(0, index - 1);
-  const end = Math.min(days.length - 1, index + 1);
-  const diff = days[end].barometricPressure - days[start].barometricPressure;
-  if (diff > 0.04) return 'rising';
-  if (diff < -0.04) return 'falling';
-  return 'steady';
 }
 
 export default function Dashboard() {
@@ -59,11 +54,43 @@ export default function Dashboard() {
   const [locationReady, setLocationReady] = useState(false);
   const [forecast, setForecast] = useState<DayForecast[]>([]);
   const [selectedDay, setSelectedDay] = useState(0);
-  const [tuning, setTuning] = useState<TuningConfig>(() => loadTuning());
+  const tuning = useMemo(() => loadTuning(), []);
   const [lakeMaxDepth, setLakeMaxDepth] = useState(40);
   const [selectedLake, setSelectedLake] = useState<Lake | null>(null);
   const [gpsLocating, setGpsLocating] = useState(false);
 
+  // C4: Water temp override
+  const [waterTempOverride, setWaterTempOverride] = useState<number | null>(null);
+
+  // C2: Auto-detect confirmation toast
+  const [autoDetectLake, setAutoDetectLake] = useState<string | null>(null);
+
+  // P10: Condition change deltas
+  const prevConditionsRef = useRef<WeatherConditions | null>(null);
+  const [deltas, setDeltas] = useState<ConditionDelta | null>(null);
+  const deltasTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Feature 3: Session Memory
+  const [session, setSession] = useState<SessionState>(() => loadSession());
+  const sessionInitRef = useRef(false);
+
+  // Feature 2: Day comparison
+  const [compareDay, setCompareDay] = useState<number | null>(null);
+
+
+  // Angler deep dive state (shared between TopPickCard and WhatToThrowSection)
+  const [followingAngler, setFollowingAngler] = useState<string | null>(null);
+
+  // ── Session persistence helpers ──
+  const updateSession = useCallback((updater: (prev: SessionState) => SessionState) => {
+    setSession(prev => {
+      const next = updater(prev);
+      saveSession(next);
+      return next;
+    });
+  }, []);
+
+  // ── Lake selection ──
   const handleLakeSelect = useCallback((lake: Lake) => {
     setSelectedLake(lake);
     if (lake.maxDepth) {
@@ -75,62 +102,106 @@ export default function Dashboard() {
       name: `${lake.name}, ${lake.state}`,
     });
     setLocationReady(true);
-  }, []);
+
+    // Session: save as default lake + restore lake memory
+    updateSession(s => {
+      const mem = s.lakeMemory[lake.id];
+      if (mem) {
+        // Restore user's saved clarity and temp override for this lake
+        setConditions(prev => ({ ...prev, waterClarity: mem.clarity }));
+        setWaterTempOverride(mem.waterTempOverride);
+        setLakeMaxDepth(mem.maxDepth);
+      }
+      return {
+        ...s,
+        defaultLake: {
+          id: lake.id,
+          name: lake.name,
+          state: lake.state,
+          lat: lake.lat,
+          lon: lake.lon,
+          maxDepth: lake.maxDepth,
+        },
+      };
+    });
+  }, [updateSession]);
 
   const handleLakeClear = useCallback(() => {
     setSelectedLake(null);
     setLakeMaxDepth(40);
   }, []);
 
-  // Find and select the nearest lake to given coordinates
-  const selectNearestLake = useCallback(async (lat: string, lon: string) => {
-    try {
-      const res = await fetch(`/api/lakes?lat=${lat}&lon=${lon}&limit=1&minAcres=50`);
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        handleLakeSelect(data[0]);
-      }
-    } catch {
-      // Fall back to just using the coordinates
+  // Find and select the nearest curated bass lake to given coordinates
+  const selectNearestLake = useCallback((lat: string, lon: string) => {
+    const lake = nearestLake(Number(lat), Number(lon));
+    if (lake) {
+      handleLakeSelect(lake);
+      setAutoDetectLake(`${lake.name}, ${lake.state}`);
     }
   }, [handleLakeSelect]);
+
+  // C2: Auto-dismiss auto-detect toast after 5s
+  useEffect(() => {
+    if (!autoDetectLake) return;
+    const id = setTimeout(() => setAutoDetectLake(null), 5000);
+    return () => clearTimeout(id);
+  }, [autoDetectLake]);
 
   const handleUseGPS = useCallback(() => {
     if (!navigator.geolocation) return;
     setGpsLocating(true);
     navigator.geolocation.getCurrentPosition(
-      async (position) => {
+      (position) => {
         const { latitude, longitude } = position.coords;
         const lat = String(latitude);
         const lon = String(longitude);
-        try {
-          // Try to find the nearest lake to GPS coordinates
-          await selectNearestLake(lat, lon);
-        } catch {
-          // Fall back to just coordinates
+        selectNearestLake(lat, lon);
+        if (!nearestLake(Number(lat), Number(lon))) {
           setLocation({ lat, lon, name: `${latitude.toFixed(2)}, ${longitude.toFixed(2)}` });
-        } finally {
-          setGpsLocating(false);
         }
+        setGpsLocating(false);
       },
       () => { setGpsLocating(false); },
       { enableHighAccuracy: false, timeout: 10000 }
     );
   }, [selectNearestLake]);
 
-  const handleTuningChange = useCallback((cfg: TuningConfig) => {
-    setTuning(cfg);
-    saveTuning(cfg);
-  }, []);
-
-  const handleTuningReset = useCallback(() => {
-    const defaults = resetTuning();
-    setTuning(defaults);
-  }, []);
-
   const handleWaterClarityChange = useCallback((clarity: WaterClarity) => {
     setConditions((prev) => ({ ...prev, waterClarity: clarity }));
-  }, []);
+    // Session: save clarity per lake
+    if (selectedLake) {
+      updateSession(s => updateLakeMemory(s, selectedLake.id, { clarity }));
+    }
+  }, [selectedLake, updateSession]);
+
+  // C4: Handle water temp override
+  const handleWaterTempOverride = useCallback((temp: number | null) => {
+    setWaterTempOverride(temp);
+    // Session: save temp override per lake
+    if (selectedLake) {
+      updateSession(s => updateLakeMemory(s, selectedLake.id, { waterTempOverride: temp }));
+    }
+  }, [selectedLake, updateSession]);
+
+  // Session: save max depth per lake
+  const handleLakeMaxDepthChange = useCallback((depth: number) => {
+    setLakeMaxDepth(depth);
+    if (selectedLake) {
+      updateSession(s => updateLakeMemory(s, selectedLake.id, { maxDepth: depth }));
+    }
+  }, [selectedLake, updateSession]);
+
+  // Feature 3: Favorite toggle
+  const handleToggleFavorite = useCallback((lakeId: string) => {
+    updateSession(s => toggleFavorite(s, lakeId));
+  }, [updateSession]);
+
+  // Build favorite Lake objects from curated dataset
+  const favoriteLakes = useMemo((): Lake[] => {
+    return session.favoriteLakeIds
+      .map(id => getLakeById(id))
+      .filter((l): l is Lake => l != null);
+  }, [session.favoriteLakeIds]);
 
   const conditionsFromForecast = useCallback((days: DayForecast[], index: number): WeatherConditions => {
     const day = days[index];
@@ -141,7 +212,7 @@ export default function Dashboard() {
       windSpeed: day.windSpeed,
       windDirection: day.windDirection,
       barometricPressure: day.barometricPressure,
-      pressureTrend: derivePressureTrend(days, index),
+      pressureTrend: day.pressureTrend ?? 'steady',
       skyCondition: day.skyCondition,
       humidity: day.humidity,
       waterClarity: conditions.waterClarity,
@@ -149,35 +220,39 @@ export default function Dashboard() {
     };
   }, [conditions.waterClarity]);
 
-  const fetchForecast = useCallback(async (lat: string, lon: string) => {
+  const loadForecast = useCallback(async (lat: string, lon: string) => {
     setLoading(true);
     try {
-      const res = await fetch(`/api/forecast?lat=${lat}&lon=${lon}`);
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
+      const data = await fetchForecast(parseFloat(lat), parseFloat(lon));
+      if (data.length > 0) {
         setForecast(data);
-        setSelectedDay(0);
-        const day = data[0];
-        const trend = derivePressureTrend(data, 0);
-        setConditions((prev) => ({
-          ...prev,
-          airTemp: day.airTemp,
-          waterTemp: day.waterTemp,
-          windSpeed: day.windSpeed,
-          windDirection: day.windDirection,
-          barometricPressure: day.barometricPressure,
-          humidity: day.humidity,
-          skyCondition: day.skyCondition,
-          pressureTrend: trend,
-          frontalSystem: 'stable',
-        }));
+        // Find the first non-yesterday day for selection
+        const todayIndex = data.findIndex((d: DayForecast) => !d.isYesterday);
+        setSelectedDay(todayIndex >= 0 ? todayIndex : 0);
+        const day = data[todayIndex >= 0 ? todayIndex : 0];
+        if (day) {
+          setConditions((prev) => ({
+            ...prev,
+            airTemp: day.airTemp,
+            waterTemp: day.waterTemp,
+            windSpeed: day.windSpeed,
+            windDirection: day.windDirection,
+            barometricPressure: day.barometricPressure,
+            humidity: day.humidity,
+            skyCondition: day.skyCondition,
+            pressureTrend: day.pressureTrend ?? 'steady',
+            frontalSystem: 'stable',
+          }));
+        }
+        // Session: record fetch timestamp
+        updateSession(s => ({ ...s, lastFetchTimestamp: Date.now() }));
       }
     } catch {
       // Keep current conditions on error
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [updateSession]);
 
   const handleDaySelect = useCallback((index: number) => {
     setSelectedDay(index);
@@ -187,57 +262,173 @@ export default function Dashboard() {
     }
   }, [forecast, conditionsFromForecast]);
 
-  // Auto-detect location from IP on mount
+  // Feature 3: Hydrate from session on mount
   useEffect(() => {
-    (async () => {
-      try {
-        const res = await fetch('/api/geoip');
-        const data = await res.json();
-        if (data.lat && data.lon) {
-          const lat = String(data.lat);
-          const lon = String(data.lon);
-          setLocation({
-            lat, lon,
-            name: data.region
-              ? `${data.city}, ${data.region}`
-              : `${data.city}, ${data.country}`,
-          });
+    if (sessionInitRef.current) return;
+    sessionInitRef.current = true;
+    const s = loadSession();
+    if (s.defaultLake) {
+      const lake = getLakeById(s.defaultLake.id) ?? {
+        id: s.defaultLake.id,
+        name: s.defaultLake.name,
+        state: s.defaultLake.state,
+        lat: s.defaultLake.lat,
+        lon: s.defaultLake.lon,
+        maxDepth: s.defaultLake.maxDepth ?? 40,
+        surfaceAcres: 0,
+        bassRating: 3,
+        aliases: [],
+      };
+      handleLakeSelect(lake);
+    }
+  }, [handleLakeSelect]);
+
+  // Auto-detect location on mount (skip if session has a lake)
+  useEffect(() => {
+    if (session.defaultLake) return; // session hydration will handle it
+    const fallback = () => {
+      setLocation({ lat: '35.96', lon: '-93.31', name: 'Table Rock Lake, MO' });
+      setLocationReady(true);
+    };
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const lat = String(pos.coords.latitude.toFixed(4));
+          const lon = String(pos.coords.longitude.toFixed(4));
+          setLocation({ lat, lon, name: 'Your location' });
           setLocationReady(true);
-          await selectNearestLake(lat, lon);
-        } else {
-          setLocation({ lat: '35.96', lon: '-93.31', name: 'Table Rock Lake, MO' });
-          setLocationReady(true);
-        }
-      } catch {
-        setLocation({ lat: '35.96', lon: '-93.31', name: 'Table Rock Lake, MO' });
-        setLocationReady(true);
-      }
-    })();
+          selectNearestLake(lat, lon);
+        },
+        fallback,
+        { timeout: 5000 },
+      );
+    } else {
+      fallback();
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Fetch forecast when location is resolved
   useEffect(() => {
     if (locationReady && location.lat && location.lon) {
-      fetchForecast(location.lat, location.lon);
+      loadForecast(location.lat, location.lon);
     }
-  }, [location.lat, location.lon, locationReady, fetchForecast]);
+  }, [location.lat, location.lon, locationReady, loadForecast]);
+
+  // C4: Apply water temp override to conditions
+  const effectiveConditions = useMemo((): WeatherConditions => {
+    if (waterTempOverride != null) {
+      return { ...conditions, waterTemp: waterTempOverride };
+    }
+    return conditions;
+  }, [conditions, waterTempOverride]);
 
   // Re-run analysis when conditions change
   useEffect(() => {
-    setAnalysis(runStrikeAnalysis(conditions, tuning, lakeMaxDepth));
-  }, [conditions, tuning, lakeMaxDepth]);
+    setAnalysis(runStrikeAnalysis(effectiveConditions, tuning, lakeMaxDepth));
+  }, [effectiveConditions, tuning, lakeMaxDepth]);
 
-  const briefings = useMemo(() => {
-    if (!analysis) return [];
-    const topLures = analysis.anglerPicks.map(p => p.lure.name);
-    return getBriefingsForAnalysis(
-      analysis.seasonalPhase.season,
-      conditions.waterClarity,
-      conditions.frontalSystem,
-      topLures,
-    );
-  }, [analysis, conditions.waterClarity, conditions.frontalSystem]);
+  // P10: Compute deltas when conditions change from day selection
+  useEffect(() => {
+    if (prevConditionsRef.current) {
+      const prev = prevConditionsRef.current;
+      const d: ConditionDelta = {
+        waterTemp: Math.round(effectiveConditions.waterTemp - prev.waterTemp),
+        airTemp: Math.round(effectiveConditions.airTemp - prev.airTemp),
+        windSpeed: Math.round(effectiveConditions.windSpeed - prev.windSpeed),
+        barometricPressure: +(effectiveConditions.barometricPressure - prev.barometricPressure).toFixed(2),
+      };
+      const hasChange = d.waterTemp !== 0 || d.airTemp !== 0 || d.windSpeed !== 0 || d.barometricPressure !== 0;
+      if (hasChange) {
+        setDeltas(d);
+        if (deltasTimerRef.current) clearTimeout(deltasTimerRef.current);
+        deltasTimerRef.current = setTimeout(() => setDeltas(null), 5000);
+      }
+    }
+    prevConditionsRef.current = effectiveConditions;
+  }, [effectiveConditions]);
+
+  // P8: Compute previous-day bite intensity for delta display
+  const prevBiteIntensity = useMemo(() => {
+    if (forecast.length < 2 || selectedDay < 1) return undefined;
+    const prevIndex = selectedDay - 1;
+    const prevConditions = conditionsFromForecast(forecast, prevIndex);
+    const prevAnalysis = runStrikeAnalysis(prevConditions, tuning, lakeMaxDepth);
+    return prevAnalysis.biteIntensity;
+  }, [forecast, selectedDay, conditionsFromForecast, tuning, lakeMaxDepth]);
+
+  const whatToThrow = useMemo(() => {
+    if (!analysis) return null;
+    return buildWhatToThrow(analysis, effectiveConditions);
+  }, [analysis, effectiveConditions]);
+
+  // ── Feature 1: Morning Briefing ──
+  // Compute yesterday's analysis from the isYesterday forecast entry
+  const yesterdayData = useMemo(() => {
+    const yday = forecast.find(d => d.isYesterday);
+    if (!yday) return null;
+    const ydayIndex = forecast.indexOf(yday);
+    const ydayConditions = conditionsFromForecast(forecast, ydayIndex);
+    const ydayAnalysis = runStrikeAnalysis(ydayConditions, tuning, lakeMaxDepth);
+    return { conditions: ydayConditions, analysis: ydayAnalysis };
+  }, [forecast, conditionsFromForecast, tuning, lakeMaxDepth]);
+
+  const morningBullets = useMemo(() => {
+    if (!analysis || !yesterdayData) return [];
+    return generateMorningBriefing(analysis, yesterdayData.analysis, effectiveConditions, yesterdayData.conditions);
+  }, [analysis, yesterdayData, effectiveConditions]);
+
+  // ── Feature 2: All-day analyses for bite forecast chart ──
+  // Filter out the yesterday entry for display purposes
+  const forecastDays = useMemo(
+    () => forecast.filter(d => !d.isYesterday),
+    [forecast],
+  );
+
+  const allDayAnalyses = useMemo(() =>
+    forecastDays.map((_, i) => {
+      const idx = forecast.indexOf(forecastDays[i]);
+      const conds = conditionsFromForecast(forecast, idx);
+      return runStrikeAnalysis(conds, tuning, lakeMaxDepth);
+    }),
+    [forecastDays, forecast, conditionsFromForecast, tuning, lakeMaxDepth]
+  );
+
+  // Map selectedDay to the forecastDays array index
+  const displaySelectedDay = useMemo(() => {
+    const currentForecast = forecast[selectedDay];
+    if (!currentForecast) return 0;
+    return forecastDays.indexOf(currentForecast);
+  }, [forecast, forecastDays, selectedDay]);
+
+  // Handle day selection from the chart (maps back to forecast array index)
+  const handleChartDaySelect = useCallback((displayIndex: number) => {
+    const day = forecastDays[displayIndex];
+    if (!day) return;
+    const realIndex = forecast.indexOf(day);
+    if (realIndex >= 0) handleDaySelect(realIndex);
+  }, [forecastDays, forecast, handleDaySelect]);
+
+  // Compare day data
+  const comparisonData = useMemo(() => {
+    if (compareDay == null || !allDayAnalyses[displaySelectedDay] || !allDayAnalyses[compareDay]) return null;
+    const selIdx = forecast.indexOf(forecastDays[displaySelectedDay]);
+    const cmpIdx = forecast.indexOf(forecastDays[compareDay]);
+    return {
+      dayA: {
+        index: displaySelectedDay,
+        label: forecastDays[displaySelectedDay]?.dayLabel ?? '',
+        analysis: allDayAnalyses[displaySelectedDay],
+        conditions: conditionsFromForecast(forecast, selIdx),
+      },
+      dayB: {
+        index: compareDay,
+        label: forecastDays[compareDay]?.dayLabel ?? '',
+        analysis: allDayAnalyses[compareDay],
+        conditions: conditionsFromForecast(forecast, cmpIdx),
+      },
+    };
+  }, [compareDay, displaySelectedDay, allDayAnalyses, forecastDays, forecast, conditionsFromForecast]);
 
   if (!analysis) {
     return (
@@ -248,11 +439,11 @@ export default function Dashboard() {
   }
 
   const currentDayForecast = forecast[selectedDay];
-  const isFutureDay = selectedDay > 0;
+  const isFutureDay = selectedDay > 0 && !currentDayForecast?.isYesterday;
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200">
-      {/* Header */}
+      {/* 0. Header (unchanged, sticky) */}
       <header className="border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -265,23 +456,74 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <LakePicker
-            selectedLake={selectedLake}
-            onLakeSelect={handleLakeSelect}
-            onClear={handleLakeClear}
-            onUseGPS={handleUseGPS}
-            gpsLocating={gpsLocating}
-            locationName={location.name}
-            forecast={forecast}
-            selectedDay={selectedDay}
-            onDaySelect={handleDaySelect}
-            loading={loading}
-            onRefresh={() => fetchForecast(location.lat, location.lon)}
-          />
+          <div className="flex items-center gap-2">
+            {/* Refresh button */}
+            <button
+              onClick={() => loadForecast(location.lat, location.lon)}
+              className="p-1.5 rounded-lg bg-slate-800/60 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-slate-200 transition-colors"
+              title="Refresh forecast"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
+            </button>
+
+            <LakePicker
+              selectedLake={selectedLake}
+              onLakeSelect={handleLakeSelect}
+              onClear={handleLakeClear}
+              onUseGPS={handleUseGPS}
+              gpsLocating={gpsLocating}
+              locationName={location.name}
+              forecast={forecastDays}
+              selectedDay={displaySelectedDay}
+              onDaySelect={handleChartDaySelect}
+              loading={loading}
+              onRefresh={() => loadForecast(location.lat, location.lon)}
+              favoriteLakeIds={session.favoriteLakeIds}
+              onToggleFavorite={handleToggleFavorite}
+              lastFetchTimestamp={session.lastFetchTimestamp}
+              userLat={parseFloat(location.lat) || undefined}
+              userLon={parseFloat(location.lon) || undefined}
+              favoriteLakes={favoriteLakes}
+            />
+          </div>
         </div>
       </header>
 
+      {/* 1. CommandStrip — Bite gauge + compact forecast + solunar countdown */}
+      {forecastDays.length > 0 && allDayAnalyses.length > 0 && (
+        <CommandStrip
+          analysis={analysis}
+          prevBiteIntensity={prevBiteIntensity}
+          analyses={allDayAnalyses}
+          forecast={forecastDays}
+          selectedDay={displaySelectedDay}
+          onDaySelect={(i) => {
+            if (compareDay == null && i !== displaySelectedDay) {
+              setCompareDay(displaySelectedDay);
+            } else {
+              setCompareDay(null);
+            }
+            handleChartDaySelect(i);
+          }}
+        />
+      )}
+
       <main className="max-w-7xl mx-auto px-4 py-6 space-y-6">
+        {/* 2. Conditional Alerts */}
+        {/* C2: Auto-detect confirmation toast */}
+        {autoDetectLake && (
+          <div className="flex items-center gap-2 rounded-lg px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 text-xs font-mono text-emerald-300 animate-in fade-in">
+            <MapPin className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+            <span>Located: <strong>{autoDetectLake}</strong></span>
+            <button
+              onClick={() => { setAutoDetectLake(null); }}
+              className="ml-auto text-slate-500 hover:text-slate-300"
+            >
+              <X className="w-3 h-3" />
+            </button>
+          </div>
+        )}
+
         {/* Future day banner */}
         {isFutureDay && currentDayForecast && (
           <div className={`flex items-center gap-3 rounded-lg px-4 py-2.5 border text-xs font-mono
@@ -302,73 +544,75 @@ export default function Dashboard() {
           </div>
         )}
 
-        {/* Outlook Hero — the one-glance game plan */}
-        <OutlookHero analysis={analysis} />
-
-        {/* Main Dashboard Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4">
-          {/* Row 1: Conditions + Water Column */}
-          <div className="md:col-span-1 lg:col-span-5">
-            <ConditionsPanel
-              conditions={conditions}
-              biteWindows={analysis.biteWindows}
-              lakeMaxDepth={lakeMaxDepth}
-              onLakeMaxDepthChange={setLakeMaxDepth}
-              onWaterClarityChange={handleWaterClarityChange}
-            />
-          </div>
-          <div className="md:col-span-1 lg:col-span-7">
-            <WaterColumn
-              fishPosition={analysis.fishPosition}
-              fishDepth={analysis.fishDepth}
-              frontalSystem={conditions.frontalSystem}
-              waterTemp={conditions.waterTemp}
-              depthRange={analysis.seasonalPhase.depthRange}
-              lakeMaxDepth={lakeMaxDepth}
-              season={analysis.seasonalPhase.season}
-              windSpeed={conditions.windSpeed}
-              skyCondition={conditions.skyCondition}
-              waterClarity={conditions.waterClarity}
-            />
-          </div>
-
-          {/* Row 2: Structure Targets */}
-          <div className="md:col-span-2 lg:col-span-12">
-            <StructureTargets
-              targets={analysis.structureTargets}
-              seasonalPhase={analysis.seasonalPhase}
-            />
-          </div>
-        </div>
-
-        {/* Pro Angler Picks */}
-        {analysis.anglerPicks.length > 0 && (
-          <div>
-            <div className="flex items-center justify-between mb-3">
-              <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">What the Pros Would Throw</h2>
-              <span className="text-[10px] font-mono text-slate-500">{analysis.anglerPicks.reduce((sum, p) => sum + 1 + p.endorsers.length, 0)} anglers</span>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-              {analysis.anglerPicks.map((pick) => (
-                <AnglerPickCard key={pick.anglerId} pick={pick} />
-              ))}
-            </div>
-          </div>
+        {/* Feature 2: Day Comparison (when comparing two days) */}
+        {comparisonData && (
+          <DayComparison
+            dayA={comparisonData.dayA}
+            dayB={comparisonData.dayB}
+            onDismiss={() => setCompareDay(null)}
+          />
         )}
 
-        {/* Tactical Briefing */}
-        {briefings.length > 0 && <TacticalBriefing briefings={briefings} />}
+        {/* Morning Briefing (starts collapsed) */}
+        <MorningBriefing bullets={morningBullets} />
 
-        {/* Engine Tuning */}
-        <TuningPanel config={tuning} onChange={handleTuningChange} onReset={handleTuningReset} />
+        {/* 3. TopPickCard — the #1 lure pick + fish position */}
+        {whatToThrow && whatToThrow.cards.length > 0 && (
+          <TopPickCard
+            card={whatToThrow.cards[0]}
+            analysis={analysis}
+            conditions={effectiveConditions}
+            onFollowAngler={setFollowingAngler}
+          />
+        )}
+
+        {/* 4. Alternate Picks (cards 2+) */}
+        {whatToThrow && (
+          <WhatToThrowSection
+            result={whatToThrow}
+            seasonalPhase={analysis.seasonalPhase}
+            structureTargets={analysis.structureTargets}
+            conditions={effectiveConditions}
+            onFollowAngler={setFollowingAngler}
+          />
+        )}
+
+        {/* 5. WaterColumn — full width */}
+        <WaterColumn
+          fishPosition={analysis.fishPosition}
+          fishDepth={analysis.fishDepth}
+          frontalSystem={effectiveConditions.frontalSystem}
+          waterTemp={effectiveConditions.waterTemp}
+          depthRange={analysis.seasonalPhase.depthRange}
+          lakeMaxDepth={lakeMaxDepth}
+          season={analysis.seasonalPhase.season}
+          windSpeed={effectiveConditions.windSpeed}
+          skyCondition={effectiveConditions.skyCondition}
+          waterClarity={effectiveConditions.waterClarity}
+        />
+
+        {/* 6. Conditions Drawer (collapsed by default) */}
+        <ConditionsPanel
+          conditions={effectiveConditions}
+          biteWindows={analysis.biteWindows}
+          lakeMaxDepth={lakeMaxDepth}
+          onLakeMaxDepthChange={handleLakeMaxDepthChange}
+          onWaterClarityChange={handleWaterClarityChange}
+          waterTempOverride={waterTempOverride}
+          onWaterTempOverride={handleWaterTempOverride}
+          deltas={deltas}
+          biteFactors={analysis.biteFactors}
+          defaultCollapsed
+        />
 
         {/* Footer */}
         <footer className="border-t border-slate-800 pt-4 pb-8 text-center">
-          <p className="text-[10px] text-slate-600 font-mono">
-            StrikeZone v1.0 | Days 1-5: OpenWeather API | Days 6-10: Trend extrapolation | Solunar calculations are approximate
+          <p className="text-xs text-slate-600 font-mono">
+            StrikeZone v2.0 | Days 1-5: Open-Meteo API | Days 6-7: Trend extrapolation | Solunar calculations are approximate
           </p>
         </footer>
       </main>
+
     </div>
   );
 }

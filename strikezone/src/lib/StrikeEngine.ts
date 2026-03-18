@@ -5,13 +5,13 @@ import type {
   LureRecommendation, BiteWindow, PressureTrend, Season, LureAction, RetrieveSpeed,
   ScoreFactor, AnglerPick, AnglerEndorsement,
 } from './types';
-import { DEFAULT_TUNING, type TuningConfig } from './tuning';
+import { DEFAULT_TUNING, getSeasonalTimeOfDay, type TuningConfig } from './tuning';
 
 // ─── Time of Day ───
 export type TimeOfDay = 'dawn' | 'morning' | 'midday' | 'afternoon' | 'dusk';
 
-export function getTimeOfDay(hour: number, cfg: TuningConfig): TimeOfDay {
-  const t = cfg.timeOfDay;
+export function getTimeOfDay(hour: number, cfg: TuningConfig, month?: number): TimeOfDay {
+  const t = month != null ? getSeasonalTimeOfDay(month, cfg) : cfg.timeOfDay;
   if (hour >= t.dawn.startHour && hour < t.dawn.endHour) return 'dawn';
   if (hour >= t.morning.startHour && hour < t.morning.endHour) return 'morning';
   if (hour >= t.midday.startHour && hour < t.midday.endHour) return 'midday';
@@ -32,7 +32,9 @@ export interface LureTemplate {
   seasons: Season[];
   getConfidence: (ctx: LureContext) => number | null;
   getColor: (ctx: LureContext) => { name: string; hex: string };
+  getColorAlternates?: (ctx: LureContext) => import('./anglers/composer').ColorAlternate[];
   proTip: (ctx: LureContext) => string;
+  getPresentation?: (ctx: LureContext) => import('./anglers/types').PresentationData;
 }
 
 export interface LureContext {
@@ -202,8 +204,11 @@ export function calculateFishPosition(
   let depth = sMid;
 
   // Time of day influence — dampened in cold water (winter bass don't vertically migrate)
-  const tod = getTimeOfDay(new Date().getHours(), cfg);
-  const todCfg = cfg.timeOfDay[tod];
+  const now = new Date();
+  const month = now.getMonth() + 1;
+  const tod = getTimeOfDay(now.getHours(), cfg, month);
+  const seasonalTime = getSeasonalTimeOfDay(month, cfg);
+  const todCfg = seasonalTime[tod];
   const todDampen = waterTemp < cfg.seasonalBreakpoints.preSpawnStart ? 0.25 : 1.0;
   if ('shallowBias' in todCfg) depth -= (sMid - sMin) * todCfg.shallowBias * todDampen;
   if ('deepBias' in todCfg) depth += (sMax - sMid) * todCfg.deepBias * todDampen;
@@ -240,10 +245,10 @@ export function calculateFishPosition(
   depth = Math.max(1, Math.round(depth));
 
   let position: FishPosition;
-  if (depth <= 3) position = 'surface';
-  else if (depth <= sMin + (sMax - sMin) * 0.25) position = 'suspended';
-  else if (depth <= sMin + (sMax - sMin) * 0.6) position = 'transitioning';
-  else position = 'bottom';
+  if (depth <= 3) position = 'shallow';
+  else if (depth <= sMin + (sMax - sMin) * 0.25) position = 'mid-column';
+  else if (depth <= sMin + (sMax - sMin) * 0.6) position = 'suspended';
+  else position = 'deep';
 
   return { position, depth };
 }
@@ -253,7 +258,7 @@ export function calculateBiteIntensity(conditions: WeatherConditions, cfg: Tunin
   const w = cfg.biteWeights;
 
   // Time of day score: dawn/dusk are prime, midday is lowest
-  const tod = getTimeOfDay(new Date().getHours(), cfg);
+  const tod = getTimeOfDay(new Date().getHours(), cfg, new Date().getMonth() + 1);
   const todScores: Record<TimeOfDay, number> = { dawn: 87, morning: 70, midday: 45, afternoon: 55, dusk: 85 };
   const todScore = todScores[tod];
   const todLabels: Record<TimeOfDay, string> = {
@@ -388,12 +393,12 @@ export function calculateConfidenceIndex(conditions: WeatherConditions, biteInte
   const factors: ScoreFactor[] = [
     { label: 'Bite Intensity', score: biteIntensity, weight: 0.4, detail: `Overall bite rating: ${biteIntensity}/100`, impact: biteIntensity >= 60 ? 'positive' : biteIntensity >= 40 ? 'neutral' : 'negative' },
     { label: 'Pressure Trend', score: pressureScore, weight: 0.25, detail: pressureDetail, impact: pressureScore >= 70 ? 'positive' : pressureScore >= 50 ? 'neutral' : 'negative' },
-    { label: 'Solunar', score: solunarScore, weight: 0.2, detail: solunarDetail, impact: solunarScore >= 60 ? 'positive' : solunarScore >= 40 ? 'neutral' : 'negative' },
-    { label: 'Water Clarity', score: clarityScore, weight: 0.15, detail: clarityDetail, impact: clarityScore >= 65 ? 'positive' : clarityScore >= 45 ? 'neutral' : 'negative' },
+    { label: 'Water Clarity', score: clarityScore, weight: 0.20, detail: clarityDetail, impact: clarityScore >= 65 ? 'positive' : clarityScore >= 45 ? 'neutral' : 'negative' },
+    { label: 'Solunar', score: solunarScore, weight: 0.15, detail: solunarDetail, impact: solunarScore >= 60 ? 'positive' : solunarScore >= 40 ? 'neutral' : 'negative' },
   ];
 
   return {
-    score: Math.round(biteIntensity * 0.4 + pressureScore * 0.25 + solunarScore * 0.2 + clarityScore * 0.15),
+    score: Math.round(biteIntensity * 0.4 + pressureScore * 0.25 + clarityScore * 0.20 + solunarScore * 0.15),
     factors,
   };
 }
@@ -416,11 +421,14 @@ export function calculateSolunarWindows(): BiteWindow[] {
 // ─── Shared Lure Scoring Helpers ───
 import { ANGLER_PROFILES, ANGLER_LURE_DBS } from './anglers';
 
-function buildLureContext(
+export function buildLureContext(
   conditions: WeatherConditions, season: SeasonalPhase, fishDepth: number, cfg: TuningConfig
 ): { ctx: LureContext; tod: TimeOfDay; todCfg: TuningConfig['timeOfDay'][TimeOfDay] } {
-  const tod = getTimeOfDay(new Date().getHours(), cfg);
-  const todCfg = cfg.timeOfDay[tod];
+  const now = new Date();
+  const month = now.getMonth() + 1;
+  const tod = getTimeOfDay(now.getHours(), cfg, month);
+  const seasonalTime = getSeasonalTimeOfDay(month, cfg);
+  const todCfg = seasonalTime[tod];
   const ctx: LureContext = {
     fishDepth, waterTemp: conditions.waterTemp, waterClarity: conditions.waterClarity,
     skyCondition: conditions.skyCondition, windSpeed: conditions.windSpeed,
@@ -433,7 +441,7 @@ function buildLureContext(
   return { ctx, tod, todCfg };
 }
 
-function scoreLure(
+export function scoreLure(
   lure: LureTemplate, ctx: LureContext, todCfg: TuningConfig['timeOfDay'][TimeOfDay], cfg: TuningConfig
 ): LureRecommendation | null {
   if (!lure.seasons.includes(ctx.season)) return null;
@@ -467,11 +475,14 @@ function scoreLure(
   const depthRange = lure.maxDepth <= 4 ? 'Surface' : `${effectiveMin}-${effectiveMax}ft`;
   const color = lure.getColor(ctx);
 
+  const presentation = lure.getPresentation?.(ctx);
+
   return {
     name: lure.name, category: lure.category,
     color: color.name, colorHex: color.hex,
     retrieveSpeed: lure.baseSpeed, action: lure.action,
     confidence, depthRange, proTip: lure.proTip(ctx),
+    presentation,
   };
 }
 
@@ -495,16 +506,20 @@ export function calculateAnglerPicks(
   const { ctx, todCfg } = buildLureContext(conditions, season, fishDepth, cfg);
 
   // Phase 1: Build ranked lure lists for each angler
-  const anglerRanked: { profileId: string; profileName: string; defaultCredibility: number; credibility: Record<string, number>; lures: LureRecommendation[] }[] = [];
+  const anglerRanked: { profileId: string; profileName: string; defaultCredibility: number; credibility: Record<string, number>; lures: LureRecommendation[]; templates: Map<string, LureTemplate> }[] = [];
 
   for (const profile of ANGLER_PROFILES) {
     const db = ANGLER_LURE_DBS.get(profile.id);
     if (!db) continue;
 
     const scored: LureRecommendation[] = [];
+    const templateMap = new Map<string, LureTemplate>();
     for (const lure of db) {
       const rec = scoreLure(lure, ctx, todCfg, cfg);
-      if (rec) scored.push(rec);
+      if (rec) {
+        scored.push(rec);
+        templateMap.set(rec.name, lure);
+      }
     }
     scored.sort((a, b) => b.confidence - a.confidence);
 
@@ -515,6 +530,7 @@ export function calculateAnglerPicks(
         defaultCredibility: profile.defaultCredibility,
         credibility: profile.credibility,
         lures: scored,
+        templates: templateMap,
       });
     }
   }
@@ -551,13 +567,25 @@ export function calculateAnglerPicks(
       // Claim this lure
       const cred = angler.credibility[lure.name] ?? angler.defaultCredibility;
       const credLabel = cred >= 0.9 ? 'Signature bait' : cred >= 0.7 ? 'High confidence pick' : 'Situational pick';
+      const template = angler.templates.get(lure.name);
+      const colorAlts = template?.getColorAlternates?.(ctx)?.map(a => ({
+        color: a.color, hex: a.hex, conditions: a.conditions as Record<string, unknown>, matched: a.matched,
+      }));
       const pick: AnglerPick = {
         anglerId: angler.profileId,
         anglerName: angler.profileName,
         lure,
         rationale: credLabel,
         endorsers: [],
+        colorAlternates: colorAlts,
       };
+      // Find alternate: next-best lure from this angler (different from claimed)
+      for (const alt of angler.lures) {
+        if (alt.name !== lure.name) {
+          pick.alternateLure = alt;
+          break;
+        }
+      }
       claimedLures.set(lure.name, pick);
       picks.push(pick);
       assigned = true;
@@ -590,7 +618,7 @@ function buildDepthFactors(
   const { min: sMin, max: sMax } = effectivePhase.depthRange;
   factors.push({ label: 'Season', score: 0, weight: 0, detail: `${effectivePhase.label}: base range ${sMin}-${sMax}ft`, impact: 'neutral' });
 
-  const tod = getTimeOfDay(new Date().getHours(), cfg);
+  const tod = getTimeOfDay(new Date().getHours(), cfg, new Date().getMonth() + 1);
   const todDepthMap: Record<TimeOfDay, string> = {
     dawn: 'Dawn — fish moving shallow to feed',
     morning: 'Morning — still relatively shallow',
@@ -689,7 +717,7 @@ export function runStrikeAnalysis(conditions: WeatherConditions, cfg: TuningConf
   const confResult = calculateConfidenceIndex(conditions, biteIntensity, biteWindows);
   const lureRecommendations = calculateLureRecommendations(conditions, effectivePhase, fishDepth, cfg);
   const anglerPicks = calculateAnglerPicks(conditions, effectivePhase, fishDepth, cfg);
-  const tod = getTimeOfDay(new Date().getHours(), cfg);
+  const tod = getTimeOfDay(new Date().getHours(), cfg, month);
 
   return {
     biteIntensity, confidenceIndex: confResult.score, seasonalPhase: effectivePhase, fishPosition, fishDepth,

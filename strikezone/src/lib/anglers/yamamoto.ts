@@ -7,18 +7,18 @@ export const YAMAMOTO: AnglerProfile = {
   id: 'yamamoto',
   defaultCredibility: 0.3,
   credibility: {
-    'Texas Rig (Creature Bait)': 1.0,
+    '10" Worm': 0.8,
+    'Carolina Rig': 0.8,
+    'Bladed Jig': 0.6,
     'Drop Shot': 0.9,
+    'Flipping Jig': 0.7,
+    'Football Jig': 0.6,
     'Ned Rig': 0.8,
     'Neko Rig': 0.9,
     'Shakyhead': 0.9,
-    'Flipping Jig': 0.7,
-    'Football Jig': 0.6,
-    'Swim Jig': 0.6,
-    'Carolina Rig': 0.8,
-    'Chatterbait': 0.5,
     'Spinnerbait (Colorado/Willow)': 0.4,
-    '10" Worm': 0.8,
+    'Swim Jig': 0.6,
+    'Texas Rig (Creature Bait)': 1.0,
   },
   opinions: [
     // ─── Texas Rig (Creature Bait) — His domain ───
@@ -162,13 +162,13 @@ export const YAMAMOTO: AnglerProfile = {
       defaultTip: 'Yamamoto: Zako swimbait as swim jig trailer. The non-salted body suspends naturally — critical for maintaining the right swim jig action.',
     },
 
-    // ─── Chatterbait ───
+    // ─── Bladed Jig ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       tipRules: [
-        { when: {}, tip: 'Yamamoto: Zako swimbait as chatterbait trailer — shad profile and accordion tail add realism. Non-salted body won\'t weigh down the blade action.', priority: 6 },
+        { when: {}, tip: 'Yamamoto: Zako swimbait as bladed jig trailer — shad profile and accordion tail add realism. Non-salted body won\'t weigh down the blade action.', priority: 6 },
       ],
-      defaultTip: 'Yamamoto: Zako or Cowboy as chatterbait trailer. Match profile to forage — Zako for shad, Cowboy for bluegill/crawfish.',
+      defaultTip: 'Yamamoto: Zako or Cowboy as bladed jig trailer. Match profile to forage — Zako for shad, Cowboy for bluegill/crawfish.',
     },
 
     // ─── 10" Worm ───

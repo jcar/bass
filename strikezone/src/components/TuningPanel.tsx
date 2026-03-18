@@ -18,7 +18,7 @@ function Section({ title, open: defaultOpen = false, children }: { title: string
       <button onClick={() => setOpen(!open)}
         className="w-full flex items-center gap-2 px-4 py-2.5 text-left hover:bg-slate-800/30 transition-colors">
         {open ? <ChevronDown className="w-3 h-3 text-slate-500" /> : <ChevronRight className="w-3 h-3 text-slate-500" />}
-        <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider">{title}</span>
+        <span className="text-xs font-mono text-slate-400 uppercase tracking-wider">{title}</span>
       </button>
       {open && <div className="px-4 pb-4 space-y-3">{children}</div>}
     </div>
@@ -32,7 +32,7 @@ function NumberInput({ label, value, onChange, min, max, step = 1, suffix = '' }
   const isChanged = false; // We don't track per-field defaults here
   return (
     <div className="flex items-center justify-between gap-2">
-      <span className="text-[10px] text-slate-500 font-mono flex-shrink-0">{label}</span>
+      <span className="text-xs text-slate-500 font-mono flex-shrink-0">{label}</span>
       <div className="flex items-center gap-1">
         <input
           type="number" value={step < 1 ? value.toFixed(2) : value}
@@ -40,7 +40,7 @@ function NumberInput({ label, value, onChange, min, max, step = 1, suffix = '' }
           onChange={(e) => onChange(+e.target.value)}
           className={`w-20 bg-slate-900/60 border border-slate-700 rounded px-2 py-0.5 text-xs font-mono text-right focus:outline-none focus:border-amber-500/50 ${isChanged ? 'text-amber-300' : 'text-white'}`}
         />
-        {suffix && <span className="text-[9px] text-slate-600 font-mono w-6">{suffix}</span>}
+        {suffix && <span className="text-xs text-slate-600 font-mono w-6">{suffix}</span>}
       </div>
     </div>
   );
@@ -70,7 +70,7 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
       <button onClick={() => setIsOpen(true)}
         className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-800/50 border border-slate-700 hover:border-amber-500/30 transition-colors">
         <Settings className="w-3.5 h-3.5 text-amber-400" />
-        <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider">Engine Tuning</span>
+        <span className="text-xs font-mono text-slate-400 uppercase tracking-wider">Engine Tuning</span>
         {hasChanges && <div className="w-1.5 h-1.5 rounded-full bg-amber-400" />}
       </button>
     );
@@ -87,13 +87,13 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
         <div className="flex items-center gap-2">
           {hasChanges && (
             <button onClick={onReset}
-              className="flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono text-slate-400 hover:text-slate-200 bg-slate-800/60 hover:bg-slate-700/60 transition-colors">
+              className="flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono text-slate-400 hover:text-slate-200 bg-slate-800/60 hover:bg-slate-700/60 transition-colors">
               <RotateCcw className="w-3 h-3" />
               Reset
             </button>
           )}
           <button onClick={() => setIsOpen(false)}
-            className="flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono text-slate-400 hover:text-slate-200 bg-slate-800/60 hover:bg-slate-700/60 transition-colors">
+            className="flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono text-slate-400 hover:text-slate-200 bg-slate-800/60 hover:bg-slate-700/60 transition-colors">
             Close
           </button>
         </div>
@@ -103,7 +103,7 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
         <div className="px-4 py-1.5 bg-amber-500/5 border-y border-amber-500/10">
           <div className="flex items-center gap-2">
             <Save className="w-3 h-3 text-amber-500/60" />
-            <span className="text-[9px] font-mono text-amber-400/60 uppercase">Custom tuning active — saved to browser</span>
+            <span className="text-xs font-mono text-amber-400/60 uppercase">Custom tuning active — saved to browser</span>
           </div>
         </div>
       )}
@@ -131,7 +131,7 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
       </Section>
 
       <Section title="Bite Intensity Weights">
-        <p className="text-[9px] text-slate-600 font-mono mb-2">Should sum to ~1.0. Current: {
+        <p className="text-xs text-slate-600 font-mono mb-2">Should sum to ~1.0. Current: {
           Object.values(config.biteWeights).reduce((a, b) => a + b, 0).toFixed(2)
         }</p>
         <div className="grid grid-cols-2 gap-x-4 gap-y-2">
@@ -157,7 +157,7 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
           const p = config.timeOfDay[period];
           return (
             <div key={period} className="space-y-1.5">
-              <span className="text-[10px] font-mono text-amber-400/60 uppercase">{period}</span>
+              <span className="text-xs font-mono text-amber-400/60 uppercase">{period}</span>
               <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 pl-2">
                 <NumberInput label="Start Hour" value={p.startHour}
                   onChange={(v) => update('timeOfDay', { [period]: { ...p, startHour: v } } as never)} min={0} max={23} suffix="h" />
@@ -206,11 +206,11 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
       </Section>
 
       <Section title="Lure Confidence Multipliers">
-        <p className="text-[9px] text-slate-600 font-mono mb-2">1.0 = default. &gt;1 = boost, &lt;1 = reduce.</p>
+        <p className="text-xs text-slate-600 font-mono mb-2">1.0 = default. &gt;1 = boost, &lt;1 = reduce.</p>
         <div className="space-y-1.5 max-h-60 overflow-y-auto pr-1">
           {Object.entries(config.lureMultipliers).map(([name, value]) => (
             <div key={name} className="flex items-center justify-between gap-2">
-              <span className="text-[9px] text-slate-500 font-mono truncate flex-1">{name}</span>
+              <span className="text-xs text-slate-500 font-mono truncate flex-1">{name}</span>
               <input
                 type="number" value={value.toFixed(1)} min={0} max={3} step={0.1}
                 onChange={(e) => setLureMultiplier(name, +e.target.value)}

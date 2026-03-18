@@ -7,6 +7,7 @@ import ScoreBreakdown from './ScoreBreakdown';
 
 interface OutlookHeroProps {
   analysis: StrikeAnalysis;
+  prevBiteIntensity?: number;
 }
 
 function getVerdict(score: number): { label: string; sub: string; color: string; glow: string } {
@@ -78,7 +79,7 @@ function FactorBar({ factor }: { factor: ScoreFactor }) {
   return (
     <div className="flex items-center gap-2">
       <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${impactDot[factor.impact]}`} />
-      <span className="text-[10px] font-mono text-slate-400 w-20 truncate">{factor.label}</span>
+      <span className="text-xs font-mono text-slate-400 w-20 truncate">{factor.label}</span>
       <div className="flex-1 h-1.5 bg-slate-800 rounded-full overflow-hidden">
         <div
           className="h-full rounded-full transition-all"
@@ -89,15 +90,16 @@ function FactorBar({ factor }: { factor: ScoreFactor }) {
           }}
         />
       </div>
-      <span className={`text-[10px] font-mono font-bold w-6 text-right ${impactText[factor.impact]}`}>{factor.score}</span>
+      <span className={`text-xs font-mono font-bold w-6 text-right ${impactText[factor.impact]}`}>{factor.score}</span>
     </div>
   );
 }
 
-export default function OutlookHero({ analysis }: OutlookHeroProps) {
+export default function OutlookHero({ analysis, prevBiteIntensity }: OutlookHeroProps) {
   const score = analysis.biteIntensity;
   const verdict = getVerdict(score);
   const nextPeak = useNextPeak(analysis.biteWindows);
+  const biteDelta = prevBiteIntensity != null ? score - prevBiteIntensity : null;
 
   // Ring gauge math
   const size = 130;
@@ -158,14 +160,23 @@ export default function OutlookHero({ analysis }: OutlookHeroProps) {
               </div>
             </div>
             <div className="min-w-0">
-              <div className="text-lg font-bold text-white leading-tight">{verdict.label}</div>
+              <div className="flex items-center gap-2">
+                <div className="text-lg font-bold text-white leading-tight">{verdict.label}</div>
+                {biteDelta != null && biteDelta !== 0 && (
+                  <span className={`text-xs font-mono font-bold px-1.5 py-0.5 rounded ${
+                    biteDelta > 0 ? 'bg-emerald-500/10 text-emerald-400' : 'bg-rose-500/10 text-rose-400'
+                  }`}>
+                    {biteDelta > 0 ? '↑' : '↓'}{Math.abs(biteDelta)} vs yesterday
+                  </span>
+                )}
+              </div>
               <div className="text-xs text-slate-400 mt-0.5">{verdict.sub}</div>
               {/* Season + Depth */}
               <div className="flex items-center gap-2 mt-3">
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                   {analysis.seasonalPhase.label}
                 </span>
-                <span className="text-[10px] font-mono text-slate-500">
+                <span className="text-xs font-mono text-slate-500">
                   {analysis.seasonalPhase.depthRange.min}-{analysis.seasonalPhase.depthRange.max}ft range
                 </span>
               </div>
@@ -173,16 +184,16 @@ export default function OutlookHero({ analysis }: OutlookHeroProps) {
               <div className="flex items-center gap-3 mt-2">
                 <div className="flex items-baseline gap-1">
                   <span className="text-xl font-mono font-bold text-white">{analysis.fishDepth}</span>
-                  <span className="text-[10px] text-slate-500">ft</span>
+                  <span className="text-xs text-slate-500">ft</span>
                 </div>
-                <span className="text-[10px] font-mono text-slate-400">{positionLabels[analysis.fishPosition]}</span>
+                <span className="text-xs font-mono text-slate-400">{positionLabels[analysis.fishPosition]}</span>
                 <div className="relative">
                   <ScoreBreakdown factors={analysis.depthFactors} title="What's Driving Fish Depth" mode="list" />
                 </div>
                 {/* Pressure trend */}
                 <div className="flex items-center gap-1 ml-auto lg:ml-2">
                   {trendIcons[analysis.pressureTrend]}
-                  <span className="text-[10px] font-mono text-slate-500 capitalize">{analysis.pressureTrend}</span>
+                  <span className="text-xs font-mono text-slate-500 capitalize">{analysis.pressureTrend}</span>
                 </div>
               </div>
             </div>
@@ -190,7 +201,7 @@ export default function OutlookHero({ analysis }: OutlookHeroProps) {
 
           {/* MIDDLE: Factor breakdown */}
           <div className="flex-1 min-w-0">
-            <div className="text-[9px] font-mono text-slate-500 uppercase tracking-wider mb-2">What&apos;s Driving It</div>
+            <div className="text-xs font-mono text-slate-500 uppercase tracking-wider mb-2">What&apos;s Driving It</div>
             <div className="space-y-1.5">
               {analysis.biteFactors.map((f, i) => (
                 <FactorBar key={i} factor={f} />
@@ -202,18 +213,27 @@ export default function OutlookHero({ analysis }: OutlookHeroProps) {
           <div className="lg:w-64 flex-shrink-0 space-y-3">
             {/* Solunar countdown */}
             {nextPeak && (
-              <div className="flex items-center gap-2 bg-slate-900/50 rounded-lg px-3 py-2 border border-slate-700/50">
-                <Clock className="w-3.5 h-3.5 flex-shrink-0" style={{ color: nextPeak.color }} />
-                <span className="text-xs font-mono font-semibold" style={{ color: nextPeak.color }}>
-                  {nextPeak.label}
-                </span>
+              <div className={`flex items-center gap-2.5 rounded-lg px-3 py-2.5 border ${
+                nextPeak.label.includes('In ') ? 'bg-emerald-500/10 border-emerald-500/30 animate-pulse' : 'bg-slate-900/50 border-slate-700/50'
+              }`}>
+                <Clock className="w-4 h-4 flex-shrink-0" style={{ color: nextPeak.color }} />
+                <div>
+                  <span className="text-sm font-mono font-bold block" style={{ color: nextPeak.color }}>
+                    {nextPeak.label.includes('In ')
+                      ? 'BITE WINDOW ACTIVE'
+                      : nextPeak.label}
+                  </span>
+                  {nextPeak.label.includes('In ') && (
+                    <span className="text-xs font-mono text-emerald-400/70">{nextPeak.label}</span>
+                  )}
+                </div>
               </div>
             )}
 
             {/* Top tactical notes */}
             {topNotes.length > 0 && (
               <div className="space-y-1.5">
-                <div className="text-[9px] font-mono text-slate-500 uppercase tracking-wider">Game Plan</div>
+                <div className="text-xs font-mono text-slate-500 uppercase tracking-wider">Game Plan</div>
                 {topNotes.map((note, i) => (
                   <div key={i} className="flex items-start gap-1.5">
                     <AlertTriangle className="w-3 h-3 text-amber-500/70 mt-0.5 flex-shrink-0" />

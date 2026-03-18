@@ -11,7 +11,7 @@ export const MILLIKEN: AnglerProfile = {
     'Carolina Rig': 0.8,
     'Walking Topwater': 0.6,
     'Swim Jig': 0.5,
-    'Chatterbait': 0.5,
+    'Bladed Jig': 0.5,
     'Deep Diving Crankbait': 0.5,
     'Football Jig': 0.4,
     'Spy Bait': 0.5,
@@ -86,13 +86,13 @@ export const MILLIKEN: AnglerProfile = {
       defaultTip: 'Milliken: When swim jig bites slow down, size up to a 6"+ line-through swimbait in the same zone. Same cadence, bigger profile.',
     },
 
-    // ─── Chatterbait — Transitional bait ───
+    // ─── Bladed Jig — Transitional bait ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       tipRules: [
         { when: {}, tip: 'Milliken: Vibrating jig is a gateway to bigger presentations. When quality drops on standard-size baits, upsize to a swimbait for the same fish but better quality.', priority: 5 },
       ],
-      defaultTip: 'Milliken: Chatterbait covers water efficiently but can be outsized by swimbaits when targeting quality. Match bait size to the forage you\'re imitating.',
+      defaultTip: 'Milliken: Bladed jig covers water efficiently but can be outsized by swimbaits when targeting quality. Match bait size to the forage you\'re imitating.',
     },
 
     // ─── Deep Diving Crankbait — Offshore sonar application ───

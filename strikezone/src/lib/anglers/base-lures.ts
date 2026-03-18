@@ -22,6 +22,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Bluegill', hex: '#4a6741' },
     tipRules: [],
     defaultTip: 'Swim jig through grass and laydowns. Rod tip up to keep bait in upper water column.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/8oz', trailer: 'Rage Craw or paddletail', retrieveNote: 'Slow roll through cover, rod tip up' },
   },
 
   // ─── Structure Jig ───
@@ -43,6 +45,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Green Pumpkin', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: 'Drag on bottom transitions. Feel for rock-to-mud edges — those composition changes hold fish.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/2oz', trailer: 'Chunk or creature bait' },
   },
 
   // ─── Shakyhead ───
@@ -71,6 +75,8 @@ export const BASE_LURES: BaseLure[] = [
       { when: { frontalSystem: 'post-frontal' }, tip: 'Post-frontal finesse weapon. Drag on points and humps. Shake in place — let the fish come to you.', priority: 10 },
     ],
     defaultTip: 'Drag along bottom on hard surfaces. The stand-up action is subtle but deadly on pressured fish.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/16oz', retrieveNote: 'Drag and shake on hard bottom' },
   },
 
   // ─── Neko Rig ───
@@ -95,6 +101,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Junebug', hex: '#4a0e4e' },
     tipRules: [],
     defaultTip: 'Weight in the nose, wacky rigged. The head-down fall and nose-in-the-dirt action drives fish crazy around docks and isolated cover.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/16oz nail weight' },
   },
 
   // ─── Strolling Rig ───
@@ -118,13 +126,15 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Plum', hex: '#5a2d5a' },
     tipRules: [],
     defaultTip: 'Slow trolling with the big motor across offshore ledges and humps. The heavy weight drags bottom while the bait trails behind. North Texas offshore staple.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1oz+' },
   },
 
   // ─── Spinnerbait ───
   {
     name: 'Spinnerbait (Colorado/Willow)', category: 'Bladed', minDepth: 1, maxDepth: 8,
     action: 'search', baseSpeed: 'moderate', tags: ['moving', 'shallow'],
-    seasons: ['pre-spawn', 'spawn', 'post-spawn', 'fall'],
+    seasons: ['pre-spawn', 'spawn', 'post-spawn', 'summer', 'fall'],
     baseConfidence: 65, maxConfidence: 97,
     nullGates: { minTemp: 50, maxFishDepth: 10 },
     modifiers: [
@@ -142,15 +152,17 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'White/Chartreuse', hex: '#e8e8c0' },
     tipRules: [],
     defaultTip: 'Versatile search bait. Slow roll in cold, burn in warm. Trailer hooks for short strikers.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/8oz', retrieveNote: 'Slow roll deep, burn shallow' },
   },
 
-  // ─── Chatterbait ───
+  // ─── Bladed Jig ───
   {
-    name: 'Chatterbait', category: 'Bladed', minDepth: 1, maxDepth: 8,
+    name: 'Bladed Jig', category: 'Bladed', minDepth: 1, maxDepth: 8,
     action: 'reaction', baseSpeed: 'moderate', tags: ['moving', 'shallow'],
     seasons: ['pre-spawn', 'spawn', 'post-spawn', 'summer', 'fall'],
     baseConfidence: 58, maxConfidence: 95,
-    nullGates: { minTemp: 55, maxFishDepth: 10 },
+    nullGates: { minTemp: 48, maxFishDepth: 10 },
     modifiers: [
       { when: { isStained: true, isLowLight: true }, adjustment: 16 },
       { when: { isStained: true, isLowLight: false }, adjustment: 10 },
@@ -166,14 +178,16 @@ export const BASE_LURES: BaseLure[] = [
     ],
     defaultColor: { name: 'Green Pumpkin Shad', hex: '#6b8e45' },
     tipRules: [],
-    defaultTip: 'Pop free from grass — erratic action triggers reaction strikes. Adjust rod angle to feel blade vibration.',
+    defaultTip: 'Pop free from grass — the erratic rip triggers reaction strikes. Adjust rod angle to feel blade vibration.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/8oz', trailer: 'Paddletail swimbait', retrieveNote: 'Steady wind, let the blade vibrate' },
   },
 
   // ─── Squarebill Crankbait ───
   {
     name: 'Squarebill Crankbait', category: 'Hard', minDepth: 1, maxDepth: 6,
     action: 'reaction', baseSpeed: 'fast', tags: ['moving', 'shallow'],
-    seasons: ['pre-spawn', 'spawn', 'post-spawn', 'fall'],
+    seasons: ['pre-spawn', 'spawn', 'post-spawn', 'summer', 'fall'],
     baseConfidence: 60, maxConfidence: 95,
     nullGates: { minTemp: 48, maxFishDepth: 8 },
     modifiers: [
@@ -196,6 +210,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Sexy Shad', hex: '#a8b5c2' },
     tipRules: [],
     defaultTip: 'Deflection off cover is everything. Rod tip down for max depth. 12-20lb fluoro.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Deflect off cover, pause on contact' },
   },
 
   // ─── Medium Diving Crankbait ───
@@ -224,15 +240,17 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Sexy Shad', hex: '#a8b5c2' },
     tipRules: [],
     defaultTip: 'Pick a crank that runs 2ft deeper than target. 5.3:1 reel, 10-12lb fluoro, rod tip down.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Grind the lip into bottom, pause on deflection' },
   },
 
   // ─── Deep Diving Crankbait ───
   {
     name: 'Deep Diving Crankbait', category: 'Hard', minDepth: 12, maxDepth: 20,
     action: 'search', baseSpeed: 'fast', tags: ['offshore'],
-    seasons: ['summer', 'fall'],
+    seasons: ['pre-spawn', 'summer', 'fall'],
     baseConfidence: 62, maxConfidence: 95,
-    nullGates: { minTemp: 65, maxFishDepth: 22 },
+    nullGates: { minTemp: 55, maxFishDepth: 22 },
     modifiers: [
       { when: { fishDepth: { max: 10 } }, adjustment: -999 },
       { when: { season: 'summer' }, adjustment: 15 },
@@ -249,13 +267,15 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Sexy Shad', hex: '#a8b5c2' },
     tipRules: [],
     defaultTip: '14lb fluoro, 5.3:1 reel. Grind the bill into bottom. Deflection triggers strikes.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Grind bill into bottom — deflection triggers strikes' },
   },
 
   // ─── Lipless Crankbait ───
   {
     name: 'Lipless Crankbait', category: 'Hard', minDepth: 1, maxDepth: 8,
     action: 'reaction', baseSpeed: 'fast', tags: ['moving', 'shallow'],
-    seasons: ['pre-spawn', 'post-spawn', 'fall', 'winter'],
+    seasons: ['pre-spawn', 'spawn', 'post-spawn', 'fall', 'winter'],
     baseConfidence: 58, maxConfidence: 93,
     nullGates: { maxFishDepth: 10 },
     modifiers: [
@@ -273,6 +293,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Gold Sexy Shad', hex: '#b8860b' },
     tipRules: [],
     defaultTip: 'Yo-yo with rod sweeps, not the reel. The fall triggers bites. 5.3:1 gear ratio, 17lb fluoro.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/2oz', retrieveNote: 'Yo-yo off grass — rip and let fall' },
   },
 
   // ─── Suspending Jerkbait ───
@@ -297,6 +319,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Clown', hex: '#e85040' },
     tipRules: [],
     defaultTip: 'Snap-snap-pause. Adjust pause length to water temp. Fish parallel to edges for efficiency.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Snap-snap-pause, vary pause length' },
   },
 
   // ─── Walking Topwater ───
@@ -305,7 +329,7 @@ export const BASE_LURES: BaseLure[] = [
     action: 'reaction', baseSpeed: 'moderate', tags: ['moving', 'topwater', 'shallow'],
     seasons: ['post-spawn', 'summer', 'fall'],
     baseConfidence: 55, maxConfidence: 92,
-    nullGates: { minTemp: 62, maxFishDepth: 6 },
+    nullGates: { minTemp: 60, maxFishDepth: 6 },
     modifiers: [
       { when: { isLowLight: true }, adjustment: 15 },
       { when: { season: 'post-spawn' }, adjustment: 12 },
@@ -323,6 +347,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Chrome/Blue', hex: '#87afc7' },
     tipRules: [],
     defaultTip: 'Walk-walk-pause. Long casts with mono. Keep a weightless Senko ready for missed blowups.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Walk-walk-pause, long casts with mono' },
   },
 
   // ─── Buzzbait ───
@@ -342,6 +368,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'White/Chartreuse', hex: '#f0f0f0' },
     tipRules: [],
     defaultTip: 'Retrieve steady — the blade does the work. Frog trailer slows the retrieve for a better look.',
+    presentationRules: [],
+    defaultPresentation: { trailer: 'Frog or toad trailer', retrieveNote: 'Steady retrieve, keep blade churning' },
   },
 
   // ─── Drop Shot ───
@@ -368,6 +396,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Green Pumpkin', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: '1/2oz tungsten deep, 1/8oz shallow. Shake, don\'t swim. Keep bait in the strike zone.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/4oz tungsten', retrieveNote: 'Shake, don\'t swim' },
   },
 
   // ─── Ned Rig ───
@@ -390,6 +420,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'TRD Green Pumpkin', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: 'Cast, sink, drag slowly. Mushroom head stands bait up on hard bottom.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/5oz mushroom head', retrieveNote: 'Cast, sink, drag slowly' },
   },
 
   // ─── Texas Rig (Creature Bait) ───
@@ -417,6 +449,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Watermelon Red', hex: '#568203' },
     tipRules: [],
     defaultTip: 'Pitch to isolated cover — laydowns, docks, stumps. Most bites come on the fall.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/16oz pegged', retrieveNote: 'Pitch to cover, most bites on the fall' },
   },
 
   // ─── Carolina Rig ───
@@ -444,6 +478,8 @@ export const BASE_LURES: BaseLure[] = [
       { when: { season: 'summer' }, tip: 'Drag across offshore flats and humps. The weight ticks structure while the bait floats behind.', priority: 10 },
     ],
     defaultTip: 'Long leader (3-4ft). Sweep, reel down, repeat. Cover water to find schools.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/4oz–1oz', retrieveNote: 'Sweep, reel down, repeat — cover water' },
   },
 
   // ─── Flipping Jig ───
@@ -468,6 +504,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Green Pumpkin', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: 'Pitch tight to cover on semi-slack line. Accurate bait placement is everything.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/2oz', trailer: 'Chunk or creature bait', retrieveNote: 'Pitch tight to cover on semi-slack line' },
   },
 
   // ─── Football Jig ───
@@ -495,6 +533,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Green Pumpkin/Orange', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: 'Football head kicks off rocks for erratic action. Drag on bottom transitions.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/4oz', trailer: 'Chunk', retrieveNote: 'Drag bottom, feel the rocks' },
   },
 
   // ─── Hair Jig / Finesse Jig ───
@@ -520,6 +560,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'PB&J', hex: '#4a2040' },
     tipRules: [],
     defaultTip: 'Position over deep water, pitch shallow. Fish move vertically in cold water, not across flats.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/4oz', retrieveNote: 'Slow drag, vertical jigging in cold water' },
   },
 
   // ─── Crawfish Pattern Jig ───
@@ -543,13 +585,15 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Green Pumpkin/Craw', hex: '#6b8e23' },
     tipRules: [],
     defaultTip: 'Pre-spawn bass eat crawfish aggressively. KVD Chunk trailer in cold, Rage Craw above 65°F.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/8oz', trailer: 'Chunk or Rage Craw' },
   },
 
   // ─── Blade Bait ───
   {
     name: 'Blade Bait', category: 'Metal', minDepth: 10, maxDepth: 50,
     action: 'finesse', baseSpeed: 'slow', tags: ['offshore'],
-    seasons: ['winter'],
+    seasons: ['pre-spawn', 'fall', 'winter'],
     baseConfidence: 65, maxConfidence: 93,
     nullGates: {},
     modifiers: [
@@ -567,6 +611,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Silver', hex: '#c0c0c0' },
     tipRules: [],
     defaultTip: 'Vertical jigging over deep schools. Lift 12 inches, let it fall on tight line.',
+    presentationRules: [],
+    defaultPresentation: { weight: '1/2oz', retrieveNote: 'Vertical — lift 12 inches, fall on tight line' },
   },
 
   // ─── Jigging Spoon ───
@@ -590,6 +636,42 @@ export const BASE_LURES: BaseLure[] = [
       { when: { season: 'winter' }, tip: 'Find the school on electronics, drop straight down, rip 3-5ft and flutter. Winter fish stack tight.', priority: 10 },
     ],
     defaultTip: 'Vertical over deep humps and ledges. The flash on the fall mimics a dying shad.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/4oz–1oz', retrieveNote: 'Rip 3-5ft and flutter — vertical over schools' },
+  },
+
+  // ─── Hollow-Body Frog ───
+  {
+    name: 'Hollow-Body Frog', category: 'Topwater', minDepth: 0, maxDepth: 3,
+    action: 'reaction', baseSpeed: 'moderate', tags: ['moving', 'topwater', 'shallow'],
+    seasons: ['post-spawn', 'summer', 'fall'],
+    baseConfidence: 55, maxConfidence: 93,
+    nullGates: { minTemp: 62, maxFishDepth: 5 },
+    modifiers: [
+      { when: { isStained: true }, adjustment: 15 },
+      { when: { isLowLight: true }, adjustment: 10 },
+      { when: { season: 'summer' }, adjustment: 12 },
+      { when: { season: 'post-spawn' }, adjustment: 10 },
+      { when: { windSpeed: { min: 12 } }, adjustment: -8 },
+      { when: { windSpeed: { max: 8 } }, adjustment: 5 },
+      { when: { frontalSystem: 'pre-frontal' }, adjustment: 5 },
+      { when: { frontalSystem: 'post-frontal' }, adjustment: -12 },
+      { when: { waterClarity: 'muddy' }, adjustment: 5 },
+      { when: { waterClarity: 'clear' }, adjustment: -8 },
+      { when: { timeOfDay: ['dawn', 'dusk'] }, adjustment: 8 },
+    ],
+    colorRules: [
+      { when: { waterClarity: 'muddy' }, color: 'Black', hex: '#1a1a1a', priority: 10 },
+      { when: { isStained: true }, color: 'Black/Chartreuse', hex: '#2d4a1a', priority: 8 },
+    ],
+    defaultColor: { name: 'White', hex: '#f0f0f0' },
+    tipRules: [
+      { when: { season: 'summer' }, tip: 'Walk over matted grass and lily pads. Let it sit in holes. The blowup comes on the pause.', priority: 10 },
+      { when: { season: 'post-spawn' }, tip: 'Target fry-guarding males in shallow cover. Work slowly through pockets and grass edges.', priority: 8 },
+    ],
+    defaultTip: 'Work over heavy vegetation and mats. Pause in openings. Wait for the blowup before setting the hook.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Walk over mats, pause in openings' },
   },
 
   // ─── Spy Bait ───
@@ -610,6 +692,8 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Clear Shad', hex: '#e8e8e8' },
     tipRules: [],
     defaultTip: 'Ultra-slow straight retrieve. Secret weapon for clear water and pressured fish.',
+    presentationRules: [],
+    defaultPresentation: { retrieveNote: 'Ultra-slow straight retrieve — dead slow' },
   },
 
   // ─── 10" Worm ───
@@ -634,5 +718,7 @@ export const BASE_LURES: BaseLure[] = [
     defaultColor: { name: 'Plum', hex: '#5a2d5a' },
     tipRules: [],
     defaultTip: 'Summer deep brushpiles 18-25ft with a big worm. The size triggers bites from fish ignoring finesse.',
+    presentationRules: [],
+    defaultPresentation: { weight: '3/8oz–1/2oz', retrieveNote: 'Drag on deep structure — the size triggers bites' },
   },
 ];

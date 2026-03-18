@@ -5,7 +5,7 @@ export type FrontalSystem = 'pre-frontal' | 'post-frontal' | 'stable' | 'cold-fr
 export type SkyCondition = 'clear' | 'partly-cloudy' | 'overcast' | 'rain';
 export type WaterClarity = 'clear' | 'stained' | 'muddy';
 export type WindIntensity = 'calm' | 'light' | 'moderate' | 'heavy';
-export type FishPosition = 'surface' | 'suspended' | 'transitioning' | 'bottom';
+export type FishPosition = 'shallow' | 'mid-column' | 'suspended' | 'deep';
 export type PressureTrend = 'rising' | 'falling' | 'steady';
 export type SolunarPhase = 'major' | 'minor' | 'off';
 export type RetrieveSpeed = 'slow' | 'moderate' | 'fast' | 'burn';
@@ -52,6 +52,7 @@ export interface LureRecommendation {
   confidence: number; // 0-100
   depthRange: string;
   proTip: string;
+  presentation?: { weight?: string; trailer?: string; retrieveNote?: string };
 }
 
 export interface BiteWindow {
@@ -99,21 +100,24 @@ export interface AnglerPick {
   anglerId: string;
   anglerName: string;
   lure: LureRecommendation;
+  alternateLure?: LureRecommendation;
   /** Why this angler favors this lure right now */
   rationale: string;
   endorsers: AnglerEndorsement[];
+  /** Top color alternates for the primary lure (current + non-matching conditions) */
+  colorAlternates?: Array<{ color: string; hex: string; conditions: Record<string, unknown>; matched: boolean }>;
 }
 
 export interface Lake {
   id: string;
   name: string;
   state: string;
-  county: string;
   lat: number;
   lon: number;
-  type: 'lake' | 'reservoir';
-  maxDepth: number | null;
-  surfaceAcres: number | null;
+  maxDepth: number;
+  surfaceAcres: number;
+  bassRating: number;    // 1-5
+  aliases: string[];     // for search matching
 }
 
 export interface DayForecast {
@@ -130,6 +134,8 @@ export interface DayForecast {
   humidity: number;
   skyCondition: SkyCondition;
   description: string;
+  pressureTrend: 'rising' | 'falling' | 'steady';
   isExtrapolated: boolean; // true for days 6-10
   dataConfidence: number;  // 0-100, decays for extrapolated days
+  isYesterday?: boolean;   // true for the day before today (used by morning briefing)
 }

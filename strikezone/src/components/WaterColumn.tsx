@@ -18,10 +18,10 @@ interface WaterColumnProps {
 
 // Position label mapping
 const positionInfo: Record<FishPosition, { label: string; detail: string }> = {
-  surface: { label: 'Surface', detail: 'Fish are shallow and active. Cover water quickly.' },
-  suspended: { label: 'Suspended', detail: 'Fish are off bottom, relating to bait or structure edges.' },
-  transitioning: { label: 'Transitioning', detail: 'Fish are between zones. Check multiple depths.' },
-  bottom: { label: 'On Bottom', detail: 'Fish are tight to structure. Drag baits along bottom.' },
+  shallow: { label: 'Shallow', detail: 'Fish are shallow and active. Cover water quickly.' },
+  'mid-column': { label: 'Mid-Column', detail: 'Fish are off bottom, relating to bait or structure edges.' },
+  suspended: { label: 'Suspended', detail: 'Fish are between zones. Check multiple depths.' },
+  deep: { label: 'Deep', detail: 'Fish are tight to structure. Drag baits along bottom.' },
 };
 
 export default function WaterColumn({
@@ -43,7 +43,7 @@ export default function WaterColumn({
 
   // Strike zone: 2ft above fish to fish depth (or slightly below for bottom fish)
   const strikeTop = Math.max(depthRange.min - 1, fishDepth - 3);
-  const strikeBot = fishPosition === 'bottom' ? fishDepth + 1 : fishDepth + 2;
+  const strikeBot = fishPosition === 'deep' ? fishDepth + 1 : fishDepth + 2;
   const strikeTopY = toY(strikeTop);
   const strikeBotY = toY(strikeBot);
 
@@ -78,15 +78,15 @@ export default function WaterColumn({
   // Presentation tip based on fish position and lake type
   let presentationTip: string;
   if (isShallowLake) {
-    presentationTip = fishPosition === 'bottom'
+    presentationTip = fishPosition === 'deep'
       ? 'Shallow lake — drag baits tight to cover on bottom'
-      : fishPosition === 'surface'
+      : fishPosition === 'shallow'
         ? 'Shallow lake — topwater and shallow cranks over cover'
         : 'Shallow lake — fish relate to cover, not depth. Target structure.';
   } else {
-    presentationTip = fishPosition === 'bottom'
+    presentationTip = fishPosition === 'deep'
       ? 'Drag or hop bait on bottom'
-      : fishPosition === 'surface'
+      : fishPosition === 'shallow'
         ? 'Topwater or shallow running baits'
         : fishPosition === 'suspended'
           ? 'Count bait down to target depth'
@@ -100,7 +100,7 @@ export default function WaterColumn({
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3 border-b border-slate-700/50">
         <h3 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Water Column</h3>
-        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded"
+        <span className="text-xs font-mono px-1.5 py-0.5 rounded"
           style={{ background: `${badge.color}15`, color: badge.color, border: `1px solid ${badge.color}30` }}>
           {badge.label}
         </span>
@@ -130,7 +130,7 @@ export default function WaterColumn({
         {depthLabels.map(({ depth, y }) => (
           <div key={depth} className="absolute left-0 flex items-center" style={{ top: `${y}%`, transform: 'translateY(-50%)' }}>
             <div className="w-2 border-t border-sky-700/30" />
-            <span className="text-[9px] font-mono text-sky-600/50 ml-1 tabular-nums">{depth}</span>
+            <span className="text-xs font-mono text-sky-600/50 ml-1 tabular-nums">{depth}</span>
           </div>
         ))}
         {depthLabels.map(({ depth, y }) => (
@@ -145,11 +145,11 @@ export default function WaterColumn({
             Seasonal Zone
           </span>
           {/* Min depth label */}
-          <span className="absolute left-2 -top-3 text-[8px] font-mono text-emerald-500/40">
+          <span className="absolute left-2 -top-3 text-xs font-mono text-emerald-500/40">
             {depthRange.min}ft
           </span>
           {/* Max depth label */}
-          <span className="absolute left-2 -bottom-3 text-[8px] font-mono text-emerald-500/40">
+          <span className="absolute left-2 -bottom-3 text-xs font-mono text-emerald-500/40">
             {depthRange.max}ft
           </span>
         </div>
@@ -174,7 +174,7 @@ export default function WaterColumn({
             <svg width="100%" height="6" className="overflow-visible">
               <line x1="0" y1="3" x2="100%" y2="3" stroke="#f97316" strokeWidth="1" strokeDasharray="6,4" opacity="0.4" />
             </svg>
-            <span className="absolute right-2 -top-3 text-[8px] font-mono text-orange-400/50">
+            <span className="absolute right-2 -top-3 text-xs font-mono text-orange-400/50">
               Thermocline ~{thermoclineDepth}ft
             </span>
           </div>
@@ -184,7 +184,7 @@ export default function WaterColumn({
         {showLakeBottom && (
           <div className="absolute left-8 right-0" style={{ top: `${lakeBottomY}%` }}>
             <div className="border-t-2 border-amber-800/40" style={{ borderStyle: 'solid' }} />
-            <span className="absolute right-2 -top-4 text-[8px] font-mono text-amber-600/50">
+            <span className="absolute right-2 -top-4 text-xs font-mono text-amber-600/50">
               Lake Bottom {lakeMaxDepth}ft
             </span>
           </div>
@@ -243,13 +243,13 @@ export default function WaterColumn({
             <div className="w-4 border-t border-emerald-400/40" />
             <div className="bg-emerald-500/10 border border-emerald-500/20 rounded px-1.5 py-0.5">
               <span className="text-sm font-mono font-bold text-emerald-400">{fishDepth}</span>
-              <span className="text-[9px] font-mono text-emerald-400/60">ft</span>
+              <span className="text-xs font-mono text-emerald-400/60">ft</span>
             </div>
           </div>
         </div>
 
         {/* Surface label */}
-        <div className="absolute top-1 right-2 text-[8px] font-mono text-sky-500/30">0ft</div>
+        <div className="absolute top-1 right-2 text-xs font-mono text-sky-500/30">0ft</div>
       </div>
 
       {/* Info panel below the visualization */}
@@ -259,10 +259,10 @@ export default function WaterColumn({
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-xs font-mono font-semibold text-white">{positionInfo[fishPosition].label}</span>
-            <span className="text-[10px] text-slate-500">at</span>
+            <span className="text-xs text-slate-500">at</span>
             <span className="text-xs font-mono font-bold text-emerald-400">{fishDepth}ft</span>
           </div>
-          <span className="text-[10px] font-mono text-slate-500">{waterTemp}°F</span>
+          <span className="text-xs font-mono text-slate-500">{waterTemp}°F</span>
         </div>
 
         {/* Key insight line */}
@@ -285,8 +285,8 @@ export default function WaterColumn({
 function InfoChip({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-center gap-1 bg-slate-800/60 rounded px-1.5 py-0.5">
-      <span className="text-[8px] font-mono text-slate-600 uppercase">{label}:</span>
-      <span className="text-[9px] font-mono text-slate-400">{value}</span>
+      <span className="text-xs font-mono text-slate-600 uppercase">{label}:</span>
+      <span className="text-xs font-mono text-slate-400">{value}</span>
     </div>
   );
 }

@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lureCategory": "moving-baits"
+  },
+  "briefing": {
+    "headline": "Cover water — winter muddy conditions reward moving baits that trigger reaction strikes.",
+    "gameplan": "In winter with muddy water and post frontal conditions, moving baits presentations shine.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Black/Blue",
+      "retrieve": "KVD: Slow rolling a spinnerbait around steep rocky banks and laydowns in cold water. First Bassmaster win was in December at Lake Lanier doing exactly this. Use a plastic trailer — 'absolutely paramou",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: In late February/early March, bass group up in underwater ditches 30-40 feet deep; targets them with underspin or small swimbait on light fluorocarbon."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In clear deep lakes with shad kills, fish often suspend. The higher they are in the water column, the more active they are. Fish off main lake points, humps, drops, centers of big bays — not near the bank. Alabama rig with spinners (keeps rig..."
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

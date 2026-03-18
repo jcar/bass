@@ -1,0 +1,45 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lureCategory": "reaction"
+  },
+  "briefing": {
+    "headline": "Vertical and precise — post-spawn clear conditions call for reaction baits on deep structure.",
+    "gameplan": "In post-spawn with clear water and post frontal conditions, reaction presentations shine.\n\nWheeler: Aggressively snaps the Jigging Rap 4-5 feet above grouped-up bass to force committed fish to swim up; when they reach the bait and you stop it, it glides naturally downward and that's when you get bit.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Blade Bait",
+      "color": "Natural Shad",
+      "retrieve": "Wheeler: Aggressively snaps the Jigging Rap 4-5 feet above grouped-up bass to force committed fish to swim up; when they reach the bait and you stop it, it glides naturally downward and that's when yo",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Jigging Spoon",
+      "color": "Natural Shad",
+      "retrieve": "Match the conditions — slow down significantly — extended pauses, subtle movements, finesse presentations.",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize lures and switch to brighter colors"
+    ]
+  }
+}

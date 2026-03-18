@@ -7,22 +7,22 @@ export const WHEELER: AnglerProfile = {
   id: 'wheeler',
   defaultCredibility: 0.5,
   credibility: {
-    'Squarebill Crankbait': 0.9,
-    'Medium Diving Crankbait': 0.9,
-    'Deep Diving Crankbait': 0.8,
-    'Lipless Crankbait': 0.9,
-    'Suspending Jerkbait': 0.9,
     'Buzzbait': 0.8,
-    'Spinnerbait (Colorado/Willow)': 0.7,
-    'Chatterbait': 0.7,
-    'Walking Topwater': 0.7,
-    'Football Jig': 0.8,
-    'Flipping Jig': 0.7,
-    'Drop Shot': 0.6,
-    'Ned Rig': 0.6,
-    'Swim Jig': 0.7,
-    'Texas Rig (Creature Bait)': 0.7,
     'Carolina Rig': 0.6,
+    'Bladed Jig': 0.7,
+    'Deep Diving Crankbait': 0.8,
+    'Drop Shot': 0.83,
+    'Flipping Jig': 0.7,
+    'Football Jig': 0.8,
+    'Lipless Crankbait': 0.9,
+    'Medium Diving Crankbait': 0.9,
+    'Ned Rig': 0.73,
+    'Spinnerbait (Colorado/Willow)': 0.7,
+    'Squarebill Crankbait': 0.9,
+    'Suspending Jerkbait': 0.9,
+    'Swim Jig': 1.0,
+    'Texas Rig (Creature Bait)': 0.78,
+    'Walking Topwater': 0.78,
   },
   opinions: [
     // ─── Squarebill Crankbait ───
@@ -152,11 +152,11 @@ export const WHEELER: AnglerProfile = {
       defaultTip: 'Wheeler: Wheel\'s Deal (big willow blades) for flash or Spring Ding (orange kicker + gold Indiana) for thump. Match blade geometry to conditions.',
     },
 
-    // ─── Chatterbait ───
+    // ─── Bladed Jig ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       confidenceModifiers: [
-        // Wheeler: chatterbait as search tool in stained water
+        // Wheeler: bladed jig as search tool in stained water
         { when: { isStained: true }, adjustment: 5 },
       ],
       colorRules: [

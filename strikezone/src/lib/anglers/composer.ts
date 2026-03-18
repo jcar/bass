@@ -1,5 +1,5 @@
 // ─── Composer: Merges BaseLures + AnglerProfiles into LureTemplates ───
-import type { ConditionPredicate, BaseLure, AnglerProfile, LureOpinion, ConfidenceModifier, ColorRule, TipRule } from './types';
+import type { ConditionPredicate, BaseLure, AnglerProfile, LureOpinion, ConfidenceModifier, ColorRule, TipRule, PresentationRule, PresentationData } from './types';
 import type { LureContext, LureTemplate } from '../StrikeEngine';
 
 /** Test whether a LureContext matches a ConditionPredicate. */
@@ -71,6 +71,14 @@ function sumAnglerModifiers(
   return sum;
 }
 
+/** A color alternate that didn't match current conditions. */
+export interface ColorAlternate {
+  color: string;
+  hex: string;
+  conditions: ConditionPredicate;
+  matched: boolean;
+}
+
 /** Pick the best matching color rule across base + anglers. */
 function pickColor(
   baseRules: ColorRule[],
@@ -101,6 +109,43 @@ function pickColor(
   }
 
   return baseDefault;
+}
+
+/** Return color alternates: all candidate colors ranked by priority, with match status. */
+function getColorAlternates(
+  baseRules: ColorRule[],
+  baseDefault: { name: string; hex: string },
+  opinions: Array<{ opinion: LureOpinion; credibility: number }>,
+  ctx: LureContext,
+): ColorAlternate[] {
+  const candidates: Array<{ rule: ColorRule; effectivePriority: number }> = [];
+
+  for (const rule of baseRules) {
+    candidates.push({ rule, effectivePriority: rule.priority });
+  }
+  for (const { opinion, credibility } of opinions) {
+    if (!opinion.colorRules) continue;
+    for (const rule of opinion.colorRules) {
+      candidates.push({ rule, effectivePriority: rule.priority * credibility });
+    }
+  }
+
+  candidates.sort((a, b) => b.effectivePriority - a.effectivePriority);
+
+  // Deduplicate by color name
+  const seen = new Set<string>();
+  const results: ColorAlternate[] = [];
+  for (const { rule } of candidates) {
+    if (seen.has(rule.color)) continue;
+    seen.add(rule.color);
+    results.push({
+      color: rule.color,
+      hex: rule.hex,
+      conditions: rule.when,
+      matched: matchesPredicate(ctx, rule.when),
+    });
+  }
+  return results;
 }
 
 /** Pick the best matching tip across base + anglers, with attribution. */
@@ -142,6 +187,58 @@ function pickTip(
   }
 
   return bestTip;
+}
+
+/** Pick the best presentation across base + anglers, resolving each field independently. */
+function pickPresentation(
+  baseRules: PresentationRule[],
+  baseDefault: PresentationData,
+  opinions: Array<{ opinion: LureOpinion; credibility: number }>,
+  ctx: LureContext,
+): PresentationData {
+  // Collect all rules with effective priority
+  const candidates: Array<{ rule: PresentationRule; effectivePriority: number }> = [];
+
+  for (const rule of baseRules) {
+    candidates.push({ rule, effectivePriority: rule.priority });
+  }
+  for (const { opinion, credibility } of opinions) {
+    if (!opinion.presentationRules) continue;
+    for (const rule of opinion.presentationRules) {
+      candidates.push({ rule, effectivePriority: rule.priority * credibility });
+    }
+  }
+
+  // Sort by effective priority descending
+  candidates.sort((a, b) => b.effectivePriority - a.effectivePriority);
+
+  // For each field, first matching rule wins; fall back to angler default then base default
+  let weight: string | undefined;
+  let trailer: string | undefined;
+  let retrieveNote: string | undefined;
+
+  for (const { rule } of candidates) {
+    if (!matchesPredicate(ctx, rule.when)) continue;
+    if (!weight && rule.weight) weight = rule.weight;
+    if (!trailer && rule.trailer) trailer = rule.trailer;
+    if (!retrieveNote && rule.retrieveNote) retrieveNote = rule.retrieveNote;
+    if (weight && trailer && retrieveNote) break;
+  }
+
+  // Check angler default presentations
+  for (const { opinion, credibility } of opinions) {
+    if (!opinion.defaultPresentation) continue;
+    const dp = opinion.defaultPresentation;
+    if (!weight && dp.weight) weight = dp.weight;
+    if (!trailer && dp.trailer) trailer = dp.trailer;
+    if (!retrieveNote && dp.retrieveNote) retrieveNote = dp.retrieveNote;
+  }
+
+  return {
+    weight: weight ?? baseDefault.weight,
+    trailer: trailer ?? baseDefault.trailer,
+    retrieveNote: retrieveNote ?? baseDefault.retrieveNote,
+  };
 }
 
 /**
@@ -244,8 +341,16 @@ export function composeLures(baseLures: BaseLure[], anglerProfiles: AnglerProfil
         return pickColor(base.colorRules, base.defaultColor, anglerOpinions, ctx);
       },
 
+      getColorAlternates(ctx: LureContext): ColorAlternate[] {
+        return getColorAlternates(base.colorRules, base.defaultColor, anglerOpinions, ctx);
+      },
+
       proTip(ctx: LureContext): string {
         return pickTip(base.tipRules, base.defaultTip, anglerOpinions, ctx);
+      },
+
+      getPresentation(ctx: LureContext): PresentationData {
+        return pickPresentation(base.presentationRules, base.defaultPresentation, anglerOpinions, ctx);
       },
     };
   });

@@ -7,16 +7,16 @@ export const ROBERTSON: AnglerProfile = {
   id: 'robertson',
   defaultCredibility: 0.5,
   credibility: {
+    '10" Worm (Shakey/TX)': 0.8,
     'Deep Diving Crankbait': 1.0,
-    'Swim Jig': 0.9,
     'Lipless Crankbait': 0.9,
     'Medium Diving Crankbait': 0.8,
-    'Spinnerbait (Colorado/Willow)': 0.8,
-    '10" Worm (Shakey/TX)': 0.8,
-    'Squarebill Crankbait': 0.7,
-    'Walking Topwater': 0.7,
     'Ned Rig': 0.7,
     'Neko Rig': 0.7,
+    'Spinnerbait (Colorado/Willow)': 0.8,
+    'Squarebill Crankbait': 0.7,
+    'Swim Jig': 0.9,
+    'Walking Topwater': 0.73,
   },
   opinions: [
     // ─── Lipless Crankbait ───

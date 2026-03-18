@@ -7,20 +7,20 @@ export const HACKNEY: AnglerProfile = {
   id: 'hackney',
   defaultCredibility: 0.5,
   credibility: {
-    'Swim Jig': 0.9,
-    'Flipping Jig': 1.0,
-    'Structure Jig': 0.9,
-    'Spinnerbait (Colorado/Willow)': 0.8,
-    'Chatterbait': 0.7,
+    '10" Worm (Shakey/TX)': 0.7,
     'Buzzbait': 0.9,
-    'Lipless Crankbait': 0.8,
-    'Texas Rig (Creature Bait)': 0.9,
+    'Bladed Jig': 0.81,
+    'Crawfish Pattern Jig': 0.8,
+    'Flipping Jig': 1.0,
     'Football Jig': 0.8,
     'Hair Jig / Finesse Jig': 0.8,
-    'Crawfish Pattern Jig': 0.8,
-    'Walking Topwater': 0.6,
-    '10" Worm (Shakey/TX)': 0.7,
+    'Lipless Crankbait': 0.8,
+    'Spinnerbait (Colorado/Willow)': 0.83,
     'Squarebill Crankbait': 0.6,
+    'Structure Jig': 0.9,
+    'Swim Jig': 0.9,
+    'Texas Rig (Creature Bait)': 0.9,
+    'Walking Topwater': 0.6,
   },
   opinions: [
     // ─── Swim Jig ───
@@ -82,13 +82,13 @@ export const HACKNEY: AnglerProfile = {
       ],
       tipRules: [
         { when: { season: 'post-spawn' }, tip: 'Hackney: THE shad spawn bait. KVD: Medium-slow retrieve — too fast pulls it away from baitfish. Use trailer hooks.', priority: 12 },
-        { when: { isStained: true }, tip: 'KVD: Colorado/Willow combo for stained — vibration + flash. Hackney: More weedless than chatterbait in wood and pads.', priority: 8 },
+        { when: { isStained: true }, tip: 'KVD: Colorado/Willow combo for stained — vibration + flash. Hackney: More weedless than bladed jig in wood and pads.', priority: 8 },
       ],
     },
 
-    // ─── Chatterbait ───
+    // ─── Bladed Jig ───
     {
-      lure: 'Chatterbait',
+      lure: 'Bladed Jig',
       confidenceModifiers: [
         // Hackney: post-frontal = abandon moving baits
         { when: { frontalSystem: 'post-frontal' }, adjustment: -12 },

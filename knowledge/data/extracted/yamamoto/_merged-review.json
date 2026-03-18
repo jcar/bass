@@ -71,29 +71,25 @@
       ],
       "tipRules": [
         {
-          "when": {
-            "species": "largemouth/smallmouth/spotted bass"
-          },
+          "when": {},
           "tip": "Frazee (Midwest finesse): Rig the 3-inch Ika on a 1/32-oz mushroom head jig three ways \u2014 as a solid-body tube (tentacles as tail), reversed (tentacles at collar), or wacky style",
           "priority": 5
         },
         {
-          "when": {
-            "species": "largemouth/smallmouth/spotted bass"
-          },
+          "when": {},
           "tip": "Frazee (Midwest finesse): Retrieve the 3-inch Ika with all six standard Midwest finesse retrieves or a jig-and-bobber presentation",
           "priority": 4
         },
         {
-          "when": {
-            "jigWeight": "1/16 to 1/8-oz"
-          },
+          "when": {},
           "tip": "DeFronzo: Rig the 3-inch Ika on a 1/16 or 1/8-oz Florida rig screw-in weight with a 2/0 hook \u2014 creates a downsized Mega Tube look; skip through brush, trees, and docks; let fall on controlled slack line with a hop or two before retrieving",
           "priority": 7
         },
         {
           "when": {
-            "structure": "submerged vegetation"
+            "fishDepth": {
+              "max": 5
+            }
           },
           "tip": "DeFronzo: For extremely shallow water or over bottom-growing vegetation, omit weight entirely and rig the Ika on a 2/0 or 3/0 hook \u2014 the slow descent lets every bass in the area scope it out",
           "priority": 7
@@ -106,23 +102,17 @@
           "priority": 7
         },
         {
-          "when": {
-            "structure": "cover"
-          },
+          "when": {},
           "tip": "Yamamoto pro Fukae: Rig the 3-inch Fat Senko on a drop-shot with a very short 3-inch leader to replicate a Ned Rig \u2014 'This is just like a Ned Rig but is better around cover' since standard Ned Rigs hang up on the bottom",
           "priority": 8
         },
         {
-          "when": {
-            "fishBehavior": "bluegill-present"
-          },
+          "when": {},
           "tip": "Bank fishing tip: A 3-inch Senko on Ned head is ideal where small bluegill abound \u2014 can also trim a 5-6 inch Senko to fit",
           "priority": 6
         },
         {
-          "when": {
-            "presentation": "finesse"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'I like the 3-inch Fat Senko for my Ned Rigs'",
           "priority": 7
         },
@@ -145,7 +135,20 @@
         "how-to-use-a-senko-to-catch-more-bass-from-the-bank.txt",
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "yamamoto-yamatanuki-review.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "priority": 5,
+          "weight": "3/32-oz"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "1/32-oz",
+        "retrieveNote": "DeFronzo: Rig the 3-inch Ika on a 1/16 or 1/8-oz Florida rig screw-in weight with a 2/0 hook \u2014 creates a downsized Me..."
+      }
     },
     "Chatterbait": {
       "lure": "Chatterbait",
@@ -156,30 +159,22 @@
       "colorRules": [],
       "tipRules": [
         {
-          "when": {
-            "trailerType": "Zako"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: The Zako was designed as a chatter-style bait trailer; its restrained action won't overpower the vibrating jig \u2014 most other soft plastic trailers exhibit too much action or aren't durable enough",
           "priority": 7
         },
         {
-          "when": {
-            "trailer": "stickbait"
-          },
+          "when": {},
           "tip": "Using a stick bait as vibrating jig trailer shows finicky fish a more streamlined profile \u2014 something different",
           "priority": 5
         },
         {
-          "when": {
-            "trailer": "Zako"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: The Yamamoto Zako is the perfect ChatterBait trailer \u2014 bigger profile, good but subtle action, and an 'accordion-style' tail that collapses when fish bite, increasing hook-up ratio",
           "priority": 8
         },
         {
-          "when": {
-            "trailer": "Zako"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'I like the regular Zako on my Jack Hammer ChatterBaits \u2014 the ChatterBait has so much vibration and gives the Zako a nice natural action'",
           "priority": 8
         },
@@ -203,27 +198,68 @@
         "my-best-bait-why-brett-hite-relies-on-the-yamamoto-zako-as-his-key-chatterbait-trailer.txt",
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "yamamoto-secret-menu.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "fishDepth": "deep-ledges"
+          },
+          "priority": 5,
+          "weight": "1/4oz"
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "style bait"
+      }
     },
     "Texas Rig (Creature Bait)": {
       "lure": "Texas Rig (Creature Bait)",
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
-      "colorRules": [
+      "confidenceModifiers": [
         {
           "when": {
-            "forage": "shad"
+            "waterClarity": "any"
           },
+          "adjustment": 8
+        },
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "adjustment": 5
+        },
+        {
+          "when": {
+            "fishDepth": {
+              "max": 8
+            }
+          },
+          "adjustment": 5
+        },
+        {
+          "when": {
+            "isLowLight": true
+          },
+          "adjustment": 5
+        },
+        {
+          "when": {
+            "isLowLight": false
+          },
+          "adjustment": 5
+        }
+      ],
+      "colorRules": [
+        {
+          "when": {},
           "color": "shad",
           "hex": "#C0C0C0",
           "priority": 6
         },
         {
-          "when": {
-            "forage": "bream"
-          },
+          "when": {},
           "color": "bream colors",
           "hex": "#6B8E23",
           "priority": 6
@@ -338,72 +374,57 @@
       "tipRules": [
         {
           "when": {
-            "season": "spawn",
-            "structure": "vegetation"
+            "season": "spawn"
           },
           "tip": "Yamamoto pro Hite: The Zako rigged Texas-style replicates the subtle gliding of a tube; use it as a flipping bait around aquatic or flooded terrestrial vegetation during the spawn or whenever bass are in shallow-water haunts",
           "priority": 7
         },
         {
           "when": {
-            "fishPressure": "high"
+            "fishDepth": {
+              "max": 2
+            }
           },
           "tip": "Fish an unweighted Senko on a wide-gap hook across the surface \u2014 hopping and skipping like a fleeing minnow or bream; works best on heavily pressured fish that have seen every other lure",
           "priority": 8
         },
         {
-          "when": {
-            "structure": "grass"
-          },
+          "when": {},
           "tip": "Use 30-lb braid for heavy weeds with a 7:1 baitcaster on a 7'3\" MH rod; switch to 15-lb fluoro for open water",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "open water"
-          },
+          "when": {},
           "tip": "In open water, use a fast spinning reel with 10-lb braid on a 7' medium-action rod for the surface Senko technique",
           "priority": 7
         },
         {
-          "when": {
-            "fishBehavior": "chasing"
-          },
+          "when": {},
           "tip": "If a bass chases the surface Senko, just stop it and let it sit \u2014 fish will grab it on the fall even though it doesn't look great sinking",
           "priority": 8
         },
         {
-          "when": {
-            "technique": "flipping"
-          },
+          "when": {},
           "tip": "Yamamoto pro Yelas: Use at least a 1/4-oz weight with the Cowboy on a Texas rig because the bait is so bulky \u2014 3/8-oz or heavier is ideal to get it down",
           "priority": 8
         },
         {
-          "when": {
-            "coverWater": "fast"
-          },
+          "when": {},
           "tip": "Yamamoto: Rig a Senko on a weighted screw-lock hook to cover water much quicker than wacky rigging or weightless \u2014 maintains excellent skipping attributes while adding speed",
           "priority": 7
         },
         {
-          "when": {
-            "species": "smallmouth"
-          },
+          "when": {},
           "tip": "Yamamoto: On Lake Champlain, Gary Yamamoto dragged a weighted Texas-rigged Senko across the bottom instead of the standard lift-reel technique \u2014 the dragging action was something smallmouth couldn't resist, possibly imitating a crawfish",
           "priority": 9
         },
         {
-          "when": {
-            "technique": "flipping"
-          },
+          "when": {},
           "tip": "Schultz: Texas-rigged Senkos are excellent flipping baits \u2014 use a 5/16-oz bullet weight with a 3/0 or 4/0 VMC wide gap offset worm hook on a 4- or 5-inch Senko",
           "priority": 7
         },
         {
-          "when": {
-            "technique": "deadsticking"
-          },
+          "when": {},
           "tip": "DeFronzo: Fish the Senko weightless Texas-rigged on a 3/0 Gamakatsu EWG hook with 6-8lb line; skip into bushes or undercut banks and let it sit \u2014 'You can't fish it too slow'; the bait falls away from the angler like a Flying Lure Tube",
           "priority": 7
         },
@@ -415,23 +436,17 @@
           "priority": 8
         },
         {
-          "when": {
-            "structure": "weed pockets"
-          },
+          "when": {},
           "tip": "DeFronzo: Drop the weightless Senko into pockets of weeds or pads and let it flutter to the bottom; occasionally give a twitch or two but don't overdo it \u2014 bass pick it up and swim off",
           "priority": 7
         },
         {
-          "when": {
-            "technique": "weightless"
-          },
+          "when": {},
           "tip": "Sealock: The Senko's tail wiggles back and forth on slack line without any angler effort; its slow fall from high salt content makes it irresistible; casts like a rocket even weightless and skips easily under cover",
           "priority": 6
         },
         {
-          "when": {
-            "structure": "vegetation"
-          },
+          "when": {},
           "tip": "Sealock: Fish the Senko on a weightless Texas rig around vegetation or target-casting to stumps/laydowns \u2014 totally weedless and the tail kicks like crazy",
           "priority": 6
         },
@@ -443,37 +458,22 @@
           "priority": 7
         },
         {
-          "when": {
-            "structure": "heavy cover"
-          },
+          "when": {},
           "tip": "Sealock: Use a 1/4-oz weighted Texas rig Senko for heavy cover; lighter weight is always optimal \u2014 heavier weights cause it to sink too fast, taking away from its trademark horizontal fall; let it fall on slack line as most bites come on the fall",
           "priority": 7
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'Use a 3/0 Gamakatsu EWG hook \u2014 bigger hooks lose tail action on the fall and tear the bait off more often'",
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
-          "tip": "Yamamoto: 'Use smaller light-wire hooks to increase tail action and make the Senko last longer since bait slides up the hook onto the line while fighting fish'",
-          "priority": 8
-        },
-        {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'Tie with a Snell knot \u2014 when you tug on it, it pulls the hook barb straight toward the line for better hooksets'",
           "priority": 7
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'Use a simple lift-and-drop retrieve, like working a plastic worm but slower because it takes longer to fall'",
           "priority": 8
         },
@@ -485,37 +485,31 @@
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'Use 7-foot light-action spinning rod with 2500 series reel, 10-15lb braid mainline with fluorocarbon leader'",
           "priority": 7
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'The bait must hang as straight as possible on the hook, otherwise the signature fluttering action will be lost'",
           "priority": 9
         },
         {
           "when": {
-            "presentation": "weightless"
+            "fishDepth": {
+              "max": 8
+            }
           },
           "tip": "Yamamoto: 'Cast to shallow cover and simply let the worm fall. The fluttering action draws the strikes. The slower you fish the Senko, the better'",
           "priority": 9
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'After the bait hits bottom, let it sit for several seconds, then raise the rod tip 6 inches or a foot, then let the bait flutter down again'",
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'A jarring hook set is not needed. Since the worm is skin-hooked, just reel until the line is tight and allow the fish to set the hook as it swims away'",
           "priority": 8
         },
@@ -527,57 +521,54 @@
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "weightless"
-          },
+          "when": {},
           "tip": "Yamamoto: 'Use 3/0 or 4/0 EWG hook, 8-12lb fluorocarbon, medium or medium-heavy rod. Fluorocarbon sinks with the bait and does not interfere with fluttering action'",
           "priority": 7
         },
         {
-          "when": {
-            "presentation": "yamatanuki-weightless"
-          },
+          "when": {},
           "tip": "Yamamoto pro Shryock: 'The Yamatanuki is 3.5 inches at 5/8 oz \u2014 heavy enough to fish weightless on casting gear. It's a cross between a Senko and a jig with the profile of a small bluegill'",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "docks/marinas"
-          },
+          "when": {},
           "tip": "Yamamoto pro Shryock: 'The Yamatanuki excels at skipping to suspended fish under docks and marinas \u2014 it's heavy enough to reach fish suspended deep in gnarly marina slips'",
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "yamatanuki-weightless"
-          },
+          "when": {},
           "tip": "Yamamoto pro Shryock: 'Use a 7-foot 3-inch MH casting rod, 19lb fluorocarbon leader tied to 40lb braid, EWG hook. Emphasize hookset more than with a jig'",
           "priority": 7
         },
         {
           "when": {
-            "structure": "pads/mats"
+            "season": [
+              "spawn",
+              "post-spawn",
+              "summer"
+            ],
+            "fishDepth": {
+              "max": 5
+            }
           },
           "tip": "Bank fishing tip: Insert a nail weight in the Senko's tail to make it enter the water like a dart and shoot under pad/mat cover \u2014 great during spring/summer rains when big fish move shallow",
           "priority": 8
         },
         {
-          "when": {
-            "presentation": "weightless-retrieve"
-          },
+          "when": {},
           "tip": "Bank fishing tip: For blind-casting to active baitfish activity, let Senko sink to mid-depth then use moderate retrieve speed with short rapid rod tip twitches for lots of motion",
           "priority": 7
         },
         {
-          "when": {
-            "presentation": "bank-fishing"
-          },
+          "when": {},
           "tip": "Bank fishing tip: Use a 4/0 straight shank worm hook for most applications \u2014 slips in and out of cover well, slides across matted grass. Go 5/0 for 6-inch, 3/0 for 3-inch",
           "priority": 7
         },
         {
           "when": {
-            "presentation": "topwater-followup"
+            "fishDepth": {
+              "max": 8
+            }
           },
           "tip": "Elite pro Scroggins: Keep unweighted 5-inch Senko handy when topwater fishing around shallow vegetation \u2014 if a fish misses your topwater, throw the Senko at point of contact for quick followup bite",
           "priority": 8
@@ -611,30 +602,22 @@
           "priority": 5
         },
         {
-          "when": {
-            "structure": "docks"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'Rig the Fat Ika backward with an EWG hook weightless \u2014 it backslides away from you under docks, getting to places most baits can't. Also works around grass \u2014 pump your rod and it slides back away from you'",
           "priority": 8
         },
         {
-          "when": {
-            "fishBehavior": "big-bass"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'In Florida or any big bass lake, I like the 6-inch Senko \u2014 casts a long way and you can feel it in the grass much better'",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "matted-weeds"
-          },
+          "when": {},
           "tip": "Fish a weightless soft stickbait on braid over thick matted weeds \u2014 almost like fishing a frog, but you can let it do its wiggle in weed openings and still yard fish out of cover",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "grass-pockets"
-          },
+          "when": {},
           "tip": "Peg a sinker to a stickbait for a great big-bass bait when flipping grass and penetrating into pockets where big fish roam",
           "priority": 7
         },
@@ -731,7 +714,11 @@
         "wacky-rig-mastery-with-matt-becker-senko-tips-revealed.txt",
         "yamamoto-senko-breakdown.txt",
         "yamamoto-yamatanuki-review.txt"
-      ]
+      ],
+      "defaultPresentation": {
+        "weight": "1/4-oz",
+        "retrieveNote": "DeFronzo: Drop the weightless Senko into pockets of weeds or pads and let it flutter to the bottom; occasionally give..."
+      }
     },
     "Flipping Jig": {
       "lure": "Flipping Jig",
@@ -768,23 +755,17 @@
           "priority": 8
         },
         {
-          "when": {
-            "trailerAction": "aggressive"
-          },
+          "when": {},
           "tip": "Yamamoto pro Yelas: Use the Cowboy trailer when you want a bulkier profile with more action than the Psycho Dad or Flappin' Hog, which have limited action",
           "priority": 7
         },
         {
-          "when": {
-            "fishBehavior": "pressured"
-          },
+          "when": {},
           "tip": "Yamamoto pro Shryock: The PsychoDad is his go-to around lighter cover when the bite is tough and pressured bass need an ultra-soft bait for good hookups",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "matted-vegetation"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'I tear off all the tentacles on the side of the Flappin' Hog when punching mats \u2014 the larger 4.5-inch size slides through the mat better going in and coming out, making you much more efficient'",
           "priority": 8
         },
@@ -813,7 +794,20 @@
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "yamamoto-cowboy-review.txt",
         "yamamoto-yama-craw-review.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "trailer": "use it when you want a big profile with aggressive kick as a jig"
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "Use the Cowboy",
+        "retrieveNote": "Small appendages catch water and move with slightest shake"
+      }
     },
     "Swim Jig": {
       "lure": "Swim Jig",
@@ -824,23 +818,17 @@
       "colorRules": [],
       "tipRules": [
         {
-          "when": {
-            "jigWeight": "3/8-oz to 1/2-oz"
-          },
+          "when": {},
           "tip": "Yamamoto pro Yelas: 'Add a Cowboy trailer to a 3/8 or 1/2-oz swim jig to get vibration \u2014 the only real attraction of a swim jig is the skirt, the Cowboy adds kick to attract fish'",
           "priority": 8
         },
         {
-          "when": {
-            "trailer": "stickbait"
-          },
+          "when": {},
           "tip": "Using a stick bait as swim jig trailer shows finicky fish a more streamlined profile",
           "priority": 5
         },
         {
-          "when": {
-            "trailer": "Kickin-Zako"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'I use the Kickin' Zako almost exclusively on swim jigs \u2014 the traditional swimbait tail gets a good kicking action and helps get bigger bites. The segmented bait folds up like an accordion for better hookup'",
           "priority": 8
         },
@@ -856,14 +844,26 @@
         "make-soft-stick-baits-more-versatile.txt",
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "yamamoto-yama-craw-review.txt"
-      ]
+      ],
+      "defaultPresentation": {
+        "weight": "1/2-oz",
+        "trailer": "Add a Cowboy",
+        "retrieveNote": "Yamamoto pro Yelas: 'Add a Cowboy trailer to a 3/8 or 1/2-oz swim jig to get vibration \u2014 the only real attraction of ..."
+      }
     },
     "Carolina Rig": {
       "lure": "Carolina Rig",
       "seasonAdd": [],
       "minTempOverride": null,
       "maxFishDepthOverride": null,
-      "confidenceModifiers": [],
+      "confidenceModifiers": [
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "adjustment": 8
+        }
+      ],
       "colorRules": [
         {
           "when": {
@@ -905,15 +905,15 @@
           "priority": 8
         },
         {
-          "when": {
-            "leader": "monofilament"
-          },
+          "when": {},
           "tip": "Sealock: Carolina-rigging Senkos with a monofilament leader causes the Senko to float and slowly wave back and forth throughout the retrieve \u2014 great for rocky points, shell beds, river bars, and bluff walls",
           "priority": 7
         },
         {
           "when": {
-            "structure": "ledges/offshore-points"
+            "fishDepth": {
+              "min": 10
+            }
           },
           "tip": "FLW pro Casey Martin: Pair stick bait with monofilament leader on C-rig \u2014 lets bait float above short grass on ledges and offshore points for appearance of vulnerable baitfish",
           "priority": 7
@@ -944,7 +944,10 @@
         "the-5-best-ways-to-fish-a-senko-style-bait-mtb.txt",
         "yamamoto-secret-menu.txt",
         "yamamoto-yama-craw-review.txt"
-      ]
+      ],
+      "defaultPresentation": {
+        "trailer": "grub"
+      }
     },
     "Drop Shot": {
       "lure": "Drop Shot",
@@ -955,9 +958,7 @@
       "colorRules": [],
       "tipRules": [
         {
-          "when": {
-            "fishPressure": "high"
-          },
+          "when": {},
           "tip": "Schultz: Rig a 4-inch Senko wacky-style on a drop shot to outfish anglers throwing unweighted stickbaits \u2014 'it was just a different look' that caught larger bass in a community hole",
           "priority": 8
         },
@@ -988,16 +989,12 @@
           "priority": 6
         },
         {
-          "when": {
-            "presentation": "finesse"
-          },
+          "when": {},
           "tip": "Nose hook or Texas rig a 3-inch stickbait for simple baitfish profile. For power shotting, upsize to 4-5 inch wacky rigged for maximum motion",
           "priority": 6
         },
         {
-          "when": {
-            "presentation": "vertical"
-          },
+          "when": {},
           "tip": "Yamamoto pro Hite: 'The Shad Shape worm is perfect for nose-hooking on a drop-shot. Up north it's a smallmouth catching machine. I use it anytime I'm vertically fishing a drop-shot'",
           "priority": 8
         },
@@ -1024,6 +1021,24 @@
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "the-5-best-ways-to-fish-a-senko-style-bait-mtb.txt",
         "yamamoto-secret-menu.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "priority": 5,
+          "trailer": "creature bait"
+        },
+        {
+          "when": {
+            "season": "summer",
+            "fishDepth": "deep"
+          },
+          "priority": 5,
+          "weight": "3/16oz",
+          "retrieveNote": "Drop to depth of baitfish balls on electronics and shake to trigger strikes along bluffs and ledges"
+        }
       ]
     },
     "Neko Rig": {
@@ -1047,9 +1062,7 @@
           "priority": 6
         },
         {
-          "when": {
-            "presentation": "bank-fishing"
-          },
+          "when": {},
           "tip": "Bank fishing tip: Neko rig for faster fall with bottom feeding presentation \u2014 optionally add VMC Neko Skirt for pizazz",
           "priority": 5
         },
@@ -1061,9 +1074,7 @@
           "priority": 8
         },
         {
-          "when": {
-            "structure": "grass"
-          },
+          "when": {},
           "tip": "Japanese pro Iwahori tip (from Yamamoto ranch): Insert nail weight in head but position hook in-line with bait (shank facing forward) instead of perpendicular \u2014 allows fishing through vegetation with far less snagging",
           "priority": 8
         },
@@ -1105,7 +1116,19 @@
         "rigging-sleeper-yamamoto-baits-brett-hite.txt",
         "sink-o-or-swim-by-ben-hudson.txt",
         "yamamoto-secret-menu.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "fishDepth": "15-45ft"
+          },
+          "priority": 5,
+          "retrieveNote": "Drag, shake softly, fall technique'"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "1/16-oz"
+      }
     },
     "Shakyhead": {
       "lure": "Shakyhead",
@@ -1116,28 +1139,26 @@
       "colorRules": [],
       "tipRules": [
         {
-          "when": {
-            "species": "smallmouth"
-          },
+          "when": {},
           "tip": "Yamamoto pro Shryock: 'The 2.5-inch Yamatanuki on a ball head or wobble head falls and spirals like a tube \u2014 big deal for smallmouth'",
           "priority": 7
         },
         {
-          "when": {
-            "structure": "docks/pilings/riprap"
-          },
+          "when": {},
           "tip": "Bank fishing tip: Senko on shaky head is good for probing dock pilings, culvert edges, riprap points and bridge pilings",
           "priority": 6
         },
         {
-          "when": {
-            "structure": "docks/deep-structure"
-          },
+          "when": {},
           "tip": "FLW pro Casey Martin: Rig 3/16-oz shaky head with 5-inch stick bait \u2014 stands upright for enticing look. Pitch around docks or fish over deeper structure",
           "priority": 6
         },
         {
-          "when": {},
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
           "tip": "Senko on 3/16oz jighead is great finesse tactic for pressured waters or postspawn. Let it fall next to dock, shake in place, then retrieve",
           "priority": 7
         },
@@ -1155,7 +1176,30 @@
         "how-to-use-a-senko-to-catch-more-bass-from-the-bank.txt",
         "make-soft-stick-baits-more-versatile.txt",
         "the-5-best-ways-to-fish-a-senko-style-bait-mtb.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/16oz",
+          "retrieveNote": "Let it fall next to dock, shake in place, then retrieve"
+        },
+        {
+          "when": {
+            "fishDepth": "suspended"
+          },
+          "priority": 5,
+          "weight": "1/8oz",
+          "retrieveNote": "Count down to right depth, then shake and reel back"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/16-oz"
+      }
     },
     "10\" Worm (Shakey/TX)": {
       "lure": "10\" Worm (Shakey/TX)",
@@ -1180,7 +1224,11 @@
           "priority": 8
         },
         {
-          "when": {},
+          "when": {
+            "fishDepth": {
+              "min": 12
+            }
+          },
           "tip": "Slow presentation and work the 10-inch grub methodically on deep grass beds for best results",
           "priority": 7
         }
@@ -1188,7 +1236,22 @@
       "defaultTips": [],
       "sources": [
         "the-senko-is-just-the-beginning.txt"
-      ]
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "fishDepth": {
+              "min": 12
+            }
+          },
+          "priority": 5,
+          "trailer": "grub"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "1/4oz",
+        "trailer": "grub"
+      }
     },
     "Football Jig": {
       "lure": "Football Jig",
@@ -1213,11 +1276,158 @@
       "sources": [
         "yamamoto-secret-menu.txt",
         "yamamoto-yama-craw-review.txt"
-      ]
+      ],
+      "defaultPresentation": {
+        "trailer": "Grub"
+      }
     }
   },
-  "structureAdvice": {},
-  "credibility": {},
+  "structureAdvice": {
+    "grass": [
+      {
+        "advice": "Yamamoto: Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test \u2014 fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on slack line, pop the slack occasionally",
+        "source": "gary-yamamoto-custom-baits-senko-review-fb.txt"
+      },
+      {
+        "advice": "Yamamoto pro Shryock: The Yamatanuki is a heavy 'gravity bait' \u2014 3.5 inches at 5/8 oz with a signature side-to-side flutter on the fall. Works from 1 foot to 20+ feet suspended. Extremely weedless. Can replace jigs around heavy cover and grass",
+        "source": "getting-to-know-the-newish-kid-on-the-block-the-yamamoto-yamatanuki.txt"
+      },
+      {
+        "advice": "Yamamoto: Weighted wacky hooks and wacky jig heads (flick shake) take the double-ended wiggle straight to the bottom. FLW pro Roy Hawk: 'Throw it at anything \u2014 grass lines, pockets, docks, single rocks, shade lines. Vary the head weight depending on wind, current and depth'",
+        "source": "make-soft-stick-baits-more-versatile.txt"
+      },
+      {
+        "advice": "Yamamoto: Line choice affects stickbait presentation: monofilament makes the bait float more, fluorocarbon makes it sink quicker. Braid is often overlooked but useful for fishing weightless stickbaits over thick matted weeds",
+        "source": "senko-techniques-more-bass.txt"
+      },
+      {
+        "advice": "DeFronzo: For extremely shallow water or over bottom-growing vegetation, omit weight entirely and rig the Ika on a 2/0 or 3/0 hook \u2014 the slow descent lets every bass in the area scope it out",
+        "source": "155561.txt"
+      }
+    ],
+    "dock": [
+      {
+        "advice": "Yamamoto: The D Shad's extra density allows use on casting gear (15-lb fluorocarbon, medium-heavy rod) unlike most soft jerkbaits \u2014 this opens up fishing thick cover without breakoffs, and enables skip casting under docks and overhangs",
+        "source": "gary-yamamoto-d-shad-review.txt"
+      },
+      {
+        "advice": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset",
+        "source": "introducing-the-chicken-rig-for-bass-fishing.txt"
+      },
+      {
+        "advice": "Yamamoto: Fish the Chicken Rig around bridge pilings, barge tieups, docks, riprap, and other hard cover. Used it to finish 5th at Rayovac FLW Series on Upper Mississippi",
+        "source": "introducing-the-chicken-rig-for-bass-fishing.txt"
+      },
+      {
+        "advice": "Yamamoto: In 2011, broke the FLW single day weight record for Lake Champlain with 24lb 4oz stringer skipping docks with a Senko tail-weighted with a No. 7 finishing screw",
+        "source": "introducing-the-chicken-rig-for-bass-fishing.txt"
+      },
+      {
+        "advice": "Yamamoto pro Hite: The Fat Ika rigged backward weightless on EWG hook backslides like the old 'Flying Lure' \u2014 heavy salt-loaded plastic sinks on its own, and backward rigging makes it slide under docks and away from you",
+        "source": "rigging-sleeper-yamamoto-baits-brett-hite.txt"
+      }
+    ],
+    "point": [
+      {
+        "advice": "Yamamoto: The Senko works all year round but shines spring to fall. In colder months, fish deeper water on long underwater structure such as points with a small weight added",
+        "source": "gary-yamamoto-stickworms.txt"
+      },
+      {
+        "advice": "Yamamoto: Bank fishing: 'Shooting' technique from crappie fishing \u2014 point rod at target, pull bait toward you to load rod tip with downward arc, release like bow and arrow. Great for docks, laydowns, gaps in weeds",
+        "source": "how-to-use-a-senko-to-catch-more-bass-from-the-bank.txt"
+      },
+      {
+        "advice": "Yamamoto: Yamatanuki knobbed tail has a lot of action - always undulating as it skips along bottom or pulls over cover. Rig with hook point out of big end for more action and better hookups",
+        "source": "yamamoto-yamatanuki-review.txt"
+      },
+      {
+        "advice": "Elite pro Scroggins: Keep unweighted 5-inch Senko handy when topwater fishing around shallow vegetation \u2014 if a fish misses your topwater, throw the Senko at point of contact for quick followup bite",
+        "source": "156068.txt"
+      },
+      {
+        "advice": "FLW pro Casey Martin: Pair stick bait with monofilament leader on C-rig \u2014 lets bait float above short grass on ledges and offshore points for appearance of vulnerable baitfish",
+        "source": "4-ways-fish-yamamoto-cowboy-jay-yelas.txt"
+      }
+    ],
+    "bluff": [
+      {
+        "advice": "Yamamoto: A stick bait on a skirtless football head is a productive look for walking down bluff ends",
+        "source": "make-soft-stick-baits-more-versatile.txt"
+      },
+      {
+        "advice": "3-inch Senko on 2/0 straight shank hook drop shot with 1/4 to 3/16oz weight 1ft below lure. Drop to depth of baitfish balls on electronics and shake to trigger strikes along bluffs and ledges",
+        "source": "deep-thoughts-on-soft-stickbaits.txt"
+      }
+    ]
+  },
+  "credibility": {
+    "Ned Rig": [
+      {
+        "score": 0.73,
+        "source": "155561.txt"
+      }
+    ],
+    "Chatterbait": [
+      {
+        "score": 0.6,
+        "source": "156068.txt"
+      }
+    ],
+    "Texas Rig (Creature Bait)": [
+      {
+        "score": 1.0,
+        "source": "156068.txt"
+      }
+    ],
+    "Flipping Jig": [
+      {
+        "score": 0.63,
+        "source": "4-ways-fish-yamamoto-cowboy-jay-yelas.txt"
+      }
+    ],
+    "Swim Jig": [
+      {
+        "score": 0.6,
+        "source": "4-ways-fish-yamamoto-cowboy-jay-yelas.txt"
+      }
+    ],
+    "Carolina Rig": [
+      {
+        "score": 0.73,
+        "source": "4-ways-fish-yamamoto-cowboy-jay-yelas.txt"
+      }
+    ],
+    "Drop Shot": [
+      {
+        "score": 0.73,
+        "source": "deep-thoughts-on-soft-stickbaits.txt"
+      }
+    ],
+    "Neko Rig": [
+      {
+        "score": 0.73,
+        "source": "free-rig-and-other-ways-fish-spawn-shin-fukae-yamamoto.txt"
+      }
+    ],
+    "Shakyhead": [
+      {
+        "score": 0.68,
+        "source": "getting-to-know-the-newish-kid-on-the-block-the-yamamoto-yamatanuki.txt"
+      }
+    ],
+    "10\" Worm (Shakey/TX)": [
+      {
+        "score": 0.55,
+        "source": "the-senko-is-just-the-beginning.txt"
+      }
+    ],
+    "Football Jig": [
+      {
+        "score": 0.55,
+        "source": "yamamoto-secret-menu.txt"
+      }
+    ]
+  },
   "knowledge": [
     {
       "category": "bait-design",

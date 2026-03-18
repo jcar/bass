@@ -75,8 +75,8 @@ export const DEFAULT_TUNING: TuningConfig = {
   biteWeights: {
     waterTemp: 0.24,          // #1: strongest single predictor of catch rates (Wilde 1997, Texas Tech)
     timeOfDay: 0.18,          // #2: important but partly captured by temperature
-    frontalSystem: 0.14,      // #3: promoted — most dramatic short-term effect on bite quality
-    wind: 0.16,               // #4: current, mudlines, surface break are well-supported
+    frontalSystem: 0.16,      // #3: most dramatic short-term effect on bite quality — deserves ≥ wind
+    wind: 0.14,               // #4: current, mudlines, surface break are well-supported
     barometricPressure: 0.10, // #5: demoted — largely redundant with frontal system (Gatz & Linder 1990)
     waterClarity: 0.10,
     skyCondition: 0.08,
@@ -101,9 +101,9 @@ export const DEFAULT_TUNING: TuningConfig = {
   },
 
   pressure: {
-    highThreshold: 30.40,     // raised from 30.20 — behavioral suppression at 30.40+ (Keith Jones)
-    lowThreshold: 29.90,      // raised from 29.80 — feeding activation begins at 29.90 (In-Fisherman)
-    trendSensitivity: 0.06,   // raised from 0.04 — filters diurnal noise (0.02-0.04 is normal variation)
+    highThreshold: 30.20,     // 30.20+ = suppressed feeding (In-Fisherman, Bassmaster consensus)
+    lowThreshold: 29.90,      // feeding activation begins at 29.90 (In-Fisherman)
+    trendSensitivity: 0.04,   // aligned with forecast API threshold (~1.3 hPa ≈ 0.04 inHg)
   },
 
   lureMultipliers: {
@@ -112,7 +112,7 @@ export const DEFAULT_TUNING: TuningConfig = {
     'Texas Rig (Creature Bait)': 1.20,    // all-time most cited winning pattern on TX waters
     'Drop Shot': 1.20,                    // #1 finesse technique in professional bass fishing
     'Swim Jig': 1.15,                     // top-3 money bait on NTX reservoirs pre-spawn→post
-    'Chatterbait': 1.15,                  // surpassed spinnerbait in tournament wins 2020-2025
+    'Bladed Jig': 1.15,                   // surpassed spinnerbait in tournament wins 2020-2025
     'Lipless Crankbait': 1.15,            // proven pre-spawn/fall pattern (grass rip)
     'Shakyhead': 1.15,                    // NTX regional staple, year-round producer
     'Football Jig': 1.15,                 // #1 offshore jig for structured fishing
@@ -134,10 +134,40 @@ export const DEFAULT_TUNING: TuningConfig = {
     // Tier 3 — Declining or Niche
     'Spinnerbait (Colorado/Willow)': 0.95, // still works but chatterbait/swim jig took its share
     'Carolina Rig': 0.90,                // displaced by strolling rig and football jig
+    'Hollow-Body Frog': 1.05,             // critical summer/post-spawn pattern on NTX grass lakes
     'Buzzbait': 0.90,                    // fun but low-percentage, truly situational
     'Spy Bait': 0.80,                    // requires clear water — irrelevant in stained NTX
   },
 };
+
+// ─── Seasonal Time-of-Day Adjustment ───
+// Dawn/dusk windows shift with daylight. Fixed 5-8am/5-8pm is wrong at the edges.
+// Winter: later dawn, earlier dusk. Summer: earlier dawn, later dusk.
+export function getSeasonalTimeOfDay(month: number, cfg: TuningConfig): TuningConfig['timeOfDay'] {
+  const base = cfg.timeOfDay;
+  // Winter (Nov-Feb): NTX first light ~7am, last light ~5:30pm
+  if (month >= 11 || month <= 2) {
+    return {
+      dawn:      { ...base.dawn, startHour: 7, endHour: 10 },
+      morning:   { ...base.morning, startHour: 10, endHour: 12 },
+      midday:    base.midday,
+      afternoon: { ...base.afternoon, startHour: 14, endHour: 16 },
+      dusk:      { ...base.dusk, startHour: 16, endHour: 19 },
+    };
+  }
+  // Summer (May-Aug): NTX first light ~5:45am, last light ~9pm
+  if (month >= 5 && month <= 8) {
+    return {
+      dawn:      { ...base.dawn, startHour: 5, endHour: 9 },
+      morning:   { ...base.morning, startHour: 9, endHour: 11 },
+      midday:    base.midday,
+      afternoon: { ...base.afternoon, startHour: 14, endHour: 19 },
+      dusk:      { ...base.dusk, startHour: 19, endHour: 21 },
+    };
+  }
+  // Shoulder (Mar-Apr, Sep-Oct): default values work well
+  return base;
+}
 
 // ─── Persistence ───
 const STORAGE_KEY = 'strikezone-tuning-v1';

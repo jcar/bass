@@ -39,6 +39,20 @@ export interface TipRule {
   priority: number; // higher = checked first
 }
 
+export interface PresentationRule {
+  when: ConditionPredicate;
+  weight?: string;        // "3/8oz", "1/2oz tungsten"
+  trailer?: string;       // "Rage Craw", "Caffeine Shad paddletail"
+  retrieveNote?: string;  // "Slow roll — feel the blade thump"
+  priority: number;
+}
+
+export interface PresentationData {
+  weight?: string;
+  trailer?: string;
+  retrieveNote?: string;
+}
+
 /** Skeleton lure definition — no conditional logic, just the baseline. */
 export interface BaseLure {
   name: string;
@@ -64,6 +78,9 @@ export interface BaseLure {
   /** General-knowledge tip rules, sorted by priority desc */
   tipRules: TipRule[];
   defaultTip: string;
+  /** General-knowledge presentation rules, sorted by priority desc */
+  presentationRules: PresentationRule[];
+  defaultPresentation: PresentationData;
 }
 
 /** An angler's opinion on a specific lure. Sparse — only include what they're known for. */
@@ -82,6 +99,9 @@ export interface LureOpinion {
   /** Tip rules (merged with base, best match shown with angler attribution) */
   tipRules?: TipRule[];
   defaultTip?: string;
+  /** Presentation rules (merged with base, best per-field match wins) */
+  presentationRules?: PresentationRule[];
+  defaultPresentation?: PresentationData;
 }
 
 /** A pro angler's complete profile. */
