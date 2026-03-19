@@ -83,11 +83,11 @@ export const DEFAULT_TUNING: TuningConfig = {
   },
 
   timeOfDay: {
-    dawn:      { startHour: 5,  endHour: 8,  shallowBias: 0.4, movingBaitBonus: 20, topwaterBonus: 15 },
-    morning:   { startHour: 8,  endHour: 11, shallowBias: 0.1, movingBaitBonus: 10, offshoreBias: 0.2 },
-    midday:    { startHour: 11, endHour: 14, deepBias: 0.35,   finessBonus: 12,     dockBonus: 13 },
-    afternoon: { startHour: 14, endHour: 17, deepBias: 0.2,    finessBonus: 10,     dockBonus: 15 },
-    dusk:      { startHour: 17, endHour: 20, shallowBias: 0.35, movingBaitBonus: 18, topwaterBonus: 20 },
+    dawn:      { startHour: 5,  endHour: 8,  shallowBias: 0.4, movingBaitBonus: 8, topwaterBonus: 6 },
+    morning:   { startHour: 8,  endHour: 11, shallowBias: 0.1, movingBaitBonus: 4, offshoreBias: 0.2 },
+    midday:    { startHour: 11, endHour: 14, deepBias: 0.35,   finessBonus: 5,     dockBonus: 5 },
+    afternoon: { startHour: 14, endHour: 17, deepBias: 0.2,    finessBonus: 4,     dockBonus: 6 },
+    dusk:      { startHour: 17, endHour: 20, shallowBias: 0.35, movingBaitBonus: 7, topwaterBonus: 8 },
   },
 
   depthSensitivity: {

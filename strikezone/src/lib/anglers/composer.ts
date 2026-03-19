@@ -334,7 +334,10 @@ export function composeLures(baseLures: BaseLure[], anglerProfiles: AnglerProfil
         let c = base.baseConfidence;
         c += sumBaseModifiers(base.modifiers, ctx);
         c += sumAnglerModifiers(anglerOpinions, ctx);
-        return Math.min(base.maxConfidence, c);
+        // Cap below maxConfidence to leave headroom for engine-level
+        // adjustments (time-of-day bonuses, lure multipliers) to differentiate.
+        const ceiling = base.maxConfidence - 15;
+        return Math.min(ceiling, c);
       },
 
       getColor(ctx: LureContext): { name: string; hex: string } {

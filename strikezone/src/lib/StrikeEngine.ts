@@ -466,8 +466,10 @@ export function scoreLure(
     confidence += (todCfg as { dockBonus: number }).dockBonus;
   }
 
+  // Lure multiplier — additive, not multiplicative, to preserve spread.
+  // A 1.25 multiplier adds +10 rather than blowing a 82 to 103.
   const mult = cfg.lureMultipliers[lure.name] ?? 1.0;
-  confidence = Math.max(0, Math.min(99, Math.round(confidence * mult)));
+  confidence = Math.max(0, Math.min(99, Math.round(confidence + (mult - 1) * 40)));
   if (confidence < 45) return null;
 
   const effectiveMin = Math.max(lure.minDepth, fishZoneTop);
@@ -538,6 +540,28 @@ export function calculateAnglerPicks(
   // Sort anglers by their top lure confidence (highest first)
   anglerRanked.sort((a, b) => b.lures[0].confidence - a.lures[0].confidence);
 
+  // Build a condition-aware rationale instead of a generic credibility label
+  function buildRationale(anglerName: string, lureName: string, cred: number): string {
+    const parts: string[] = [];
+    if (cred >= 0.9) parts.push(`${anglerName}'s signature`);
+    else if (cred >= 0.7) parts.push(`${anglerName} go-to`);
+    else parts.push(`${anglerName} pick`);
+
+    // Add the most relevant condition context
+    const season = ctx.season;
+    if (ctx.frontalSystem === 'post-frontal') parts.push('for post-frontal');
+    else if (ctx.frontalSystem === 'pre-frontal') parts.push('pre-frontal');
+    else if (ctx.isStained && lureName.match(/jig|spinner|bladed/i)) parts.push('in stained water');
+    else if (season === 'pre-spawn') parts.push('for pre-spawn');
+    else if (season === 'post-spawn') parts.push('for post-spawn');
+    else if (season === 'spawn') parts.push('on beds');
+    else if (season === 'winter') parts.push('in cold water');
+    else if (season === 'summer' && ctx.fishDepth > 12) parts.push('offshore');
+    else if (ctx.isLowLight) parts.push('in low light');
+
+    return parts.join(' ');
+  }
+
   // Phase 2: Greedy assignment with endorser fallthrough
   const claimedLures = new Map<string, AnglerPick>(); // lure name → pick
   const picks: AnglerPick[] = [];
@@ -551,12 +575,11 @@ export function calculateAnglerPicks(
       if (existing) {
         // Add as endorser on the existing pick
         const cred = angler.credibility[lure.name] ?? angler.defaultCredibility;
-        const credLabel = cred >= 0.9 ? 'Signature bait' : cred >= 0.7 ? 'High confidence pick' : 'Situational pick';
         const endorsement: AnglerEndorsement = {
           anglerId: angler.profileId,
           anglerName: angler.profileName,
           confidence: lure.confidence,
-          rationale: credLabel,
+          rationale: buildRationale(angler.profileName, lure.name, cred),
           proTip: lure.proTip,
         };
         existing.endorsers.push(endorsement);
@@ -566,7 +589,6 @@ export function calculateAnglerPicks(
 
       // Claim this lure
       const cred = angler.credibility[lure.name] ?? angler.defaultCredibility;
-      const credLabel = cred >= 0.9 ? 'Signature bait' : cred >= 0.7 ? 'High confidence pick' : 'Situational pick';
       const template = angler.templates.get(lure.name);
       const colorAlts = template?.getColorAlternates?.(ctx)?.map(a => ({
         color: a.color, hex: a.hex, conditions: a.conditions as Record<string, unknown>, matched: a.matched,
@@ -575,7 +597,7 @@ export function calculateAnglerPicks(
         anglerId: angler.profileId,
         anglerName: angler.profileName,
         lure,
-        rationale: credLabel,
+        rationale: buildRationale(angler.profileName, lure.name, cred),
         endorsers: [],
         colorAlternates: colorAlts,
       };
