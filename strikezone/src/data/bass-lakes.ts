@@ -480,6 +480,7 @@ const BASS_LAKES: Lake[] = [
   { id: 'tx-buchanan', name: 'Lake Buchanan', aliases: ['Buchanan'], state: 'TX', lat: 30.80, lon: -98.40, maxDepth: 132, surfaceAcres: 23200, bassRating: 2 },
   { id: 'tx-belton', name: 'Belton Lake', aliases: ['Belton'], state: 'TX', lat: 31.10, lon: -97.48, maxDepth: 124, surfaceAcres: 12300, bassRating: 2 },
   { id: 'tx-possum-kingdom', name: 'Possum Kingdom Lake', aliases: ['Possum Kingdom', 'PK Lake'], state: 'TX', lat: 32.87, lon: -98.52, maxDepth: 145, surfaceAcres: 17700, bassRating: 3 },
+  { id: 'tx-purtis-creek', name: 'Purtis Creek Lake', aliases: ['Purtis Creek', 'Purtis Creek State Park'], state: 'TX', lat: 32.35, lon: -96.00, maxDepth: 18, surfaceAcres: 355, bassRating: 3 },
   { id: 'tx-grapevine', name: 'Grapevine Lake', aliases: ['Grapevine'], state: 'TX', lat: 32.98, lon: -97.08, maxDepth: 60, surfaceAcres: 7380, bassRating: 2 },
   { id: 'tx-joe-pool', name: 'Joe Pool Lake', aliases: ['Joe Pool'], state: 'TX', lat: 32.61, lon: -97.00, maxDepth: 75, surfaceAcres: 7470, bassRating: 2 },
   { id: 'tx-alan-henry', name: 'Alan Henry Reservoir', aliases: ['Alan Henry'], state: 'TX', lat: 33.06, lon: -101.05, maxDepth: 115, surfaceAcres: 2880, bassRating: 3 },
