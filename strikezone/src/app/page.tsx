@@ -15,7 +15,6 @@ import ConditionsPanel from '@/components/ConditionsPanel';
 import type { ConditionDelta } from '@/components/ConditionsPanel';
 import WhatToThrowSection from '@/components/WhatToThrowSection';
 import MorningBriefing from '@/components/MorningBriefing';
-import DayComparison from '@/components/DayComparison';
 import CommandStrip from '@/components/CommandStrip';
 import TopPickCard from '@/components/TopPickCard';
 import { buildWhatToThrow } from '@/lib/whatToThrow';
@@ -73,10 +72,6 @@ export default function Dashboard() {
   // Feature 3: Session Memory
   const [session, setSession] = useState<SessionState>(() => loadSession());
   const sessionInitRef = useRef(false);
-
-  // Feature 2: Day comparison
-  const [compareDay, setCompareDay] = useState<number | null>(null);
-
 
   // Angler deep dive state (shared between TopPickCard and WhatToThrowSection)
   const [followingAngler, setFollowingAngler] = useState<string | null>(null);
@@ -409,27 +404,6 @@ export default function Dashboard() {
     if (realIndex >= 0) handleDaySelect(realIndex);
   }, [forecastDays, forecast, handleDaySelect]);
 
-  // Compare day data
-  const comparisonData = useMemo(() => {
-    if (compareDay == null || !allDayAnalyses[displaySelectedDay] || !allDayAnalyses[compareDay]) return null;
-    const selIdx = forecast.indexOf(forecastDays[displaySelectedDay]);
-    const cmpIdx = forecast.indexOf(forecastDays[compareDay]);
-    return {
-      dayA: {
-        index: displaySelectedDay,
-        label: forecastDays[displaySelectedDay]?.dayLabel ?? '',
-        analysis: allDayAnalyses[displaySelectedDay],
-        conditions: conditionsFromForecast(forecast, selIdx),
-      },
-      dayB: {
-        index: compareDay,
-        label: forecastDays[compareDay]?.dayLabel ?? '',
-        analysis: allDayAnalyses[compareDay],
-        conditions: conditionsFromForecast(forecast, cmpIdx),
-      },
-    };
-  }, [compareDay, displaySelectedDay, allDayAnalyses, forecastDays, forecast, conditionsFromForecast]);
-
   if (!analysis) {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center">
@@ -498,14 +472,7 @@ export default function Dashboard() {
           analyses={allDayAnalyses}
           forecast={forecastDays}
           selectedDay={displaySelectedDay}
-          onDaySelect={(i) => {
-            if (compareDay == null && i !== displaySelectedDay) {
-              setCompareDay(displaySelectedDay);
-            } else {
-              setCompareDay(null);
-            }
-            handleChartDaySelect(i);
-          }}
+          onDaySelect={handleChartDaySelect}
         />
       )}
 
@@ -543,15 +510,6 @@ export default function Dashboard() {
               }
             </div>
           </div>
-        )}
-
-        {/* Feature 2: Day Comparison (when comparing two days) */}
-        {comparisonData && (
-          <DayComparison
-            dayA={comparisonData.dayA}
-            dayB={comparisonData.dayB}
-            onDismiss={() => setCompareDay(null)}
-          />
         )}
 
         {/* Morning Briefing (starts collapsed) */}
