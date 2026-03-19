@@ -134,17 +134,6 @@ export default function BiteForecast({
                   <span style={{ color: getPressureColor(a.pressureTrend) }}>{getPressureArrow(a.pressureTrend)}</span>
                 </div>
 
-                {/* Best day badge */}
-                {isBest && (
-                  <div className="absolute -top-0.5 -right-0.5 px-0.5 rounded text-[7px] font-mono font-bold bg-emerald-500 text-white leading-tight">
-                    GO
-                  </div>
-                )}
-
-                {/* Extrapolated dot */}
-                {day.isExtrapolated && !isBest && (
-                  <div className="absolute top-0.5 right-0.5 w-1 h-1 rounded-full bg-amber-500/50" />
-                )}
               </button>
             );
           })}
