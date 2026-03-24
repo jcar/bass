@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Flipping Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Flipping Jig — steady post-spawn approach for muddy water.",
+    "gameplan": "The Flipping Jig is a strong choice for post-spawn with muddy water and stable conditions.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "black and blue",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Flipping Jig",
+      "color": "Black",
+      "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "Hudson: 'Prefer Dinger in post-spawn pitching at finicky recovering bass hanging near the surface'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — finesse fall approach for stained water.",
+    "gameplan": "The Chatterbait is a strong choice for fall with stained water and post frontal conditions.\n\nWheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "Black and Blue",
+      "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "White",
+      "retrieve": "Wheeler: For hooksets, reel steadily and let the rod load up before setting the hook instead of snapping the rod - this prevents the blade from popping open the bass's mouth and increases hook-to-land",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The importance of showing bass something they haven't seen or heard — a squarebill that combines attributes of a bladed jig (oscillating metal lip with clicking sound) and a crankbait body covers water and triggers reaction strikes"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

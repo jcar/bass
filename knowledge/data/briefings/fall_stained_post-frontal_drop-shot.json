@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Drop Shot"
+  },
+  "briefing": {
+    "headline": "Rig up a Drop Shot — finesse fall approach for stained water.",
+    "gameplan": "The Drop Shot is a strong choice for fall with stained water and post frontal conditions.\n\nJohnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast past the fish and drag it through them.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Drop Shot",
+      "color": "Morning Dawn",
+      "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Drop Shot",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For the Santee Cooper drop shot, I used a green/pumpkin/blue X-Zone Deception Worm 12 inches above the weight on an Alpha Angler DSR 6-foot-10 medium rod with a Daiwa Exist 3000 reel.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Fall smallmouth fishing is all about location and timing. Cover water fast with reaction baits to find active groups, then slow down with finesse presentations to catch the rest. If fish stop biting a tube, switch to Ned rig or drop shot."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Won the Cherokee Lake Open with a drop shot and topwater combination during post-tropical-storm, post-frontal fall conditions."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait..."
+      }
+    ],
+    "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

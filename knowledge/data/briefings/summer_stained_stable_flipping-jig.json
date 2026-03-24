@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Flipping Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Flipping Jig — steady summer approach for stained water.",
+    "gameplan": "The Flipping Jig is a strong choice for summer with stained water and stable conditions.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "Alabama craw with double header trailer",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Flipping Jig",
+      "color": "black/blue",
+      "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall transition signals: cooling nights drop water temps below summer highs, baitfish begin transitioning. Watch for pods schooling near surface, shad flipping on top, dive-bombing gulls, multiple herons on points or in creek backs. On natur..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

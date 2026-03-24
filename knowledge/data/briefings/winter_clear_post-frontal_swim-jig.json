@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Swim Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Swim Jig — finesse winter approach for clear water.",
+    "gameplan": "The Swim Jig is a strong choice for winter with clear water and post frontal conditions.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Green Shad",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on creek channel, grass, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Swim Jig",
+      "color": "Gizzard Shad",
+      "retrieve": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad",
+      "targets": "Focus on creek channel, grass, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Use a 7-2 swim jig/frog rod with a 7.5:1 or 8.3:1 reel for fast retrieves. In winter when fishing deep and slow, switch to a 6.4:1 reel.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jig..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — finesse summer approach for stained water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for summer with stained water and post frontal conditions.\n\nPalaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the other side -- looks like a crawfish slowly scooting, acts like something between a normal crankbait \n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the ",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Wild Craw (red crawfish)",
+      "retrieve": "Hackney: 'On a KVD 2.5, replace standard No.2 hooks with short shank No.1 around heavy cover for greater lip-grabbing ability.'",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

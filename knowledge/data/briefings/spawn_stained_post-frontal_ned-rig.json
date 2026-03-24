@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — finesse spawn approach for stained water.",
+    "gameplan": "The Ned Rig is a strong choice for spawn with stained water and post frontal conditions.\n\nWheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
+      "targets": "Focus on flat, grass, cover. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Blue Baby",
+      "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
+      "targets": "Focus on flat, grass, cover. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Developed the SPRO CJ Smasher as a versatile 3-inch worm that is durable (Dura Tuff material), scent-infused (Amino Bite), and can be rigged multiple ways including drop shot, shakey head, Ned rig, and Texas rig."
+      }
+    ],
+    "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

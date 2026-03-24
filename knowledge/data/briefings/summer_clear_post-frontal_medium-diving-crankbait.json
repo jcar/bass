@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — finesse summer approach for clear water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for summer with clear water and post frontal conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

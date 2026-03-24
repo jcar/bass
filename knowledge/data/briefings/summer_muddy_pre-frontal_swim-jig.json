@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Swim Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Swim Jig — aggressive summer approach for muddy water.",
+    "gameplan": "The Swim Jig is a strong choice for summer with muddy water and pre frontal conditions.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      }
+    ],
+    "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

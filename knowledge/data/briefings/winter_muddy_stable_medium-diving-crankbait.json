@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — steady winter approach for muddy water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for winter with muddy water and stable conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "Wheeler: The Rapala Shad Rap #5 is the first bait to grab when water is cold, especially after the first rain in fall when fish reset into winter patterns. Fish it on spinning gear with 8-pound fluoro",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      }
+    ],
+    "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

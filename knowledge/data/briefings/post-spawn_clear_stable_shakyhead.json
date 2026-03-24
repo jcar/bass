@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Shakyhead"
+  },
+  "briefing": {
+    "headline": "Rig up a Shakyhead — steady post-spawn approach for clear water.",
+    "gameplan": "The Shakyhead is a strong choice for post-spawn with clear water and stable conditions.\n\nPalaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Shakyhead",
+      "color": "Watermelon Red",
+      "retrieve": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready t",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Shakyhead",
+      "color": "Blue Baby",
+      "retrieve": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+      }
+    ],
+    "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

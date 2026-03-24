@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — aggressive pre-spawn approach for stained water.",
+    "gameplan": "The Neko Rig is a strong choice for pre-spawn with stained water and pre frontal conditions.\n\nWheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Baby Bass",
+      "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — steady pre-spawn approach for muddy water.",
+    "gameplan": "The Ned Rig is a strong choice for pre-spawn with muddy water and stable conditions.\n\nWheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smoke/Black Blue Gold Flake (214)",
+      "retrieve": "Wheeler: A wacky rigged drop shot Ned with a 4mm crossover ring has a slow fall rate ideal for targeting individual fish in deep water. Bump up to heavier weight for faster bottom contact.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Be versatile during prespawn — cycle through finesse swimbaits, Ned rigs, and heavy gliding jigs to determine the best technique for current conditions"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Rising water — bass push shallow and spread out. Best spring days can occur when warming water rises fast. Key on runoff areas: backs of creeks, culverts, residential yards, city street drainage. Water temp can vary 5 degrees between pockets..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

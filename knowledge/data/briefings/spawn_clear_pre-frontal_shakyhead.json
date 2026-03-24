@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Shakyhead"
+  },
+  "briefing": {
+    "headline": "Rig up a Shakyhead — aggressive spawn approach for clear water.",
+    "gameplan": "The Shakyhead is a strong choice for spawn with clear water and pre frontal conditions.\n\nPalaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Shakyhead",
+      "color": "Watermelon Red",
+      "retrieve": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready t",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Shakyhead",
+      "color": "Watermelon Red",
+      "retrieve": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'For all four finesse techniques (drop-shot, Neko, shaky head, Ned): 10lb braid to 8lb fluorocarbon leader with FG knot as baseline. Go heavier for cover or colored water. Longer 7-2 to 7-4 rods for open water long casts, shorter 6-10 to 7-fo..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — aggressive spawn approach for clear water.",
+    "gameplan": "The Walking Topwater is a strong choice for spawn with clear water and pre frontal conditions.\n\nWheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC hooks get into the fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Yellow Perch",
+      "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

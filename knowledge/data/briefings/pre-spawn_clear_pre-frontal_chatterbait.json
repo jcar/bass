@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — aggressive pre-spawn approach for clear water.",
+    "gameplan": "The Chatterbait is a strong choice for pre-spawn with clear water and pre frontal conditions.\n\nKVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it down in old dead vegetation — it holds heat and bass are drawn to it. Tungsten model has smaller blade\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "Blue Craw",
+      "retrieve": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it do",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "Shad Pattern",
+      "retrieve": "KVD: Post-frontal cold pre-spawn — work the Thunder Cricket like a jig. Get it down in the grass, hop it, twitch it. Let it hit bottom or grass, then twitch. 'Sometimes you got to make them react.' Bi",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

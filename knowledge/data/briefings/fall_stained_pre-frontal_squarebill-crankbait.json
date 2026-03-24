@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — aggressive fall approach for stained water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for fall with stained water and pre frontal conditions.\n\nKVD: 'Fall reservoir creek arms — line up with the creek channel edge and fire long casts ahead of the boat. Use the squarebill for surveillance, running down edges, hitting bottom, stumps, laydowns, docks. Work it fast and erratic. Bump everything. 17-20lb fluorocarbon to rip through grass.'\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Citrus Shad",
+      "retrieve": "KVD: 'Fall reservoir creek arms — line up with the creek channel edge and fire long casts ahead of the boat. Use the squarebill for surveillance, running down edges, hitting bottom, stumps, laydowns, ",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Sexy Shad",
+      "retrieve": "KVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving sha",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The importance of showing bass something they haven't seen or heard — a squarebill that combines attributes of a bladed jig (oscillating metal lip with clicking sound) and a crankbait body covers water and triggers reaction strikes"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

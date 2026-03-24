@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — steady summer approach for clear water.",
+    "gameplan": "The 10\" Worm is a strong choice for summer with clear water and stable conditions.\n\nWheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-oz tungsten, 4/0 hook, 14-lb fluorocarbon\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin Blue",
+      "retrieve": "Wheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-o",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "Robertson: When post-spawn schools bust up due to high water, Texas-rig a big worm (Strike King Bullworm) in green pumpkin to find small scattered schools.",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

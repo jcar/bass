@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — aggressive pre-spawn approach for stained water.",
+    "gameplan": "The Walking Topwater is a strong choice for pre-spawn with stained water and pre frontal conditions.\n\nWheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC hooks get into the fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Yellow Perch",
+      "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transi..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

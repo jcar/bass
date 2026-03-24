@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — aggressive winter approach for muddy water.",
+    "gameplan": "The 10\" Worm is a strong choice for winter with muddy water and pre frontal conditions.\n\nFor Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin",
+      "retrieve": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard wi..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

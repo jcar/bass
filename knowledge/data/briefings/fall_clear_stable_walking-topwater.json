@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — steady fall approach for clear water.",
+    "gameplan": "The Walking Topwater is a strong choice for fall with clear water and stable conditions.\n\nWheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still running away from the fish.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still r",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "green back white sides (IU)",
+      "retrieve": "Robertson: When a deep pattern dies due to wind shift muddying the water, switch to a modified walking topwater (Sexy Dawg with SuspenDots and upgraded treble hooks to reduce buoyancy) targeting bass ",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "proInsights": [
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Look for bass hunting bait in small feeding groups called 'wolf packs' — these aggressive groups will respond well to topwater presentations in pockets and around scattered rock."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      }
+    ],
+    "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

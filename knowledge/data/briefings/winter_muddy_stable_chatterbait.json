@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — steady winter approach for muddy water.",
+    "gameplan": "The Chatterbait is a strong choice for winter with muddy water and stable conditions.\n\nKVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it down in old dead vegetation — it holds heat and bass are drawn to it. Tungsten model has smaller blade\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "Fire Craw",
+      "retrieve": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it do",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "bold/ambitious colors",
+      "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Cold water Thunder Cricket: cast toward structure or transitions, let sink just above cover/grass, lift-and-drop retrieve with brief pauses. The key isn't speed — it's triggering instinctive reaction bites. Slow enough for blade to stay in s..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — aggressive post-spawn approach for clear water.",
+    "gameplan": "The Neko Rig is a strong choice for post-spawn with clear water and pre frontal conditions.\n\nKVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue the tungsten weights so they don't fly out when fish jump.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "KVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue t",
+      "targets": "Focus on dock, grass, point. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Baby Bass",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on dock, grass, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

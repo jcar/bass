@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — aggressive winter approach for muddy water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for winter with muddy water and pre frontal conditions.\n\nKVD: Flatside crankbait (Hardliner 35) is the FIRST crankbait in extreme cold — 'the difference between a flatside and even a squarebill is night and day in the amount of bites in extremely cold water.' Smaller profile, no rattle, but flat sides give off huge pressure waves fish home in on.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "KVD: Flatside crankbait (Hardliner 35) is the FIRST crankbait in extreme cold — 'the difference between a flatside and even a squarebill is night and day in the amount of bites in extremely cold water",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "dark with orange/chartreuse/white accents",
+      "retrieve": "KVD: For the shallow zone in cold water, use a flatside crankbait (Hardliner). Extremely tight action — bass use their lateral line to hunt in cold water and flatsides displace a ton of water. Small p",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'I'm a big believer in flat-sided crankbaits in winter — the KVD 1.5 Flat and Lucky Shad for cold water. Throw Lucky Shad on spinning equipment with 8lb fluoro for extra distance and depth.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

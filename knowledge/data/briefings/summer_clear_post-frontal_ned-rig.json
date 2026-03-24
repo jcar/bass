@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — finesse summer approach for clear water.",
+    "gameplan": "The Ned Rig is a strong choice for summer with clear water and post frontal conditions.\n\nKVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "KVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smoke/Black Blue Gold Flake (214)",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — steady summer approach for muddy water.",
+    "gameplan": "The Neko Rig is a strong choice for summer with muddy water and stable conditions.\n\nWheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin Magic",
+      "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on elec..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

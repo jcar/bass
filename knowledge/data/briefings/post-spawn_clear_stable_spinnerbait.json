@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Spinnerbait (Colorado/Willow)"
+  },
+  "briefing": {
+    "headline": "Rig up a Spinnerbait — steady post-spawn approach for clear water.",
+    "gameplan": "The Spinnerbait is a strong choice for post-spawn with clear water and stable conditions.\n\nWheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Bluegill",
+      "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Chartreuse Shad",
+      "retrieve": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Fish a 6.8:1 reel with 16-lb fluorocarbon on a medium-heavy spinnerbait rod. The slower gear ratio helps maintain the medium to slow retrieve needed.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+      }
+    ],
+    "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

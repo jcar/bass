@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — steady spawn approach for muddy water.",
+    "gameplan": "The Ned Rig is a strong choice for spawn with muddy water and stable conditions.\n\nWheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
+      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Blue Baby",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+      }
+    ],
+    "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

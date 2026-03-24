@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — aggressive summer approach for clear water.",
+    "gameplan": "The Walking Topwater is a strong choice for summer with clear water and pre frontal conditions.\n\nWheeler: Used an X-Rap Prop and handcarved prop bait in bluegill patterns around bluegill beds; when a bass dogs the topwater darting back and forth without striking, pause the bait for as long as 6 seconds until the fish inhales it.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Stump Jumper (bluegill/bream pattern)",
+      "retrieve": "Wheeler: Used an X-Rap Prop and handcarved prop bait in bluegill patterns around bluegill beds; when a bass dogs the topwater darting back and forth without striking, pause the bait for as long as 6 s",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Hot water dog days: bait and bass suspend off structure over deep points and humps. Clear water makes them selective and easily spooked — odds of catching several from one spot are minimal. Hit a lot of spots, catch a few, move on. Go back t..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'Walk the frog on top of thick grass to get bass to blow through it, or fish it on edges and points of the grass. Walk it 90% of the time like a Zara Spook'"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Bluegill and bream are the bait bass feed on most at this time of year. A bream-colored topwater looks like a bream jumping, skipping, and moving on the surface.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

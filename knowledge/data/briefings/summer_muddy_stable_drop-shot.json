@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Drop Shot"
+  },
+  "briefing": {
+    "headline": "Rig up a Drop Shot — steady summer approach for muddy water.",
+    "gameplan": "The Drop Shot is a strong choice for summer with muddy water and stable conditions.\n\nJohnston: On the St. Lawrence, fish an 80-yard stretch of bottom in about 40 feet targeting a pod of giant smallmouth. Catch one, then leave the spot and make a big run away before returning, because pressured deepwater smallmouth shut down after each catch.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Drop Shot",
+      "color": "Morning Dawn",
+      "retrieve": "Johnston: On the St. Lawrence, fish an 80-yard stretch of bottom in about 40 feet targeting a pod of giant smallmouth. Catch one, then leave the spot and make a big run away before returning, because ",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Drop Shot",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on elec..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Summer bass suspend when temps peak, no current, and thermocline forms. See the thermocline as a consistent band on your graph — fish above it, none below. Schooling activity away from bottom and structure is a giveaway. Clouds of suspended ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — steady pre-spawn approach for clear water.",
+    "gameplan": "The Football Jig is a strong choice for pre-spawn with clear water and stable conditions.\n\nHackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolina rig but only one knot.'\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Natural Shad",
+      "retrieve": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolin",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Natural Shad",
+      "retrieve": "Yama Craw buoyancy makes claws float up behind football jig in defensive crawfish posture. Perfect for bottom-hopping presentations",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

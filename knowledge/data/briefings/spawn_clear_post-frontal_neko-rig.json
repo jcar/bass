@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — finesse spawn approach for clear water.",
+    "gameplan": "The Neko Rig is a strong choice for spawn with clear water and post frontal conditions.\n\nKVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue the tungsten weights so they don't fly out when fish jump.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "KVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue t",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Baby Bass",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on elec..."
+      }
+    ],
+    "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

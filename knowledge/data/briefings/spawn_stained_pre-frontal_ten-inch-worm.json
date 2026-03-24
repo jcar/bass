@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — aggressive spawn approach for stained water.",
+    "gameplan": "The 10\" Worm is a strong choice for spawn with stained water and pre frontal conditions.\n\nFor Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
+      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin",
+      "retrieve": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
+      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

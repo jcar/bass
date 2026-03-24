@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — aggressive fall approach for muddy water.",
+    "gameplan": "The Football Jig is a strong choice for fall with muddy water and pre frontal conditions.\n\nHackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolina rig but only one knot.'\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Chartreuse/White",
+      "retrieve": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolin",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Chartreuse/White",
+      "retrieve": "Yama Craw buoyancy makes claws float up behind football jig in defensive crawfish posture. Perfect for bottom-hopping presentations",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: A wind direction change can destroy a deep-water pattern by muddying previously clear water. When visibility drops from 6 feet to 2 feet, bass stop moving through the area and the deep bite dies. Be ready to switch to a shallow backup p..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

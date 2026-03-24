@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Texas Rig (Creature Bait)"
+  },
+  "briefing": {
+    "headline": "Rig up a Texas Rig — steady post-spawn approach for stained water.",
+    "gameplan": "The Texas Rig is a strong choice for post-spawn with stained water and stable conditions.\n\nWheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on grass, dock, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "green pumpkin",
+      "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
+      "targets": "Focus on grass, dock, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      }
+    ],
+    "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

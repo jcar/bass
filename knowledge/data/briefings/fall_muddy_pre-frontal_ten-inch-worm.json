@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — aggressive fall approach for muddy water.",
+    "gameplan": "The 10\" Worm is a strong choice for fall with muddy water and pre frontal conditions.\n\nFor Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin",
+      "retrieve": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: A wind direction change can destroy a deep-water pattern by muddying previously clear water. When visibility drops from 6 feet to 2 feet, bass stop moving through the area and the deep bite dies. Be ready to switch to a shallow backup p..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

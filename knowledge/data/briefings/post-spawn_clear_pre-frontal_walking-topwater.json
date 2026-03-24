@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — aggressive post-spawn approach for clear water.",
+    "gameplan": "The Walking Topwater is a strong choice for post-spawn with clear water and pre frontal conditions.\n\nWheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC hooks get into the fish\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "green back white sides (IU)",
+      "retrieve": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
+      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Especially in the South, females like to bunch up after spawning. When you find one female, you find a group of them. Use topwater around those groups as females seem to like it more.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — finesse summer approach for clear water.",
+    "gameplan": "The Football Jig is a strong choice for summer with clear water and post frontal conditions.\n\nWheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, bottom-hugging fish react\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin Purple",
+      "retrieve": "Wheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, b",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin Magic",
+      "retrieve": "Wheeler: A snapped football jig catches fish from pressured busted-up schools that won't bite other techniques — especially effective without FFS, just covering water with precise casts",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Snapping a football jig is different from stroking — stroking is for suspended fish, snapping is a small sharp motion that makes bottom-hugging fish in heavy current react. The higher-frequency kick action of the Cleanup Craw trailer comp..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

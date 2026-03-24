@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — finesse post-spawn approach for stained water.",
+    "gameplan": "The Ned Rig is a strong choice for post-spawn with stained water and post frontal conditions.\n\nWheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smelt",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Flipping Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Flipping Jig — steady pre-spawn approach for clear water.",
+    "gameplan": "The Flipping Jig is a strong choice for pre-spawn with clear water and stable conditions.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Flipping Jig",
+      "color": "Green Pumpkin Blue",
+      "retrieve": "Wheeler: When wind pushes fish from top of cover down to the base as a current break, switch from swimbait to a 1/2-oz jig with Cleanup Craw and drag it over those places — fish reposition low on cove",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on..."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

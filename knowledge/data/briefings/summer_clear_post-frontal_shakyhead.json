@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Shakyhead"
+  },
+  "briefing": {
+    "headline": "Rig up a Shakyhead — finesse summer approach for clear water.",
+    "gameplan": "The Shakyhead is a strong choice for summer with clear water and post frontal conditions.\n\nPalaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Shakyhead",
+      "color": "Watermelon Red",
+      "retrieve": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready t",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Shakyhead",
+      "color": "Watermelon Red",
+      "retrieve": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that",
+      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

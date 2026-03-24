@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Texas Rig (Creature Bait)"
+  },
+  "briefing": {
+    "headline": "Rig up a Texas Rig — aggressive summer approach for stained water.",
+    "gameplan": "The Texas Rig is a strong choice for summer with stained water and pre frontal conditions.\n\nWheeler: In mornings bass sit looser to the outside of cover; as the sun gets up they move further into the cover, requiring a toad early and flipping deeper in the cover later.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: In mornings bass sit looser to the outside of cover; as the sun gets up they move further into the cover, requiring a toad early and flipping deeper in the cover later.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin Blue",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+      }
+    ],
+    "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

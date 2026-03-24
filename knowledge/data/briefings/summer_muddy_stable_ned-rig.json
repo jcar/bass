@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — steady summer approach for muddy water.",
+    "gameplan": "The Ned Rig is a strong choice for summer with muddy water and stable conditions.\n\nWheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smoke/Black Blue Gold Flake (214)",
+      "retrieve": "Wheeler: A wacky rigged drop shot Ned with a 4mm crossover ring has a slow fall rate ideal for targeting individual fish in deep water. Bump up to heavier weight for faster bottom contact.",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

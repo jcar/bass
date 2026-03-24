@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Spinnerbait (Colorado/Willow)"
+  },
+  "briefing": {
+    "headline": "Rig up a Spinnerbait — aggressive pre-spawn approach for stained water.",
+    "gameplan": "The Spinnerbait is a strong choice for pre-spawn with stained water and pre frontal conditions.\n\nWheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "White",
+      "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
+      "targets": "Focus on flat, dock, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "black",
+      "retrieve": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone",
+      "targets": "Focus on flat, dock, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'I pick up my fishing pace considerably as the water hits around 52°F. I may run down a bank quickly throwing a lipless crankbait or spinnerbait, then pause to pitch a jig at submerged logs or brushpiles.'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

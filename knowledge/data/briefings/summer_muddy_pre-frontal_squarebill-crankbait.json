@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — aggressive summer approach for muddy water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for summer with muddy water and pre frontal conditions.\n\nPalaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the other side -- looks like a crawfish slowly scooting, acts like something between a normal crankbait \n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the ",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "dark with orange/chartreuse/white accents",
+      "retrieve": "Hackney: 'On a KVD 2.5, replace standard No.2 hooks with short shank No.1 around heavy cover for greater lip-grabbing ability.'",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "proInsights": [
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+      }
+    ],
+    "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

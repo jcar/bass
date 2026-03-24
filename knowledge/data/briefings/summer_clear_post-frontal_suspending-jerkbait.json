@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Suspending Jerkbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Suspending Jerkbait — finesse summer approach for clear water.",
+    "gameplan": "The Suspending Jerkbait is a strong choice for summer with clear water and post frontal conditions.\n\nKVD: Even in slick calm clear conditions, a jerkbait over the top of them will draw fish from distance. 'They're going to see it and they're going to come.' Don't switch to finesse just because it's calm.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Ito Wakasagi",
+      "retrieve": "KVD: Even in slick calm clear conditions, a jerkbait over the top of them will draw fish from distance. 'They're going to see it and they're going to come.' Don't switch to finesse just because it's c",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Mat Shad",
+      "retrieve": "KVD: 'Overcast + wind puts bass into feeding overdrive on clear reservoirs. Target main lake windblown points and where river channel pushes close to shore. Get deep jerkbait to maximum diving depth t",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Guntersville's grass has evolved over the years: milfoil first, then hydrilla, now a lot of eel grass. All three still present. The grass creates great habitat and clear water (filters it). Floating eel grass cut up by wind/waves/boats makes ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "The D Shad's extra density allows use on casting gear (15-lb fluorocarbon, medium-heavy rod) unlike most soft jerkbaits — this opens up fishing thick cover without breakoffs, and enables skip casting under docks and overhangs"
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blu..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish follow but won't commit, extend your pause to 8-10 seconds and vary the cadence"
+    ]
+  }
+}

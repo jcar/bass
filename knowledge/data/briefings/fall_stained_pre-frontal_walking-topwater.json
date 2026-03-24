@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Walking Topwater"
+  },
+  "briefing": {
+    "headline": "Rig up a Walking Topwater — aggressive fall approach for stained water.",
+    "gameplan": "The Walking Topwater is a strong choice for fall with stained water and pre frontal conditions.\n\nWheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still running away from the fish.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Walking Topwater",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still r",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Walking Topwater",
+      "color": "green back white sides (IU)",
+      "retrieve": "Robertson: When a deep pattern dies due to wind shift muddying the water, switch to a modified walking topwater (Sexy Dawg with SuspenDots and upgraded treble hooks to reduce buoyancy) targeting bass ",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "proInsights": [
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Look for bass hunting bait in small feeding groups called 'wolf packs' — these aggressive groups will respond well to topwater presentations in pockets and around scattered rock."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transi..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are blowing up but not connecting, pause 3-5 seconds after each strike before resuming"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — aggressive spawn approach for clear water.",
+    "gameplan": "The Football Jig is a strong choice for spawn with clear water and pre frontal conditions.\n\nHackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolina rig but only one knot.'\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Natural Shad",
+      "retrieve": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolin",
+      "targets": "Focus on grass, flat, bluffs. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Natural Shad",
+      "retrieve": "Yama Craw buoyancy makes claws float up behind football jig in defensive crawfish posture. Perfect for bottom-hopping presentations",
+      "targets": "Focus on grass, flat, bluffs. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "A stick bait on a skirtless football head is a productive look for walking down bluff ends"
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

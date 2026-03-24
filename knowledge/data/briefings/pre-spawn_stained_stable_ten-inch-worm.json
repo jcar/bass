@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — steady pre-spawn approach for stained water.",
+    "gameplan": "The 10\" Worm is a strong choice for pre-spawn with stained water and stable conditions.\n\nFor Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin",
+      "retrieve": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

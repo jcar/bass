@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — finesse summer approach for muddy water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for summer with muddy water and post frontal conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+      }
+    ],
+    "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

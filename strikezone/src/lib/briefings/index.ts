@@ -14,7 +14,32 @@ function toPressureState(frontal: FrontalSystem): string {
   }
 }
 
-// Map lure names to briefing lure categories (used only for briefing lookup)
+// Map lure names to kebab-case slugs used in briefing keys
+export const LURE_TO_SLUG: Record<string, string> = {
+  'Squarebill Crankbait': 'squarebill-crankbait',
+  'Medium Diving Crankbait': 'medium-diving-crankbait',
+  'Deep Diving Crankbait': 'deep-diving-crankbait',
+  'Lipless Crankbait': 'lipless-crankbait',
+  'Suspending Jerkbait': 'suspending-jerkbait',
+  'Spinnerbait (Colorado/Willow)': 'spinnerbait',
+  'Chatterbait': 'chatterbait',
+  'Bladed Jig': 'chatterbait',
+  'Swim Jig': 'swim-jig',
+  'Flipping Jig': 'flipping-jig',
+  'Football Jig': 'football-jig',
+  'Texas Rig (Creature Bait)': 'texas-rig',
+  'Carolina Rig': 'carolina-rig',
+  '10" Worm (Shakey/TX)': 'ten-inch-worm',
+  'Drop Shot': 'drop-shot',
+  'Ned Rig': 'ned-rig',
+  'Neko Rig': 'neko-rig',
+  'Shakyhead': 'shakyhead',
+  'Walking Topwater': 'walking-topwater',
+  'Buzzbait': 'walking-topwater',
+  'Hollow-Body Frog': 'walking-topwater',
+};
+
+// Keep LURE_TO_CATEGORY for backward compatibility with other parts of the app
 export const LURE_TO_CATEGORY: Record<string, string> = {
   'Squarebill Crankbait': 'cranking',
   'Medium Diving Crankbait': 'cranking',
@@ -45,8 +70,8 @@ export const LURE_TO_CATEGORY: Record<string, string> = {
   '10" Worm (Shakey/TX)': 'soft-plastics',
 };
 
-function buildKey(season: string, clarity: string, pressure: string, category: string): string {
-  return `${season}_${clarity}_${pressure}_${category}`;
+function buildKey(season: string, clarity: string, pressure: string, lureSlug: string): string {
+  return `${season}_${clarity}_${pressure}_${lureSlug}`;
 }
 
 function loadBriefings(): Map<string, TacticalBriefing> {
@@ -59,11 +84,14 @@ function loadBriefings(): Map<string, TacticalBriefing> {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     const bundle: BriefingsBundle = require('../../data/briefings-bundle.json');
     for (const b of bundle.briefings) {
+      // Key by lure slug — the bundle uses lure names, we need to slugify
+      const slug = LURE_TO_SLUG[b.conditions.lure];
+      if (!slug) continue;
       const key = buildKey(
         b.conditions.season,
         b.conditions.waterClarity,
         b.conditions.pressureState,
-        b.conditions.lureCategory,
+        slug,
       );
       briefingsMap.set(key, b);
     }
@@ -85,59 +113,56 @@ export function getAvailableCategories(): string[] {
 }
 
 /**
- * Look up a pre-generated tactical briefing for the given conditions.
+ * Look up a pre-generated tactical briefing for the given lure and conditions.
  * Falls back progressively: drops pressure first, then clarity.
  */
 export function getBriefing(
   season: Season,
   clarity: WaterClarity,
   frontalSystem: FrontalSystem,
-  lureCategory: string,
+  lureName: string,
 ): TacticalBriefing | null {
   const map = loadBriefings();
   if (map.size === 0) return null;
 
   const pressure = toPressureState(frontalSystem);
+  const slug = LURE_TO_SLUG[lureName];
+  if (!slug) return null;
 
   // Exact match
-  const exact = map.get(buildKey(season, clarity, pressure, lureCategory));
+  const exact = map.get(buildKey(season, clarity, pressure, slug));
   if (exact) return exact;
 
   // Fallback 1: drop pressure → stable
-  const f1 = map.get(buildKey(season, clarity, 'stable', lureCategory));
+  const f1 = map.get(buildKey(season, clarity, 'stable', slug));
   if (f1) return f1;
 
   // Fallback 2: drop clarity → stained (most common)
-  const f2 = map.get(buildKey(season, 'stained', pressure, lureCategory));
+  const f2 = map.get(buildKey(season, 'stained', pressure, slug));
   if (f2) return f2;
 
   // Fallback 3: drop both
-  const f3 = map.get(buildKey(season, 'stained', 'stable', lureCategory));
+  const f3 = map.get(buildKey(season, 'stained', 'stable', slug));
   if (f3) return f3;
 
   return null;
 }
 
 /**
- * Get briefings for the top N lure categories relevant to current conditions.
+ * Get briefings for specific lure names.
  */
 export function getBriefingsForAnalysis(
   season: Season,
   clarity: WaterClarity,
   frontalSystem: FrontalSystem,
   topLureNames: string[],
-): { category: string; briefing: TacticalBriefing }[] {
-  const seen = new Set<string>();
-  const results: { category: string; briefing: TacticalBriefing }[] = [];
+): { lure: string; briefing: TacticalBriefing }[] {
+  const results: { lure: string; briefing: TacticalBriefing }[] = [];
 
   for (const lureName of topLureNames) {
-    const category = LURE_TO_CATEGORY[lureName];
-    if (!category || seen.has(category)) continue;
-    seen.add(category);
-
-    const briefing = getBriefing(season, clarity, frontalSystem, category);
+    const briefing = getBriefing(season, clarity, frontalSystem, lureName);
     if (briefing) {
-      results.push({ category, briefing });
+      results.push({ lure: lureName, briefing });
     }
   }
 

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — finesse fall approach for muddy water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for fall with muddy water and post frontal conditions.\n\nKVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving shallow and will bite it in just about any color of water.'\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Citrus Shad",
+      "retrieve": "KVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving sha",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Sexy Shad",
+      "retrieve": "KVD: 'Fall dirty water after heavy rain — head farther back in creeks into the dirty water. Incoming stained water pulls shad toward current and bass follow. Fish get extremely shallow and tight to co",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The importance of showing bass something they haven't seen or heard — a squarebill that combines attributes of a bladed jig (oscillating metal lip with clicking sound) and a crankbait body covers water and triggers reaction strikes"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+      }
+    ],
+    "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

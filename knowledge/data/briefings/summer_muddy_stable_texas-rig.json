@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Texas Rig (Creature Bait)"
+  },
+  "briefing": {
+    "headline": "Rig up a Texas Rig — steady summer approach for muddy water.",
+    "gameplan": "The Texas Rig is a strong choice for summer with muddy water and stable conditions.\n\nWheeler: In mornings bass sit looser to the outside of cover; as the sun gets up they move further into the cover, requiring a toad early and flipping deeper in the cover later.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: In mornings bass sit looser to the outside of cover; as the sun gets up they move further into the cover, requiring a toad early and flipping deeper in the cover later.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin Blue",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

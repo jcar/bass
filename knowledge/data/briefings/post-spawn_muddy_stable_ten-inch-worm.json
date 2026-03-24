@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "10\" Worm (Shakey/TX)"
+  },
+  "briefing": {
+    "headline": "Rig up a 10\" Worm — steady post-spawn approach for muddy water.",
+    "gameplan": "The 10\" Worm is a strong choice for post-spawn with muddy water and stable conditions.\n\nWheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-oz tungsten, 4/0 hook, 14-lb fluorocarbon\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "Green Pumpkin Blue",
+      "retrieve": "Wheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-o",
+      "targets": "Focus on grass, creek channel, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "10\" Worm (Shakey/TX)",
+      "color": "plum",
+      "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
+      "targets": "Focus on grass, creek channel, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Yamamoto"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'"
+      }
+    ],
+    "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

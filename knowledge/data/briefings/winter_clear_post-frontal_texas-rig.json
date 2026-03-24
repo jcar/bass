@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "clear",
+    "pressureState": "post-frontal",
+    "lure": "Texas Rig (Creature Bait)"
+  },
+  "briefing": {
+    "headline": "Rig up a Texas Rig — finesse winter approach for clear water.",
+    "gameplan": "The Texas Rig is a strong choice for winter with clear water and post frontal conditions.\n\nWheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "green pumpkin",
+      "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Below 55 degrees I switch from a Rage Craw to a KVD plastic chunk. I still want a big profile but not a lot of action — everything bass eat in winter is cold-blooded and moves slower, so a crawfish does not root around and shoot everywhe..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

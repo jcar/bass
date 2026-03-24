@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Drop Shot"
+  },
+  "briefing": {
+    "headline": "Rig up a Drop Shot — aggressive post-spawn approach for clear water.",
+    "gameplan": "The Drop Shot is a strong choice for post-spawn with clear water and pre frontal conditions.\n\nJohnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast past the fish and drag it through them.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Drop Shot",
+      "color": "Smelt",
+      "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Drop Shot",
+      "color": "Morning Dawn",
+      "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On calm days for deep smallmouth, cast the drop shot out and let it sit — don't move it. On rough windy days, cast past the fish and drag it through them. Adjust presentation to match conditions even though the bait stays the same."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: GS1 spinning rod, 6'10\" medium action for accuracy around docks. Longer spinning rod for open water distance. 8lb braid to 8lb fluoro leader. Mustad Apex weedless hook for cover/docks, exposed hook in open water. Mustad Apex drop shot hook (w..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

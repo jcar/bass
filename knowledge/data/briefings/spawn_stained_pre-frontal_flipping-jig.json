@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Flipping Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Flipping Jig — aggressive spawn approach for stained water.",
+    "gameplan": "The Flipping Jig is a strong choice for spawn with stained water and pre frontal conditions.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "Alabama craw with double header trailer",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Flipping Jig",
+      "color": "black/blue",
+      "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: When a main pattern starts dwindling, have a backup plan ready. At St. Johns, flipping pads on the main river when the bed fish pattern faded was probably the best decision I could have made — it produced my biggest fish."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

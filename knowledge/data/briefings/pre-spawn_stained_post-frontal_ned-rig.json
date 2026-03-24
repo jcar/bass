@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — finesse pre-spawn approach for stained water.",
+    "gameplan": "The Ned Rig is a strong choice for pre-spawn with stained water and post frontal conditions.\n\nWheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smoke/Black Blue Gold Flake (214)",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Be versatile during prespawn — cycle through finesse swimbaits, Ned rigs, and heavy gliding jigs to determine the best technique for current conditions"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Post-frontal pre-spawn fish pull back to 6-12ft staging areas. They won't commit shallow after the front. Target the first breakline off spawning flats and key on deeper structure near shallow spawning zones.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

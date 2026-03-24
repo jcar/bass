@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — finesse post-spawn approach for muddy water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for post-spawn with muddy water and post frontal conditions.\n\nPalaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the other side -- looks like a crawfish slowly scooting, acts like something between a normal crankbait \n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the ",
+      "targets": "Focus on grass, riprap, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "dark with orange/chartreuse/white accents",
+      "retrieve": "Hackney: 'At places where shad spawn a little deeper, use a squarebill crankbait matched to the size of the shad. Change out factory trebles with short-shank EWG style and up-size the hook, but be car",
+      "targets": "Focus on grass, riprap, point. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

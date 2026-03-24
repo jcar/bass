@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "stable",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — steady pre-spawn approach for muddy water.",
+    "gameplan": "The Chatterbait is a strong choice for pre-spawn with muddy water and stable conditions.\n\nKVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it down in old dead vegetation — it holds heat and bass are drawn to it. Tungsten model has smaller blade\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "bold/ambitious colors",
+      "retrieve": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it do",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "green pumpkin",
+      "retrieve": "KVD: Post-frontal cold pre-spawn — work the Thunder Cricket like a jig. Get it down in the grass, hop it, twitch it. Let it hit bottom or grass, then twitch. 'Sometimes you got to make them react.' Bi",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

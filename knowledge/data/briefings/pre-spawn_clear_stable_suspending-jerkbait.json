@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Suspending Jerkbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Suspending Jerkbait — steady pre-spawn approach for clear water.",
+    "gameplan": "The Suspending Jerkbait is a strong choice for pre-spawn with clear water and stable conditions.\n\nWheeler: When water is 55 degrees or colder in pre-spawn, a Rapala Shad Rap is hard to beat for both numbers and quality of fish; targets deeper staging bass still off the bank.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Ito Wakasagi",
+      "retrieve": "Wheeler: When water is 55 degrees or colder in pre-spawn, a Rapala Shad Rap is hard to beat for both numbers and quality of fish; targets deeper staging bass still off the bank.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Mat Shad",
+      "retrieve": "KVD: Even in slick calm clear conditions, a jerkbait over the top of them will draw fish from distance. 'They're going to see it and they're going to come.' Don't switch to finesse just because it's c",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Pre-spawn one-two punch strategy: shallow crankbait or jerkbait on deeper edges outside pockets, then Thunder Cricket and Hardliner back in the bays where fish are moving to spawn. The combo covers both staging and migrating fish."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'If fish are high in the water column, pick up a jerkbait. If they're toward the bottom, pick up a crankbait. Use forward-facing sonar to see where fish are positioned and choose accordingly.'"
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish follow but won't commit, extend your pause to 8-10 seconds and vary the cadence"
+    ]
+  }
+}

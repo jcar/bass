@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — aggressive pre-spawn approach for stained water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for pre-spawn with stained water and pre frontal conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on flat, grass, bluff. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "KVD: Gravel Dog for the 6-12ft mid-range zone in cold water. Round body, super wide wobble, loud rattle. Eats up the bottom — perfect for chunk rock banks, bluffs, riprap around bridges. One of the mo",
+      "targets": "Focus on flat, grass, bluff. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

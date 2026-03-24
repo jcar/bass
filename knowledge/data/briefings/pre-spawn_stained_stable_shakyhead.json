@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Shakyhead"
+  },
+  "briefing": {
+    "headline": "Rig up a Shakyhead — steady pre-spawn approach for stained water.",
+    "gameplan": "The Shakyhead is a strong choice for pre-spawn with stained water and stable conditions.\n\nPalaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready to eat a jig. A shaky-head is a small weedless finesse bait that's easy for lethargic fish to eat.'\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Shakyhead",
+      "color": "Black Emerald",
+      "retrieve": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready t",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "alternateApproach": {
+      "lure": "Shakyhead",
+      "color": "Junebug",
+      "retrieve": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that",
+      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

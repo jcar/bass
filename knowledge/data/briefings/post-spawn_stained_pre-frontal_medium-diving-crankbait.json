@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — aggressive post-spawn approach for stained water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for post-spawn with stained water and pre frontal conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
+      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

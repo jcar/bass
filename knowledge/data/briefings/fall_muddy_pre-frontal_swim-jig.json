@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Swim Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Swim Jig — aggressive fall approach for muddy water.",
+    "gameplan": "The Swim Jig is a strong choice for fall with muddy water and pre frontal conditions.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'The swim jig handles any shallow cover — grass, bushes, lily pads, wood, rocks. Swim it through pads like you're frogging. Skip it under docks. Fish everything from the bank to the outside grass edge. The heavy cover version powers through s..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

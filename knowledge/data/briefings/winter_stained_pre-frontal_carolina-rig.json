@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Carolina Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Carolina Rig — aggressive winter approach for stained water.",
+    "gameplan": "The Carolina Rig is a strong choice for winter with stained water and pre frontal conditions.\n\nWheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag devoid of deadstick pauses.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Carolina Rig",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Carolina Rig",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Fishes Carolina rig in 4 to 25 feet of water, but most of the time works it in 8 to 12 feet; holds rod to his side at three o'clock position during entire retrieve.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard wi..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

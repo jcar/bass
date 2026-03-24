@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — steady winter approach for stained water.",
+    "gameplan": "The Football Jig is a strong choice for winter with stained water and stable conditions.\n\nJohnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Separate the two claws on a Punch Out Craw trailer for a football jig, then hop, drag, and deadstick it along the bottom; in stained water the size and radical claw movement is an ideal combi",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      }
+    ],
+    "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

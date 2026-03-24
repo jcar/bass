@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — steady spawn approach for clear water.",
+    "gameplan": "The Chatterbait is a strong choice for spawn with clear water and stable conditions.\n\nWheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "Shad Pattern",
+      "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "natural/painted blade",
+      "retrieve": "Wheeler: For hooksets, reel steadily and let the rod load up before setting the hook instead of snapping the rod - this prevents the blade from popping open the bass's mouth and increases hook-to-land",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
+      }
+    ],
+    "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

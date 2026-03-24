@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — steady spawn approach for stained water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for spawn with stained water and stable conditions.\n\nWheeler: During spring the prime depth zone on most lakes is 6 feet or less; the Jabber Jaw Hybrid Squarebill dives 3-5 feet which is the right zone for most fisheries across the country.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Kentucky Blue",
+      "retrieve": "Wheeler: During spring the prime depth zone on most lakes is 6 feet or less; the Jabber Jaw Hybrid Squarebill dives 3-5 feet which is the right zone for most fisheries across the country.",
+      "targets": "Focus on flat, grass, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Wild Craw (red crawfish)",
+      "retrieve": "Wheeler: The squarebill has a nice wide wobble and good vibration; bang it into stumps, rocks, and anything in front of you to get shallow fish to react.",
+      "targets": "Focus on flat, grass, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      }
+    ],
+    "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

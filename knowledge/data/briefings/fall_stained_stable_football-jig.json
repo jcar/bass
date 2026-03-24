@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "stable",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — steady fall approach for stained water.",
+    "gameplan": "The Football Jig is a strong choice for fall with stained water and stable conditions.\n\nWheeler: Separate the two claws on a Punch Out Craw trailer for a football jig, then hop, drag, and deadstick it along the bottom; in stained water the size and radical claw movement is an ideal combination.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Sexy Shad",
+      "retrieve": "Wheeler: Separate the two claws on a Punch Out Craw trailer for a football jig, then hop, drag, and deadstick it along the bottom; in stained water the size and radical claw movement is an ideal combi",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Sexy Shad",
+      "retrieve": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolin",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "A stick bait on a skirtless football head is a productive look for walking down bluff ends"
+      }
+    ],
+    "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

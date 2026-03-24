@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Ned Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Ned Rig — finesse winter approach for stained water.",
+    "gameplan": "The Ned Rig is a strong choice for winter with stained water and post frontal conditions.\n\nWheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Ned Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Ned Rig",
+      "color": "Smoke/Black Blue Gold Flake (214)",
+      "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard wi..."
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

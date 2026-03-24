@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "season": "summer",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — aggressive summer approach for muddy water.",
+    "gameplan": "The Football Jig is a strong choice for summer with muddy water and pre frontal conditions.\n\nWheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, bottom-hugging fish react\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin Purple",
+      "retrieve": "Wheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, b",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin Magic",
+      "retrieve": "Wheeler: A snapped football jig catches fish from pressured busted-up schools that won't bite other techniques — especially effective without FFS, just covering water with precise casts",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Snapping a football jig is different from stroking — stroking is for suspended fish, snapping is a small sharp motion that makes bottom-hugging fish in heavy current react. The higher-frequency kick action of the Cleanup Craw trailer comp..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
+      }
+    ],
+    "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

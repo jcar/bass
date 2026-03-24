@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Lipless Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Lipless Crankbait — aggressive post-spawn approach for clear water.",
+    "gameplan": "The Lipless Crankbait is a strong choice for post-spawn with clear water and pre frontal conditions.\n\nKVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. Deflection and disturbance trigger strikes.'\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Shad",
+      "retrieve": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. De",
+      "targets": "Focus on grass, creek channel, point. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Chrome Sexy Shad",
+      "retrieve": "KVD: 'On shallow flats, use your rod tip and line size (10-20lb) to control depth. I want the bait hitting bottom. Every time it ticks cover, pop it and let it flutter — that's when fish bite.'",
+      "targets": "Focus on grass, creek channel, point. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Guntersville's grass has evolved over the years: milfoil first, then hydrilla, now a lot of eel grass. All three still present. The grass creates great habitat and clear water (filters it). Floating eel grass cut up by wind/waves/boats makes ..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

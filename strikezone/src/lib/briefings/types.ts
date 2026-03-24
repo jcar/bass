@@ -2,7 +2,7 @@ export interface BriefingConditions {
   season: string;
   waterClarity: string;
   pressureState: string;
-  lureCategory: string;
+  lure: string;
 }
 
 export interface BriefingApproach {

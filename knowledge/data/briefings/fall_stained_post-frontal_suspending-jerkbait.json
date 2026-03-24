@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Suspending Jerkbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Suspending Jerkbait — finesse fall approach for stained water.",
+    "gameplan": "The Suspending Jerkbait is a strong choice for fall with stained water and post frontal conditions.\n\nWheeler: A jerkbait's ability to hover in the fish's face for longer periods makes it the best choice in the most heavily stained water.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Blueback Herring",
+      "retrieve": "Wheeler: A jerkbait's ability to hover in the fish's face for longer periods makes it the best choice in the most heavily stained water.",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Suspending Jerkbait",
+      "color": "Green Gill",
+      "retrieve": "Palaniuk: 'When fish push bait toward the surface, mimic that by twitching upward -- change rod angle to twitch up. That makes the bait look like it's about to get eaten. When they see it escaping, th",
+      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'When fishing expansive flats with breaks, mark waypoints at each catch. The pattern often isn't the obvious points — it's tapering breaks with inside turns cutting into the breakline. Those inside turns concentrate fish. Use a crankbait to s..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "The D Shad's extra density allows use on casting gear (15-lb fluorocarbon, medium-heavy rod) unlike most soft jerkbaits — this opens up fishing thick cover without breakoffs, and enables skip casting under docks and overhangs"
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blu..."
+      }
+    ],
+    "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If fish follow but won't commit, extend your pause to 8-10 seconds and vary the cadence"
+    ]
+  }
+}

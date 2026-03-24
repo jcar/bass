@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — aggressive spawn approach for stained water.",
+    "gameplan": "The Chatterbait is a strong choice for spawn with stained water and pre frontal conditions.\n\nWheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "Black and Blue",
+      "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "White",
+      "retrieve": "Wheeler: For hooksets, reel steadily and let the rod load up before setting the hook instead of snapping the rod - this prevents the blade from popping open the bass's mouth and increases hook-to-land",
+      "targets": "Focus on grass, flat, ledge. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      }
+    ],
+    "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

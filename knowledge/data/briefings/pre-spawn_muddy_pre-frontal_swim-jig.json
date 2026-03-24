@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Swim Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Swim Jig — aggressive pre-spawn approach for muddy water.",
+    "gameplan": "The Swim Jig is a strong choice for pre-spawn with muddy water and pre frontal conditions.\n\nWheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better action\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Pearl White",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Swim Jig",
+      "color": "Black & Blue",
+      "retrieve": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Rising water — bass push shallow and spread out. Best spring days can occur when warming water rises fast. Key on runoff areas: backs of creeks, culverts, residential yards, city street drainage. Water temp can vary 5 degrees between pockets..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

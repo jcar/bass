@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Spinnerbait (Colorado/Willow)"
+  },
+  "briefing": {
+    "headline": "Rig up a Spinnerbait — steady winter approach for clear water.",
+    "gameplan": "The Spinnerbait is a strong choice for winter with clear water and stable conditions.\n\nKVD: Slow rolling a spinnerbait around steep rocky banks and laydowns in cold water. First Bassmaster win was in December at Lake Lanier doing exactly this. Use a plastic trailer — 'absolutely paramount' in cold winter months.\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Bluegill",
+      "retrieve": "KVD: Slow rolling a spinnerbait around steep rocky banks and laydowns in cold water. First Bassmaster win was in December at Lake Lanier doing exactly this. Use a plastic trailer — 'absolutely paramou",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "White",
+      "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+      }
+    ],
+    "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

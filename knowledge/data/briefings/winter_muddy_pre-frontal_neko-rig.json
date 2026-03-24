@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — aggressive winter approach for muddy water.",
+    "gameplan": "The Neko Rig is a strong choice for winter with muddy water and pre frontal conditions.\n\nWheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Baby Bass",
+      "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Palaniuk"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

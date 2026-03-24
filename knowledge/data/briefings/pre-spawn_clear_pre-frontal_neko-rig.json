@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Neko Rig"
+  },
+  "briefing": {
+    "headline": "Rig up a Neko Rig — aggressive pre-spawn approach for clear water.",
+    "gameplan": "The Neko Rig is a strong choice for pre-spawn with clear water and pre frontal conditions.\n\nKVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue the tungsten weights so they don't fly out when fish jump.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Neko Rig",
+      "color": "Green Pumpkin",
+      "retrieve": "KVD: In clear water, use dice/bug baits (Sexy Bug, Tumbleweed) on a Neko rig — incredible action and visibility. In stained water, stick to the traditional Neko worm for a subtler profile. Superglue t",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Neko Rig",
+      "color": "Baby Bass",
+      "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: On flat fisheries bass stay in the shallow zone a long time before spawning, but on highland reservoirs they may stage in 6-10 feet before moving up; crankbait selection should match the lake type and depth zone."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

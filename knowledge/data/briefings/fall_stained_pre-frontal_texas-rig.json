@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Texas Rig (Creature Bait)"
+  },
+  "briefing": {
+    "headline": "Rig up a Texas Rig — aggressive fall approach for stained water.",
+    "gameplan": "The Texas Rig is a strong choice for fall with stained water and pre frontal conditions.\n\nWheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "Green Pumpkin",
+      "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Texas Rig (Creature Bait)",
+      "color": "green pumpkin",
+      "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites dry up, try shaking in place for 10-15 seconds before moving — patience pays with plastics"
+    ]
+  }
+}

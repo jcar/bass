@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "pre-spawn",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Drop Shot"
+  },
+  "briefing": {
+    "headline": "Rig up a Drop Shot — finesse pre-spawn approach for stained water.",
+    "gameplan": "The Drop Shot is a strong choice for pre-spawn with stained water and post frontal conditions.\n\nJohnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast past the fish and drag it through them.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Drop Shot",
+      "color": "Morning Dawn",
+      "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Drop Shot",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: On calm days for deep smallmouth, cast the drop shot out and let it sit — don't move it. On rough windy days, cast past the fish and drag it through them. Adjust presentation to match conditions even though the bait stays the same."
+      }
+    ],
+    "depthStrategy": "Post-frontal pre-spawn fish pull back to 6-12ft staging areas. They won't commit shallow after the front. Target the first breakline off spawning flats and key on deeper structure near shallow spawning zones.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If you get followers without commits, add scent or downsize your hook/weight"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "stained",
+    "pressureState": "post-frontal",
+    "lure": "Flipping Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Flipping Jig — finesse post-spawn approach for stained water.",
+    "gameplan": "The Flipping Jig is a strong choice for post-spawn with stained water and post frontal conditions.\n\nJohnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Flipping Jig",
+      "color": "Alabama craw with double header trailer",
+      "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Flipping Jig",
+      "color": "black/blue",
+      "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Yamamoto",
+        "insight": "Hudson: 'Prefer Dinger in post-spawn pitching at finicky recovering bass hanging near the surface'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

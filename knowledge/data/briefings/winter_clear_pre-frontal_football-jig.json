@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Football Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Football Jig — aggressive winter approach for clear water.",
+    "gameplan": "The Football Jig is a strong choice for winter with clear water and pre frontal conditions.\n\nJohnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: Use a 3/8 to 3/4-ounce football jig in natural coloring like green pumpkin and bounce it off the bottom for cold-water largemouth that are sitting on or close to the bottom.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "alternateApproach": {
+      "lure": "Football Jig",
+      "color": "Green Pumpkin",
+      "retrieve": "Johnston: In cold-water months, slow drag jigs. Use drift paddles to dial down drift speed and control your presentation for more effective casting and a better hookup ratio. Be methodical to stay in ",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Johnston"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard wi..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If bites are subtle, try a lighter jig weight — slower fall rate can be the difference"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "stained",
+    "pressureState": "pre-frontal",
+    "lure": "Swim Jig"
+  },
+  "briefing": {
+    "headline": "Rig up a Swim Jig — aggressive post-spawn approach for stained water.",
+    "gameplan": "The Swim Jig is a strong choice for post-spawn with stained water and pre frontal conditions.\n\nWheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heavier heads (3/8-1/2 oz) keep the tail tabs intact as they won't affect action with the heavier weight\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Swim Jig",
+      "color": "Green Shad",
+      "retrieve": "Wheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heav",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Swim Jig",
+      "color": "Gizzard Shad",
+      "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
+      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'The swim jig handles any shallow cover — grass, bushes, lily pads, wood, rocks. Swim it through pads like you're frogging. Skip it under docks. Fish everything from the bank to the outside grass edge. The heavy cover version powers through s..."
+      }
+    ],
+    "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clears significantly, downsize presentations and move to natural color patterns",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "clear",
+    "pressureState": "pre-frontal",
+    "lure": "Lipless Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Lipless Crankbait — aggressive winter approach for clear water.",
+    "gameplan": "The Lipless Crankbait is a strong choice for winter with clear water and pre frontal conditions.\n\nKVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and reel. The shimmy/quiver fall is what makes the Red Eye Shad special.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Shad",
+      "retrieve": "KVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and r",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Lipless Crankbait",
+      "color": "Chrome Sexy Shad",
+      "retrieve": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. De",
+      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: CC3 medium-heavy composite (graphite/glass) cranking rod for lipless crankbaits. 6.2:1 gear ratio reel — not high-speed in cold water. The composite gives feel for detecting grass on hooks while having power to rip free."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites."
+      }
+    ],
+    "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

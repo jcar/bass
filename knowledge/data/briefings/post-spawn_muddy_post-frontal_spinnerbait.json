@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "post-spawn",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Spinnerbait (Colorado/Willow)"
+  },
+  "briefing": {
+    "headline": "Rig up a Spinnerbait — finesse post-spawn approach for muddy water.",
+    "gameplan": "The Spinnerbait is a strong choice for post-spawn with muddy water and post frontal conditions.\n\nWheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Black/Blue",
+      "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Spinnerbait (Colorado/Willow)",
+      "color": "Chartreuse Shad",
+      "retrieve": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone",
+      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Fish a 6.8:1 reel with 16-lb fluorocarbon on a medium-heavy spinnerbait rod. The slower gear ratio helps maintain the medium to slow retrieve needed.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+      }
+    ],
+    "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

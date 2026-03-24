@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "season": "winter",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Deep Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Deep Diving Crankbait — finesse winter approach for muddy water.",
+    "gameplan": "The Deep Diving Crankbait is a strong choice for winter with muddy water and post frontal conditions.\n\nRobertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-pound bag.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Deep Diving Crankbait",
+      "color": "Blue/Chartreuse",
+      "retrieve": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-p",
+      "targets": "Focus on creek channel, flat, grass. Work the transitions and edges where structure changes.",
+      "proSource": "Robertson"
+    },
+    "alternateApproach": {
+      "lure": "Deep Diving Crankbait",
+      "color": "Blue/Chartreuse",
+      "retrieve": "KVD: 3XD for the deep zone in cold water. Smaller profile, tight action, gets 12-15ft on 10lb fluoro. Fish steeper rocky banks, deeper transition zones. Make long casts to keep the bait in the zone fo",
+      "targets": "Focus on creek channel, flat, grass. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transi..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+      }
+    ],
+    "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

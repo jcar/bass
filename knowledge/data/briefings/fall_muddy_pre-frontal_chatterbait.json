@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "muddy",
+    "pressureState": "pre-frontal",
+    "lure": "Chatterbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Chatterbait — aggressive fall approach for muddy water.",
+    "gameplan": "The Chatterbait is a strong choice for fall with muddy water and pre frontal conditions.\n\nWheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.\n\nKey adjustment for pre frontal: aggressive, faster retrieves — fish are feeding actively before the front.",
+    "primaryApproach": {
+      "lure": "Chatterbait",
+      "color": "gold",
+      "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Chatterbait",
+      "color": "gold",
+      "retrieve": "Wheeler: For hooksets, reel steadily and let the rod load up before setting the hook instead of snapping the rod - this prevents the blade from popping open the bass's mouth and increases hook-to-land",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The importance of showing bass something they haven't seen or heard — a squarebill that combines attributes of a bladed jig (oscillating metal lip with clicking sound) and a crankbait body covers water and triggers reaction strikes"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      }
+    ],
+    "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",
+    "adjustIf": [
+      "If the front stalls and conditions stabilize, dial back aggression and focus on higher-percentage structure",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If moving baits aren't getting bit, slow down to a crawling retrieve or switch to a jig"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "spawn",
+    "waterClarity": "muddy",
+    "pressureState": "post-frontal",
+    "lure": "Medium Diving Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Medium Diving Crankbait — finesse spawn approach for muddy water.",
+    "gameplan": "The Medium Diving Crankbait is a strong choice for spawn with muddy water and post frontal conditions.\n\nWheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland impoundments, and smallmouth lakes.\n\nKey adjustment for post frontal: slow down significantly — extended pauses, subtle movements, finesse presentations.",
+    "primaryApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Citrus",
+      "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Wheeler"
+    },
+    "alternateApproach": {
+      "lure": "Medium Diving Crankbait",
+      "color": "Live River Shad",
+      "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
+      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Fluorocarbon is mandatory for cranking grass — low stretch helps rip bait free. Soft-tip composite rod (glass/graphite blend) for feel and power. Multiple rods with different line sizes. Series 5 crankbait runs 10-12ft — wants a bait that run..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      }
+    ],
+    "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",
+    "adjustIf": [
+      "If skies cloud up and wind picks up, re-introduce moving baits — the reprieve from high pressure activates fish",
+      "If you find a cleaner pocket or tributary, switch to natural presentations — fish in cleaner water see more lures",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}

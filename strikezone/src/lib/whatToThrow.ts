@@ -7,6 +7,7 @@ import type { TacticalBriefing } from './briefings/types';
 import type { KnowledgeEntry } from './knowledge';
 import { getBriefing, LURE_TO_CATEGORY } from './briefings';
 import { findForLure, findForCategory } from './knowledge';
+// Note: getBriefing now takes a lure name directly (not a category)
 
 // ── Types ──
 
@@ -226,9 +227,8 @@ export function buildWhatToThrow(
   const topRigs = allLures.slice(0, 6);
 
   const cards: WhatToThrowCard[] = topRigs.map((lure, i) => {
-    // Look up briefing via the lure's category mapping
-    const category = LURE_TO_CATEGORY[lure.name];
-    const briefing = category ? getBriefing(season, clarity, frontal, category) : null;
+    // Look up briefing for this specific lure
+    const briefing = getBriefing(season, clarity, frontal, lure.name);
 
     const endorsements = matchLureEndorsements(lure.name, analysis.anglerPicks);
 

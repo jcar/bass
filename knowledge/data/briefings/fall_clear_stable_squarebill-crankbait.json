@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "season": "fall",
+    "waterClarity": "clear",
+    "pressureState": "stable",
+    "lure": "Squarebill Crankbait"
+  },
+  "briefing": {
+    "headline": "Rig up a Squarebill Crankbait — steady fall approach for clear water.",
+    "gameplan": "The Squarebill Crankbait is a strong choice for fall with clear water and stable conditions.\n\nKVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving shallow and will bite it in just about any color of water.'\n\nKey adjustment for stable: moderate cadence — match the natural pace of local forage.",
+    "primaryApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Citrus Shad",
+      "retrieve": "KVD: 'The dream scenario for a squarebill in fall is a rocky creek channel swing in the back of a major tributary, with shad active near the surface. It's an efficient bait because bass are moving sha",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "KVD"
+    },
+    "alternateApproach": {
+      "lure": "Squarebill Crankbait",
+      "color": "Sexy Shad",
+      "retrieve": "Hackney: 'Go to a 1/0 hook on the 2.5 to deaden the action. A shad does not have aggressive action. You still get the big profile but more natural movement for pressured fish.'",
+      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "proSource": "Hackney"
+    },
+    "proInsights": [
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: The importance of showing bass something they haven't seen or heard — a squarebill that combines attributes of a bladed jig (oscillating metal lip with clicking sound) and a crankbait body covers water and triggers reaction strikes"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      }
+    ],
+    "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",
+    "adjustIf": [
+      "If conditions suddenly shift (pressure drop, wind change), be ready to speed up your approach — transitional moments produce big bites",
+      "If water clarity decreases from wind or rain, upsize and switch to brighter colors",
+      "If fish are short-striking, add a long pause after deflections to let the lure suspend"
+    ]
+  }
+}
