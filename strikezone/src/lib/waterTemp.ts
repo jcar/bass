@@ -23,19 +23,20 @@ interface SeasonalParams {
 
 function getSeasonalParams(lat: number): SeasonalParams {
   // Latitude-adjusted parameters calibrated against USGS reservoir monitoring data
-  // Reference: ~33N (North Texas) = mean 68F, amplitude 20F, peak Aug 10 (day 222)
-  //   - Winter low ~48F (Jan-Feb), Summer peak ~88F (Aug)
-  //   - Eagle Mountain, Lewisville, Ray Roberts typical ranges
-  // At ~36N (Table Rock, MO) = mean 63F, amplitude 21F
-  //   - Winter low ~42F, Summer peak ~84F
+  // Reference: ~33N (North Texas) = mean 69F, amplitude 19F, peak Jul 29 (day 210)
+  //   - Winter low ~50F (Jan-Feb), Summer peak ~88F (Jul-Aug)
+  //   - Lake Fork, Eagle Mountain, Lewisville, Ray Roberts typical ranges
+  //   - Peak shifted earlier (Aug 10→Jul 29) to better track spring warming
+  // At ~36N (Table Rock, MO) = mean 64F, amplitude 20F
+  //   - Winter low ~44F, Summer peak ~84F
   const refLat = 33;
   const latDiff = lat - refLat;
 
   return {
-    meanAnnual: 68 - latDiff * 1.67,
-    amplitude: 20 + latDiff * 0.33,
+    meanAnnual: 69 - latDiff * 1.67,
+    amplitude: 19 + latDiff * 0.33,
     // Peak water temp shifts slightly later at higher latitudes
-    phaseDay: 222 + latDiff * 0.5,
+    phaseDay: 210 + latDiff * 0.5,
   };
 }
 
