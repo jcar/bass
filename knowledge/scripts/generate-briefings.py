@@ -90,6 +90,32 @@ PRUNE_RULES = {
     "Suspending Jerkbait": {"clarities_exclude": ["muddy"]},
 }
 
+# Keywords to match each lure in insight text (for retrieval scoring)
+LURE_KEYWORDS = {
+    "Squarebill Crankbait": ["squarebill", "square bill", "square-bill", "kvd 1.5", "kvd 2.5"],
+    "Medium Diving Crankbait": ["medium diving", "medium diver", "mid-range crank", "dt-6", "dt6",
+                                 "series 3", "series 5", "gravel dog", "5xd", "6xd"],
+    "Deep Diving Crankbait": ["deep diving", "deep diver", "deep crank", "10xd", "8xd", "dredger",
+                               "big john", "big-m"],
+    "Lipless Crankbait": ["lipless", "lip-less", "red eye shad", "red eyed shad", "rattle trap"],
+    "Suspending Jerkbait": ["jerkbait", "jerk bait", "jerk-bait", "suspending minnow", "kvd 200",
+                             "kvd 300", "x-rap"],
+    "Spinnerbait (Colorado/Willow)": ["spinnerbait", "spinner bait", "colorado blade", "willow blade"],
+    "Chatterbait": ["chatterbait", "chatter bait", "bladed jig", "thunder cricket", "jack hammer",
+                     "vibrating jig"],
+    "Swim Jig": ["swim jig", "swimming jig", "swim-jig"],
+    "Flipping Jig": ["flipping jig", "flip jig", "hack attack", "punch rig", "flipping", "pitching"],
+    "Football Jig": ["football jig", "football head"],
+    "Texas Rig (Creature Bait)": ["texas rig", "texas-rig", "creature bait", "rage craw", "brush hog"],
+    "Carolina Rig": ["carolina rig", "carolina-rig", "c-rig"],
+    '10" Worm (Shakey/TX)': ["10 inch worm", "10-inch worm", "big worm", "ribbon tail", "magnum worm"],
+    "Drop Shot": ["drop shot", "dropshot", "drop-shot"],
+    "Ned Rig": ["ned rig", "ned-rig"],
+    "Neko Rig": ["neko rig", "neko-rig", "nail weight"],
+    "Shakyhead": ["shakyhead", "shaky head", "shaky-head", "shakeyhead"],
+    "Walking Topwater": ["walking topwater", "topwater", "sexy dawg", "zara spook", "walk the dog"],
+}
+
 
 # ─── Pruning rules ───────────────────────────────────────────────────────────
 def is_pruned_combo(season: str, clarity: str, pressure: str, lure: str) -> bool:
@@ -192,16 +218,13 @@ def entry_matches_combo(entry: dict, combo: dict) -> tuple[bool, int]:
         else:
             has_disqualifier = True
 
-    # Lure category match
-    entry_lure_cat = conditions.get("lureCategory")
-    if isinstance(entry_lure_cat, list):
-        entry_lure_cat = entry_lure_cat[0] if entry_lure_cat else None
-    if entry_lure_cat:
-        if entry_lure_cat == combo["lure"]:
-            score += 4
-            has_any_match = True
-        else:
-            has_disqualifier = True
+    # Lure-specific match: check if entry insight mentions this lure
+    insight = entry.get("insight", "").lower()
+    lure_name = combo["lure"]
+    lure_keywords = LURE_KEYWORDS.get(lure_name, [])
+    if any(kw in insight for kw in lure_keywords):
+        score += 5
+        has_any_match = True
 
     # Pressure state is rarely tagged on entries, but check it
     entry_pressure = conditions.get("pressureState")
@@ -292,16 +315,8 @@ def retrieve_opinion_rules(
     for angler_id, data in all_anglers.items():
         opinions = data.get("opinions", {})
         for lure_name, opinion in opinions.items():
-            # Check if this lure maps to our target category
-            lure_cat = LURE_NAME_TO_CATEGORY.get(lure_name)
-            # Also check enriched lureCategory if present
-            if not lure_cat:
-                enriched_cat = opinion.get("lureCategory")
-                if isinstance(enriched_cat, list):
-                    enriched_cat = enriched_cat[0] if enriched_cat else None
-                lure_cat = enriched_cat
-
-            if lure_cat != combo["lure"]:
+            # Match by specific lure name
+            if lure_name != combo["lure"]:
                 continue
 
             # Gather matching tipRules
@@ -379,8 +394,7 @@ def build_briefing_prompt(
     season = combo["season"]
     clarity = combo["waterClarity"]
     pressure = combo["pressureState"]
-    category = combo["lure"]
-    lure_options = LURE_CATEGORY_MAP.get(category, [])
+    lure_name = combo["lure"]
 
     # Format knowledge entries
     knowledge_block = ""
@@ -601,8 +615,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--category",
-        choices=LURE_CATEGORIES,
-        help="Target lure category",
+        choices=LURES,
+        help="Target lure name",
     )
     parser.add_argument(
         "--model",
@@ -640,7 +654,7 @@ def main() -> None:
             "season": args.season,
             "waterClarity": args.clarity,
             "pressureState": args.pressure,
-            "lureCategory": args.category,
+            "lure": args.category,
         }
         if is_pruned_combo(combo["season"], combo["waterClarity"], combo["pressureState"], combo["lure"]):
             print(f"Warning: {combo_key(combo)} is a pruned (unrealistic) combo. Generating anyway.")
@@ -661,7 +675,7 @@ def main() -> None:
         print(f"\n{'#':>4}  {'Season':<12} {'Clarity':<10} {'Pressure':<14} {'Category':<14}")
         print("─" * 60)
         for i, combo in enumerate(combos, 1):
-            print(f"{i:>4}  {combo['season']:<12} {combo['waterClarity']:<10} {combo['pressureState']:<14} {combo['lureCategory']:<14}")
+            print(f"{i:>4}  {combo['season']:<12} {combo['waterClarity']:<10} {combo['pressureState']:<14} {combo['lure']}")
         print(f"\nTotal: {len(combos)} briefings would be generated")
         return
 
@@ -719,7 +733,7 @@ def main() -> None:
                     "season": parts[0],
                     "waterClarity": parts[1],
                     "pressureState": parts[2],
-                    "lureCategory": parts[3],
+                    "lure": parts[3],
                 }
                 k = combo_key(existing_combo)
                 if k not in {combo_key(c) for c in all_combos_for_index}:
