@@ -12,14 +12,14 @@
       "lure": "Deep Diving Crankbait",
       "color": "Citrus Shad",
       "retrieve": "Robertson: When postspawners leave the tapering points, follow them with a Berkley Dredger 20.5 or 25.5 down ditches and drainages 10-15 feet deep that lead from spawning flats toward the main lake.",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "alternateApproach": {
       "lure": "Deep Diving Crankbait",
       "color": "Big Shad",
       "retrieve": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-p",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "proInsights": [
@@ -28,16 +28,12 @@
         "insight": "Wheeler: Casting angles are critical for deep cranking offshore structure - varying your angle of retrieve relative to the cover triggers reaction strikes from bigger fish."
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant."
-      },
-      {
         "angler": "Palaniuk",
         "insight": "Palaniuk: 'Deep diving crankbaits are really one of the few ways we have of generating any kind of reaction strike through much of the year on tour.'"
       },
       {
-        "angler": "Johnston",
-        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+        "angler": "KVD",
+        "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant."
       }
     ],
     "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",

@@ -105,7 +105,7 @@ export function estimateWaterTemp(
   // Water responds to sustained air temp deviations, but slowly and with limits.
   // A week of 10F-above-normal air might shift water 2-3F above baseline.
   // We estimate this as a fraction of the air deviation, bounded.
-  const waterNudge = Math.max(-4, Math.min(4, airDeviation * 0.2));
+  const waterNudge = Math.max(-6, Math.min(6, airDeviation * 0.3));
 
   let estimated = baseline + waterNudge;
 
@@ -113,7 +113,7 @@ export function estimateWaterTemp(
   // Reservoirs typically change 0.3-0.5F per day max under normal conditions.
   // Extreme conditions (strong cold front, heavy rain) can push ~1F/day.
   if (prevWaterTemp !== undefined) {
-    const maxDailyChange = 0.5;
+    const maxDailyChange = 0.65;
     const diff = estimated - prevWaterTemp;
     if (Math.abs(diff) > maxDailyChange) {
       estimated = prevWaterTemp + Math.sign(diff) * maxDailyChange;

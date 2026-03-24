@@ -12,32 +12,28 @@
       "lure": "10\" Worm (Shakey/TX)",
       "color": "plum",
       "retrieve": "For Yamamoto 10-inch grub: use Gamakatsu EWG Superline 5/0 hook with screw-in 1/4oz weight (F rig) and delayed hookset. Straight shank hooks cause missed fish",
-      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on riprap, creek channel, grass. Work the transitions and edges where structure changes.",
       "proSource": "Yamamoto"
     },
     "alternateApproach": {
       "lure": "10\" Worm (Shakey/TX)",
       "color": "Green Pumpkin",
       "retrieve": "Palaniuk: 'Start with a Texas-rigged 10-inch worm in brushpiles because the heavier line and bigger hook up the odds of landing fish in cover, then switch to Neko rig for more bites'",
-      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on riprap, creek channel, grass. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
       {
         "angler": "KVD",
-        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+        "insight": "KVD: On lowland reservoirs with grass (Guntersville, Toledo Bend, Okeechobee), bass don't leave shallow areas even in extreme cold. They stage in slightly deeper areas adjacent to spawning flats — drains, ditches, depressions, holes in the grass. ..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I like to fish offshore and target shell bars or brushpiles with a 10-inch worm in summer.'"
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
-      },
-      {
-        "angler": "Johnston",
-        "insight": "Johnston: In cold water when fishing shallower 2- to 10-foot depths, anchor outside of a sand patch, boulder, or weed edge and work the area hard for multiple hookups. These bass are moving super slow — you really have to work an area over hard wi..."
+        "insight": "Wheeler: On highland reservoirs like Cherokee, smallmouth live around holes/depressions (20 ft around the side) — if rock is around them the smallies live there. If a rock vein goes into the middle, they live on those veins. The holes harbor the b..."
       }
     ],
     "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",

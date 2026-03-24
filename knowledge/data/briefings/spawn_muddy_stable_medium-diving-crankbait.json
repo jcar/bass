@@ -12,28 +12,32 @@
       "lure": "Medium Diving Crankbait",
       "color": "Citrus",
       "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Medium Diving Crankbait",
       "color": "Live River Shad",
       "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, bluff, riprap. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
       {
         "angler": "KVD",
-        "insight": "KVD: Fluorocarbon is mandatory for cranking grass — low stretch helps rip bait free. Soft-tip composite rod (glass/graphite blend) for feel and power. Multiple rods with different line sizes. Series 5 crankbait runs 10-12ft — wants a bait that run..."
-      },
-      {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+        "insight": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and..."
       },
       {
         "angler": "Yamamoto",
         "insight": "Best for pitching to isolated cover - docks, logs, laydowns, boulders, stumps. A little tough to sink into thick cover. Effective on both smallmouth and largemouth, spawning, cruising, and fry guarding fish"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Smallmouth like to spawn on something - rock, gravel, a boulder, patch of weeds, a stick, cracks of slate. Sometimes they'll be on a gravel flat in the middle of nowhere."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: If limited to three baits for any season or condition, picks a DT-6 crankbait, a buzzbait, and a Biffle Bug creature bait; prefers moving/reaction baits over finesse and likes to force reflex bites."
       }
     ],
     "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",

@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
-      "targets": "Focus on flat, grass, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Blue Baby",
       "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
-      "targets": "Focus on flat, grass, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,16 +28,12 @@
         "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+        "angler": "KVD",
+        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
       },
       {
         "angler": "Johnston",
-        "insight": "Johnston: Developed the SPRO CJ Smasher as a versatile 3-inch worm that is durable (Dura Tuff material), scent-infused (Amino Bite), and can be rigged multiple ways including drop shot, shakey head, Ned rig, and Texas rig."
+        "insight": "Johnston: Garmin Perspective Mode is critical for bed fishing in low-visibility conditions. Relied heavily on it along with the Power-Pole Move trolling motor for targeting bed fish."
       }
     ],
     "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",

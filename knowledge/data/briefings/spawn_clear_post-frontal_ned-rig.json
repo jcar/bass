@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "KVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Blue Baby",
       "retrieve": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,16 +28,12 @@
         "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
       },
       {
+        "angler": "KVD",
+        "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of larg..."
+      },
+      {
         "angler": "Johnston",
-        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
-      },
-      {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+        "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day."
       }
     ],
     "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",

@@ -12,14 +12,14 @@
       "lure": "10\" Worm (Shakey/TX)",
       "color": "Green Pumpkin Blue",
       "retrieve": "Wheeler: An old-school TX-rigged 6-inch worm on ledges is something people forget about — you can go behind other anglers and get bites when fish won't eat a crankbait or are not grouped up. Use 3/8-o",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "10\" Worm (Shakey/TX)",
       "color": "plum",
       "retrieve": "Robertson: When post-spawn schools bust up due to high water, Texas-rig a big worm (Strike King Bullworm) in green pumpkin to find small scattered schools.",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "proInsights": [
@@ -29,15 +29,15 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       },
       {
         "angler": "Johnston",
-        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
-      },
-      {
-        "angler": "KVD",
-        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+        "insight": "Johnston: I need the sun and the calm. Most people want the wind to blow, but I want it to be really tough on everybody because I figured out a method to catch them when it's really slick."
       }
     ],
     "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",

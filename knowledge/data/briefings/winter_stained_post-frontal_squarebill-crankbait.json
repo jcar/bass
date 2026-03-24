@@ -12,14 +12,14 @@
       "lure": "Squarebill Crankbait",
       "color": "Fire Craw",
       "retrieve": "KVD: Flatside crankbait (Hardliner 35) is the FIRST crankbait in extreme cold — 'the difference between a flatside and even a squarebill is night and day in the amount of bites in extremely cold water",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, point, grass. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Squarebill Crankbait",
       "color": "Kentucky Blue",
       "retrieve": "KVD: For the shallow zone in cold water, use a flatside crankbait (Hardliner). Extremely tight action — bass use their lateral line to hunt in cold water and flatsides displace a ton of water. Small p",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, point, grass. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
@@ -28,12 +28,8 @@
         "insight": "KVD: 'I'm a big believer in flat-sided crankbaits in winter — the KVD 1.5 Flat and Lucky Shad for cold water. Throw Lucky Shad on spinning equipment with 8lb fluoro for extra distance and depth.'"
       },
       {
-        "angler": "Robertson",
-        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
-      },
-      {
         "angler": "Wheeler",
-        "insight": "Wheeler: Big fish spots are big giant flats in 22-29 ft with tiny isolated rockpiles — a boulder in the middle of a rocky flat, or a hard-bottom spot. Only good for 1-2 fish and time-consuming to find, but that's what separates you"
+        "insight": "Wheeler: On highland reservoirs like Cherokee, smallmouth live around holes/depressions (20 ft around the side) — if rock is around them the smallies live there. If a rock vein goes into the middle, they live on those veins. The holes harbor the b..."
       }
     ],
     "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",

@@ -12,14 +12,14 @@
       "lure": "Suspending Jerkbait",
       "color": "Blueback Herring",
       "retrieve": "Wheeler: A jerkbait's ability to hover in the fish's face for longer periods makes it the best choice in the most heavily stained water.",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Suspending Jerkbait",
       "color": "Green Gill",
       "retrieve": "Palaniuk: 'When fish push bait toward the surface, mimic that by twitching upward -- change rod angle to twitch up. That makes the bait look like it's about to get eaten. When they see it escaping, th",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
@@ -29,15 +29,15 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+        "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
       },
       {
         "angler": "Yamamoto",
         "insight": "The D Shad's extra density allows use on casting gear (15-lb fluorocarbon, medium-heavy rod) unlike most soft jerkbaits — this opens up fishing thick cover without breakoffs, and enables skip casting under docks and overhangs"
       },
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blu..."
+        "angler": "Robertson",
+        "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up."
       }
     ],
     "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",

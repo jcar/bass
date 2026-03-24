@@ -24,16 +24,16 @@
     },
     "proInsights": [
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
-      },
-      {
         "angler": "KVD",
         "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
       },
       {
         "angler": "Yamamoto",
         "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Garmin Perspective Mode is critical for bed fishing in low-visibility conditions. Relied heavily on it along with the Power-Pole Move trolling motor for targeting bed fish."
       }
     ],
     "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",

@@ -12,32 +12,32 @@
       "lure": "Carolina Rig",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Fishes Carolina rig in 4 to 25 feet of water, but most of the time works it in 8 to 12 feet; holds rod to his side at three o'clock position during entire retrieve.",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
-      {
-        "angler": "KVD",
-        "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait..."
-      },
       {
         "angler": "Wheeler",
         "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
       },
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+        "angler": "Robertson",
+        "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up."
       },
       {
         "angler": "Hackney",
         "insight": "Hackney: 'Big fish relate to the perimeter, a creek channel, and hold on an isolated piece of grass on a flat. Little fish run up shallow while big fish satellite around the area.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
       }
     ],
     "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",

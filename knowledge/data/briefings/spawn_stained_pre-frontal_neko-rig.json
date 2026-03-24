@@ -12,14 +12,14 @@
       "lure": "Neko Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
-      "targets": "Focus on flat, dock, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, rock, grass. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Neko Rig",
       "color": "Baby Bass",
       "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
-      "targets": "Focus on flat, dock, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, rock, grass. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
@@ -32,12 +32,8 @@
         "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
       },
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'My offshore rotation goes: 1) deep-diving crankbait to cover water fast and fire up the school, 2) swimbait for a slower moving presentation once crankbait bite dies, 3) big flutter spoon for vertical reaction bites on fish seen on elec..."
-      },
-      {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
+        "angler": "Johnston",
+        "insight": "Johnston: Garmin Perspective Mode is critical for bed fishing in low-visibility conditions. Relied heavily on it along with the Power-Pole Move trolling motor for targeting bed fish."
       }
     ],
     "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",

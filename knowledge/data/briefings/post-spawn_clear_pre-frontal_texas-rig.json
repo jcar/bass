@@ -12,32 +12,24 @@
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Texas Rig (Creature Bait)",
       "color": "green pumpkin",
       "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
       {
-        "angler": "Yamamoto",
-        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
-      },
-      {
         "angler": "KVD",
-        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       }
     ],
     "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",

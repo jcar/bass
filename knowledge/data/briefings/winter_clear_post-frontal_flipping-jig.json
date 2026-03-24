@@ -12,14 +12,14 @@
       "lure": "Flipping Jig",
       "color": "green pumpkin",
       "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Flipping Jig",
       "color": "blue craw jig with green pumpkin sapphire trailer",
       "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -29,11 +29,11 @@
       },
       {
         "angler": "KVD",
-        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+        "insight": "KVD: In clear deep lakes with shad kills, fish often suspend. The higher they are in the water column, the more active they are. Fish off main lake points, humps, drops, centers of big bays — not near the bank. Alabama rig with spinners (keeps rig..."
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "angler": "Yamamoto",
+        "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on..."
       }
     ],
     "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",

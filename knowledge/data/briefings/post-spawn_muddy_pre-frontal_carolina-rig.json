@@ -12,14 +12,14 @@
       "lure": "Carolina Rig",
       "color": "Chartreuse/White",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, dock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "Chartreuse/White",
       "retrieve": "Wheeler: Fishes Carolina rig in 4 to 25 feet of water, but most of the time works it in 8 to 12 feet; holds rod to his side at three o'clock position during entire retrieve.",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, dock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,12 +28,16 @@
         "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+        "angler": "Johnston",
+        "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+        "insight": "KVD: 'Bass don't go extremely deep immediately after spawning. They stop at secondary points, road beds, shallow ledges, main lake points in the 8-10ft range. Many anglers pull out deep divers too soon — a medium-diving crankbait in Sexy Shad matc..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: When following postspawn bass down ditches with a deep diver, start by casting ahead and up on top, then bring the crankbait down the side of the ditch at about a 45-degree angle. The crankbait must hit bottom."
       }
     ],
     "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",

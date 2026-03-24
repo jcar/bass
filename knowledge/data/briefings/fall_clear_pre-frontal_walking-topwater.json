@@ -12,14 +12,14 @@
       "lure": "Walking Topwater",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue working the bait - slow it down but snap it harder to make it look injured but still r",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Walking Topwater",
       "color": "green back white sides (IU)",
       "retrieve": "Robertson: When a deep pattern dies due to wind shift muddying the water, switch to a modified walking topwater (Sexy Dawg with SuspenDots and upgraded treble hooks to reduce buoyancy) targeting bass ",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, grass. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "proInsights": [
@@ -29,11 +29,11 @@
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish."
+        "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area."
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+        "insight": "Wheeler: In 14-16 inches of clear water, hooking one bass spooks 4-5 more in the area; they need time to set back up and reposition before you can catch them again; requires long casts."
       }
     ],
     "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",

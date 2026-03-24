@@ -489,6 +489,32 @@
         "vandam-offers-a-trick-and-a-treat-for-halloween-bass.txt",
         "vandams-6-season-bass-guide.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "retrieveNote": "17-20lb fluorocarbon to rip through grass.'"
+        },
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "Smallmouth feed by looking up — burn the bait over their heads a few feet off bottom"
+        },
+        {
+          "when": {
+            "season": "spawn",
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "retrieveNote": "If snagged, snap free from a distance or break off — never go over the stump and disturb the area.'"
+        }
+      ],
       "lureCategory": "cranking"
     },
     "Lipless Crankbait": {
@@ -826,6 +852,100 @@
         "vandams-3-top-lures-for-early-spring.txt",
         "vandams-6-season-bass-guide.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "weight": "1/4oz",
+          "retrieveNote": "Rip it out of cover, let it flutter down — that swimming shimmy on the fall is the magic"
+        },
+        {
+          "when": {
+            "season": [
+              "winter",
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8oz"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "retrieveNote": "Fish it like a yo-yo: side sweep of rod, let it fall, repeat"
+        },
+        {
+          "when": {
+            "fishDepth": {
+              "max": 6
+            }
+          },
+          "priority": 5,
+          "retrieveNote": "Every time it ticks cover, pop it and let it flutter — that's when fish bite.'"
+        },
+        {
+          "when": {
+            "fishDepth": {
+              "min": 6,
+              "max": 12
+            }
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'My favorite technique is pump-and-stop"
+        },
+        {
+          "when": {
+            "fishDepth": {
+              "min": 12
+            }
+          },
+          "priority": 5,
+          "weight": "3/4oz",
+          "retrieveNote": "KVD: 'In deeper water, yo-yo on ledges — cast, let sink, hop up and follow back down"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "weight": "1/4oz",
+          "retrieveNote": "It's all about the fall — rip it out of the grass and let it flutter with that shimmy/hover"
+        },
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "weight": "1/2oz"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: Don't just cast and reel a Red Eye Shad — yo-yo it, tick the grass, rip it out"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'Winter lipless crankbait: pull-and-pause retrieve to keep bait falling near the bottom"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "weight": "1/2oz",
+          "retrieveNote": "Key is to fish it near the bottom — drag or short-hop it, don't burn it"
+        }
+      ],
       "lureCategory": "cranking"
     },
     "Texas Rig (Creature Bait)": {
@@ -879,6 +999,38 @@
         "kevin-vandam-power-fishes-for-the-hardware---championship-sunday-with-kvd.txt",
         "power-fishing-with-kevin-vandam-8.txt",
         "shallow-summertime-power-fishing-with-kvd.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/8oz"
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "3/8oz tungsten"
+        },
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "priority": 5,
+          "weight": "3/8oz",
+          "trailer": "creature bait"
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "1/4oz"
+        }
       ],
       "lureCategory": "soft-plastics"
     },
@@ -963,6 +1115,28 @@
         "three-lures-kevin-vandam-will-count-on-most-at-redcrest.txt",
         "top-3-cold-water-crankbaits-catch-more-bass-in-winter-and-pre-spawn-with-kevin-vandam.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter",
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "trailer": "chunk"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "trailer": "chunk"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Crank down into the grass, slow up — let the bait float free or rip it free"
+      },
       "lureCategory": "cranking"
     },
     "Deep Diving Crankbait": {
@@ -1102,6 +1276,18 @@
         "two-summer-lures-that-kvd-loves.txt",
         "vandams-6-season-bass-guide.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "retrieveNote": "Key: when you snag a little, SNAP the crankbait out of the weeds — that often triggers the fish into biting.'"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Use 14-20lb fluorocarbon for strength to rip free"
+      },
       "lureCategory": "cranking"
     },
     "Suspending Jerkbait": {
@@ -1416,6 +1602,31 @@
         "vandams-3-top-lures-for-early-spring.txt",
         "vandams-6-season-bass-guide.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'In cold water, I use a solid pull a couple times and pause briefly — point the rod at the bait for slack and en..."
+        },
+        {
+          "when": {
+            "season": "winter",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "Fish off main lake points, bluff walls, bridge pilings, riprap"
+        },
+        {
+          "when": {
+            "season": "pre-spawn",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'Spring jerkbait: work it on slack line — never go the same direction twice"
+        }
+      ],
       "lureCategory": "cranking"
     },
     "Drop Shot": {
@@ -1523,6 +1734,45 @@
         "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt",
         "master-series-on-power-fishing-with-kevin-vandam-lesson-3.txt",
         "vandams-way-adding-power-to-your-drop-shot-approach.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'Drop shot lets me cover water faster than typical finesse — cast, hop a few times, swim it, let it fall back"
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/4oz"
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/2oz"
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/8oz"
+        },
+        {
+          "when": {
+            "fishDepth": {
+              "min": 15
+            }
+          },
+          "priority": 5,
+          "retrieveNote": "Shake it a few times, see if you can get a bite, then move on"
+        }
       ],
       "lureCategory": "finesse"
     },
@@ -1836,6 +2086,99 @@
         "vandams-6-season-bass-guide.txt",
         "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "clear",
+            "skyCondition": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'On bright days in clear water, run your spinnerbait fast — rip it for reaction strikes so bass can't inspect it"
+        },
+        {
+          "when": {
+            "season": "summer",
+            "fishDepth": {
+              "min": 10
+            }
+          },
+          "priority": 5,
+          "weight": "3/4oz",
+          "retrieveNote": "KVD: 'Big 3/4oz spinnerbait with single willow blade for offshore structure — let it helicopter down on a tight line ..."
+        },
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "retrieveNote": "When it touches an obstacle, speed up and let it flutter back — that provokes the reaction strike.'"
+        },
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "3/16oz",
+          "retrieveNote": "KVD: 'Fall — burn a spinnerbait just beneath the surface in clear water"
+        },
+        {
+          "when": {
+            "season": "post-spawn"
+          },
+          "priority": 5,
+          "retrieveNote": "Also use Thunder Cricket, white swim jig, or buzzbait depending on cover"
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/2oz"
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "priority": 5,
+          "weight": "5/16oz"
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "priority": 5,
+          "retrieveNote": "Burn it right under surface in clear water, slow-roll around laydowns and logs, fish around docks and bushes"
+        },
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "priority": 5,
+          "trailer": "creature bait",
+          "retrieveNote": "KVD: 'During spawn, burn a spinnerbait around shallow bushes in pockets"
+        },
+        {
+          "when": {
+            "waterClarity": [
+              "stained",
+              "muddy"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Slow roll over cover, keep bait above bass's line of sight"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "trailer": "Use a plastic"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Don't just reel baits straight in — hit stuff, rip out of grass, bounce off dock pilings, stop and start"
+      },
       "lureCategory": "moving-baits"
     },
     "Chatterbait": {
@@ -2130,6 +2473,77 @@
         "squarebill-vs-thunder-cricket.txt",
         "the-secret-to-catching-prespawn-bass-in-cold-water-kvd-explains.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer",
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "trailer": "ounce Thunder Cricket in white with blade minnow"
+        },
+        {
+          "when": {
+            "season": [
+              "winter",
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8oz",
+          "trailer": "tail blade minnow",
+          "retrieveNote": "Pull and stop, not steady retrieve"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "trailer": "Blade Minnow",
+          "retrieveNote": "Use it as a wakebait that just barely gets into the grass, jerk it out of the grass for more bites"
+        },
+        {
+          "when": {
+            "waterClarity": "clear",
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "trailer": "Green pumpkin or blue craw body with KVD Magic"
+        },
+        {
+          "when": {
+            "season": "fall",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "trailer": "Thunder Cricket vibrating jig with Blade Minnow"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "retrieveNote": "KVD: 'In shallower prespawn areas around cover, a Rage Blade (bladed jig), swim jig, Red Eye Shad, or squarebill are ..."
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "3/8oz"
+        },
+        {
+          "when": {
+            "season": "pre-spawn",
+            "frontalSystem": "post-frontal"
+          },
+          "priority": 5,
+          "retrieveNote": "Get it down in the grass, hop it, twitch it"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "5/8oz"
+      },
       "lureCategory": "moving-baits"
     },
     "Swim Jig": {
@@ -2256,6 +2670,21 @@
         "skip-cast-like-a-pro-part-2-of-2.txt",
         "swim-jig-versatility-when-changing-pattern-swim-jig-tips.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "muddy"
+          },
+          "priority": 5,
+          "trailer": "Rage Craw",
+          "retrieveNote": "KVD: 'In dirty water, pick a swim jig color that stands out — either really bright or really dark"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/8oz",
+        "trailer": "Rage Craw",
+        "retrieveNote": "KVD: 'Swim jig is the first bait I reach for on unfamiliar water with shallow cover"
+      },
       "lureCategory": "moving-baits"
     },
     "Ned Rig": {
@@ -2328,6 +2757,24 @@
         "kevin-vandam-on-how-to-catch-small-mouth-bass.txt",
         "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "weight": "1/8oz"
+        },
+        {
+          "when": {
+            "windSpeed": {
+              "min": 10
+            }
+          },
+          "priority": 5,
+          "weight": "3/16oz"
+        }
+      ],
       "lureCategory": "finesse"
     },
     "Flipping Jig": {
@@ -2362,6 +2809,21 @@
         "have-more-than-one-thick-vegetation-setups-to-punch-through-with-kevin-vandam.txt",
         "swim-jig-versatility-when-changing-pattern-swim-jig-tips.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "muddy"
+          },
+          "priority": 5,
+          "weight": "1/2oz",
+          "trailer": "blue with blue craw Rage Craw",
+          "retrieveNote": "Flip into thick cover or swim it depending on the area"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/4oz",
+        "trailer": "4oz Hack Attack jig with Rage Craw"
+      },
       "lureCategory": "jigs"
     },
     "Football Jig": {
@@ -2383,6 +2845,17 @@
       "defaultTips": [],
       "sources": [
         "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "3/4oz",
+          "trailer": "4oz football jig with Rage Craw",
+          "retrieveNote": "KVD: 'For deep bream beds in summer (10-20ft), drag a 3/4oz football jig with Rage Craw trailer in blue craw/red flake"
+        }
       ],
       "lureCategory": "jigs"
     },
@@ -2419,6 +2892,19 @@
         "kevin-vandam-four-key-finesse-baits-and-why-i-use-them.txt",
         "master-series-on-power-fishing-with-kevin-vandam-lesson-3.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "Drag slowly in and out of individual bed craters"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "KVD: 'Power finesse with shaky head: make precise casts to where bass should be, shake it a few times, quickly recast"
+      },
       "lureCategory": "finesse"
     },
     "Carolina Rig": {
@@ -2477,6 +2963,15 @@
       "sources": [
         "fishing-in-extremely-cold-water-kevin-vandam.txt",
         "vandams-6-season-bass-guide.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "retrieveNote": "Fish get locked on the bottom — short hop it on edges, drops, outside edges of flats and weed lines"
+        }
       ],
       "lureCategory": "reaction"
     },
@@ -2591,6 +3086,22 @@
         "two-summer-lures-that-kvd-loves.txt",
         "vandams-6-season-bass-guide.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "fall"
+          },
+          "priority": 5,
+          "retrieveNote": "Use 50lb braid, 7.3:1 reel — braid makes it easier to walk and gets better hook-ups.'"
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "retrieveNote": "Use 40lb braid — helps it walk better on surface AND gives firmer hooksets at end of long casts vs mono"
+        }
+      ],
       "lureCategory": "topwater"
     },
     "Neko Rig": {
@@ -2634,6 +3145,20 @@
         "kevin-vandam-power-fishes-for-the-hardware---championship-sunday-with-kvd.txt",
         "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "windSpeed": {
+              "max": 3
+            }
+          },
+          "priority": 5,
+          "retrieveNote": "Cast it out, let it painfully sink to the bottom, twitch a few times — they usually eat it before it hits bottom"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/32oz tungsten"
+      },
       "lureCategory": "finesse"
     },
     "Jigging Spoon": {
@@ -2670,6 +3195,23 @@
       "sources": [
         "power-fishing-with-kevin-vandam-2.txt",
         "tricks-for-catching-suspended-bass.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "retrieveNote": "Rip it and let it fall back — resembles a dying shad"
+        },
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "3/8oz",
+          "retrieveNote": "KVD: 'For suspended bass, rip a jigging spoon or flutter spoon above the fish and let it fall back"
+        }
       ],
       "lureCategory": "reaction"
     },
@@ -2713,6 +3255,17 @@
       "defaultTips": [],
       "sources": [
         "vandams-3-top-lures-for-early-spring.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "pre-spawn",
+            "waterClarity": "muddy"
+          },
+          "priority": 5,
+          "weight": "1/2oz",
+          "retrieveNote": "Clearer water, drag it slowly across rocky bottom on primary or secondary points — green pumpkin"
+        }
       ],
       "lureCategory": "jigs"
     },
@@ -3050,14 +3603,13 @@
       "insight": "KVD: 'Fall reservoirs — shad move shallow to warmest water in creek arms. Go as far up a creek as your boat allows. If it has a defined channel, bass use it for ambush points. Pods of bait near surface plus birds indicate a really good afternoon bite as sun warms water. Fall drawdown exposes cover you can't see in summer.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
+          "fall"
         ],
         "structure": [
-          "point",
           "creek-channel"
         ],
-        "coverType": "wood"
+        "depthZone": "shallow",
+        "lureCategory": "cranking"
       },
       "source": "194409.txt"
     },
@@ -3070,10 +3622,10 @@
           "fall"
         ],
         "structure": [
-          "flat",
-          "grass"
+          "grass",
+          "flat"
         ],
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "194409.txt"
     },
@@ -3085,9 +3637,7 @@
         "season": [
           "fall"
         ],
-        "structure": [
-          "hump"
-        ],
+        "lureCategory": "cranking",
         "retrieveStyle": "steady"
       },
       "source": "194409.txt"
@@ -3109,11 +3659,8 @@
       "insight": "KVD: For Knoxville Classic (Fort Loudoun/Tellico, mid-March), the key baits are: Red Eye Shad, flatside crankbait (Hardliner 35), jerkbait, and Thunder Cricket. Power fishing will dominate. Most winning fish will come from Loudoun with largemouth. Fish are staging to spawn but cold winter has them behind schedule. Forward-facing sonar will add 1-2 extra fish per day but won't change the core pattern.",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+          "pre-spawn"
+        ]
       },
       "source": "2026-bassmaster-classic-preview-kevin-vandam.txt"
     },
@@ -3132,8 +3679,7 @@
         "season": [
           "pre-spawn"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "2026-bassmaster-classic-preview-kevin-vandam.txt"
     },
@@ -3145,9 +3691,7 @@
         "season": [
           "winter"
         ],
-        "depthZone": "deep",
-        "lureCategory": "cranking",
-        "coverType": "rock"
+        "lureCategory": "cranking"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
     },
@@ -3158,7 +3702,9 @@
       "conditions": {
         "season": [
           "winter"
-        ]
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "stop-and-go"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
     },
@@ -3194,7 +3740,6 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "muddy",
         "lureCategory": "cranking"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
@@ -3207,8 +3752,7 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "stained",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
     },
@@ -3221,13 +3765,10 @@
           "winter"
         ],
         "structure": [
-          "flat",
-          "riprap",
-          "creek-channel",
-          "bluff"
+          "bluff",
+          "riprap"
         ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
         "coverType": "rock"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
@@ -3237,12 +3778,7 @@
       "topic": "crankbait-must-contact-bottom",
       "insight": "KVD: 'Making sure your crankbait is contacting the bottom in any depth zone you're fishing — that is absolutely paramount.' The deflection off rocks, cover, even gravel makes a big difference in triggering cold water fish to bite.",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "rock"
+        "lureCategory": "cranking"
       },
       "source": "3-crankbaits-you-need-for-cold-water---kevin-vandam.txt"
     },
@@ -3252,11 +3788,8 @@
       "insight": "KVD: For Knoxville Classic (Fort Loudoun/Tellico, mid-March), the key baits are: Red Eye Shad, flatside crankbait (Hardliner 35), jerkbait, and Thunder Cricket. Power fishing will dominate. Most winning fish will come from Loudoun with largemouth. Fish are staging to spawn but cold winter has them behind schedule. Forward-facing sonar will add 1-2 extra fish per day but won't change the core pattern.",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+          "pre-spawn"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3275,8 +3808,7 @@
         "season": [
           "pre-spawn"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3288,9 +3820,7 @@
         "season": [
           "winter"
         ],
-        "depthZone": "deep",
-        "lureCategory": "cranking",
-        "coverType": "rock"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3301,7 +3831,9 @@
       "conditions": {
         "season": [
           "winter"
-        ]
+        ],
+        "lureCategory": "cranking",
+        "retrieveStyle": "stop-and-go"
       },
       "source": "_merged-review.json"
     },
@@ -3337,7 +3869,6 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "muddy",
         "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
@@ -3350,8 +3881,7 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "stained",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3364,13 +3894,10 @@
           "winter"
         ],
         "structure": [
-          "flat",
-          "riprap",
-          "creek-channel",
-          "bluff"
+          "bluff",
+          "riprap"
         ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
         "coverType": "rock"
       },
       "source": "_merged-review.json"
@@ -3380,12 +3907,7 @@
       "topic": "crankbait-must-contact-bottom",
       "insight": "KVD: 'Making sure your crankbait is contacting the bottom in any depth zone you're fishing — that is absolutely paramount.' The deflection off rocks, cover, even gravel makes a big difference in triggering cold water fish to bite.",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "rock"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3394,12 +3916,6 @@
       "topic": "lipless-crankbait-size-depth-control",
       "insight": "KVD: Red Eye Shad sizes for depth control — 1/4oz for ultra-shallow (1-2ft), 3/8oz for shallow flats, 1/2oz as go-to, 3/4oz for 10-15ft deep drains. Plus tungsten Two Tap in 1/2 and 3/4oz — heavier tungsten fishes slightly deeper. Most anglers get stuck on 1/2oz and don't downsize when fish are shallow.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "depthZone": "shallow",
         "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
@@ -3409,13 +3925,7 @@
       "topic": "lipless-crankbait-line-controls-depth",
       "insight": "KVD: Line size is a major depth control tool for lipless crankbaits. Lighter line (10-12lb) = bait gets deeper (use for clear water, deeper grass, northern natural lakes). Heavier line (17-20lb) = bait stays higher and falls slower (use for shallow grass lakes like Guntersville). Rod tip up in shallow water.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3424,16 +3934,7 @@
       "topic": "lipless-crankbait-rod-reel",
       "insight": "KVD: CC3 medium-heavy composite (graphite/glass) cranking rod for lipless crankbaits. 6.2:1 gear ratio reel — not high-speed in cold water. The composite gives feel for detecting grass on hooks while having power to rip free.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "season": [
-          "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3442,9 +3943,7 @@
       "topic": "lipless-crankbait-hook-upgrade",
       "insight": "KVD: Always change hooks to KVD/Mustad Triple Grip. Upsize: #2 on 1/2oz, #4 on 1/4oz, #1/0 on 3/4oz. Triple grip design locks fish on — critical because lipless crankbaits are known for poor strike-to-land ratio. Won the Classic catching 5-pounders hooked in the back and side thanks to these hooks.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3453,12 +3952,10 @@
       "topic": "lipless-crankbait-comprehensive-colors",
       "insight": "KVD: Crawfish patterns dominate pre-spawn — reds in any water clarity (Rayburn Red, Delta Red, Fire Craw). Clear water = natural craw patterns (dark brown, baby carp, orange brim, bluegill). Stained/dirty = chartreuse, chartreuse sexy shad, brighter colors. Shad-focused systems (Tennessee River) = chrome sexy shad, gold sexy shad, straight sexy shad.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained",
-        "retrieveStyle": "burn"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3467,17 +3964,11 @@
       "topic": "lipless-crankbait-jig-style",
       "insight": "KVD: Fish the lipless crankbait like a jig in cold water. Short hop it along the bottom. Pull it around cover, deflect off rocks. Rip it out of grass, let it flutter down. Use rod tip to manipulate depth — tip up in shallow, down to get deeper. Make the bait fall as many times as possible — that's when bites happen.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "structure": [
-          "grass"
+          "pre-spawn"
         ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "grass"
+        "retrieveStyle": "hop"
       },
       "source": "_merged-review.json"
     },
@@ -3486,7 +3977,6 @@
       "topic": "lipless-crankbait-pre-spawn-targets",
       "insight": "KVD: Focus on large flats and spawning flats — where fish are coming and going. Look for deeper depressions, edges, drops, centers of drains within the flat. These subtle depth changes concentrate pre-spawn fish. At places like Toledo Bend and Sam Rayburn, fish deeper drains/ditches leading into spawning bays with 3/4oz.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
           "pre-spawn"
         ],
@@ -3494,7 +3984,7 @@
           "flat",
           "creek-channel"
         ],
-        "retrieveStyle": "burn"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3504,7 +3994,8 @@
       "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant.",
       "conditions": {
         "season": [
-          "summer"
+          "summer",
+          "post-spawn"
         ],
         "depthZone": "deep",
         "lureCategory": "cranking"
@@ -3515,9 +4006,7 @@
       "category": "lake-reading",
       "topic": "stop-signs-outside-spawning-coves",
       "insight": "KVD: 'Stop signs' = clean areas (hard bottom, rock transitions) that sit just outside major spawning coves. Fish stage on these as they move in and out of spawning areas. Concentrate on high-percentage corners. LakeMaster mapping showing bottom contours was the critical tool — 'the only reason I won.'",
-      "conditions": {
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
@@ -3532,7 +4021,6 @@
       "topic": "chatterbait-blade-minnow-trim",
       "insight": "KVD: Cut the head off the blade minnow trailer to shorten it slightly. The water rushing around the chatterbait blade hits the shortened tail at the perfect distance for lively action. This is his #1 trailer for the Thunder Cricket.",
       "conditions": {
-        "lure": "Chatterbait",
         "lureCategory": "moving-baits"
       },
       "source": "_merged-review.json"
@@ -3543,8 +4031,7 @@
       "insight": "KVD: 'Lakes that have grass change the most.' Creek channels don't move and bottom terrain is static, but grass lakes change a lot year to year — grass types, height, density all shift. Different areas of the same lake may have different grass types (hydrilla, eel grass, pepper grass, streaming grass).",
       "conditions": {
         "structure": [
-          "grass",
-          "creek-channel"
+          "grass"
         ],
         "coverType": "grass"
       },
@@ -3586,7 +4073,6 @@
         "structure": [
           "grass"
         ],
-        "lureCategory": "cranking",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -3599,7 +4085,8 @@
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained"
+        "waterClarity": "stained",
+        "pressureState": "post-frontal"
       },
       "source": "_merged-review.json"
     },
@@ -3609,10 +4096,8 @@
       "insight": "KVD: In cold water, you can't just cover water. The strike zone is very small — fish won't swim 10 feet to eat your bait. You have to get it right in front of them and 'knock them on the head.' Slow down and be more thorough.",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "depthZone": "mid"
+          "pre-spawn"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3630,12 +4115,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "retrieveStyle": "burn",
-        "coverType": "grass"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3658,12 +4138,12 @@
         "season": [
           "winter"
         ],
+        "waterClarity": "clear",
+        "depthZone": "deep",
         "structure": [
           "point",
           "hump"
-        ],
-        "lureCategory": "moving-baits",
-        "coverType": "open"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3674,8 +4154,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lureCategory": "soft-plastics"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3699,9 +4178,7 @@
           "winter"
         ],
         "structure": [
-          "grass",
-          "flat",
-          "creek-channel"
+          "grass"
         ],
         "depthZone": "shallow",
         "coverType": "grass"
@@ -3715,8 +4192,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lureCategory": "cranking"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -3724,10 +4200,7 @@
       "category": "gear",
       "topic": "crankbait-bill-angle-theory",
       "insight": "KVD: Bill angle determines everything. Straighter bill = tighter action + steeper dive angle + deeper running. More angle from the body = wider wobble + more displacement + more vibration + quicker recovery after deflection. The line tie position relative to the bill matters too.",
-      "conditions": {
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
@@ -3735,10 +4208,6 @@
       "topic": "flatside-vs-round-body-crankbait",
       "insight": "KVD: Flatside crankbaits send off a lot of pressure waves because flat sides displace a ton of water. Best in cold water (bass rely on lateral line to hunt) and dirty water any season (visibility is down). Round body crankbaits vary widely depending on bill angle — the body shape alone doesn't tell the whole story.",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "waterClarity": "muddy",
         "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
@@ -3757,10 +4226,8 @@
       "topic": "10xd-unique-design",
       "insight": "KVD: The 10XD is unique for a straight-body deep diver — it has a slightly wider wobble than expected, giving it great deflection even in 12-15ft of water. Most deep divers with straight bills lose themselves completely when hitting cover. The 10XD doesn't — that's why it's a premier deep cranking bait.",
       "conditions": {
-        "lure": "Deep Diving Crankbait",
-        "depthZone": "deep",
         "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go"
+        "depthZone": "deep"
       },
       "source": "_merged-review.json"
     },
@@ -3769,14 +4236,7 @@
       "topic": "squarebill-versatility",
       "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Works in cold or warm water. Triggers neutral/negative fish with deflection.",
       "conditions": {
-        "lure": "Squarebill Crankbait",
-        "structure": [
-          "riprap",
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -3794,6 +4254,9 @@
       "topic": "deeper-grass-overlooked",
       "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of largemouth have already spawned out there.",
       "conditions": {
+        "season": [
+          "spawn"
+        ],
         "structure": [
           "grass",
           "flat"
@@ -3809,8 +4272,7 @@
       "topic": "wind-affects-visibility-strategy",
       "insight": "KVD: North wind blowing into a bank knocks algae loose and muddies the water, making sight fishing impossible. When this happens, switch from sight fishing to casting Thunder Cricket or fan casting the area. Conditions can clear up fast when wind lays down.",
       "conditions": {
-        "waterClarity": "clear",
-        "lureCategory": "moving-baits"
+        "waterClarity": "stained"
       },
       "source": "_merged-review.json"
     },
@@ -3819,9 +4281,6 @@
       "topic": "northern-lake-forage",
       "insight": "KVD: In northern natural lakes, perch and gobies are the primary forage — fish spend most of their time feeding on them. Both live on or near rocks. Birds diving on shallow points = alewives spawning (another forage clue).",
       "conditions": {
-        "structure": [
-          "point"
-        ],
         "coverType": "rock"
       },
       "source": "_merged-review.json"
@@ -3831,11 +4290,7 @@
       "topic": "polarized-glasses-clear-water",
       "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish.",
       "conditions": {
-        "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "waterClarity": "clear"
       },
       "source": "_merged-review.json"
     },
@@ -3851,11 +4306,8 @@
       "topic": "jerkbait-clear-calm-confidence",
       "insight": "KVD: In clear water slick calm conditions, most anglers reach for finesse. KVD's instinct is to jerk a jerkbait over the top of them — the clear water means they'll see it from a distance. Confidence in the technique matters as much as conditions.",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "waterClarity": "clear",
         "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
+        "waterClarity": "clear"
       },
       "source": "_merged-review.json"
     },
@@ -3878,7 +4330,7 @@
       "topic": "clear-water-grass-bladed-jig-challenge",
       "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area.",
       "conditions": {
-        "lure": "Chatterbait",
+        "lureCategory": "moving-baits",
         "waterClarity": "clear",
         "structure": [
           "grass"
@@ -3892,9 +4344,8 @@
       "topic": "thunder-cricket-kvd-magic-trim",
       "insight": "KVD: Bite the head off the KVD Magic trailer — shorten it just a bit. Combined with blue craw Thunder Cricket, it looks like a bluegill. The trailer adds a little flash and keeps the presentation subtle and natural for clear water.",
       "conditions": {
-        "lure": "Chatterbait",
-        "waterClarity": "clear",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "waterClarity": "clear"
       },
       "source": "_merged-review.json"
     },
@@ -3903,7 +4354,6 @@
       "topic": "chatterbait-clear-water-setup",
       "insight": "KVD: CC5 composite rod with heavy action (e-glass/graphite blend) — you feel everything with the bladed jig and it absorbs shock on the bite. 7.5:1 KVD reel, 20lb fluorocarbon.",
       "conditions": {
-        "lure": "Chatterbait",
         "lureCategory": "moving-baits"
       },
       "source": "_merged-review.json"
@@ -3914,8 +4364,7 @@
       "insight": "KVD: On Cayuga Lake (northern natural lake), the north end is a huge expanse of flats at 8-12ft, all grass. The key is finding clean holes in the grass at 9-11ft. Good holes have a little bit of rock in them. Each hole has its own ecosystem — bluegill, perch, gobies all live there. Good holes have reloaded with fish all week.",
       "conditions": {
         "structure": [
-          "grass",
-          "flat"
+          "grass"
         ],
         "depthZone": "mid",
         "coverType": "grass"
@@ -3927,12 +4376,10 @@
       "topic": "texas-rig-grass-holes-setup",
       "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down clean into the holes.",
       "conditions": {
-        "lure": "Texas Rig (Creature Bait)",
+        "lureCategory": "soft-plastics",
         "structure": [
           "grass"
         ],
-        "lureCategory": "soft-plastics",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -3942,10 +4389,10 @@
       "topic": "crankbait-grass-45-degree-angle",
       "insight": "KVD: Position boat just outside the grass line. Cast at 45° quartering angle into shallower grass. Crank down until you hit grass, then slow up. If it won't float free, snap it out. The bait follows the contour of the grass as it comes back to the deeper edge where your boat sits. This is the most effective way to cover a lot of grass quickly.",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -3955,11 +4402,10 @@
       "topic": "crankbait-grass-rip-and-float",
       "insight": "KVD: When crankbait sticks in grass — if it won't come through, snap it free. Otherwise let it float off. The moment it tears free or floats off is when you get the bite. 'A crankbait through the grass is almost as good as a finesse bait like a worm at triggering strikes from inactive fish.'",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -3969,12 +4415,10 @@
       "topic": "crankbait-grass-setup",
       "insight": "KVD: Fluorocarbon is mandatory for cranking grass — low stretch helps rip bait free. Soft-tip composite rod (glass/graphite blend) for feel and power. Multiple rods with different line sizes. Series 5 crankbait runs 10-12ft — wants a bait that runs to the edge of the grass, not one that buries into it.",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "depthZone": "deep",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -3985,8 +4429,7 @@
       "insight": "KVD: The crankbait is a search tool for reading the grass line — you can feel where grass comes out farther, where it's taller, subtle points and cuts. Fish relate to irregularities in the grass edge. On natural lakes where structure is subtle, the crankbait finds what your eyes can't.",
       "conditions": {
         "structure": [
-          "grass",
-          "point"
+          "grass"
         ],
         "lureCategory": "cranking",
         "coverType": "grass"
@@ -4001,9 +4444,6 @@
         "structure": [
           "grass"
         ],
-        "waterClarity": "clear",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -4012,25 +4452,14 @@
       "category": "lake-reading",
       "topic": "guntersville-lake-sections",
       "insight": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
-      "conditions": {
-        "structure": [
-          "ledge",
-          "bluff",
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
       "category": "tournament-strategy",
       "topic": "pre-event-weather-analysis",
       "insight": "KVD: 'One of the things when I'm preparing for a big tournament is I really want to follow the weather — not only current conditions but what's been happening leading up to the event.' When lakes are off-limits for a month+, weather tracking is how you prepare. Water clarity, temp trends, rain history all matter.",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
@@ -4040,11 +4469,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -4053,7 +4478,6 @@
       "topic": "neko-rig-weight-tricks",
       "insight": "KVD: Three weight tricks for Neko rigs: (1) Superglue all tungsten Neko weights — they won't fly out when fish jump. (2) Wrap lead wire from fly tying department (Bass Pro) around the hook shank for subtle extra weight without bulk. (3) Put weights in both ends of creature baits like the Sexy Bug — hook in the middle, weight in both nose and tail.",
       "conditions": {
-        "lure": "Neko Rig",
         "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
@@ -4063,12 +4487,7 @@
       "topic": "neko-rig-spinning-setup",
       "insight": "KVD: GS1 spinning rod, 6'10\" medium action for accuracy around docks. Longer spinning rod for open water distance. 8lb braid to 8lb fluoro leader. Mustad Apex weedless hook for cover/docks, exposed hook in open water. Mustad Apex drop shot hook (wide gap) for creature baits.",
       "conditions": {
-        "lure": "Neko Rig",
-        "structure": [
-          "dock"
-        ],
-        "lureCategory": "finesse",
-        "coverType": "grass"
+        "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
     },
@@ -4077,9 +4496,8 @@
       "topic": "drop-shot-dice-baits",
       "insight": "KVD: Dice/bug baits on a drop shot are a new frontier. Lighter weight = better (1/8oz ideal, 1/4oz max in deeper water). The slow sinking action is the key — once on bottom you can still shake it traditionally, but most bites come on the fall. Game-changer for clear water smallmouth and during Mayfly hatches.",
       "conditions": {
-        "lure": "Drop Shot",
-        "waterClarity": "clear",
-        "lureCategory": "finesse"
+        "lureCategory": "finesse",
+        "waterClarity": "clear"
       },
       "source": "_merged-review.json"
     },
@@ -4088,12 +4506,12 @@
       "topic": "neko-rig-clear-water-spawn",
       "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmouth/spots.",
       "conditions": {
-        "lure": "Neko Rig",
         "season": [
           "spawn"
         ],
+        "lureCategory": "finesse",
         "waterClarity": "clear",
-        "lureCategory": "soft-plastics"
+        "depthZone": "shallow"
       },
       "source": "_merged-review.json"
     },
@@ -4102,9 +4520,7 @@
       "topic": "lipless-crankbait-forage-color-matching",
       "insight": "KVD: Match the forage and water clarity. Spring in Texas = red (crawfish coming out, dark red). Stained water = brighter reds like fire craw or chili craw. Gold has great flash in stained water (gold sexy shad). General rule: 'Pick something that's natural and something that's visible.' Match bluegill, crawfish, or shad based on the system.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "waterClarity": "stained",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "_merged-review.json"
     },
@@ -4117,7 +4533,7 @@
           "pre-spawn"
         ],
         "structure": [
-          "creek-channel"
+          "flat"
         ]
       },
       "source": "_merged-review.json"
@@ -4133,9 +4549,7 @@
       "category": "tournament-strategy",
       "topic": "play-to-your-strengths",
       "insight": "KVD: 'You got to find areas and patterns that fit your strengths.' As a power fisherman, KVD looks for areas where power techniques (crankbaits, bladed jigs) can produce quality bites, not just numbers.",
-      "conditions": {
-        "lureCategory": "cranking"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
@@ -4143,7 +4557,7 @@
       "topic": "ned-rig-rod-setup",
       "insight": "KVD: 7'2\" medium light with extra fast tip (GS4 LSE KVD rod). Uses braid for maximum feel — 'with that braid, you can feel everything.' Bites can be very subtle.",
       "conditions": {
-        "lure": "Ned Rig"
+        "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
     },
@@ -4152,7 +4566,6 @@
       "topic": "ned-rig-hookset",
       "insight": "KVD: Don't set the hook traditionally on a Ned Rig. Reel into them fast — let the rod load, then pull. If you miss one, immediately drop it right back down because they'll come right back and bite it.",
       "conditions": {
-        "lure": "Ned Rig",
         "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
@@ -4162,8 +4575,6 @@
       "topic": "ned-rig-goby-imitation",
       "insight": "KVD: The Ned Rig is so popular for smallmouth because it imitates gobies. Gobies stay locked on the bottom on rocks — that's exactly where the Ned Rig sits. Find the rocks, you find the big smallmouth. Gobies have changed these fisheries — fish don't have to move because the food source is so prolific.",
       "conditions": {
-        "lure": "Ned Rig",
-        "species": "smallmouth",
         "lureCategory": "finesse",
         "coverType": "rock"
       },
@@ -4174,8 +4585,7 @@
       "topic": "ned-rig-weight-selection",
       "insight": "KVD: Use the lightest Ned head you can get away with. 1/16 oz in shallow, 3/16 oz in deep water or heavy wind. Lighter head = better action on the bait.",
       "conditions": {
-        "lure": "Ned Rig",
-        "depthZone": "deep"
+        "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
     },
@@ -4184,7 +4594,6 @@
       "topic": "ned-rig-positioning",
       "insight": "KVD: When fishing the Ned Rig on an edge, the main thing is keeping yourself positioned on the edge where the fish are. Spot Lock (trolling motor GPS anchor) is essential — 'without that spot lock, I would never be able to stay positioned or hold or land one.'",
       "conditions": {
-        "lure": "Ned Rig",
         "lureCategory": "finesse"
       },
       "source": "_merged-review.json"
@@ -4194,13 +4603,11 @@
       "topic": "lipless-crankbait-shallow-grass-setup",
       "insight": "KVD: For lipless crankbaits in shallow grass (3-7ft): CC5 7'4\" heavy action composite rod, 7.5:1 reel, 20lb fluoro. Multiple cranking rods with 14, 17, and 20lb line for different depths. Heavy line keeps the bait up and slows it down in shallow grass. The heavy composite rod has backbone to rip through grass.",
       "conditions": {
-        "lure": "Lipless Crankbait",
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
+        "depthZone": "shallow",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -4214,10 +4621,9 @@
           "pre-spawn"
         ],
         "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "lureCategory": "cranking"
+          "creek-channel",
+          "flat"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -4228,12 +4634,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "retrieveStyle": "burn"
+        ]
       },
       "source": "_merged-review.json"
     },
@@ -4248,12 +4649,7 @@
       "category": "lake-reading",
       "topic": "new-lake-system",
       "insight": "KVD: Most important thing arriving at a lake: figure out the seasonal pattern plus current conditions. Even on a known lake, see what's changed. On grass lakes, determine how much grass there is and where. Look for bottlenecks and funnels on your mapping. Cover a lot of water on day 1.",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "_merged-review.json"
     },
     {
@@ -4273,7 +4669,6 @@
       "topic": "chatterbait-size-selection-pre-spawn",
       "insight": "KVD: Keeps 3/8, 1/2, and 5/8 oz Thunder Crickets on the deck during pre-spawn. Uses lighter weight (3/8oz) to slow down in tough conditions. Tungsten Thunder Cricket has smaller blade with tighter/subtler vibration and runs deeper in the same size — better for finicky fish.",
       "conditions": {
-        "lure": "Chatterbait",
         "season": [
           "pre-spawn"
         ],
@@ -4286,15 +4681,15 @@
       "topic": "chatterbait-jig-style-cold",
       "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I always move faster than the fish' — force yourself to slow down.",
       "conditions": {
-        "lure": "Chatterbait",
         "season": [
           "pre-spawn"
         ],
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "hop",
+        "pressureState": "post-frontal",
         "structure": [
           "grass"
         ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "_merged-review.json"
@@ -4304,8 +4699,8 @@
       "topic": "spinnerbait-slow-roll-setup",
       "insight": "KVD: 7'4\" medium-heavy rod (KVD Elite GC7), 7.5:1 gear ratio reel, 20lb fluorocarbon. Heavy line does NOT affect spinnerbait action — it's one of the few lures where heavy line doesn't hurt. Allows accurate casts tight to cover.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "_merged-review.json"
     },
@@ -4314,9 +4709,8 @@
       "topic": "spinnerbait-slow-roll-cadence",
       "insight": "KVD: Barely turn the handle. When the bait hits a limb, speed the reel up one fast turn to force the bait over the limb keeping it up and down (not turning over and hanging). The flutter on the other side of the limb is when they bite. Even without cover, intermittently speed up for a quick flare of the skirt and blades to trigger following fish.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "retrieveStyle": "burn",
-        "coverType": "wood"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "_merged-review.json"
     },
@@ -4325,7 +4719,6 @@
       "topic": "spinnerbait-trailer-selection",
       "insight": "KVD: Always use a plastic trailer when slow rolling — adds bulk and extra action fish home in on. Rage Slim Swimmer is his go-to: subtle, not too bulky (doesn't make bait ride up), has an erratic wag. In coldest months, sometimes removes the skirt entirely and just uses a swimbait as trailer.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
         "lureCategory": "moving-baits",
         "retrieveStyle": "slow-roll"
       },
@@ -4336,12 +4729,7 @@
       "topic": "spinnerbait-color-matching",
       "insight": "KVD: Bright sunny + clear water = natural colors (bluegill, spot remover). Dirty water = brightest or darkest colors (chartreuse/white or black/blue) to maximize silhouette. Shad patterns (white/chartreuse) are day-in day-out staples. Spring around grass in Texas = red crawfish patterns. Match the forage and water clarity.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "waterClarity": "muddy",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "_merged-review.json"
     },
@@ -4350,13 +4738,8 @@
       "topic": "spinnerbait-above-line-of-sight",
       "insight": "KVD: When slow rolling, keep the bait ABOVE the bass's line of sight — you're imitating baitfish, not crawfish. Fish cover or fish over the bass's head. Steep rocky banks, laydowns, grass — the bait should be slowly ticking the cover above where bass are positioned.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "structure": [
-          "laydown",
-          "grass"
-        ],
-        "retrieveStyle": "slow-roll",
-        "coverType": "grass"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "_merged-review.json"
     },
@@ -4365,8 +4748,7 @@
       "topic": "spinnerbait-heavy-line-exception",
       "insight": "KVD: Spinnerbait is one of the few lures where heavy line (20lb fluoro) does NOT hinder the action at all. On a small crankbait or finesse jig, heavy line hurts the action — but not on a spinnerbait.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "lureCategory": "cranking"
+        "lureCategory": "moving-baits"
       },
       "source": "_merged-review.json"
     },
@@ -4375,12 +4757,6 @@
       "topic": "lipless-crankbait-size-depth-control",
       "insight": "KVD: Red Eye Shad sizes for depth control — 1/4oz for ultra-shallow (1-2ft), 3/8oz for shallow flats, 1/2oz as go-to, 3/4oz for 10-15ft deep drains. Plus tungsten Two Tap in 1/2 and 3/4oz — heavier tungsten fishes slightly deeper. Most anglers get stuck on 1/2oz and don't downsize when fish are shallow.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "depthZone": "shallow",
         "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
@@ -4390,13 +4766,7 @@
       "topic": "lipless-crankbait-line-controls-depth",
       "insight": "KVD: Line size is a major depth control tool for lipless crankbaits. Lighter line (10-12lb) = bait gets deeper (use for clear water, deeper grass, northern natural lakes). Heavier line (17-20lb) = bait stays higher and falls slower (use for shallow grass lakes like Guntersville). Rod tip up in shallow water.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4405,16 +4775,7 @@
       "topic": "lipless-crankbait-rod-reel",
       "insight": "KVD: CC3 medium-heavy composite (graphite/glass) cranking rod for lipless crankbaits. 6.2:1 gear ratio reel — not high-speed in cold water. The composite gives feel for detecting grass on hooks while having power to rip free.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "season": [
-          "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4423,9 +4784,7 @@
       "topic": "lipless-crankbait-hook-upgrade",
       "insight": "KVD: Always change hooks to KVD/Mustad Triple Grip. Upsize: #2 on 1/2oz, #4 on 1/4oz, #1/0 on 3/4oz. Triple grip design locks fish on — critical because lipless crankbaits are known for poor strike-to-land ratio. Won the Classic catching 5-pounders hooked in the back and side thanks to these hooks.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop"
+        "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4434,12 +4793,10 @@
       "topic": "lipless-crankbait-comprehensive-colors",
       "insight": "KVD: Crawfish patterns dominate pre-spawn — reds in any water clarity (Rayburn Red, Delta Red, Fire Craw). Clear water = natural craw patterns (dark brown, baby carp, orange brim, bluegill). Stained/dirty = chartreuse, chartreuse sexy shad, brighter colors. Shad-focused systems (Tennessee River) = chrome sexy shad, gold sexy shad, straight sexy shad.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained",
-        "retrieveStyle": "burn"
+        "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4448,17 +4805,11 @@
       "topic": "lipless-crankbait-jig-style",
       "insight": "KVD: Fish the lipless crankbait like a jig in cold water. Short hop it along the bottom. Pull it around cover, deflect off rocks. Rip it out of grass, let it flutter down. Use rod tip to manipulate depth — tip up in shallow, down to get deeper. Make the bait fall as many times as possible — that's when bites happen.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "structure": [
-          "grass"
+          "pre-spawn"
         ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "grass"
+        "retrieveStyle": "hop"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4467,7 +4818,6 @@
       "topic": "lipless-crankbait-pre-spawn-targets",
       "insight": "KVD: Focus on large flats and spawning flats — where fish are coming and going. Look for deeper depressions, edges, drops, centers of drains within the flat. These subtle depth changes concentrate pre-spawn fish. At places like Toledo Bend and Sam Rayburn, fish deeper drains/ditches leading into spawning bays with 3/4oz.",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
           "pre-spawn"
         ],
@@ -4475,7 +4825,7 @@
           "flat",
           "creek-channel"
         ],
-        "retrieveStyle": "burn"
+        "lureCategory": "cranking"
       },
       "source": "a-must-have-bait-for-the-prespawn-kevin-vandam.txt"
     },
@@ -4484,16 +4834,7 @@
       "topic": "squarebill-seasonal-colors",
       "insight": "KVD: 'Spring = crawfish patterns with red. Summer = shad and bluegill patterns. Fall = shad patterns in creek backs. When the 1.5 hits grass, clear hooks with a hard snap of the rod tip.'",
       "conditions": {
-        "lure": "Squarebill Crankbait",
-        "season": [
-          "summer"
-        ],
-        "structure": [
-          "creek-channel",
-          "grass"
-        ],
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "all-season-baits-and-colors.txt"
     },
@@ -4502,13 +4843,7 @@
       "topic": "spinnerbait-blade-weight-selection",
       "insight": "KVD: 'Simple rule: lighter spinnerbait with smaller blades in shallow water, larger bait in deep water. The KVD Finesse Spinnerbait (3/8oz, one willow + smaller Colorado) is a great all-around option for weeds, stumps, docks.'",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "structure": [
-          "dock"
-        ],
-        "depthZone": "deep",
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "bass-fishing-spinnerbait-tips-kevin-vandam.txt"
     },
@@ -4517,14 +4852,11 @@
       "topic": "spinnerbait-offshore-yo-yo",
       "insight": "KVD: 'Offshore spinnerbait: 3/4oz, trim wire down a third, single willow blade. Cast, let helicopter down to bottom on tight line. Rip up sharply, let flutter back down. Provokes reaction strikes from suspended bass in summer heat.'",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
         "season": [
           "summer"
         ],
-        "depthZone": "deep",
         "lureCategory": "moving-baits",
-        "retrieveStyle": "hop",
-        "coverType": "open"
+        "depthZone": "deep"
       },
       "source": "bass-fishing-with-spinnerbaits-techniques-and-tips-by-kevin-vandam.txt"
     },
@@ -4533,11 +4865,7 @@
       "topic": "spinnerbait-blade-selection",
       "insight": "KVD: 'Tandem willow blades for horizontal retrieves through grass — less lift, runs deeper. Single blade for vertical presentations and helicopter flutter. Colorado/willow combo for slower retrieves and longer time in strike zone.'",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "bass-fishing-with-spinnerbaits-techniques-and-tips-by-kevin-vandam.txt"
     },
@@ -4546,8 +4874,7 @@
       "topic": "spinnerbait-parallel-presentation",
       "insight": "KVD: 'Position boat to fish parallel to edges and cover. Keeps the bait in the strike zone longer. Short accurate casts (30-40ft) for control in dense cover. Soft underhand presentations so bait lands quietly in shallow water.'",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "depthZone": "deep"
+        "lureCategory": "moving-baits"
       },
       "source": "bass-fishing-with-spinnerbaits-techniques-and-tips-by-kevin-vandam.txt"
     },
@@ -4557,7 +4884,8 @@
       "insight": "KVD: At Toledo Bend, started each morning shallow on the shad spawn for 1-1.5 hours, then transitioned offshore to deep crank. The biggest fish all came deep cranking with 6XD, 8XD, 10XD. Didn't get a ton of bites but when he got bit, it was a giant.",
       "conditions": {
         "season": [
-          "summer"
+          "summer",
+          "post-spawn"
         ],
         "depthZone": "deep",
         "lureCategory": "cranking"
@@ -4568,9 +4896,7 @@
       "category": "lake-reading",
       "topic": "stop-signs-outside-spawning-coves",
       "insight": "KVD: 'Stop signs' = clean areas (hard bottom, rock transitions) that sit just outside major spawning coves. Fish stage on these as they move in and out of spawning areas. Concentrate on high-percentage corners. LakeMaster mapping showing bottom contours was the critical tool — 'the only reason I won.'",
-      "conditions": {
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "bassmaster-elite-toledo-bend-2016.txt"
     },
     {
@@ -4586,11 +4912,8 @@
       "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transitions (8ft+) — where grass tops out, fish suspend, use deep cranks, jigging spoons, blade baits. Cast along features, not straight across flats.'",
       "conditions": {
         "structure": [
-          "flat",
           "grass"
         ],
-        "depthZone": "mid",
-        "lureCategory": "reaction",
         "coverType": "grass"
       },
       "source": "best-baits-strategies-for-fishing-grassy-lakes-depth-zones-with-kvd.txt"
@@ -4601,10 +4924,8 @@
       "insight": "KVD: 'Reading grassy lake water: color breaks (darker water = deeper edges), grass clumps (ambush points), wind-driven current seams (concentrate bass). Match bait to time of day AND depth zone: morning/evening = topwater/shallow, midday = soft plastics/spinnerbaits on weed edges, late/low light = crankbaits and deeper jigs.'",
       "conditions": {
         "structure": [
-          "point",
           "grass"
         ],
-        "lureCategory": "cranking",
         "coverType": "grass"
       },
       "source": "best-baits-strategies-for-fishing-grassy-lakes-depth-zones-with-kvd.txt"
@@ -4614,7 +4935,6 @@
       "topic": "chatterbait-blade-minnow-trim",
       "insight": "KVD: Cut the head off the blade minnow trailer to shorten it slightly. The water rushing around the chatterbait blade hits the shortened tail at the perfect distance for lively action. This is his #1 trailer for the Thunder Cricket.",
       "conditions": {
-        "lure": "Chatterbait",
         "lureCategory": "moving-baits"
       },
       "source": "best-baits-to-fish-grassy-lakes---fishing-the-right-depth-zones---with-kvd.txt"
@@ -4625,8 +4945,7 @@
       "insight": "KVD: 'Lakes that have grass change the most.' Creek channels don't move and bottom terrain is static, but grass lakes change a lot year to year — grass types, height, density all shift. Different areas of the same lake may have different grass types (hydrilla, eel grass, pepper grass, streaming grass).",
       "conditions": {
         "structure": [
-          "grass",
-          "creek-channel"
+          "grass"
         ],
         "coverType": "grass"
       },
@@ -4668,7 +4987,6 @@
         "structure": [
           "grass"
         ],
-        "lureCategory": "cranking",
         "coverType": "grass"
       },
       "source": "best-baits-to-fish-grassy-lakes---fishing-the-right-depth-zones---with-kvd.txt"
@@ -4678,9 +4996,7 @@
       "topic": "drop-shot-rod-hookset",
       "insight": "KVD: 'Drop shot rod: fast-tapering tip with backbone for long casts. Most bend in the first third for sensitivity without sacrificing control. On the bite, don't jerk the rod — just reel in and let the tip load. The sharp hook takes care of the rest. Keep finger on the line to detect strikes.'",
       "conditions": {
-        "lure": "Drop Shot",
-        "lureCategory": "finesse",
-        "retrieveStyle": "twitch"
+        "lureCategory": "finesse"
       },
       "source": "best-drop-shot-fishing-technique-tips-setup-and-pro-tricks-by-kevin-vandam.txt"
     },
@@ -4689,12 +5005,8 @@
       "topic": "swim-jig-versatility",
       "insight": "KVD: 'The swim jig handles any shallow cover — grass, bushes, lily pads, wood, rocks. Swim it through pads like you're frogging. Skip it under docks. Fish everything from the bank to the outside grass edge. The heavy cover version powers through slime and algae.'",
       "conditions": {
-        "lure": "Swim Jig",
-        "structure": [
-          "dock",
-          "grass"
-        ],
         "lureCategory": "moving-baits",
+        "depthZone": "shallow",
         "coverType": "grass"
       },
       "source": "best-swim-jig-fishing-technique-in-heavy-cover.txt"
@@ -4707,7 +5019,7 @@
         "season": [
           "winter"
         ],
-        "depthZone": "shallow"
+        "pressureState": "post-frontal"
       },
       "source": "cold-water-bass-fishing-in-tough-conditions-kevin-vandams-approach-to-getting-reaction-bites.txt"
     },
@@ -4727,10 +5039,6 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "waterTemp": "40s",
-        "structure": [
-          "creek-channel"
         ]
       },
       "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
@@ -4742,12 +5050,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "creek-channel",
-          "grass"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
     },
@@ -4758,9 +5061,6 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "flat"
         ]
       },
       "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
@@ -4770,12 +5070,11 @@
       "topic": "rage-swimmer-bottom-scuff",
       "insight": "KVD: 'The Rage Swimmer on a jig head, scooting along bottom, kicks up mud and sand. In clear northern lakes, all forage lives on the bottom — perch, bluegill, crawfish. Swim it through the column only when bluegill are suspended.'",
       "conditions": {
-        "lure": "Swim Jig",
         "season": [
           "winter"
         ],
-        "retrieveStyle": "drag",
-        "coverType": "open"
+        "lureCategory": "moving-baits",
+        "coverType": "rock"
       },
       "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
     },
@@ -4786,9 +5085,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "hop"
+        ]
       },
       "source": "cold-water-bass-fishing-winter-bass-fishing-techniques.txt"
     },
@@ -4797,12 +5094,10 @@
       "topic": "cold-water-jerkbait-depth-positioning",
       "insight": "KVD: 'Depth is critical in cold water jerkbait fishing — you want the bait slightly above the fish or directly in front of them. They won't chase far when metabolism is low and they certainly don't go down after a bait.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
         "season": [
           "winter"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "cold-water-jerkbaits-with-kvd.txt"
     },
@@ -4811,12 +5106,10 @@
       "topic": "cold-water-jerkbait-colors",
       "insight": "KVD: 'Color is crucial for jerkbaits — it's a very visual technique and fish get a really good look as the bait sits still between twitches. You need the right blend of visibility and naturalness.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
         "season": [
           "winter"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "cold-water-jerkbaits-with-kvd.txt"
     },
@@ -4841,11 +5134,7 @@
           "pre-spawn"
         ],
         "waterClarity": "muddy",
-        "structure": [
-          "creek-channel"
-        ],
-        "depthZone": "shallow",
-        "coverType": "wood"
+        "depthZone": "shallow"
       },
       "source": "dealing-with-high-muddy-water.txt"
     },
@@ -4855,18 +5144,13 @@
       "insight": "KVD: 'Cold + rising + muddy is the toughest spring combo. Bass in winter pattern are less likely to move to prespawn areas. Fish a flat-sided crankbait that displaces a lot of water, close to bottom or near objects. Make parallel casts to channel swings, steep banks, and riprap. Some fish always live shallow — target them.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ],
         "waterClarity": "muddy",
-        "structure": [
-          "flat",
-          "creek-channel",
-          "riprap"
-        ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "rock"
+        "structure": [
+          "riprap"
+        ]
       },
       "source": "dealing-with-high-muddy-water.txt"
     },
@@ -4878,14 +5162,13 @@
         "season": [
           "summer"
         ],
+        "depthZone": "mid",
         "structure": [
+          "hump",
           "flat",
           "point",
-          "hump",
           "dock"
-        ],
-        "depthZone": "deep",
-        "coverType": "dock"
+        ]
       },
       "source": "deep-bream-beds-are-the-coral-reefs-of-freshwater.txt"
     },
@@ -4894,11 +5177,9 @@
       "topic": "winter-jerkbait-cadence",
       "insight": "KVD: 'Cold water jerkbait: solid pull (not snap), pause one second with rod pointed at bait for slack. By pulling short distances the bait runs 3-4 feet deeper. I still cover a lot of water by fishing parallel to edges — keeps the lure in the productive zone throughout the retrieve.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
         "season": [
           "winter"
         ],
-        "depthZone": "shallow",
         "lureCategory": "cranking",
         "retrieveStyle": "twitch"
       },
@@ -4909,14 +5190,10 @@
       "topic": "winter-jerkbait-hook-tuning",
       "insight": "KVD: 'As water temp drops, a jerkbait that floats in summer will sink in cold water. Switch to three No. 4 Mustad KVD Trebles and test balance — a little sink is fine but nothing rapid or unnatural. 6-10 medium heavy rod, 10lb fluorocarbon for long casts in clear water.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
         "season": [
-          "winter",
-          "summer"
+          "winter"
         ],
-        "waterClarity": "clear",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "deep-jerkbait-tactics-for-cold-water.txt"
     },
@@ -4925,20 +5202,16 @@
       "topic": "winter-jerkbait-targets",
       "insight": "KVD: 'Cold water jerkbait targets: drop-offs, edges, weedlines, bridge corners, riprap, bluff ends. Fish parallel to these edges and make multiple casts to high-percentage spots like laydown tips or grass points.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
         "season": [
           "winter"
         ],
-        "structure": [
-          "point",
-          "laydown",
-          "riprap",
-          "grass",
-          "bluff"
-        ],
         "lureCategory": "cranking",
-        "retrieveStyle": "hop",
-        "coverType": "grass"
+        "structure": [
+          "riprap",
+          "bluff",
+          "laydown",
+          "grass"
+        ]
       },
       "source": "deep-jerkbait-tactics-for-cold-water.txt"
     },
@@ -4947,10 +5220,8 @@
       "topic": "kvd-deep-jerkbait-design",
       "insight": "KVD: 'Standard jerkbaits fish 4-5ft and 6-7ft zones. I wanted one that swims down to 12ft — the KVD 300 Series Deep-Diving Jerkbait. Longer bill, dives deeper, suspends, maintains incredible action at depth, and isn't hard to work. Fills a gap where no other jerkbait on the market could reach.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "depthZone": "mid",
         "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "depthZone": "deep"
       },
       "source": "designing-lures-aids-kevin-vandams-bass-fishing-success.txt"
     },
@@ -4959,17 +5230,10 @@
       "topic": "fall-spinnerbait-sizing",
       "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets you burn it and keep it down.'",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
         "season": [
           "fall"
         ],
-        "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "burn",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "dont-overlook-spinnerbaits-this-fall.txt"
     },
@@ -4981,8 +5245,7 @@
         "season": [
           "fall"
         ],
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "dont-overlook-spinnerbaits-this-fall.txt"
     },
@@ -4994,7 +5257,8 @@
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained"
+        "waterClarity": "stained",
+        "pressureState": "post-frontal"
       },
       "source": "early-season-pre-spawn-bass-fishing-in-muddy-water-kevin-vandam.txt"
     },
@@ -5004,10 +5268,8 @@
       "insight": "KVD: In cold water, you can't just cover water. The strike zone is very small — fish won't swim 10 feet to eat your bait. You have to get it right in front of them and 'knock them on the head.' Slow down and be more thorough.",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "depthZone": "mid"
+          "pre-spawn"
+        ]
       },
       "source": "early-season-pre-spawn-bass-fishing-in-muddy-water-kevin-vandam.txt"
     },
@@ -5026,12 +5288,7 @@
         "season": [
           "fall"
         ],
-        "structure": [
-          "flat",
-          "point"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "efficiency-and-confidence-equals-success.txt"
     },
@@ -5042,12 +5299,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "retrieveStyle": "burn",
-        "coverType": "grass"
+        ]
       },
       "source": "fishing-in-extremely-cold-water-kevin-vandam.txt"
     },
@@ -5070,12 +5322,12 @@
         "season": [
           "winter"
         ],
+        "waterClarity": "clear",
+        "depthZone": "deep",
         "structure": [
           "point",
           "hump"
-        ],
-        "lureCategory": "moving-baits",
-        "coverType": "open"
+        ]
       },
       "source": "fishing-in-extremely-cold-water-kevin-vandam.txt"
     },
@@ -5086,8 +5338,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lureCategory": "soft-plastics"
+        ]
       },
       "source": "fishing-in-extremely-cold-water-kevin-vandam.txt"
     },
@@ -5111,9 +5362,7 @@
           "winter"
         ],
         "structure": [
-          "grass",
-          "flat",
-          "creek-channel"
+          "grass"
         ],
         "depthZone": "shallow",
         "coverType": "grass"
@@ -5127,8 +5376,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lureCategory": "cranking"
+        ]
       },
       "source": "fishing-in-extremely-cold-water-kevin-vandam.txt"
     },
@@ -5138,16 +5386,8 @@
       "insight": "KVD: 'Fall transition signals: cooling nights drop water temps below summer highs, baitfish begin transitioning. Watch for pods schooling near surface, shad flipping on top, dive-bombing gulls, multiple herons on points or in creek backs. On natural lakes, bluegills transition from bottom to surface — bass may be on top of grass or suspended around deep humps, feeding UP not on bottom. Switch from bottom-bouncing to mid-range presentations.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
-        ],
-        "structure": [
-          "point",
-          "hump",
-          "creek-channel",
-          "grass"
-        ],
-        "coverType": "grass"
+          "fall"
+        ]
       },
       "source": "follow-the-bait-into-fall.txt"
     },
@@ -5157,7 +5397,8 @@
       "insight": "KVD: 'On a frog bite, pause a split second before the hookset. With braid and no stretch, you want to be sure the bass gets it all the way in its mouth before setting the hook.'",
       "conditions": {
         "lureCategory": "topwater",
-        "retrieveStyle": "stop-and-go"
+        "coverType": "grass",
+        "depthZone": "shallow"
       },
       "source": "frog-fishing-technique-with-kvd.txt"
     },
@@ -5166,7 +5407,11 @@
       "topic": "reading-matted-vegetation",
       "insight": "KVD: 'Target the greenest mats — they're untreated, most fertile, and hold the most bass. Avoid brown dying mats that lack ecosystem. Noise isn't a concern when punching — the loud impact of your weight often attracts fish rather than spooking them. Mats are naturally noisy environments.'",
       "conditions": {
-        "coverType": "grass"
+        "structure": [
+          "grass"
+        ],
+        "coverType": "grass",
+        "lureCategory": "soft-plastics"
       },
       "source": "have-more-than-one-thick-vegetation-setups-to-punch-through-with-kevin-vandam.txt"
     },
@@ -5175,11 +5420,8 @@
       "topic": "punching-mats-timing",
       "insight": "KVD: 'Punching mats is especially effective during cold fronts (bass bury deeper under mats for stable conditions) and heat of summer (mats provide cooler shade). Aggressive fish hit on the drop. If bites are sluggish, pause and jig longer. This technique is known for producing trophy bass.'",
       "conditions": {
-        "season": [
-          "summer"
-        ],
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "coverType": "grass",
+        "lureCategory": "soft-plastics"
       },
       "source": "have-more-than-one-thick-vegetation-setups-to-punch-through-with-kevin-vandam.txt"
     },
@@ -5192,13 +5434,11 @@
           "post-spawn"
         ],
         "structure": [
-          "laydown",
           "riprap",
+          "laydown",
           "dock",
           "grass"
-        ],
-        "retrieveStyle": "hop",
-        "coverType": "wood"
+        ]
       },
       "source": "heres-how-kevin-vandam-breaks-down-the-shad-spawn.txt"
     },
@@ -5206,19 +5446,14 @@
       "category": "gear",
       "topic": "kvd-electronics-setup",
       "insight": "KVD: 'Four depth finders on the boat: rear has MEGA side imaging (both sides while scouting), down imaging (under boat), and LakeMaster Maps (1-foot contours). Front has split screen (side + down imaging) plus a dedicated unit for MEGA 360 scanning around the boat. 360 on trolling motor lets me see structure and bass before I arrive.'",
-      "conditions": {
-        "depthZone": "shallow"
-      },
+      "conditions": {},
       "source": "how-kevin-vandam-uses-electronics-for-bass-fishing.txt"
     },
     {
       "category": "gear",
       "topic": "crankbait-bill-angle-theory",
       "insight": "KVD: Bill angle determines everything. Straighter bill = tighter action + steeper dive angle + deeper running. More angle from the body = wider wobble + more displacement + more vibration + quicker recovery after deflection. The line tie position relative to the bill matters too.",
-      "conditions": {
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "how-to-choose-the-right-crankbait-kevin-vandam.txt"
     },
     {
@@ -5226,10 +5461,6 @@
       "topic": "flatside-vs-round-body-crankbait",
       "insight": "KVD: Flatside crankbaits send off a lot of pressure waves because flat sides displace a ton of water. Best in cold water (bass rely on lateral line to hunt) and dirty water any season (visibility is down). Round body crankbaits vary widely depending on bill angle — the body shape alone doesn't tell the whole story.",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "waterClarity": "muddy",
         "lureCategory": "cranking"
       },
       "source": "how-to-choose-the-right-crankbait-kevin-vandam.txt"
@@ -5248,10 +5479,8 @@
       "topic": "10xd-unique-design",
       "insight": "KVD: The 10XD is unique for a straight-body deep diver — it has a slightly wider wobble than expected, giving it great deflection even in 12-15ft of water. Most deep divers with straight bills lose themselves completely when hitting cover. The 10XD doesn't — that's why it's a premier deep cranking bait.",
       "conditions": {
-        "lure": "Deep Diving Crankbait",
-        "depthZone": "deep",
         "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go"
+        "depthZone": "deep"
       },
       "source": "how-to-choose-the-right-crankbait-kevin-vandam.txt"
     },
@@ -5260,14 +5489,7 @@
       "topic": "squarebill-versatility",
       "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Works in cold or warm water. Triggers neutral/negative fish with deflection.",
       "conditions": {
-        "lure": "Squarebill Crankbait",
-        "structure": [
-          "riprap",
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "how-to-choose-the-right-crankbait-kevin-vandam.txt"
     },
@@ -5285,13 +5507,10 @@
       "topic": "lipless-crankbait-flat-water-setup",
       "insight": "KVD: 'For lipless on flats: 7-foot glass rod, 5:1 gear ratio reel. Slower retrieve keeps bait down in the strike zone. Line controls depth — 20lb test for shallow water above grass, 8-10lb fluorocarbon for deeper to maximize depth and bottom contact.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
+        "lureCategory": "cranking",
         "structure": [
-          "flat",
-          "grass"
-        ],
-        "depthZone": "mid",
-        "coverType": "grass"
+          "flat"
+        ]
       },
       "source": "how-to-fish-lipless-crankbaits-on-flat-water-with-kevin-vandam.txt"
     },
@@ -5300,7 +5519,7 @@
       "topic": "lipless-flat-water-technique",
       "insight": "KVD: 'On large flats, the key is contact, depth, and placement. Vary retrieve speed with stop-and-go movements. Let the bait sink periodically. Always aim for the bait to be hitting something — if it's not interacting with cover, it loses effectiveness.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
+        "lureCategory": "cranking",
         "structure": [
           "flat"
         ],
@@ -5313,14 +5532,7 @@
       "topic": "lipless-crankbait-rod-setup",
       "insight": "KVD: 'For lipless crankbaits, use a long composite rod (part glass, part graphite). Graphite gives sensitivity to feel tiny bits of weed on hooks. Glass slows the action for better deflection off cover. Longer rod gives depth control — rod tip up for shallow flats (2-4ft), rod tip down for deeper areas. Always fluorocarbon — sinks, low stretch, abrasion resistant.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "flat"
-        ],
-        "depthZone": "shallow",
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "how-to-fish-the-crankbait-in-spring-with-kevin-vandam.txt"
     },
@@ -5329,11 +5541,10 @@
       "topic": "spring-lipless-color-strategy",
       "insight": "KVD: 'Early spring lipless colors: stick to natural patterns mimicking what bass already feed on — bluegill and crayfish in clear water. Stained or murky water, switch to brighter colors — chartreuse, fluorescent reds, anything that stands out more.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "muddy"
+        "lureCategory": "cranking"
       },
       "source": "how-to-fish-the-crankbait-in-spring-with-kevin-vandam.txt"
     },
@@ -5341,12 +5552,7 @@
       "category": "retrieve-technique",
       "topic": "fishing-edges-parallel",
       "insight": "KVD: 'Efficiency means keeping your bait in the strike zone as long as possible. Cast straight along any edge — drop-offs, grass lines, weed lines, seawalls, sandbar drop-offs. Position yourself to fish parallel so the bait stays in the zone the entire retrieve. Choose the most efficient bait for the cover and clarity, then maximize every cast.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "how-to-fish-the-edges-power-fish-to-your-advantage-with-kevin-vandam.txt"
     },
     {
@@ -5354,6 +5560,9 @@
       "topic": "deeper-grass-overlooked",
       "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of largemouth have already spawned out there.",
       "conditions": {
+        "season": [
+          "spawn"
+        ],
         "structure": [
           "grass",
           "flat"
@@ -5369,8 +5578,7 @@
       "topic": "wind-affects-visibility-strategy",
       "insight": "KVD: North wind blowing into a bank knocks algae loose and muddies the water, making sight fishing impossible. When this happens, switch from sight fishing to casting Thunder Cricket or fan casting the area. Conditions can clear up fast when wind lays down.",
       "conditions": {
-        "waterClarity": "clear",
-        "lureCategory": "moving-baits"
+        "waterClarity": "stained"
       },
       "source": "how-to-fish-your-way-around-a-new-lake---9-mintue-lesson-with-kvd-on-how-to-keep-moving-take-notes.txt"
     },
@@ -5379,9 +5587,6 @@
       "topic": "northern-lake-forage",
       "insight": "KVD: In northern natural lakes, perch and gobies are the primary forage — fish spend most of their time feeding on them. Both live on or near rocks. Birds diving on shallow points = alewives spawning (another forage clue).",
       "conditions": {
-        "structure": [
-          "point"
-        ],
         "coverType": "rock"
       },
       "source": "how-to-fish-your-way-around-a-new-lake---9-mintue-lesson-with-kvd-on-how-to-keep-moving-take-notes.txt"
@@ -5391,11 +5596,7 @@
       "topic": "polarized-glasses-clear-water",
       "insight": "KVD: 'So important in clear water lakes that you've got good polarized glasses.' They let you see green grass clumps further out so you can pitch to them without getting right on top of spooky fish.",
       "conditions": {
-        "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "waterClarity": "clear"
       },
       "source": "how-to-fish-your-way-around-a-new-lake---9-mintue-lesson-with-kvd-on-how-to-keep-moving-take-notes.txt"
     },
@@ -5411,11 +5612,9 @@
       "topic": "punching-setup-details",
       "insight": "KVD: 'Punching matted grass setup: 7-10 heavy rod, 8.3:1 high-speed reel (for making more casts, not fighting fish), 1.5oz tungsten weight pegged with bobber stop, 65lb braid, 4/0 hook with Punch Bug. Tungsten's density penetrates dense mats better than lead. The loud impact often attracts fish rather than spooking them.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
+        "coverType": "grass",
         "lureCategory": "soft-plastics",
-        "coverType": "grass"
+        "depthZone": "shallow"
       },
       "source": "how-to-punch-through-grass-like-a-pro-kevin-vandams-winning-technique-f09f92a5.txt"
     },
@@ -5424,17 +5623,11 @@
       "topic": "thunder-cricket-cold-water-cadence",
       "insight": "KVD: 'Cold water Thunder Cricket: cast toward structure or transitions, let sink just above cover/grass, lift-and-drop retrieve with brief pauses. The key isn't speed — it's triggering instinctive reaction bites. Slow enough for blade to stay in strike zone but fast enough for vibration.'",
       "conditions": {
-        "lure": "Chatterbait",
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "structure": [
-          "grass"
+          "pre-spawn"
         ],
         "lureCategory": "moving-baits",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "retrieveStyle": "hop"
       },
       "source": "how-to-trigger-cold-water-bass-bites-kevin-vandams-thunder-cricket-secrets.txt"
     },
@@ -5443,9 +5636,7 @@
       "topic": "thunder-cricket-cold-water-setup",
       "insight": "KVD: 'Medium-heavy casting rod with backbone, 6.4-7.1:1 reel, fluorocarbon leader. Match blade color to water — gold in stained, chrome in clear. Keeping hookup ratio high is essential when fish are only following.'",
       "conditions": {
-        "lure": "Chatterbait",
-        "waterClarity": "stained",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "how-to-trigger-cold-water-bass-bites-kevin-vandams-thunder-cricket-secrets.txt"
     },
@@ -5455,12 +5646,7 @@
       "insight": "KVD: 'Cold water bass bites get tougher below 55°F. Morning — wind blows into shallow flats, bass edge up. Afternoon — fish move to outside bends and deeper transition breaks. Target these transition zones for reaction strikes.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
-        ],
-        "waterTemp": "below 55",
-        "structure": [
-          "flat"
+          "pre-spawn"
         ]
       },
       "source": "how-to-trigger-cold-water-bass-bites-kevin-vandams-thunder-cricket-secrets.txt"
@@ -5472,8 +5658,7 @@
       "conditions": {
         "season": [
           "fall"
-        ],
-        "coverType": "wood"
+        ]
       },
       "source": "include-forage-in-your-lake-research.txt"
     },
@@ -5508,11 +5693,8 @@
       "topic": "jerkbait-clear-calm-confidence",
       "insight": "KVD: In clear water slick calm conditions, most anglers reach for finesse. KVD's instinct is to jerk a jerkbait over the top of them — the clear water means they'll see it from a distance. Confidence in the technique matters as much as conditions.",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "waterClarity": "clear",
         "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
+        "waterClarity": "clear"
       },
       "source": "jerkbait-fishing-secrets-for-clear-water-kevin-vandam-mark-zona-bass-tips.txt"
     },
@@ -5521,10 +5703,6 @@
       "topic": "jerkbait-cadence-rules",
       "insight": "KVD: 'Jerkbait cadence: always start and finish with slack in your line — this gives the bait its best side-to-side action. Experiment every day and let bass tell you what they want. Cold water = longer pauses. Warm water = more active and erratic retrieve. The clearer the water, the more action in the retrieve.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "season": [
-          "winter"
-        ],
         "lureCategory": "cranking",
         "retrieveStyle": "twitch"
       },
@@ -5535,9 +5713,7 @@
       "topic": "jerkbait-equipment-essentials",
       "insight": "KVD: 'Jerkbait rod is the most critical piece — shorter handle, longer rod, graphite with extra fast tip and sturdy backbone. Never pull the jerkbait toward the boat with the reel — work it with the rod, use reel only to pick up slack. Fast 7.5:1 gear ratio. Fluorocarbon is critical — 14lb is my favorite, still makes bait jump on long casts into wind. Below 12lb, too much stretch hurts action.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "jerkbait-tackle-technique.txt"
     },
@@ -5552,9 +5728,7 @@
       "category": "tournament-strategy",
       "topic": "maximize-school-catches",
       "insight": "KVD: 'When I pinpoint a good school of big bass, I have to maximize the number from that school. Use a search bait to pinpoint them, determine if they're actively feeding and what lures to fish, then slow down my presentation to catch as many as possible before they quit biting or move. My top finesse baits: tube, shaky head, drop shot, Ned rig, wacky-rigged worm, and Neko rig.'",
-      "conditions": {
-        "lureCategory": "finesse"
-      },
+      "conditions": {},
       "source": "kevin-vandam-continues-to-learn-with-bass-fishing.txt"
     },
     {
@@ -5562,12 +5736,13 @@
       "topic": "frog-fishing-technique",
       "insight": "KVD: 'Sexy Frog technique: reel through tall grass with enough momentum to spray water, then slow down at the grass edge — walk it side to side. Watch fish come up and nail it at the edge. Also target docks: put on a skipping reel and throw it way back under coverage. The hollow soft body skips well. Fish often follow it out of thick cover into open water.'",
       "conditions": {
-        "structure": [
-          "dock",
-          "grass"
-        ],
         "lureCategory": "topwater",
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "shallow",
+        "structure": [
+          "grass",
+          "dock"
+        ]
       },
       "source": "kevin-vandam-explains-how-he-fishes-a-kvd-sexy-frog.txt"
     },
@@ -5590,7 +5765,7 @@
       "topic": "clear-water-grass-bladed-jig-challenge",
       "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area.",
       "conditions": {
-        "lure": "Chatterbait",
+        "lureCategory": "moving-baits",
         "waterClarity": "clear",
         "structure": [
           "grass"
@@ -5603,11 +5778,7 @@
       "category": "gear",
       "topic": "kvd-finesse-line-setup",
       "insight": "KVD: 'For all four finesse techniques (drop-shot, Neko, shaky head, Ned): 10lb braid to 8lb fluorocarbon leader with FG knot as baseline. Go heavier for cover or colored water. Longer 7-2 to 7-4 rods for open water long casts, shorter 6-10 to 7-foot for tight target work.'",
-      "conditions": {
-        "depthZone": "mid",
-        "lureCategory": "finesse",
-        "coverType": "open"
-      },
+      "conditions": {},
       "source": "kevin-vandam-four-key-finesse-baits-and-why-i-use-them.txt"
     },
     {
@@ -5622,9 +5793,8 @@
       "topic": "thunder-cricket-kvd-magic-trim",
       "insight": "KVD: Bite the head off the KVD Magic trailer — shorten it just a bit. Combined with blue craw Thunder Cricket, it looks like a bluegill. The trailer adds a little flash and keeps the presentation subtle and natural for clear water.",
       "conditions": {
-        "lure": "Chatterbait",
-        "waterClarity": "clear",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "waterClarity": "clear"
       },
       "source": "kevin-vandam-how-to-pick-the-perfect-natural-colors-for-clear-cold-spring-bass.txt"
     },
@@ -5633,7 +5803,6 @@
       "topic": "chatterbait-clear-water-setup",
       "insight": "KVD: CC5 composite rod with heavy action (e-glass/graphite blend) — you feel everything with the bladed jig and it absorbs shock on the bite. 7.5:1 KVD reel, 20lb fluorocarbon.",
       "conditions": {
-        "lure": "Chatterbait",
         "lureCategory": "moving-baits"
       },
       "source": "kevin-vandam-how-to-pick-the-perfect-natural-colors-for-clear-cold-spring-bass.txt"
@@ -5650,8 +5819,7 @@
       "topic": "smallmouth-long-rod-clear-water",
       "insight": "KVD: 'For northern smallmouth in clear water, use longer-than-usual rods — never shorter than 7 feet. Long casts are extremely important. Light line and long rod keep bait far from the boat and help move more line on hookset. I designed a 7-4 spinning rod specifically for finesse applications.'",
       "conditions": {
-        "waterClarity": "clear",
-        "depthZone": "mid"
+        "waterClarity": "clear"
       },
       "source": "kevin-vandam-on-how-to-catch-small-mouth-bass.txt"
     },
@@ -5667,14 +5835,8 @@
       "topic": "lipless-pump-and-stop",
       "insight": "KVD: 'Pump and stop retrieve — rod tip to the side, sweep and follow the bait back down keeping tension. Let the Red Eye Shad do its thing and swim to bottom. Works over grass, rocks, deeper flats. I probably catch more fish this way than any other.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "flat",
-          "grass"
-        ],
         "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "grass"
+        "retrieveStyle": "stop-and-go"
       },
       "source": "kevin-vandam-on-the-red-eyed-shad.txt"
     },
@@ -5683,13 +5845,7 @@
       "topic": "lipless-crankbait-rod-setup",
       "insight": "KVD: 'I throw the Red Eye Shad on a 7-7'10\" fiberglass composite rod. Gives me graphite feel with the slow reaction time of glass. Enough power to snap it free from grass. Long casts cover more water. Always fluorocarbon — it sinks, great feel, good hook sets on long casts.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "kevin-vandam-on-the-red-eyed-shad.txt"
     },
@@ -5698,11 +5854,6 @@
       "topic": "lipless-weight-selection-by-depth",
       "insight": "KVD: 'I use the 1/2oz Red Eye Shad in the 7-12 foot zone and the 3/4oz for deeper — 15-20 feet on ledges. Use lighter line to help keep the bait down.'",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "structure": [
-          "ledge"
-        ],
-        "depthZone": "deep",
         "lureCategory": "cranking"
       },
       "source": "kevin-vandam-on-the-red-eyed-shad.txt"
@@ -5713,8 +5864,7 @@
       "insight": "KVD: On Cayuga Lake (northern natural lake), the north end is a huge expanse of flats at 8-12ft, all grass. The key is finding clean holes in the grass at 9-11ft. Good holes have a little bit of rock in them. Each hole has its own ecosystem — bluegill, perch, gobies all live there. Good holes have reloaded with fish all week.",
       "conditions": {
         "structure": [
-          "grass",
-          "flat"
+          "grass"
         ],
         "depthZone": "mid",
         "coverType": "grass"
@@ -5726,12 +5876,10 @@
       "topic": "texas-rig-grass-holes-setup",
       "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down clean into the holes.",
       "conditions": {
-        "lure": "Texas Rig (Creature Bait)",
+        "lureCategory": "soft-plastics",
         "structure": [
           "grass"
         ],
-        "lureCategory": "soft-plastics",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "kevin-vandam-power-fishes-for-the-hardware---championship-sunday-with-kvd.txt"
@@ -5745,8 +5893,6 @@
           "summer"
         ],
         "structure": [
-          "creek-channel",
-          "dock",
           "grass"
         ],
         "coverType": "grass"
@@ -5758,10 +5904,6 @@
       "topic": "dense-vegetation-line-choices",
       "insight": "KVD: 'Dense vegetation techniques (frogs, flipping, swim jigs): 50lb braid on lakes where bass max around 6lbs. Lakes with 10-pounders, use 65lb braid. 7-4 rod for frogs and jigs with high-speed reel. 7-10 rod for flipping and punching.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "moving-baits",
         "coverType": "grass"
       },
       "source": "kevin-vandam-shares-his-top-fishing-techniques.txt"
@@ -5777,9 +5919,7 @@
       "category": "tournament-strategy",
       "topic": "power-finesse-technique-defined",
       "insight": "KVD: 'Power-finesse: cover water fast but use finesse baits to trigger inactive fish. Adjust weight on shaky head, drop shot, or tube to control fall rate. Tube and drop shot are the most versatile power-finesse baits. Won Smith Mountain Lake Elite with this — 61lbs over 4 days in a bed fishing event.'",
-      "conditions": {
-        "lureCategory": "finesse"
-      },
+      "conditions": {},
       "source": "kevin-vandam-the-power-finesse-technique.txt"
     },
     {
@@ -5787,10 +5927,10 @@
       "topic": "crankbait-grass-45-degree-angle",
       "insight": "KVD: Position boat just outside the grass line. Cast at 45° quartering angle into shallower grass. Crank down until you hit grass, then slow up. If it won't float free, snap it out. The bait follows the contour of the grass as it comes back to the deeper edge where your boat sits. This is the most effective way to cover a lot of grass quickly.",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "kevin-vandams-grass-crankbait-secret-45-angle-trick-for-big-bass.txt"
@@ -5800,11 +5940,10 @@
       "topic": "crankbait-grass-rip-and-float",
       "insight": "KVD: When crankbait sticks in grass — if it won't come through, snap it free. Otherwise let it float off. The moment it tears free or floats off is when you get the bite. 'A crankbait through the grass is almost as good as a finesse bait like a worm at triggering strikes from inactive fish.'",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "kevin-vandams-grass-crankbait-secret-45-angle-trick-for-big-bass.txt"
@@ -5814,12 +5953,10 @@
       "topic": "crankbait-grass-setup",
       "insight": "KVD: Fluorocarbon is mandatory for cranking grass — low stretch helps rip bait free. Soft-tip composite rod (glass/graphite blend) for feel and power. Multiple rods with different line sizes. Series 5 crankbait runs 10-12ft — wants a bait that runs to the edge of the grass, not one that buries into it.",
       "conditions": {
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "depthZone": "deep",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "kevin-vandams-grass-crankbait-secret-45-angle-trick-for-big-bass.txt"
@@ -5830,8 +5967,7 @@
       "insight": "KVD: The crankbait is a search tool for reading the grass line — you can feel where grass comes out farther, where it's taller, subtle points and cuts. Fish relate to irregularities in the grass edge. On natural lakes where structure is subtle, the crankbait finds what your eyes can't.",
       "conditions": {
         "structure": [
-          "grass",
-          "point"
+          "grass"
         ],
         "lureCategory": "cranking",
         "coverType": "grass"
@@ -5844,8 +5980,7 @@
       "insight": "KVD: 'I look for a 10-degree drop from average summer water temps to trigger the fall pattern. On Ozarks reservoirs that's when temps drop from low-mid 80s to mid 70s. Length of day is the most important determinant — shorter days trigger change.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
+          "fall"
         ]
       },
       "source": "kevin-vandams-surefire-fall-tactics.txt"
@@ -5880,13 +6015,12 @@
         "season": [
           "post-spawn"
         ],
+        "lureCategory": "cranking",
+        "depthZone": "mid",
         "structure": [
           "point",
           "ledge"
-        ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        ]
       },
       "source": "kevin-vandams-three-favorite-crankbaits-for-spring-bass.txt"
     },
@@ -5899,9 +6033,10 @@
           "fall"
         ],
         "structure": [
-          "flat",
-          "point"
-        ]
+          "point",
+          "flat"
+        ],
+        "depthZone": "shallow"
       },
       "source": "kevin-vandams-three-favorite-lures-for-fall.txt"
     },
@@ -5909,13 +6044,7 @@
       "category": "gear",
       "topic": "treble-hook-upgrade-rule",
       "insight": "KVD: 'Upgrade treble hooks one size on favorite crankbaits and jerkbaits. No. 6 factory → No. 4 replacement. No. 4 factory → No. 2. Keep checking hook points throughout the season. Also keep a variety of replacement spinnerbait blades with split rings pre-rigged for fast swaps — different sizes, shapes, and colors.'",
-      "conditions": {
-        "structure": [
-          "point"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
-      },
+      "conditions": {},
       "source": "kevin-vandams-three-tips-for-preseason-tackle-prep.txt"
     },
     {
@@ -5926,9 +6055,6 @@
         "structure": [
           "grass"
         ],
-        "waterClarity": "clear",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
         "coverType": "grass"
       },
       "source": "kicking-off-the-2026-bass-fishing-tournament-season-with-kevin-vandam.txt"
@@ -5937,25 +6063,14 @@
       "category": "lake-reading",
       "topic": "guntersville-lake-sections",
       "insight": "KVD: Guntersville breaks into three sections: Lower end = rocks, bluffs, bridges (good for jerkbaits, cranking). Mid-lake = river ledges, miles of grass (always a player). Upper end = shallow creeks, lily pads (Bill Lowen territory — guys who get way back into places others don't look).",
-      "conditions": {
-        "structure": [
-          "ledge",
-          "bluff",
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "kicking-off-the-2026-bass-fishing-tournament-season-with-kevin-vandam.txt"
     },
     {
       "category": "tournament-strategy",
       "topic": "pre-event-weather-analysis",
       "insight": "KVD: 'One of the things when I'm preparing for a big tournament is I really want to follow the weather — not only current conditions but what's been happening leading up to the event.' When lakes are off-limits for a month+, weather tracking is how you prepare. Water clarity, temp trends, rain history all matter.",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "kicking-off-the-2026-bass-fishing-tournament-season-with-kevin-vandam.txt"
     },
     {
@@ -5965,11 +6080,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "kicking-off-the-2026-bass-fishing-tournament-season-with-kevin-vandam.txt"
     },
@@ -5981,7 +6092,8 @@
         "season": [
           "fall"
         ],
-        "lureCategory": "cranking"
+        "lureCategory": "cranking",
+        "waterClarity": "clear"
       },
       "source": "kvd-explains-the-subtleties-of-cranking-for-smallmouth-bass.txt"
     },
@@ -5993,8 +6105,8 @@
         "season": [
           "fall"
         ],
-        "waterClarity": "clear",
         "lureCategory": "cranking",
+        "waterClarity": "clear",
         "retrieveStyle": "burn"
       },
       "source": "kvd-explains-the-subtleties-of-cranking-for-smallmouth-bass.txt"
@@ -6006,14 +6118,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "structure": [
-          "flat",
-          "creek-channel",
-          "grass"
-        ],
-        "depthZone": "deep",
-        "coverType": "grass"
+        ]
       },
       "source": "kvd-lingering-winter-affects-spring-fishing.txt"
     },
@@ -6022,8 +6127,7 @@
       "topic": "squarebill-depth-control",
       "insight": "KVD: 'The KVD 1.5 can run almost 6 feet deep with light line (10-12lb fluoro) — deeper than you'd think for a shallow runner. Put it on 20lb and it runs shallow. Rod height controls depth during retrieve — tip up to stay high, tip down to dig deeper.'",
       "conditions": {
-        "lure": "Squarebill Crankbait",
-        "depthZone": "mid"
+        "lureCategory": "cranking"
       },
       "source": "kvd-on-fishing-the-15-and-25-crankbaits.txt"
     },
@@ -6032,9 +6136,7 @@
       "topic": "squarebill-erratic-action",
       "insight": "KVD: 'What I look for in a squarebill is erratic swimming — kick around, don't run straight. Old wood baits had this but broke fast. The body and weighting design make every single one swim erratically out of the package. It looks like an injured baitfish — catches a lot of smallmouth over deep water.'",
       "conditions": {
-        "lure": "Squarebill Crankbait",
-        "depthZone": "deep",
-        "coverType": "wood"
+        "lureCategory": "cranking"
       },
       "source": "kvd-on-fishing-the-15-and-25-crankbaits.txt"
     },
@@ -6046,11 +6148,8 @@
         "season": [
           "winter"
         ],
-        "structure": [
-          "flat"
-        ],
         "lureCategory": "cranking",
-        "retrieveStyle": "slow-roll"
+        "retrieveStyle": "steady"
       },
       "source": "kvds-best-kept-cranking-secret-weighting-crankbaits.txt"
     },
@@ -6067,7 +6166,9 @@
       "category": "gear",
       "topic": "crankbait-weight-tuning-on-site",
       "insight": "KVD: 'Buoyancy is determined by water temperature and elevation above sea level. Tuning at home doesn't translate to the lake. Start with a fairly heavy weight, check in the water, clip off weight with side cutters until you hit that sweet spot between suspending and a very slow fall.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "cranking"
+      },
       "source": "kvds-best-kept-cranking-secret-weighting-crankbaits.txt"
     },
     {
@@ -6077,10 +6178,6 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "lure": "Squarebill Crankbait",
-        "structure": [
-          "flat"
         ],
         "lureCategory": "cranking"
       },
@@ -6093,11 +6190,7 @@
       "conditions": {
         "season": [
           "fall"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "kvds-favorite-fall-baits.txt"
     },
@@ -6106,7 +6199,6 @@
       "topic": "neko-rig-weight-tricks",
       "insight": "KVD: Three weight tricks for Neko rigs: (1) Superglue all tungsten Neko weights — they won't fly out when fish jump. (2) Wrap lead wire from fly tying department (Bass Pro) around the hook shank for subtle extra weight without bulk. (3) Put weights in both ends of creature baits like the Sexy Bug — hook in the middle, weight in both nose and tail.",
       "conditions": {
-        "lure": "Neko Rig",
         "lureCategory": "finesse"
       },
       "source": "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt"
@@ -6116,12 +6208,7 @@
       "topic": "neko-rig-spinning-setup",
       "insight": "KVD: GS1 spinning rod, 6'10\" medium action for accuracy around docks. Longer spinning rod for open water distance. 8lb braid to 8lb fluoro leader. Mustad Apex weedless hook for cover/docks, exposed hook in open water. Mustad Apex drop shot hook (wide gap) for creature baits.",
       "conditions": {
-        "lure": "Neko Rig",
-        "structure": [
-          "dock"
-        ],
-        "lureCategory": "finesse",
-        "coverType": "grass"
+        "lureCategory": "finesse"
       },
       "source": "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt"
     },
@@ -6130,9 +6217,8 @@
       "topic": "drop-shot-dice-baits",
       "insight": "KVD: Dice/bug baits on a drop shot are a new frontier. Lighter weight = better (1/8oz ideal, 1/4oz max in deeper water). The slow sinking action is the key — once on bottom you can still shake it traditionally, but most bites come on the fall. Game-changer for clear water smallmouth and during Mayfly hatches.",
       "conditions": {
-        "lure": "Drop Shot",
-        "waterClarity": "clear",
-        "lureCategory": "finesse"
+        "lureCategory": "finesse",
+        "waterClarity": "clear"
       },
       "source": "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt"
     },
@@ -6141,12 +6227,12 @@
       "topic": "neko-rig-clear-water-spawn",
       "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmouth/spots.",
       "conditions": {
-        "lure": "Neko Rig",
         "season": [
           "spawn"
         ],
+        "lureCategory": "finesse",
         "waterClarity": "clear",
-        "lureCategory": "soft-plastics"
+        "depthZone": "shallow"
       },
       "source": "kvds-favorites-dice-baits-neko-rigs-drop-shot-kevin-vandam.txt"
     },
@@ -6155,9 +6241,7 @@
       "topic": "lipless-crankbait-forage-color-matching",
       "insight": "KVD: Match the forage and water clarity. Spring in Texas = red (crawfish coming out, dark red). Stained water = brighter reds like fire craw or chili craw. Gold has great flash in stained water (gold sexy shad). General rule: 'Pick something that's natural and something that's visible.' Match bluegill, crawfish, or shad based on the system.",
       "conditions": {
-        "lure": "Lipless Crankbait",
-        "waterClarity": "stained",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "kvds-forage-insights-matching-a-crankbait-color-to-the-water-conditions-and-time-of-year.txt"
     },
@@ -6170,7 +6254,7 @@
           "pre-spawn"
         ],
         "structure": [
-          "creek-channel"
+          "flat"
         ]
       },
       "source": "kvds-forage-insights-matching-a-crankbait-color-to-the-water-conditions-and-time-of-year.txt"
@@ -6179,14 +6263,7 @@
       "category": "forage-matching",
       "topic": "great-lakes-forage-lure-matching",
       "insight": "KVD: 'Great Lakes smallmouth forage varies — yellow perch, crawfish, round gobies. Perch favor grass/sand patches; gobies live in rock. Minnow-imitating lures (jerkbaits, crankbaits) excel on perch bites. Goby-imitating swimbaits and jig combos for goby bites. Identify target forage first — it can change seasonally and day-to-day.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "kvds-jerkbait-system-for-big-water-smallmouth-bass.txt"
     },
     {
@@ -6194,9 +6271,7 @@
       "topic": "deep-jerkbait-setup",
       "insight": "KVD: 'Deep jerkbait for smallmouth: slower-action medium-heavy rod (not snappy like standard jerkbait rod), fast reel, 12-14lb fluorocarbon. The slower rod action works better for the deep-diving versions.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "kvds-jerkbait-system-for-big-water-smallmouth-bass.txt"
     },
@@ -6211,9 +6286,7 @@
       "category": "tournament-strategy",
       "topic": "play-to-your-strengths",
       "insight": "KVD: 'You got to find areas and patterns that fit your strengths.' As a power fisherman, KVD looks for areas where power techniques (crankbaits, bladed jigs) can produce quality bites, not just numbers.",
-      "conditions": {
-        "lureCategory": "cranking"
-      },
+      "conditions": {},
       "source": "kvds-masterclass-honing-in-on-a-lake-day-2-of-scouting---finding-bass-answers.txt"
     },
     {
@@ -6221,7 +6294,7 @@
       "topic": "ned-rig-rod-setup",
       "insight": "KVD: 7'2\" medium light with extra fast tip (GS4 LSE KVD rod). Uses braid for maximum feel — 'with that braid, you can feel everything.' Bites can be very subtle.",
       "conditions": {
-        "lure": "Ned Rig"
+        "lureCategory": "finesse"
       },
       "source": "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt"
     },
@@ -6230,7 +6303,6 @@
       "topic": "ned-rig-hookset",
       "insight": "KVD: Don't set the hook traditionally on a Ned Rig. Reel into them fast — let the rod load, then pull. If you miss one, immediately drop it right back down because they'll come right back and bite it.",
       "conditions": {
-        "lure": "Ned Rig",
         "lureCategory": "finesse"
       },
       "source": "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt"
@@ -6240,8 +6312,6 @@
       "topic": "ned-rig-goby-imitation",
       "insight": "KVD: The Ned Rig is so popular for smallmouth because it imitates gobies. Gobies stay locked on the bottom on rocks — that's exactly where the Ned Rig sits. Find the rocks, you find the big smallmouth. Gobies have changed these fisheries — fish don't have to move because the food source is so prolific.",
       "conditions": {
-        "lure": "Ned Rig",
-        "species": "smallmouth",
         "lureCategory": "finesse",
         "coverType": "rock"
       },
@@ -6252,8 +6322,7 @@
       "topic": "ned-rig-weight-selection",
       "insight": "KVD: Use the lightest Ned head you can get away with. 1/16 oz in shallow, 3/16 oz in deep water or heavy wind. Lighter head = better action on the bait.",
       "conditions": {
-        "lure": "Ned Rig",
-        "depthZone": "deep"
+        "lureCategory": "finesse"
       },
       "source": "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt"
     },
@@ -6262,7 +6331,6 @@
       "topic": "ned-rig-positioning",
       "insight": "KVD: When fishing the Ned Rig on an edge, the main thing is keeping yourself positioned on the edge where the fish are. Spot Lock (trolling motor GPS anchor) is essential — 'without that spot lock, I would never be able to stay positioned or hold or land one.'",
       "conditions": {
-        "lure": "Ned Rig",
         "lureCategory": "finesse"
       },
       "source": "kvds-proven-ned-rig-technique-for-any-fishing-conditions---pro-fishing-tips.txt"
@@ -6272,13 +6340,11 @@
       "topic": "lipless-crankbait-shallow-grass-setup",
       "insight": "KVD: For lipless crankbaits in shallow grass (3-7ft): CC5 7'4\" heavy action composite rod, 7.5:1 reel, 20lb fluoro. Multiple cranking rods with 14, 17, and 20lb line for different depths. Heavy line keeps the bait up and slows it down in shallow grass. The heavy composite rod has backbone to rip through grass.",
       "conditions": {
-        "lure": "Lipless Crankbait",
+        "lureCategory": "cranking",
         "structure": [
           "grass"
         ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "retrieveStyle": "hop",
+        "depthZone": "shallow",
         "coverType": "grass"
       },
       "source": "kvds-rod-rating-reality-matching-a-crankbait-to-the-ideal-rod-and-reel-setup.txt"
@@ -6292,10 +6358,9 @@
           "pre-spawn"
         ],
         "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "lureCategory": "cranking"
+          "creek-channel",
+          "flat"
+        ]
       },
       "source": "kvds-rod-rating-reality-matching-a-crankbait-to-the-ideal-rod-and-reel-setup.txt"
     },
@@ -6312,11 +6377,7 @@
       "category": "color-selection",
       "topic": "sexy-shad-color-system",
       "insight": "KVD: 'Sexy Shad color system: Sexy Shad for slightly stained to clear (first choice most situations). Chartreuse Sexy Shad for dirtier water. Sexy Blue Back Herring for herring-forage lakes. Sexy Ghost Minnow for real clear/bright days when you don't want a loud profile (great for topwaters). Chrome Sexy Shad for max flash (lipless, jerkbaits). Sexy Sunfish for bluegill-dominant lakes.'",
-      "conditions": {
-        "waterClarity": "stained",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
-      },
+      "conditions": {},
       "source": "master-series-on-power-fishing-with-kevin-vandam-2.txt"
     },
     {
@@ -6324,7 +6385,7 @@
       "topic": "crankbait-color-matters-more-than-you-think",
       "insight": "KVD: 'Color makes a big difference — match what bass see underwater, not in your hand. Shad have iridescent bluish/grey backs with color variations (green tint, grayish look). As lakes get clearer and pressure increases, your bait has to appear a lot more natural. The right color catches ALL the fish, not just a few.'",
       "conditions": {
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "master-series-on-power-fishing-with-kevin-vandam-2.txt"
     },
@@ -6332,9 +6393,7 @@
       "category": "tournament-strategy",
       "topic": "power-finesse-philosophy",
       "insight": "KVD: 'Power finesse: use heavier weights (3/8 to 1/2oz) on finesse rigs to fish them faster. Heavier sinker keeps line tight, puts more action in lure, and triggers reactionary strikes. Start heavy and work down. On tubes, I'll throw 1/2 to 3/4oz heads — sinks like a bowling ball but still produces erratic fall. Cover a ton of water.'",
-      "conditions": {
-        "lureCategory": "soft-plastics"
-      },
+      "conditions": {},
       "source": "master-series-on-power-fishing-with-kevin-vandam-lesson-3.txt"
     },
     {
@@ -6352,13 +6411,11 @@
         "season": [
           "spawn"
         ],
-        "waterClarity": "muddy",
         "structure": [
-          "flat",
-          "grass"
+          "flat"
         ],
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "waterClarity": "stained",
+        "depthZone": "shallow"
       },
       "source": "master-series-on-power-fishing-with-kevin-vandam.txt"
     },
@@ -6370,8 +6427,8 @@
         "season": [
           "winter"
         ],
-        "skyCondition": "clear",
-        "waterClarity": "stained",
+        "pressureState": "stable",
+        "depthZone": "shallow",
         "coverType": "rock"
       },
       "source": "power-fishing-for-winter-bass.txt"
@@ -6397,11 +6454,11 @@
           "winter"
         ],
         "structure": [
-          "riprap",
-          "point"
+          "riprap"
         ],
+        "coverType": "rock",
         "lureCategory": "cranking",
-        "coverType": "wood"
+        "depthZone": "shallow"
       },
       "source": "power-fishing-for-winter-bass.txt"
     },
@@ -6413,11 +6470,11 @@
         "season": [
           "summer"
         ],
-        "waterClarity": "clear",
         "structure": [
           "point",
           "hump"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "power-fishing-with-kevin-vandam-2.txt"
     },
@@ -6427,8 +6484,7 @@
       "insight": "KVD: 'I power fish year-round, even in cold water. Bass are far more active than I once believed. Strike zone is smaller but they'll crush a power bait worked in their immediate area. Power fishing is the foundation of everything I do — it helps locate fish and dial in patterns more efficiently than finesse.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ]
       },
       "source": "power-fishing-with-kevin-vandam-7.txt"
@@ -6439,8 +6495,7 @@
       "insight": "KVD: 'In cold water, boat position is as critical as lure selection. Position parallel to dropoffs and edges so your bait stays in the proper depth zone throughout the retrieve. Bass won't move far in cold water — if you don't fish parallel, your bait catches a much smaller percentage of the key depth.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ]
       },
       "source": "power-fishing-with-kevin-vandam-7.txt"
@@ -6453,10 +6508,7 @@
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained",
-        "structure": [
-          "flat"
-        ]
+        "pressureState": "pre-frontal"
       },
       "source": "power-fishing-with-kevin-vandam-7.txt"
     },
@@ -6466,8 +6518,7 @@
       "insight": "KVD: 'There is no magic temperature that triggers the hot bite — it's about transition and rising temperatures, not a set number. The moon has greater influence over spawning than temperature. Stable weather + full moon + water in the 50s = very active bass, some spawning. Don't wait for the 60s. Northern bass spawn at lower temperatures than southern fish.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "spawn"
+          "pre-spawn"
         ]
       },
       "source": "power-fishing-with-kevin-vandam-8.txt"
@@ -6479,8 +6530,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "retrieveStyle": "drag"
+        ]
       },
       "source": "power-fishing-with-kevin-vandam-8.txt"
     },
@@ -6493,14 +6543,10 @@
           "winter"
         ],
         "structure": [
-          "flat",
-          "point",
           "riprap"
         ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "retrieveStyle": "slow-roll",
-        "coverType": "rock"
+        "coverType": "rock",
+        "depthZone": "shallow"
       },
       "source": "power-fishing-with-kevin-vandam.txt"
     },
@@ -6508,10 +6554,7 @@
       "category": "tournament-strategy",
       "topic": "power-then-finesse-hybrid",
       "insight": "KVD: 'Hybrid approach: use jerkbait to cover water and find fish, then go back through with drop shot, tube, or jig to pick off more. The power bait located the school and gave confidence to slow down. You can no longer fish one way in most tournaments and win — use both power and finesse to maximize fish off each spot.'",
-      "conditions": {
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
-      },
+      "conditions": {},
       "source": "power-or-finesse.txt"
     },
     {
@@ -6521,12 +6564,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "structure": [
-          "flat",
-          "creek-channel"
-        ],
-        "retrieveStyle": "burn"
+        ]
       },
       "source": "scoping-out-early-season-lakes---where-bass-lurk-pre-spawn---with-kvd.txt"
     },
@@ -6538,7 +6576,7 @@
         "season": [
           "summer"
         ],
-        "waterClarity": "stained"
+        "depthZone": "shallow"
       },
       "source": "shallow-summertime-power-fishing-with-kvd.txt"
     },
@@ -6550,10 +6588,7 @@
         "season": [
           "summer"
         ],
-        "structure": [
-          "point"
-        ],
-        "coverType": "wood"
+        "depthZone": "shallow"
       },
       "source": "shallow-summertime-power-fishing-with-kvd.txt"
     },
@@ -6561,14 +6596,7 @@
       "category": "gear",
       "topic": "skip-casting-line-selection",
       "insight": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jigs on deep docks in clear water. Less line on the spool is better for skip casting.'",
-      "conditions": {
-        "waterClarity": "clear",
-        "structure": [
-          "dock"
-        ],
-        "lureCategory": "jigs",
-        "coverType": "dock"
-      },
+      "conditions": {},
       "source": "skip-cast-like-a-pro-part-2-of-2.txt"
     },
     {
@@ -6576,9 +6604,7 @@
       "topic": "jerkbait-rod-reel-line-setup",
       "insight": "KVD: 'Jerkbait setup: high-speed reel (not for pulling bait, just picking up slack fast). All-graphite rod with snappy tip for sharp darting action, even at end of long casts in wind. Fluorocarbon line — lighter line runs deeper, heavier stays shallow. Line choice controls bait depth with precision.'",
       "conditions": {
-        "lure": "Suspending Jerkbait",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "spring-fishing-tips-the-jerkbait-and-a-complete-demo-with-live-catches-kvd.txt"
     },
@@ -6593,12 +6619,7 @@
       "category": "lake-reading",
       "topic": "new-lake-system",
       "insight": "KVD: Most important thing arriving at a lake: figure out the seasonal pattern plus current conditions. Even on a known lake, see what's changed. On grass lakes, determine how much grass there is and where. Look for bottlenecks and funnels on your mapping. Cover a lot of water on day 1.",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "the-bass-blueprint-kvds-system-for-finding-bass-on-a-new-lake-or-new-season---part-1.txt"
     },
     {
@@ -6617,13 +6638,7 @@
       "category": "tournament-strategy",
       "topic": "lure-selection-decision-framework",
       "insight": "KVD: 'When choosing any lure for any situation, account for: water clarity, depth, time of year, water temp, type of cover, current, rising or falling water, weather conditions, and potential mood of the fish. Example: you might throw a frog over grass mats, but after a cold front with high pressure and 10-degree temp drop, punch through instead. Every lure is a tool — use the right one for the conditions.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "topwater",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "the-best-bass-fishing-advice-by-kvd.txt"
     },
     {
@@ -6631,7 +6646,6 @@
       "topic": "chatterbait-size-selection-pre-spawn",
       "insight": "KVD: Keeps 3/8, 1/2, and 5/8 oz Thunder Crickets on the deck during pre-spawn. Uses lighter weight (3/8oz) to slow down in tough conditions. Tungsten Thunder Cricket has smaller blade with tighter/subtler vibration and runs deeper in the same size — better for finicky fish.",
       "conditions": {
-        "lure": "Chatterbait",
         "season": [
           "pre-spawn"
         ],
@@ -6644,15 +6658,15 @@
       "topic": "chatterbait-jig-style-cold",
       "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I always move faster than the fish' — force yourself to slow down.",
       "conditions": {
-        "lure": "Chatterbait",
         "season": [
           "pre-spawn"
         ],
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "hop",
+        "pressureState": "post-frontal",
         "structure": [
           "grass"
         ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "hop",
         "coverType": "grass"
       },
       "source": "the-secret-to-catching-prespawn-bass-in-cold-water-kvd-explains.txt"
@@ -6661,17 +6675,7 @@
       "category": "retrieve-technique",
       "topic": "swimbait-style-matching",
       "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright days. Mid-action swimbaits like Caffeine Shad as all-around choice — weedless through grass on screw-lock hook, vary head weight from 1/8oz shallow to 3/8oz deep. If bass follow but won't bite, adjust style, action, color, or speed.'",
-      "conditions": {
-        "season": [
-          "pre-spawn"
-        ],
-        "waterClarity": "stained",
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "the-versatile-swimbait.txt"
     },
     {
@@ -6679,10 +6683,6 @@
       "topic": "crankbait-depth-matching-rule",
       "insight": "KVD: 'Choose a crankbait that runs slightly deeper than the water — that gives best action and triggering when banging off bottom. If water is 10ft, I want bait running 11ft. Manage with bait selection, line size, and rod angle. Multiple rods rigged with different line sizes — smaller for deeper, bigger for shallower. Hold rod up for shallower over ledge tops, lower for depth increases.'",
       "conditions": {
-        "structure": [
-          "ledge"
-        ],
-        "depthZone": "mid",
         "lureCategory": "cranking"
       },
       "source": "time-to-talk-crankin-2.txt"
@@ -6691,11 +6691,7 @@
       "category": "lake-reading",
       "topic": "when-crankbait-vs-finesse",
       "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait but speed up retrieve and use natural colors. Monitor electronics to see how fish relate to bottom.'",
-      "conditions": {
-        "waterClarity": "stained",
-        "lureCategory": "cranking",
-        "retrieveStyle": "burn"
-      },
+      "conditions": {},
       "source": "time-to-talk-crankin-2.txt"
     },
     {
@@ -6706,9 +6702,7 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "stained",
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "top-3-cold-water-crankbaits-catch-more-bass-in-winter-and-pre-spawn-with-kevin-vandam.txt"
     },
@@ -6720,7 +6714,7 @@
         "season": [
           "winter"
         ],
-        "retrieveStyle": "stop-and-go"
+        "lureCategory": "cranking"
       },
       "source": "top-3-cold-water-crankbaits-catch-more-bass-in-winter-and-pre-spawn-with-kevin-vandam.txt"
     },
@@ -6732,12 +6726,7 @@
         "season": [
           "winter"
         ],
-        "structure": [
-          "flat"
-        ],
-        "depthZone": "deep",
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "top-3-cold-water-crankbaits-catch-more-bass-in-winter-and-pre-spawn-with-kevin-vandam.txt"
     },
@@ -6749,8 +6738,7 @@
         "season": [
           "summer"
         ],
-        "lureCategory": "finesse",
-        "coverType": "open"
+        "depthZone": "deep"
       },
       "source": "tricks-for-catching-suspended-bass.txt"
     },
@@ -6760,8 +6748,7 @@
       "insight": "KVD: 'I power fish year-round, even in cold water. Bass are far more active in cold water than I once believed. The strike zone is smaller but they'll crush a power bait worked in their immediate area. Power fishing is the foundation of everything I do — it helps locate fish and dial in patterns.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ]
       },
       "source": "vandam-cold-water-power-fishing.txt"
@@ -6772,8 +6759,7 @@
       "insight": "KVD: 'In cold water, boat position is as critical as lure selection. Position parallel to dropoffs and edges — if you don't fish parallel, your bait catches a much smaller percentage of the key depth zone. Fish are less likely to move far.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ]
       },
       "source": "vandam-cold-water-power-fishing.txt"
@@ -6785,7 +6771,8 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ]
+        ],
+        "pressureState": "pre-frontal"
       },
       "source": "vandam-cold-water-power-fishing.txt"
     },
@@ -6797,13 +6784,8 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "stained",
-        "structure": [
-          "flat"
-        ],
-        "depthZone": "deep",
         "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go"
+        "pressureState": "post-frontal"
       },
       "source": "vandam-cold-water-power-fishing.txt"
     },
@@ -6813,8 +6795,7 @@
       "insight": "KVD: 'Summer Sexy Shad vs Sexy Shad: if creeks are clearer than normal from lack of rain or zebra mussels, Summer Sexy Shad is the better choice. It's a subtler version for clear water fall conditions.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
+          "fall"
         ],
         "waterClarity": "clear"
       },
@@ -6834,9 +6815,7 @@
       "conditions": {
         "season": [
           "winter"
-        ],
-        "waterClarity": "muddy",
-        "depthZone": "deep"
+        ]
       },
       "source": "vandams-6-season-bass-guide.txt"
     },
@@ -6847,13 +6826,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "structure": [
-          "laydown",
-          "point",
-          "creek-channel"
-        ],
-        "coverType": "wood"
+        ]
       },
       "source": "vandams-6-season-bass-guide.txt"
     },
@@ -6865,10 +6838,7 @@
         "season": [
           "pre-spawn"
         ],
-        "waterTemp": 52,
-        "lureCategory": "cranking",
-        "retrieveStyle": "stop-and-go",
-        "coverType": "wood"
+        "lureCategory": "cranking"
       },
       "source": "vandams-6-season-bass-guide.txt"
     },
@@ -6878,8 +6848,7 @@
       "insight": "KVD: 'Many bass move onto spawning beds around the new or full moon, or when the sun comes out after prolonged cloudy weather. Not all spawn at once — biggest bass are first. Personally, I stay with prespawn bass as long as I can because they're more aggressive and weigh more.'",
       "conditions": {
         "season": [
-          "spawn",
-          "pre-spawn"
+          "spawn"
         ]
       },
       "source": "vandams-6-season-bass-guide.txt"
@@ -6906,7 +6875,8 @@
       "conditions": {
         "season": [
           "summer"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "vandams-6-season-bass-guide.txt"
     },
@@ -6917,11 +6887,7 @@
       "conditions": {
         "season": [
           "fall"
-        ],
-        "structure": [
-          "creek-channel"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "vandams-6-season-bass-guide.txt"
     },
@@ -6955,10 +6921,8 @@
       "topic": "kvd-power-drop-shot-setup",
       "insight": "KVD: '7.5-foot rod, 3000 series spinning reel, 10lb braid with a 20-foot leader of 8lb fluorocarbon. Long leader and small-diameter braid means long casts with no twist. Critical for clear water where long casts matter.'",
       "conditions": {
-        "lure": "Drop Shot",
-        "waterClarity": "clear",
-        "depthZone": "mid",
-        "coverType": "grass"
+        "lureCategory": "finesse",
+        "waterClarity": "clear"
       },
       "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
     },
@@ -6967,8 +6931,7 @@
       "topic": "drop-shot-weight-selection",
       "insight": "KVD: '1/2oz tungsten for 10-40ft depth range with the 7-6 rod. Shallow water gets 1/8 or 3/16oz weight. Use just heavy enough weight to keep good bottom contact and line tight.'",
       "conditions": {
-        "lure": "Drop Shot",
-        "depthZone": "deep"
+        "lureCategory": "finesse"
       },
       "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
     },
@@ -6977,7 +6940,7 @@
       "topic": "power-shot-technique",
       "insight": "KVD: 'On a long cast, let it sink then tightline the last bit so the Baby Z-Too swims like a real minnow on the way down. Shake 3-4 times, reel a little, shake again. If you find concentrated fish, work it longer through the cast.'",
       "conditions": {
-        "lure": "Drop Shot"
+        "lureCategory": "finesse"
       },
       "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
     },
@@ -6986,9 +6949,7 @@
       "topic": "drop-shot-bait-matching-mood",
       "insight": "KVD: 'Match bait to fish mood: super tough = wacky-rigged Ocho or finesse worm. Power fishing = something with lots of wiggle like Baby Z-Too or nose-hooked Dream Shot. Figure out the mood and give them action that generates extra strikes.'",
       "conditions": {
-        "lure": "Drop Shot",
-        "lureCategory": "soft-plastics",
-        "coverType": "grass"
+        "lureCategory": "finesse"
       },
       "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
     },
@@ -6997,10 +6958,8 @@
       "topic": "drop-shot-vertical-deep-setup",
       "insight": "KVD: 'For vertical deep water (50ft on Table Rock, fishing standing timber at 30ft down), use a short rod. Video gaming — looking at graph, dropping to the fish, watching bait on sonar, trying to talk them into biting.'",
       "conditions": {
-        "lure": "Drop Shot",
-        "fishDepth": "30+",
-        "depthZone": "deep",
-        "coverType": "wood"
+        "lureCategory": "finesse",
+        "depthZone": "deep"
       },
       "source": "vandams-way-adding-power-to-your-drop-shot-approach.txt"
     },
@@ -7010,12 +6969,11 @@
       "insight": "KVD: 'Wake Shad runs only about 3 inches deep — perfect for burning over grass flats like hydrilla without getting snagged. Reel it right through the crisp green grass, mimicking a wounded baitfish just above the vegetation. Skimming the surface while creating enticing movement triggers aggressive strikes.'",
       "conditions": {
         "structure": [
-          "flat",
           "grass"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "burn",
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "shallow",
+        "lureCategory": "cranking"
       },
       "source": "wake-shad-burning-over-grass-vegetation-fishing-technique-with-kevin-vandam.txt"
     },
@@ -7024,8 +6982,8 @@
       "topic": "spinnerbait-slow-roll-setup",
       "insight": "KVD: 7'4\" medium-heavy rod (KVD Elite GC7), 7.5:1 gear ratio reel, 20lb fluorocarbon. Heavy line does NOT affect spinnerbait action — it's one of the few lures where heavy line doesn't hurt. Allows accurate casts tight to cover.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
     },
@@ -7034,9 +6992,8 @@
       "topic": "spinnerbait-slow-roll-cadence",
       "insight": "KVD: Barely turn the handle. When the bait hits a limb, speed the reel up one fast turn to force the bait over the limb keeping it up and down (not turning over and hanging). The flutter on the other side of the limb is when they bite. Even without cover, intermittently speed up for a quick flare of the skirt and blades to trigger following fish.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "retrieveStyle": "burn",
-        "coverType": "wood"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
     },
@@ -7045,7 +7002,6 @@
       "topic": "spinnerbait-trailer-selection",
       "insight": "KVD: Always use a plastic trailer when slow rolling — adds bulk and extra action fish home in on. Rage Slim Swimmer is his go-to: subtle, not too bulky (doesn't make bait ride up), has an erratic wag. In coldest months, sometimes removes the skirt entirely and just uses a swimbait as trailer.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
         "lureCategory": "moving-baits",
         "retrieveStyle": "slow-roll"
       },
@@ -7056,12 +7012,7 @@
       "topic": "spinnerbait-color-matching",
       "insight": "KVD: Bright sunny + clear water = natural colors (bluegill, spot remover). Dirty water = brightest or darkest colors (chartreuse/white or black/blue) to maximize silhouette. Shad patterns (white/chartreuse) are day-in day-out staples. Spring around grass in Texas = red crawfish patterns. Match the forage and water clarity.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "waterClarity": "muddy",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
     },
@@ -7070,13 +7021,8 @@
       "topic": "spinnerbait-above-line-of-sight",
       "insight": "KVD: When slow rolling, keep the bait ABOVE the bass's line of sight — you're imitating baitfish, not crawfish. Fish cover or fish over the bass's head. Steep rocky banks, laydowns, grass — the bait should be slowly ticking the cover above where bass are positioned.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "structure": [
-          "laydown",
-          "grass"
-        ],
-        "retrieveStyle": "slow-roll",
-        "coverType": "grass"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
     },
@@ -7085,8 +7031,7 @@
       "topic": "spinnerbait-heavy-line-exception",
       "insight": "KVD: Spinnerbait is one of the few lures where heavy line (20lb fluoro) does NOT hinder the action at all. On a small crankbait or finesse jig, heavy line hurts the action — but not on a spinnerbait.",
       "conditions": {
-        "lure": "Spinnerbait (Colorado/Willow)",
-        "lureCategory": "cranking"
+        "lureCategory": "moving-baits"
       },
       "source": "what-you-need-to-know-about-slow-rolling-a-spinnerbait-kevin-vandam.txt"
     },
@@ -7094,10 +7039,7 @@
       "category": "tournament-strategy",
       "topic": "when-to-switch-to-finesse",
       "insight": "KVD: 'I don't cast finesse baits until I know I'm in a good area holding bass. Three triggers to go finesse: (1) really clear water where I can see bass, (2) when bass quit biting power baits to pick up a few more, (3) when a bass blows up on or short-strikes my power bait — I know exactly where it is and cast a finesse worm right there. Go-to finesse: drop shot with Half Shell or finesse worm, then Ocho stick worm, then small jig.'",
-      "conditions": {
-        "waterClarity": "clear",
-        "lureCategory": "finesse"
-      },
+      "conditions": {},
       "source": "when-kevin-vandam-fishes-with-finesse.txt"
     }
   ]

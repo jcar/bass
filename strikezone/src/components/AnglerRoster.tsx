@@ -3,24 +3,22 @@
 import { useState } from 'react';
 import { ANGLER_PROFILES } from '@/lib/anglers';
 import { ANGLER_META } from '@/lib/theme';
-import { LURE_TO_CATEGORY } from '@/lib/briefings';
+import { getBriefing } from '@/lib/briefings';
 import AnglerGamePlan from './AnglerGamePlan';
 import AnglerDeepDive from './AnglerDeepDive';
-import type { AnglerPick, StructureTarget, SeasonalPhase, WeatherConditions } from '@/lib/types';
-import type { TacticalBriefing } from '@/lib/briefings/types';
+import type { AnglerPick, StructureTarget, SeasonalPhase, WeatherConditions, Season, WaterClarity, FrontalSystem } from '@/lib/types';
 
 interface AnglerRosterProps {
   anglerPicks: AnglerPick[];
   structureTargets: StructureTarget[];
   seasonalPhase: SeasonalPhase;
-  briefings: { category: string; briefing: TacticalBriefing }[];
   tackleBox?: string[];
   onTackleToggle?: (lureName: string) => void;
   conditions?: WeatherConditions;
 }
 
 export default function AnglerRoster({
-  anglerPicks, structureTargets, seasonalPhase, briefings,
+  anglerPicks, structureTargets, seasonalPhase,
   tackleBox = [], onTackleToggle, conditions,
 }: AnglerRosterProps) {
   const [followingAngler, setFollowingAngler] = useState<string | null>(null);
@@ -44,15 +42,16 @@ export default function AnglerRoster({
     );
   }
 
+  const season = seasonalPhase.season as Season;
+  const clarity = (conditions?.waterClarity ?? 'stained') as WaterClarity;
+  const frontal = (conditions?.frontalSystem ?? 'stable') as FrontalSystem;
+
   const enriched = anglerPicks.map(pick => {
     const profile = ANGLER_PROFILES.find(p => p.id === pick.anglerId);
     const meta = ANGLER_META[pick.anglerId] ?? {
       fullName: pick.anglerName, style: '', accent: '#64748b',
     };
-    const category = LURE_TO_CATEGORY[pick.lure.name];
-    const briefing = category
-      ? briefings.find(b => b.category === category) ?? null
-      : null;
+    const briefing = getBriefing(season, clarity, frontal, pick.lure.name);
     const targets = profile?.structureAdvice
       ? structureTargets.filter(t => profile.structureAdvice![t.type])
       : [];

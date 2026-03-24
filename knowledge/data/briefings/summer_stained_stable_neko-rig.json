@@ -12,14 +12,14 @@
       "lure": "Neko Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Neko Rig",
       "color": "Green Pumpkin Magic",
       "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
@@ -29,15 +29,15 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
         "angler": "Yamamoto",
         "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
       },
       {
-        "angler": "Johnston",
-        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       }
     ],
     "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",

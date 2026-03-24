@@ -12,14 +12,14 @@
       "lure": "Walking Topwater",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
-      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Walking Topwater",
       "color": "green back white sides (IU)",
       "retrieve": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
-      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,11 +29,11 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transi..."
+        "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area."
       }
     ],
     "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",

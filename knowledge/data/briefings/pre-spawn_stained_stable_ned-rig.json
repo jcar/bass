@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: In stained water, use a chartreuse jig head on the traditional Ned rig for added visual edge with a 3-inch stick bait.",
-      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Smoke/Black Blue Gold Flake (214)",
       "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
-      "targets": "Focus on grass, riprap, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,11 +29,15 @@
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Three swimbait styles for different conditions: Bulkier hollow-body for slower presentations — great prespawn and stained water for extra vibration. Subtle finesse swimbaits (like Swimming Shiner) for clear water and tough bites on bright da..."
+        "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
       },
       {
         "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

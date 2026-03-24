@@ -12,28 +12,32 @@
       "lure": "Shakyhead",
       "color": "Chartreuse/White",
       "retrieve": "Palaniuk: 'Extremely cold (42 degrees or below) and warmer than 90 degrees are prime conditions for a shaky-head. At cold extremes, fish are just up shallow beginning to get aggressive but not ready t",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "alternateApproach": {
       "lure": "Shakyhead",
       "color": "Chartreuse/White",
       "retrieve": "Palaniuk: 'Bass realize they can either chase prey and burn energy, or chill out in the shade, burn less energy and eat less. A shaky-head is a good way to pick off bigger fish out of brush piles that",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
       {
-        "angler": "Johnston",
-        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+        "angler": "Wheeler",
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       },
       {
         "angler": "KVD",
         "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'Big fish that haven't made the full transition to main summertime structure are singles or doubles on brushpiles or standing timber with a bottom composition change (mud to hard), on straight banks leading from spawning areas to points ..."
       }
     ],
     "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",

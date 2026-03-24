@@ -12,14 +12,14 @@
       "lure": "Spinnerbait (Colorado/Willow)",
       "color": "Black/Blue",
       "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
-      "targets": "Focus on flat, dock, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, riprap. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Spinnerbait (Colorado/Willow)",
       "color": "light/white",
       "retrieve": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone",
-      "targets": "Focus on flat, dock, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, riprap. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,11 +29,15 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
       },
       {
         "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

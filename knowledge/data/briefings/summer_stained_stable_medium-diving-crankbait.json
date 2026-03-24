@@ -12,14 +12,14 @@
       "lure": "Medium Diving Crankbait",
       "color": "Citrus",
       "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Medium Diving Crankbait",
       "color": "Live River Shad",
       "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
@@ -29,11 +29,11 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Johnston",
-        "insight": "Johnston: On the St. Lawrence, fish a mix of rock, sand, and weed in 15 feet or less. Hit as many spots as you can and hope the right ones bite."
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       }
     ],
     "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",

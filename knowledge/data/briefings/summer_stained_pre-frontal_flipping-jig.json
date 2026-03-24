@@ -12,14 +12,14 @@
       "lure": "Flipping Jig",
       "color": "Alabama craw with double header trailer",
       "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Flipping Jig",
       "color": "black/blue",
       "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -28,12 +28,16 @@
         "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: 'Fall transition signals: cooling nights drop water temps below summer highs, baitfish begin transitioning. Watch for pods schooling near surface, shad flipping on top, dive-bombing gulls, multiple herons on points or in creek backs. On natur..."
+        "angler": "Wheeler",
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "angler": "Yamamoto",
+        "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on..."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       }
     ],
     "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",

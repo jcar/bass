@@ -12,32 +12,32 @@
       "lure": "Drop Shot",
       "color": "Morning Dawn",
       "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
-      "targets": "Focus on bluff, riprap, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Drop Shot",
       "color": "Green Pumpkin",
       "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
-      "targets": "Focus on bluff, riprap, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
-      },
-      {
         "angler": "Wheeler",
-        "insight": "Wheeler: On flat fisheries bass stay in the shallow zone a long time before spawning, but on highland reservoirs they may stage in 6-10 feet before moving up; crankbait selection should match the lake type and depth zone."
-      },
-      {
-        "angler": "Johnston",
-        "insight": "Johnston: On calm days for deep smallmouth, cast the drop shot out and let it sit — don't move it. On rough windy days, cast past the fish and drag it through them. Adjust presentation to match conditions even though the bait stays the same."
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
       },
       {
         "angler": "KVD",
-        "insight": "KVD: GS1 spinning rod, 6'10\" medium action for accuracy around docks. Longer spinning rod for open water distance. 8lb braid to 8lb fluoro leader. Mustad Apex weedless hook for cover/docks, exposed hook in open water. Mustad Apex drop shot hook (w..."
+        "insight": "KVD: Dice/bug baits on a drop shot are a new frontier. Lighter weight = better (1/8oz ideal, 1/4oz max in deeper water). The slow sinking action is the key — once on bottom you can still shake it traditionally, but most bites come on the fall. Gam..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

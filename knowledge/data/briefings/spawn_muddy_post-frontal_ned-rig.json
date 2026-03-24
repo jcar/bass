@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Switch to Ned rig (1/4-oz head, same baits as dropshot) when smallmouth are going down and nipping the dropshot weight instead of the bait",
-      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Blue Baby",
       "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
-      "targets": "Focus on flat, grass, laydown. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,15 +29,11 @@
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
+        "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of larg..."
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Smallmouth spawn starts in creeks and flat areas with no current, then they transition toward the main river/lake — same as largemouth. Look for spawners in 10-15 ft rather than the obvious 4-8 ft most people target"
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+        "angler": "Johnston",
+        "insight": "Johnston: Smallmouth like to spawn on something - rock, gravel, a boulder, patch of weeds, a stick, cracks of slate. Sometimes they'll be on a gravel flat in the middle of nowhere."
       }
     ],
     "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",

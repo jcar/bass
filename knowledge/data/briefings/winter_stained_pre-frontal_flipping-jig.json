@@ -12,14 +12,14 @@
       "lure": "Flipping Jig",
       "color": "Alabama craw with double header trailer",
       "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Flipping Jig",
       "color": "black/blue",
       "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, dock, laydown. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -28,12 +28,16 @@
         "insight": "Hackney: 'For primarily flipping (not pitching), I prefer the 7-6 rod over the 7-11. The 7-6 has a softer tip which makes it easier to flip lighter baits.'"
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+        "angler": "Yamamoto",
+        "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on..."
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "angler": "Johnston",
+        "insight": "Johnston: Use Garmin Perspective Mode when seeing bed fish in low-visibility conditions. This was one of two main tools (along with flipping and drop shot baits) for bed fishing at the St. Johns River."
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: On lowland reservoirs with grass (Guntersville, Toledo Bend, Okeechobee), bass don't leave shallow areas even in extreme cold. They stage in slightly deeper areas adjacent to spawning flats — drains, ditches, depressions, holes in the grass. ..."
       }
     ],
     "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",

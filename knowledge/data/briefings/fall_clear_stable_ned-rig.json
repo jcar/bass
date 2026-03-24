@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "KVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "Robertson: Use a Ned rig with a 1/4-ounce mushroom-style jighead and green-pumpkin Ned Ocho on spinning gear (10-pound braid to 6-pound fluorocarbon leader) to target smallmouth holding on boulders in",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "proInsights": [
@@ -28,16 +28,16 @@
         "insight": "Johnston: Fall smallmouth fishing is all about location and timing. Cover water fast with reaction baits to find active groups, then slow down with finesse presentations to catch the rest. If fish stop biting a tube, switch to Ned rig or drop shot."
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: 'Fall spinnerbaits: downsize to 3/16oz in clear water with small blades to match young-of-year baitfish. For heavy grass, go bigger with willowleaf blades. To fish fast and deep, put smaller blades on a 3/4oz head — the Scorcher design lets y..."
-      },
-      {
         "angler": "Wheeler",
         "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
       },
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+        "angler": "KVD",
+        "insight": "KVD: 'Biggest smallmouth cranking difference: it's NOT about bottom contact. Keep crankbait a few feet off bottom — smallmouth in clear water love to feed looking up. It's about speed and covering water, casting all directions to find roaming aggr..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up."
       }
     ],
     "depthStrategy": "Stable fall conditions create the most predictable fall fishing. Bass follow shad migrations into creek arms and pockets, feeding at 3-15ft. Key on points at creek mouths and secondary flats where bait concentrates.",

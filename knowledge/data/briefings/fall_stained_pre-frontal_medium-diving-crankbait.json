@@ -12,28 +12,32 @@
       "lure": "Medium Diving Crankbait",
       "color": "Blueback Herring",
       "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Medium Diving Crankbait",
       "color": "HD Live Bluegill",
       "retrieve": "KVD: Position boat outside the grass line, fire at a 45° quartering angle into shallower grass. Crank down into the grass, slow up — let the bait float free or rip it free. That stop-start-rip action ",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, rock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
-      {
-        "angler": "KVD",
-        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
-      },
       {
         "angler": "Wheeler",
         "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
       },
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'For southern regions the key player is the shad — I lean towards colors with more flash, silver or white hues with a touch of color. For northern regions, fish follow perch on outside weedlines and transitions to deep water, so I go mor..."
+        "angler": "KVD",
+        "insight": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and..."
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In fall, smallmouth stack up on boulder fields in 20 feet of water where baitfish are concentrated. The fish can be found within a very small 60-foot area when they're grouped up."
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Big fish relate to the perimeter, a creek channel, and hold on an isolated piece of grass on a flat. Little fish run up shallow while big fish satellite around the area.'"
       }
     ],
     "depthStrategy": "Pre-frontal fall bass are following shad into the backs of creeks. Fish can be anywhere from 3-18ft depending on bait position. Target creek arms, secondary points, and anywhere baitfish are concentrating.",

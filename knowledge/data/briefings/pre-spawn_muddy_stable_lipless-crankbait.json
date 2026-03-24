@@ -12,32 +12,24 @@
       "lure": "Lipless Crankbait",
       "color": "Shad",
       "retrieve": "KVD: Fish the Red Eye Shad like a worm or jig, not just cast-and-reel. Rip it out of cover, let it flutter down — that swimming shimmy on the fall is the magic. The colder it is, the slower you fish. ",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, rock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Lipless Crankbait",
       "color": "Delta Craw",
       "retrieve": "KVD: In extreme cold on grass lakes, upsize line to 17-20lb fluoro to slow the bait down. Downsize to quarter or 3/8 oz for ultra-shallow flats. Fish it like a jig — short hopping, not just cast and r",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, rock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
-      {
-        "angler": "KVD",
-        "insight": "KVD: 'Early spring lipless colors: stick to natural patterns mimicking what bass already feed on — bluegill and crayfish in clear water. Stained or murky water, switch to brighter colors — chartreuse, fluorescent reds, anything that stands out more.'"
-      },
       {
         "angler": "Robertson",
         "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites."
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
-      },
-      {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "angler": "KVD",
+        "insight": "KVD: Fish the lipless crankbait like a jig in cold water. Short hop it along the bottom. Pull it around cover, deflect off rocks. Rip it out of grass, let it flutter down. Use rod tip to manipulate depth — tip up in shallow, down to get deeper. Ma..."
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

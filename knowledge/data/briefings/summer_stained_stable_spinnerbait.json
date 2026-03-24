@@ -12,14 +12,14 @@
       "lure": "Spinnerbait (Colorado/Willow)",
       "color": "Chartreuse Shad",
       "retrieve": "Wheeler: Use a heavier 3/4-ounce spinnerbait in windy conditions — easier to cast and the positive blade resistance makes it easier to feel bites than finesse presentations",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Spinnerbait (Colorado/Willow)",
       "color": "White",
       "retrieve": "Wheeler: Trim the skirt and add a narrow shad profile soft plastic trailer to improve visual attraction and hooking percentages; bass take the bait deeper and hold on longer than with a skirt alone",
-      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,11 +29,15 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabol..."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
         "angler": "Yamamoto",
         "insight": "Kevin Hawk: Owner Flashy accent (Indiana or willow blade on barrel swivel slipped onto hook bend) used in murky water or high pressure situations to draw more attention to wacky-rigged Senko"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       }
     ],
     "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",

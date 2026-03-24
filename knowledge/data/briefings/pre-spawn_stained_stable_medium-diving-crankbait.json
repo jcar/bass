@@ -12,28 +12,32 @@
       "lure": "Medium Diving Crankbait",
       "color": "Citrus",
       "retrieve": "Wheeler: The DT-6 is the most universal crankbait; it covers the 3-6 foot sweet spot and works from mid-40s water temps through pre-spawn, post-spawn, summer, and fall on rivers, highland and lowland ",
-      "targets": "Focus on flat, grass, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Medium Diving Crankbait",
       "color": "Live River Shad",
       "retrieve": "KVD: Gravel Dog for the 6-12ft mid-range zone in cold water. Round body, super wide wobble, loud rattle. Eats up the bottom — perfect for chunk rock banks, bluffs, riprap around bridges. One of the mo",
-      "targets": "Focus on flat, grass, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, bluff. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
       {
+        "angler": "Wheeler",
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
+      },
+      {
         "angler": "KVD",
-        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+        "insight": "KVD: In cold water, target transition areas where bass will stage before moving to spawning bays. Channel swing ends, flat edges, steeper banks transitioning to flatter areas, where different rock types come together. Chunk rock banks, bluffs, and..."
       },
       {
         "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

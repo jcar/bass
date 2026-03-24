@@ -12,32 +12,32 @@
       "lure": "Flipping Jig",
       "color": "black and blue",
       "retrieve": "Johnston: Use a compact mini flipping jig instead of full-size. You catch more fish and get more bites. With ever-increasing fishing pressure, a smaller jig is what it takes to get bit.",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Flipping Jig",
       "color": "green pumpkin",
       "retrieve": "Johnston: Don't soak a jig. The more flips you can get in, the more fish you get in front of, the more bites you will get. If they aren't going to eat on the first couple of hops, they can starve.",
-      "targets": "Focus on grass, dock, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
-      {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'For flipping jig in fall: 7-foot-6 heavy-action Alpha Angler Hitter rod, Daiwa Steez A reel, 20-pound Seaguar Tatsu fluorocarbon line.'"
-      },
-      {
-        "angler": "Johnston",
-        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
-      },
       {
         "angler": "KVD",
         "insight": "KVD: 'Fall transition signals: cooling nights drop water temps below summer highs, baitfish begin transitioning. Watch for pods schooling near surface, shad flipping on top, dive-bombing gulls, multiple herons on points or in creek backs. On natur..."
       },
       {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'For flipping jig in fall: 7-foot-6 heavy-action Alpha Angler Hitter rod, Daiwa Steez A reel, 20-pound Seaguar Tatsu fluorocarbon line.'"
+      },
+      {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "insight": "Wheeler: In fall, fish school up in ditches, on little flats in 2-4 feet, and especially around grass; on grassless lakes, key on shallow ditches with stumps that let bass ambush shad."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Sealock: When the flipping/pitching bite gets tough, switch to a wacky-rigged Senko on a spinning rod with 8-lb test — fish it in the same areas (under docks, laydowns, boulders, grass lines); hook through the middle, make a long cast, let fall on..."
       }
     ],
     "depthStrategy": "Post-frontal fall fish pull tighter to cover and deeper structure at 8-18ft. The shad migration pauses but doesn't stop. Focus on the deepest fish in a given creek arm — channel bends and main creek points.",

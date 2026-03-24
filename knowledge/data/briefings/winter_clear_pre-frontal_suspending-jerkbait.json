@@ -12,14 +12,14 @@
       "lure": "Suspending Jerkbait",
       "color": "Sexy Shad",
       "retrieve": "KVD: KVD 300 Deep runs 10-12ft — go-to for highland reservoirs and clear natural lakes in cold water. Fish off main lake points, bluff walls, bridge pilings, riprap. Parallel deeper edges. Twitch-twit",
-      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, riprap, bluff. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Suspending Jerkbait",
       "color": "Ito Wakasagi",
       "retrieve": "Wheeler: A jerkbait is the best winter bait. Forward-facing sonar shows that long pauses are important not just because water is colder, but also to give bass time to come up from deeper water to meet",
-      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on creek channel, riprap, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,16 +28,16 @@
         "insight": "KVD: 'Winter bass move shallower than most realize — if you can reach them with crankbait, jerkbait, or slow-rolled spinnerbait in 10ft or less, power baits are first option. Fish avoid expansive flats unless warming trend pushes them to gravel po..."
       },
       {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Adding No.4 2X strong trebles to a flat-sided balsa bait (Lucky Shad) tempers buoyancy and lets it suspend on contact with cover. It acts like a jerkbait but you can crank it and cover more water.'"
+      },
+      {
         "angler": "Johnston",
         "insight": "Johnston: For smallmouth bass in cold water, they seem to key in on tube jigs or a swimbait better than jerkbaits. For largemouth, suspending jerkbaits and deep-drop jigs are the go-to."
       },
       {
         "angler": "Palaniuk",
         "insight": "Palaniuk: 'For winter jerkbaits, use a smaller 70-size reel with 7.1:1 gear ratio in cold water, then bump up to 8.1:1 as it warms into spring. The smaller spool means even a faster ratio isn't too fast.'"
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
       }
     ],
     "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",

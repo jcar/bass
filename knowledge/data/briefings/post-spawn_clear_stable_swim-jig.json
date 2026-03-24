@@ -12,32 +12,28 @@
       "lure": "Swim Jig",
       "color": "Green Shad",
       "retrieve": "Wheeler: On lighter jigheads (1/8-3/16 oz) for Mooch Minnow swimbaits, cut off the tail tabs so the bait rolls more on the lighter head — gives more action for fish higher in the water column. On heav",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, ledge, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Swim Jig",
       "color": "Gizzard Shad",
       "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, ledge, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
-        "angler": "KVD",
-        "insight": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jig..."
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'Uses braid even in clear water when swimming jigs. As long as it is a moving bait, line type doesn't seem to matter — bass chomp regardless.'"
-      },
-      {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
         "angler": "Yamamoto",
         "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: 'The swim jig handles any shallow cover — grass, bushes, lily pads, wood, rocks. Swim it through pads like you're frogging. Skip it under docks. Fish everything from the bank to the outside grass edge. The heavy cover version powers through s..."
       }
     ],
     "depthStrategy": "Stable post-spawn conditions split fish between shallow fry-guarders (2-5ft) and transitioning females (5-15ft). Shad spawn activity on seawalls, riprap, and bluff walls concentrates bigger fish shallow at dawn.",

@@ -12,28 +12,28 @@
       "lure": "Walking Topwater",
       "color": "Yellow Perch",
       "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
-      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Walking Topwater",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: In Florida heavy grass, switch to 30-lb braid with a 12-inch monofilament leader (Sufix Elite) for topwater — need to force fish out of hay-field grass or you'll lose them",
-      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'If you slow down and work topwater in the strike zones, you'll get more bites and the bites you do get hook up a lot better.'"
+      },
+      {
         "angler": "Wheeler",
-        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Grassy lakes have 3 depth zones: Shallow flats (0-4ft) — topwater, spinnerbaits, weedless plastics for sight-feeding fish. Weed edges (4-8ft) — the sweet spot, bass ambush from the edge, use soft plastics, jigs, creature baits. Deeper transi..."
-      },
-      {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "KVD: Clear water on grass lakes = fish can see the bait from farther away (benefit) but can also be spooky (challenge). Fish may be timid — bites are subtle, just bumping the bait. Slow down and keep working the area."
       }
     ],
     "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",

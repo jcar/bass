@@ -12,28 +12,32 @@
       "lure": "Drop Shot",
       "color": "Blue Penny",
       "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
-      "targets": "Focus on dock, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Drop Shot",
       "color": "Morning Dawn",
       "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
-      "targets": "Focus on dock, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
-      {
-        "angler": "Yamamoto",
-        "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
-      },
       {
         "angler": "Johnston",
         "insight": "Johnston: Use Garmin Perspective Mode when seeing bed fish in low-visibility conditions. This was one of two main tools (along with flipping and drop shot baits) for bed fishing at the St. Johns River."
       },
       {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: Uses 14-lb YGK sinking braid to an 8-lb fluorocarbon leader for spawn-time drop-shot and Ned Rig presentations on a Shimano Expride 170M with 2500-size spinning reel"
+      },
+      {
         "angler": "KVD",
-        "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait..."
+        "insight": "KVD: 'Don't assume you must finesse spawning bass. At the 2011 Classic, 4 of top 7 finishers power fished spinnerbaits and crankbaits on the same 150-yard spawning flat. Key conditions: hard bottom flat with stumps + grass, 10-degree water temp ri..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Cherokee smallmouth were feeding up, not down — a dropshot dropped in front of them wouldn't get bit. Had to keep the bait 2 ft above their heads for them to come up off the bottom and eat"
       }
     ],
     "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",

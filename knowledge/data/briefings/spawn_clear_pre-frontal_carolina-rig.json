@@ -12,14 +12,14 @@
       "lure": "Carolina Rig",
       "color": "Natural Shad",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "Natural Shad",
       "retrieve": "Yamamoto pro Yelas: 'Right around the spawn and after, the fish seem to prefer a smaller bait with less action' — downsize from the Cowboy during spawn and post-spawn",
-      "targets": "Focus on flat, grass, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Yamamoto"
     },
     "proInsights": [
@@ -28,16 +28,12 @@
         "insight": "Yamamoto pro Fukae: The Free Rig is a cross between a Texas Rig and Carolina Rig — the line runs freely through the weight's eye so the weight falls first and the soft plastic flutters down behind it with an unpredictable slow fall; use a 'lift an..."
       },
       {
+        "angler": "KVD",
+        "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of larg..."
+      },
+      {
         "angler": "Johnston",
-        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
-      },
-      {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Carolina rig setup uses 7.5-foot medium-heavy rod, 7.0:1 reel, 17-lb fluorocarbon mainline to barrel swivel, then 14-lb fluorocarbon leader of 22 inches (18-26 inch range)."
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'At Stick Marsh with no underwater vegetation, fish were spawning around willow trees and cane on the shoreline - they just wanted to have something to spawn around.'"
+        "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day."
       }
     ],
     "depthStrategy": "Pre-frontal spawning bass are active on beds in 2-5ft. Falling pressure often triggers new waves of fish to move onto beds. Target hard-bottom spawning flats, secondary pockets, and protected coves.",

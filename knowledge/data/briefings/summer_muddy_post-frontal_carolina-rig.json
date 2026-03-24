@@ -12,14 +12,14 @@
       "lure": "Carolina Rig",
       "color": "Chartreuse/White",
       "retrieve": "Johnston: Use big baits on a Carolina Rig for bigger fish offshore — 10-inch worms, magnum flukes, and full-sized creature baits. Fish it on the same hard spots as a football jig. Use an 8.1:1 reel to",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "Chartreuse/White",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,7 +29,11 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       },
       {
         "angler": "KVD",

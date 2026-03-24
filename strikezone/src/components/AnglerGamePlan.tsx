@@ -19,7 +19,7 @@ interface AnglerGamePlanProps {
   pick: AnglerPick;
   meta: { fullName: string; style: string; accent: string };
   structureTargets: StructureTarget[];
-  briefing: { category: string; briefing: TacticalBriefing } | null;
+  briefing: TacticalBriefing | null;
   isHero: boolean;
   seasonLabel: string;
   tackleBox?: string[];
@@ -250,13 +250,13 @@ export default function AnglerGamePlan({
                 {briefing && (
                   <>
                     <div className="bg-emerald-500/10 border-b border-emerald-500/20 px-4 py-2.5">
-                      <p className="text-sm font-semibold text-emerald-400">{briefing.briefing.briefing.headline}</p>
+                      <p className="text-sm font-semibold text-emerald-400">{briefing.briefing.headline}</p>
                     </div>
                     <div className="p-3 space-y-3">
                       <div>
                         <div className="text-xs font-mono text-slate-500 uppercase tracking-wider mb-1">Game Plan</div>
                         <p className="text-xs text-slate-300 leading-relaxed whitespace-pre-line">
-                          {briefing.briefing.briefing.gameplan}
+                          {briefing.briefing.gameplan}
                         </p>
                       </div>
                     </div>
@@ -344,13 +344,13 @@ export default function AnglerGamePlan({
                     <>
                       <div className="bg-slate-900/30 rounded p-3 border border-slate-700/30">
                         <div className="text-xs font-mono text-slate-500 uppercase tracking-wider mb-1">Depth Strategy</div>
-                        <p className="text-xs text-slate-300 leading-relaxed">{briefing.briefing.briefing.depthStrategy}</p>
+                        <p className="text-xs text-slate-300 leading-relaxed">{briefing.briefing.depthStrategy}</p>
                       </div>
-                      {briefing.briefing.briefing.adjustIf.length > 0 && (
+                      {briefing.briefing.adjustIf.length > 0 && (
                         <div className="bg-amber-500/5 border border-amber-500/15 rounded p-3">
                           <div className="text-xs font-mono text-amber-400/80 uppercase tracking-wider mb-1.5">Adjust If...</div>
                           <ul className="space-y-1">
-                            {briefing.briefing.briefing.adjustIf.map((adj, i) => (
+                            {briefing.briefing.adjustIf.map((adj, i) => (
                               <li key={i} className="text-[11px] text-amber-200/60 leading-relaxed flex gap-1.5">
                                 <span className="text-amber-500/50 shrink-0">&rsaquo;</span>
                                 {adj}

@@ -12,28 +12,32 @@
       "lure": "Lipless Crankbait",
       "color": "Shad",
       "retrieve": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. De",
-      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Lipless Crankbait",
       "color": "Chrome Sexy Shad",
       "retrieve": "KVD: 'On shallow flats, use your rod tip and line size (10-20lb) to control depth. I want the bait hitting bottom. Every time it ticks cover, pop it and let it flutter — that's when fish bite.'",
-      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
       {
         "angler": "KVD",
-        "insight": "KVD: Guntersville's grass has evolved over the years: milfoil first, then hydrilla, now a lot of eel grass. All three still present. The grass creates great habitat and clear water (filters it). Floating eel grass cut up by wind/waves/boats makes ..."
+        "insight": "KVD: For lipless crankbaits in shallow grass (3-7ft): CC5 7'4\" heavy action composite rod, 7.5:1 reel, 20lb fluoro. Multiple cranking rods with 14, 17, and 20lb line for different depths. Heavy line keeps the bait up and slows it down in shallow g..."
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Robertson",
-        "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites."
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: I need the sun and the calm. Most people want the wind to blow, but I want it to be really tough on everybody because I figured out a method to catch them when it's really slick."
       }
     ],
     "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",

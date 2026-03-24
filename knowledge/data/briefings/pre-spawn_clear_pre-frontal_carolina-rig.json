@@ -12,28 +12,32 @@
       "lure": "Carolina Rig",
       "color": "green pumpkin with purple flake",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "watermelon candy",
       "retrieve": "Carolina rig Senko produces best in prespawn and postspawn when bass stage in front of spawning banks 6-10ft deep. Use 1oz tungsten weight with 4ft leader of 12lb fluorocarbon",
-      "targets": "Focus on grass, creek channel, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Yamamoto"
     },
     "proInsights": [
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
-      },
-      {
         "angler": "Wheeler",
-        "insight": "Wheeler: On flat fisheries bass stay in the shallow zone a long time before spawning, but on highland reservoirs they may stage in 6-10 feet before moving up; crankbait selection should match the lake type and depth zone."
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
       },
       {
         "angler": "KVD",
         "insight": "KVD: In cold/post-frontal pre-spawn, don't just wind the Thunder Cricket. Work it like a jig — hop, twitch, pull-and-stop. Get it down in the grass and on the bottom. Bites are extremely subtle: the bait just gets heavy or the vibration stops. 'I ..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
+      },
+      {
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Pre-frontal pre-spawn bass are aggressive and moving shallow. Expect fish in the 4-8ft range on secondary points and channel swings. Falling pressure pulls fish up from staging areas — target the first breakline off spawning flats.",

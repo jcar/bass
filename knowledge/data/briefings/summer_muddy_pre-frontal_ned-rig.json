@@ -12,28 +12,32 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Smoke/Black Blue Gold Flake (214)",
       "retrieve": "Wheeler: A wacky rigged drop shot Ned with a 4mm crossover ring has a slow fall rate ideal for targeting individual fish in deep water. Bump up to heavier weight for faster bottom contact.",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, ledge, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
-        "angler": "Johnston",
-        "insight": "Johnston: On the Potomac, I found fish out in the grass, not in the real thick stuff. I was casting to catch them, not flipping. When that failed due to muddy water from rain, I moved to flipping grass on the Greenway Flats."
+        "angler": "Wheeler",
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The thermocline sets up deeper (25-30 feet) in clear-water reservoirs and shallower (8-10 feet) in murky waters; rivers generally don't have consistent thermoclines due to flowing water"
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       },
       {
         "angler": "KVD",
         "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'Big fish that haven't made the full transition to main summertime structure are singles or doubles on brushpiles or standing timber with a bottom composition change (mud to hard), on straight banks leading from spawning areas to points ..."
       }
     ],
     "depthStrategy": "Pre-frontal summer bass feed aggressively. Fish split between shallow morning patterns (2-6ft) and offshore structure (12-25ft). Target grass lines, points, and ledges as falling pressure triggers movement.",

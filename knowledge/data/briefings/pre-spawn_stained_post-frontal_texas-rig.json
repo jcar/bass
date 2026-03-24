@@ -12,20 +12,20 @@
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
-      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Texas Rig (Creature Bait)",
       "color": "green pumpkin",
       "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
-      "targets": "Focus on grass, flat, riprap. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, flat. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
       {
-        "angler": "Yamamoto",
-        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
+        "angler": "Wheeler",
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
       },
       {
         "angler": "KVD",
@@ -33,11 +33,11 @@
       },
       {
         "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "Palaniuk: 'I call it floating a crankbait -- pick a crankbait that dives deeper than the depth you're fishing, reel it so it crawls up and over rocks, then back down the other side. It looks like a crawfish slowly scooting.'"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "angler": "Robertson",
+        "insight": "Robertson: In Florida grass (pencil reeds, flat reeds, Kissimmee grass, hyacinth), drop the trolling motor and cover water with swimbaits rather than sitting on one spot."
       }
     ],
     "depthStrategy": "Post-frontal pre-spawn fish pull back to 6-12ft staging areas. They won't commit shallow after the front. Target the first breakline off spawning flats and key on deeper structure near shallow spawning zones.",

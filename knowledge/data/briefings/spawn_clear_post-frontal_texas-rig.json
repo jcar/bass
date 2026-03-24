@@ -12,14 +12,14 @@
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
-      "targets": "Focus on grass, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
-      "targets": "Focus on grass, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, flat, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -34,6 +34,10 @@
       {
         "angler": "Hackney",
         "insight": "Hackney: 'Once water hits the 70s, fish pay more attention to baits with appendages that swim. Use something like a Game Hawg or Rage Bug. Fish grab it even when reeling back in.'"
+      },
+      {
+        "angler": "Johnston",
+        "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day."
       }
     ],
     "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",

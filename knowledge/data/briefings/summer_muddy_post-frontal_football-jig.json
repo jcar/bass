@@ -12,14 +12,14 @@
       "lure": "Football Jig",
       "color": "Green Pumpkin Purple",
       "retrieve": "Wheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspended fish) but a small snap, let it fall, snap, let it fall. This makes pressured, b",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Football Jig",
       "color": "Green Pumpkin Magic",
       "retrieve": "Wheeler: A snapped football jig catches fish from pressured busted-up schools that won't bite other techniques — especially effective without FFS, just covering water with precise casts",
-      "targets": "Focus on grass, flat, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -30,6 +30,14 @@
       {
         "angler": "Johnston",
         "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'When marking fish on electronics that won't bite big cranks or football jigs, drop a Neko rig — the first fish was a 9+. When I kept it in my hand I could go to every single brushpile and catch one'"
+      },
+      {
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
       }
     ],
     "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",

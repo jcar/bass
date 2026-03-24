@@ -12,28 +12,28 @@
       "lure": "Football Jig",
       "color": "Natural Shad",
       "retrieve": "Hackney: 'Use a 3/4 to 1-ounce football head jig on 12-17 pound fluorocarbon to cover water and locate sweet spots along gravel bars or ridges with isolated stumps. Same slow presentation as a Carolin",
-      "targets": "Focus on grass, flat, bluffs. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, rock. Work the transitions and edges where structure changes.",
       "proSource": "Hackney"
     },
     "alternateApproach": {
       "lure": "Football Jig",
       "color": "Natural Shad",
       "retrieve": "Yama Craw buoyancy makes claws float up behind football jig in defensive crawfish posture. Perfect for bottom-hopping presentations",
-      "targets": "Focus on grass, flat, bluffs. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, rock. Work the transitions and edges where structure changes.",
       "proSource": "Yamamoto"
     },
     "proInsights": [
       {
+        "angler": "KVD",
+        "insight": "KVD: On clear water grass lakes, most anglers fish the inside line where fish spawn. But fish also spawn in the deeper scattered grass patches (7ft+) in the middle of big flats. Nobody else fishes it — that's a competitive advantage. A lot of larg..."
+      },
+      {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "insight": "Wheeler: When fishing a football jig on deep rock, make a long cast, let it hit bottom, and drag it slowly — most bites come when the bait pops off a rock as bass follow it on the drag"
       },
       {
         "angler": "Johnston",
-        "insight": "Johnston: Uses Garmin LiveScope Perspective Mode to spot individual bed fish in rippled conditions when you can't see them visually. Cast to them and catch on first attempt."
-      },
-      {
-        "angler": "Yamamoto",
-        "insight": "A stick bait on a skirtless football head is a productive look for walking down bluff ends"
+        "insight": "Johnston: You have to be able to judge the size of bedding fish without catching them to make sure you're going to get the right ones. Spend time gathering waypoints on spawning areas before tournament day."
       }
     ],
     "depthStrategy": "Post-frontal spawning bass become extremely lockjaw but won't abandon beds. Fish are still in 2-5ft but much harder to trigger. Slow way down and make repeated presentations to visible beds.",

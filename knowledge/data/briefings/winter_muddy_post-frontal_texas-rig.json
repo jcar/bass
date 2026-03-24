@@ -12,14 +12,14 @@
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, point. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Texas Rig (Creature Bait)",
       "color": "green pumpkin",
       "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, point. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -28,16 +28,12 @@
         "insight": "Hackney: 'Below 55 degrees I switch from a Rage Craw to a KVD plastic chunk. I still want a big profile but not a lot of action — everything bass eat in winter is cold-blooded and moves slower, so a crawfish does not root around and shoot everywhe..."
       },
       {
-        "angler": "Yamamoto",
-        "insight": "DeFronzo: Crimp a small split shot 18 inches above a size 1 hook with a 3-inch Ika Texas-rigged; keep a slow steady retrieve; effective up to 20ft — deeper than that you lose contact; add a grub guard for bottom snags and weed penetration; a glass..."
-      },
-      {
         "angler": "KVD",
-        "insight": "KVD: For pitching into grass holes — 3/8oz tungsten weight with a 3/0 Mustad grip pin hook (the pin keeps the bait from sliding down). 5-inch Ocho worm. Blue craw or green pumpkin. Making it fall straight is critical — the Texas rig glides down cl..."
+        "insight": "KVD: On lowland reservoirs with grass (Guntersville, Toledo Bend, Okeechobee), bass don't leave shallow areas even in extreme cold. They stage in slightly deeper areas adjacent to spawning flats — drains, ditches, depressions, holes in the grass. ..."
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "insight": "Wheeler: When deadsticking a creature bait on a football jig or Hardhead, the claws and spear-like appendage rise to almost a 90-degree angle off the bottom and quiver and undulate."
       }
     ],
     "depthStrategy": "Post-frontal winter is the toughest bite of the year. Fish retreat to the deepest structure available (20-35ft+) and barely move. Target steep structure where fish can access deep water without traveling — bluffs, vertical channel walls, bridge pilings.",

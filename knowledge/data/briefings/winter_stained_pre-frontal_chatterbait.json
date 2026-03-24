@@ -12,24 +12,28 @@
       "lure": "Chatterbait",
       "color": "Black and Blue",
       "retrieve": "KVD: Thunder Cricket in shallow grass even in upper 30s water. Use 3/8 oz (lighter than normal) with straight-tail blade minnow trailer for subtle action. Pull and stop, not steady retrieve. Get it do",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Chatterbait",
       "color": "White",
       "retrieve": "Wheeler: Use a minnow-profile trailer (like CrushCity Freeloader) for natural, erratic movement - it adds realism and bulk without impeding the natural balsa-like hunting action of the ChatterBait.",
-      "targets": "Focus on grass, flat, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, creek channel, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
         "angler": "KVD",
-        "insight": "KVD: 'Cold water Thunder Cricket: cast toward structure or transitions, let sink just above cover/grass, lift-and-drop retrieve with brief pauses. The key isn't speed — it's triggering instinctive reaction bites. Slow enough for blade to stay in s..."
+        "insight": "KVD: Bass in super cold water are focused on vibration. They use their lateral line to feed — they can feel the presence of shad, the vibration and water displacement of your bait. That's why flatside crankbaits, lipless crankbaits, and bladed jig..."
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+        "insight": "Wheeler: On highland reservoirs like Cherokee, smallmouth live around holes/depressions (20 ft around the side) — if rock is around them the smallies live there. If a rock vein goes into the middle, they live on those veins. The holes harbor the b..."
       }
     ],
     "depthStrategy": "Pre-frontal winter bass stage at 12-25ft on main lake structure. Falling pressure before a front is often the best winter fishing window. Fish move slightly shallower and feed more aggressively than normal winter behavior.",

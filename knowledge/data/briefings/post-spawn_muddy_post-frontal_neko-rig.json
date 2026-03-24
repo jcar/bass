@@ -12,14 +12,14 @@
       "lure": "Neko Rig",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Use a Neko rig around docks when primary offshore spots get pressured — dock fish are often less beat up and can save a tournament late in the day",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Neko Rig",
       "color": "Baby Bass",
       "retrieve": "Palaniuk: 'Fish the Neko rig in and around brushpiles and flip it to isolated trees where fish are suspended — use 360 imaging to see fish suspended around standing timber and specifically target tree",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
@@ -32,12 +32,8 @@
         "insight": "Yamamoto: The Chicken Rig is weedless unlike the Neko rig so it can be fished through brush, rocks, and docks. It has big bass appeal with the large Kut Tail profile. It's durable because the worm slides up the line on hookset"
       },
       {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
-      },
-      {
         "angler": "KVD",
-        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
       }
     ],
     "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",

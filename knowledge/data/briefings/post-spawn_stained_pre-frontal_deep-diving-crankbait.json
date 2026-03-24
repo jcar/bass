@@ -12,14 +12,14 @@
       "lure": "Deep Diving Crankbait",
       "color": "Caribbean Shad",
       "retrieve": "Robertson: When the swimbait bite slows and fish scatter, pick up a deep-diving crankbait like the SPRO Little John DD 70 to put the majority of your weight in the boat. It produced the bulk of a 32-p",
-      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Robertson"
     },
     "alternateApproach": {
       "lure": "Deep Diving Crankbait",
       "color": "Blue/Chartreuse",
       "retrieve": "Wheeler: In heavy current, use a DT20 even when fish are in 12-18 ft — gets down quicker and stays in the strike zone longer than a shallower-running crank. Cranking catches the biggest fish via react",
-      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -29,15 +29,11 @@
       },
       {
         "angler": "Robertson",
-        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+        "insight": "Robertson: When following postspawn bass down ditches with a deep diver, start by casting ahead and up on top, then bring the crankbait down the side of the ditch at about a 45-degree angle. The crankbait must hit bottom."
       },
       {
         "angler": "Wheeler",
         "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
-      },
-      {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
       }
     ],
     "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",

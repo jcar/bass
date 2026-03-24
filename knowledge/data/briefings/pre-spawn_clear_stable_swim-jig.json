@@ -12,32 +12,32 @@
       "lure": "Swim Jig",
       "color": "Gizzard Shad",
       "retrieve": "Wheeler: Keep paddle tail swimbaits near the bottom — fishing too far off bottom is the biggest mistake; use lighter line (12-lb fluoro) and heavier head to achieve deeper running depth and better act",
-      "targets": "Focus on grass, dock, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Swim Jig",
       "color": "Green Shad",
       "retrieve": "Wheeler: Stop the bait mid-cast and let it fall back toward bottom to increase catch rate by 20-30% — trailing bass can't resist a shad imitator dropping from the school like a dying shad",
-      "targets": "Focus on grass, dock, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, rock, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
-        "angler": "KVD",
-        "insight": "KVD: 'For skip casting, use the heaviest line you can get away with — heavier line makes line management easier. 50lb braid for frogs and swim jigs in colored water. 20lb fluorocarbon for sparser cover or clearer water. 14lb fluoro for finesse jig..."
+        "angler": "Robertson",
+        "insight": "Robertson: At the 2021 Classic on Ray Roberts, fished a 3/8-oz Outkast Swim Jig (white) with Berkley Chigger Craw (white), 50-lb Berkley X5 Braid, Abu REVO STX 6.6 reel, 6'8\" MH Ugly Stik rod."
       },
       {
         "angler": "Hackney",
-        "insight": "Hackney: 'Uses braid even in clear water when swimming jigs. As long as it is a moving bait, line type doesn't seem to matter — bass chomp regardless.'"
-      },
-      {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'The spot had a riprap bank with a steep drop, then a trough that came up onto a hard bottom ridge, tapered back off into another trough. The trough made a horseshoe. A 40-yard section where the fish wanted to live, with a 25-foot hole t..."
+        "insight": "Hackney: 'In early spring or cold water, tip the jig with a KVD Chunk - big profile but less action. A more subtle swimming jig is better in cold water.'"
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even ..."
+        "insight": "Wheeler: At Santee Cooper, pre-spawn keys were 10 ft and shallower, hard places and rock (hard bottom, rock, gravel), plus brush and stumps. Better if you had both rock and wood but didn't need both"
+      },
+      {
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Hite: Standard Zako for ChatterBaits (subtle natural action), Kickin' Zako (paddle tail) for deep heavy ChatterBaits on ledges with poor light penetration and for swim jigs exclusively"
       }
     ],
     "depthStrategy": "Stable pre-spawn conditions mean fish are staging predictably at 5-12ft on points, channel swings, and riprap banks. They're feeding aggressively as water warms. Work the transition zone between deep winter haunts and shallow spawning areas.",

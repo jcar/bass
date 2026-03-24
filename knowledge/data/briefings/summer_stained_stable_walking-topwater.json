@@ -12,24 +12,24 @@
       "lure": "Walking Topwater",
       "color": "Stump Jumper (bluegill/bream pattern)",
       "retrieve": "Wheeler: Used an X-Rap Prop and handcarved prop bait in bluegill patterns around bluegill beds; when a bass dogs the topwater darting back and forth without striking, pause the bait for as long as 6 s",
-      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Walking Topwater",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Use monofilament (Sufix Siege) for topwater fishing — the stretch prevents jerking the bait away from the fish on the hookset. Pull into the fish rather than jerking, letting the sharp VMC ho",
-      "targets": "Focus on grass, point, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, hump, rock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
       {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'Walk the frog on top of thick grass to get bass to blow through it, or fish it on edges and points of the grass. Walk it 90% of the time like a Zara Spook'"
-      },
-      {
         "angler": "KVD",
         "insight": "KVD: 'Hot water dog days: bait and bass suspend off structure over deep points and humps. Clear water makes them selective and easily spooked — odds of catching several from one spot are minimal. Hit a lot of spots, catch a few, move on. Go back t..."
+      },
+      {
+        "angler": "Palaniuk",
+        "insight": "Palaniuk: 'Walk the frog on top of thick grass to get bass to blow through it, or fish it on edges and points of the grass. Walk it 90% of the time like a Zara Spook'"
       },
       {
         "angler": "Hackney",
@@ -37,7 +37,7 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy g..."
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       }
     ],
     "depthStrategy": "Stable summer patterns are predictable. Dawn/dusk fish are shallow (3-8ft) near cover. Midday fish pull to offshore structure at 12-25ft — ledges, humps, brush piles, and creek channel bends.",

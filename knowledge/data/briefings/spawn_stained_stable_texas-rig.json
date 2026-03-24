@@ -12,17 +12,21 @@
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Wheeler: Peg the sinker on baits with a lot of action (craw-style); leave it unpegged on gliding-action baits like tubes so the weight slides away for better glide.",
-      "targets": "Focus on grass, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Texas Rig (Creature Bait)",
       "color": "Green Pumpkin",
       "retrieve": "Johnston: There probably isn't a better bait for smallmouths than the tube since it imitates everything a smallmouth loves to eat, from perch to gobies to crawfish. If the bottom is clean, you can't b",
-      "targets": "Focus on grass, flat, cover. Work the transitions and edges where structure changes.",
+      "targets": "Focus on flat, grass, dock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
+      {
+        "angler": "KVD",
+        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+      },
       {
         "angler": "Yamamoto",
         "insight": "Yamamoto pro Fukae: The Free Rig is a cross between a Texas Rig and Carolina Rig — the line runs freely through the weight's eye so the weight falls first and the soft plastic flutters down behind it with an unpredictable slow fall; use a 'lift an..."
@@ -32,8 +36,8 @@
         "insight": "Hackney: 'Once water hits the 70s, fish pay more attention to baits with appendages that swim. Use something like a Game Hawg or Rage Bug. Fish grab it even when reeling back in.'"
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: Neko-rigged creature baits are 'deadly springtime bait around the spawn.' In clear water, most fish bite on the initial fall — if they're on a bed, the bait lands next to them and they eat it immediately. Works for both largemouth and smallmo..."
+        "angler": "Wheeler",
+        "insight": "Wheeler: When deadsticking a creature bait on a football jig or Hardhead, the claws and spear-like appendage rise to almost a 90-degree angle off the bottom and quiver and undulate."
       }
     ],
     "depthStrategy": "Stable spawn conditions have fish committed to beds in 1-5ft. Focus on hard-bottom areas in protected coves, pockets, and flats. Polarized glasses are essential for sight-fishing.",

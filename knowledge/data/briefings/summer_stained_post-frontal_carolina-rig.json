@@ -12,14 +12,14 @@
       "lure": "Carolina Rig",
       "color": "Sexy Shad",
       "retrieve": "Johnston: Use big baits on a Carolina Rig for bigger fish offshore — 10-inch worms, magnum flukes, and full-sized creature baits. Fish it on the same hard spots as a football jig. Use an 8.1:1 reel to",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Carolina Rig",
       "color": "Sexy Shad",
       "retrieve": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon leader (range 18-26 inches), and 3/0 worm hook; retrieves with standard pull-and-drag d",
-      "targets": "Focus on grass, ledge, flat. Work the transitions and edges where structure changes.",
+      "targets": "Focus on ledge, grass, hump. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,12 +28,16 @@
         "insight": "Johnston: Nobody remembers who finishes second in the Classic, so throw big baits and go for the win. Expect big swimbaits, deep-diving crankbaits, Carolina rigs, and football jigs to be the best chances."
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: 'Bright day, no wind, clear water = fish less aggressive, hugging bottom. Switch to jig, C-rig, drop shot, Neko. With current, wind, cloud cover, or stained water, they'll bite the crankbait. Ultra-clear with wind and clouds = still crankbait..."
+        "angler": "Wheeler",
+        "insight": "Wheeler: When fishing ledges, keep baits on bottom but often burn them fast then kill the retrieve to trigger reaction strikes — this produced key fish at Chickamauga"
       },
       {
-        "angler": "Wheeler",
-        "insight": "Wheeler: Best offshore spots included areas adjacent to grass lines, actual holes in the grass, and hard-bottomed shell beds in 8-35 feet of water."
+        "angler": "Hackney",
+        "insight": "Hackney: 'Quite a few fish live shallow even during the hottest time of year. They hold in shade of boat docks, overhanging trees, lily pads, and grass. Hot weather triggers grass growth that creates shade, oxygen, and ambush points.'"
+      },
+      {
+        "angler": "KVD",
+        "insight": "KVD: In summer on grass lakes, big fish move offshore to the middle of the lake where the bait is. They don't stay near shore when it's hot. Look for scattered hydrilla clumps in the middle of the lake."
       }
     ],
     "depthStrategy": "Post-frontal summer fish retreat to reliable offshore structure at 12-25ft. They're less aggressive but still need to eat. Focus on primary structure — main lake points, ledges, and humps with shade or current.",

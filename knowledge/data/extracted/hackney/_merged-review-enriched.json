@@ -374,6 +374,39 @@
         "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt",
         "ptj-greg-hackney.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "weight": "3/4oz"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "weight": "3/8oz"
+        },
+        {
+          "when": {
+            "season": "post-spawn"
+          },
+          "priority": 5,
+          "trailer": "bass attack the shad and often hook on a"
+        },
+        {
+          "when": {
+            "season": "post-spawn"
+          },
+          "priority": 5,
+          "trailer": "Always fish a"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Hackney: 'Killing a spinnerbait — stopping the retrieve for a second right after it clears cover — lets the blades tu..."
+      },
       "lureCategory": "moving-baits"
     },
     "Swim Jig": {
@@ -644,6 +677,98 @@
         "swim-jig-knowledge-pros.txt",
         "when-to-throw-a-swim-jig-vs-flippin-jig.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterTemp": "cold"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'Use the standard swim jig (not heavy cover) when fishing colder water with less cover.'"
+        },
+        {
+          "when": {
+            "waterTemp": "cold"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'The only time I use fluorocarbon for swim jig fishing is when the water is colder and I need to fish slower..."
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "trailer": "a swim jig with a Rage Craw",
+          "retrieveNote": "Hackney: 'When fish first come up shallow to set up for spawn, a swim jig with a Rage Craw trailer keeps the bait in ..."
+        },
+        {
+          "when": {
+            "season": "post-spawn"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'At the tail end of spawn when males guard fry, the swim jig comes back into play"
+        },
+        {
+          "when": {
+            "fishDepth": "shallow"
+          },
+          "priority": 5,
+          "trailer": "Use a Rage Craw"
+        },
+        {
+          "when": {
+            "fishDepth": "5-10ft",
+            "season": "summer"
+          },
+          "priority": 5,
+          "trailer": "use a heavier paddletail swimbait",
+          "retrieveNote": "Hackney: 'When slow rolling in 5-10 feet, use a heavier paddletail swimbait trailer (Rage Swimmer) to keep the bait low"
+        },
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "trailer": "Use a larger craw"
+        },
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "trailer": "grub"
+        },
+        {
+          "when": {
+            "season": "fall"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'In fall when shad migrate shallow into vegetation, use a white swim jig"
+        },
+        {
+          "when": {
+            "waterTemp": "cold"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'In colder water the basic approach is to simply cast it out and wind it with a steady retrieve'"
+        },
+        {
+          "when": {
+            "waterTemp": "warm"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'In warmer water I pick up the swim jig because covering water and being efficient is key"
+        },
+        {
+          "when": {
+            "waterTemp": "warming-in-cold-period"
+          },
+          "priority": 5,
+          "retrieveNote": "The swim jig keeps the bait in the top water column and stays in the strike zone much longer'"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Start with a basic steady retrieve, then vary from there.'"
+      },
       "lureCategory": "moving-baits"
     },
     "Texas Rig (Creature Bait)": {
@@ -846,6 +971,19 @@
         "hackneys-new-school-flipping-and-pitching-approach.txt",
         "why-greg-hackney-uses-big-flipping-hooks.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "retrieveNote": "Fish it from surface to within 3 feet, yo-yo 3-4 times then reel out"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/4oz",
+        "trailer": "Grub"
+      },
       "lureCategory": "soft-plastics"
     },
     "Flipping Jig": {
@@ -1348,6 +1486,42 @@
         "why-greg-hackney-prefers-throwing-jigs.txt",
         "winter-jig-fishing-hackneyhtml.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer"
+          },
+          "priority": 5,
+          "trailer": "oz jig with a Rodent",
+          "retrieveNote": "Hackney: 'A 1-oz jig with a Rodent trailer was the key - the Rodent has no drag so it falls like a 1.5-oz jig"
+        },
+        {
+          "when": {
+            "season": "pre-spawn"
+          },
+          "priority": 5,
+          "weight": "1/2-oz",
+          "trailer": "Rage Craw"
+        },
+        {
+          "when": {
+            "fishDepth": "14-17ft",
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "Hop the jig once or twice then reel it in - in clear water if they are going to get it, they get it really quick.'"
+        },
+        {
+          "when": {
+            "season": "winter"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'In winter I shake the jig to get it to fall through the mat"
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "I alter the fall rate by varying my"
+      },
       "lureCategory": "jigs"
     },
     "Squarebill Crankbait": {
@@ -1691,6 +1865,32 @@
         "ptj-greg-hackney.txt",
         "why-to-tie-on-a-bladed-jig-every-time-you-fish.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "spawn"
+          },
+          "priority": 5,
+          "trailer": "Used a Thunder Cricket with a Blade Minnow"
+        },
+        {
+          "when": {
+            "waterClarity": "muddy"
+          },
+          "priority": 5,
+          "trailer": "Switch to a Rage Bug or Rage Craw"
+        },
+        {
+          "when": {
+            "fishDepth": "deep"
+          },
+          "priority": 5,
+          "trailer": "use a Blade Minnow"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "In warm water snap the bait free; a slower pulling motion is best in chilly temperatures'"
+      },
       "lureCategory": "moving-baits"
     },
     "Lipless Crankbait": {
@@ -1848,6 +2048,22 @@
         "greg-hackneys-favorite-spring-and-early-summer-bait.txt",
         "how-greg-hackneys-lipless-rattles-get-fall-time-bass-bite.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterTemp": "warm"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'If the water is warm, rip the lipless crankbait out of the grass"
+        },
+        {
+          "when": {
+            "waterTemp": "warm"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'In warm water around grass, rip the lipless crankbait"
+        }
+      ],
       "lureCategory": "cranking"
     },
     "Walking Topwater": {
@@ -1894,6 +2110,16 @@
       "sources": [
         "greg-hackney-names-his-favorite-lure-for-bass-fishing-in-hot-weather.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": "summer",
+            "waterTemp": "90+"
+          },
+          "priority": 5,
+          "retrieveNote": "If I throw a crankbait or drag a worm, the bass won't even pay attention.'"
+        }
+      ],
       "lureCategory": "topwater"
     },
     "Suspending Jerkbait": {
@@ -1936,6 +2162,15 @@
       "sources": [
         "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt",
         "hackneys-hook-change-strategies.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "clear"
+          },
+          "priority": 5,
+          "retrieveNote": "Hackney: 'Add a larger hook on the rear to make the bait tilt tail-down on the pause"
+        }
       ],
       "lureCategory": "cranking"
     },
@@ -2256,10 +2491,8 @@
       "insight": "Hackney: 'The end of summer is one of the most difficult times to fish in the South. Downsizing to a compact finesse jig gives pressured bass something they haven't seen.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
+          "fall"
         ],
-        "region": "south",
         "lureCategory": "jigs"
       },
       "source": "1-bait-5-reasons-hackneys-go-to-finesse-jig-for-early-fall-bass.txt"
@@ -2269,8 +2502,7 @@
       "topic": "jig-line-tie-design",
       "insight": "Hackney: 'The zero-degree line tie has the same effect as a Texas rig — the line goes straight down making it weedless. Perfect for going through brush and cover without getting stuck.'",
       "conditions": {
-        "lureCategory": "soft-plastics",
-        "coverType": "grass"
+        "lureCategory": "jigs"
       },
       "source": "1-bait-5-reasons-hackneys-go-to-finesse-jig-for-early-fall-bass.txt"
     },
@@ -2279,7 +2511,7 @@
       "topic": "jig-weed-guard",
       "insight": "Hackney: 'Usually when you get stuck with a jig, it's not because the weed guard is giving, it's because the guard is too far away from the hook point. That's how brush can get up under there.'",
       "conditions": {
-        "coverType": "grass"
+        "lureCategory": "jigs"
       },
       "source": "1-bait-5-reasons-hackneys-go-to-finesse-jig-for-early-fall-bass.txt"
     },
@@ -2287,7 +2519,9 @@
       "category": "lure-selection",
       "topic": "finesse-jig-species-versatility",
       "insight": "Hackney: 'The thinner skirt gives a sleeker presentation for finicky fish. It's also great for smallmouth and spotted bass with their smaller mouths.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "1-bait-5-reasons-hackneys-go-to-finesse-jig-for-early-fall-bass.txt"
     },
     {
@@ -2295,8 +2529,10 @@
       "topic": "spinnerbait-head-shape",
       "insight": "Hackney: 'Round heads are better suited to fishing rock and stumps — less likely to get wedged. Keel-style heads are ideal for fast retrieves and fishing higher in the water column. Bullet heads offer a mix but can get wedged in crevices.'",
       "conditions": {
-        "retrieveStyle": "burn",
-        "coverType": "wood"
+        "lureCategory": "moving-baits",
+        "structure": [
+          "rock"
+        ]
       },
       "source": "8-spinnerbait-bass-fishing-tips-with-greg-hackney.txt"
     },
@@ -2314,9 +2550,6 @@
       "topic": "spinnerbait-around-cover",
       "insight": "Hackney: 'Nine times out of 10 you'll find better success with a spinnerbait fishing around isolated cover like dock posts, stumps, and boulders. Bass position near cover to ambush prey.'",
       "conditions": {
-        "structure": [
-          "dock"
-        ],
         "lureCategory": "moving-baits",
         "coverType": "wood"
       },
@@ -2326,14 +2559,18 @@
       "category": "gear",
       "topic": "spinnerbait-trailer-selection",
       "insight": "Hackney: 'Split-tail trailers give the most bang for your buck — good action without changing the speed on retrieve or fall. Craw trailers increase profile and slow the bait down.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
       "source": "8-spinnerbait-bass-fishing-tips-with-greg-hackney.txt"
     },
     {
       "category": "gear",
       "topic": "spinnerbait-trailer-hook",
       "insight": "Hackney: 'Use a trailer hook slightly smaller than the main hook, oriented the same direction. Run the main hook point through the back of the trailer hook eye.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
       "source": "8-spinnerbait-bass-fishing-tips-with-greg-hackney.txt"
     },
     {
@@ -2341,7 +2578,8 @@
       "topic": "spinnerbait-blade-size-muddy",
       "insight": "Hackney: 'In muddy water, it's more important to increase the size of the blades than to worry about what color they are.'",
       "conditions": {
-        "waterClarity": "muddy"
+        "waterClarity": "muddy",
+        "lureCategory": "moving-baits"
       },
       "source": "8-spinnerbait-bass-fishing-tips-with-greg-hackney.txt"
     },
@@ -2349,9 +2587,7 @@
       "category": "mental-approach",
       "topic": "power-fishing-preference",
       "insight": "Hackney: 'I like big poles, big line and big hook sets. It's easier to get a bite on a wacky worm than a 3/4-ounce Hack Attack Jig, but at the end of the day the results are the same. It boils down to how you like to fish.'",
-      "conditions": {
-        "lureCategory": "jigs"
-      },
+      "conditions": {},
       "source": "a-season-of-big-poles-big-line-big-hook-sets.txt"
     },
     {
@@ -2378,7 +2614,9 @@
       "category": "gear",
       "topic": "swim-jig-line-choice",
       "insight": "Hackney: 'I don't believe bass are line shy. You need to adjust what line you use based on how a lure performs using the line, not based on water clarity.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
       "source": "bassmaster-elite-pro-greg-hackney-talks-swim-jigs.txt"
     },
     {
@@ -2396,10 +2634,8 @@
         "season": [
           "winter"
         ],
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "shallow"
       },
       "source": "big-fish-and-wintertime-flippin.txt"
     },
@@ -2424,7 +2660,7 @@
         "season": [
           "winter"
         ],
-        "frontalSystem": "post-front"
+        "pressureState": "post-frontal"
       },
       "source": "big-fish-and-wintertime-flippin.txt"
     },
@@ -2435,7 +2671,8 @@
       "conditions": {
         "season": [
           "winter"
-        ]
+        ],
+        "lureCategory": "soft-plastics"
       },
       "source": "big-fish-and-wintertime-flippin.txt"
     },
@@ -2446,7 +2683,8 @@
       "conditions": {
         "season": [
           "winter"
-        ]
+        ],
+        "lureCategory": "jigs"
       },
       "source": "big-fish-and-wintertime-flippin.txt"
     },
@@ -2455,10 +2693,7 @@
       "topic": "muddy-water-plastic-color",
       "insight": "Hackney: 'I'll use any color as long as it's black. It's almost impossible to get pure black anymore — it all has flake in it — so I go with the darkest looking stuff I can find. If black isn't working, try Summer Craw or Bama Craw.'",
       "conditions": {
-        "waterClarity": "muddy",
-        "season": [
-          "summer"
-        ]
+        "waterClarity": "muddy"
       },
       "source": "catching-bass-in-muddy-water.txt"
     },
@@ -2467,7 +2702,8 @@
       "topic": "muddy-water-plastic-profile",
       "insight": "Hackney: 'Any plastic I throw in muddy water will be big and bulky, with a lot of arms and legs to move water. My choice is a Strike King Rage Tail Lobster when the water's real bad.'",
       "conditions": {
-        "waterClarity": "muddy"
+        "waterClarity": "muddy",
+        "lureCategory": "soft-plastics"
       },
       "source": "catching-bass-in-muddy-water.txt"
     },
@@ -2494,8 +2730,7 @@
       "topic": "braid-vs-fluoro-swim-jig",
       "insight": "Hackney: 'Uses braid even in clear water when swimming jigs. As long as it is a moving bait, line type doesn't seem to matter — bass chomp regardless.'",
       "conditions": {
-        "waterClarity": "clear",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "debate-fishing-line-over-fluorocarbon-vs-braided.txt"
     },
@@ -2505,9 +2740,7 @@
       "insight": "Hackney: 'Bass in real muddy water move shallow, about as deep as the light penetrates. They don't like pitch black but also don't like being near the surface. They stay close to the bottom but not on it, right at the point where the light disappears.'",
       "conditions": {
         "waterClarity": "muddy",
-        "structure": [
-          "point"
-        ]
+        "depthZone": "shallow"
       },
       "source": "finding-bass-in-muddy-water.txt"
     },
@@ -2526,9 +2759,6 @@
       "insight": "Hackney: 'Flooded shallow areas where grass and bushes filter the water are usually your best water. The difference in color might be slight to us, but a bass living in it sees that slight difference as huge.'",
       "conditions": {
         "waterClarity": "muddy",
-        "structure": [
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "finding-bass-in-muddy-water.txt"
@@ -2557,10 +2787,7 @@
       "insight": "Hackney: 'Muddy water bass are target oriented. Look for something shallow, out of the current, with cover in it — stump, laydown, rock, or flooded dock. If there's something that filters the water, so much the better.'",
       "conditions": {
         "waterClarity": "muddy",
-        "structure": [
-          "laydown",
-          "dock"
-        ],
+        "depthZone": "shallow",
         "coverType": "wood"
       },
       "source": "finding-bass-in-muddy-water.txt"
@@ -2570,10 +2797,6 @@
       "topic": "why-mats-hold-bass",
       "insight": "Hackney: 'Matted grass provides excellent surrounding and overhead protection and ambush points while heating up quicker than the surroundings. These factors make them resilient to cold fronts. Rich soils support food webs including crawfish and sunfish.'",
       "conditions": {
-        "structure": [
-          "point",
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "flipping-and-pitching-mats-for-bass-greg-hackney-brain-dump.txt"
@@ -2592,7 +2815,10 @@
       "category": "retrieve-technique",
       "topic": "mat-punching-coverage",
       "insight": "Hackney: 'Once you get bit, your job becomes dropping your bait into every nearby nook and cranny. Choose a powerful and balanced flipping rod for effortless and pinpoint pitches and flips.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "soft-plastics",
+        "coverType": "grass"
+      },
       "source": "flipping-and-pitching-mats-for-bass-greg-hackney-brain-dump.txt"
     },
     {
@@ -2600,9 +2826,6 @@
       "topic": "mat-definition",
       "insight": "Hackney: 'A mat can be made of anything — vegetation, pine needles, leaves piled by wind and current, even discarded lumber or trash. Bass will hold under any mat if it breaks the sunlight and there's a foot of water under it.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "flipping-mats-part-1.txt"
@@ -2611,27 +2834,21 @@
       "category": "fish-behavior",
       "topic": "why-bass-use-mats",
       "insight": "Hackney: 'Mats offer shade, an ambush point and a safe place from predators. The only time bass won't use a mat is when they're actually on the bed — they like sunlight then.'",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "flipping-mats-part-1.txt"
     },
     {
       "category": "gear",
       "topic": "flipping-mat-rod-requirements",
       "insight": "Hackney: 'You want a heavy action blank with some tip and a parabolic bend from tip to handle. Not a featherweight — you need weight to help set the hook. Close to 8 feet long, never shorter than 7-6. The parabolic bend sets the hook and the strong blank pulls the fish out.'",
-      "conditions": {
-        "depthZone": "mid"
-      },
+      "conditions": {},
       "source": "flipping-mats-part-1.txt"
     },
     {
       "category": "mental-approach",
       "topic": "flipping-mats-tackle-gap",
       "insight": "Hackney: 'Most anglers do not use anything close to what they should for flipping mats. Most of them are carrying a knife to a gunfight.'",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "flipping-mats-part-1.txt"
     },
     {
@@ -2661,9 +2878,7 @@
       "category": "gear",
       "topic": "tungsten-vs-lead-mats",
       "insight": "Hackney: 'Always use tungsten. I don't have a lead weight in my boat. Tungsten is more sensitive and smaller so it penetrates the mat easier.'",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "flipping-mats-part-2.txt"
     },
     {
@@ -2680,7 +2895,7 @@
       "topic": "mat-flipping-hookset",
       "insight": "Hackney: 'Do not set the hook with a jerk when flipping mats — the weight and plastic will ball up and you'll never get a good hookset. Reel down until you feel the fish, then use a steady, hard, strong, quick pull back to drive the hook home.'",
       "conditions": {
-        "retrieveStyle": "twitch",
+        "lureCategory": "soft-plastics",
         "coverType": "grass"
       },
       "source": "flipping-mats-part-3.txt"
@@ -2689,7 +2904,10 @@
       "category": "retrieve-technique",
       "topic": "mat-flipping-fish-extraction",
       "insight": "Hackney: 'Pull the fish back with the rod — don't try to crank her back. The reel's only function is to keep slack out of the line.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "soft-plastics",
+        "coverType": "grass"
+      },
       "source": "flipping-mats-part-3.txt"
     },
     {
@@ -2706,7 +2924,7 @@
       "topic": "mat-flipping-visualization",
       "insight": "Hackney: 'Visualize the hookset in your mind before every flip. If you don't, you'll reflexively jerk your rod when you get a bite.'",
       "conditions": {
-        "retrieveStyle": "twitch"
+        "coverType": "grass"
       },
       "source": "flipping-mats-part-3.txt"
     },
@@ -2721,16 +2939,16 @@
       "category": "lure-selection",
       "topic": "jig-trailer-fall-rate-control",
       "insight": "Hackney: 'Changing the sink rate of a jig does not mean tying on a heavier jig. Alter the fall rate by varying the trailer. A bigger, bulkier trailer on a 1/2-ounce jig makes it act like a 3/8 or 1/4 ouncer.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "flipping-thoughts.txt"
     },
     {
       "category": "color-selection",
       "topic": "two-color-simplicity",
       "insight": "Hackney: 'I limit myself to just two colors — black/blue for dark water or dark conditions, green pumpkin for clearer water and bright days. These two catch fish from Florida to New York. I may switch during the day — black/blue early morning, green pumpkin when the sun gets up.'",
-      "conditions": {
-        "waterClarity": "clear"
-      },
+      "conditions": {},
       "source": "flipping-thoughts.txt"
     },
     {
@@ -2749,7 +2967,8 @@
       "topic": "buzzbait-slow-retrieve-with-frog",
       "insight": "Hackney: 'The frog on a buzzbait floats it, enabling you to reel much slower than with a skirt. A skirted buzzbait sinks when you slow down, but the frog keeps it on the surface.'",
       "conditions": {
-        "lureCategory": "topwater"
+        "lureCategory": "topwater",
+        "retrieveStyle": "slow-roll"
       },
       "source": "greg-hackney-explains-the-power-of-the-buzzbait-for-catching-bass.txt"
     },
@@ -2772,7 +2991,6 @@
       "topic": "hollow-structure-big-bass",
       "insight": "Hackney: 'One of the biggest bass I ever caught was from the center of a giant cypress stump that looked solid. I threw a worm right into the hole in the top and caught a 7.5-pounder. No one else was dumb enough to fish there.'",
       "conditions": {
-        "lureCategory": "soft-plastics",
         "coverType": "wood"
       },
       "source": "greg-hackney-how-to-catch-a-really-big-bass.txt"
@@ -2781,7 +2999,9 @@
       "category": "lure-selection",
       "topic": "jig-design-details-matter",
       "insight": "Hackney: 'Line-tie degrees, the physics of hook penetration, and how and where a jig will outperform plastic are all base-level considerations for every jig flip.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "greg-hackney-jig-wizard.txt"
     },
     {
@@ -2790,8 +3010,7 @@
       "insight": "Hackney: 'There are two phases for prespawn: pre-prespawn right out of winter and then prespawn. These two phases are your best bet at catching a personal best. Fish are stressed from spawning prep - males guard a huge territory and are really aggressive.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ]
       },
       "source": "greg-hackney-my-baits-to-get-bites-in-each-stage-of-the-spawn.txt"
@@ -2816,7 +3035,6 @@
         "season": [
           "spawn"
         ],
-        "waterTemp": "70s",
         "lureCategory": "soft-plastics"
       },
       "source": "greg-hackney-my-baits-to-get-bites-in-each-stage-of-the-spawn.txt"
@@ -2841,13 +3059,11 @@
         "season": [
           "summer"
         ],
-        "waterTemp": "90+",
+        "depthZone": "shallow",
+        "coverType": "grass",
         "structure": [
-          "point",
-          "dock",
-          "grass"
-        ],
-        "coverType": "grass"
+          "dock"
+        ]
       },
       "source": "greg-hackney-names-his-favorite-lure-for-bass-fishing-in-hot-weather.txt"
     },
@@ -2881,21 +3097,14 @@
       "category": "gear",
       "topic": "flipping-braid-advantages",
       "insight": "Hackney: 'I use 55- or 60-pound braided line for flipping. It is low-stretch, cuts through vegetation well with a big bass on, and I can tie on in the morning and never have to retie all day.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "greg-hackney-uses-the-flipping-technique-to-catch-bass.txt"
     },
     {
       "category": "gear",
       "topic": "flipping-rod-8-foot",
       "insight": "Hackney: 'An 8-foot rod gives better line control than 7 or 7.5-foot. It gives the right amount of tip action and backbone. With braided line you need a parabolic rod with softer action than most flipping sticks because the line does not stretch.'",
-      "conditions": {
-        "depthZone": "mid"
-      },
+      "conditions": {},
       "source": "greg-hackney-uses-the-flipping-technique-to-catch-bass.txt"
     },
     {
@@ -2903,9 +3112,6 @@
       "topic": "universal-flipping-colors",
       "insight": "Hackney: 'Black-and-blue and green-pumpkin are my two favorite colors for punching grass. These two colors you can fish in all 50 states and be very successful.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "greg-hackney-uses-the-flipping-technique-to-catch-bass.txt"
@@ -2923,10 +3129,9 @@
       "insight": "Hackney: 'In early spring or cold water, tip the jig with a KVD Chunk - big profile but less action. A more subtle swimming jig is better in cold water.'",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "winter"
+          "pre-spawn"
         ],
-        "waterTemp": "cold"
+        "lureCategory": "jigs"
       },
       "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt"
     },
@@ -2935,8 +3140,7 @@
       "topic": "jig-trailer-warm-water",
       "insight": "Hackney: 'Once water heats into upper 60s, switch to a Rage Craw with active vibrating legs. The Rage Craw is also his first choice for swimming a jig.'",
       "conditions": {
-        "waterTemp": "upper 60s+",
-        "lureCategory": "soft-plastics"
+        "lureCategory": "jigs"
       },
       "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt"
     },
@@ -2944,7 +3148,9 @@
       "category": "retrieve-technique",
       "topic": "jig-fall-rate-trailer-selection",
       "insight": "Hackney: 'Different trailers affect rate of fall. A bulky active trailer makes a jig fall slower. A slender trailer like a Rage Menace causes it to plummet faster. Rate of fall can be critical - experiment with trailers.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt"
     },
     {
@@ -2952,7 +3158,8 @@
       "topic": "jig-rod-for-deep-casting",
       "insight": "Hackney: 'For casting jigs into deeper water, use a 7-6 with a lighter tip. The longer rod improves hook sets on fish farther away and in deeper water.'",
       "conditions": {
-        "fishDepth": "deep"
+        "lureCategory": "jigs",
+        "depthZone": "deep"
       },
       "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt"
     },
@@ -2960,7 +3167,9 @@
       "category": "mental-approach",
       "topic": "jig-confidence-building",
       "insight": "Hackney: 'Go to your favorite lake and carry one rod for jigs. That is the best way to get familiar with jig fishing and resist using other techniques.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "greg-hackneys-3-keys-to-better-jig-fishing.txt"
     },
     {
@@ -2982,10 +3191,7 @@
       "category": "fish-behavior",
       "topic": "suspended-fish-high-water",
       "insight": "Hackney: 'When water gets real high, fish do not go shallow - they go straight up. They sit where they were at normal pool and suspend. Every fish I caught was suspended 1-4 feet under the surface in 8-11 feet of water.'",
-      "conditions": {
-        "depthZone": "mid",
-        "coverType": "open"
-      },
+      "conditions": {},
       "source": "greg-hackneys-bassfest-winning-pattern.txt"
     },
     {
@@ -3013,31 +3219,21 @@
       "category": "gear",
       "topic": "bassfest-flipping-setup",
       "insight": "Hackney: 'Fished a 7-foot-11 Hack Attack flip stick, Quantum 200 HD reel (7.3 gear ratio), and 50-lb Gamma Torque braid.'",
-      "conditions": {
-        "depthZone": "mid",
-        "lureCategory": "jigs"
-      },
+      "conditions": {},
       "source": "greg-hackneys-bassfest-winning-pattern.txt"
     },
     {
       "category": "gear",
       "topic": "braid-vs-fluorocarbon-visibility",
       "insight": "Hackney: 'Braid carries no light - it is real natural-looking in the water. Fluorocarbon and mono are not natural-looking at all. If fishing cover, the fish sees the jig first, not the line. I have caught them in 18 feet of visible water in cover with braid.'",
-      "conditions": {
-        "depthZone": "deep"
-      },
+      "conditions": {},
       "source": "greg-hackneys-braid-flipping-system.txt"
     },
     {
       "category": "gear",
       "topic": "braid-color-matching",
       "insight": "Hackney: 'Let braid color fade to match cover. If fishing green grass, use green braid. Do not paint it black because that is one of the easiest colors for fish to see.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "greg-hackneys-braid-flipping-system.txt"
     },
     {
@@ -3051,10 +3247,7 @@
       "category": "gear",
       "topic": "parabolic-rod-for-braid",
       "insight": "Hackney: 'The 7-foot-11 flip stick was built for braid - not fast enough for fluorocarbon. Very parabolic bend, limber tip, and the whole rod loads. With no-stretch line you need that forgiveness in the rod.'",
-      "conditions": {
-        "depthZone": "mid",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "greg-hackneys-braid-flipping-system.txt"
     },
     {
@@ -3073,7 +3266,8 @@
       "conditions": {
         "season": [
           "post-spawn"
-        ]
+        ],
+        "lureCategory": "moving-baits"
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3085,7 +3279,7 @@
         "season": [
           "post-spawn"
         ],
-        "isLowLight": true
+        "depthZone": "shallow"
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3098,11 +3292,8 @@
           "post-spawn"
         ],
         "structure": [
-          "dock",
-          "grass"
-        ],
-        "depthZone": "mid",
-        "coverType": "grass"
+          "dock"
+        ]
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3114,7 +3305,7 @@
         "season": [
           "post-spawn"
         ],
-        "depthZone": "deep"
+        "depthZone": "shallow"
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3126,7 +3317,8 @@
         "season": [
           "post-spawn"
         ],
-        "retrieveStyle": "steady"
+        "lureCategory": "moving-baits",
+        "retrieveStyle": "slow-roll"
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3138,8 +3330,7 @@
         "season": [
           "post-spawn"
         ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "slow-roll"
+        "lureCategory": "moving-baits"
       },
       "source": "greg-hackneys-four-bass-fishing-post-spawn-beat-down-tips.txt"
     },
@@ -3150,11 +3341,7 @@
       "conditions": {
         "season": [
           "spawn"
-        ],
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        ]
       },
       "source": "greg-hackneys-mlf-championship-winning-baits.txt"
     },
@@ -3162,9 +3349,7 @@
       "category": "tournament-strategy",
       "topic": "mlf-score-tracker-mindset",
       "insight": "Hackney: 'In MLF, use Score Tracker to decide if you need to abandon a pattern or ride it out. I never got in a hurry. More slow and steady was the deal because fishing was not through the roof.'",
-      "conditions": {
-        "retrieveStyle": "steady"
-      },
+      "conditions": {},
       "source": "greg-hackneys-mlf-championship-winning-baits.txt"
     },
     {
@@ -3179,9 +3364,7 @@
       "topic": "punching-mats-heavy-weight",
       "insight": "Hackney: 'Flipped mats with a Rodent (black/blue) and a heavy 1.5-oz weight at Lake Garcia and Kenansville. For hydrilla and hyacinth mats, heavy tungsten is essential.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
+        "lureCategory": "soft-plastics",
         "coverType": "grass"
       },
       "source": "greg-hackneys-mlf-championship-winning-baits.txt"
@@ -3241,10 +3424,8 @@
       "insight": "Hackney: 'There were more numbers of fish shallow, but bigger ones were on the deeper edge of that grass.'",
       "conditions": {
         "waterClarity": "clear",
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "deep"
       },
       "source": "hackneys-cayuga-pattern-details.txt"
     },
@@ -3253,9 +3434,7 @@
       "topic": "jig-over-punch-rig-for-big-fish",
       "insight": "Hackney: 'Most guys flipping grass were using a punch skirt and plastic or just plastic. But I am a firm believer that when they are biting the jig, it catches the big ones.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
+        "lureCategory": "jigs",
         "coverType": "grass"
       },
       "source": "hackneys-cayuga-pattern-details.txt"
@@ -3264,12 +3443,7 @@
       "category": "fish-behavior",
       "topic": "baitfish-presence-indicates-bass",
       "insight": "Hackney: 'Anywhere I caught bass, I had to get perch bites. If I fished a stretch of grass and I did not get any perch or bluegill bites, there would not be any bass there.'",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "hackneys-cayuga-pattern-details.txt"
     },
     {
@@ -3277,12 +3451,9 @@
       "topic": "deep-flipping-setup",
       "insight": "Hackney: 'Flipped with a 7-foot-11 rod, EXO PT 100 reel, and 50-pound braid for deep grass jigging.'",
       "conditions": {
-        "fishDepth": "14-20ft",
-        "structure": [
-          "grass"
-        ],
-        "depthZone": "mid",
-        "coverType": "grass"
+        "lureCategory": "jigs",
+        "coverType": "grass",
+        "depthZone": "deep"
       },
       "source": "hackneys-cayuga-pattern-details.txt"
     },
@@ -3293,9 +3464,6 @@
       "conditions": {
         "season": [
           "summer"
-        ],
-        "structure": [
-          "grass"
         ],
         "coverType": "grass"
       },
@@ -3330,9 +3498,6 @@
       "topic": "mixed-vegetation-concentrates-fish",
       "insight": "Hackney: 'An abnormality in vegetation like mixed species can be key. A small area of cabbage growing outside deep milfoil or coontail growing inside will concentrate fish.'",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "hackneys-fishing-class-flipping-session-video.txt"
@@ -3348,16 +3513,16 @@
       "category": "gear",
       "topic": "flipping-braid-weight",
       "insight": "Hackney: 'Always flip a jig on 50-pound braid for faster fall rate. When flipping an ounce or heavier weight or throwing a frog, use 65-pound test.'",
-      "conditions": {
-        "lureCategory": "topwater"
-      },
+      "conditions": {},
       "source": "hackneys-fishing-class-flipping-session-video.txt"
     },
     {
       "category": "fish-behavior",
       "topic": "smallmouth-prefer-plastics",
       "insight": "Hackney: 'I will never target smallmouth with a jig. Smallmouth get a soft plastic better than a jig - they are a weird fish.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "soft-plastics"
+      },
       "source": "hackneys-fishing-class-flipping-session-video.txt"
     },
     {
@@ -3371,11 +3536,7 @@
       "category": "gear",
       "topic": "hook-weight-affects-buoyancy-by-water-temp",
       "insight": "Hackney: 'You can manipulate hooks because of water temperature. It is easier to sink a bait in cold water than warm water because air and gas inside the bait are less buoyant in cold water.'",
-      "conditions": {
-        "season": [
-          "winter"
-        ]
-      },
+      "conditions": {},
       "source": "hackneys-hook-change-strategies.txt"
     },
     {
@@ -3383,12 +3544,10 @@
       "topic": "cold-water-crankbait-suspend-trick",
       "insight": "Hackney: 'Adding No.4 2X strong trebles to a flat-sided balsa bait (Lucky Shad) tempers buoyancy and lets it suspend on contact with cover. It acts like a jerkbait but you can crank it and cover more water.'",
       "conditions": {
-        "waterTemp": "cold",
-        "structure": [
-          "flat"
+        "season": [
+          "winter"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "hackneys-hook-change-strategies.txt"
     },
@@ -3404,7 +3563,7 @@
       "topic": "trailer-variety-over-jig-variety",
       "insight": "Hackney: 'I carry more trailers than I do jigs because conditions sometimes change hourly. I can completely change the look of a jig by changing the trailer - from no action with a Chunk to looking like the trailer is propelling the jig with a Rage Craw.'",
       "conditions": {
-        "lureCategory": "soft-plastics"
+        "lureCategory": "jigs"
       },
       "source": "hackneys-jig-system.txt"
     },
@@ -3430,9 +3589,6 @@
         "season": [
           "post-spawn"
         ],
-        "structure": [
-          "grass"
-        ],
         "coverType": "grass"
       },
       "source": "hackneys-new-school-flipping-and-pitching-approach.txt"
@@ -3441,9 +3597,7 @@
       "category": "gear",
       "topic": "rod-length-for-flipping-scenarios",
       "insight": "Hackney: 'Use the 7-foot-11 flipping stick for standard flipping and a 7-foot-6 version for different pitching scenarios. Balance rod action, bait weight, and the need for precise efficient hook sets.'",
-      "conditions": {
-        "depthZone": "mid"
-      },
+      "conditions": {},
       "source": "hackneys-new-school-flipping-and-pitching-approach.txt"
     },
     {
@@ -3457,9 +3611,7 @@
       "category": "tournament-strategy",
       "topic": "leave-spot-early-to-preserve-it",
       "insight": "Hackney: 'Catch what you believe to be your best weight for the day and get out of there. Do not burn out an area in practice - if you catch a 3-4 pounder in practice you risk not catching it again during the tournament.'",
-      "conditions": {
-        "retrieveStyle": "burn"
-      },
+      "conditions": {},
       "source": "hackneys-tips-for-crowded-water.txt"
     },
     {
@@ -3474,7 +3626,7 @@
       "topic": "swim-jig-trailer-depth-control",
       "insight": "Hackney: 'Manipulate running depth by varying the trailer. Rage Craw keeps it high, Rage Swimmer keeps it low, Rage Lobster keeps it high with bigger profile, Menace Grub for subtle smaller profile.'",
       "conditions": {
-        "lureCategory": "soft-plastics"
+        "lureCategory": "moving-baits"
       },
       "source": "hackneys-utilitarian-swim-strategy.txt"
     },
@@ -3483,11 +3635,7 @@
       "topic": "swim-jig-rod-and-reel",
       "insight": "Hackney: 'Use a 7-2 swim jig/frog rod with a 7.5:1 or 8.3:1 reel for fast retrieves. In winter when fishing deep and slow, switch to a 6.4:1 reel.'",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "burn"
+        "lureCategory": "moving-baits"
       },
       "source": "hackneys-utilitarian-swim-strategy.txt"
     },
@@ -3496,7 +3644,7 @@
       "topic": "swim-jig-line-selection",
       "insight": "Hackney: 'Use 50-pound braid most of the time for snappy response and shallow cover. Switch to 14-20 pound fluorocarbon only for the deep-and-slow presentation.'",
       "conditions": {
-        "retrieveStyle": "twitch"
+        "lureCategory": "moving-baits"
       },
       "source": "hackneys-utilitarian-swim-strategy.txt"
     },
@@ -3532,9 +3680,8 @@
           "fall"
         ],
         "structure": [
-          "flat",
           "creek-channel",
-          "grass"
+          "flat"
         ],
         "coverType": "grass"
       },
@@ -3546,12 +3693,7 @@
       "insight": "Hackney: 'During winter drawdown, larger fish will be on the flat out front holding on a stump, even in 2-3 feet of water, always relating to solid structure like a drop-off, rock pile, piece of wood, or isolated grass.'",
       "conditions": {
         "season": [
-          "fall",
-          "winter"
-        ],
-        "structure": [
-          "flat",
-          "grass"
+          "fall"
         ],
         "depthZone": "shallow",
         "coverType": "wood"
@@ -3562,7 +3704,9 @@
       "category": "gear",
       "topic": "lipless-crank-hook-upsizing",
       "insight": "Hackney: 'Always upsize hooks with short-shank trebles at least one size bigger than factory. 1/4-ounce gets a No.4, 1/2-ounce gets a No.2, 3/4-ounce gets a No.1.'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "cranking"
+      },
       "source": "how-greg-hackneys-lipless-rattles-get-fall-time-bass-bite.txt"
     },
     {
@@ -3570,10 +3714,7 @@
       "topic": "lipless-crank-line-depth-control",
       "insight": "Hackney: 'Line test dictates running depth. Lighter line runs deeper. 20-pound fluorocarbon is the mainstay. Use a 7-4 medium-heavy composite rod for flats and a 7-foot rod for the 1/4-ounce model.'",
       "conditions": {
-        "structure": [
-          "flat"
-        ],
-        "depthZone": "mid"
+        "lureCategory": "cranking"
       },
       "source": "how-greg-hackneys-lipless-rattles-get-fall-time-bass-bite.txt"
     },
@@ -3582,7 +3723,7 @@
       "topic": "swim-jig-setup-hackney",
       "insight": "Hackney: 'Use a Lew's 7-2 Hack Attack swim jig/frog rod, Custom Pro reel 8.3:1 gear ratio, and 50-pound braid. Three trailers: Rage Craw, Menace Grub, and Rage Swimmer.'",
       "conditions": {
-        "lureCategory": "jigs"
+        "lureCategory": "moving-baits"
       },
       "source": "howell-hackney-on-the-swim-jig-i-fish-it-365-days-a-year.txt"
     },
@@ -3599,9 +3740,7 @@
       "category": "tournament-strategy",
       "topic": "slow-and-steady-wins",
       "insight": "Hackney: 'Slow and steady typically wins the fishing race. When within striking distance of winning, I do not want to fish too hard and spin out.'",
-      "conditions": {
-        "retrieveStyle": "steady"
-      },
+      "conditions": {},
       "source": "inside-the-mind-of-greg-hackney.txt"
     },
     {
@@ -3640,11 +3779,7 @@
       "category": "seasonal-pattern",
       "topic": "reorganize-tackle-by-pattern",
       "insight": "Hackney: 'Before each tournament I completely reorganize my boat for the expected pattern. Going from Florida spawning bass to Tennessee winter pattern means getting rid of all the heavy tackle and packing smaller tackle.'",
-      "conditions": {
-        "season": [
-          "winter"
-        ]
-      },
+      "conditions": {},
       "source": "inside-the-mind-of-greg-hackney.txt"
     },
     {
@@ -3653,14 +3788,12 @@
       "insight": "Hackney: 'Think of fall as a faster pre-spawn in reverse. Fish migrate back to the exact same cover they use pre-spawn. They get on boat docks, cypress trees, heavy cover just outside spawning areas. They are aggressive and feeding up for winter.'",
       "conditions": {
         "season": [
-          "fall",
-          "winter",
-          "pre-spawn"
+          "fall"
         ],
         "structure": [
           "dock"
         ],
-        "coverType": "dock"
+        "coverType": "wood"
       },
       "source": "jig-fishing-fall-basshtml.txt"
     },
@@ -3670,9 +3803,9 @@
       "insight": "Hackney: 'Cold fronts in the fall are not as negatively effective as in the spring. I like those cold front days in fall because the cool water triggers them to feed. I do not like warm Indian summer days in the fall.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
-        ]
+          "fall"
+        ],
+        "pressureState": "post-frontal"
       },
       "source": "jig-fishing-fall-basshtml.txt"
     },
@@ -3682,14 +3815,9 @@
       "insight": "Hackney: 'In summer fish swim around in the abyss on nothing, but in fall as water temps drop they get back on cover - brush piles, boat docks, grass edges. Now we can pinpoint and target them.'",
       "conditions": {
         "season": [
-          "fall",
-          "summer"
+          "fall"
         ],
-        "structure": [
-          "dock",
-          "grass"
-        ],
-        "coverType": "dock"
+        "coverType": "wood"
       },
       "source": "jig-fishing-fall-basshtml.txt"
     },
@@ -3700,9 +3828,6 @@
       "conditions": {
         "season": [
           "fall"
-        ],
-        "structure": [
-          "grass"
         ],
         "coverType": "grass"
       },
@@ -3734,9 +3859,7 @@
       "category": "fish-behavior",
       "topic": "bass-are-simple-creatures",
       "insight": "Hackney: 'Largemouth bass do not think. They are simple prehistoric creatures. They eat, rest, and have sex once a year. They do not hide behind rocks because they are afraid.'",
-      "conditions": {
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "more-thoughts-on-rule-1.txt"
     },
     {
@@ -3778,10 +3901,7 @@
       "category": "gear",
       "topic": "spinning-tackle-leader",
       "insight": "Hackney: 'On spinning gear I use 10-pound braid tied to a 3-6 foot fluorocarbon leader material, not casting-style fluorocarbon. The leader material is much stronger and abrasion-resistant'",
-      "conditions": {
-        "depthZone": "mid",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "part-2-inside-the-mind-of-greg-hackney.txt"
     },
     {
@@ -3802,19 +3922,14 @@
       "category": "gear",
       "topic": "flipping-rod-selection",
       "insight": "Hackney: 'A longer rod gives more distance on pitch and flip and more control over the fish. But shorter rods double as heavy casting rods for Texas rigged plastics and suit shorter anglers'",
-      "conditions": {
-        "lureCategory": "soft-plastics"
-      },
+      "conditions": {},
       "source": "picking-the-right-pitchin-and-flippin-stick.txt"
     },
     {
       "category": "gear",
       "topic": "flipping-rod-weight",
       "insight": "Hackney: 'Beware of lightweight rods — they feel good in the shop but beat you to death with a heavy jig or worm weight. The more the rod weighs, the less stress on your arm, wrist and hand at end of day'",
-      "conditions": {
-        "lureCategory": "soft-plastics",
-        "retrieveStyle": "hop"
-      },
+      "conditions": {},
       "source": "picking-the-right-pitchin-and-flippin-stick.txt"
     },
     {
@@ -3837,10 +3952,9 @@
       "insight": "Hackney: 'In Zone 1 you are dealing with resident fish — they just move in and out of close proximity from summer to fall and winter. As it cools off, fish move into places with less current and less wind, like dead ends'",
       "conditions": {
         "season": [
-          "fall",
-          "summer",
-          "winter"
-        ]
+          "fall"
+        ],
+        "coverType": "wood"
       },
       "source": "ptj-greg-hackney.txt"
     },
@@ -3879,22 +3993,14 @@
       "category": "lure-selection",
       "topic": "lure-versatility-at-right-spot",
       "insight": "Hackney: 'I fished cypress trees with a chartreuse-black crankbait, next day another angler caught just as many from same spot on a dark tube, then Aaron Martens caught a mess on a drop shot — the bass were there and feeding, it was location'",
-      "conditions": {
-        "lureCategory": "cranking",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "rule-1-find-the-bass.txt"
     },
     {
       "category": "depth-strategy",
       "topic": "find-then-figure-depth",
       "insight": "Hackney: 'Use your knowledge, your electronics and anything else. Once you find them figure out the details — are they suspended, on the bottom, breaking the surface? Then make an intelligent decision on what bait to throw'",
-      "conditions": {
-        "structure": [
-          "ledge"
-        ],
-        "coverType": "open"
-      },
+      "conditions": {},
       "source": "rule-1-find-the-bass.txt"
     },
     {
@@ -3909,8 +4015,7 @@
       "topic": "vertical-position-matters",
       "insight": "Hackney: 'After you find the bass, figure out whether they are on the bottom or suspended. At Okeechobee in 2 feet of water, smaller bass were on the bottom and bigger ones were suspended — hitting the lure as soon as it hit the water'",
       "conditions": {
-        "depthZone": "shallow",
-        "coverType": "open"
+        "depthZone": "shallow"
       },
       "source": "rule-2-fish-the-right-depth.txt"
     },
@@ -3938,8 +4043,8 @@
         "season": [
           "winter"
         ],
-        "waterTemp": "cold",
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "shallow"
       },
       "source": "rule-2-fish-the-right-depth.txt"
     },
@@ -3948,7 +4053,7 @@
       "topic": "shallow-fish-method",
       "insight": "Hackney: 'If fishing shallow, let your bait fall to the bottom and drag or short-hop it. If no bites, pull it up to the surface. After a couple catches you can figure things out'",
       "conditions": {
-        "fishDepth": "shallow",
+        "depthZone": "shallow",
         "retrieveStyle": "drag"
       },
       "source": "rule-2-fish-the-right-depth.txt"
@@ -4016,8 +4121,7 @@
       "topic": "cold-water-vertical-rise",
       "insight": "Hackney: 'If the water is cold and warms quickly, bass often move vertically into the upper foot or two of the water column, especially in heavily stained or muddy water. SONAR won't find them and you can fish a long time without a bite'",
       "conditions": {
-        "waterClarity": "stained",
-        "waterTemp": "warming"
+        "waterClarity": "stained"
       },
       "source": "when-bass-disappear.txt"
     },
@@ -4025,10 +4129,7 @@
       "category": "fish-behavior",
       "topic": "unpredictable-feeding",
       "insight": "Hackney: 'I fished a tree top three days in a row knowing a 3.5 pounder was in it. First two days no bite. Third day she nearly ripped the rod out of my hand — same jig, nothing different. Sometimes they go negative for reasons we don't understand'",
-      "conditions": {
-        "retrieveStyle": "hop",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "when-bass-disappear.txt"
     },
     {
@@ -4036,10 +4137,7 @@
       "topic": "swim-jig-vs-flipping-jig",
       "insight": "Hackney: 'I let water temperature dictate which jig to throw in shallow cover. Warm water means swim jig, cold water means flipping jig. It only takes a few casts to determine which method works better'",
       "conditions": {
-        "season": [
-          "winter"
-        ],
-        "lureCategory": "jigs"
+        "lureCategory": "moving-baits"
       },
       "source": "when-to-throw-a-swim-jig-vs-flippin-jig.txt"
     },
@@ -4047,7 +4145,9 @@
       "category": "gear",
       "topic": "jig-line-tie-angle",
       "insight": "Hackney: 'A 90- or 60-degree line tie covers up half the bite on your hook point. With a big weighted jig like 3/4 oz, the line tie can catch in the roof of their mouth instead of the hook point — feels hooked but the hook never penetrated'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "why-greg-hackney-prefers-throwing-jigs.txt"
     },
     {
@@ -4061,9 +4161,7 @@
       "category": "gear",
       "topic": "flipping-gear-setup",
       "insight": "Hackney: 'Flipping gear is a 7-foot 10-inch flipping stick, Quantum 200 HD reel at 7.6 ratio, with 50 or 65-lb braid depending on fall rate desired'",
-      "conditions": {
-        "depthZone": "mid"
-      },
+      "conditions": {},
       "source": "why-greg-hackney-uses-big-flipping-hooks.txt"
     },
     {
@@ -4071,7 +4169,7 @@
       "topic": "bladed-jig-vs-lipless",
       "insight": "Hackney: 'A bladed jig has the visual appeal of swimming a jig — a very natural look — plus vibration. It does not have rattles, so it is more subtle than a lipless crankbait'",
       "conditions": {
-        "lureCategory": "cranking"
+        "lureCategory": "moving-baits"
       },
       "source": "why-to-tie-on-a-bladed-jig-every-time-you-fish.txt"
     },
@@ -4092,8 +4190,7 @@
         "season": [
           "winter"
         ],
-        "waterTemp": "<55",
-        "lureCategory": "soft-plastics"
+        "lureCategory": "jigs"
       },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     },
@@ -4105,7 +4202,10 @@
         "season": [
           "winter"
         ],
-        "coverType": "grass"
+        "coverType": "grass",
+        "structure": [
+          "dock"
+        ]
       },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     },
@@ -4117,12 +4217,11 @@
         "season": [
           "winter"
         ],
-        "waterClarity": "clear",
+        "lureCategory": "jigs",
         "structure": [
           "creek-channel"
         ],
-        "depthZone": "mid",
-        "coverType": "wood"
+        "depthZone": "mid"
       },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     },
@@ -4133,7 +4232,9 @@
       "conditions": {
         "season": [
           "winter"
-        ]
+        ],
+        "lureCategory": "jigs",
+        "retrieveStyle": "drag"
       },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     },
@@ -4141,7 +4242,9 @@
       "category": "gear",
       "topic": "winter-jig-reel",
       "insight": "Hackney: 'I always use a super-high-speed reel for jig fishing — 8.3:1 ratio. Super fast and super strong, works with both braid and fluorocarbon'",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     },
     {
@@ -4149,12 +4252,7 @@
       "topic": "three-jig-system",
       "insight": "Hackney: 'There are really three jigs I use year-round: the Hack Attack Flipping Jig for grass, the Structure Jig for casting on fluorocarbon, and the Denny Brauer Premier Pro-Model with a rattle for boat docks and brush piles'",
       "conditions": {
-        "structure": [
-          "dock",
-          "grass"
-        ],
-        "lureCategory": "jigs",
-        "coverType": "dock"
+        "lureCategory": "jigs"
       },
       "source": "winter-jig-fishing-hackneyhtml.txt"
     }

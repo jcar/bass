@@ -12,14 +12,14 @@
       "lure": "Ned Rig",
       "color": "Green Pumpkin",
       "retrieve": "KVD: In clear water, they'll bite the Ned Rig on the fall. Cast out, let it sink on dead slack line — don't tighten up until it hits bottom.",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Ned Rig",
       "color": "Smelt",
       "retrieve": "Wheeler: Texas rig a Ned bait on a swing head jig to fish snaggy areas where an exposed hook empties your terminal box.",
-      "targets": "Focus on grass, dock, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, ledge. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "proInsights": [
@@ -28,12 +28,12 @@
         "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+        "angler": "Yamamoto",
+        "insight": "Yamamoto pro Fukae: Rigging a 3-inch Fat Senko Texas-rigged on a drop-shot with a 3-inch leader replicates a Ned Rig presentation but avoids bottom hang-ups around cover"
       },
       {
         "angler": "KVD",
-        "insight": "KVD: 'Shad spawn happens around 72 degrees, after bass/crappie spawn — Mother Nature helping them recover by providing a feast. Spikes on full moon, lasts 2-4 weeks. Starts in one area of lake — keep moving until you see activity. Most happens at ..."
+        "insight": "KVD: The Ned Rig is so popular for smallmouth because it imitates gobies. Gobies stay locked on the bottom on rocks — that's exactly where the Ned Rig sits. Find the rocks, you find the big smallmouth. Gobies have changed these fisheries — fish do..."
       }
     ],
     "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",

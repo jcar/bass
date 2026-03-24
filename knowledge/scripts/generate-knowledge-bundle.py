@@ -22,6 +22,44 @@ OUTPUT_PATH = KNOWLEDGE_DIR.parent / "strikezone" / "src" / "data" / "knowledge-
 
 ANGLERS = ["hackney", "johnston", "kvd", "palaniuk", "robertson", "wheeler", "yamamoto"]
 
+# Keywords to detect lure mentions in insight text (for lure indexing)
+LURE_KEYWORDS = {
+    "Squarebill Crankbait": ["squarebill", "square bill", "square-bill", "kvd 1.5", "kvd 2.5"],
+    "Medium Diving Crankbait": ["medium diving", "medium diver", "mid-range crank", "dt-6", "dt6",
+                                 "series 3", "series 5", "gravel dog", "5xd", "6xd"],
+    "Deep Diving Crankbait": ["deep diving", "deep diver", "deep crank", "10xd", "8xd", "dredger",
+                               "big john", "big-m"],
+    "Lipless Crankbait": ["lipless", "lip-less", "red eye shad", "red eyed shad", "rattle trap",
+                           "rat-l-trap"],
+    "Suspending Jerkbait": ["jerkbait", "jerk bait", "jerk-bait", "suspending minnow", "kvd 200",
+                             "kvd 300", "x-rap"],
+    "Spinnerbait (Colorado/Willow)": ["spinnerbait", "spinner bait", "colorado blade", "willow blade"],
+    "Chatterbait": ["chatterbait", "chatter bait", "bladed jig", "thunder cricket", "jack hammer",
+                     "vibrating jig"],
+    "Swim Jig": ["swim jig", "swimming jig", "swim-jig"],
+    "Flipping Jig": ["flipping jig", "flip jig", "hack attack", "punch rig", "flipping", "pitching"],
+    "Football Jig": ["football jig", "football head"],
+    "Texas Rig (Creature Bait)": ["texas rig", "texas-rig", "creature bait", "rage craw", "brush hog",
+                                   "game hawg"],
+    "Carolina Rig": ["carolina rig", "carolina-rig", "c-rig"],
+    '10" Worm (Shakey/TX)': ["10 inch worm", "10-inch worm", "big worm", "ribbon tail", "magnum worm"],
+    "Drop Shot": ["drop shot", "dropshot", "drop-shot"],
+    "Ned Rig": ["ned rig", "ned-rig"],
+    "Neko Rig": ["neko rig", "neko-rig", "nail weight"],
+    "Shakyhead": ["shakyhead", "shaky head", "shaky-head", "shakeyhead"],
+    "Walking Topwater": ["walking topwater", "topwater", "sexy dawg", "zara spook", "walk the dog"],
+}
+
+
+def detect_lures_in_text(text):
+    """Return list of lure names mentioned in the text."""
+    text_lower = text.lower()
+    found = []
+    for lure_name, keywords in LURE_KEYWORDS.items():
+        if any(kw in text_lower for kw in keywords):
+            found.append(lure_name)
+    return found
+
 
 def main():
     all_entries = []
@@ -47,12 +85,13 @@ def main():
             source = data.get("source", f.name)
 
             for entry in data.get("knowledge", []):
+                insight = entry.get("insight", "")
                 record = {
                     "angler": angler_name,
                     "anglerId": angler_id,
                     "category": entry.get("category", "general"),
                     "topic": entry.get("topic", ""),
-                    "insight": entry.get("insight", ""),
+                    "insight": insight,
                     "source": source,
                 }
                 # Attach lure from conditions if present
@@ -61,6 +100,9 @@ def main():
                     record["lure"] = conditions["lure"]
                 if conditions.get("season"):
                     record["season"] = conditions["season"]
+
+                # Detect lures mentioned in the insight text
+                record["lures"] = detect_lures_in_text(insight)
 
                 all_entries.append(record)
                 count += 1
@@ -87,9 +129,13 @@ def main():
         if "season" in entry:
             compact["season"] = entry["season"]
 
-        # Index by lure
-        lure = entry.get("lure")
-        if lure:
+        # Index by lure — both explicit lure field and detected lure mentions
+        explicit_lure = entry.get("lure")
+        detected_lures = entry.get("lures", [])
+        all_lures = set(detected_lures)
+        if explicit_lure:
+            all_lures.add(explicit_lure)
+        for lure in all_lures:
             by_lure.setdefault(lure, []).append(compact)
 
         # Index by category

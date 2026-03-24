@@ -152,6 +152,35 @@
         "153514.txt",
         "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "trailer": "Separate the two claws on a Punch Out Craw",
+          "retrieveNote": "Wheeler: Separate the two claws on a Punch Out Craw trailer for a football jig, then hop, drag, and deadstick it alon..."
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/4-oz",
+          "retrieveNote": "Wheeler: When fish are stuck to the bottom in heavy current, snap a 3/4-oz football jig — not stroking it (for suspen..."
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "trailer": "4 of the Cleanup Craw"
+        }
+      ],
       "lureCategory": "jigs"
     },
     "Flipping Jig": {
@@ -227,6 +256,30 @@
         "360439.txt",
         "how-jacob-wheeler-won-at-santee-cooper.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "trailer": "tied jig in green pumpkin with a compact craw"
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2-oz",
+          "retrieveNote": "Wheeler: When wind pushes fish from top of cover down to the base as a current break, switch from swimbait to a 1/2-o..."
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "creature bait"
+      },
       "lureCategory": "jigs"
     },
     "Swim Jig": {
@@ -862,6 +915,145 @@
         "wheeler-waltzes-to-bpt-win-no-8.txt",
         "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn",
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "5/16oz"
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn",
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Use a 7-ft M spinning rod with a super-fast tip to impart action to the swimbait, paired with a Shimano Vanf..."
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ],
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "weight": "3/16-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ],
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "weight": "1/8-oz tungsten"
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/16oz"
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "5/16-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8oz"
+        },
+        {
+          "when": {
+            "season": [
+              "winter",
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/16oz"
+        },
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4oz"
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn",
+              "spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2oz"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "1/4-oz",
+        "trailer": "creature bait",
+        "retrieveNote": "Wheeler: Uses a trimmed-down smaller profile creature bait (claws removed from spear) as a swim jig, flipping jig, ch..."
+      },
       "lureCategory": "moving-baits"
     },
     "Carolina Rig": {
@@ -887,6 +1079,10 @@
       "sources": [
         "153738.txt"
       ],
+      "defaultPresentation": {
+        "weight": "3/4-oz",
+        "retrieveNote": "Wheeler: Rigs a curly-tail worm (cut paddle tail) on a Carolina rig with 3/4-oz egg sinker, 22-inch fluorocarbon lead..."
+      },
       "lureCategory": "soft-plastics"
     },
     "Texas Rig (Creature Bait)": {
@@ -1102,6 +1298,40 @@
         "pitching-soft-plasticshtml.txt",
         "theres-a-new-craw-in-town.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4-oz tungsten"
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz tungsten"
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/4-oz"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "3/16-oz",
+        "trailer": "creature bait",
+        "retrieveNote": "Wheeler: Uses a paddle-tail worm Texas-rigged on a 6/0 weighted swimbait hook (3/16-oz keel weight) as a swimbait alt..."
+      },
       "lureCategory": "soft-plastics"
     },
     "Buzzbait": {
@@ -1164,6 +1394,9 @@
         "335755.txt",
         "dynamic-what-jacob-wheeler-loves-on-valentines-day.txt"
       ],
+      "defaultPresentation": {
+        "weight": "1/16-oz"
+      },
       "lureCategory": "topwater"
     },
     "Medium Diving Crankbait": {
@@ -1302,6 +1535,17 @@
         "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt",
         "wheeler-s-top-three-winter-baits.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "trailer": "chunk"
+        }
+      ],
       "lureCategory": "cranking"
     },
     "Suspending Jerkbait": {
@@ -1390,6 +1634,26 @@
         "how-jacob-wheeler-won-at-santee-cooper.txt",
         "wheeler-s-key-was-finding-places-he-could-manage.txt",
         "wheeler-s-top-three-winter-baits.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: A jerkbait is the best winter bait"
+        },
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Prefers the Shadow Rap Deep for its unique shimmy when paused - it slowly sinks with subtle shakes like a so..."
+        }
       ],
       "lureCategory": "cranking"
     },
@@ -1524,6 +1788,22 @@
         "jacob-wheelers-top-5-ways-to-rig-paddle-tail-swimbaits-for-bass.txt",
         "video-wheelers-chatterbait-and-trailer-system-for-patterning-bass.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ],
+            "waterClarity": "stained"
+          },
+          "priority": 5,
+          "weight": "1/2-oz"
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "Add a paddle tail swimbait",
+        "retrieveNote": "Wheeler: Add a paddle tail swimbait trailer to ChatterBaits, swim jigs, and spinnerbaits to add bulk and action; flat..."
+      },
       "lureCategory": "moving-baits"
     },
     "Lipless Crankbait": {
@@ -1547,6 +1827,17 @@
       "defaultTips": [],
       "sources": [
         "cranking-jacob-wheeler.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "pre-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2-oz"
+        }
       ],
       "lureCategory": "cranking"
     },
@@ -1695,6 +1986,21 @@
         "how-jacob-wheeler-won-the-pickwick-toyota-series.txt",
         "jacob-wheelers-guide-to-spinnerbait-fishing-in-the-wind.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn",
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "trailer": "inch paddle tail swimbait"
+        }
+      ],
+      "defaultPresentation": {
+        "trailer": "Trim the skirt and add a narrow shad profile soft plastic"
+      },
       "lureCategory": "moving-baits"
     },
     "Walking Topwater": {
@@ -1866,6 +2172,57 @@
         "jacob-wheeler-goes-old-school-on-topwater-line-prefers-mono.txt",
         "jacob-wheelers-spring-lure-selection.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Go-to fall walking bait is a larger Rapala Skitter Walk #11; if bass won't eat the larger profile, downsize ..."
+        },
+        {
+          "when": {
+            "season": [
+              "fall"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Uses a constant steady retrieve twitching with a little slack; when a fish blows up and misses, continue wor..."
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Used an X-Rap Prop and handcarved prop bait in bluegill patterns around bluegill beds; when a bass dogs the ..."
+        },
+        {
+          "when": {
+            "season": [
+              "pre-spawn",
+              "spawn"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Fish the X-Rap Prop with a 'twitch twitch pause' cadence — 3-4 second pauses, longer in colder water; the tw..."
+        },
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Switch to a frog when water temps near the low 60s and fish move off beds; fish it aggressively with popping..."
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "The rod-line combo lets him pull into the fish rather than jerk — key to not losing fish on topwater"
+      },
       "lureCategory": "topwater"
     },
     "Blade Bait": {
@@ -1940,6 +2297,20 @@
         "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt",
         "jacob-wheelers-cherokee-baits-and-patterns.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "weight": "5/8oz"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Wheeler: Aggressively snaps the Jigging Rap 4-5 feet above grouped-up bass to force committed fish to swim up; when t..."
+      },
       "lureCategory": "reaction"
     },
     "Drop Shot": {
@@ -2135,6 +2506,30 @@
         "jacob-wheelers-stage-seven-winning-gear.txt",
         "video-how-to-fish-a-ned-rig-jacob-wheelers-top-4-techniques.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/4-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/2-oz"
+        }
+      ],
+      "defaultPresentation": {
+        "weight": "1/2-oz",
+        "retrieveNote": "Wheeler: On the dropshot for smallmouth, would drag rather than shake; believes smallmouth like more subtle movements"
+      },
       "lureCategory": "finesse"
     },
     "Shakyhead": {
@@ -2178,6 +2573,17 @@
       "defaultTips": [],
       "sources": [
         "how-jacob-wheeler-won-bpt-7-on-table-rock.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4-oz"
+        }
       ],
       "lureCategory": "finesse"
     },
@@ -2272,6 +2678,28 @@
         "how-jacob-wheeler-won-bpt-7-on-table-rock.txt",
         "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt",
         "jacob-wheelers-stage-seven-winning-gear.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/16-oz",
+          "retrieveNote": "Wheeler: Use a wacky Neko rig (1/16-oz weight, #2 hook) on deeper docks as an alternative presentation to swim jigs o..."
+        },
+        {
+          "when": {
+            "season": [
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/16-oz",
+          "retrieveNote": "Wheeler: A Neko rig (3/16-oz weight, #2 hook, Crossover Ring) is the last-resort bait for the most pressured offshore..."
+        }
       ],
       "lureCategory": "finesse"
     },
@@ -2387,6 +2815,26 @@
         "how-jacob-wheeler-won-the-st-lawrence-bass-pro-tour-event.txt",
         "jacob-wheelers-offshore-prespawn-bass-bite.txt",
         "video-how-to-fish-a-ned-rig-jacob-wheelers-top-4-techniques.txt"
+      ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz"
+        },
+        {
+          "when": {
+            "season": [
+              "spawn"
+            ]
+          },
+          "priority": 5,
+          "weight": "1/4-oz"
+        }
       ],
       "lureCategory": "finesse"
     },
@@ -2556,6 +3004,18 @@
       "sources": [
         "how-jacob-wheeler-won-the-pickwick-toyota-series.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn",
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz tungsten"
+        }
+      ],
       "lureCategory": "soft-plastics"
     },
     "Strolling Rig": {
@@ -2617,6 +3077,21 @@
         "jacob-wheeler-s-small-swimbaits-and-why.txt",
         "jacob-wheeler-the-freeloader-made-guntersville-a-special-win.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "post-spawn",
+              "summer"
+            ]
+          },
+          "priority": 5,
+          "retrieveNote": "Wheeler: Rig the Freeloader on a VMC Hard Ball Jighead; cast, let it fall toward the fish, and shake it over them — i..."
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Wheeler: Fish the Freeloader on a 3/16 to 5/16-ounce VMC Hybrid Swimbait Jig with a 60-degree line tie that allows th..."
+      },
       "lureCategory": "moving-baits"
     },
     "Hair Jig / Finesse Jig": {
@@ -2695,6 +3170,20 @@
         "jacob-wheeler-wins-inaugural-elite-bassfest.txt",
         "jacob-wheelers-cherokee-baits-and-patterns.txt"
       ],
+      "presentationRules": [
+        {
+          "when": {
+            "season": [
+              "winter"
+            ]
+          },
+          "priority": 5,
+          "weight": "3/8-oz"
+        }
+      ],
+      "defaultPresentation": {
+        "retrieveNote": "Wheeler: Keep baits close to the bottom on ledges, but often burn them and kill it to trigger a strike — that retriev..."
+      },
       "lureCategory": "jigs"
     }
   },
@@ -2992,11 +3481,7 @@
       "topic": "punch-out-craw-versatility",
       "insight": "Wheeler: The Punch Out Craw has five manifestations - full glide bait on 4/0 hook and 1/2-oz sinker, separated claws for football jig or Biffle Hardhead, trimmed small craw for swim jig/flipping jig/chatterbait/shakyhead, shortened torso for even smaller profile, and sleek punch rig with claws removed for matted vegetation.",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "jigs",
-        "coverType": "grass"
+        "lureCategory": "soft-plastics"
       },
       "source": "153514.txt"
     },
@@ -3015,8 +3500,8 @@
       "topic": "swimbait-alternative",
       "insight": "Wheeler: Uses a curly-tail worm Texas-rigged on a keel-weighted swimbait hook as a more subtle alternative when everyone else is throwing swimbaits; the keel sinker makes it run straight as an arrow.",
       "conditions": {
-        "cover": "submerged vegetation",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "coverType": "grass"
       },
       "source": "153738.txt"
     },
@@ -3025,7 +3510,6 @@
       "topic": "carolina-rig-setup",
       "insight": "Wheeler: Carolina rig setup uses 7.5-foot medium-heavy rod, 7.0:1 reel, 17-lb fluorocarbon mainline to barrel swivel, then 14-lb fluorocarbon leader of 22 inches (18-26 inch range).",
       "conditions": {
-        "depthZone": "shallow",
         "lureCategory": "soft-plastics"
       },
       "source": "153738.txt"
@@ -3057,28 +3541,23 @@
       "category": "gear",
       "topic": "crankbait-line-versatility",
       "insight": "Wheeler: Usually fishes the DT-6 on 12-lb Sufix Siege monofilament but varies line size to control depth; heavier mono adds buoyancy for shallower running, lighter line increases diving depth.",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "cranking"
+      },
       "source": "335755.txt"
     },
     {
       "category": "tournament-strategy",
       "topic": "pre-tournament-preparation",
       "insight": "Wheeler: Invests a full week or more before arriving at a lake for practice; prepares roughly 35 pre-rigged Duckett rods with fresh Sufix line and baits matched to the seasonal pattern, spending 1-2 full days just on rod prep.",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "360439.txt"
     },
     {
       "category": "electronics",
       "topic": "map-study-preparation",
       "insight": "Wheeler: Uses Google Earth aerial imagery to assess vegetation and bank steepness, plus Navionics and Lowrance C-Maps for depth contours; focuses practice on areas holding the biggest concentrations of fish all doing the same thing.",
-      "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "360439.txt"
     },
     {
@@ -3089,9 +3568,7 @@
         "season": [
           "pre-spawn"
         ],
-        "waterClarity": "stained",
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "360439.txt"
     },
@@ -3120,9 +3597,7 @@
       "category": "tournament-strategy",
       "topic": "work-ethic",
       "insight": "Wheeler: Never stops thinking about the next best technique; challenges himself on pitching, flipping, boat setup, and preparation; the offseason doesn't begin until November with boat prep and recon trips to next year's venues.",
-      "conditions": {
-        "retrieveStyle": "hop"
-      },
+      "conditions": {},
       "source": "534572.txt"
     },
     {
@@ -3150,9 +3625,7 @@
       "category": "tournament-strategy",
       "topic": "up-to-date-information",
       "insight": "Wheeler: Pre-practice information becomes irrelevant during long events; having a cushion over the cut and a chance to look around on the second qualifying day provides the most up-to-date information possible.",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "chowan-proves-no-mystery-for-wheeler.txt"
     },
     {
@@ -3170,12 +3643,7 @@
         "season": [
           "pre-spawn"
         ],
-        "structure": [
-          "flat"
-        ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "cranking"
       },
       "source": "cranking-jacob-wheeler.txt"
     },
@@ -3185,8 +3653,7 @@
       "insight": "Wheeler: Bass don't all spawn at once; they spawn in waves so some will be in pre-spawn and some will be done, and both times are perfect for crankbaits.",
       "conditions": {
         "season": [
-          "spawn",
-          "pre-spawn"
+          "spawn"
         ],
         "lureCategory": "cranking"
       },
@@ -3205,15 +3672,7 @@
       "category": "gear",
       "topic": "duckett-jw-select-rod-applications",
       "insight": "Wheeler: The 7'1\" MH casting rod is great for jigs, spinnerbaits, and single-hook baits around tight cover like docks, laydowns, and overhangs; the 7'4\" MH moderate-fast casting rod is great for offshore cranking and big swimbaits with its parabolic bend that increases landing percentage on treble hook baits.",
-      "conditions": {
-        "structure": [
-          "laydown",
-          "dock"
-        ],
-        "depthZone": "deep",
-        "lureCategory": "moving-baits",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "duckett-white-ice-casting-rod-review.txt"
     },
     {
@@ -3224,11 +3683,8 @@
         "season": [
           "winter"
         ],
-        "structure": [
-          "creek-channel"
-        ],
-        "depthZone": "deep",
-        "lureCategory": "moving-baits"
+        "lureCategory": "moving-baits",
+        "depthZone": "deep"
       },
       "source": "dynamic-what-jacob-wheeler-loves-on-valentines-day.txt"
     },
@@ -3240,9 +3696,10 @@
         "season": [
           "fall"
         ],
+        "lureCategory": "topwater",
         "structure": [
           "flat",
-          "point"
+          "creek-channel"
         ]
       },
       "source": "fall-topwater-with-jacob-wheeler.txt"
@@ -3257,11 +3714,10 @@
         ],
         "structure": [
           "flat",
-          "creek-channel",
-          "grass"
+          "creek-channel"
         ],
-        "depthZone": "shallow",
-        "coverType": "wood"
+        "coverType": "grass",
+        "depthZone": "shallow"
       },
       "source": "fall-topwater-with-jacob-wheeler.txt"
     },
@@ -3273,7 +3729,8 @@
         "season": [
           "fall"
         ],
-        "depthZone": "mid"
+        "lureCategory": "topwater",
+        "depthZone": "shallow"
       },
       "source": "fall-topwater-with-jacob-wheeler.txt"
     },
@@ -3282,7 +3739,6 @@
       "topic": "topwater-walking-bait-setup",
       "insight": "Wheeler: Uses 7-foot medium-action rod with tip and backbone, 7.3:1 high-speed reel (no disadvantage to high-speed for topwater - ability to catch up to fish), and 17-lb Sufix monofilament that floats and has slight stretch.",
       "conditions": {
-        "depthZone": "mid",
         "lureCategory": "topwater"
       },
       "source": "fall-topwater-with-jacob-wheeler.txt"
@@ -3294,8 +3750,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "coverType": "rock"
+        ]
       },
       "source": "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt"
     },
@@ -3317,9 +3772,6 @@
       "conditions": {
         "season": [
           "spawn"
-        ],
-        "structure": [
-          "creek-channel"
         ]
       },
       "source": "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt"
@@ -3333,9 +3785,9 @@
           "pre-spawn"
         ],
         "structure": [
-          "bluff"
-        ],
-        "coverType": "rock"
+          "bluff",
+          "creek-channel"
+        ]
       },
       "source": "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt"
     },
@@ -3356,8 +3808,7 @@
         "season": [
           "pre-spawn"
         ],
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "figuring-out-the-prespawn-bass-bite-with-jacob-wheeler.txt"
     },
@@ -3369,7 +3820,7 @@
         "season": [
           "summer"
         ],
-        "coverType": "wood"
+        "depthZone": "shallow"
       },
       "source": "forrest-wood-cup-in-depth-jacob-wheeler-champion.txt"
     },
@@ -3377,9 +3828,7 @@
       "category": "tournament-strategy",
       "topic": "save-areas-for-final-day",
       "insight": "Wheeler: Saved mid-lake pockets for the final day of competition; the strategy of not burning through all areas early preserved fresh spots when he needed them most.",
-      "conditions": {
-        "retrieveStyle": "burn"
-      },
+      "conditions": {},
       "source": "forrest-wood-cup-in-depth-jacob-wheeler-champion.txt"
     },
     {
@@ -3408,7 +3857,7 @@
           "winter"
         ],
         "lureCategory": "reaction",
-        "coverType": "wood"
+        "depthZone": "deep"
       },
       "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
     },
@@ -3417,8 +3866,7 @@
       "topic": "jigging-rap-setup",
       "insight": "Wheeler: Uses a 7-foot medium-heavy baitcasting rod with 7.3:1 reel; 14-lb Sufix fluorocarbon when jigging around brush, 12-lb in open areas to help the bait sink faster.",
       "conditions": {
-        "depthZone": "mid",
-        "coverType": "wood"
+        "lureCategory": "reaction"
       },
       "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
     },
@@ -3428,7 +3876,7 @@
       "insight": "Wheeler: Uses a come-and-get-it approach by aggressively snapping the Jigging Rap well above fish rather than dropping it in their face; forces an interested bass to commit by swimming up, making it more likely to strike.",
       "conditions": {
         "lureCategory": "reaction",
-        "retrieveStyle": "twitch"
+        "retrieveStyle": "hop"
       },
       "source": "how-2-bassmaster-pros-catch-bass-rapala-jigging-rap-video.txt"
     },
@@ -3455,7 +3903,8 @@
       "topic": "shallow-reed-bass-spooking",
       "insight": "Wheeler: In 14-16 inches of clear water, hooking one bass spooks 4-5 more in the area; they need time to set back up and reposition before you can catch them again; requires long casts.",
       "conditions": {
-        "waterClarity": "clear"
+        "waterClarity": "clear",
+        "depthZone": "shallow"
       },
       "source": "how-jacob-wheeler-got-his-10th-mlf-win-and-4th-mlf-aoy-at-saginaw-bay.txt"
     },
@@ -3470,25 +3919,23 @@
       "category": "electronics",
       "topic": "c-maps-backwater-detail",
       "insight": "Wheeler: Lowrance C-Maps had great detail in deeper stretches and even backwaters for largemouth; showed where deeper reeds and cover were and where to get up on pad for efficiency.",
-      "conditions": {
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-got-his-10th-mlf-win-and-4th-mlf-aoy-at-saginaw-bay.txt"
     },
     {
       "category": "gear",
       "topic": "power-poles-shallow-water",
       "insight": "Wheeler: Power-Poles are the most underrated piece of equipment; locked in at 1-2 feet of water in 20+ mph wind, inching up 20-30 feet at a time and dropping Poles for stealth.",
-      "conditions": {},
+      "conditions": {
+        "depthZone": "shallow"
+      },
       "source": "how-jacob-wheeler-got-his-10th-mlf-win-and-4th-mlf-aoy-at-saginaw-bay.txt"
     },
     {
       "category": "weather-adaptation",
       "topic": "great-lakes-wind-smallmouth",
       "insight": "Wheeler: Wind direction changes on the Great Lakes change the way smallmouth position big time; a shift from practice to tournament conditions can mean never relocating them.",
-      "conditions": {
-        "species": "smallmouth"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-got-his-10th-mlf-win-and-4th-mlf-aoy-at-saginaw-bay.txt"
     },
     {
@@ -3499,7 +3946,9 @@
         "season": [
           "post-spawn"
         ],
-        "depthZone": "deep"
+        "structure": [
+          "ledge"
+        ]
       },
       "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt"
     },
@@ -3513,8 +3962,7 @@
         ],
         "structure": [
           "point",
-          "creek-channel",
-          "ledge"
+          "creek-channel"
         ]
       },
       "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt"
@@ -3537,9 +3985,7 @@
       "insight": "Wheeler: Catch fish fast enough early each day to use the remaining periods for graphing and finding new schools — that's the way to win offshore TN River events. Finding fresh fish others haven't located is the biggest advantage",
       "priority": 10,
       "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt",
-      "conditions": {
-        "depthZone": "deep"
-      }
+      "conditions": {}
     },
     {
       "category": "tournament-strategy",
@@ -3552,9 +3998,7 @@
       "category": "electronics",
       "topic": "activetarget-2-swimbait",
       "insight": "Wheeler: ActiveTarget 2 provides about 20% clearer image and better target separation than AT1 — can see a jighead falling at 90-100 ft away, which lets you see where your cast is in relation to the bass",
-      "conditions": {
-        "depthZone": "deep"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt"
     },
     {
@@ -3568,9 +4012,7 @@
       "category": "gear",
       "topic": "thin-braid-spinning-advantage",
       "insight": "Wheeler: Bass don't see line as well as we think — the drag of heavier line diameter negatively impacts bait action, which is why fish don't bite as well. 8-lb Nanobraid has smaller diameter, better action, equals more bites",
-      "conditions": {
-        "retrieveStyle": "drag"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-again-this-time-at-guntersville.txt"
     },
     {
@@ -3591,10 +4033,7 @@
       "category": "fish-behavior",
       "topic": "wind-effect-on-cover-position",
       "insight": "Wheeler: When wind picks up, bass move from the top of brush/stumps down to the base of the cover to use it as a current break. When it goes slick calm, they slide back up higher in the cover",
-      "conditions": {
-        "weather": "windy",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-at-santee-cooper.txt"
     },
     {
@@ -3612,8 +4051,11 @@
         "season": [
           "pre-spawn"
         ],
-        "depthZone": "mid",
-        "coverType": "wood"
+        "structure": [
+          "rock"
+        ],
+        "coverType": "rock",
+        "depthZone": "shallow"
       },
       "source": "how-jacob-wheeler-won-at-santee-cooper.txt"
     },
@@ -3621,10 +4063,7 @@
       "category": "tournament-strategy",
       "topic": "saving-spots-for-championship",
       "insight": "Wheeler: Had 7-8 spots he refused to hit before Championship Day — knew he couldn't win the tournament if he burned them early. Made gametime decisions with 25 minutes left, running 15 minutes across the lake to a fresh brushpile for the winning fish",
-      "conditions": {
-        "retrieveStyle": "burn",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-at-santee-cooper.txt"
     },
     {
@@ -3636,11 +4075,11 @@
           "post-spawn"
         ],
         "structure": [
-          "point",
-          "bluff"
+          "bluff",
+          "point"
         ],
-        "depthZone": "deep",
-        "coverType": "wood"
+        "coverType": "wood",
+        "depthZone": "deep"
       },
       "source": "how-jacob-wheeler-won-bpt-7-on-table-rock.txt"
     },
@@ -3655,8 +4094,8 @@
         "structure": [
           "creek-channel"
         ],
-        "depthZone": "deep",
-        "coverType": "wood"
+        "coverType": "wood",
+        "depthZone": "deep"
       },
       "source": "how-jacob-wheeler-won-bpt-7-on-table-rock.txt"
     },
@@ -3664,7 +4103,9 @@
       "category": "gear",
       "topic": "dropshot-line-upgrade",
       "insight": "Wheeler: Pumped fluorocarbon leader from 8-lb to 10-lb on dropshot because when you fire up a school you don't want to retie constantly — broke off a few fish earlier in the week on 8-lb",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "finesse"
+      },
       "source": "how-jacob-wheeler-won-bpt-7-on-table-rock.txt"
     },
     {
@@ -3674,10 +4115,7 @@
       "conditions": {
         "season": [
           "post-spawn"
-        ],
-        "species": "smallmouth",
-        "depthZone": "deep",
-        "coverType": "grass"
+        ]
       },
       "source": "how-jacob-wheeler-won-the-champlain-bass-pro-tour-event.txt"
     },
@@ -3689,11 +4127,10 @@
         "season": [
           "post-spawn"
         ],
-        "species": "smallmouth",
         "structure": [
+          "rock",
           "grass"
-        ],
-        "coverType": "rock"
+        ]
       },
       "source": "how-jacob-wheeler-won-the-champlain-bass-pro-tour-event.txt"
     },
@@ -3708,31 +4145,23 @@
       "category": "gear",
       "topic": "dropshot-line-experimentation",
       "insight": "Wheeler: Experimented with fluoro leaders from 4-lb up to 12-lb on smallmouth dropshot. Going down to 4-lb to check if fish were line-shy made no difference — it's trial and error figuring out what bass fishing is",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "finesse"
+      },
       "source": "how-jacob-wheeler-won-the-champlain-bass-pro-tour-event.txt"
     },
     {
       "category": "tournament-strategy",
       "topic": "not-dialing-in-practice",
       "insight": "Wheeler: A big key because MLF events are so long is not dialing it in during practice. Don't commit to any one thing. Have pre-spawners, spawners, fish around brush, fish suspended around bait, fish around bluff walls — lots of options",
-      "conditions": {
-        "season": [
-          "pre-spawn"
-        ],
-        "structure": [
-          "bluff"
-        ],
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-dale-hollow-bpt.txt"
     },
     {
       "category": "weather-adaptation",
       "topic": "wind-bait-concentration",
       "insight": "Wheeler: On highland reservoirs, 15-25 mph wind with 40 mph gusts blows bait and nutrients into certain areas. This gets bass to group up more in schools and actually hunt — wind can amplify a pattern you thought was going away",
-      "conditions": {
-        "weather": "windy"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-dale-hollow-bpt.txt"
     },
     {
@@ -3753,10 +4182,7 @@
       "category": "electronics",
       "topic": "activetarget-range-by-weight",
       "insight": "Wheeler: With ActiveTarget can see an 1/8-oz bait at 85 ft and a 1/2-oz at 110 ft. Keeps ranges at 100-120 ft depending on area size. For suspended fish, you can see so much further out with ActiveTarget",
-      "conditions": {
-        "depthZone": "deep",
-        "coverType": "open"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-dale-hollow-bpt.txt"
     },
     {
@@ -3770,9 +4196,7 @@
       "category": "seasonal-pattern",
       "topic": "highland-reservoir-ffs-lake",
       "insight": "Wheeler: Any highland reservoir is more of a FFS lake because bass sit on bait a lot and suspend. Dale Hollow fish ranged from 1 ft to 20-30 ft deep",
-      "conditions": {
-        "waterType": "highland reservoir"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-dale-hollow-bpt.txt"
     },
     {
@@ -3782,8 +4206,7 @@
       "conditions": {
         "season": [
           "summer"
-        ],
-        "current": "heavy"
+        ]
       },
       "source": "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt"
     },
@@ -3796,8 +4219,7 @@
           "summer"
         ],
         "lureCategory": "jigs",
-        "retrieveStyle": "twitch",
-        "coverType": "open"
+        "retrieveStyle": "hop"
       },
       "source": "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt"
     },
@@ -3805,9 +4227,7 @@
       "category": "tournament-strategy",
       "topic": "old-school-angles",
       "insight": "Wheeler: Without FFS, angles are everything on an offshore school. Changing the angle on a group of fish several times let him catch 2-3 more each time. Old-school triangulating on the bank with a heading sensor to position within 1 ft of target",
-      "conditions": {
-        "depthZone": "shallow"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt"
     },
     {
@@ -3821,9 +4241,7 @@
       "category": "electronics",
       "topic": "heading-sensor-precision",
       "insight": "Wheeler: Uses a Lowrance Precision 9 heading sensor for precise cast placement in non-FFS periods — rather than being 10-15 ft off target, you're within a foot. Expensive but a fine-tuned deal",
-      "conditions": {
-        "depthZone": "deep"
-      },
+      "conditions": {},
       "source": "how-jacob-wheeler-won-the-kentucky-lake-mlf-bpt.txt"
     },
     {
@@ -3840,9 +4258,7 @@
       "conditions": {
         "season": [
           "summer"
-        ],
-        "current": "heavy",
-        "coverType": "wood"
+        ]
       },
       "source": "how-jacob-wheeler-won-the-pickwick-toyota-series.txt"
     },
@@ -3854,7 +4270,7 @@
         "season": [
           "post-spawn"
         ],
-        "depthZone": "mid"
+        "depthZone": "shallow"
       },
       "source": "how-jacob-wheeler-won-the-pickwick-toyota-series.txt"
     },
@@ -3878,10 +4294,6 @@
         "season": [
           "spawn"
         ],
-        "species": "smallmouth",
-        "structure": [
-          "flat"
-        ],
         "depthZone": "mid"
       },
       "source": "how-jacob-wheeler-won-the-st-lawrence-bass-pro-tour-event.txt"
@@ -3893,10 +4305,6 @@
       "conditions": {
         "season": [
           "spawn"
-        ],
-        "species": "smallmouth",
-        "structure": [
-          "flat"
         ],
         "depthZone": "mid"
       },
@@ -3916,8 +4324,7 @@
       "conditions": {
         "season": [
           "spawn"
-        ],
-        "species": "smallmouth"
+        ]
       },
       "source": "how-jacob-wheeler-won-the-st-lawrence-bass-pro-tour-event.txt"
     },
@@ -3940,12 +4347,7 @@
       "topic": "topwater-mono-vs-braid",
       "insight": "Wheeler: Prefers monofilament over braid for topwater because braid's zero stretch risks jerking the bait out of the fish's mouth when anglers instinctively jerk on the blowup. Mono's stretch provides forgiveness. Only exception is Florida heavy grass where 30-lb braid with a mono leader is needed",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
-        "lureCategory": "topwater",
-        "retrieveStyle": "twitch",
-        "coverType": "grass"
+        "lureCategory": "topwater"
       },
       "source": "jacob-wheeler-goes-old-school-on-topwater-line-prefers-mono.txt"
     },
@@ -3976,13 +4378,7 @@
       "category": "electronics",
       "topic": "ffs-seasonal-relevance",
       "insight": "Wheeler: FFS shines brightest during offshore/post-spawn periods and in smallmouth country. During spawn and bank-fishing seasons, traditional techniques are more relevant — the technology got overhyped because COVID shifted tournament schedules to offshore/northern events",
-      "conditions": {
-        "season": [
-          "post-spawn"
-        ],
-        "depthZone": "deep",
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-my-thoughts-on-forward-facing-sonar-part-1-of-2.txt"
     },
     {
@@ -4010,9 +4406,7 @@
       "category": "mental-approach",
       "topic": "ffs-decision-flow",
       "insight": "Wheeler: At Heavy Hitters on Toho, saved brushpiles with biggest dots for the final day but they wouldn't bite. Got so consumed trying to catch dots that it bogged down his intuition and locked up his decision flow — should have relied on gut and weather, not a screen",
-      "conditions": {
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-my-thoughts-on-forward-facing-sonar-part-2-of-2.txt"
     },
     {
@@ -4026,18 +4420,14 @@
       "category": "tournament-strategy",
       "topic": "ffs-restriction-patterns",
       "insight": "Wheeler: With 2/3 of the day spent without FFS, expect many more traditional patterns in play — buzzbait, cranking, conventional bass fishing. Two-thirds of the day goes back to how he's fished his whole life, and he's excited about that",
-      "conditions": {
-        "lureCategory": "topwater"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-new-strategy-for-a-new-look-bass-pro-tour.txt"
     },
     {
       "category": "tournament-strategy",
       "topic": "ffs-efficiency-maximization",
       "insight": "Wheeler: Don't waste FFS time panning and looking for fish. Don't stop a working pattern (like cranking rocky banks) just because you haven't used your FFS period yet. Assessing when to use it will be part of practice strategy",
-      "conditions": {
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-new-strategy-for-a-new-look-bass-pro-tour.txt"
     },
     {
@@ -4100,9 +4490,7 @@
       "category": "gear",
       "topic": "reel-ratio-selection",
       "insight": "Wheeler: Use a 6.6:1 gear ratio reel for spinnerbaits, chatterbaits, and swimbaits; a 7.3:1 is the best all-around ratio if you can only have one; and 8.1:1 is ideal for flipping, frogs, and getting fish out of cover fast",
-      "conditions": {
-        "lureCategory": "moving-baits"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-shares-his-reel-ratio-strategies.txt"
     },
     {
@@ -4110,8 +4498,7 @@
       "topic": "freeloader-dual-purpose-design",
       "insight": "Wheeler: Designed the Freeloader to serve dual roles — as a vibrating jig or spinnerbait trailer and as a cast-and-shake bait on a jighead for suspended fish, reducing the volume of plastics needed",
       "conditions": {
-        "lureCategory": "moving-baits",
-        "coverType": "open"
+        "lureCategory": "moving-baits"
       },
       "source": "jacob-wheeler-the-freeloader-made-guntersville-a-special-win.txt"
     },
@@ -4119,10 +4506,7 @@
       "category": "tournament-strategy",
       "topic": "novel-bait-advantage",
       "insight": "Wheeler: On heavily pressured community holes, a bait with an action bass haven't seen produces dramatically better results — the Freeloader's unique shaking action caught fish from Guntersville's most pressured spots",
-      "conditions": {
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "jacob-wheeler-the-freeloader-made-guntersville-a-special-win.txt"
     },
     {
@@ -4150,7 +4534,8 @@
         "structure": [
           "ledge"
         ],
-        "retrieveStyle": "burn"
+        "retrieveStyle": "burn",
+        "depthZone": "deep"
       },
       "source": "jacob-wheeler-wins-inaugural-elite-bassfest.txt"
     },
@@ -4162,9 +4547,10 @@
         "season": [
           "winter"
         ],
-        "species": "smallmouth",
-        "depthZone": "deep",
-        "coverType": "rock"
+        "structure": [
+          "rock"
+        ],
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
@@ -4176,12 +4562,11 @@
         "season": [
           "winter"
         ],
-        "species": "smallmouth",
         "structure": [
-          "flat"
+          "flat",
+          "rock"
         ],
-        "depthZone": "deep",
-        "coverType": "rock"
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
@@ -4190,11 +4575,9 @@
       "topic": "smallmouth-depth-change-preference",
       "insight": "Wheeler: Smallmouth want to be related to and adjacent to gravelly bottom (flat or chunk rock) near some depth change — even a 1 ft change matters. One spot was just hard bottom from 40 to 37 ft with isolated rock spots coming up half a foot more",
       "conditions": {
-        "species": "smallmouth",
         "structure": [
-          "flat"
-        ],
-        "coverType": "rock"
+          "rock"
+        ]
       },
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
@@ -4206,8 +4589,8 @@
         "season": [
           "winter"
         ],
-        "species": "smallmouth",
-        "depthZone": "shallow"
+        "lureCategory": "finesse",
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
@@ -4215,10 +4598,7 @@
       "category": "electronics",
       "topic": "ffs-required-for-rocks",
       "insight": "Wheeler: On rocky smallmouth structure, 2D sonar couldn't see bass inside the rocks. FFS was required — you'd see them, drop on them, bring the bait above them, and they'd slide up out of those rocks and eat it",
-      "conditions": {
-        "species": "smallmouth",
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
     {
@@ -4229,9 +4609,8 @@
         "season": [
           "winter"
         ],
-        "waterType": "highland reservoir",
         "lureCategory": "moving-baits",
-        "coverType": "rock"
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-cherokee-baits-and-patterns.txt"
     },
@@ -4242,7 +4621,8 @@
       "conditions": {
         "season": [
           "summer"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt"
     },
@@ -4253,7 +4633,8 @@
       "conditions": {
         "season": [
           "summer"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt"
     },
@@ -4269,7 +4650,8 @@
           "hump",
           "ledge"
         ],
-        "coverType": "wood"
+        "coverType": "wood",
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt"
     },
@@ -4280,9 +4662,7 @@
       "conditions": {
         "season": [
           "summer"
-        ],
-        "waterClarity": "muddy",
-        "depthZone": "mid"
+        ]
       },
       "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt"
     },
@@ -4293,7 +4673,8 @@
       "conditions": {
         "season": [
           "summer"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-guide-to-fishing-the-thermocline.txt"
     },
@@ -4312,9 +4693,7 @@
       "category": "weather-adaptation",
       "topic": "fishing-windy-conditions",
       "insight": "Wheeler: Bass are often most active on wind-blown spots when the food chain is riled up; less pressure, bass are less spooky, and they're often more aggressive, making the inconveniences worth the effort",
-      "conditions": {
-        "weather": "windy"
-      },
+      "conditions": {},
       "source": "jacob-wheelers-guide-to-spinnerbait-fishing-in-the-wind.txt"
     },
     {
@@ -4333,7 +4712,8 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ]
+        ],
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-offshore-prespawn-bass-bite.txt"
     },
@@ -4370,9 +4750,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "depthZone": "deep",
-        "coverType": "wood"
+        ]
       },
       "source": "jacob-wheelers-offshore-prespawn-bass-bite.txt"
     },
@@ -4394,10 +4772,10 @@
       "insight": "Wheeler: In spring, start with a prop bait (X-Rap Prop) in colder pre-spawn water when fish aren't as active, then transition to a frog when water temps hit low 60s and fish move off beds into heavier cover",
       "conditions": {
         "season": [
-          "spring",
           "pre-spawn"
         ],
-        "lureCategory": "topwater"
+        "lureCategory": "topwater",
+        "depthZone": "shallow"
       },
       "source": "jacob-wheelers-spring-lure-selection.txt"
     },
@@ -4416,7 +4794,8 @@
       "topic": "frog-setup",
       "insight": "Wheeler: For frog fishing use a 7'6\" heavy-action rod with 65-pound braid and an 8:1 gear ratio reel to pick up line quickly and set the hook in heavy cover",
       "conditions": {
-        "lureCategory": "topwater"
+        "lureCategory": "topwater",
+        "coverType": "grass"
       },
       "source": "jacob-wheelers-spring-lure-selection.txt"
     },
@@ -4428,13 +4807,9 @@
         "season": [
           "post-spawn"
         ],
-        "structure": [
-          "flat",
-          "dock",
-          "grass"
-        ],
         "lureCategory": "topwater",
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "shallow"
       },
       "source": "jacob-wheelers-spring-lure-selection.txt"
     },
@@ -4443,8 +4818,7 @@
       "topic": "swimbait-then-dropshot-rotation",
       "insight": "Wheeler: First cast to each area with a swimbait to catch easy grouped-up fish, then switch to drop shot to pick off individuals — this two-pronged approach maximizes catches on offshore structure",
       "conditions": {
-        "depthZone": "deep",
-        "lureCategory": "finesse"
+        "lureCategory": "moving-baits"
       },
       "source": "jacob-wheelers-stage-seven-winning-gear.txt"
     },
@@ -4453,7 +4827,8 @@
       "topic": "dropshot-heavy-cover-setup",
       "insight": "Wheeler: For drop shot in heavy cover use a 7'2\" medium-heavy spinning rod, 3000-size reel, 8-pound NanoBraid mainline with 10-pound fluorocarbon leader and 1/4-ounce cylinder weight",
       "conditions": {
-        "lureCategory": "finesse"
+        "lureCategory": "finesse",
+        "coverType": "wood"
       },
       "source": "jacob-wheelers-stage-seven-winning-gear.txt"
     },
@@ -4462,12 +4837,8 @@
       "topic": "offshore-swimbait-setup",
       "insight": "Wheeler: For offshore swimbaits (3-4 inch Largo Shad) targeting suspended fish around trees and on points, use a 7' medium-heavy casting rod with a slow 6.3:1 reel and 12-pound fluorocarbon",
       "conditions": {
-        "structure": [
-          "point"
-        ],
-        "depthZone": "deep",
         "lureCategory": "moving-baits",
-        "coverType": "wood"
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-stage-seven-winning-gear.txt"
     },
@@ -4476,8 +4847,7 @@
       "topic": "five-swimbait-rigging-methods",
       "insight": "Wheeler: His top 5 swimbait rigs are: 3-inch on ball head jig (spinning), 4-inch on jig head (casting), Tokyo rig, belly-weighted weedless (Texas rig), and as a trailer on moving baits — each serves a distinct depth and cover scenario",
       "conditions": {
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "jacob-wheelers-top-5-ways-to-rig-paddle-tail-swimbaits-for-bass.txt"
     },
@@ -4485,14 +4855,19 @@
       "category": "retrieve-technique",
       "topic": "jig-less-is-more",
       "insight": "Wheeler: Do not overwork a jig — the slower you go the more bites you get; less is always more when fishing a jig on the bottom",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs",
+        "retrieveStyle": "drag"
+      },
       "source": "jacob-wheelers-top-jig-fishing-secrets-revealed.txt"
     },
     {
       "category": "gear",
       "topic": "jig-rod-setup",
       "insight": "Wheeler: For general jig fishing use a 7'1\" heavy-action fast-tip casting rod with an 8.5:1 reel and 15-pound fluorocarbon for sensitivity and getting fish out of cover",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "jacob-wheelers-top-jig-fishing-secrets-revealed.txt"
     },
     {
@@ -4501,8 +4876,11 @@
       "insight": "Wheeler: When fishing a football jig on deep rock, make a long cast, let it hit bottom, and drag it slowly — most bites come when the bait pops off a rock as bass follow it on the drag",
       "conditions": {
         "lureCategory": "jigs",
+        "structure": [
+          "rock"
+        ],
         "retrieveStyle": "drag",
-        "coverType": "rock"
+        "depthZone": "deep"
       },
       "source": "jacob-wheelers-top-jig-fishing-secrets-revealed.txt"
     },
@@ -4520,7 +4898,7 @@
       "topic": "jig-trailer-essential",
       "insight": "Wheeler: Always use a trailer on jigs — without a trailer a jig doesn't look like anything natural; match trailer size to jig size to increase bites",
       "conditions": {
-        "coverType": "grass"
+        "lureCategory": "jigs"
       },
       "source": "jacob-wheelers-top-jig-fishing-secrets-revealed.txt"
     },
@@ -4528,7 +4906,9 @@
       "category": "gear",
       "topic": "check-line-when-jig-fishing",
       "insight": "Wheeler: Always check your line while jig fishing as it constantly rubs against bottom structure and invasive species like zebra mussels cause more abrasion than ever — re-tie often",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "jigs"
+      },
       "source": "jacob-wheelers-top-jig-fishing-secrets-revealed.txt"
     },
     {
@@ -4561,9 +4941,7 @@
       "topic": "flipping-mats",
       "insight": "Wheeler: When flipping mats, select appropriate weights and baits to punch through vegetation cover effectively.",
       "conditions": {
-        "structure": [
-          "grass"
-        ],
+        "lureCategory": "soft-plastics",
         "coverType": "grass"
       },
       "source": "major-league-lesson-wheeler-on-fishing-and-flipping-mats.txt"
@@ -4590,6 +4968,7 @@
         "season": [
           "summer"
         ],
+        "lureCategory": "cranking",
         "depthZone": "deep"
       },
       "source": "perfect-offshore-deep-crankbait-fishing-like-jacob-wheeler.txt"
@@ -4602,8 +4981,8 @@
         "season": [
           "summer"
         ],
-        "depthZone": "deep",
-        "lureCategory": "cranking"
+        "lureCategory": "cranking",
+        "depthZone": "deep"
       },
       "source": "perfect-offshore-deep-crankbait-fishing-like-jacob-wheeler.txt"
     },
@@ -4618,12 +4997,7 @@
       "category": "retrieve-technique",
       "topic": "pitching-presentation-variation",
       "insight": "Wheeler: Aggressive bass bite on the initial fall. Sometimes the strike comes after hopping a couple times. During the spawn or heavy pressure, let the bait sit still for 5+ seconds.",
-      "conditions": {
-        "season": [
-          "spawn"
-        ],
-        "retrieveStyle": "hop"
-      },
+      "conditions": {},
       "source": "pitching-soft-plasticshtml.txt"
     },
     {
@@ -4637,12 +5011,7 @@
       "category": "gear",
       "topic": "pitching-line-selection",
       "insight": "Wheeler: Uses 14-pound fluorocarbon for pitching to rock banks or bluffs, switches to 17-pound fluorocarbon when pitching into heavy cover.",
-      "conditions": {
-        "structure": [
-          "bluff"
-        ],
-        "coverType": "rock"
-      },
+      "conditions": {},
       "source": "pitching-soft-plasticshtml.txt"
     },
     {
@@ -4703,7 +5072,9 @@
       "category": "gear",
       "topic": "chatterbait-rod-setup",
       "insight": "Wheeler: Uses a longer medium-heavy rod with a slower (moderate fast) taper to balance power and forgiveness on hooksets. Pairs with 17-pound fluorocarbon for strength and durability without losing sensitivity.",
-      "conditions": {},
+      "conditions": {
+        "lureCategory": "moving-baits"
+      },
       "source": "video-wheelers-chatterbait-and-trailer-system-for-patterning-bass.txt"
     },
     {
@@ -4711,7 +5082,6 @@
       "topic": "chatterbait-color-system",
       "insight": "Wheeler: ChatterBait color system is simple - black/blue for stained water, green pumpkin for slightly clearer conditions and bluegill waters, shad patterns for clear water and shad-based fisheries.",
       "conditions": {
-        "waterClarity": "stained",
         "lureCategory": "moving-baits"
       },
       "source": "video-wheelers-chatterbait-and-trailer-system-for-patterning-bass.txt"
@@ -4739,11 +5109,7 @@
       "category": "gear",
       "topic": "lighter-braid-better-action",
       "insight": "Wheeler: Lighter braid (8-pound NanoBraid) results in better bait action because heavier braid has more drag in wind and current, negatively impacting swimbait action. Estimates 20% more bites with small-diameter braid vs 20-pound braid.",
-      "conditions": {
-        "lureCategory": "moving-baits",
-        "retrieveStyle": "drag",
-        "coverType": "grass"
-      },
+      "conditions": {},
       "source": "wheeler-caught-fish-that-hadn-t-seen-pressure.txt"
     },
     {
@@ -4764,8 +5130,8 @@
         "structure": [
           "grass"
         ],
-        "depthZone": "deep",
-        "coverType": "grass"
+        "coverType": "grass",
+        "depthZone": "deep"
       },
       "source": "wheeler-caught-fish-that-hadn-t-seen-pressure.txt"
     },
@@ -4773,18 +5139,14 @@
       "category": "tournament-strategy",
       "topic": "avoiding-community-holes",
       "insight": "Wheeler: Find the most obscure offshore areas that might only have a few fish but you can manage yourself. Popular areas where multiple anglers graph will cannibalize each other - you can't win in those places.",
-      "conditions": {
-        "depthZone": "deep"
-      },
+      "conditions": {},
       "source": "wheeler-s-key-was-finding-places-he-could-manage.txt"
     },
     {
       "category": "electronics",
       "topic": "ffs-plus-traditional-sonar",
       "insight": "Wheeler: Won on forward-facing sonar but wouldn't have won without spending time with DownScan and SideScan first. You need traditional sonar to find cover among thousands of stumps and irregularities, then FFS to fish them.",
-      "conditions": {
-        "coverType": "wood"
-      },
+      "conditions": {},
       "source": "wheeler-s-key-was-finding-places-he-could-manage.txt"
     },
     {
@@ -4807,8 +5169,7 @@
       "insight": "Wheeler: When you get the first rain in fall and water temps drop, fish reset into winter patterns. Temperature thresholds vary: 40s-30s up north, around 50 degrees in the south.",
       "conditions": {
         "season": [
-          "winter",
-          "fall"
+          "winter"
         ]
       },
       "source": "wheeler-s-top-three-winter-baits.txt"
@@ -4818,8 +5179,7 @@
       "topic": "ffs-jerkbait-learning",
       "insight": "Wheeler: Forward-facing sonar has taught him more about jerkbaits than anything else - you can see on screen how fish react to cadence and pauses, how long it takes bass to come up from deeper water to meet the bait.",
       "conditions": {
-        "lureCategory": "cranking",
-        "retrieveStyle": "twitch"
+        "lureCategory": "cranking"
       },
       "source": "wheeler-s-top-three-winter-baits.txt"
     },
@@ -4829,12 +5189,10 @@
       "insight": "Wheeler: Flat main-lake drains near island clusters are bass magnets - the islands funnel baitfish and the flatter topography serves as spawning territory. Current flow through island cut-throughs makes them prime prespawn/postspawn staging areas.",
       "conditions": {
         "season": [
-          "pre-spawn",
-          "post-spawn"
+          "pre-spawn"
         ],
         "structure": [
-          "flat",
-          "creek-channel"
+          "flat"
         ]
       },
       "source": "wheeler-waltzes-to-bpt-win-no-8.txt"
@@ -4853,8 +5211,7 @@
       "conditions": {
         "season": [
           "pre-spawn"
-        ],
-        "depthZone": "deep"
+        ]
       },
       "source": "wheeler-waltzes-to-bpt-win-no-8.txt"
     },
@@ -4873,8 +5230,7 @@
         "season": [
           "winter"
         ],
-        "lureCategory": "moving-baits",
-        "coverType": "grass"
+        "lureCategory": "moving-baits"
       },
       "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
     },
@@ -4886,13 +5242,8 @@
         "season": [
           "winter"
         ],
-        "structure": [
-          "creek-channel",
-          "grass"
-        ],
-        "depthZone": "mid",
-        "lureCategory": "cranking",
-        "coverType": "grass"
+        "lureCategory": "moving-baits",
+        "depthZone": "deep"
       },
       "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
     },
@@ -4906,9 +5257,10 @@
         ],
         "structure": [
           "point",
-          "creek-channel",
-          "bluff"
-        ]
+          "bluff",
+          "creek-channel"
+        ],
+        "depthZone": "deep"
       },
       "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
     },
@@ -4921,12 +5273,9 @@
           "winter"
         ],
         "structure": [
-          "point",
-          "creek-channel",
-          "grass"
+          "creek-channel"
         ],
-        "depthZone": "mid",
-        "coverType": "grass"
+        "depthZone": "shallow"
       },
       "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
     },
@@ -4938,9 +5287,7 @@
         "season": [
           "winter"
         ],
-        "depthZone": "mid",
-        "lureCategory": "moving-baits",
-        "coverType": "rock"
+        "lureCategory": "moving-baits"
       },
       "source": "wheelers-winter-wisdom-smaller-swimbaits-for-bigger-bites.txt"
     }

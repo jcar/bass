@@ -12,14 +12,14 @@
       "lure": "Suspending Jerkbait",
       "color": "Mat Shad",
       "retrieve": "Wheeler: A jerkbait's ability to hover in the fish's face for longer periods makes it the best choice in the most heavily stained water.",
-      "targets": "Focus on grass, point, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, riprap, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Wheeler"
     },
     "alternateApproach": {
       "lure": "Suspending Jerkbait",
       "color": "Mat Shad",
       "retrieve": "Palaniuk: 'When fish push bait toward the surface, mimic that by twitching upward -- change rod angle to twitch up. That makes the bait look like it's about to get eaten. When they see it escaping, th",
-      "targets": "Focus on grass, point, bluff. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, riprap, bluff. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "proInsights": [
@@ -29,15 +29,11 @@
       },
       {
         "angler": "Wheeler",
-        "insight": "Wheeler: For a spring pre-spawn event limited to three rods, picks a jerkbait/crankbait for deeper staging fish, a 1/2-oz jig for versatility, and a ChatterBait for stained shallow water."
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
         "angler": "Yamamoto",
         "insight": "The D Shad's extra density allows use on casting gear (15-lb fluorocarbon, medium-heavy rod) unlike most soft jerkbaits — this opens up fishing thick cover without breakoffs, and enables skip casting under docks and overhangs"
-      },
-      {
-        "angler": "Palaniuk",
-        "insight": "Palaniuk: 'A baitfish stuck in the gullet of a bass provides valuable information. Bait color and size are key factors when choosing jerkbaits. Mat shad works well for largemouth; in clear northern waters, half-tone translucent colors like pro blu..."
       }
     ],
     "depthStrategy": "Post-frontal post-spawn fish hunker down at 6-12ft near cover. Males may temporarily leave fry. Focus on the deeper side of transition areas — channel edges, deeper points, and offshore structure near spawning flats.",

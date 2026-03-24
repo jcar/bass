@@ -12,14 +12,14 @@
       "lure": "Drop Shot",
       "color": "Morning Dawn",
       "retrieve": "Johnston: On deep Lake Ontario smallmouth at 33 feet, use a drop shot with a 3/8-ounce weight in all conditions. On calm days, cast it out and let it sit — don't move it. On rough, windy days, cast pa",
-      "targets": "Focus on creek channel, flat, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on riprap, grass, rock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "alternateApproach": {
       "lure": "Drop Shot",
       "color": "Green Pumpkin",
       "retrieve": "Johnston: Use a heavier drop shot weight up-current from structure to keep the bait down in current. In slacker water behind the structure, use a lighter weight for the same presentation, which is imp",
-      "targets": "Focus on creek channel, flat, grass. Work the transitions and edges where structure changes.",
+      "targets": "Focus on riprap, grass, rock. Work the transitions and edges where structure changes.",
       "proSource": "Johnston"
     },
     "proInsights": [
@@ -28,12 +28,12 @@
         "insight": "Wheeler: Cherokee smallmouth were feeding up, not down — a dropshot dropped in front of them wouldn't get bit. Had to keep the bait 2 ft above their heads for them to come up off the bottom and eat"
       },
       {
-        "angler": "KVD",
-        "insight": "KVD: '2008 Classic at Hartwell — brutal cold Day 1, hammered them cranking a weighted-to-suspend Series 5 over 15-25ft with stop-and-start retrieve. Day 2, post-frontal sunny skies killed that bite. Ran to the upper end with stained water and fish..."
+        "angler": "Johnston",
+        "insight": "Johnston: Use Garmin Perspective Mode when seeing bed fish in low-visibility conditions. This was one of two main tools (along with flipping and drop shot baits) for bed fishing at the St. Johns River."
       },
       {
-        "angler": "Hackney",
-        "insight": "Hackney: 'For winter deep-water jig fishing on lowland reservoirs with stumps and channel swings in 6-8 feet, I use 16-20 pound fluorocarbon. On hard structure like rock I go 14-16 pound. Only downsize to 12 in extremely deep clear water'"
+        "angler": "KVD",
+        "insight": "KVD: On lowland reservoirs with grass (Guntersville, Toledo Bend, Okeechobee), bass don't leave shallow areas even in extreme cold. They stage in slightly deeper areas adjacent to spawning flats — drains, ditches, depressions, holes in the grass. ..."
       }
     ],
     "depthStrategy": "Stable winter conditions position bass at 15-35ft on main lake structure — bluffs, steep points, channel bends. Fish are lethargic and grouped tight. Vertical presentations directly on structure are essential.",

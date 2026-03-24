@@ -12,28 +12,28 @@
       "lure": "Lipless Crankbait",
       "color": "Shad",
       "retrieve": "KVD: 'The bait HAS to hit something — rocks, grass, bottom. Simply retrieving in a straight line won't yield results. If the bait isn't hitting anything, stop reeling and let it sink until it does. De",
-      "targets": "Focus on grass, creek channel, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "alternateApproach": {
       "lure": "Lipless Crankbait",
       "color": "Chrome Sexy Shad",
       "retrieve": "KVD: 'On shallow flats, use your rod tip and line size (10-20lb) to control depth. I want the bait hitting bottom. Every time it ticks cover, pop it and let it flutter — that's when fish bite.'",
-      "targets": "Focus on grass, creek channel, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on grass, point, creek channel. Work the transitions and edges where structure changes.",
       "proSource": "KVD"
     },
     "proInsights": [
       {
         "angler": "KVD",
-        "insight": "KVD: Guntersville's grass has evolved over the years: milfoil first, then hydrilla, now a lot of eel grass. All three still present. The grass creates great habitat and clear water (filters it). Floating eel grass cut up by wind/waves/boats makes ..."
-      },
-      {
-        "angler": "Wheeler",
-        "insight": "Wheeler: On Tennessee River-type lakes, fish lipless-crankbait depth (10 feet or less) near grass. On clear highland reservoirs (Cherokee, Percy Priest, Lanier), fish 25-45 feet in main river channels, deepwater drains, and sharp edges near bait c..."
+        "insight": "KVD: For lipless crankbaits in shallow grass (3-7ft): CC5 7'4\" heavy action composite rod, 7.5:1 reel, 20lb fluoro. Multiple cranking rods with 14, 17, and 20lb line for different depths. Heavy line keeps the bait up and slows it down in shallow g..."
       },
       {
         "angler": "Robertson",
-        "insight": "Robertson: During prespawn at Chickamauga, fish an offshore pattern with a lipless crankbait in grass, then go headhunting with a big swimbait for kicker bites."
+        "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
+      },
+      {
+        "angler": "Wheeler",
+        "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       }
     ],
     "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",

@@ -12,21 +12,17 @@
       "lure": "Squarebill Crankbait",
       "color": "Kentucky Blue",
       "retrieve": "Palaniuk: 'Pick a crankbait that goes deeper than the depth you're fishing, reel at a pace where you keep it in control. When it hits a rock, try to get it to crawl up and over and then back down the ",
-      "targets": "Focus on grass, riprap, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, dock. Work the transitions and edges where structure changes.",
       "proSource": "Palaniuk"
     },
     "alternateApproach": {
       "lure": "Squarebill Crankbait",
       "color": "Wild Craw (red crawfish)",
       "retrieve": "Hackney: 'At places where shad spawn a little deeper, use a squarebill crankbait matched to the size of the shad. Change out factory trebles with short-shank EWG style and up-size the hook, but be car",
-      "targets": "Focus on grass, riprap, point. Work the transitions and edges where structure changes.",
+      "targets": "Focus on point, creek channel, dock. Work the transitions and edges where structure changes.",
       "proSource": "Hackney"
     },
     "proInsights": [
-      {
-        "angler": "KVD",
-        "insight": "KVD: Square bills are round-bodied with a steep angle and a square bill — this gives them a wide wobble and the best deflection qualities of any crankbait. Most weedless crankbait you can throw. Good through grass, brush, gnarly rocks, riprap. Wor..."
-      },
       {
         "angler": "Robertson",
         "insight": "Robertson: Spring crankbait progression -- 1) Prespawn: slow-roll lipless on flats near channel banks in 1-6 feet; 2) Postspawn: big-bodied squarebill on tapering points near spawning flats in under 10 feet; 3) Late postspawn: deep diver following..."
@@ -36,8 +32,8 @@
         "insight": "Wheeler: Post-spawn offshore on Table Rock, the 3 key elements were brushpiles, isolated cedar trees, and bluff end points/big long main-lake points where schools related to current and hard bottom — mixed species (smallmouth, largemouth, spotted ..."
       },
       {
-        "angler": "Hackney",
-        "insight": "Hackney: 'In the South, shad spawn on hard bottoms, matted vegetation, cypress trees, and boat docks. Old Styrofoam marina docks are the best. On the Tennessee River, the better shad spawn is on shell beds and shallow bars in 5-6 feet of water.'"
+        "angler": "KVD",
+        "insight": "KVD: 'Bass don't go extremely deep immediately after spawning. They stop at secondary points, road beds, shallow ledges, main lake points in the 8-10ft range. Many anglers pull out deep divers too soon — a medium-diving crankbait in Sexy Shad matc..."
       }
     ],
     "depthStrategy": "Pre-frontal post-spawn bass are transitioning and aggressive. Males guard fry in 2-6ft while females roam 5-12ft feeding heavily. Target both shallow fry-guarders and roaming post-spawn females near points.",
