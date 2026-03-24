@@ -9,7 +9,10 @@ Use this document to add a new angler to the bass fishing knowledge pipeline. A 
 2. Scrape         →  data/articles/<angler>/*.txt
 3. Extract        →  data/extracted/<angler>/*.json  (parallel agents, 4 batches)
 4. Merge          →  data/extracted/<angler>/_merged-review.json
-5. Commit & push
+5. Commit raw data
+6. Enrich         →  data/extracted/<angler>/_merged-review-enriched.json  (LLM via Claude Code)
+7. Regenerate briefings → data/briefings/briefings-bundle.json
+8. Copy bundle & commit
 ```
 
 All commands run from: `/Users/jcar/source/bass/knowledge/`
@@ -324,38 +327,89 @@ From KVD's cold-water crankbait article — shows the expected structure with op
 
 ---
 
-## Step 6: Enrich Knowledge Conditions
+## Step 6: Enrich Knowledge Conditions (LLM via Claude Code)
 
 After merging, enrich the knowledge entries with standardized condition tags. This enables the tactical briefing system to retrieve relevant entries by season, clarity, lure category, etc.
 
-```bash
-python3 scripts/enrich-local.py <angler>
-```
+**Method:** Use Claude Code directly in the terminal — no API key required. Claude reads each entry's insight text and assigns conditions based on semantic understanding of the content. This replaced the previous regex-based `enrich-local.py` approach, which suffered from:
+- False positives (e.g., "can't see in summer" incorrectly tagging `summer`)
+- Substring bugs (e.g., "switch" matching `twitch`)
+- Context blindness (e.g., "muddy water" vs "muddy bottom")
+- No ability to extract `pressureState` at all
 
 Output: `data/extracted/<angler>/_merged-review-enriched.json`
 
-This script uses keyword-based text analysis (no API key needed) to extract:
+### Condition tags to assign
 
 | Tag | Values |
 |-----|--------|
 | `season` (array) | pre-spawn, spawn, post-spawn, summer, fall, winter |
 | `waterClarity` | clear, stained, muddy |
 | `structure` (array) | point, bluff, grass, flat, dock, creek-channel, hump, riprap, laydown, ledge |
-| `depthZone` | shallow, mid, deep |
+| `depthZone` | shallow (≤5ft), mid (5-12ft), deep (12ft+) |
 | `lureCategory` | cranking, finesse, jigs, moving-baits, topwater, reaction, soft-plastics |
 | `retrieveStyle` | burn, slow-roll, stop-and-go, drag, hop, twitch, steady |
 | `coverType` | grass, wood, rock, dock, open |
+| `pressureState` | pre-frontal, stable, post-frontal |
 
-It also adds `lureCategory` to each opinion entry based on the lure name.
+Also add `lureCategory` to each opinion entry using this deterministic map:
 
-**To enrich all anglers at once:**
-```bash
-python3 scripts/enrich-local.py
 ```
+Squarebill/Medium/Deep Diving Crankbait, Lipless Crankbait, Suspending Jerkbait → cranking
+Drop Shot, Ned Rig, Neko Rig, Shakyhead, Spy Bait → finesse
+Flipping Jig, Structure Jig, Football Jig, Hair Jig / Finesse Jig, Crawfish Pattern Jig → jigs
+Swim Jig, Spinnerbait (Colorado/Willow), Chatterbait, Strolling Rig → moving-baits
+Walking Topwater, Buzzbait → topwater
+Blade Bait, Jigging Spoon → reaction
+Texas Rig (Creature Bait), Carolina Rig, 10" Worm (Shakey/TX) → soft-plastics
+```
+
+### How to run enrichment
+
+Prompt Claude Code with:
+
+> Read all knowledge entries in `knowledge/data/extracted/<angler>/_merged-review.json`. For each entry, read the insight text and assign condition tags. Write a Python script that maps each entry index to its enriched conditions, replaces entry conditions, adds lureCategory to opinions, and writes `_merged-review-enriched.json`. Then run it.
+
+### Enrichment rules
+
+- **Only tag what the insight is genuinely about** — not passing mentions
+- **Empty conditions `{}` is correct** for entries about mental approach, tournament strategy, gear specs, or general philosophy
+- **Do NOT use "spring"** — always use the specific spawn phase (pre-spawn, spawn, post-spawn)
+- **Primary season(s) only** — comparative text like "fall is reverse pre-spawn" should only tag the primary season being discussed
+- **Context matters** — "muddy water" = waterClarity, "muddy bottom" = structure; "switch" ≠ "twitch"
+- **pressureState** — infer from language about fronts, cold snaps, tough conditions, bluebird skies
+
+### Re-enriching all anglers
+
+To re-enrich all anglers (e.g., after improving the approach), process each angler's `_merged-review.json` and write a new `_merged-review-enriched.json`. Process smaller anglers first for faster feedback:
+
+| Angler | Entries | Opinions |
+|--------|---------|----------|
+| robertson | 82 | 12 |
+| yamamoto | 118 | 11 |
+| palaniuk | 151 | 14 |
+| johnston | 163 | 12 |
+| wheeler | 188 | 22 |
+| hackney | 194 | 15 |
+| kvd | 317 | 22 |
 
 ### Quality check
 
-After enrichment, spot-check entries where the topic contradicts the tagged season. Multi-season entries (3+) are often comparative text like "fall is reverse pre-spawn" — these should usually only be tagged with the primary season being discussed.
+After enrichment, verify with:
+
+```python
+python3 -c "
+import json
+anglers = ['robertson','yamamoto','palaniuk','johnston','wheeler','hackney','kvd']
+for a in anglers:
+    d = json.load(open(f'data/extracted/{a}/_merged-review-enriched.json'))
+    k = d['knowledge']
+    tags = {t: sum(1 for e in k if t in e.get('conditions',{}) and e['conditions'][t])
+            for t in ['season','waterClarity','structure','depthZone','lureCategory','retrieveStyle','coverType','pressureState']}
+    ops = sum(1 for o in d['opinions'].values() if 'lureCategory' in o)
+    print(f'{a}: {len(k)} entries, {ops}/{len(d[\"opinions\"])} ops | ' + ' '.join(f'{t}={v}' for t,v in tags.items()))
+"
+```
 
 ---
 
@@ -370,7 +424,7 @@ python3 scripts/generate-briefings-local.py --all
 Output:
 - `data/briefings/{season}_{clarity}_{pressure}_{category}.json` — 326 individual briefings
 - `data/briefings/_index.json` — condition key → filename mapping
-- `data/briefings/briefings-bundle.json` — all briefings in one file (~1MB, ~46KB gzipped)
+- `data/briefings/briefings-bundle.json` — all briefings in one file (~1MB)
 
 ### Condition matrix
 
@@ -400,7 +454,7 @@ The app loads this at build time via `strikezone/src/lib/briefings/index.ts`.
 For Claude-generated narrative briefings instead of template-based ones, use the API-powered script:
 
 ```bash
-python3 scripts/generate-briefings.py --all --model claude-opus-4-20250514
+python3 scripts/generate-briefings.py --all --model claude-opus-4-6-20250515
 ```
 
 Requires `ANTHROPIC_API_KEY`. Default model is Opus. Cost: ~$30-50 for all 326 briefings.
