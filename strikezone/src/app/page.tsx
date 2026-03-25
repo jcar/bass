@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { Crosshair, AlertTriangle, MapPin, X, RefreshCw, Waves } from 'lucide-react';
+import { Crosshair, AlertTriangle, MapPin, X, RefreshCw } from 'lucide-react';
 import { loadTuning } from '@/lib/tuning';
 import { loadSession, saveSession, updateLakeMemory, toggleFavorite, type SessionState } from '@/lib/session';
 import { nearestLake, getLakeById } from '@/data/bass-lakes';
@@ -10,7 +10,6 @@ import LakePicker from '@/components/LakePicker';
 import type { WeatherConditions, StrikeAnalysis, DayForecast, Lake, WaterClarity } from '@/lib/types';
 import { runStrikeAnalysis, calculateDepthCurve } from '@/lib/StrikeEngine';
 import { fetchForecast } from '@/lib/fetchForecast';
-import WaterColumn from '@/components/WaterColumn';
 import ConditionsPanel from '@/components/ConditionsPanel';
 import type { ConditionDelta } from '@/components/ConditionsPanel';
 import WhatToThrowSection from '@/components/WhatToThrowSection';
@@ -435,7 +434,7 @@ export default function Dashboard() {
             {/* Refresh button */}
             <button
               onClick={() => loadForecast(location.lat, location.lon)}
-              className="p-1.5 rounded-lg bg-slate-800/60 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-slate-200 transition-colors"
+              className="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-slate-200 transition-colors"
               title="Refresh forecast"
             >
               <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
@@ -518,13 +517,28 @@ export default function Dashboard() {
 
         {/* ── GROUP: WHERE TO FISH ── */}
         {whatToThrow && (
-          <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4">
+          <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4 space-y-4">
             <GamePlanSection
               analysis={analysis}
               conditions={effectiveConditions}
               whatToThrow={whatToThrow}
               waterClarity={effectiveConditions.waterClarity}
               onWaterClarityChange={handleWaterClarityChange}
+              lakeMaxDepth={lakeMaxDepth}
+              depthCurve={calculateDepthCurve(effectiveConditions, analysis.seasonalPhase, tuning)}
+            />
+
+            <ConditionsPanel
+              conditions={effectiveConditions}
+              biteWindows={analysis.biteWindows}
+              lakeMaxDepth={lakeMaxDepth}
+              onLakeMaxDepthChange={handleLakeMaxDepthChange}
+              onWaterClarityChange={handleWaterClarityChange}
+              waterTempOverride={waterTempOverride}
+              onWaterTempOverride={handleWaterTempOverride}
+              deltas={deltas}
+              biteFactors={analysis.biteFactors}
+              defaultCollapsed
             />
           </section>
         )}
@@ -555,43 +569,8 @@ export default function Dashboard() {
           </section>
         )}
 
-        {/* ── GROUP: WATER & CONDITIONS ── */}
-        <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4 space-y-4">
-          <div className="flex items-center gap-2">
-            <Waves className="w-4 h-4 text-slate-400" />
-            <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Water &amp; Conditions</h2>
-          </div>
-
-          <WaterColumn
-            fishPosition={analysis.fishPosition}
-            fishDepth={analysis.fishDepth}
-            frontalSystem={effectiveConditions.frontalSystem}
-            waterTemp={effectiveConditions.waterTemp}
-            depthRange={analysis.seasonalPhase.depthRange}
-            lakeMaxDepth={lakeMaxDepth}
-            season={analysis.seasonalPhase.season}
-            windSpeed={effectiveConditions.windSpeed}
-            skyCondition={effectiveConditions.skyCondition}
-            waterClarity={effectiveConditions.waterClarity}
-            depthCurve={calculateDepthCurve(effectiveConditions, analysis.seasonalPhase, tuning)}
-          />
-
-          <ConditionsPanel
-            conditions={effectiveConditions}
-            biteWindows={analysis.biteWindows}
-            lakeMaxDepth={lakeMaxDepth}
-            onLakeMaxDepthChange={handleLakeMaxDepthChange}
-            onWaterClarityChange={handleWaterClarityChange}
-            waterTempOverride={waterTempOverride}
-            onWaterTempOverride={handleWaterTempOverride}
-            deltas={deltas}
-            biteFactors={analysis.biteFactors}
-            defaultCollapsed
-          />
-        </section>
-
         {/* Footer */}
-        <footer className="border-t border-slate-800 pt-4 pb-8 text-center">
+        <footer className="border-t border-slate-800 pt-4 pb-8 text-center" style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}>
           <p className="text-xs text-slate-600 font-mono">
             StrikeZone v2.0 | Days 1-5: Open-Meteo API | Days 6-7: Trend extrapolation | Solunar calculations are approximate
           </p>

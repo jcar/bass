@@ -75,7 +75,9 @@ export default function BiteForecast({
   // ── Compact mode: tight day-picker strip ──
   if (compact) {
     return (
-      <div className="px-3 py-1.5 overflow-hidden">
+      <div className="px-3 py-1.5 overflow-hidden relative">
+        {/* Scroll fade hint — right edge */}
+        <div className="absolute right-0 top-0 bottom-0 w-6 bg-gradient-to-l from-slate-900/80 to-transparent z-10 pointer-events-none" />
         <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
           {forecast.map((day, i) => {
             const a = analyses[i];
@@ -103,7 +105,7 @@ export default function BiteForecast({
                 `}
               >
                 {/* Day label */}
-                <div className={`text-[9px] font-mono font-bold uppercase leading-none
+                <div className={`text-[11px] font-mono font-bold uppercase leading-none
                   ${isNow ? 'text-sky-400' : isSelected ? 'text-emerald-400' : 'text-slate-500'}`}>
                   {isNow ? 'Now' : day.dayLabel}
                 </div>
@@ -121,15 +123,15 @@ export default function BiteForecast({
 
                 {/* Temps: high/low air, water */}
                 <div className="flex items-baseline justify-center gap-0.5 mt-0.5">
-                  <span className="text-[9px] font-mono font-bold text-white leading-none">{day.airTempHigh}°</span>
-                  <span className="text-[9px] font-mono text-slate-600 leading-none">{day.airTempLow}°</span>
+                  <span className="text-[11px] font-mono font-bold text-white leading-none">{day.airTempHigh}°</span>
+                  <span className="text-[11px] font-mono text-slate-600 leading-none">{day.airTempLow}°</span>
                 </div>
-                <div className="text-[9px] font-mono text-sky-400/70 leading-none mt-px">
+                <div className="text-[11px] font-mono text-sky-400/70 leading-none mt-px">
                   {day.waterTemp}°<span className="text-sky-500/40">w</span>
                 </div>
 
                 {/* Wind + pressure trend packed into one line */}
-                <div className="text-[8px] font-mono text-slate-600 leading-none mt-px whitespace-nowrap">
+                <div className="text-[10px] font-mono text-slate-600 leading-none mt-px whitespace-nowrap">
                   {day.windSpeed}{day.windDirection}{' '}
                   <span style={{ color: getPressureColor(a.pressureTrend) }}>{getPressureArrow(a.pressureTrend)}</span>
                 </div>

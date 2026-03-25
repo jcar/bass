@@ -2,12 +2,17 @@
 
 import { useState } from 'react';
 import { Map, ChevronDown } from 'lucide-react';
-import type { StrikeAnalysis, WeatherConditions, WaterClarity } from '@/lib/types';
+import type { StrikeAnalysis, WeatherConditions, WaterClarity, FishPosition } from '@/lib/types';
 import type { WhatToThrowResult } from '@/lib/whatToThrow';
 import type { GamePlanStop } from '@/lib/gamePlan';
 import { buildGamePlan } from '@/lib/gamePlan';
 import { StructureIcon, priorityStyle } from './StructureIcon';
 import { ANGLER_META, confidenceColor } from '@/lib/theme';
+
+interface DepthPoint {
+  hour: number;
+  depth: number;
+}
 
 interface GamePlanSectionProps {
   analysis: StrikeAnalysis;
@@ -15,6 +20,8 @@ interface GamePlanSectionProps {
   whatToThrow: WhatToThrowResult | null;
   waterClarity: WaterClarity;
   onWaterClarityChange: (clarity: WaterClarity) => void;
+  lakeMaxDepth?: number;
+  depthCurve?: DepthPoint[];
 }
 
 const positionLabels: Record<string, string> = {
@@ -165,49 +172,120 @@ const CLARITY_OPTIONS: { value: WaterClarity; label: string }[] = [
   { value: 'muddy', label: 'Muddy' },
 ];
 
-export default function GamePlanSection({ analysis, conditions, whatToThrow, waterClarity, onWaterClarityChange }: GamePlanSectionProps) {
+const positionDetail: Record<FishPosition, string> = {
+  shallow: 'Fish are shallow and active. Cover water quickly.',
+  'mid-column': 'Fish are off bottom, relating to bait or structure edges.',
+  suspended: 'Fish are between zones. Check multiple depths.',
+  deep: 'Fish are tight to structure. Drag baits along bottom.',
+};
+
+function getCoverNote(clarity: WaterClarity): string {
+  if (clarity === 'muddy') return 'Fish within 2ft of cover';
+  if (clarity === 'clear') return 'Fish may hold 5-10ft off structure';
+  return 'Fish hold tight to cover';
+}
+
+function getPresentationTip(fishPosition: FishPosition, lakeMaxDepth?: number): string {
+  const isShallowLake = lakeMaxDepth !== undefined && lakeMaxDepth <= 25;
+  if (isShallowLake) {
+    if (fishPosition === 'deep') return 'Shallow lake — drag baits tight to cover on bottom';
+    if (fishPosition === 'shallow') return 'Shallow lake — topwater and shallow cranks over cover';
+    return 'Shallow lake — fish relate to cover, not depth. Target structure.';
+  }
+  if (fishPosition === 'deep') return 'Drag or hop bait on bottom';
+  if (fishPosition === 'shallow') return 'Topwater or shallow running baits';
+  if (fishPosition === 'suspended') return 'Count bait down to target depth';
+  return 'Work multiple levels of water column';
+}
+
+function InsightChip({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-center gap-1 bg-slate-800/60 rounded px-1.5 py-0.5 whitespace-nowrap overflow-hidden">
+      <span className="text-[11px] font-mono text-slate-600 uppercase flex-shrink-0">{label}:</span>
+      <span className="text-[11px] font-mono text-slate-400 truncate">{value}</span>
+    </div>
+  );
+}
+
+export default function GamePlanSection({ analysis, conditions, whatToThrow, waterClarity, onWaterClarityChange, lakeMaxDepth, depthCurve }: GamePlanSectionProps) {
   const stops = buildGamePlan(analysis, whatToThrow, conditions);
 
   if (stops.length === 0) return null;
 
   const { seasonalPhase, fishDepth, fishPosition } = analysis;
 
+  // Depth curve range for today
+  const curveMin = depthCurve && depthCurve.length > 0 ? Math.min(...depthCurve.map(p => p.depth)) : null;
+  const curveMax = depthCurve && depthCurve.length > 0 ? Math.max(...depthCurve.map(p => p.depth)) : null;
+  const hasCurveRange = curveMin !== null && curveMax !== null && curveMin !== curveMax;
+
+  // Thermocline
+  const canStratify = !lakeMaxDepth || lakeMaxDepth >= 25;
+  const showThermocline = conditions.waterTemp > 72 && canStratify;
+  const thermoclineDepth = conditions.waterTemp > 82 ? 16 : conditions.waterTemp > 75 ? 20 : 24;
+
   return (
     <div className="space-y-3">
-      {/* Section header */}
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex items-center gap-2">
-          <Map className="w-4 h-4 text-slate-400" />
-          <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Game Plan</h2>
-        </div>
-        <div className="flex items-center gap-2 flex-wrap justify-end">
-          {/* Water clarity pill selector */}
-          <div className="flex items-center bg-slate-800/80 rounded-lg border border-slate-700/60 p-0.5">
-            {CLARITY_OPTIONS.map(opt => (
-              <button
-                key={opt.value}
-                onClick={() => onWaterClarityChange(opt.value)}
-                className={`text-[11px] font-mono px-2.5 py-1 rounded-md transition-colors ${
-                  waterClarity === opt.value
-                    ? 'bg-slate-600/80 text-white'
-                    : 'text-slate-500 hover:text-slate-300'
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
+      {/* Section header — stacks on mobile */}
+      <div className="space-y-2">
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <Map className="w-4 h-4 text-slate-400" />
+            <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Game Plan</h2>
           </div>
           <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
             {seasonalPhase.label}
           </span>
-          <span className="text-xs font-mono text-slate-400">
-            {fishDepth}ft {positionLabels[fishPosition]}
-          </span>
+        </div>
+        {/* Water clarity pill selector — own row for easy thumb access */}
+        <div className="flex items-center bg-slate-800/80 rounded-lg border border-slate-700/60 p-0.5">
+          {CLARITY_OPTIONS.map(opt => (
+            <button
+              key={opt.value}
+              onClick={() => onWaterClarityChange(opt.value)}
+              className={`flex-1 text-xs font-mono px-3 py-2 rounded-md transition-colors ${
+                waterClarity === opt.value
+                  ? 'bg-slate-600/80 text-white'
+                  : 'text-slate-500 hover:text-slate-300'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Depth & conditions insight strip */}
+      <div className="bg-slate-800/40 border border-slate-700/40 rounded-lg px-3 py-2.5 space-y-2">
+        <div className="flex items-center justify-between flex-wrap gap-2">
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-xs font-mono font-semibold text-white">{positionLabels[fishPosition]}</span>
+            <span className="text-sm font-mono font-bold text-emerald-400">{fishDepth}ft</span>
+            {hasCurveRange && (
+              <span className="text-xs font-mono text-slate-500">({curveMin}-{curveMax}ft today)</span>
+            )}
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-mono text-slate-500">{conditions.waterTemp}°F</span>
+            <span className="text-xs font-mono text-slate-500">
+              {seasonalPhase.depthRange.min}-{seasonalPhase.depthRange.max}ft range
+            </span>
+          </div>
+        </div>
+        <p className="text-[11px] text-slate-400 leading-relaxed">{positionDetail[fishPosition]}</p>
+        <div className="flex flex-wrap gap-1.5">
+          <InsightChip label="Present" value={getPresentationTip(fishPosition, lakeMaxDepth)} />
+          <InsightChip label="Cover" value={getCoverNote(waterClarity)} />
+          {showThermocline && <InsightChip label="Thermocline" value={`~${thermoclineDepth}ft`} />}
+          {conditions.windSpeed >= 10 && <InsightChip label="Wind" value="Fish windblown side shallower" />}
+          {conditions.frontalSystem === 'post-frontal' && <InsightChip label="Post-Front" value="Tight to cover, downsize baits" />}
+          {conditions.frontalSystem === 'pre-frontal' && <InsightChip label="Pre-Front" value="Moving up and feeding aggressively" />}
         </div>
       </div>
 
       {/* Seasonal description */}
-      <p className="text-xs text-slate-400 leading-relaxed -mt-1">{seasonalPhase.description}</p>
+      <p className="text-xs text-slate-400 leading-relaxed">{seasonalPhase.description}</p>
 
       {/* Stops */}
       {stops.map(stop => (

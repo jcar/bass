@@ -96,10 +96,10 @@ function WaterTempCell({ waterTemp, override, onOverride, delta }: { waterTemp: 
           {isOverridden && (
             <button
               onClick={(e) => { e.stopPropagation(); onOverride?.(null); }}
-              className="text-slate-600 hover:text-slate-400 ml-0.5"
+              className="text-slate-600 hover:text-slate-400 ml-0.5 p-1"
               title="Reset to estimate"
             >
-              <RotateCcw className="w-2.5 h-2.5" />
+              <RotateCcw className="w-3 h-3" />
             </button>
           )}
         </div>

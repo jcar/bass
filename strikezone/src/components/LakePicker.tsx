@@ -119,8 +119,8 @@ export default function LakePicker({
               <Search className="w-3 h-3 text-emerald-400" />
               <span className="text-xs font-mono text-slate-400 uppercase tracking-wider">Change Lake</span>
             </div>
-            <button onClick={closePanel} className="text-slate-500 hover:text-slate-300 p-0.5">
-              <X className="w-3.5 h-3.5" />
+            <button onClick={closePanel} className="text-slate-500 hover:text-slate-300 p-2">
+              <X className="w-4 h-4" />
             </button>
           </div>
 
@@ -142,10 +142,10 @@ export default function LakePicker({
               {onToggleFavorite && (
                 <button
                   onClick={(e) => { e.stopPropagation(); onToggleFavorite(selectedLake.id); }}
-                  className="p-0.5 rounded hover:bg-slate-700 transition-colors flex-shrink-0"
+                  className="p-2 rounded hover:bg-slate-700 transition-colors flex-shrink-0"
                   title={favoriteLakeIds.includes(selectedLake.id) ? 'Remove from favorites' : 'Add to favorites'}
                 >
-                  <Star className={`w-3.5 h-3.5 ${
+                  <Star className={`w-4 h-4 ${
                     favoriteLakeIds.includes(selectedLake.id)
                       ? 'text-amber-400 fill-amber-400'
                       : 'text-slate-500 hover:text-amber-400'
@@ -154,9 +154,9 @@ export default function LakePicker({
               )}
               <button
                 onClick={(e) => { e.stopPropagation(); onClear(); }}
-                className="p-0.5 rounded hover:bg-slate-700 text-slate-500 hover:text-slate-300 transition-colors flex-shrink-0"
+                className="p-2 rounded hover:bg-slate-700 text-slate-500 hover:text-slate-300 transition-colors flex-shrink-0"
               >
-                <X className="w-3 h-3" />
+                <X className="w-4 h-4" />
               </button>
             </div>
           )}
