@@ -114,7 +114,45 @@ export function calculateSeasonalPhase(waterTemp: number, month: number, cfg: Tu
     }
   }
 
-  return SEASONAL_DATA[season];
+  const phase = SEASONAL_DATA[season];
+
+  // Blend depth ranges near phase thresholds to avoid sharp jumps.
+  // Within ±3°F of a boundary, interpolate depth between adjacent phases.
+  const BLEND_RADIUS = 3; // °F on each side of threshold
+
+  type Transition = { threshold: number; from: Season; to: Season };
+  const transitions: Transition[] = isSpring
+    ? [
+        { threshold: bp.winterCeiling, from: 'winter', to: 'pre-spawn' },
+        { threshold: bp.preSpawnToSpawn, from: 'pre-spawn', to: 'spawn' },
+        { threshold: bp.spawnPeak + 3, from: 'spawn', to: 'post-spawn' },
+        { threshold: bp.postSpawnStart, from: 'post-spawn', to: 'summer' },
+      ]
+    : isFall
+    ? [
+        { threshold: bp.summerStart, from: 'summer', to: 'fall' },
+        { threshold: bp.fallEnd, from: 'fall', to: 'winter' },
+      ]
+    : [];
+
+  for (const t of transitions) {
+    const dist = Math.abs(waterTemp - t.threshold);
+    if (dist < BLEND_RADIUS) {
+      const other = waterTemp < t.threshold ? SEASONAL_DATA[t.from] : SEASONAL_DATA[t.to];
+      const current = waterTemp < t.threshold ? SEASONAL_DATA[t.to] : SEASONAL_DATA[t.from];
+      // blend = 0 when at edge of zone (full current phase), 1 when at threshold (50/50)
+      const blend = 1 - dist / BLEND_RADIUS;
+      // Interpolate toward the other phase's depth range
+      const blendedMin = Math.round(phase.depthRange.min + (other.depthRange.min - phase.depthRange.min) * blend * 0.5);
+      const blendedMax = Math.round(phase.depthRange.max + (other.depthRange.max - phase.depthRange.max) * blend * 0.5);
+      return {
+        ...phase,
+        depthRange: { min: blendedMin, max: blendedMax },
+      };
+    }
+  }
+
+  return phase;
 }
 
 const SEASONAL_DATA: Record<Season, SeasonalPhase> = {
