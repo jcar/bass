@@ -232,7 +232,7 @@ const SEASONAL_DATA: Record<Season, SeasonalPhase> = {
 
 // ─── Fish Position ───
 export function calculateFishPosition(
-  conditions: WeatherConditions, seasonalPhase: SeasonalPhase, cfg: TuningConfig = DEFAULT_TUNING
+  conditions: WeatherConditions, seasonalPhase: SeasonalPhase, cfg: TuningConfig = DEFAULT_TUNING, overrideHour?: number
 ): { position: FishPosition; depth: number } {
   const { barometricPressure, frontalSystem, skyCondition, waterTemp } = conditions;
   const { min: sMin, max: sMax } = seasonalPhase.depthRange;
@@ -244,7 +244,8 @@ export function calculateFishPosition(
   // Time of day influence — dampened in cold water (winter bass don't vertically migrate)
   const now = new Date();
   const month = now.getMonth() + 1;
-  const tod = getTimeOfDay(now.getHours(), cfg, month);
+  const hour = overrideHour ?? now.getHours();
+  const tod = getTimeOfDay(hour, cfg, month);
   const seasonalTime = getSeasonalTimeOfDay(month, cfg);
   const todCfg = seasonalTime[tod];
   const todDampen = waterTemp < cfg.seasonalBreakpoints.preSpawnStart ? 0.25 : 1.0;
@@ -289,6 +290,18 @@ export function calculateFishPosition(
   else position = 'deep';
 
   return { position, depth };
+}
+
+/** Generate fish depth for every hour of the day (0-23). */
+export function calculateDepthCurve(
+  conditions: WeatherConditions, seasonalPhase: SeasonalPhase, cfg: TuningConfig = DEFAULT_TUNING
+): Array<{ hour: number; depth: number }> {
+  const points: Array<{ hour: number; depth: number }> = [];
+  for (let h = 0; h < 24; h++) {
+    const { depth } = calculateFishPosition(conditions, seasonalPhase, cfg, h);
+    points.push({ hour: h, depth });
+  }
+  return points;
 }
 
 // ─── Bite Intensity ───

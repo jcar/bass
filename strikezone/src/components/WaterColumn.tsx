@@ -3,6 +3,11 @@
 import type { FishPosition, FrontalSystem, Season } from '@/lib/types';
 import { FRONTAL_BADGE } from '@/lib/theme';
 
+interface DepthPoint {
+  hour: number;
+  depth: number;
+}
+
 interface WaterColumnProps {
   fishPosition: FishPosition;
   fishDepth: number;
@@ -14,6 +19,7 @@ interface WaterColumnProps {
   windSpeed?: number;
   skyCondition?: string;
   waterClarity?: string;
+  depthCurve?: DepthPoint[];
 }
 
 // Position label mapping
@@ -27,6 +33,7 @@ const positionInfo: Record<FishPosition, { label: string; detail: string }> = {
 export default function WaterColumn({
   fishPosition, fishDepth, frontalSystem, waterTemp, depthRange, lakeMaxDepth,
   windSpeed = 0, skyCondition = 'partly-cloudy', waterClarity = 'stained',
+  depthCurve,
 }: WaterColumnProps) {
   // Dynamic scale: fit to the lake depth or seasonal range
   const scaleMin = 0;
@@ -208,6 +215,43 @@ export default function WaterColumn({
           <line x1="198" y1="18" x2="203" y2="15" stroke="#253548" strokeWidth="1" />
         </svg>
 
+        {/* Depth curve — shows fish depth variation over the day */}
+        {depthCurve && depthCurve.length > 0 && (() => {
+          const curveMin = Math.min(...depthCurve.map(p => p.depth));
+          const curveMax = Math.max(...depthCurve.map(p => p.depth));
+          const currentHour = new Date().getHours();
+          // Build SVG path: X = hour (0-23 mapped to 15%-85% width), Y = depth mapped to water column
+          const points = depthCurve.map(p => {
+            const x = 15 + (p.hour / 23) * 70; // 15-85% of width
+            const y = toY(p.depth);
+            return `${x},${y}`;
+          });
+          const pathD = `M${points.join(' L')}`;
+          // Fill area under curve
+          const fillD = `M${points[0].split(',')[0]},${toY(curveMin - 0.5)} L${points.join(' L')} L${points[points.length - 1].split(',')[0]},${toY(curveMin - 0.5)} Z`;
+          // Current hour marker position
+          const cx = 15 + (currentHour / 23) * 70;
+          const cy = toY(fishDepth);
+          return (
+            <svg className="absolute inset-0 w-full h-full pointer-events-none" preserveAspectRatio="none">
+              {/* Filled area showing depth range over day */}
+              <path d={fillD} fill="rgba(16,185,129,0.06)" />
+              {/* The curve line */}
+              <path d={pathD} fill="none" stroke="#10b981" strokeWidth="1.5" opacity="0.5" strokeLinejoin="round" />
+              {/* Current hour dot */}
+              <circle cx={`${cx}%`} cy={`${cy}%`} r="4" fill="#10b981" stroke="#34d399" strokeWidth="1" opacity="0.9">
+                <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite" />
+              </circle>
+              {/* Dawn/dusk time labels */}
+              <text x="15%" y="99%" fill="#38bdf8" opacity="0.25" fontSize="8" fontFamily="monospace" textAnchor="middle">12a</text>
+              <text x={`${15 + (6/23)*70}%`} y="99%" fill="#f59e0b" opacity="0.3" fontSize="8" fontFamily="monospace" textAnchor="middle">6a</text>
+              <text x={`${15 + (12/23)*70}%`} y="99%" fill="#38bdf8" opacity="0.25" fontSize="8" fontFamily="monospace" textAnchor="middle">12p</text>
+              <text x={`${15 + (18/23)*70}%`} y="99%" fill="#f59e0b" opacity="0.3" fontSize="8" fontFamily="monospace" textAnchor="middle">6p</text>
+              <text x="85%" y="99%" fill="#38bdf8" opacity="0.25" fontSize="8" fontFamily="monospace" textAnchor="middle">11p</text>
+            </svg>
+          );
+        })()}
+
         {/* The fish group — positioned at calculated depth */}
         <div
           className="absolute left-1/2 -translate-x-1/2 transition-all duration-1000 ease-in-out"
@@ -238,12 +282,21 @@ export default function WaterColumn({
             </svg>
           </div>
 
-          {/* Depth callout */}
+          {/* Depth callout — shows current depth + daily range */}
           <div className="absolute left-full ml-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5 whitespace-nowrap">
             <div className="w-4 border-t border-emerald-400/40" />
             <div className="bg-emerald-500/10 border border-emerald-500/20 rounded px-1.5 py-0.5">
               <span className="text-sm font-mono font-bold text-emerald-400">{fishDepth}</span>
               <span className="text-xs font-mono text-emerald-400/60">ft</span>
+              {depthCurve && depthCurve.length > 0 && (() => {
+                const curveMin = Math.min(...depthCurve.map(p => p.depth));
+                const curveMax = Math.max(...depthCurve.map(p => p.depth));
+                return curveMin !== curveMax ? (
+                  <span className="text-xs font-mono text-emerald-400/40 ml-1">
+                    ({curveMin}-{curveMax})
+                  </span>
+                ) : null;
+              })()}
             </div>
           </div>
         </div>
@@ -259,8 +312,15 @@ export default function WaterColumn({
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-xs font-mono font-semibold text-white">{positionInfo[fishPosition].label}</span>
-            <span className="text-xs text-slate-500">at</span>
+            <span className="text-xs text-slate-500">now</span>
             <span className="text-xs font-mono font-bold text-emerald-400">{fishDepth}ft</span>
+            {depthCurve && depthCurve.length > 0 && (() => {
+              const curveMin = Math.min(...depthCurve.map(p => p.depth));
+              const curveMax = Math.max(...depthCurve.map(p => p.depth));
+              return curveMin !== curveMax ? (
+                <span className="text-xs font-mono text-slate-500">({curveMin}-{curveMax}ft today)</span>
+              ) : null;
+            })()}
           </div>
           <span className="text-xs font-mono text-slate-500">{waterTemp}°F</span>
         </div>

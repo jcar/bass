@@ -8,7 +8,7 @@ import { nearestLake, getLakeById } from '@/data/bass-lakes';
 import { generateMorningBriefing } from '@/lib/morningBriefing';
 import LakePicker from '@/components/LakePicker';
 import type { WeatherConditions, StrikeAnalysis, DayForecast, Lake, WaterClarity } from '@/lib/types';
-import { runStrikeAnalysis } from '@/lib/StrikeEngine';
+import { runStrikeAnalysis, calculateDepthCurve } from '@/lib/StrikeEngine';
 import { fetchForecast } from '@/lib/fetchForecast';
 import WaterColumn from '@/components/WaterColumn';
 import ConditionsPanel from '@/components/ConditionsPanel';
@@ -548,6 +548,7 @@ export default function Dashboard() {
           windSpeed={effectiveConditions.windSpeed}
           skyCondition={effectiveConditions.skyCondition}
           waterClarity={effectiveConditions.waterClarity}
+          depthCurve={calculateDepthCurve(effectiveConditions, analysis.seasonalPhase, tuning)}
         />
 
         {/* 6. Conditions Drawer (collapsed by default) */}
