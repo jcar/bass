@@ -187,16 +187,6 @@ export default function TopPickCard({ card, analysis, conditions, onFollowAngler
               </span>
             </div>
 
-            {analysis.structureTargets.length > 0 && (
-              <div className="flex flex-wrap gap-1.5">
-                {analysis.structureTargets.slice(0, 2).map(t => (
-                  <span key={t.id} className="text-[10px] font-mono px-2 py-1 rounded bg-slate-700/60 text-slate-300 border border-slate-600/50">
-                    {t.name}
-                  </span>
-                ))}
-              </div>
-            )}
-
             <div>
               <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mb-1">What&apos;s Driving It</div>
               <div className="space-y-1">

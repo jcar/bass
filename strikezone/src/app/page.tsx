@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { Crosshair, AlertTriangle, MapPin, X, RefreshCw } from 'lucide-react';
+import { Crosshair, AlertTriangle, MapPin, X, RefreshCw, Waves } from 'lucide-react';
 import { loadTuning } from '@/lib/tuning';
 import { loadSession, saveSession, updateLakeMemory, toggleFavorite, type SessionState } from '@/lib/session';
 import { nearestLake, getLakeById } from '@/data/bass-lakes';
@@ -17,6 +17,7 @@ import WhatToThrowSection from '@/components/WhatToThrowSection';
 import MorningBriefing from '@/components/MorningBriefing';
 import CommandStrip from '@/components/CommandStrip';
 import TopPickCard from '@/components/TopPickCard';
+import GamePlanSection from '@/components/GamePlanSection';
 import { buildWhatToThrow } from '@/lib/whatToThrow';
 
 const DEFAULT_CONDITIONS: WeatherConditions = {
@@ -476,7 +477,7 @@ export default function Dashboard() {
         />
       )}
 
-      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-4 sm:space-y-6">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-6 sm:space-y-8">
         {/* 2. Conditional Alerts */}
         {/* C2: Auto-detect confirmation toast */}
         {autoDetectLake && (
@@ -515,55 +516,79 @@ export default function Dashboard() {
         {/* Morning Briefing (starts collapsed) */}
         <MorningBriefing bullets={morningBullets} />
 
-        {/* 3. TopPickCard — the #1 lure pick + fish position */}
-        {whatToThrow && whatToThrow.cards.length > 0 && (
-          <TopPickCard
-            card={whatToThrow.cards[0]}
-            analysis={analysis}
-            conditions={effectiveConditions}
-            onFollowAngler={setFollowingAngler}
-          />
-        )}
-
-        {/* 4. Alternate Picks (cards 2+) */}
+        {/* ── GROUP: WHERE TO FISH ── */}
         {whatToThrow && (
-          <WhatToThrowSection
-            result={whatToThrow}
-            seasonalPhase={analysis.seasonalPhase}
-            structureTargets={analysis.structureTargets}
-            conditions={effectiveConditions}
-            onFollowAngler={setFollowingAngler}
-          />
+          <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4">
+            <GamePlanSection
+              analysis={analysis}
+              conditions={effectiveConditions}
+              whatToThrow={whatToThrow}
+              waterClarity={effectiveConditions.waterClarity}
+              onWaterClarityChange={handleWaterClarityChange}
+            />
+          </section>
         )}
 
-        {/* 5. WaterColumn — full width */}
-        <WaterColumn
-          fishPosition={analysis.fishPosition}
-          fishDepth={analysis.fishDepth}
-          frontalSystem={effectiveConditions.frontalSystem}
-          waterTemp={effectiveConditions.waterTemp}
-          depthRange={analysis.seasonalPhase.depthRange}
-          lakeMaxDepth={lakeMaxDepth}
-          season={analysis.seasonalPhase.season}
-          windSpeed={effectiveConditions.windSpeed}
-          skyCondition={effectiveConditions.skyCondition}
-          waterClarity={effectiveConditions.waterClarity}
-          depthCurve={calculateDepthCurve(effectiveConditions, analysis.seasonalPhase, tuning)}
-        />
+        {/* ── GROUP: WHAT TO THROW ── */}
+        {whatToThrow && whatToThrow.cards.length > 0 && (
+          <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4 space-y-4">
+            <div className="flex items-center gap-2">
+              <Crosshair className="w-4 h-4 text-slate-400" />
+              <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">What to Throw</h2>
+              <span className="text-xs font-mono text-slate-500">{whatToThrow.cards.length} rods</span>
+            </div>
 
-        {/* 6. Conditions Drawer (collapsed by default) */}
-        <ConditionsPanel
-          conditions={effectiveConditions}
-          biteWindows={analysis.biteWindows}
-          lakeMaxDepth={lakeMaxDepth}
-          onLakeMaxDepthChange={handleLakeMaxDepthChange}
-          onWaterClarityChange={handleWaterClarityChange}
-          waterTempOverride={waterTempOverride}
-          onWaterTempOverride={handleWaterTempOverride}
-          deltas={deltas}
-          biteFactors={analysis.biteFactors}
-          defaultCollapsed
-        />
+            <TopPickCard
+              card={whatToThrow.cards[0]}
+              analysis={analysis}
+              conditions={effectiveConditions}
+              onFollowAngler={setFollowingAngler}
+            />
+
+            <WhatToThrowSection
+              result={whatToThrow}
+              seasonalPhase={analysis.seasonalPhase}
+              structureTargets={analysis.structureTargets}
+              conditions={effectiveConditions}
+              onFollowAngler={setFollowingAngler}
+            />
+          </section>
+        )}
+
+        {/* ── GROUP: WATER & CONDITIONS ── */}
+        <section className="bg-slate-900/30 border border-slate-800/60 rounded-xl p-3 sm:p-4 space-y-4">
+          <div className="flex items-center gap-2">
+            <Waves className="w-4 h-4 text-slate-400" />
+            <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Water &amp; Conditions</h2>
+          </div>
+
+          <WaterColumn
+            fishPosition={analysis.fishPosition}
+            fishDepth={analysis.fishDepth}
+            frontalSystem={effectiveConditions.frontalSystem}
+            waterTemp={effectiveConditions.waterTemp}
+            depthRange={analysis.seasonalPhase.depthRange}
+            lakeMaxDepth={lakeMaxDepth}
+            season={analysis.seasonalPhase.season}
+            windSpeed={effectiveConditions.windSpeed}
+            skyCondition={effectiveConditions.skyCondition}
+            waterClarity={effectiveConditions.waterClarity}
+            depthCurve={calculateDepthCurve(effectiveConditions, analysis.seasonalPhase, tuning)}
+          />
+
+          <ConditionsPanel
+            conditions={effectiveConditions}
+            biteWindows={analysis.biteWindows}
+            lakeMaxDepth={lakeMaxDepth}
+            onLakeMaxDepthChange={handleLakeMaxDepthChange}
+            onWaterClarityChange={handleWaterClarityChange}
+            waterTempOverride={waterTempOverride}
+            onWaterTempOverride={handleWaterTempOverride}
+            deltas={deltas}
+            biteFactors={analysis.biteFactors}
+            defaultCollapsed
+          />
+        </section>
 
         {/* Footer */}
         <footer className="border-t border-slate-800 pt-4 pb-8 text-center">
