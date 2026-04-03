@@ -7,7 +7,7 @@ import type { WhatToThrowResult } from '@/lib/whatToThrow';
 import type { GamePlanStop } from '@/lib/gamePlan';
 import { buildGamePlan } from '@/lib/gamePlan';
 import { StructureIcon, priorityStyle } from './StructureIcon';
-import { ANGLER_META, confidenceColor } from '@/lib/theme';
+import { ANGLER_META, confidenceColor, FRONTAL_BADGE } from '@/lib/theme';
 
 interface DepthPoint {
   hour: number;
@@ -266,13 +266,38 @@ export default function GamePlanSection({ analysis, conditions, whatToThrow, wat
               <span className="text-xs font-mono text-slate-500">({curveMin}-{curveMax}ft today)</span>
             )}
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-mono text-slate-500">{conditions.waterTemp}°F</span>
-            <span className="text-xs font-mono text-slate-500">
-              {seasonalPhase.depthRange.min}-{seasonalPhase.depthRange.max}ft range
-            </span>
-          </div>
+          <span className="text-xs font-mono text-slate-500">
+            {seasonalPhase.depthRange.min}-{seasonalPhase.depthRange.max}ft range
+          </span>
         </div>
+
+        {/* Conditions readout */}
+        <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
+          <span className="text-xs font-mono text-slate-400">
+            <span className="text-slate-600">Water </span>{conditions.waterTemp}°F
+          </span>
+          <span className="text-xs font-mono text-slate-400">
+            <span className="text-slate-600">Air </span>{conditions.airTemp}°F
+          </span>
+          <span className="text-xs font-mono text-slate-400">
+            <span className="text-slate-600">Wind </span>{conditions.windSpeed}mph {conditions.windDirection}
+          </span>
+          <span className="text-xs font-mono text-slate-400">
+            <span className="text-slate-600">Pressure </span>{conditions.barometricPressure.toFixed(2)}
+            <span className={conditions.pressureTrend === 'falling' ? 'text-emerald-400' : conditions.pressureTrend === 'rising' ? 'text-rose-400' : 'text-slate-500'}>
+              {conditions.pressureTrend === 'falling' ? ' ▼' : conditions.pressureTrend === 'rising' ? ' ▲' : ' —'}
+            </span>
+          </span>
+          {(() => {
+            const badge = FRONTAL_BADGE[conditions.frontalSystem];
+            return (
+              <span className="text-xs font-mono px-1.5 py-0.5 rounded" style={{ background: `${badge.color}15`, color: badge.color }}>
+                {badge.label}
+              </span>
+            );
+          })()}
+        </div>
+
         <p className="text-[11px] text-slate-400 leading-relaxed">{positionDetail[fishPosition]}</p>
         <div className="flex flex-wrap gap-1.5">
           <InsightChip label="Present" value={getPresentationTip(fishPosition, lakeMaxDepth)} />
