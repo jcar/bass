@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import type { WhatToThrowCard as CardData } from '@/lib/whatToThrow';
-import type { LureRecommendation } from '@/lib/types';
+import type { LureRecommendation, LureScoreFactor } from '@/lib/types';
 import { ANGLER_META, confidenceColor } from '@/lib/theme';
 import KnowledgeCard from './KnowledgeCard';
 
@@ -56,6 +56,37 @@ function LureDetailBlock({
       {lure.proTip && (
         <p className="text-[11px] text-slate-400 leading-relaxed italic mt-1.5">{lure.proTip}</p>
       )}
+    </div>
+  );
+}
+
+function LureScoreBreakdown({ factors, confidence }: { factors: LureScoreFactor[]; confidence: number }) {
+  return (
+    <div className="bg-slate-900/40 border border-slate-700/50 rounded-lg p-3">
+      <div className="text-xs font-mono text-slate-500 uppercase tracking-wider mb-2">
+        Why {confidence}%
+      </div>
+      <div className="space-y-1">
+        {factors.map((f, i) => {
+          const isBase = f.source === 'base' && f.label === 'Base confidence';
+          const isCap = f.source === 'base' && f.points < 0;
+          const color = isCap ? '#64748b' : f.points > 0 ? '#10b981' : f.points < 0 ? '#f87171' : '#94a3b8';
+          return (
+            <div key={i} className="flex items-center justify-between gap-2">
+              <span className={`text-[11px] font-mono ${isCap ? 'text-slate-500 italic' : 'text-slate-400'}`}>
+                {f.label}
+              </span>
+              <span className="text-[11px] font-mono font-bold tabular-nums" style={{ color }}>
+                {isBase ? f.points : f.points > 0 ? `+${f.points}` : f.points}
+              </span>
+            </div>
+          );
+        })}
+        <div className="border-t border-slate-700/30 pt-1 mt-1 flex items-center justify-between gap-2">
+          <span className="text-[11px] font-mono text-slate-300 font-semibold">Final</span>
+          <span className="text-[11px] font-mono font-bold text-white">{confidence}</span>
+        </div>
+      </div>
     </div>
   );
 }
@@ -139,6 +170,11 @@ export default function WhatToThrowCard({ card, onFollowAngler }: WhatToThrowCar
       >
         <div className="overflow-hidden">
           <div className="px-4 pb-4 space-y-4">
+
+            {/* Score breakdown — "Why X%" */}
+            {lure.scoreBreakdown && lure.scoreBreakdown.length > 0 && (
+              <LureScoreBreakdown factors={lure.scoreBreakdown} confidence={lure.confidence} />
+            )}
 
             {/* Rig details: retrieve, depth, weight, trailer */}
             <div className="bg-slate-900/40 rounded-lg p-3 border border-slate-700/50 space-y-1.5">

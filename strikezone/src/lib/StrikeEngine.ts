@@ -31,6 +31,7 @@ export interface LureTemplate {
   tags: string[]; // for time-of-day matching: 'moving', 'topwater', 'finesse', 'offshore', 'dock', 'shallow'
   seasons: Season[];
   getConfidence: (ctx: LureContext) => number | null;
+  getConfidenceWithBreakdown?: (ctx: LureContext) => { confidence: number | null; factors: import('./types').LureScoreFactor[] };
   getColor: (ctx: LureContext) => { name: string; hex: string };
   getColorAlternates?: (ctx: LureContext) => import('./anglers/composer').ColorAlternate[];
   proTip: (ctx: LureContext) => string;
@@ -501,25 +502,49 @@ export function scoreLure(
   const fishZoneBottom = ctx.fishDepth + 4;
   if (lure.maxDepth < fishZoneTop || lure.minDepth > fishZoneBottom) return null;
 
-  let confidence = lure.getConfidence(ctx);
+  // Use breakdown version if available, otherwise fall back to plain confidence
+  let confidence: number | null;
+  let scoreBreakdown: import('./types').LureScoreFactor[] | undefined;
+
+  if (lure.getConfidenceWithBreakdown) {
+    const result = lure.getConfidenceWithBreakdown(ctx);
+    confidence = result.confidence;
+    scoreBreakdown = result.factors;
+  } else {
+    confidence = lure.getConfidence(ctx);
+  }
+
   if (confidence === null || confidence < 40) return null;
 
+  // Time-of-day tag bonuses
   if (lure.tags.includes('moving') && 'movingBaitBonus' in todCfg) {
-    confidence += (todCfg as { movingBaitBonus: number }).movingBaitBonus;
+    const bonus = (todCfg as { movingBaitBonus: number }).movingBaitBonus;
+    confidence += bonus;
+    scoreBreakdown?.push({ label: `Moving bait bonus (${ctx.timeOfDay})`, points: bonus, source: 'time-of-day' });
   }
   if (lure.tags.includes('topwater') && 'topwaterBonus' in todCfg) {
-    confidence += (todCfg as { topwaterBonus: number }).topwaterBonus;
+    const bonus = (todCfg as { topwaterBonus: number }).topwaterBonus;
+    confidence += bonus;
+    scoreBreakdown?.push({ label: `Topwater bonus (${ctx.timeOfDay})`, points: bonus, source: 'time-of-day' });
   }
   if (lure.tags.includes('finesse') && 'finessBonus' in todCfg) {
-    confidence += (todCfg as { finessBonus: number }).finessBonus;
+    const bonus = (todCfg as { finessBonus: number }).finessBonus;
+    confidence += bonus;
+    scoreBreakdown?.push({ label: `Finesse bonus (${ctx.timeOfDay})`, points: bonus, source: 'time-of-day' });
   }
   if (lure.tags.includes('dock') && 'dockBonus' in todCfg) {
-    confidence += (todCfg as { dockBonus: number }).dockBonus;
+    const bonus = (todCfg as { dockBonus: number }).dockBonus;
+    confidence += bonus;
+    scoreBreakdown?.push({ label: `Dock bonus (${ctx.timeOfDay})`, points: bonus, source: 'time-of-day' });
   }
 
   // Lure multiplier — additive, not multiplicative, to preserve spread.
   // A 1.25 multiplier adds +10 rather than blowing a 82 to 103.
   const mult = cfg.lureMultipliers[lure.name] ?? 1.0;
+  if (mult !== 1.0) {
+    const bonus = Math.round((mult - 1) * 40);
+    scoreBreakdown?.push({ label: 'Tuning boost', points: bonus, source: 'tuning' });
+  }
   confidence = Math.max(0, Math.min(99, Math.round(confidence + (mult - 1) * 40)));
   if (confidence < 45) return null;
 
@@ -536,6 +561,7 @@ export function scoreLure(
     retrieveSpeed: lure.baseSpeed, action: lure.action,
     confidence, depthRange, proTip: lure.proTip(ctx),
     presentation,
+    scoreBreakdown,
   };
 }
 

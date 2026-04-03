@@ -1,6 +1,55 @@
 // ─── Composer: Merges BaseLures + AnglerProfiles into LureTemplates ───
 import type { ConditionPredicate, BaseLure, AnglerProfile, LureOpinion, ConfidenceModifier, ColorRule, TipRule, PresentationRule, PresentationData } from './types';
 import type { LureContext, LureTemplate } from '../StrikeEngine';
+import type { LureScoreFactor } from '../types';
+
+/** Generate a human-readable label from a ConditionPredicate. */
+function describeCondition(pred: ConditionPredicate): string {
+  const parts: string[] = [];
+  if (pred.season !== undefined) {
+    const vals = Array.isArray(pred.season) ? pred.season : [pred.season];
+    parts.push(vals.map(s => s.replace('-', '-')).join('/') + ' season');
+  }
+  if (pred.waterTemp !== undefined) {
+    if (pred.waterTemp.min !== undefined && pred.waterTemp.max !== undefined)
+      parts.push(`Water ${pred.waterTemp.min}-${pred.waterTemp.max}°F`);
+    else if (pred.waterTemp.min !== undefined)
+      parts.push(`Water ${pred.waterTemp.min}°F+`);
+    else if (pred.waterTemp.max !== undefined)
+      parts.push(`Water <${pred.waterTemp.max}°F`);
+  }
+  if (pred.waterClarity !== undefined) {
+    const vals = Array.isArray(pred.waterClarity) ? pred.waterClarity : [pred.waterClarity];
+    parts.push(vals.join('/') + ' water');
+  }
+  if (pred.skyCondition !== undefined) {
+    const vals = Array.isArray(pred.skyCondition) ? pred.skyCondition : [pred.skyCondition];
+    parts.push(vals.join('/') + ' skies');
+  }
+  if (pred.frontalSystem !== undefined) {
+    const vals = Array.isArray(pred.frontalSystem) ? pred.frontalSystem : [pred.frontalSystem];
+    parts.push(vals.join('/'));
+  }
+  if (pred.pressureTrend !== undefined) {
+    const vals = Array.isArray(pred.pressureTrend) ? pred.pressureTrend : [pred.pressureTrend];
+    parts.push(vals.join('/') + ' pressure');
+  }
+  if (pred.windSpeed !== undefined) {
+    if (pred.windSpeed.min !== undefined && pred.windSpeed.max !== undefined)
+      parts.push(`Wind ${pred.windSpeed.min}-${pred.windSpeed.max}mph`);
+    else if (pred.windSpeed.min !== undefined)
+      parts.push(`Wind ${pred.windSpeed.min}+ mph`);
+    else if (pred.windSpeed.max !== undefined)
+      parts.push(`Wind <${pred.windSpeed.max}mph`);
+  }
+  if (pred.timeOfDay !== undefined) {
+    const vals = Array.isArray(pred.timeOfDay) ? pred.timeOfDay : [pred.timeOfDay];
+    parts.push(vals.join('/'));
+  }
+  if (pred.isLowLight !== undefined) parts.push(pred.isLowLight ? 'Low light' : 'Bright light');
+  if (pred.isStained !== undefined) parts.push(pred.isStained ? 'Stained/muddy water' : 'Clear water');
+  return parts.join(', ') || 'General';
+}
 
 /** Test whether a LureContext matches a ConditionPredicate. */
 function matchesPredicate(ctx: LureContext, pred: ConditionPredicate): boolean {
@@ -52,6 +101,37 @@ function sumBaseModifiers(modifiers: ConfidenceModifier[], ctx: LureContext): nu
     if (matchesPredicate(ctx, mod.when)) sum += mod.adjustment;
   }
   return sum;
+}
+
+/** Collect matching base modifiers with labels. */
+function collectBaseFactors(modifiers: ConfidenceModifier[], ctx: LureContext): LureScoreFactor[] {
+  const factors: LureScoreFactor[] = [];
+  for (const mod of modifiers) {
+    if (matchesPredicate(ctx, mod.when)) {
+      factors.push({ label: describeCondition(mod.when), points: mod.adjustment, source: 'conditions' });
+    }
+  }
+  return factors;
+}
+
+/** Collect matching angler modifiers with labels. */
+function collectAnglerFactors(
+  opinions: Array<{ opinion: LureOpinion; credibility: number; anglerName: string }>,
+  ctx: LureContext,
+): LureScoreFactor[] {
+  const factors: LureScoreFactor[] = [];
+  for (const { opinion, credibility, anglerName } of opinions) {
+    if (!opinion.confidenceModifiers) continue;
+    for (const mod of opinion.confidenceModifiers) {
+      if (matchesPredicate(ctx, mod.when)) {
+        const pts = Math.round(mod.adjustment * credibility);
+        if (pts !== 0) {
+          factors.push({ label: `${anglerName}: ${describeCondition(mod.when)}`, points: pts, source: 'angler' });
+        }
+      }
+    }
+  }
+  return factors;
 }
 
 /** Sum all matching angler modifiers, each scaled by the angler's credibility for this lure. */
@@ -338,6 +418,40 @@ export function composeLures(baseLures: BaseLure[], anglerProfiles: AnglerProfil
         // adjustments (time-of-day bonuses, lure multipliers) to differentiate.
         const ceiling = base.maxConfidence - 15;
         return Math.min(ceiling, c);
+      },
+
+      getConfidenceWithBreakdown(ctx: LureContext): { confidence: number | null; factors: LureScoreFactor[] } {
+        const factors: LureScoreFactor[] = [];
+
+        // Null gates
+        if (maxFishDepth !== undefined && ctx.fishDepth > maxFishDepth) return { confidence: null, factors };
+        if (minTemp !== undefined && ctx.waterTemp < minTemp) return { confidence: null, factors };
+        if (base.nullGates.requiredClarity) {
+          if (!base.nullGates.requiredClarity.includes(ctx.waterClarity as 'clear' | 'stained' | 'muddy')) return { confidence: null, factors };
+        }
+
+        // Base confidence
+        factors.push({ label: 'Base confidence', points: base.baseConfidence, source: 'base' });
+        let c = base.baseConfidence;
+
+        // Base modifiers
+        const baseFactors = collectBaseFactors(base.modifiers, ctx);
+        factors.push(...baseFactors);
+        c += baseFactors.reduce((s, f) => s + f.points, 0);
+
+        // Angler modifiers
+        const anglerFactors = collectAnglerFactors(anglerOpinions, ctx);
+        factors.push(...anglerFactors);
+        c += anglerFactors.reduce((s, f) => s + f.points, 0);
+
+        // Cap
+        const ceiling = base.maxConfidence - 15;
+        if (c > ceiling) {
+          factors.push({ label: `Capped at ${ceiling}`, points: ceiling - c, source: 'base' });
+          c = ceiling;
+        }
+
+        return { confidence: c, factors };
       },
 
       getColor(ctx: LureContext): { name: string; hex: string } {

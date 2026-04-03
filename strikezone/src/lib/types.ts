@@ -42,6 +42,12 @@ export interface StructureTarget {
   y: number; // % position on tactical map
 }
 
+export interface LureScoreFactor {
+  label: string;      // "Wind 10+ mph", "Post-spawn season"
+  points: number;     // +18, -10, +7
+  source: 'base' | 'conditions' | 'angler' | 'time-of-day' | 'tuning';
+}
+
 export interface LureRecommendation {
   name: string;
   category: string;
@@ -53,6 +59,7 @@ export interface LureRecommendation {
   depthRange: string;
   proTip: string;
   presentation?: { weight?: string; trailer?: string; retrieveNote?: string };
+  scoreBreakdown?: LureScoreFactor[];
 }
 
 export interface BiteWindow {
