@@ -50,9 +50,12 @@ export default function TuningPanel({ config, onChange, onReset }: TuningPanelPr
   const [isOpen, setIsOpen] = useState(false);
 
   function update<K extends keyof TuningConfig>(section: K, values: Partial<TuningConfig[K]>) {
+    const current = config[section];
     onChange({
       ...config,
-      [section]: { ...config[section], ...values },
+      [section]: typeof current === 'object' && current !== null
+        ? { ...(current as Record<string, unknown>), ...(values as Record<string, unknown>) }
+        : values,
     });
   }
 

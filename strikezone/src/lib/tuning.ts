@@ -57,6 +57,11 @@ export interface TuningConfig {
   // ─── Lure Confidence Adjustments ───
   // Per-category multiplier (1.0 = no change, >1 = boost, <1 = reduce)
   lureMultipliers: Record<string, number>;
+
+  // ─── Diminishing Returns ───
+  // Controls how fast stacked modifiers saturate (0-1).
+  // 0.6 = first ~60% of max boost comes easily, rest requires stacking many conditions.
+  diminishingReturnsScale: number;
 }
 
 // ─── Default Config: North Texas Reservoirs ───
@@ -138,6 +143,8 @@ export const DEFAULT_TUNING: TuningConfig = {
     'Buzzbait': 0.90,                    // fun but low-percentage, truly situational
     'Spy Bait': 0.80,                    // requires clear water — irrelevant in stained NTX
   },
+
+  diminishingReturnsScale: 0.6,
 };
 
 // ─── Seasonal Time-of-Day Adjustment ───

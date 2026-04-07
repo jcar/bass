@@ -411,13 +411,15 @@ export function composeLures(baseLures: BaseLure[], anglerProfiles: AnglerProfil
           if (!base.nullGates.requiredClarity.includes(ctx.waterClarity as 'clear' | 'stained' | 'muddy')) return null;
         }
 
-        let c = base.baseConfidence;
-        c += sumBaseModifiers(base.modifiers, ctx);
-        c += sumAnglerModifiers(anglerOpinions, ctx);
-        // Cap below maxConfidence to leave headroom for engine-level
-        // adjustments (time-of-day bonuses, lure multipliers) to differentiate.
-        const ceiling = base.maxConfidence - 15;
-        return Math.min(ceiling, c);
+        const rawSum = sumBaseModifiers(base.modifiers, ctx) + sumAnglerModifiers(anglerOpinions, ctx);
+
+        // Diminishing returns: first modifiers have strong effect, stacking adds progressively less.
+        // maxBoost = headroom between base and ceiling (maxConfidence - 15 for engine bonuses).
+        const maxBoost = base.maxConfidence - base.baseConfidence - 15;
+        if (rawSum <= 0) return base.baseConfidence + rawSum; // negative modifiers pass through linearly
+        const scale = maxBoost * 0.6;
+        const normalizedBoost = maxBoost * (1 - Math.exp(-rawSum / scale));
+        return Math.round(base.baseConfidence + normalizedBoost);
       },
 
       getConfidenceWithBreakdown(ctx: LureContext): { confidence: number | null; factors: LureScoreFactor[] } {
@@ -430,28 +432,41 @@ export function composeLures(baseLures: BaseLure[], anglerProfiles: AnglerProfil
           if (!base.nullGates.requiredClarity.includes(ctx.waterClarity as 'clear' | 'stained' | 'muddy')) return { confidence: null, factors };
         }
 
-        // Base confidence
+        // Collect raw factors
         factors.push({ label: 'Base confidence', points: base.baseConfidence, source: 'base' });
-        let c = base.baseConfidence;
 
-        // Base modifiers
         const baseFactors = collectBaseFactors(base.modifiers, ctx);
-        factors.push(...baseFactors);
-        c += baseFactors.reduce((s, f) => s + f.points, 0);
-
-        // Angler modifiers
         const anglerFactors = collectAnglerFactors(anglerOpinions, ctx);
-        factors.push(...anglerFactors);
-        c += anglerFactors.reduce((s, f) => s + f.points, 0);
+        const rawPositive = [...baseFactors, ...anglerFactors].filter(f => f.points > 0);
+        const rawNegative = [...baseFactors, ...anglerFactors].filter(f => f.points < 0);
+        const rawPositiveSum = rawPositive.reduce((s, f) => s + f.points, 0);
+        const rawNegativeSum = rawNegative.reduce((s, f) => s + f.points, 0);
 
-        // Cap
-        const ceiling = base.maxConfidence - 15;
-        if (c > ceiling) {
-          factors.push({ label: `Capped at ${ceiling}`, points: ceiling - c, source: 'base' });
-          c = ceiling;
+        // Diminishing returns on positive modifiers
+        const maxBoost = base.maxConfidence - base.baseConfidence - 15;
+        const scale = maxBoost * 0.6;
+
+        if (rawPositiveSum > 0) {
+          const normalizedBoost = maxBoost * (1 - Math.exp(-rawPositiveSum / scale));
+          // Distribute proportionally across positive factors
+          for (const f of rawPositive) {
+            const effective = Math.round((f.points / rawPositiveSum) * normalizedBoost * 10) / 10;
+            factors.push({ ...f, points: effective });
+          }
         }
 
-        return { confidence: c, factors };
+        // Negative modifiers pass through linearly
+        for (const f of rawNegative) {
+          factors.push(f);
+        }
+
+        // Compute final
+        const normalizedBoost = rawPositiveSum > 0
+          ? maxBoost * (1 - Math.exp(-rawPositiveSum / scale))
+          : 0;
+        const confidence = Math.round(base.baseConfidence + normalizedBoost + rawNegativeSum);
+
+        return { confidence, factors };
       },
 
       getColor(ctx: LureContext): { name: string; hex: string } {
