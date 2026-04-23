@@ -1,0 +1,249 @@
+/* Fishing-motif palette overrides for the seriph theme. */
+
+:root {
+  --sz-water: #0b3d5c;       /* deep teal */
+  --sz-green: #3a6b4a;       /* lake green */
+  --sz-bronze: #a9774a;      /* bass bronze */
+  --sz-cream: #f4efe6;       /* warm off-white */
+  --sz-ink: #0e1a1f;         /* near-black, cool */
+  --sz-muted: #8ea3af;       /* muted slate */
+}
+
+.slidev-layout {
+  --slidev-slide-container-background: var(--sz-ink);
+  color: var(--sz-cream);
+}
+
+.slidev-layout h1,
+.slidev-layout h2 {
+  color: var(--sz-cream);
+  letter-spacing: -0.01em;
+}
+
+.slidev-layout h1 strong,
+.slidev-layout h2 strong {
+  color: var(--sz-bronze);
+  font-weight: 700;
+}
+
+.slidev-layout code {
+  color: var(--sz-bronze);
+}
+
+.slidev-layout a {
+  color: var(--sz-bronze);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--sz-bronze);
+}
+
+.slidev-layout blockquote {
+  border-left: 3px solid var(--sz-green);
+  color: var(--sz-muted);
+}
+
+.slidev-layout table {
+  border-collapse: collapse;
+}
+
+.slidev-layout table th,
+.slidev-layout table td {
+  border-bottom: 1px solid rgba(244, 239, 230, 0.12);
+  padding: 0.4em 0.9em;
+}
+
+.slidev-layout table th {
+  color: var(--sz-bronze);
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Accent underline under the main slide title when used as `# text` */
+.slidev-layout h1 {
+  position: relative;
+}
+
+/* Two-column helper used by the interpreter/compiler slide */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.two-col .col-title {
+  font-size: 1.4rem;
+  color: var(--sz-bronze);
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.two-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.two-col li {
+  padding: 0.3rem 0;
+  color: var(--sz-cream);
+  opacity: 0.92;
+}
+
+.two-col li::before {
+  content: "·  ";
+  color: var(--sz-muted);
+}
+
+/* Big-callout used on the reveal and takeaways slides */
+.callout {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--sz-cream);
+  letter-spacing: -0.02em;
+}
+
+.callout .accent {
+  color: var(--sz-bronze);
+}
+
+.subhead {
+  color: var(--sz-muted);
+  font-size: 1.15rem;
+  margin-top: 0.75rem;
+}
+
+/* Pipeline diagram — vertical flow of node + arrow rows */
+.pipeline-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.pipeline-flow .node {
+  border: 1px solid rgba(244, 239, 230, 0.22);
+  background: rgba(244, 239, 230, 0.04);
+  padding: 0.45rem 1.4rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--sz-cream);
+  min-width: 22rem;
+  text-align: center;
+}
+
+.pipeline-flow .node.final {
+  background: rgba(169, 119, 74, 0.18);
+  border-color: var(--sz-bronze);
+  color: var(--sz-cream);
+}
+
+.pipeline-flow .arrow {
+  color: var(--sz-bronze);
+  font-size: 0.9rem;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.pipeline-flow .arrow .glyph {
+  color: var(--sz-muted);
+  font-size: 1.1rem;
+}
+
+.pipeline-flow .arrow .label {
+  color: var(--sz-bronze);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
+.pipeline-flow .arrow .label .llm {
+  color: var(--sz-cream);
+  opacity: 0.7;
+  margin-left: 0.4rem;
+  font-size: 0.78rem;
+}
+
+/* Number table — slightly brighter */
+.numbers td:last-child,
+.numbers th:last-child {
+  text-align: center;
+  width: 6ch;
+}
+
+.numbers tr.rt {
+  font-weight: 700;
+}
+
+.numbers tr.rt td {
+  color: var(--sz-bronze);
+}
+
+/* Small caption text under code blocks */
+.caption {
+  color: var(--sz-muted);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-top: 0.8rem;
+}
+
+/* Centered title layout tweaks (used for title + thanks slides) */
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.cover .title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--sz-cream);
+  line-height: 1.05;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.cover .title .accent {
+  color: var(--sz-bronze);
+}
+
+.cover .subtitle {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--sz-cream);
+  opacity: 0.85;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.cover .byline {
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: var(--sz-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Dark scrim over full-bleed cover backgrounds so text reads */
+.cover-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 26, 31, 0.55) 0%,
+    rgba(14, 26, 31, 0.35) 50%,
+    rgba(14, 26, 31, 0.75) 100%
+  );
+  z-index: 0;
+}
+
+.cover-scrim + * {
+  position: relative;
+  z-index: 1;
+}
