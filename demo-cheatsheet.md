@@ -1,7 +1,7 @@
 # Strikezone — Cheat Sheet
 
 **15 min · technical audience · live demo**
-Site: jcar.github.io/bass · Repo: github.com/jcar/bass
+Site: jcar.github.io/bass · Repo: github.com/jcar/bass · Deck: jcar.github.io/bass/slides/
 
 ---
 
@@ -25,60 +25,62 @@ Site loaded · DevTools → Network tab (Fetch/XHR) · lake pre-picked · one br
 *Cut if tight:* skip step 4.
 
 ## 3 · Reveal — 1:00
-- "Every rec was LLM-generated. Months ago. At build time."
-- **"Treat the LLM like a compiler, not an interpreter."**
-- Compiler = expensive once, cheap forever. Interpreter = expensive every request.
+- "Every rec was AI-generated. Months ago. Upstream."
+- **"The thesis: move AI upstream — out of the request path, into the build pipeline."**
+- "I didn't build an AI app. I built a **data refinery**. The app is just the tap."
 
-## 4 · Pipeline — 4:00
-Show `knowledge/scripts/`. Draw the four layers:
+## 4 · The refinery — 4:00
+Show `knowledge/scripts/`. Walk the four stages:
 
 ```
-472 articles ─▶ extract (LLM #1, schema-first)
-            ─▶ 1,213 entries + 108 opinions
-            ─▶ enrich (LLM #2, implied conditions)
+472 articles ─▶ extract (AI pass #1, schema-first)
+            ─▶ 1,213 tactical facts + 108 lure opinions
+            ─▶ enrich (AI pass #2, implied conditions)
             ─▶ 1,213 enriched entries
-            ─▶ generate (pure Python, score + assemble)
-            ─▶ 326 briefings (~1MB JSON)
-            ─▶ Next.js static export ─▶ GH Pages
+            ─▶ package (pure Python, score + assemble)
+            ─▶ 326 briefings (~1MB JSON) — the refined product
+            ─▶ Next.js static export ─▶ GH Pages — the tap
 ```
 
-- **Scrape** → dumb Python. No AI.
-- **Extract** (LLM job 1/2) → strict JSON schema. NL→JSON compiler. No summarization.
-- **Enrich** (LLM job 2/2) → implied conditions the first pass missed. Replaced regex that false-matched "switch"→"twitch."
-- **Generate** → no LLM. Score, rank, cap per angler, assemble.
-- **Runtime** → `getBriefing(season, clarity, front, lure)` = dict lookup. O(1). That's why clarity flipped instantly.
+- **Intake** → dumb Python. No AI. Crude in.
+- **Extract** (AI pass 1/2) → strict JSON schema. Prose → schema. No summarization.
+- **Enrich** (AI pass 2/2) → implied conditions the first pass missed. Replaced regex that false-matched "switch"→"twitch."
+- **Package** → no AI. Score, rank, cap per angler, assemble. 326 JSON files.
+- **The tap** → `getBriefing(season, clarity, front, lure)` = dict lookup. O(1). That's why clarity flipped instantly.
 
 **Numbers:** 472 → 1,213 → 326 · ~$low-double-digits total API spend · 0 tokens/query forever
 
-## 5 · Generalize — 3:00
-- Pattern = **expert corpus + bounded condition space → pre-compile the intersections.**
-- "RAG is right when questions are unbounded. Most of what we ship isn't unbounded — it's filterable."
-- **Valent applications:** [swap in real workflows here — memos / diligence / playbooks / runbooks]
-- **The test before reaching for RAG:**
-  1. Can I enumerate the dimensions?
-  2. Is the corpus hourly, or quarterly?
-  3. Do I need attribution? (schema gives it free)
-  4. Do I need sub-second latency?
+## 5 · Where this pattern fits — 3:00
+- **The setup:** "Smart people already wrote the answer. Your users ask variations of the same questions. So match them up ahead of time."
+- "RAG is right when the question space is wide open. Most of what we ship isn't — it's filterable."
+- **Self-test before reaching for RAG:**
+  1. Can I list the kinds of questions people will ask?
+  2. Does the source material change daily, or rarely?
+  3. Do I need to know who said what?
+  4. Do users need an instant answer?
 
 ## 6 · Close — 1:00
 Three takeaways:
-1. **LLM = build tool, not runtime dep** — for any enumerable domain.
-2. **Schema-first extraction** beats summarization. JSON is the product.
-3. **N filters? Precompile the cross-product.** Cheaper than you think.
+1. **Move AI upstream.** Out of the request path. Into the build pipeline.
+2. **Schema-first extraction** beats summarization. The JSON is the product.
+3. **N filters? Pre-compute the cross-product.** Cheaper than you think.
 
-"Writeup's in Slack. Happy to pair on a real Valent workflow. Questions?"
+**Closing line:** *"The thinking happens upstream. Everything downstream is a static file and a tap."*
+
+"Writeup's in Slack. Happy to pair on a real workflow. Questions?"
 
 ---
 
 ## Lines worth memorizing
-- "Compiler, not interpreter."
-- "The only place the LLM is load-bearing is extraction."
+- "Move AI upstream."
+- "I didn't build an AI app. I built a data refinery."
+- "The thinking happens upstream. Everything downstream is a static file and a tap."
+- "Same AI — different place in the pipeline."
 - "Attribution is built into the schema, not retrofitted onto retrieval."
-- "If you can enumerate the axes, you can compile the intersections."
 
 ## Don't forget
 - Open DevTools **before** section 2
-- Say "compiler not interpreter" at least twice
+- Say "move AI upstream" at least twice
 - Pause after the Network-tab reveal
 - Don't caveat RAG mid-talk — save it for Q&A
 

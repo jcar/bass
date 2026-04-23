@@ -1,9 +1,9 @@
 ---
 theme: seriph
-title: Your LLM Is a Compiler
+title: Your AI Is a Data Refinery
 info: |
   Jason Carter · Valent Partners
-  A bass-fishing story about treating the LLM as a build tool, not a runtime dependency.
+  A bass-fishing story about moving AI upstream — out of the request path, into the build pipeline.
 author: Jason Carter
 highlighter: shiki
 lineNumbers: false
@@ -19,8 +19,8 @@ class: cover
 <div class="cover-scrim"></div>
 
 <div class="cover">
-  <div class="title">Your LLM Is a <span class="accent">Compiler</span></div>
-  <div class="subtitle">A bass-fishing story.</div>
+  <div class="title">Your AI Is a <span class="accent">Data Refinery</span></div>
+  <div class="subtitle">A bass-fishing story about moving AI upstream.</div>
   <div class="byline">Jason Carter · Valent Partners</div>
 </div>
 
@@ -80,60 +80,60 @@ class: text-center
 ---
 
 <div class="callout">
-Zero runtime<br/>
-<span class="accent">LLM calls.</span>
+Zero AI<br/>
+<span class="accent">downstream.</span>
 </div>
 
 <div class="subhead" style="margin-top: 2.5rem; font-size: 1.4rem;">
-Everything you just saw was pre-computed.
+The refining is done — everything you saw is on the shelf.
 </div>
 
 <!--
 Hold the beat. Don't rush to the next slide.
-demo-cheatsheet.md §3. Say "compiler not interpreter" when you advance.
+demo-cheatsheet.md §3. Say "move AI upstream" when you advance.
 -->
 
 ---
 layout: default
 ---
 
-# Compiler vs. interpreter
+# Upstream vs. downstream
 
 <div class="two-col" style="margin-top: 2rem;">
 <div>
-<div class="col-title">Interpreter</div>
-<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">RAG at runtime</div>
+<div class="col-title">Downstream</div>
+<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">AI in the request path (RAG)</div>
 <ul>
-<li>Expensive every request</li>
-<li>2–5s latency per query</li>
+<li>Every query is a mini refinery job</li>
+<li>2–5s latency per request</li>
 <li>Tokens burned on every user</li>
 <li>Chunk boundaries lose context</li>
-<li>Attribution is a retrofit</li>
-<li>Non-deterministic</li>
+<li>Attribution retrofit from chunks</li>
+<li>Non-deterministic, hard to cache</li>
 </ul>
 </div>
 
 <div>
-<div class="col-title">Compiler</div>
-<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">Pre-compute at build</div>
+<div class="col-title">Upstream</div>
+<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">AI in the build pipeline</div>
 <ul>
-<li>Expensive <strong>once</strong></li>
+<li>Refinery runs <strong>once</strong> on the corpus</li>
 <li>Instant (static lookup)</li>
 <li>$0 per query, forever</li>
 <li>Full-context synthesis</li>
-<li>Attribution baked into schema</li>
-<li>Deterministic & cacheable</li>
+<li>Attribution baked into the schema</li>
+<li>Deterministic & trivially cacheable</li>
 </ul>
 </div>
 </div>
 
 <div style="margin-top: 2.5rem; font-size: 1.3rem; color: var(--sz-cream); text-align: center;">
-Same LLM. <span style="color: var(--sz-bronze);">Different place in the stack.</span>
+Same AI. <span style="color: var(--sz-bronze);">Different place in the pipeline.</span>
 </div>
 
 <!--
-This is the anchor slide. Two columns. Let them scan it.
-Line: "Compiler = expensive once, cheap forever. Interpreter = expensive every request."
+Anchor slide. Two columns. Let them scan it.
+Line: "Downstream AI pays per request. Upstream AI pays once, serves forever."
 Resist the urge to caveat RAG — save it for Q&A.
 -->
 
@@ -141,34 +141,35 @@ Resist the urge to caveat RAG — save it for Q&A.
 layout: default
 ---
 
-# The pipeline
+# The refinery
 
 <div class="pipeline-flow">
-  <div class="node">472 articles</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">extract<span class="llm">LLM #1 · schema-first</span></span></div>
+  <div class="node">472 articles · crude feedstock</div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">extract<span class="llm">AI pass #1 · schema-first</span></span></div>
   <div class="node">1,213 tactical facts + 108 lure opinions</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">enrich<span class="llm">LLM #2 · implied conditions</span></span></div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">enrich<span class="llm">AI pass #2 · implied conditions</span></span></div>
   <div class="node">1,213 enriched, tagged entries</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">generate<span class="llm">pure Python · no LLM</span></span></div>
-  <div class="node">326 briefings · ~1MB JSON</div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">generate<span class="llm">pure Python · no AI</span></span></div>
+  <div class="node">326 briefings · ~1MB JSON · the refined product</div>
   <div class="arrow"><span class="glyph">↓</span></div>
-  <div class="node final">Next.js static export → GitHub Pages</div>
+  <div class="node final">Next.js static export → GitHub Pages · the tap</div>
 </div>
 
 <div class="subhead" style="margin-top: 1.5rem; text-align: center;">
-Four layers. Two call an LLM. Neither at request time.
+Four stages. Two use AI. All of it upstream.
 </div>
 
 <!--
 The anchor diagram. You'll gesture at it for the next 4 min.
-demo-cheatsheet.md §4. Don't dive into each layer yet — just read the shape.
+demo-cheatsheet.md §4. Don't dive into each stage yet — just read the shape.
+Line: "Crude in, refined product out. Then the tap."
 -->
 
 ---
 layout: default
 ---
 
-# Layer 1 — **Scrape**
+# Stage 1 — **Intake**
 
 <div class="callout" style="font-size: 2.6rem; margin-top: 3rem;">
 472 articles.<br/>
@@ -177,22 +178,22 @@ layout: default
 </div>
 
 <div class="subhead" style="margin-top: 2rem;">
-Python · requests · BeautifulSoup. The old-fashioned part of the stack.
+Python · requests · BeautifulSoup. This is just feedstock acquisition.
 </div>
 
 <!--
 Quick. Don't linger.
-Line: "Dumb Python. bassmaster.com, wired2fish, MLF. No tokens burned here."
+Line: "Dumb Python. bassmaster.com, wired2fish, MLF. Crude in. No tokens burned."
 -->
 
 ---
 layout: default
 ---
 
-# Layer 2 — **Extract**
+# Stage 2 — **Extract**
 
 <div style="color: var(--sz-bronze); font-size: 1.3rem; margin-top: -0.5rem;">
-Job 1 of 2: natural language → JSON.
+AI pass 1 of 2: natural language → JSON.
 </div>
 
 ```json {all|2|3-8|5|6|7|all}
@@ -208,12 +209,12 @@ Job 1 of 2: natural language → JSON.
 ```
 
 <div class="caption" style="margin-top: 1.2rem;">
-The LLM's job isn't "summarize the article." It's "fill in this schema."
+The AI's job isn't "summarize the article." It's "fill in this schema."
 </div>
 
 <!--
 Line steps: highlight lure → tipRules → the 'when' condition → the attributed tip → the priority.
-Line: "Two LLM passes, different jobs. This one turns prose into schema. No summarization — the JSON *is* the output."
+Line: "Two AI passes, different jobs. This one turns prose into schema. No summarization — the JSON *is* the output."
 Line: "Sloppy schema, sloppy everything downstream."
 -->
 
@@ -221,10 +222,10 @@ Line: "Sloppy schema, sloppy everything downstream."
 layout: default
 ---
 
-# Layer 3 — **Enrich**
+# Stage 3 — **Enrich**
 
 <div style="color: var(--sz-bronze); font-size: 1.3rem; margin-top: -0.5rem;">
-Job 2 of 2: what the article <em>implies</em>, not what it says.
+AI pass 2 of 2: what the article <em>implies</em>, not what it says.
 </div>
 
 <div style="margin-top: 2rem; font-size: 1.15rem; line-height: 1.6;">
@@ -233,7 +234,7 @@ An article about <em>"cranking offshore ledges in August"</em> never writes the 
 
 <div style="margin-top: 1rem;">A human reading it knows.</div>
 
-<div style="margin-top: 1rem;">A second LLM pass reads each extracted entry and fills in the implied conditions.</div>
+<div style="margin-top: 1rem;">A second AI pass reads each extracted entry and fills in the implied conditions.</div>
 
 </div>
 
@@ -250,10 +251,10 @@ The regex footnote is a laugh line — deliver it dry.
 layout: default
 ---
 
-# Layer 4 — **Generate**
+# Stage 4 — **Package**
 
 <div class="callout" style="font-size: 2.2rem; margin-top: 2rem;">
-Pure Python. <span class="accent">Zero LLM.</span>
+Pure Python. <span class="accent">Zero AI.</span>
 </div>
 
 <div style="margin-top: 2rem; font-size: 1.15rem; color: var(--sz-cream);">
@@ -279,7 +280,7 @@ Line: "This is deterministic. You could run it in 1995."
 layout: default
 ---
 
-# Runtime
+# The tap
 
 <div style="color: var(--sz-bronze); font-size: 1.3rem; margin-top: -0.5rem;">
 The entire "AI" at request time:
@@ -314,14 +315,14 @@ layout: default
 
 <table class="numbers" style="margin-top: 1.5rem; font-size: 1.1rem;">
 <thead>
-<tr><th>Stage</th><th>Input</th><th>Output</th><th>LLM?</th></tr>
+<tr><th>Stage</th><th>Input</th><th>Output</th><th>AI?</th></tr>
 </thead>
 <tbody>
-<tr><td>Scrape</td><td>472 URLs</td><td>472 text files</td><td>✗</td></tr>
+<tr><td>Intake</td><td>472 URLs</td><td>472 text files</td><td>✗</td></tr>
 <tr><td>Extract</td><td>472 articles</td><td>1,213 tactical facts + 108 lure opinions</td><td>✓ once</td></tr>
 <tr><td>Enrich</td><td>1,213 entries</td><td>1,213 enriched entries</td><td>✓ once</td></tr>
-<tr><td>Generate</td><td>1,213 entries</td><td>326 briefings</td><td>✗</td></tr>
-<tr class="rt"><td>Runtime</td><td>user query</td><td>instant briefing</td><td>✗</td></tr>
+<tr><td>Package</td><td>1,213 entries</td><td>326 briefings</td><td>✗</td></tr>
+<tr class="rt"><td>Tap</td><td>user query</td><td>instant briefing</td><td>✗</td></tr>
 </tbody>
 </table>
 
@@ -375,19 +376,25 @@ class: text-center
 
 # Takeaways
 
-<div style="margin-top: 2.5rem; font-size: 1.5rem; line-height: 2; text-align: left; max-width: 48rem;">
+<div style="margin-top: 2rem; font-size: 1.5rem; line-height: 2; text-align: left; max-width: 48rem;">
 
-<div>1 &nbsp; LLM is a <span style="color: var(--sz-bronze); font-weight: 700;">build tool</span>, not a runtime dependency.</div>
+<div>1 &nbsp; <span style="color: var(--sz-bronze); font-weight: 700;">Move AI upstream.</span><br/>
+<span style="padding-left: 2.5rem; font-size: 1.15rem; color: var(--sz-muted);">Out of the request path. Into the build pipeline.</span></div>
 
 <div style="margin-top: 1rem;">2 &nbsp; <span style="color: var(--sz-bronze); font-weight: 700;">Schema-first extraction</span> beats summarization.<br/>
 <span style="padding-left: 2.5rem; font-size: 1.15rem; color: var(--sz-muted);">The JSON is the product. The prose is raw material.</span></div>
 
-<div style="margin-top: 1rem;">3 &nbsp; If users filter on <span style="color: var(--sz-bronze); font-weight: 700;">N dimensions</span>, pre-compile the cross-product.</div>
+<div style="margin-top: 1rem;">3 &nbsp; If users filter on <span style="color: var(--sz-bronze); font-weight: 700;">N dimensions</span>, pre-compute the cross-product.</div>
 
+</div>
+
+<div style="margin-top: 2.2rem; font-size: 1.2rem; color: var(--sz-cream); text-align: center; font-style: italic;">
+The thinking happens upstream. <span style="color: var(--sz-bronze);">Everything downstream is a static file and a tap.</span>
 </div>
 
 <!--
 Read each one out. This is the list they'll reference Monday.
+End with the italicized line — don't rush past it.
 -->
 
 ---
