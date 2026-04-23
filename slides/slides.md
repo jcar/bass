@@ -144,25 +144,28 @@ layout: default
 # The data refinery
 
 <div class="pipeline-flow">
+  <div class="node">bassmaster.com · wired2fish · MLF · <span style="opacity: 0.55;">the web</span></div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">Stage 1 · Intake<span class="llm">Python · no AI</span></span></div>
   <div class="node">472 articles · crude feedstock</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">extract<span class="llm">AI pass #1 · schema-first</span></span></div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">Stage 2 · Extract<span class="llm">AI pass #1 · schema-first</span></span></div>
   <div class="node">1,213 tactical facts + 108 lure opinions</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">enrich<span class="llm">AI pass #2 · implied conditions</span></span></div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">Stage 3 · Enrich<span class="llm">AI pass #2 · implied conditions</span></span></div>
   <div class="node">1,213 enriched, tagged entries</div>
-  <div class="arrow"><span class="glyph">↓</span><span class="label">generate<span class="llm">pure Python · no AI</span></span></div>
+  <div class="arrow"><span class="glyph">↓</span><span class="label">Stage 4 · Package<span class="llm">pure Python · no AI</span></span></div>
   <div class="node">326 briefings · ~1MB JSON · the refined product</div>
   <div class="arrow"><span class="glyph">↓</span></div>
-  <div class="node final">Next.js static export → GitHub Pages · the tap</div>
+  <div class="node final">GitHub Pages · the tap</div>
 </div>
 
-<div class="subhead" style="margin-top: 1.5rem; text-align: center;">
+<div class="subhead" style="margin-top: 1.2rem; text-align: center;">
 Four stages. Two use AI. All of it upstream.
 </div>
 
 <!--
 The anchor diagram. You'll gesture at it for the next 4 min.
 demo-cheatsheet.md §4. Don't dive into each stage yet — just read the shape.
-Line: "Crude in, refined product out. Then the tap."
+Line: "Crude in at the top. Refined product on the shelf. Then the tap."
+Each Stage N on this slide has a matching detail slide coming up.
 -->
 
 ---

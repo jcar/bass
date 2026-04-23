@@ -33,19 +33,23 @@ Site loaded · DevTools → Network tab (Fetch/XHR) · lake pre-picked · one br
 Show `knowledge/scripts/`. Walk the four stages:
 
 ```
-472 articles ─▶ extract (AI pass #1, schema-first)
-            ─▶ 1,213 tactical facts + 108 lure opinions
-            ─▶ enrich (AI pass #2, implied conditions)
-            ─▶ 1,213 enriched entries
-            ─▶ package (pure Python, score + assemble)
-            ─▶ 326 briefings (~1MB JSON) — the refined product
-            ─▶ Next.js static export ─▶ GH Pages — the tap
+[web sources]
+   ↓ Stage 1 · Intake       (Python, no AI)
+[472 articles, crude feedstock]
+   ↓ Stage 2 · Extract      (AI pass #1, schema-first)
+[1,213 facts + 108 opinions]
+   ↓ Stage 3 · Enrich       (AI pass #2, implied conditions)
+[1,213 enriched entries]
+   ↓ Stage 4 · Package      (pure Python, no AI)
+[326 briefings, ~1MB JSON — the refined product]
+   ↓
+[GH Pages — the tap]
 ```
 
-- **Intake** → dumb Python. No AI. Crude in.
-- **Extract** (AI pass 1/2) → strict JSON schema. Prose → schema. No summarization.
-- **Enrich** (AI pass 2/2) → implied conditions the first pass missed. Replaced regex that false-matched "switch"→"twitch."
-- **Package** → no AI. Score, rank, cap per angler, assemble. 326 JSON files.
+- **Stage 1 · Intake** → dumb Python. No AI. Crude in.
+- **Stage 2 · Extract** (AI pass 1/2) → strict JSON schema. Prose → schema. No summarization.
+- **Stage 3 · Enrich** (AI pass 2/2) → implied conditions the first pass missed. Replaced regex that false-matched "switch"→"twitch."
+- **Stage 4 · Package** → no AI. Score, rank, cap per angler, assemble. 326 JSON files.
 - **The tap** → `getBriefing(season, clarity, front, lure)` = dict lookup. O(1). That's why clarity flipped instantly.
 
 **Numbers:** 472 → 1,213 → 326 · ~$low-double-digits total API spend · 0 tokens/query forever

@@ -100,31 +100,30 @@ Pull up the repo. `knowledge/scripts/` directory listing.
 Draw or show:
 
 ```
-[472 articles from 7 pro anglers]       ← crude feedstock
-         │   (Python scraper — requests + BeautifulSoup)
+[bassmaster.com · wired2fish · MLF · the web]
+         │   Stage 1 · Intake
+         │   (Python scraper — requests + BeautifulSoup, no AI)
          ▼
-[structured extraction]                  ← AI pass #1 (per article)
+[472 articles · crude feedstock]
+         │   Stage 2 · Extract  ← AI pass #1 (per article)
          │   Claude with a strict JSON schema:
          │   { lure, conditions, tipRules[], proSource }
          ▼
 [1,213 tactical facts + 108 lure opinions]
-         │
-         ▼
-[condition enrichment]                   ← AI pass #2 (per entry)
+         │   Stage 3 · Enrich   ← AI pass #2 (per entry)
          │   Adds implied conditions the first pass missed
          │   (frontal pressure, depth, structure)
          ▼
 [1,213 enriched, condition-tagged entries]
+         │   Stage 4 · Package
          │   Python — pure scoring + retrieval, zero AI
          ▼
-[326 pre-generated tactical briefings]   ← the refined product
+[326 pre-generated tactical briefings · ~1MB JSON bundle]
+         │   The refined product. Imported at build time.
          │   6 seasons × 3 clarities × 3 fronts × 7 lure
-         │   categories, minus impossible combos
+         │   categories, minus impossible combos.
          ▼
-[~1MB JSON bundle, imported at build time]
-         │
-         ▼
-[Next.js static export → GitHub Pages]   ← the tap
+[GitHub Pages]                            ← the tap
          │   Runtime lookup: getBriefing(season, clarity,
          │   front, lure). Map lookup. O(1). No network.
          ▼
@@ -133,13 +132,13 @@ Draw or show:
 
 ### Speaker bullets
 
-- **Stage 1 — intake.** "Dumb Python. 472 articles from bassmaster.com, wired2fish, majorleaguefishing. No AI involved. Crude feedstock in."
+- **Stage 1 · Intake.** "Dumb Python. 472 articles from bassmaster.com, wired2fish, majorleaguefishing. No AI involved. Crude feedstock in."
 
-- **Stage 2 — extract (AI pass 1 of 2).** "Here's where the AI earns its paycheck. I don't ask 'summarize this article.' I give it a strict schema and say: *fill it in.* Lure, conditions, tipRules array, priority, pro attribution. The AI's job is prose-to-schema. No summarization — the JSON *is* the output."
+- **Stage 2 · Extract (AI pass 1 of 2).** "Here's where the AI earns its paycheck. I don't ask 'summarize this article.' I give it a strict schema and say: *fill it in.* Lure, conditions, tipRules array, priority, pro attribution. The AI's job is prose-to-schema. No summarization — the JSON *is* the output."
 
-- **Stage 3 — enrich (AI pass 2 of 2).** "Two AI passes, different jobs. First extraction only tags what's *explicitly stated*. An article about 'cranking offshore ledges in August' doesn't say the word 'summer' or 'deep' or 'structure:ledge' — but a human reading it knows. A second AI pass reads each entry with full comprehension and fills in the implied conditions. This is the stage that replaced a regex keyword-match pass I started with — regex kept firing false positives on substrings like 'switch' matching 'twitch.'"
+- **Stage 3 · Enrich (AI pass 2 of 2).** "Two AI passes, different jobs. First extraction only tags what's *explicitly stated*. An article about 'cranking offshore ledges in August' doesn't say the word 'summer' or 'deep' or 'structure:ledge' — but a human reading it knows. A second AI pass reads each entry with full comprehension and fills in the implied conditions. This is the stage that replaced a regex keyword-match pass I started with — regex kept firing false positives on substrings like 'switch' matching 'twitch.'"
 
-- **Stage 4 — package.** "Now it's pure Python. For every valid condition combination, score and rank the matching knowledge entries, cap per angler for diversity, assemble a briefing. 326 JSON files. Bundle them. Ship. This is the refined product on the shelf."
+- **Stage 4 · Package.** "Now it's pure Python. For every valid condition combination, score and rank the matching knowledge entries, cap per angler for diversity, assemble a briefing. 326 JSON files. Bundle them. Ship. This is the refined product on the shelf."
 
 - **The tap.** "The app imports the bundle at build time. `getBriefing(season, clarity, front, lure)` is a dictionary lookup. That's why clarity flipped instantly when I changed it — no retrieval, no synthesis, no token budget. The refinery ran months ago. The tap just opens."
 
