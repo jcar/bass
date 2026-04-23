@@ -101,19 +101,6 @@ layout: default
 
 <div class="two-col" style="margin-top: 2rem;">
 <div>
-<div class="col-title">Downstream</div>
-<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">AI in the request path (RAG)</div>
-<ul>
-<li>Every query is a mini refinery job</li>
-<li>2–5s latency per request</li>
-<li>Tokens burned on every user</li>
-<li>Chunk boundaries lose context</li>
-<li>Attribution retrofit from chunks</li>
-<li>Non-deterministic, hard to cache</li>
-</ul>
-</div>
-
-<div>
 <div class="col-title">Upstream</div>
 <div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">AI in the build pipeline</div>
 <ul>
@@ -123,6 +110,19 @@ layout: default
 <li>Full-context synthesis</li>
 <li>Attribution baked into the schema</li>
 <li>Deterministic & trivially cacheable</li>
+</ul>
+</div>
+
+<div>
+<div class="col-title">Downstream</div>
+<div style="color: var(--sz-muted); font-size: 0.9rem; margin-bottom: 0.6rem;">AI in the request path (RAG)</div>
+<ul>
+<li>Every query is a mini refinery job</li>
+<li>2–5s latency per request</li>
+<li>Tokens burned on every user</li>
+<li>Chunk boundaries lose context</li>
+<li>Attribution retrofit from chunks</li>
+<li>Non-deterministic, hard to cache</li>
 </ul>
 </div>
 </div>
