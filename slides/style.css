@@ -230,23 +230,6 @@
   text-transform: uppercase;
 }
 
-/* Thanks slide background — render as <img> with object-fit: contain so the whole photo is visible.
-   Bypasses Slidev's `background:` frontmatter (which forces background-size: cover and resists overrides). */
-.thanks-cover {
-  background: var(--sz-ink) !important;
-}
-
-.thanks-bg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  z-index: 0;
-  pointer-events: none;
-}
-
 /* Dark scrim over full-bleed cover backgrounds so text reads */
 .cover-scrim {
   position: absolute;
