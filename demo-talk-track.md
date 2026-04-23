@@ -91,7 +91,7 @@ You are driving. They are watching. Narrate what you click, not what it does.
 
 ---
 
-## Section 4 — The refinery (~4 min)
+## Section 4 — The data refinery (~4 min)
 
 Pull up the repo. `knowledge/scripts/` directory listing.
 
@@ -225,7 +225,7 @@ A: Honest one: real refineries run continuously on streaming crude; mine ran onc
 | Hook | 1:00 | 1:30 |
 | Demo | 5:00 | 6:00 |
 | Reveal / twist | 1:00 | 1:30 |
-| Refinery | 4:00 | 5:00 |
+| Data refinery | 4:00 | 5:00 |
 | Pattern | 3:00 | 3:30 |
 | Close | 1:00 | 1:30 |
 | **Total** | **15:00** | **19:00** |

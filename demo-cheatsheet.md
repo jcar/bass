@@ -29,7 +29,7 @@ Site loaded · DevTools → Network tab (Fetch/XHR) · lake pre-picked · one br
 - **"The thesis: move AI upstream — out of the request path, into the build pipeline."**
 - "I didn't build an AI app. I built a **data refinery**. The app is just the tap."
 
-## 4 · The refinery — 4:00
+## 4 · The data refinery — 4:00
 Show `knowledge/scripts/`. Walk the four stages:
 
 ```

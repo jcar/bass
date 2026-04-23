@@ -141,7 +141,7 @@ Resist the urge to caveat RAG — save it for Q&A.
 layout: default
 ---
 
-# The refinery
+# The data refinery
 
 <div class="pipeline-flow">
   <div class="node">472 articles · crude feedstock</div>
