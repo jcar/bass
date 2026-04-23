@@ -230,6 +230,14 @@
   text-transform: uppercase;
 }
 
+/* Thanks slide background — show the whole portrait photo instead of cropping it */
+.thanks-cover {
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: var(--sz-ink) !important;
+}
+
 /* Dark scrim over full-bleed cover backgrounds so text reads */
 .cover-scrim {
   position: absolute;

@@ -403,7 +403,7 @@ End with the italicized line — don't rush past it.
 ---
 layout: cover
 background: /bg-thanks.png
-class: cover
+class: cover thanks-cover
 ---
 
 <div class="cover-scrim"></div>
