@@ -402,10 +402,10 @@ End with the italicized line — don't rush past it.
 
 ---
 layout: cover
-background: /bg-thanks.png
 class: cover thanks-cover
 ---
 
+<img src="/bg-thanks.png" class="thanks-bg" />
 <div class="cover-scrim"></div>
 
 <div class="cover">
