@@ -409,7 +409,7 @@ class: cover
 <div class="cover-scrim"></div>
 
 <div class="cover">
-  <div class="title" style="font-size: 3.4rem;">Questions?</div>
+  <div class="title" style="font-size: 3.4rem;">Tight lines!</div>
   <div class="subtitle" style="margin-top: 2rem;">
     <code style="color: var(--sz-cream); background: rgba(244,239,230,0.12); padding: 0.25rem 0.6rem; border-radius: 4px;">jcar.github.io/bass</code>
     &nbsp;·&nbsp;
